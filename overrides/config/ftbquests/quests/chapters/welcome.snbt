@@ -1,0 +1,79 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	id: "42EFDCACF27DA0A7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "225F16B6DE413EDE"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "03AEBCE0F363D033"
+				title: "Welcome!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6F6361E4EAA61F7C"
+			shape: "gear"
+			tasks: [{
+				id: "4565F6DEA8BDF5F1"
+				title: "Major Progression"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "55ACBBAF707FAD6C"
+			shape: "hexagon"
+			tasks: [{
+				id: "1A3D2003461A920F"
+				title: "Side Progression"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "69262ECF1268EE04"
+			shape: "diamond"
+			tasks: [{
+				id: "34A217FB0CF4FCDA"
+				title: "Circuits"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "674819E5F8C40231"
+			shape: "pentagon"
+			tasks: [{
+				id: "2B1EDD62EBAF82D2"
+				title: "Fuel and Power-Gen"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "72A54B2CFE2C250C"
+			shape: "octagon"
+			tasks: [{
+				id: "251DA4A19D6E343F"
+				title: "Important Quests"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+	]
+	title: "Welcome"
+}

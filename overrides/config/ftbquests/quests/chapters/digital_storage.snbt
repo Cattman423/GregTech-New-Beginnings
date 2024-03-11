@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "digital_storage"
+	group: "4E8777506C4F26CC"
+	icon: "ae2:controller"
+	id: "38EAA9A88501D1F1"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Digital Storage [NYI]"
+}

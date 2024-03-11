@@ -1,0 +1,137 @@
+{
+	autofocus_id: "4C0DFDDB3BC62FD6"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tetra"
+	group: "41910268CB9EDE34"
+	icon: "tetra:basic_workbench"
+	id: "0E456ADC589DB280"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4C0DFDDB3BC62FD6"]
+			id: "4A8753E29AE77866"
+			tasks: [{
+				id: "21B50E449D7AC7D4"
+				item: "tetra:rack"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7CB8F4196C533EE2"]
+			id: "4C0DFDDB3BC62FD6"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				icon: "tetra:basic_workbench"
+				id: "5C406E124522BA07"
+				observe_type: 0
+				timer: 0L
+				to_observe: "tetra:basic_workbench"
+				type: "observation"
+			}]
+			title: "Tetra Tools"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C0DFDDB3BC62FD6"]
+			id: "328BCC9B213E8BE4"
+			tasks: [{
+				advancement: "tetra:upgrades/toolbelt"
+				criterion: ""
+				id: "3F2800C5AC894B60"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4C0DFDDB3BC62FD6"]
+			id: "0073D0D1F92268DC"
+			tasks: [{
+				advancement: "tetra:story/more_upgrades"
+				criterion: ""
+				id: "20D3DA9E8698CA35"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0073D0D1F92268DC"]
+			id: "73BAA75A82FC9046"
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_2"
+				criterion: ""
+				id: "5074D4E3EFD92D11"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73BAA75A82FC9046"]
+			id: "102CEB98834CABCC"
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_3"
+				criterion: ""
+				id: "78458C83DE7E4429"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["102CEB98834CABCC"]
+			id: "6075378568C6CFC7"
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_4"
+				criterion: ""
+				id: "0FA544A885A17A10"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6075378568C6CFC7"]
+			id: "08E7F7BE88E95A4A"
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_5"
+				criterion: ""
+				id: "601DDC968254BF9E"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08E7F7BE88E95A4A"]
+			id: "25B5B687E0F0629B"
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_6"
+				criterion: ""
+				id: "1447F1A936B51C6E"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C0DFDDB3BC62FD6"]
+			id: "581F2F068EC74C8F"
+			tasks: [{
+				id: "53368B396E848A54"
+				item: "tetra:geode"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	title: "Tetra"
+}

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "transportation"
+	group: "41910268CB9EDE34"
+	icon: "littlelogistics:steam_locomotive"
+	id: "185FF9B9BD6B6E21"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Transportation [NYI]"
+}

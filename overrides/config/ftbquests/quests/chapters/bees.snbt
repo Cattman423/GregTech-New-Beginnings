@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bees"
+	group: "29D9E440AAB8AE92"
+	icon: {
+		Count: 1b
+		id: "patchouli:guide_book"
+		tag: {
+			"patchouli:book": "productivebees:guide"
+		}
+	}
+	id: "05D6B994FA7C65C3"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Bees [NYI]"
+}

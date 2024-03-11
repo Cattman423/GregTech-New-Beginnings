@@ -1,0 +1,473 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hv_age"
+	group: "525E608ED23BAD1F"
+	icon: "gtceu:hv_machine_hull"
+	id: "419C00124105BC5B"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7511A3ABFA67D9E0"]
+			id: "3CE2B3AF2478F239"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "333F434B8B1E2269"
+				item: "gtceu:hv_machine_hull"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"384BEEA622B92B77"
+				"15FF795E9B993E9F"
+				"33BAED2DA60D22C3"
+				"5BFA0F9B4A49F9A3"
+				"3CE2B3AF2478F239"
+			]
+			hide_dependent_lines: true
+			id: "3B36589D2289A16A"
+			shape: "diamond"
+			tasks: [{
+				id: "0AE7BF1503202D9A"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["34212834EDAEDFF9"]
+			id: "74E7F580B488CA69"
+			tasks: [{
+				id: "15233C4F0B808F37"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["74E7F580B488CA69"]
+			id: "2DCEA426D77C7BCE"
+			tasks: [{
+				id: "5F47E39B25B8CB25"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["61571ED3D53BD832"]
+			id: "7BB6DA286AC97192"
+			tasks: [{
+				id: "500AC426D127E914"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7BB6DA286AC97192"]
+			id: "31340984653FF047"
+			tasks: [{
+				id: "71DF3A9EF516BF24"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DCEA426D77C7BCE"]
+			icon: "gtceu:cleanroom"
+			id: "61571ED3D53BD832"
+			tasks: [
+				{
+					id: "3AFEE059BDF529EB"
+					item: "gtceu:cleanroom"
+					type: "item"
+				}
+				{
+					id: "0791250F061A3F3E"
+					item: "gtceu:plascrete"
+					type: "item"
+				}
+				{
+					id: "7A1041024821B830"
+					item: "gtceu:cleanroom_glass"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3BD1D6F444E9B486"
+					item: "gtceu:filter_casing"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3CE2B3AF2478F239"]
+			id: "1CB9E2AD3CCF332D"
+			tasks: [{
+				id: "7E6D07C03CC1EA7B"
+				title: "Hv Power"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1CB9E2AD3CCF332D"]
+			id: "34FBCA1F6579A6DA"
+			shape: "pentagon"
+			tasks: [{
+				id: "0DE9F3E3894AC6BD"
+				item: "gtceu:hv_combustion"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1CB9E2AD3CCF332D"]
+			id: "252C92273787619E"
+			shape: "pentagon"
+			tasks: [{
+				id: "1F216AA739436184"
+				item: "gtceu:hv_gas_turbine"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1CB9E2AD3CCF332D"]
+			id: "5C2599185FA58E26"
+			shape: "pentagon"
+			tasks: [{
+				id: "517DF01F1798A474"
+				item: "gtceu:hv_steam_turbine"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1CB9E2AD3CCF332D"]
+			id: "3C164289713FF1E0"
+			shape: "pentagon"
+			tasks: [{
+				id: "158DC5A5EC06F221"
+				item: "gtceu:advanced_alternator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1CB9E2AD3CCF332D"]
+			id: "237BF9AA857FAF68"
+			shape: "pentagon"
+			tasks: [{
+				id: "15E989624A366B30"
+				item: "gtceu:steam_large_turbine"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7BB6DA286AC97192"]
+			hide_dependent_lines: true
+			id: "6DB4718EFEFFD6ED"
+			tasks: [{
+				id: "686E2E450B2F4933"
+				item: "gtceu:vacuum_freezer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7BB6DA286AC97192"]
+			id: "7E03750C15D7FFBE"
+			tasks: [{
+				id: "3FF6EDE6E76832F6"
+				item: "gtceu:hv_circuit_assembler"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7BB6DA286AC97192"]
+			id: "17FC743ACF978E61"
+			tasks: [{
+				id: "50B8F208E9C85D5B"
+				item: "gtceu:distillation_tower"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7BB6DA286AC97192"]
+			id: "61A70241B2A5F32B"
+			tasks: [{
+				id: "5A714EA2A9251A3E"
+				item: "gtceu:hv_fluid_drilling_rig"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["673D20CCAD847242"]
+			id: "34212834EDAEDFF9"
+			tasks: [{
+				id: "4AB9CAA27F14913E"
+				item: "gtceu:plastic_printed_circuit_board"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3183D053D96F8B4C"]
+			id: "673D20CCAD847242"
+			tasks: [{
+				id: "69D2D4CB7830490D"
+				item: "gtceu:plastic_circuit_board"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2DCEA426D77C7BCE"]
+			id: "27557239EE4C55DD"
+			tasks: [{
+				id: "743811C12FABDA97"
+				item: "gtceu:large_chemical_reactor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3CE2B3AF2478F239"]
+			id: "26D3F8BE07B4CFC3"
+			tasks: [
+				{
+					id: "1F375F08FDC2E17A"
+					item: "gtceu:hv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "2EF25DADB9A8DE1E"
+					item: "gtceu:hv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "0C3EA25FE04ADE8C"
+					item: "gtceu:hv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "688FB1534CE923BD"
+					item: "gtceu:hv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "3B20A0EE17219AFB"
+					item: "gtceu:hv_robot_arm"
+					type: "item"
+				}
+			]
+			title: "Hv Microcrafting"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B36589D2289A16A"]
+			id: "3183D053D96F8B4C"
+			tasks: [{
+				id: "648CDD48107D949A"
+				item: "gtceu:hv_chemical_reactor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6DB4718EFEFFD6ED"
+				"3DE24861F3921182"
+			]
+			id: "78C0D42D0033FBB6"
+			tasks: [{
+				id: "62705D9150C562D7"
+				item: "gtceu:nichrome_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3B36589D2289A16A"]
+			id: "5688B92DB43F370F"
+			tasks: [{
+				id: "436445A4BBF202C2"
+				item: "gtceu:hv_assembler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5688B92DB43F370F"
+				"78C0D42D0033FBB6"
+			]
+			id: "4B85E2F6F3DE4CFC"
+			tasks: [{
+				id: "66F5303E56B94BE3"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3B36589D2289A16A"]
+			id: "3DE24861F3921182"
+			tasks: [{
+				id: "3F9BBC3C8984E578"
+				item: "gtceu:hv_mixer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2666020D483EB552"
+				"2E7F7909604C631B"
+			]
+			id: "2DA641BF5B9E157B"
+			tasks: [{
+				id: "15F2336A24B613C5"
+				item: "gtceu:rutile_dust"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3183D053D96F8B4C"
+				"2DA641BF5B9E157B"
+			]
+			id: "2F237E09059FED10"
+			tasks: [{
+				id: "326FD227A56AEC15"
+				item: "gtceu:titanium_tetrachloride_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3B36589D2289A16A"]
+			id: "2666020D483EB552"
+			tasks: [{
+				id: "33295BB34C1916F7"
+				item: "gtceu:hv_electrolyzer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F237E09059FED10"]
+			id: "336D99C24D1858ED"
+			tasks: [{
+				id: "71DF438429F7338A"
+				item: "gtceu:hot_titanium_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6DB4718EFEFFD6ED"
+				"336D99C24D1858ED"
+			]
+			id: "7E4816E87F55B828"
+			tasks: [{
+				id: "6B0BE056C2DEFB13"
+				item: "gtceu:titanium_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7E4816E87F55B828"]
+			id: "6470A1ACB205DCF4"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "1B6DA390758DA451"
+				item: "gtceu:ev_machine_hull"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3B36589D2289A16A"]
+			id: "613ADD041118C647"
+			tasks: [{
+				id: "173A4724E5310064"
+				item: "gtceu:hv_chemical_bath"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["613ADD041118C647"]
+			id: "7BBE48CBBC8FD958"
+			tasks: [{
+				id: "4353FF931D3971C7"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7BBE48CBBC8FD958"]
+			id: "2E7F7909604C631B"
+			tasks: [{
+				id: "098E5FA5443CB78A"
+				item: "minecraft:dragon_egg"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+	]
+	title: "Hv Age [WIP]"
+}

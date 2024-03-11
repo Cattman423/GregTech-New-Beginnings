@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "max_age_nyi"
+	group: "525E608ED23BAD1F"
+	icon: "gtceu:max_machine_hull"
+	id: "20AA808D5DF38BED"
+	order_index: 16
+	quest_links: [ ]
+	quests: [ ]
+	title: "MAX Age [NYI]"
+}

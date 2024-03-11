@@ -1,0 +1,702 @@
+{
+	autofocus_id: "7CB8F4196C533EE2"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_first_age"
+	group: "525E608ED23BAD1F"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:cobblestone"
+	id: "06593A64897BEF3B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["225F16B6DE413EDE"]
+			description: ["Welcome to the world, some things are differant than you're used to, so here's some torches, these are all the lights you have for now, they're a gift"]
+			id: "72F3F36CD583B9FA"
+			rewards: [{
+				count: 2
+				id: "7F10750F537CB582"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67ACA8FF402C7353"
+				title: "Start"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72F3F36CD583B9FA"]
+			id: "5CBD0FD78BF0ACEA"
+			tasks: [{
+				count: 8L
+				icon: "minecraft:oak_log"
+				id: "7F0A82F2FBE11C61"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5CBD0FD78BF0ACEA"]
+			id: "7CB8F4196C533EE2"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1910F3756E22B3A4"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2B2D7C1A3BE8A840"
+					item: { Count: 4b, id: "minecraft:oak_planks" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["72F3F36CD583B9FA"]
+			id: "6E92FAF32B9F2EA5"
+			tasks: [{
+				count: 32L
+				id: "79BFDDA283DCDCE7"
+				item: { Count: 32b, id: "minecraft:gravel" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6E92FAF32B9F2EA5"]
+			id: "2938241529596ACD"
+			tasks: [{
+				count: 16L
+				id: "28FB018C89686A6F"
+				item: { Count: 16b, id: "minecraft:flint" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7CB8F4196C533EE2"
+				"2938241529596ACD"
+			]
+			description: ["This will have to do for now, soon you can get better tools"]
+			icon: {
+				Count: 1b
+				id: "gtceu:flint_pickaxe"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						HarvestLevel: 2
+						MaxDamage: 63
+						ToolSpeed: 5.5f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "3C67E0A05BA200FF"
+			subtitle: "These suck"
+			tasks: [
+				{
+					id: "74194FBC90B5E9BF"
+					item: {
+						Count: 1b
+						id: "gtceu:flint_pickaxe"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 63
+								ToolSpeed: 5.5f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FBFF238BB1FAAD9"
+					item: {
+						Count: 1b
+						id: "gtceu:flint_shovel"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 63
+								ToolSpeed: 5.5f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4001865D19B24477"
+					item: {
+						Count: 1b
+						id: "gtceu:flint_axe"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								DisableShields: 1b
+								TreeFelling: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 63
+								ToolSpeed: 3.5f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "052DDFB25CEAB211"
+					item: {
+						Count: 1b
+						id: "gtceu:flint_sword"
+						tag: {
+							DisallowContainerItem: 0b
+							Enchantments: [{
+								id: "minecraft:fire_aspect"
+								lvl: 2s
+							}]
+							GT.Behaviours: { }
+							GT.Tool: {
+								AttackDamage: 4.0f
+								AttackSpeed: -2.4f
+								Damage: 0
+								MaxDamage: 63
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Flint Tools"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"3C67E0A05BA200FF"
+				"7CB8F4196C533EE2"
+				"77850E91E8C022E0"
+			]
+			description: ["Sorry, no easy charcoal here, you'll need a fancy Coke Oven, you'll get that soon enough, until then, planks are your best bet for fuel"]
+			id: "78C6C273A4789425"
+			tasks: [{
+				id: "58760D7AC31D09E9"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7CB8F4196C533EE2"]
+			id: "72E9D259D08BC2C7"
+			tasks: [{
+				id: "7B90FD2FE804AE46"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3C67E0A05BA200FF"]
+			id: "77850E91E8C022E0"
+			tasks: [{
+				count: 32L
+				id: "61550F2935A97C18"
+				item: { Count: 32b, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2938241529596ACD"
+				"78C6C273A4789425"
+			]
+			id: "33AD0F7AF4822787"
+			tasks: [{
+				id: "4586B6E5C50895BC"
+				item: {
+					Count: 1b
+					id: "gtceu:flint_mortar"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							MaxDamage: 63
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["78C6C273A4789425"]
+			id: "0675E5069FBF9C1A"
+			shape: "gear"
+			size: 1.25d
+			tasks: [
+				{
+					count: 16L
+					id: "2536FFF3445901E7"
+					item: { Count: 16b, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0E2AA1BF0CBBAC2E"
+					item: { Count: 8b, id: "minecraft:copper_ingot" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4C3BD596430DF1A8"
+					item: { Count: 8b, id: "gtceu:tin_ingot" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1F7AB517EEF642A6"
+					item: { Count: 8b, id: "gtceu:zinc_ingot" }
+					type: "item"
+				}
+			]
+			title: "Finally, some metals"
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"7CB8F4196C533EE2"
+				"0675E5069FBF9C1A"
+			]
+			description: ["You will make many of these, so stock up on iron."]
+			id: "5AA5DB2447E377F8"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "01E48B37BD1DA498"
+				item: {
+					Count: 1b
+					id: "gtceu:iron_hammer"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							HarvestLevel: 2
+							MaxDamage: 255
+							ToolSpeed: 6.0f
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			title: "The Hammer"
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5AA5DB2447E377F8"]
+			id: "7567D4267276DF13"
+			shape: "gear"
+			size: 1.0d
+			tasks: [
+				{
+					id: "0DB336FE65E7B8C6"
+					item: {
+						Count: 1b
+						id: "gtceu:iron_mining_hammer"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								AoEColumn: 1
+								AoELayer: 0
+								AoERow: 1
+								MaxAoEColumn: 1
+								MaxAoELayer: 0
+								MaxAoERow: 1
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 767
+								ToolSpeed: 4.8f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "027782D9022BEB14"
+					item: {
+						Count: 1b
+						id: "gtceu:iron_axe"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								DisableShields: 1b
+								TreeFelling: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 4.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1AE7482794C35E6E"
+					item: {
+						Count: 1b
+						id: "gtceu:iron_spade"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								AoEColumn: 1
+								AoELayer: 0
+								AoERow: 1
+								MaxAoEColumn: 1
+								MaxAoELayer: 0
+								MaxAoERow: 1
+							}
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 767
+								ToolSpeed: 4.8f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56C3FD60B1801B0A"
+					item: {
+						Count: 1b
+						id: "gtceu:iron_scythe"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								AoEColumn: 2
+								AoELayer: 2
+								AoERow: 2
+								MaxAoEColumn: 2
+								MaxAoELayer: 2
+								MaxAoERow: 2
+							}
+							GT.Tool: {
+								AttackDamage: 7.0f
+								AttackSpeed: -3.0f
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 767
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3C67E0A05BA200FF"]
+			description: ["You will need this to start the first tier of machines, Create Machines."]
+			id: "6CFF94C849C5A9F7"
+			tasks: [{
+				count: 16L
+				id: "48362698672CB2E6"
+				item: { Count: 16b, id: "minecraft:andesite" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1FD241BBCC48FFD1"
+				"34D1D229B842E238"
+			]
+			description: ["The recipie that you will be using for now is not great, but once you start the LV age, the recipie will improve."]
+			id: "18BE55716A68B0F8"
+			tasks: [{
+				count: 8L
+				id: "46F4871B943F3ED9"
+				item: { Count: 8b, id: "gtceu:andesite_alloy_dust" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["18BE55716A68B0F8"]
+			id: "5EB51E8078212F2F"
+			tasks: [{
+				count: 8L
+				id: "30F23479495F872D"
+				item: { Count: 8b, id: "gtceu:andesite_alloy_ingot" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"33AD0F7AF4822787"
+				"6CFF94C849C5A9F7"
+			]
+			id: "1FD241BBCC48FFD1"
+			tasks: [{
+				count: 16L
+				id: "087D862029F7E54B"
+				item: { Count: 16b, id: "gtceu:andesite_dust" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"33AD0F7AF4822787"
+				"0675E5069FBF9C1A"
+			]
+			id: "34D1D229B842E238"
+			tasks: [{
+				count: 8L
+				id: "5922A795F4AA6716"
+				item: { Count: 8b, id: "gtceu:small_zinc_dust" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5AA5DB2447E377F8"
+				"5EB51E8078212F2F"
+			]
+			id: "2F7CFB679D7A9350"
+			tasks: [{
+				id: "29596BD16D7069FA"
+				item: "gtceu:andesite_alloy_plate"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2F7CFB679D7A9350"]
+			hide_details_until_startable: true
+			id: "6A91810EF77054CF"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "10C42A8195C559D3"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7CB8F4196C533EE2"]
+			id: "37686CA6FACFAE23"
+			shape: "hexagon"
+			tasks: [{
+				icon: "tetra:basic_workbench"
+				id: "0BB287028DA73350"
+				observe_type: 0
+				timer: 0L
+				to_observe: "tetra:basic_workbench"
+				type: "observation"
+			}]
+			title: "Tetra Tools"
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5AA5DB2447E377F8"]
+			description: ["Your first microcrafting, you will be making lots of these tools, so save the recipies"]
+			id: "28F55F1A3D9A558F"
+			shape: "gear"
+			size: 1.0d
+			tasks: [
+				{
+					id: "170E21953451B98D"
+					item: {
+						Count: 1b
+						id: "gtceu:iron_hammer"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "226A2CBE8FE0819A"
+					item: {
+						Count: 1b
+						id: "gtceu:iron_file"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F03970854CB5416"
+					item: {
+						Count: 1b
+						id: "gtceu:iron_saw"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								HarvestIce: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A85ECBC6B5C5378"
+					item: {
+						Count: 1b
+						id: "gtceu:iron_wrench"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "105398B7C90A536F"
+					item: {
+						Count: 1b
+						id: "gtceu:iron_wire_cutter"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Basic Gregtech Tools"
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7CB8F4196C533EE2"]
+			id: "5C3FF4F669A855F1"
+			tasks: [
+				{
+					id: "445EA625D7F19E84"
+					item: "workshop_for_handsome_adventurer:simple_table_oak"
+					type: "item"
+				}
+				{
+					id: "331DEBA5F2CDBF3C"
+					item: "workshop_for_handsome_adventurer:workstation_placer_oak"
+					type: "item"
+				}
+			]
+			title: "Crafting upgrades"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7567D4267276DF13"
+				"28F55F1A3D9A558F"
+			]
+			id: "10C065ECA848A594"
+			tasks: [{
+				id: "1AF455FBDF1DC563"
+				item: "workshop_for_handsome_adventurer:tool_rack_framed_oak"
+				type: "item"
+			}]
+			title: "Where to store my tools?"
+			x: 4.0d
+			y: 5.0d
+		}
+	]
+	title: "Start Here"
+}

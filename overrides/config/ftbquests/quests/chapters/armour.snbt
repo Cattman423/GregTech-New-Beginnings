@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armour"
+	group: "41910268CB9EDE34"
+	icon: "minecraft:armor_stand"
+	id: "33DFB844253F9DFE"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Armor [NYI]"
+}

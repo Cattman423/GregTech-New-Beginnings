@@ -1,0 +1,449 @@
+{
+	autofocus_id: "08E68922ED749550"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_kitchen"
+	group: "29D9E440AAB8AE92"
+	icon: "farmersdelight:stove"
+	id: "0EF8A8A32BEFCA6C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5468ECF42040C129"]
+			id: "08E68922ED749550"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "71E4DB718D87FE4E"
+				item: "minecraft:bricks"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6652500A4ECCCAAC"]
+			description: ["Any GregTech, or Tetra knife will work with this, see what other tools you can use on my cutting board"]
+			id: "0A0266A7FD386496"
+			tasks: [{
+				id: "414E4CB3619DFF9C"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["08E68922ED749550"]
+			id: "6652500A4ECCCAAC"
+			tasks: [{
+				id: "16681B8889ABC124"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6652500A4ECCCAAC"]
+			id: "3B7CDF337DE7D561"
+			tasks: [{
+				id: "154DD79DF93F2380"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6652500A4ECCCAAC"]
+			id: "4797240BB3A334E4"
+			tasks: [{
+				id: "6662592119061B5A"
+				item: {
+					Count: 1b
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0A0266A7FD386496"]
+			id: "0422DFCC38A74328"
+			tasks: [{
+				id: "682BCD01928B8D71"
+				item: "sliceanddice:slicer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6652500A4ECCCAAC"]
+			id: "75059774B3BCBA5F"
+			tasks: [{
+				id: "5D4419A600B1AEFC"
+				item: "ends_delight:end_stove"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6652500A4ECCCAAC"]
+			id: "6E4F9DF6B4D24764"
+			tasks: [{
+				id: "0EEE6B47DB91DECD"
+				item: "nethersdelight:blackstone_stove"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6652500A4ECCCAAC"]
+			id: "5F6A7A3E1D34593A"
+			tasks: [{
+				id: "19D594B1C9F60A87"
+				item: "miners_delight:copper_pot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6652500A4ECCCAAC"]
+			id: "0FE95CDB5E51ED7A"
+			tasks: [{
+				id: "5054A741730DD73B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "create_central_kitchen:cooking_guide"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30CB513E79E93A8F"]
+			id: "5110EB4F9B772B54"
+			tasks: [{
+				id: "34B8935AAFDE9DE3"
+				item: "cookingforblockheads:cooking_table"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["30CB513E79E93A8F"]
+			id: "0FBC8908F2AD1B7A"
+			tasks: [{
+				id: "18AD8541AC27B514"
+				item: "cookingforblockheads:toaster"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["30CB513E79E93A8F"]
+			id: "11FEDB29B7C23883"
+			tasks: [{
+				id: "20407ADD995D9BC2"
+				item: "cookingforblockheads:cow_jar"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["30CB513E79E93A8F"]
+			id: "20375B61968ED3A2"
+			tasks: [{
+				id: "63C8E7895B391446"
+				item: "cookingforblockheads:fridge"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["30CB513E79E93A8F"]
+			id: "2EFA9ED508F20403"
+			tasks: [{
+				id: "2209996186F96F59"
+				item: "cookingforblockheads:oven"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30CB513E79E93A8F"]
+			id: "291D28BC8AF504CC"
+			tasks: [{
+				id: "149FB26F41856020"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["30CB513E79E93A8F"]
+			id: "3441718EAAC070BA"
+			tasks: [
+				{
+					id: "679A6378B145AD2F"
+					item: "cookingforblockheads:counter"
+					type: "item"
+				}
+				{
+					id: "1D9F6A44ECFB578C"
+					item: "cookingforblockheads:cabinet"
+					type: "item"
+				}
+				{
+					id: "7146912A88AAB0B5"
+					item: "cookingforblockheads:corner"
+					type: "item"
+				}
+				{
+					id: "28E7C9FBD36D5AF8"
+					item: "cookingforblockheads:hanging_corner"
+					type: "item"
+				}
+				{
+					id: "0273F33F6E8A0BF9"
+					item: "cookingforblockheads:white_kitchen_floor"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["08E68922ED749550"]
+			id: "30CB513E79E93A8F"
+			tasks: [{
+				id: "77C393A2EA1D9994"
+				item: "cookingforblockheads:recipe_book"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30CB513E79E93A8F"]
+			id: "6D76480245B8DFBC"
+			tasks: [
+				{
+					id: "7DD85796C614A7B4"
+					item: "cookingforblockheads:fruit_basket"
+					type: "item"
+				}
+				{
+					id: "24406C1712ECB4B9"
+					item: "cookingforblockheads:spice_rack"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["30CB513E79E93A8F"]
+			id: "62C31ED13BDEB2E2"
+			tasks: [
+				{
+					id: "255FADCDC398B141"
+					item: "cookingforblockheads:heating_unit"
+					type: "item"
+				}
+				{
+					id: "67273447D4109047"
+					item: "cookingforblockheads:ice_unit"
+					type: "item"
+				}
+				{
+					id: "42F00ACBE31ADB1A"
+					item: "cookingforblockheads:preservation_chamber"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08E68922ED749550"]
+			id: "020A0EFF251D51F7"
+			tasks: [{
+				id: "5E362AA480765D7B"
+				title: "Pam's HarvestCraft"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["020A0EFF251D51F7"]
+			id: "5AE17E912507C2D2"
+			tasks: [{
+				id: "7027C9B858891EB6"
+				item: "pamhc2foodcore:bakewareitem"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["020A0EFF251D51F7"]
+			id: "14C709D050003568"
+			tasks: [{
+				id: "3BB9D6524BA28288"
+				item: "pamhc2foodcore:cuttingboarditem"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["020A0EFF251D51F7"]
+			id: "3FB646B4A728F1E8"
+			tasks: [{
+				id: "19F1C26B2F943CED"
+				item: "pamhc2foodcore:juiceritem"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["020A0EFF251D51F7"]
+			id: "5532D6B72ABF0BF6"
+			tasks: [{
+				id: "1196A3B5BA6B0C62"
+				item: "pamhc2foodcore:grinderitem"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["020A0EFF251D51F7"]
+			id: "091085F7206E6446"
+			tasks: [{
+				id: "6AE018CE2DBD074D"
+				item: "pamhc2foodcore:mixingbowlitem"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["020A0EFF251D51F7"]
+			id: "669B9542E2C4FCAF"
+			tasks: [{
+				id: "37227D824A8E519A"
+				item: "pamhc2foodcore:potitem"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["020A0EFF251D51F7"]
+			id: "0CAF12BF79755A46"
+			tasks: [{
+				id: "5FF5F25043F8B48E"
+				item: "pamhc2foodcore:rolleritem"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["020A0EFF251D51F7"]
+			id: "3DC6BD4AE2F5EE7E"
+			tasks: [{
+				id: "11E4DFA1F8B1674B"
+				item: "pamhc2foodcore:saucepanitem"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["020A0EFF251D51F7"]
+			id: "3F1D8B765FC755EE"
+			tasks: [{
+				id: "0705F0C9F6675422"
+				item: "pamhc2foodcore:skilletitem"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["020A0EFF251D51F7"]
+			id: "5D695F49378D1E23"
+			tasks: [
+				{
+					id: "1956BD4114331964"
+					item: "pamhc2crops:aridgarden"
+					type: "item"
+				}
+				{
+					id: "4CA9C15E64EEAE91"
+					item: "pamhc2crops:frostgarden"
+					type: "item"
+				}
+				{
+					id: "50804294DCC52E47"
+					item: "pamhc2crops:shadedgarden"
+					type: "item"
+				}
+				{
+					id: "4F9D14DA0AFA84B1"
+					item: "pamhc2crops:soggygarden"
+					type: "item"
+				}
+				{
+					id: "472377BD285CE241"
+					item: "pamhc2crops:tropicalgarden"
+					type: "item"
+				}
+				{
+					id: "43BD68276605EAEA"
+					item: "pamhc2crops:windygarden"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["30CB513E79E93A8F"]
+			id: "70AEC9FDF94B6E7A"
+			tasks: [{
+				id: "31D2814191968E10"
+				item: "appliedcooking:kitchen_station"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+	]
+	title: "The Kitchen"
+}

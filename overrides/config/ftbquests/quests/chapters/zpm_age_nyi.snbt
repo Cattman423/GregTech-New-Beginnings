@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "zpm_age_nyi"
+	group: "525E608ED23BAD1F"
+	icon: "gtceu:zpm_machine_hull"
+	id: "758204673DED5B03"
+	order_index: 9
+	quest_links: [ ]
+	quests: [ ]
+	title: "ZPM Age [NYI]"
+}

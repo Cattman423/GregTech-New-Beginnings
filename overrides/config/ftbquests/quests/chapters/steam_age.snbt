@@ -1,0 +1,687 @@
+{
+	autofocus_id: "79AABCE9B95A3386"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "steam_age"
+	group: "525E608ED23BAD1F"
+	icon: "gtceu:bronze_machine_casing"
+	id: "582E3703244524AE"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"07B9229EA02A6C1E"
+				"4E5F6BF9EF55DC13"
+			]
+			icon: "gtceu:bronze_machine_casing"
+			id: "2A211CF31866A27A"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "2731DE997153BC5C"
+					item: "gtceu:bronze_machine_casing"
+					type: "item"
+				}
+				{
+					id: "6BB27667AE46F6ED"
+					item: "gtceu:bronze_brick_casing"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71EC3043DE613FF5"]
+			id: "440CE55207197ABB"
+			size: 0.75d
+			tasks: [
+				{
+					id: "739ACA1288231B83"
+					item: "gtceu:block_casting_mold"
+					type: "item"
+				}
+				{
+					id: "544EF1D069B87A5B"
+					item: "gtceu:plate_casting_mold"
+					type: "item"
+				}
+				{
+					id: "4E90C30937F239B0"
+					item: "gtceu:gear_casting_mold"
+					type: "item"
+				}
+				{
+					id: "1DD5E30DA88D9ECC"
+					item: "gtceu:small_gear_casting_mold"
+					type: "item"
+				}
+				{
+					id: "1D9059205C0B7808"
+					item: "gtceu:ball_casting_mold"
+					type: "item"
+				}
+			]
+			title: "Casting Molds"
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["440CE55207197ABB"]
+			icon: "minecraft:glass"
+			id: "23E74436B4CC52EC"
+			size: 0.75d
+			tasks: [
+				{
+					count: 32L
+					id: "69291B6976637E03"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "084B4E2F0022755C"
+					item: "gtceu:glass_tube"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23E74436B4CC52EC"]
+			id: "0581896335A678AC"
+			size: 0.75d
+			tasks: [{
+				id: "2312AA92D7DA2C76"
+				item: "fluidtank:tank_wood"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2A211CF31866A27A"]
+			id: "672A1709AB494310"
+			shape: "pentagon"
+			size: 0.75d
+			tasks: [{
+				id: "0625CBDB59A811A8"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["672A1709AB494310"]
+			id: "651BC74754B27DAB"
+			size: 0.75d
+			tasks: [{
+				id: "687AF791AEAAE07C"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["267E1CB104C5B388"]
+			id: "3BA797955559D31D"
+			size: 0.75d
+			tasks: [{
+				id: "067D6F1F0E92C255"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["651BC74754B27DAB"]
+			id: "18C82768E2C6BC94"
+			size: 0.75d
+			tasks: [{
+				id: "074B84D4A3801CE0"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18C82768E2C6BC94"]
+			id: "267E1CB104C5B388"
+			size: 0.75d
+			tasks: [{
+				id: "1E6C3BC64165BE1F"
+				item: "minecraft:piston"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"23E74436B4CC52EC"
+				"267E1CB104C5B388"
+			]
+			id: "002FD4AF44DAF6EB"
+			size: 0.75d
+			tasks: [{
+				id: "4EAF84D99723BC66"
+				item: "gtceu:lp_steam_extractor"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3BA797955559D31D"]
+			id: "22A5F3385CB10E28"
+			size: 0.75d
+			tasks: [{
+				id: "494EF439D96435C3"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["22A5F3385CB10E28"]
+			id: "07BEAA824A713B28"
+			size: 0.75d
+			tasks: [{
+				id: "1EA289EB76E7511E"
+				item: "gtceu:lp_steam_forge_hammer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"672A1709AB494310"
+				"71EC3043DE613FF5"
+			]
+			id: "1C1BD7DE57BE85A7"
+			shape: "pentagon"
+			size: 0.75d
+			tasks: [{
+				id: "2916DBD1626B8567"
+				item: "gtceu:hp_steam_solid_boiler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"651BC74754B27DAB"
+				"71EC3043DE613FF5"
+			]
+			id: "7A5E15FA6E98EC91"
+			size: 0.75d
+			tasks: [{
+				id: "38AAE15002C4A2BD"
+				item: "gtceu:hp_steam_alloy_smelter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"3BA797955559D31D"
+				"71EC3043DE613FF5"
+			]
+			id: "5674E7E7EBB07A38"
+			size: 0.75d
+			tasks: [{
+				id: "32A8197CDFD7058E"
+				item: "gtceu:hp_steam_compressor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"07BEAA824A713B28"
+				"71EC3043DE613FF5"
+			]
+			id: "38EBABB425E56663"
+			size: 0.75d
+			tasks: [{
+				id: "06E6C3B101A95724"
+				item: "gtceu:hp_steam_forge_hammer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"002FD4AF44DAF6EB"
+				"71EC3043DE613FF5"
+			]
+			id: "07EA79E57872FD3D"
+			size: 0.75d
+			tasks: [{
+				id: "7B68432BBD15CD5D"
+				item: "gtceu:hp_steam_extractor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"440CE55207197ABB"
+				"75980944CAFF5756"
+			]
+			id: "3207FF72AB2204F6"
+			size: 0.75d
+			tasks: [{
+				id: "282F540D30D9F036"
+				item: "gtceu:rubber_plate"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"576E2F40DEF76344"
+				"3BA797955559D31D"
+			]
+			id: "2D1687EC6CEC6FD9"
+			size: 0.75d
+			tasks: [{
+				id: "4359E0C48BE5445D"
+				item: "gtceu:compressed_fireclay"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2D1687EC6CEC6FD9"
+				"25563EB0D3B172D1"
+			]
+			id: "47750EB4235088D4"
+			size: 0.75d
+			tasks: [{
+				id: "390F3B63F5848755"
+				item: "gtceu:firebrick"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"47750EB4235088D4"
+				"392ACD047179A5D8"
+			]
+			icon: "gtceu:primitive_blast_furnace"
+			id: "2326FE6A4C1C05A1"
+			size: 0.75d
+			tasks: [
+				{
+					id: "3A90ADB55C02FCDA"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "19ECF056F2DEB26F"
+					item: "gtceu:firebricks"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2326FE6A4C1C05A1"]
+			description: ["This is really expensive if you haven't gotten the Lv mixer to make concrete with water stone dust and clay dust, a whole lot cheaper than the manual crafting you're doing now."]
+			icon: "gtceu:primitive_blast_furnace"
+			id: "263C39E4AEADD22E"
+			size: 0.75d
+			tasks: [
+				{
+					count: 3L
+					id: "348D72B40FCC8AD1"
+					item: { Count: 3b, id: "gtceu:primitive_blast_furnace" }
+					type: "item"
+				}
+				{
+					count: 51L
+					id: "135C70494DE8FF96"
+					item: { Count: 64b, id: "gtceu:firebricks" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2326FE6A4C1C05A1"]
+			hide_dependent_lines: true
+			id: "71EC3043DE613FF5"
+			shape: "octagon"
+			size: 0.75d
+			tasks: [{
+				id: "608A2061B3043CFB"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"002FD4AF44DAF6EB"
+				"27E3ED1A28B9FAC0"
+			]
+			id: "7FB07584E38AAF18"
+			size: 0.75d
+			tasks: [{
+				id: "25BF9637BD566D58"
+				item: "gtceu:sulfur_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7FB07584E38AAF18"]
+			id: "75980944CAFF5756"
+			size: 0.75d
+			tasks: [{
+				id: "01FB811E825C5DB6"
+				item: "gtceu:rubber_ingot"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["71EC3043DE613FF5"]
+			id: "50D8A91854E4AD06"
+			size: 0.75d
+			tasks: [{
+				id: "7A622B9C5856B819"
+				item: {
+					Count: 1b
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["50D8A91854E4AD06"]
+			id: "27E3ED1A28B9FAC0"
+			size: 0.75d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "40491FA51738D033"
+				type: "dimension"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["672A1709AB494310"]
+			id: "23339C44CC3BF9CC"
+			size: 0.75d
+			tasks: [{
+				id: "2AC9E38091FD3E59"
+				item: "gtceu:lp_steam_furnace"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["23339C44CC3BF9CC"]
+			id: "79AABCE9B95A3386"
+			size: 0.75d
+			tasks: [{
+				id: "02487780FED9379F"
+				item: "gtceu:hp_steam_furnace"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["267E1CB104C5B388"]
+			id: "785B366763815E81"
+			size: 0.75d
+			tasks: [{
+				id: "5A18EA339CB2862A"
+				item: "gtceu:lp_steam_macerator"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["785B366763815E81"]
+			id: "6CA7629C292B9078"
+			size: 0.75d
+			tasks: [{
+				id: "30E63F9A9C19818F"
+				item: "gtceu:hp_steam_macerator"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["71EC3043DE613FF5"]
+			id: "179BE55EAA6BA680"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "19E8B1C738A5ECA9"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["71EC3043DE613FF5"]
+			id: "44853FAC4AC3675E"
+			size: 0.75d
+			tasks: [{
+				id: "73ACD7BF8AE35CAC"
+				item: {
+					Count: 1b
+					id: "ironchests:iron_dolly"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"23E74436B4CC52EC"
+				"2A211CF31866A27A"
+			]
+			hide_dependency_lines: true
+			id: "4D19B49EE04A2202"
+			shape: "pentagon"
+			size: 0.75d
+			tasks: [{
+				id: "62142956C94B8286"
+				item: "gtceu:lp_steam_liquid_boiler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4D19B49EE04A2202"
+				"71EC3043DE613FF5"
+			]
+			id: "47062D585E2CF0AB"
+			shape: "pentagon"
+			size: 0.75d
+			tasks: [{
+				id: "0AACFEDF5F4A38CB"
+				item: "gtceu:hp_steam_liquid_boiler"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"23E74436B4CC52EC"
+				"2A211CF31866A27A"
+			]
+			hide_dependency_lines: true
+			id: "09E1C22237BD8090"
+			shape: "pentagon"
+			size: 0.75d
+			tasks: [{
+				id: "7EE47714E36286EB"
+				item: "gtceu:lp_steam_solar_boiler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"71EC3043DE613FF5"
+				"09E1C22237BD8090"
+			]
+			id: "768606478C4111E1"
+			shape: "pentagon"
+			size: 0.75d
+			tasks: [{
+				id: "76C6D92FB7E01286"
+				item: "gtceu:hp_steam_solar_boiler"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0581896335A678AC"]
+			id: "12BAC26900561FE2"
+			size: 0.75d
+			tasks: [{
+				id: "490F233D714364BC"
+				item: "fluidtank:tank_iron"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3207FF72AB2204F6"]
+			id: "2E5EC2A70C589B0C"
+			size: 0.75d
+			tasks: [{
+				id: "4B17364644495862"
+				item: {
+					Count: 1b
+					id: "gtceu:rubber_plunger"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							MaxDamage: 127
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2A211CF31866A27A"]
+			id: "29C0C821B3BAE691"
+			size: 0.75d
+			tasks: [{
+				id: "37B4D602EC7F2CA1"
+				item: "gtceu:steam_miner"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["785B366763815E81"]
+			id: "54AE48E8F54DD1DA"
+			size: 0.75d
+			tasks: [{
+				id: "2D716EE15D30DBA3"
+				item: "gtceu:potin_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["54AE48E8F54DD1DA"]
+			id: "114EBC9ED8835796"
+			size: 0.75d
+			tasks: [{
+				id: "1A318F33B4B091C3"
+				item: "gtceu:steam_grinder"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["672A1709AB494310"]
+			id: "392056BCA70C1B8F"
+			size: 0.75d
+			tasks: [{
+				id: "54E3CDB5AB782627"
+				item: "gtceu:invar_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["392056BCA70C1B8F"]
+			id: "3077A267B3566A1E"
+			size: 0.75d
+			tasks: [{
+				id: "0B7243A700CA22DE"
+				item: "gtceu:steam_oven"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+	]
+	title: "Steam Age"
+}

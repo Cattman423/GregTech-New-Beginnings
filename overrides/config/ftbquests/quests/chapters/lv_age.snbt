@@ -1,0 +1,1167 @@
+{
+	autofocus_id: "62C5473238B33512"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lv_age"
+	group: "525E608ED23BAD1F"
+	icon: "gtceu:lv_machine_hull"
+	id: "117AF94A3710DFC6"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["71EC3043DE613FF5"]
+			id: "03EB4C61B9428B0D"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5C48695956681493"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03EB4C61B9428B0D"]
+			description: ["You have a few choices for power generation here in Lv, though I'd recomend the single block steam engine to start, unless you have a Create:TFMG pumpjack already, in which case you can burn that oil in a combustion generator."]
+			id: "79F35DAA01A154B9"
+			size: 0.75d
+			tasks: [{
+				id: "6FAB7DF472F64F67"
+				title: "Power Gen Options"
+				type: "checkmark"
+			}]
+			title: "I need Power..."
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["79F35DAA01A154B9"]
+			id: "3C4BDE1873D01587"
+			shape: "pentagon"
+			size: 0.75d
+			tasks: [{
+				id: "28B7FB008A01122C"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["79F35DAA01A154B9"]
+			id: "5F5944C2B43B10AC"
+			shape: "pentagon"
+			size: 0.75d
+			tasks: [{
+				id: "628A610F64E9BAD8"
+				item: "gtceu:lv_combustion"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["79F35DAA01A154B9"]
+			id: "3937D677DE66DAB8"
+			shape: "pentagon"
+			size: 0.75d
+			tasks: [{
+				id: "3993902AA6E1256B"
+				item: "gtceu:lv_gas_turbine"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["79F35DAA01A154B9"]
+			id: "6EF25B4F7E987329"
+			shape: "pentagon"
+			size: 0.75d
+			tasks: [{
+				id: "5EDB428C979D4902"
+				item: "gtceu:basic_alternator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["79F35DAA01A154B9"]
+			id: "5A5D4764A12F1643"
+			shape: "pentagon"
+			size: 0.75d
+			tasks: [{
+				id: "6F4E9F2C45AADDE2"
+				item: "gtceu:steam_engine_multi"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["03EB4C61B9428B0D"]
+			id: "62C5473238B33512"
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "3D02842801860D99"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["62C5473238B33512"]
+			hide_dependent_lines: true
+			id: "684E9CD189ACC2D0"
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "03D6B35F761C96BE"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["03EB4C61B9428B0D"]
+			id: "41E4F90F174E00FD"
+			size: 0.75d
+			tasks: [{
+				id: "42EBC616A9B8D654"
+				item: "gtceu:lv_electric_motor"
+				type: "item"
+			}]
+			title: "The micro crafting continues..."
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["41E4F90F174E00FD"]
+			id: "69A38BD8F890F3F9"
+			size: 0.75d
+			tasks: [{
+				id: "375DEA1F5EB57943"
+				item: "gtceu:lv_conveyor_module"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["41E4F90F174E00FD"]
+			id: "7E0F818ED026F706"
+			size: 0.75d
+			tasks: [{
+				id: "496FE2FD8B12B49F"
+				item: "gtceu:lv_electric_pump"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["41E4F90F174E00FD"]
+			id: "6075C48F72C76E06"
+			size: 0.75d
+			tasks: [{
+				id: "6FA6493E4C4C581C"
+				item: "gtceu:lv_electric_piston"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"41E4F90F174E00FD"
+				"6075C48F72C76E06"
+			]
+			id: "4763F5F5C57AB9E6"
+			size: 0.75d
+			tasks: [{
+				id: "1012D5C666554D57"
+				item: "gtceu:lv_robot_arm"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"03EB4C61B9428B0D"
+				"684E9CD189ACC2D0"
+				"7ECACB03A401C050"
+			]
+			id: "51F82C887E303025"
+			size: 0.75d
+			tasks: [{
+				id: "01B63BD25D0A71E0"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"684E9CD189ACC2D0"
+				"03EB4C61B9428B0D"
+			]
+			id: "2769AA51C73E747C"
+			size: 0.75d
+			tasks: [{
+				id: "4F669F979DC8B031"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"684E9CD189ACC2D0"
+				"03EB4C61B9428B0D"
+			]
+			id: "5DEA6FF28D84EE4C"
+			size: 0.75d
+			tasks: [{
+				id: "43D8792602563237"
+				item: "gtceu:lv_lathe"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"684E9CD189ACC2D0"
+				"03EB4C61B9428B0D"
+			]
+			id: "2F5C10FAF4ACFE23"
+			size: 0.75d
+			tasks: [{
+				id: "37F60BB689C3EC20"
+				item: "gtceu:lv_polarizer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["684E9CD189ACC2D0"]
+			hide_dependent_lines: true
+			icon: {
+				Count: 1b
+				id: "gtceu:programmed_circuit"
+				tag: {
+					Configuration: 0
+				}
+			}
+			id: "7ECACB03A401C050"
+			size: 0.75d
+			tasks: [{
+				id: "32B752BA47D85806"
+				title: "Circuit Conditions"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["684E9CD189ACC2D0"]
+			id: "21E9795815B94CEB"
+			size: 0.75d
+			tasks: [{
+				id: "42648CC59EF04AA9"
+				item: "gtceu:lv_canner"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"684E9CD189ACC2D0"
+				"7ECACB03A401C050"
+			]
+			id: "732C44845A4CE3F2"
+			size: 0.75d
+			tasks: [{
+				id: "7D33B6A4307EA478"
+				item: "gtceu:lv_chemical_reactor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["684E9CD189ACC2D0"]
+			id: "2DCF87366CE12386"
+			size: 0.75d
+			tasks: [{
+				id: "3897188FE520391E"
+				item: "gtceu:lv_chemical_bath"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"21E9795815B94CEB"
+				"2DCF87366CE12386"
+				"5D8BC6AE461C7502"
+				"0A30CCFFB2BFB567"
+			]
+			id: "47786C2F8F571375"
+			size: 0.75d
+			tasks: [{
+				id: "2A68F68ED4817B21"
+				item: "gtceu:empty_spray_can"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["51F82C887E303025"]
+			id: "5D8BC6AE461C7502"
+			size: 0.75d
+			tasks: [
+				{
+					id: "4F76DCC2E4C70D0F"
+					item: "gtceu:fluid_cell"
+					type: "item"
+				}
+				{
+					id: "67D30EC830BE5BDB"
+					item: "gtceu:universal_fluid_cell"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2F5C10FAF4ACFE23"]
+			id: "4C75C546699E29AB"
+			size: 0.75d
+			tasks: [{
+				id: "079BE9A62B789447"
+				item: "gtceu:lv_item_magnet"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5740796B7A429F7B"
+				"21E9795815B94CEB"
+			]
+			id: "0A3F99A1EF229CCE"
+			shape: "octagon"
+			size: 0.75d
+			tasks: [{
+				id: "377A3469D5EF2996"
+				item: "gtceu:lv_battery_hull"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["03EB4C61B9428B0D"]
+			hide_dependency_lines: true
+			id: "5740796B7A429F7B"
+			size: 0.75d
+			tasks: [{
+				id: "6F87CAB092E62C63"
+				item: "gtceu:battery_alloy_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A3F99A1EF229CCE"]
+			id: "2839354159524FE2"
+			size: 0.75d
+			tasks: [{
+				id: "70A7722D72D597E4"
+				item: "gtceu:lv_battery_buffer_4x"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"51AD2EA8D19D68C0"
+				"2839354159524FE2"
+				"387401416C6A5686"
+			]
+			icon: "gtceu:electric_blast_furnace"
+			id: "0F473004BDE8A486"
+			size: 0.75d
+			tasks: [
+				{
+					id: "495E1FA639019425"
+					item: "gtceu:electric_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "58CF0EA27F53FA19"
+					item: { Count: 2b, id: "gtceu:lv_energy_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "11E2CDE73DD83FED"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "0FFBC2C1201B1224"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+				{
+					id: "233014091E4CD67B"
+					item: "gtceu:lv_input_hatch"
+					type: "item"
+				}
+				{
+					id: "7431F399D6ACBC9B"
+					item: "gtceu:lv_output_hatch"
+					type: "item"
+				}
+				{
+					id: "2A2765579D3D9FEE"
+					item: "gtceu:lv_muffler_hatch"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A30CCFFB2BFB567"]
+			id: "387401416C6A5686"
+			size: 0.75d
+			tasks: [{
+				count: 10L
+				id: "4FAF94609AA3DE9C"
+				item: "gtceu:heatproof_machine_casing"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0A30CCFFB2BFB567"
+				"46A5DB7DB55A9BC1"
+			]
+			id: "51AD2EA8D19D68C0"
+			size: 0.75d
+			tasks: [{
+				count: 16L
+				id: "43C11CF56CB6C55E"
+				item: "gtceu:cupronickel_coil_block"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7ECACB03A401C050"]
+			id: "0A30CCFFB2BFB567"
+			shape: "octagon"
+			size: 0.75d
+			tasks: [{
+				id: "429952C068155765"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["684E9CD189ACC2D0"]
+			id: "46A5DB7DB55A9BC1"
+			size: 0.75d
+			tasks: [{
+				id: "2A0862AECF512B60"
+				item: "gtceu:lv_extractor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["03EB4C61B9428B0D"]
+			icon: "gtceu:crushed_iron_ore"
+			id: "2655FC7FDB51295E"
+			size: 0.75d
+			tasks: [{
+				id: "75485704948E1071"
+				title: "Ore Processing"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2655FC7FDB51295E"
+				"684E9CD189ACC2D0"
+			]
+			id: "791A8CEEFB6E1B15"
+			size: 0.75d
+			tasks: [{
+				id: "4A7A3A1C4B150CA2"
+				item: "gtceu:lv_macerator"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"791A8CEEFB6E1B15"
+				"7ECACB03A401C050"
+			]
+			id: "35A3B98E3B808E3D"
+			size: 0.75d
+			tasks: [{
+				id: "64AB96D61F4A64B1"
+				item: "gtceu:lv_ore_washer"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["791A8CEEFB6E1B15"]
+			id: "4CCB585322AD16C3"
+			size: 0.75d
+			tasks: [{
+				id: "3834EC7E12B19B0B"
+				item: "gtceu:lv_chemical_bath"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"35A3B98E3B808E3D"
+				"4CCB585322AD16C3"
+			]
+			dependency_requirement: "one_completed"
+			id: "30975CCDF56C33D4"
+			size: 0.75d
+			tasks: [{
+				id: "0C710CEF83A66D74"
+				item: "gtceu:lv_thermal_centrifuge"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30975CCDF56C33D4"]
+			id: "5A287C94DC7A9B33"
+			size: 0.75d
+			tasks: [{
+				id: "1424A20272A83E78"
+				item: "gtceu:lv_macerator"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["791A8CEEFB6E1B15"]
+			icon: "gtceu:hv_macerator"
+			id: "6E7A5647ADE2FFE9"
+			size: 0.75d
+			tasks: [{
+				id: "6E079AFD62A74EEA"
+				title: "More Byproducts"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5A287C94DC7A9B33"]
+			id: "2752A5E6F395C4B2"
+			size: 0.75d
+			tasks: [{
+				id: "257AE02BDE235DDB"
+				item: "gtceu:lv_electric_furnace"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A287C94DC7A9B33"]
+			id: "01C0A7E96AF65988"
+			size: 0.75d
+			tasks: [{
+				id: "7D72BC8BF15A2638"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A287C94DC7A9B33"]
+			id: "3BCC7AE04FBB12EE"
+			size: 0.75d
+			tasks: [{
+				id: "6490E1692A5BBE10"
+				item: "gtceu:lv_centrifuge"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0A30CCFFB2BFB567"
+				"5171625CEC406C77"
+			]
+			id: "7E5E4E7665889650"
+			size: 0.75d
+			tasks: [{
+				id: "48B302E35B8F6F03"
+				item: "gtceu:lv_circuit_assembler"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5E80BB772B0F3103"
+				"1CFD6454C50C67FA"
+			]
+			id: "5171625CEC406C77"
+			shape: "diamond"
+			size: 0.75d
+			tasks: [{
+				id: "678F035D034CD913"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0F473004BDE8A486"]
+			id: "44A087F9D2E4BFC8"
+			shape: "octagon"
+			size: 0.75d
+			tasks: [{
+				id: "4C075CD76AC1418B"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["44A087F9D2E4BFC8"]
+			id: "022992D132A0423F"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "25B2795F3CC0DE87"
+				item: "gtceu:mv_machine_hull"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53C1D17FEF72CF48"]
+			id: "5F6FE3AE13F4F72F"
+			size: 0.75d
+			tasks: [{
+				id: "6F0EBC481A17CA2C"
+				item: "gtceu:phenolic_printed_circuit_board"
+				type: "item"
+			}]
+			title: "Cheaper Phenolic Boards"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0A30CCFFB2BFB567"
+				"17DCE62BAABC30FE"
+			]
+			id: "46DCFA98F4045CB7"
+			size: 0.75d
+			tasks: [{
+				id: "46593107B453BBCE"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
+			title: "Better Resin-Printed Boards"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0A30CCFFB2BFB567"
+				"17DCE62BAABC30FE"
+			]
+			id: "5E80BB772B0F3103"
+			size: 0.75d
+			tasks: [{
+				id: "08971460C94ACF24"
+				item: "gtceu:phenolic_circuit_board"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["525BDA3BBA55DBDA"]
+			id: "53C1D17FEF72CF48"
+			size: 0.75d
+			tasks: [{
+				id: "639D3A682C3AE67E"
+				item: "gtceu:iron_iii_chloride_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["732C44845A4CE3F2"]
+			id: "5E76A29C52B21F83"
+			shape: "octagon"
+			size: 0.75d
+			tasks: [{
+				id: "0F8C935523C6F0B1"
+				item: "gtceu:sulfuric_acid_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5E76A29C52B21F83"]
+			id: "525BDA3BBA55DBDA"
+			size: 0.75d
+			tasks: [{
+				id: "48F440DE9CCF4706"
+				item: "gtceu:hydrochloric_acid_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["732C44845A4CE3F2"]
+			id: "2D83E5323B029311"
+			size: 0.75d
+			tasks: [{
+				id: "61486F6E0B9A9F5A"
+				item: "gtceu:rubber_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["684E9CD189ACC2D0"]
+			id: "236DAC107E3339B1"
+			size: 0.75d
+			tasks: [{
+				id: "4CC1DFB5C47FF928"
+				item: "gtceu:lv_fluid_solidifier"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2D83E5323B029311"
+				"236DAC107E3339B1"
+			]
+			id: "003E3A35D16F840F"
+			size: 0.75d
+			tasks: [{
+				id: "7C25B4F770B424A3"
+				item: "gtceu:rubber_plate"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"0A30CCFFB2BFB567"
+				"02BCB69D9A411227"
+			]
+			id: "1CFD6454C50C67FA"
+			size: 0.75d
+			tasks: [{
+				id: "7EDD5CC324C8BC94"
+				item: "gtceu:diode"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"684E9CD189ACC2D0"
+				"7ECACB03A401C050"
+			]
+			id: "455702BF8CBCEF89"
+			size: 0.75d
+			tasks: [{
+				id: "50A1A78E33A361F4"
+				item: "gtceu:lv_mixer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["684E9CD189ACC2D0"]
+			id: "788A8219CFF02CA5"
+			size: 0.75d
+			tasks: [{
+				id: "4C035DF6B2D7954D"
+				item: "gtceu:lv_centrifuge"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["788A8219CFF02CA5"]
+			id: "17DCE62BAABC30FE"
+			size: 0.75d
+			tasks: [{
+				id: "0E0BA12743E8B62F"
+				item: "gtceu:glue_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["236DAC107E3339B1"]
+			id: "6B1D380868501723"
+			size: 0.75d
+			tasks: [{
+				id: "35E6EDF026EBF1C9"
+				item: "gtceu:rotor_casting_mold"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6B1D380868501723"]
+			id: "7A82638DE1C21C3F"
+			size: 0.75d
+			tasks: [{
+				id: "10DABC0B056C6759"
+				item: "gtceu:tin_rotor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"788A8219CFF02CA5"
+				"1E0EFEC39F4BE166"
+			]
+			dependency_requirement: "one_completed"
+			id: "00FDD61CD0734DCD"
+			size: 0.75d
+			tasks: [{
+				id: "7C5001EA05214772"
+				item: "gtceu:oxygen_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00FDD61CD0734DCD"]
+			id: "1D4C793468A72AE7"
+			size: 0.75d
+			tasks: [{
+				id: "3A998F63D8B4D5C8"
+				item: "gtceu:lv_arc_furnace"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1D4C793468A72AE7"]
+			id: "743BC8C9FCC8D928"
+			size: 0.75d
+			tasks: [{
+				id: "3BDA0520B20EE492"
+				item: "gtceu:annealed_copper_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"455702BF8CBCEF89"
+				"788A8219CFF02CA5"
+			]
+			id: "02BCB69D9A411227"
+			size: 0.75d
+			tasks: [{
+				id: "57D03DBB5DACDCD0"
+				item: "gtceu:gallium_arsenide_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1D4C793468A72AE7"]
+			id: "291ACCE334CDD204"
+			size: 0.75d
+			tasks: [{
+				id: "6DC24DF64F73A72E"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			title: "Better Wrought Iron"
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3FA0C8E967B390B0"]
+			description: [
+				"Why do I need this distillery?"
+				""
+				"Well, GT oil and TFMG oil aren't the same, so you must convert it first, sorry..."
+			]
+			id: "4846E3AC3057899B"
+			size: 0.75d
+			tasks: [{
+				id: "6940510EB45F9DD2"
+				item: "gtceu:lv_distillery"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["684E9CD189ACC2D0"]
+			id: "1E0EFEC39F4BE166"
+			size: 0.75d
+			tasks: [{
+				id: "7A18A06922F95A49"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4846E3AC3057899B"]
+			description: ["Ah finally, some real black gold!"]
+			id: "38C7A5A60DE6E106"
+			shape: "hexagon"
+			size: 0.75d
+			tasks: [{
+				id: "5EFE482E16918A16"
+				item: "tfmg:crude_oil_fluid_bucket"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0A3F99A1EF229CCE"]
+			id: "3FDBC5D2609B5CCB"
+			size: 0.75d
+			tasks: [{
+				id: "61CC9A582501EAD4"
+				item: "gtceu:prospector.lv"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2839354159524FE2"]
+			id: "59BB8B6ADAD43339"
+			size: 0.75d
+			tasks: [{
+				id: "0669A31231FE7B2F"
+				item: "gtceu:lv_miner"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0F473004BDE8A486"]
+			id: "0FED9C2C363B7A86"
+			size: 0.75d
+			tasks: [{
+				id: "012D6CCF03CDDA9D"
+				item: "gtceu:silicon_boule"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A30CCFFB2BFB567"]
+			description: ["With the assembler, you can now make cables with liquid rubber instead of making sheets first"]
+			id: "0F09E0BBC009A78B"
+			size: 0.75d
+			tasks: [{
+				id: "43B44CB09750A19F"
+				item: "gtceu:tin_quadruple_cable"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7ECACB03A401C050"]
+			description: [
+				"With a good amount of steel, you can start your oil toil. "
+				""
+				"I gave you a whole chapter where you can investigate how to get to what products that you want to make."
+			]
+			icon: "tfmg:crude_oil_fluid_bucket"
+			id: "3FA0C8E967B390B0"
+			size: 0.75d
+			tasks: [
+				{
+					id: "0C50ED5E70C3B5DA"
+					item: "tfmg:pumpjack_crank"
+					type: "item"
+				}
+				{
+					id: "5F1F3F98BA451673"
+					item: "tfmg:pumpjack_hammer_head"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "5EF341F574AE78D9"
+					item: "tfmg:pumpjack_hammer_part"
+					type: "item"
+				}
+				{
+					id: "621B970C6D7D9393"
+					item: "tfmg:pumpjack_hammer_connector"
+					type: "item"
+				}
+				{
+					id: "70CEF87E120FA1CC"
+					item: "tfmg:pumpjack_base"
+					type: "item"
+				}
+				{
+					id: "037728AD6B017EDC"
+					item: "tfmg:pumpjack_hammer"
+					type: "item"
+				}
+				{
+					id: "426D42202BA621E5"
+					item: "tfmg:machine_input"
+					type: "item"
+				}
+				{
+					id: "4F279854AB9074AB"
+					item: {
+						Count: 1b
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Pumpjack"
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0F473004BDE8A486"]
+			id: "2B8966EB05C92F98"
+			shape: "octagon"
+			size: 0.75d
+			tasks: [{
+				id: "312C324568E3B2F3"
+				item: "gtceu:redstone_alloy_single_wire"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"79F35DAA01A154B9"
+				"684E9CD189ACC2D0"
+			]
+			id: "345C604165A797F7"
+			shape: "pentagon"
+			size: 0.75d
+			tasks: [{
+				id: "756727F1CC3F4009"
+				item: "gtceu:bronze_large_boiler"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F473004BDE8A486"]
+			description: [
+				"With some oxygen and 4 amps of lv power, you can make steel in the EBF in only 25 seconds per ingot!"
+				""
+				"Let's be real, I know that you weren't using the wrought iron and coke recipe in the PBF, you were probably just throwing iron and charcoal in..."
+			]
+			id: "36E0A24E518B0CAD"
+			size: 0.75d
+			tasks: [{
+				id: "31D6F480F5736617"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			title: "Better Steel"
+			x: 7.0d
+			y: 4.0d
+		}
+	]
+	title: "Lv Age"
+}

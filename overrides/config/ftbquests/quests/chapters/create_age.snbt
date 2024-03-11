@@ -1,0 +1,696 @@
+{
+	autofocus_id: "0F6B6479A8529BD2"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_age"
+	group: "525E608ED23BAD1F"
+	icon: "create:andesite_casing"
+	id: "15B5E090F479155C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2F7CFB679D7A9350"]
+			id: "518744B43DD55B4D"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "2DE9C8B0B12C1849"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["518744B43DD55B4D"]
+			id: "7B3581FCBF20F163"
+			tasks: [{
+				count: 8L
+				id: "07CF7D88040F6F40"
+				item: { Count: 8b, id: "create:shaft" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"365710CA452DFB41"
+				"7B3581FCBF20F163"
+			]
+			icon: "create:cogwheel"
+			id: "4AEB55A92229EA6F"
+			tasks: [
+				{
+					count: 4L
+					id: "524469433F036CF6"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "40CB17FF9BE2D458"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4AEB55A92229EA6F"]
+			id: "41B8910A54BA4210"
+			tasks: [{
+				count: 4L
+				id: "63373B3386A2AE9D"
+				item: { Count: 4b, id: "create:belt_connector" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4AEB55A92229EA6F"]
+			description: ["For now this is how you will generate kinetic energy unless you like turning cranks...."]
+			icon: "create:windmill_bearing"
+			id: "2C85B125BAEF65A3"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "7539BDAEC26CD2CB"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1E62E4586FB38E04"
+					item: { Count: 8b, id: "create:white_sail" }
+					type: "item"
+				}
+			]
+			title: "Wind Power"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["518744B43DD55B4D"]
+			icon: "create:hand_crank"
+			id: "10662D01B89030A9"
+			require_sequential_tasks: false
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "5C0BD3EEC1A0A2E2"
+					item: "create:hand_crank"
+					type: "item"
+				}
+				{
+					id: "3EFA0B6F921D043A"
+					item: "create:copper_valve_handle"
+					type: "item"
+				}
+			]
+			title: "Manual Power"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["518744B43DD55B4D"]
+			description: ["You will need a lot of these materials going forward, and no, the recipies won't get better until the LV age, so I suggest doing some bulk crafting."]
+			icon: "gtceu:wood_gear"
+			id: "365710CA452DFB41"
+			tasks: [
+				{
+					count: 64L
+					id: "0E4A5C2F2F0D83A2"
+					item: "gtceu:small_wood_gear"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "34E723F4878CD82B"
+					item: "gtceu:wood_gear"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "7FDBC9632DAEDE48"
+					item: "gtceu:andesite_alloy_screw"
+					type: "item"
+				}
+			]
+			title: "Some key materials"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"365710CA452DFB41"
+				"4AEB55A92229EA6F"
+			]
+			description: [
+				"Your first real machines, you'll need a few of each if you want to create production lines, which I would reccomend as it'll make things easier."
+				""
+				""
+				"Due to the Create:Casing mod, you can right-click any Create machine to change it's casing with another casing type. You even get to keep the casing!"
+			]
+			id: "576E2F40DEF76344"
+			shape: "octagon"
+			tasks: [
+				{
+					id: "73C098AFD6AC02AF"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "230B60607C9CCD1B"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "434076EF87369054"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "28EC13BA6E058AAE"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["576E2F40DEF76344"]
+			id: "5D543CB93A9280B1"
+			tasks: [{
+				id: "2E69345E197F8392"
+				item: "gtceu:compressed_coke_clay"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["365710CA452DFB41"]
+			hide_dependent_lines: true
+			icon: "create:encased_fan"
+			id: "25563EB0D3B172D1"
+			tasks: [
+				{
+					id: "66F7D92C462934BF"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					id: "29A48D4659F88745"
+					item: "create_connected:empty_fan_catalyst"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"25563EB0D3B172D1"
+				"5D543CB93A9280B1"
+			]
+			id: "78F515CD1306B155"
+			tasks: [{
+				id: "503DCBB09DDFE677"
+				item: "gtceu:coke_oven_brick"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"25563EB0D3B172D1"
+				"606DA6A53D1E2C79"
+			]
+			id: "5468ECF42040C129"
+			tasks: [{
+				id: "32EF712A9F48BD2B"
+				item: "minecraft:brick"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["78F515CD1306B155"]
+			icon: "gtceu:coke_oven"
+			id: "392ACD047179A5D8"
+			tasks: [
+				{
+					id: "2B5E7E9BA09084D0"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "23A3D57F4AFE8945"
+					item: { Count: 16b, id: "gtceu:coke_gem" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["392ACD047179A5D8"]
+			icon: "gtceu:coke_oven"
+			id: "6E3CD9EF8D2F90DC"
+			tasks: [
+				{
+					count: 3L
+					id: "163ECEBB20BB66F6"
+					item: "gtceu:coke_oven"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6CCBB4BBAE66FCB4"
+					item: { Count: 4b, id: "gtceu:coke_oven_hatch" }
+					type: "item"
+				}
+			]
+			title: "Coke Oven Upgrades"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["518744B43DD55B4D"]
+			hide_dependency_lines: true
+			id: "72A7E79D2BF58883"
+			tasks: [{
+				id: "0F852B98B1B28B8E"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"72A7E79D2BF58883"
+				"4AEB55A92229EA6F"
+			]
+			id: "39913C4EB821EEAF"
+			tasks: [{
+				id: "69738412936CCB84"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["72A7E79D2BF58883"]
+			id: "2BCE33B1C25758FC"
+			tasks: [
+				{
+					id: "080FC0EB40D193E0"
+					item: "create:spout"
+					type: "item"
+				}
+				{
+					id: "06BA23E5AF02CCFA"
+					item: "create:item_drain"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2BCE33B1C25758FC"
+				"3BB723ACE6619C1E"
+			]
+			id: "4E68C8330998DB20"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "3247EF41DD277B8B"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"2BCE33B1C25758FC"
+				"576E2F40DEF76344"
+			]
+			id: "3BB723ACE6619C1E"
+			tasks: [{
+				id: "0843483B4E1EE15E"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4E68C8330998DB20"
+				"6D3322D2FFCBEB8C"
+				"38747E7B7CB63D8D"
+			]
+			id: "1928A0F6075A46AC"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "6E4B536CC0716604"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"4E68C8330998DB20"
+				"576E2F40DEF76344"
+			]
+			id: "35F0F173EF427B4F"
+			tasks: [
+				{
+					id: "6A048218C961480E"
+					item: "create:chute"
+					type: "item"
+				}
+				{
+					id: "4EF4FAFA68767864"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+				{
+					id: "59B61442DDC85C8A"
+					item: "create:andesite_tunnel"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1928A0F6075A46AC"
+				"35F0F173EF427B4F"
+				"6D3322D2FFCBEB8C"
+			]
+			id: "32868E00D20F376B"
+			tasks: [
+				{
+					id: "3CBFDF8BBFF0C8FF"
+					item: "create:smart_chute"
+					type: "item"
+				}
+				{
+					id: "3D369ADDB1CBE494"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+				{
+					id: "33CCBBBDD248A28B"
+					item: "create:brass_tunnel"
+					type: "item"
+				}
+				{
+					id: "007DC413022804EF"
+					item: "create:mechanical_arm"
+					type: "item"
+				}
+				{
+					id: "72502D1FD848A484"
+					item: "create:deployer"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2BCE33B1C25758FC"
+				"392ACD047179A5D8"
+			]
+			hide_dependency_lines: true
+			id: "7B7972A45D7832ED"
+			tasks: [{
+				id: "10A69A28D3CE95F3"
+				item: "gtceu:treated_wood_planks"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B7972A45D7832ED"]
+			description: ["This doesn't produce much now, but later you can upgrade it in the lv age and again in the mv age with lv and mv output hatches."]
+			icon: "gtceu:primitive_pump"
+			id: "16097A516149B5E3"
+			tasks: [
+				{
+					id: "1529D817E61794DC"
+					item: "gtceu:primitive_pump"
+					type: "item"
+				}
+				{
+					id: "7FA3653994DE4299"
+					item: "gtceu:pump_hatch"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "4B8A11BB586DA273"
+					item: "gtceu:pump_deck"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "161CFA4EC0EC5045"
+					item: "gtceu:treated_wood_frame"
+					type: "item"
+				}
+			]
+			title: "Early Infinite Water"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1928A0F6075A46AC"
+				"235E8244B5B522FF"
+			]
+			id: "07B9229EA02A6C1E"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "1B381D651FA22E6E"
+				item: "tfmg:steel_mechanism"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["576E2F40DEF76344"]
+			id: "606DA6A53D1E2C79"
+			tasks: [{
+				id: "27C876B3DD144262"
+				item: "gtceu:compressed_clay"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6D3322D2FFCBEB8C"]
+			description: ["Yes, you have been able to make these before now, but they weren't useful, so I didn't ask for one."]
+			id: "48DC0E7A6ADBFFCE"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "0BF7117703B8D85D"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4E5F6BF9EF55DC13"]
+			icon: "gtceu:bronze_machine_casing"
+			id: "54D5926072B165D5"
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "6B3AECE0967B849C"
+					item: "gtceu:bronze_machine_casing"
+					type: "item"
+				}
+				{
+					id: "6039EEB316AF50B6"
+					item: "gtceu:bronze_brick_casing"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["576E2F40DEF76344"]
+			id: "0F6B6479A8529BD2"
+			tasks: [{
+				id: "60F928D1D1BB6C16"
+				item: "createlowheated:charcoal_burner"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0F6B6479A8529BD2"]
+			id: "235E8244B5B522FF"
+			tasks: [{
+				id: "499FBDCB3A5C20DE"
+				item: "gtceu:poor_steel_ingot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0F6B6479A8529BD2"]
+			id: "6D3322D2FFCBEB8C"
+			tasks: [{
+				id: "5052AE665D6CB435"
+				item: "gtceu:brass_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0F6B6479A8529BD2"]
+			id: "4E5F6BF9EF55DC13"
+			tasks: [{
+				id: "4579ED4ED462F453"
+				item: "gtceu:bronze_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["07B9229EA02A6C1E"]
+			id: "78E7CCFA9B401E69"
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "5F47AB0D5356B1A9"
+				item: "gtceu:ulv_machine_hull"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["48DC0E7A6ADBFFCE"]
+			id: "38747E7B7CB63D8D"
+			tasks: [{
+				id: "07A2F8204D1E941A"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5468ECF42040C129"]
+			id: "36C838DF116F3DC6"
+			shape: "hexagon"
+			tasks: [{
+				id: "0D72FE3B6E8D7DCA"
+				item: "minecraft:bricks"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38747E7B7CB63D8D"]
+			id: "72092B24E1356AA6"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "2AE9FBBE4F28475B"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "6C2ECE24514B7FB5"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["72A7E79D2BF58883"]
+			id: "6010D47FC93874BE"
+			tasks: [{
+				id: "6FDDD1D29CC1BE3B"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"72A7E79D2BF58883"
+				"4E68C8330998DB20"
+			]
+			id: "395FE02FF61A1EAF"
+			tasks: [{
+				id: "75698E9152ADF0F7"
+				item: "create:smart_fluid_pipe"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["392ACD047179A5D8"]
+			icon: "gtceu:coke_gem"
+			id: "6C664AC541F96CF6"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "0CE66CF43A32B086"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+				{
+					id: "34B01ABC1BA02234"
+					item: "gtceu:coke_gem"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -1.0d
+		}
+	]
+	title: "Create Age"
+}

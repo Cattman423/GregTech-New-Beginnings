@@ -1,0 +1,7 @@
+
+##Charcoal Burner Requirements
+[charcoal_burner]
+	#How much more a burner consumes when empowered by a maxed encased fan.
+	#Range: > 1
+	fanMultiplier = 100
+

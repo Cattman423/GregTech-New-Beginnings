@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "525E608ED23BAD1F", title: "Ages" }
+		{ id: "4E8777506C4F26CC", title: "Extras" }
+		{ id: "41910268CB9EDE34", title: "Tools and Equipment" }
+		{ id: "29D9E440AAB8AE92", title: "Farming and Resource Generation" }
+	]
+}

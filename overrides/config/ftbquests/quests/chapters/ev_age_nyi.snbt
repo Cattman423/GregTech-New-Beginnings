@@ -1,0 +1,24 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ev_age_nyi"
+	group: "525E608ED23BAD1F"
+	icon: "gtceu:ev_machine_hull"
+	id: "68BE8C9E324FEE7D"
+	order_index: 6
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["7E4816E87F55B828"]
+		id: "1686B7B896DF8FC3"
+		shape: "gear"
+		size: 2.0d
+		tasks: [{
+			id: "03896D5FD99FFD75"
+			item: "gtceu:ev_machine_hull"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Ev Age [WIP]"
+}

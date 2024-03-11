@@ -1,0 +1,806 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "passive_production_lines"
+	group: "29D9E440AAB8AE92"
+	icon: "minecraft:clock"
+	id: "3E9F0372673B0561"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7EA08C5D472AB4C2"]
+			id: "60874268A13AA207"
+			tasks: [{
+				id: "5A9C7915E46E66FD"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"7EA08C5D472AB4C2"
+				"4BC1E440EB2FFC04"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Made either with a Create cobble gen, or a GT rock crusher."]
+			id: "3B5DA0168930F578"
+			tasks: [{
+				id: "4D14F4852754EDC4"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2A211CF31866A27A"]
+			id: "7EA08C5D472AB4C2"
+			tasks: [{
+				id: "0C7E05AD09DC7553"
+				item: "gtceu:lp_steam_rock_crusher"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4D06BFC13684CBC7"]
+			id: "4797C1E9E2BFBBCB"
+			tasks: [{
+				id: "017B7DD10E5B0CD0"
+				item: "minecraft:diorite"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4D06BFC13684CBC7"]
+			id: "457D076A64CAF940"
+			tasks: [{
+				id: "218D73B4DEF92FA8"
+				item: "minecraft:granite"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4D06BFC13684CBC7"]
+			id: "1D0F11EB6355C7FD"
+			tasks: [{
+				id: "411CE1AF325E3758"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["022992D132A0423F"]
+			id: "4D06BFC13684CBC7"
+			tasks: [{
+				id: "32779ED050698BE4"
+				item: "gtceu:mv_rock_crusher"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4E68C8330998DB20"]
+			id: "4BC1E440EB2FFC04"
+			tasks: [{
+				id: "54361AF75F7E8115"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3B5DA0168930F578"]
+			description: ["Crush cobblestone in a millstone, or hit it with a forge hammer."]
+			id: "08DED41F5DFD399A"
+			tasks: [{
+				id: "1119A9947C4897EE"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["08DED41F5DFD399A"]
+			description: ["Wash gravel with your Create washing machine."]
+			id: "169605B4F5212864"
+			tasks: [{
+				id: "51D62FE57A52B60F"
+				item: "minecraft:iron_nugget"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["169605B4F5212864"]
+			description: ["Once you have an alloy smelter, you can combine those nuggets to get ingots."]
+			id: "1E6E50FCA616A051"
+			shape: "octagon"
+			tasks: [{
+				id: "49A28B3BA42A4F2B"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3B5DA0168930F578"]
+			description: ["You can either make a vanilla lava gen using cauldrons and dripstone, or mix cobblestone over a superheated blaze burner."]
+			id: "365F1BE4724EA2CA"
+			tasks: [{
+				id: "062FD04006950757"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"365F1BE4724EA2CA"
+				"1E6E50FCA616A051"
+			]
+			description: [
+				"With those iron ingots and lava, you can automate wrought iron."
+				""
+				"But if you have an arc furnace and oxygen production, you can take that route instead."
+			]
+			id: "511403DA5AE4AD16"
+			shape: "octagon"
+			tasks: [{
+				id: "098D72A223DE4ECE"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"1E6E50FCA616A051"
+				"629B901411D1D7AB"
+			]
+			description: ["Now that you have passive iron and passive charcoal, you may as well make passive steel."]
+			id: "30609A8FF7ABFD7C"
+			shape: "gear"
+			tasks: [{
+				id: "4CB96881F5AF7D4F"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["70C1B095678749B2"]
+			description: ["...like get passove charcoal and creosote."]
+			id: "629B901411D1D7AB"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "0CACC6112FF63D27"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+				{
+					id: "67731F104A5412A1"
+					item: "gtceu:creosote_bucket"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["143D71D292CF9921"]
+			description: ["Now you have passive wood, there's a lot that you can do..."]
+			id: "70C1B095678749B2"
+			tasks: [{
+				id: "411DA6F672935BAB"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["4E68C8330998DB20"]
+			description: ["Make a Create tree farm and save materials on axes!"]
+			id: "143D71D292CF9921"
+			tasks: [
+				{
+					id: "093E5EF483661EDB"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "3B6E78BD9008C3B1"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					id: "2B6A46B1DC7CE507"
+					item: "create:mechanical_bearing"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["08DED41F5DFD399A"]
+			description: ["You can get sand from throwing gravel into crushing wheels or a forge hammer. The crushing wheels will get you some nice byproducts, but need more space."]
+			id: "6074D198B853493D"
+			tasks: [{
+				id: "45EEB59CED75B2A1"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6074D198B853493D"
+				"3C12757F291A4082"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"With an electrolyzer you can turn sand into silicon dioxide dust."
+				""
+				"Or, if you turned that sand into glass dust, you can centrifuge it into silicon dioxide dust."
+			]
+			id: "759F3064FF6C312F"
+			tasks: [{
+				id: "50B8B79C63C3908D"
+				item: "gtceu:silicon_dioxide_dust"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6074D198B853493D"]
+			description: ["You can also wash that sand into clay."]
+			id: "3F70E3B252437E28"
+			tasks: [{
+				id: "0D8CE6720C7A427F"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6074D198B853493D"]
+			description: ["Or with oxygen and an arc furnace, make glass."]
+			id: "6D1E9E60DC153928"
+			tasks: [{
+				id: "04BDDC5A3EDE0E4B"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F70E3B252437E28"]
+			description: ["You can turn that clay into bricks, or mix it with sand and get more coke oven bricks!"]
+			id: "6DCD8F0381DD6AF1"
+			tasks: [{
+				id: "48B93DAD6F4D6A20"
+				item: "minecraft:brick"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6D1E9E60DC153928"]
+			description: ["There's a lot you can do with glass, but we're turning it into dust."]
+			id: "3C12757F291A4082"
+			tasks: [{
+				id: "7CAF131D100C1ED3"
+				item: "gtceu:glass_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["759F3064FF6C312F"]
+			description: ["Run that silicon dioxide dust through another electrolyzer to get silicon dust and oxygen."]
+			id: "0010FA7DD4491F6C"
+			shape: "octagon"
+			tasks: [
+				{
+					id: "5D18F051A8E0EA91"
+					item: "gtceu:silicon_dust"
+					type: "item"
+				}
+				{
+					id: "39838644B551F111"
+					item: "gtceu:oxygen_bucket"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["457D076A64CAF940"]
+			description: ["You can run granite through some crushing wheels to get red sand."]
+			id: "225B31F6EF931FC1"
+			tasks: [{
+				id: "40B8F95063C5290F"
+				item: "minecraft:red_sand"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1463D0B7305C3119"]
+			id: "2BB6A2429850C9F6"
+			tasks: [{
+				id: "3E94670DADF0A84C"
+				item: "minecraft:basalt"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1463D0B7305C3119"]
+			id: "4F3CFFC4BF193758"
+			tasks: [{
+				id: "54636CF641FE2F09"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1463D0B7305C3119"]
+			id: "40807F29BC37E96F"
+			tasks: [{
+				id: "0EDE290428EEB9D6"
+				item: "minecraft:blackstone"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6DFF476463BE46A1"]
+			id: "1463D0B7305C3119"
+			tasks: [{
+				id: "2E39560C0D29FDC2"
+				item: "gtceu:hv_rock_crusher"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["373F16A9E0E83CA5"]
+			id: "080438D371FE0A2F"
+			tasks: [{
+				id: "413D10B35F579AEF"
+				item: "minecraft:deepslate"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1463D0B7305C3119"]
+			id: "373F16A9E0E83CA5"
+			tasks: [{
+				id: "292664585684F253"
+				item: "gtceu:ev_rock_crusher"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"6074D198B853493D"
+				"225B31F6EF931FC1"
+			]
+			dependency_requirement: "one_completed"
+			description: ["You can haunt either red sand, or regular sand to get soul sand"]
+			id: "17648EC777D68614"
+			tasks: [{
+				id: "080724753729F202"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["17648EC777D68614"]
+			description: ["Wash soul sand to get gold nuggets and nether quartz."]
+			id: "0534956947D30D4E"
+			tasks: [
+				{
+					id: "1DCA42E9743336EF"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					id: "52C8411BA13F4BA9"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["225B31F6EF931FC1"]
+			description: ["Wash red sand to get gold nuggets and dead bushes."]
+			id: "148EBE7B14CC8F1F"
+			tasks: [
+				{
+					id: "586211DB5D01E11D"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "2B6B54906CFB8C1D"
+					item: "minecraft:dead_bush"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4D06BFC13684CBC7"]
+			id: "3F7E4D812AFFCE65"
+			tasks: [{
+				id: "3359C5CF9C6D4F20"
+				item: "minecraft:tuff"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3F7E4D812AFFCE65"]
+			description: ["Run some tuff through crushing wheels to get copper, zinc, iron, and gold nuggets, as well as flint."]
+			id: "2130CCDFCEC1C761"
+			tasks: [
+				{
+					id: "357CDBE1E4D77398"
+					item: "gtceu:zinc_nugget"
+					type: "item"
+				}
+				{
+					id: "0B329867B129CC84"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+				{
+					id: "32EFA040C5D13612"
+					item: "gtceu:copper_nugget"
+					type: "item"
+				}
+				{
+					id: "09C14D28035C35E3"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					id: "77DA2198F31E03AF"
+					item: "minecraft:flint"
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"1D0F11EB6355C7FD"
+				"2130CCDFCEC1C761"
+			]
+			description: ["Now that you have andesite and zinc, you can make andesite alloy."]
+			id: "4755D347068CCF31"
+			shape: "octagon"
+			tasks: [{
+				id: "69BD40741E578985"
+				item: "gtceu:andesite_alloy_ingot"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4797C1E9E2BFBBCB"]
+			description: ["Crush diorite to get nether quartz."]
+			id: "6D43BCD3EDCE3F77"
+			tasks: [{
+				id: "4EB52D2D84371E04"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1463D0B7305C3119"]
+			id: "65578FAFE16F3015"
+			tasks: [{
+				id: "41C7FDB7FA0BA1C7"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["65578FAFE16F3015"]
+			description: ["Macerate netherrack to get netherrack dust, and a chance of gold nuggets."]
+			id: "262D49E08E902525"
+			tasks: [{
+				id: "46472EE7393B34DC"
+				item: "gtceu:netherrack_dust"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["262D49E08E902525"]
+			description: ["Centrifuge that netherrack dust to get redstone dust, gold dust, sulfur dust, and coal dust."]
+			id: "57A5B7682DDE529B"
+			tasks: [
+				{
+					id: "5A500D9EE8C6DB9D"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "5E91551D9A040BC7"
+					item: "gtceu:gold_dust"
+					type: "item"
+				}
+				{
+					id: "4DC6C34707A5BBB8"
+					item: "gtceu:sulfur_dust"
+					type: "item"
+				}
+				{
+					id: "49EA30AB06497F30"
+					item: "gtceu:coal_dust"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["080438D371FE0A2F"]
+			description: ["Macerate deepslate to get deepslate dust and a small chance of thorium dust."]
+			id: "1BC3A2A57A91222B"
+			tasks: [
+				{
+					id: "252EBC1026F92EA7"
+					item: "gtceu:deepslate_dust"
+					type: "item"
+				}
+				{
+					id: "29862077C1051157"
+					item: "gtceu:thorium_dust"
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["1BC3A2A57A91222B"]
+			description: ["Centrifuge the deepslate dust to get more silicon dioxide and a little bit of biotite dust."]
+			id: "2F7607C9DDE65CD2"
+			tasks: [
+				{
+					id: "5035F1409A5D41D2"
+					item: "gtceu:biotite_dust"
+					type: "item"
+				}
+				{
+					id: "7E1AFEC76816AA58"
+					item: "gtceu:silicon_dioxide_dust"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2F7607C9DDE65CD2"]
+			description: ["Electrolize that biotite to get silicon, aluminium, magnesium, potassium, oxygen, and fluorine."]
+			id: "262AC51A7F58C288"
+			tasks: [
+				{
+					id: "3252D573D59A4BE8"
+					item: "gtceu:silicon_dust"
+					type: "item"
+				}
+				{
+					id: "751B6F5FC7606604"
+					item: "gtceu:magnesium_dust"
+					type: "item"
+				}
+				{
+					id: "50CBBFF6F29A8156"
+					item: "gtceu:potassium_dust"
+					type: "item"
+				}
+				{
+					id: "70690B237A268E1D"
+					item: "gtceu:aluminium_dust"
+					type: "item"
+				}
+				{
+					id: "1680A0DD6B893007"
+					item: "gtceu:oxygen_bucket"
+					type: "item"
+				}
+				{
+					id: "35AAE4F85A8D7C9B"
+					item: "gtceu:fluorine_bucket"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"3F70E3B252437E28"
+				"4797C1E9E2BFBBCB"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Compact the clay into blocks, then macerate it to get clay dust."
+				""
+				"Or you can macerate diorite and centrifuge out some clay from the miralibite."
+			]
+			id: "03D513C82A0CDA87"
+			tasks: [{
+				id: "0DF8D10362E14F49"
+				item: "gtceu:clay_dust"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["03D513C82A0CDA87"]
+			description: ["Electrolize that clay dust in Mv to get aluminium, silicon, sodium, lithium, and some water."]
+			id: "26A41A1478712EB1"
+			shape: "octagon"
+			tasks: [
+				{
+					id: "10A33FC14CD20D02"
+					item: "gtceu:aluminium_dust"
+					type: "item"
+				}
+				{
+					id: "6B8884D974EC3707"
+					item: "gtceu:sodium_dust"
+					type: "item"
+				}
+				{
+					id: "171034D0B0A95ADD"
+					item: "gtceu:lithium_dust"
+					type: "item"
+				}
+				{
+					id: "431DC3619699F78C"
+					item: "gtceu:silicon_dust"
+					type: "item"
+				}
+				{
+					id: "19078F4A9274A361"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["03D513C82A0CDA87"]
+			description: ["There are many ways to get liquid concrete, but the cheapest way is to mix water, stone dust, and clay dust."]
+			id: "6CF6103D3DC4305A"
+			tasks: [{
+				id: "03590D26D6FF578F"
+				item: "gtceu:concrete_bucket"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2130CCDFCEC1C761"]
+			description: ["You can take that copper and some oxygen and get annealed copper."]
+			id: "7962FA5CC1B433B8"
+			tasks: [{
+				id: "40DFE82D7880BE2E"
+				item: "gtceu:annealed_copper_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["629B901411D1D7AB"]
+			description: ["You can distill the creosote down into lubricant."]
+			id: "4AA5D7EB5093CFCE"
+			tasks: [{
+				id: "28C35DD77BA95976"
+				item: "gtceu:lubricant_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"70C1B095678749B2"
+				"629B901411D1D7AB"
+			]
+			description: ["You can run your charcoal through an extractor, or you can make charcoal in a pyrolyse oven, both of these will net you wood tar."]
+			id: "1162E9DD9DAB8270"
+			tasks: [{
+				id: "3271EE08C68F6B64"
+				item: "gtceu:wood_tar_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1162E9DD9DAB8270"]
+			description: [
+				"You can distill your wood tar into several byproducts, but I would suggest benzene."
+				""
+				"One milibucket of benzene is 352 eu, one whole bucket is worth 352000 eu."
+				""
+				"The only gas better than benzene, is nitrobenzene, worth 1280 eu per mb, and burning at a little over half the burn rate too!"
+			]
+			id: "1E5ECDDF3D925B74"
+			shape: "pentagon"
+			tasks: [{
+				id: "72E84DDA286B576A"
+				item: "gtceu:benzene_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.0d
+		}
+	]
+	title: "Passive Production Lines [WIP]"
+}

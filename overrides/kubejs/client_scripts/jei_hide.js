@@ -1,0 +1,20 @@
+JEIEvents.hideItems(event => {
+    event.hide([
+        'fluidtank:tank_copper',
+        'fluidtank:tank_emerald',
+        'fluidtank:tank_star',
+        'fluidtank:creative',
+        'fluidtank:tank_void',
+        'fluidtank:chest_as_tank',
+        'fluidtank:reservoir_wood',
+        'fluidtank:reservoir_stone',
+        'fluidtank:reservoir_iron',
+        'create:propeller',
+        'tfmg:coke_oven',
+        'tfmg:cast_iron_ingot',
+        'tfmg:steel_frame',
+        'ironchests:blank_chest_upgrade',
+        'gtceu:iv_processing_array',
+        'gtceu:luv_processing_array'
+    ])
+  })

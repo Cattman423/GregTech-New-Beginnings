@@ -1,0 +1,330 @@
+
+#----------------------------------------|| Food settings ||----------------------------------------
+[food_properties]
+
+	[food_properties.grape]
+		#Range: 1 ~ 20
+		grape_hunger = 4
+		#Range: 0.1 ~ 3.0
+		grape_saturation = 0.2
+
+	[food_properties.maize]
+		#Range: 1 ~ 20
+		maize_hunger = 6
+		#Range: 0.1 ~ 3.0
+		maize_saturation = 1.0
+
+	[food_properties.mulberry]
+		#Range: 1 ~ 20
+		mulberry_hunger = 1
+		#Range: 0.1 ~ 3.0
+		mulberry_saturation = 0.5
+
+#----------------------------------------|| Armor settings ||---------------------------------------
+[armor_properties]
+
+	[armor_properties.iron_plate]
+		#DurabilityFactor is multiplied with a value that depends on the armor part (between 11 and 16) to get the total durability :
+		#Range: 1 ~ 1000
+		iron_plate_durability_factor = 25
+		#Helmet damage reduction :
+		#Range: 1 ~ 100
+		iron_plate_defense_helmet = 3
+		#Chest damage reduction :
+		#Range: 1 ~ 100
+		iron_plate_defense_chest = 9
+		#Legs damage reduction :
+		#Range: 1 ~ 100
+		iron_plate_defense_legs = 7
+		#Feet damage reduction :
+		#Range: 1 ~ 100
+		iron_plate_defense_feet = 3
+		#This armor's enchantability :
+		#Range: 1 ~ 100
+		iron_plate_enchantability = 6
+		#This armor's toughness :
+		#Range: 0.0 ~ 100.0
+		iron_plate_toughness = 0.0
+
+	[armor_properties.holy]
+		#DurabilityFactor is multiplied with a value that depends on the armor part (between 11 and 16) to get the total durability :
+		#Range: 1 ~ 1000
+		holy_durability_factor = 40
+		#Helmet damage reduction :
+		#Range: 1 ~ 100
+		holy_defense_helmet = 4
+		#Chest damage reduction :
+		#Range: 1 ~ 100
+		holy_defense_chest = 10
+		#Legs damage reduction :
+		#Range: 1 ~ 100
+		holy_defense_legs = 8
+		#Feet damage reduction :
+		#Range: 1 ~ 100
+		holy_defense_feet = 4
+		#This armor's enchantability :
+		#Range: 1 ~ 100
+		holy_enchantability = 4
+		#This armor's toughness :
+		#Range: 0.0 ~ 100.0
+		holy_toughness = 2.0
+
+	[armor_properties.japanese_light]
+		#DurabilityFactor is multiplied with a value that depends on the armor part (between 11 and 16) to get the total durability :
+		#Range: 1 ~ 1000
+		japanese_light_durability_factor = 12
+		#Helmet damage reduction :
+		#Range: 1 ~ 100
+		japanese_light_defense_helmet = 2
+		#Chest damage reduction :
+		#Range: 1 ~ 100
+		japanese_light_defense_chest = 7
+		#Legs damage reduction :
+		#Range: 1 ~ 100
+		japanese_light_defense_legs = 6
+		#Feet damage reduction :
+		#Range: 1 ~ 100
+		japanese_light_defense_feet = 2
+		#This armor's enchantability :
+		#Range: 1 ~ 100
+		japanese_light_enchantability = 10
+		#This armor's toughness :
+		#Range: 0.0 ~ 100.0
+		japanese_light_toughness = 0.0
+
+	[armor_properties.o_yoroi]
+		#DurabilityFactor is multiplied with a value that depends on the armor part (between 11 and 16) to get the total durability :
+		#Range: 1 ~ 1000
+		o_yoroi_durability_factor = 20
+		#Helmet damage reduction :
+		#Range: 1 ~ 100
+		o_yoroi_defense_helmet = 3
+		#Chest damage reduction :
+		#Range: 1 ~ 100
+		o_yoroi_defense_chest = 8
+		#Legs damage reduction :
+		#Range: 1 ~ 100
+		o_yoroi_defense_legs = 6
+		#Feet damage reduction :
+		#Range: 1 ~ 100
+		o_yoroi_defense_feet = 3
+		#This armor's enchantability :
+		#Range: 1 ~ 100
+		o_yoroi_enchantability = 16
+		#This armor's toughness :
+		#Range: 0.0 ~ 100.0
+		o_yoroi_toughness = 2.0
+
+	[armor_properties.raijin]
+		#DurabilityFactor is multiplied with a value that depends on the armor part (between 11 and 16) to get the total durability :
+		#Range: 1 ~ 1000
+		raijin_durability_factor = 35
+		#Helmet damage reduction :
+		#Range: 1 ~ 100
+		raijin_defense_helmet = 3
+		#Chest damage reduction :
+		#Range: 1 ~ 100
+		raijin_defense_chest = 9
+		#Legs damage reduction :
+		#Range: 1 ~ 100
+		raijin_defense_legs = 7
+		#Feet damage reduction :
+		#Range: 1 ~ 100
+		raijin_defense_feet = 3
+		#This armor's enchantability :
+		#Range: 1 ~ 100
+		raijin_enchantability = 26
+		#This armor's toughness :
+		#Range: 0.0 ~ 100.0
+		raijin_toughness = 2.0
+
+	[armor_properties.centurion]
+		#DurabilityFactor is multiplied with a value that depends on the armor part (between 11 and 16) to get the total durability :
+		#Range: 1 ~ 1000
+		centurion_durability_factor = 22
+		#Helmet damage reduction :
+		#Range: 1 ~ 100
+		centurion_defense_helmet = 3
+		#Chest damage reduction :
+		#Range: 1 ~ 100
+		centurion_defense_chest = 7
+		#Legs damage reduction :
+		#Range: 1 ~ 100
+		centurion_defense_legs = 5
+		#Feet damage reduction :
+		#Range: 1 ~ 100
+		centurion_defense_feet = 3
+		#This armor's enchantability :
+		#Range: 1 ~ 100
+		centurion_enchantability = 10
+		#This armor's toughness :
+		#Range: 0.0 ~ 100.0
+		centurion_toughness = 3.0
+
+	[armor_properties.pharaoh]
+		#DurabilityFactor is multiplied with a value that depends on the armor part (between 11 and 16) to get the total durability :
+		#Range: 1 ~ 1000
+		pharaoh_durability_factor = 10
+		#Helmet damage reduction :
+		#Range: 1 ~ 100
+		pharaoh_defense_helmet = 3
+		#Chest damage reduction :
+		#Range: 1 ~ 100
+		pharaoh_defense_chest = 8
+		#Legs damage reduction :
+		#Range: 1 ~ 100
+		pharaoh_defense_legs = 6
+		#Feet damage reduction :
+		#Range: 1 ~ 100
+		pharaoh_defense_feet = 3
+		#This armor's enchantability :
+		#Range: 1 ~ 100
+		pharaoh_enchantability = 37
+		#This armor's toughness :
+		#Range: 0.0 ~ 100.0
+		pharaoh_toughness = 2.0
+
+	[armor_properties.anubis]
+		#DurabilityFactor is multiplied with a value that depends on the armor part (between 11 and 16) to get the total durability :
+		#Range: 1 ~ 1000
+		anubis_durability_factor = 25
+		#Helmet damage reduction :
+		#Range: 1 ~ 100
+		anubis_defense_helmet = 3
+		#Chest damage reduction :
+		#Range: 1 ~ 100
+		anubis_defense_chest = 8
+		#Legs damage reduction :
+		#Range: 1 ~ 100
+		anubis_defense_legs = 6
+		#Feet damage reduction :
+		#Range: 1 ~ 100
+		anubis_defense_feet = 3
+		#This armor's enchantability :
+		#Range: 1 ~ 100
+		anubis_enchantability = 52
+		#This armor's toughness :
+		#Range: 0.0 ~ 100.0
+		anubis_toughness = 3.0
+
+	[armor_properties.quetzalcoatl]
+		#DurabilityFactor is multiplied with a value that depends on the armor part (between 11 and 16) to get the total durability :
+		#Range: 1 ~ 1000
+		quetzalcoatl_durability_factor = 25
+		#Helmet damage reduction :
+		#Range: 1 ~ 100
+		quetzalcoatl_defense_helmet = 2
+		#Chest damage reduction :
+		#Range: 1 ~ 100
+		quetzalcoatl_defense_chest = 6
+		#Legs damage reduction :
+		#Range: 1 ~ 100
+		quetzalcoatl_defense_legs = 5
+		#Feet damage reduction :
+		#Range: 1 ~ 100
+		quetzalcoatl_defense_feet = 2
+		#This armor's enchantability :
+		#Range: 1 ~ 100
+		quetzalcoatl_enchantability = 20
+		#This armor's toughness :
+		#Range: 0.0 ~ 100.0
+		quetzalcoatl_toughness = 6.0
+
+#---------------------------------------|| Entity settings ||---------------------------------------
+[entity_properties]
+
+	[entity_properties.silkmoth]
+		#The probability to spawn a Silkmoth on a Mulberry each random tick is equal to 1/x, with x the following value :
+		#Range: 10 ~ 10000
+		silkmothSpawnChance = 400
+		#Range: 0 ~ 10
+		silkmothRotationMaxRange = 2
+		silkmothDiesAfterOneDay = true
+		#The probability to change the rotation point each tick is equal to 1/x, with x the following value :
+		#Range: 10 ~ 10000
+		silkmothRotationChange = 400
+		silkmothMute = false
+
+	[entity_properties.japanese_dragon]
+		#Range: 1 ~ 10000
+		japaneseDragonDefaultMaxHealth = 60
+		#Range: 1 ~ 100
+		japaneseDragonDefaultAttack = 4
+		japaneseDragonMute = false
+
+#---------------------------------------|| Block settings ||----------------------------------------
+[block_properties]
+
+	[block_properties.dryer]
+		#The drying time of an item is randomly set in an interval around the default time from the recipe. The following value defines the high bound of the interval in percents. IE, if you choose '20', the interval will be [ 83.3% , 120%]. If you chose '200', the interval will be [33.3% , 300%] :
+		#Range: 0 ~ 100000
+		dryingTimeVariationRange = 30
+
+	[block_properties.climbing_plant]
+		#The probability to grow is equal to 1/x, with x the following value :
+		#Range: 1 ~ 200
+		climbingPlantGrowthChance = 16
+		#If the plant could have grown (see climbingPlantGrowthChance), it has a probability to spread to an adjacent block equal to 1/x, with x the following value :
+		#Range: 1 ~ 1000
+		climbingPlantSpreadChance = 5
+
+	[block_properties.stick_bundle]
+		#Worms have a probability to grow on random tick equal to 1/x, with x the following value :
+		#Range: 1 ~ 1000
+		stickBundleGrowthChance = 25
+
+#----------------------------------|| World generation settings ||----------------------------------
+[world_generation]
+
+	[world_generation.camellia]
+		#List of biomes where this plant should spawn during world generation (must be empty if the plant must not spawn :
+		camelliaBiomes = ["minecraft:flower_forest", "minecraft:jungle", "minecraft:jungle_hills", "minecraft:jungle_edge"]
+		#For each spawn zone, a position will be chose x times to place this plant, with x the following value :
+		#Range: 1 ~ 200
+		camelliaRolls = 5
+
+	[world_generation.cypress]
+		#For each spawn zone, a position will be chose x times to place this plant, with x the following value :
+		#Range: 1 ~ 200
+		cypressRolls = 15
+
+	[world_generation.red_maple]
+		#For each spawn zone, a position will be chose x times to place this plant, with x the following value :
+		#Range: 1 ~ 200
+		redMapleRolls = 5
+
+	[world_generation.boxwood_bush]
+		#For each spawn zone, a position will be chose x times to place this plant, with x the following value :
+		#Range: 1 ~ 200
+		boxwoodBushRolls = 15
+
+	[world_generation.mulberry]
+		#For each spawn zone, a position will be chose x times to place this plant, with x the following value :
+		#Range: 1 ~ 200
+		mulberryRolls = 64
+
+	[world_generation.rice]
+		#For each spawn zone, a position will be chose x times to place this plant, with x the following value :
+		#Range: 1 ~ 200
+		riceRolls = 64
+
+	[world_generation.wild_grape]
+		#For each spawn zone, a position will be chose x times to place this plant, with x the following value :
+		#Range: 1 ~ 200
+		wildGrapeRolls = 64
+
+	[world_generation.wild_maize]
+		#For each spawn zone, a position will be chose x times to place this plant, with x the following value :
+		#Range: 1 ~ 200
+		wildMaizeRolls = 64
+
+	[world_generation.commelina]
+		#For each spawn zone, a position will be chose x times to place this plant, with x the following value :
+		#Range: 1 ~ 200
+		commelinaRolls = 64
+
+	[world_generation.geranium_pink]
+		#For each spawn zone, a position will be chose x times to place this plant, with x the following value :
+		#Range: 1 ~ 200
+		geraniumPinkRolls = 5
+

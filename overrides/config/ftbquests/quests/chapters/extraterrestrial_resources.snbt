@@ -1,0 +1,77 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extraterrestrial_resources"
+	group: "4E8777506C4F26CC"
+	icon: "kubejs:leo_lv"
+	id: "11CC33B4CCB85E13"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7A4D681F7EF69714"
+				"57E91852D2C01518"
+			]
+			id: "3A7A987B167E1FF7"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "64D1BDD0ECF90E9F"
+				item: "gtceu:basic_launch_facility"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A7A987B167E1FF7"]
+			id: "17D75BCB100987C9"
+			tasks: [{
+				id: "0C3DD1AF725C7297"
+				item: "kubejs:leo_lv"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3A7A987B167E1FF7"]
+			id: "248E4A960B0404CB"
+			tasks: [{
+				id: "787A48590D59B1CA"
+				item: "kubejs:ip_lv"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3A7A987B167E1FF7"]
+			id: "18BCCB93E48492D1"
+			tasks: [{
+				id: "109172E91B77F8E6"
+				item: "kubejs:ds_lv"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"248E4A960B0404CB"
+				"18BCCB93E48492D1"
+				"17D75BCB100987C9"
+			]
+			id: "72630F411910E23D"
+			tasks: [{
+				id: "7EB8BB32AF2C3334"
+				item: "kubejs:mining_ship"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+	]
+	title: "Extra-terrestrial Resources [WIP]"
+}
