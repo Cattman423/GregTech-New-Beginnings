@@ -3,12 +3,32 @@
 	default_quest_shape: ""
 	filename: "welcome"
 	group: ""
+	icon: "minecraft:experience_bottle"
 	id: "42EFDCACF27DA0A7"
 	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
+			description: ["Welcome to the pack! I hope you are prepared for an adventure and the creation of factories."]
 			id: "225F16B6DE413EDE"
+			rewards: [
+				{
+					id: "531AD6D52FC5EB9D"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7DB01B89FE0E950A"
+					item: "supplementaries:candy"
+					type: "item"
+				}
+				{
+					id: "038D1457B82E09A0"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -20,7 +40,18 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["225F16B6DE413EDE"]
+			description: [
+				"Gear Shaped quests indicate major milestones, typically the start of a quest, and the next tier machine hull."
+				""
+				"They also have better rewards than most quests of that tier."
+			]
 			id: "6F6361E4EAA61F7C"
+			rewards: [{
+				id: "0F9D1F02E65B9CD3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "4565F6DEA8BDF5F1"
@@ -31,29 +62,53 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["225F16B6DE413EDE"]
+			description: ["Hexagonal quests indicate new side questlines, they're not required for progression, but are quite beneficial."]
 			id: "55ACBBAF707FAD6C"
+			rewards: [{
+				count: 2
+				id: "49D8AF7854772A3B"
+				item: "vintagedelight:cheese_pizza_slice"
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "1A3D2003461A920F"
 				title: "Side Progression"
 				type: "checkmark"
 			}]
-			x: 1.0d
-			y: 2.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
+			dependencies: ["225F16B6DE413EDE"]
+			description: ["Diamond shaped quests are for your circuits."]
 			id: "69262ECF1268EE04"
+			rewards: [{
+				count: 2
+				id: "0E385CFD42298C05"
+				item: "pamhc2crops:tomatoitem"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "34A217FB0CF4FCDA"
 				title: "Circuits"
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: 2.0d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
+			dependencies: ["225F16B6DE413EDE"]
+			description: ["Pentagaonal quests indicate either a fuel source, or a power gen source."]
 			id: "674819E5F8C40231"
+			rewards: [{
+				count: 2
+				id: "716AE05448C3092A"
+				item: "delightful:cactus_steak"
+				type: "item"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "2B1EDD62EBAF82D2"
@@ -61,10 +116,24 @@
 				type: "checkmark"
 			}]
 			x: -2.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["225F16B6DE413EDE"]
+			description: ["Octagonal quests are for key achievements, not worthy of a milestone, but they open the door for greater things."]
 			id: "72A54B2CFE2C250C"
+			rewards: [
+				{
+					id: "5F6F7DF39E7535E3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6FF44AB40FD20CC2"
+					item: "pamhc2foodcore:toastitem"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			tasks: [{
 				id: "251DA4A19D6E343F"
@@ -72,7 +141,33 @@
 				type: "checkmark"
 			}]
 			x: 2.0d
-			y: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["225F16B6DE413EDE"]
+			description: [
+				"With the Thin Air mod, you can only breath fully between y=0 and y=128, outside of those regions you will start to loose your breath."
+				""
+				"Fret not! I will give you some bottles of soulfire for free!"
+				""
+				"To avoid this issue, you can stand near soulfire sources like a soul campfire or soul torch, or wear a resperator or a copper back tank with a diving helm."
+			]
+			hide_text_until_complete: false
+			icon: "thinair:soulfire_bottle"
+			id: "1B39B4F2587D1457"
+			rewards: [{
+				count: 3
+				id: "3AA60D3EF474DEBB"
+				item: "thinair:soulfire_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "772A056F240C7878"
+				title: "The air's a bit thin, eh?"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
 		}
 	]
 	title: "Welcome"

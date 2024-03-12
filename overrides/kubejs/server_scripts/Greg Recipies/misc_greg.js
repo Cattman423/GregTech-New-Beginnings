@@ -5,6 +5,13 @@ ServerEvents.recipes(event => {
         '3x minecraft:gravel',
         ]
     )
+    event.shapeless(
+        Item.of('gtceu:andesite_dust', 2),
+        [
+        '3x minecraft:andesite',
+        '#forge:tools/mortars'
+        ]
+    )
     event.recipes.gtceu.bender('obsidian')
         .itemInputs('9x gtceu:obsidian_plate')
         .itemOutputs('gtceu:dense_obsidian_plate')

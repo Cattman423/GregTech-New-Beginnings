@@ -11,6 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "GregTech:New Beginnings",
+  "version": "0.0.2",
   "author": "",
   "files": [
     {
@@ -597,11 +598,6 @@
       "projectID": 910506,
       "fileID": 5083995,
       "required": true
-    },
-    {
-      "projectID": 508933,
-      "fileID": 4924664,
-      "required": false
     },
     {
       "projectID": 659674,

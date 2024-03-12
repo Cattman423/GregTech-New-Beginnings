@@ -691,6 +691,19 @@
 			x: 5.5d
 			y: -1.0d
 		}
+		{
+			dependencies: ["25563EB0D3B172D1"]
+			description: ["You can get iron nuggets from washing gravel."]
+			id: "10C065ECA848A594"
+			tasks: [{
+				id: "1AF455FBDF1DC563"
+				item: "workshop_for_handsome_adventurer:tool_rack_framed_oak"
+				type: "item"
+			}]
+			title: "Where to store my tools?"
+			x: 2.0d
+			y: -1.0d
+		}
 	]
 	title: "Create Age"
 }

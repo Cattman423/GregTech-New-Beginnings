@@ -12,7 +12,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["225F16B6DE413EDE"]
+			dependencies: ["6F6361E4EAA61F7C"]
 			description: ["Welcome to the world, some things are differant than you're used to, so here's some torches, these are all the lights you have for now, they're a gift"]
 			id: "72F3F36CD583B9FA"
 			rewards: [{
@@ -566,25 +566,6 @@
 			size: 1.0d
 			tasks: [
 				{
-					id: "170E21953451B98D"
-					item: {
-						Count: 1b
-						id: "gtceu:iron_hammer"
-						tag: {
-							DisallowContainerItem: 0b
-							GT.Behaviours: { }
-							GT.Tool: {
-								Damage: 0
-								HarvestLevel: 2
-								MaxDamage: 255
-								ToolSpeed: 6.0f
-							}
-							HideFlags: 2
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "226A2CBE8FE0819A"
 					item: {
 						Count: 1b
@@ -681,21 +662,6 @@
 			title: "Crafting upgrades"
 			x: 2.0d
 			y: 2.0d
-		}
-		{
-			dependencies: [
-				"7567D4267276DF13"
-				"28F55F1A3D9A558F"
-			]
-			id: "10C065ECA848A594"
-			tasks: [{
-				id: "1AF455FBDF1DC563"
-				item: "workshop_for_handsome_adventurer:tool_rack_framed_oak"
-				type: "item"
-			}]
-			title: "Where to store my tools?"
-			x: 4.0d
-			y: 5.0d
 		}
 	]
 	title: "Start Here"
