@@ -4,8 +4,6 @@
 	default_quest_shape: ""
 	filename: "the_first_age"
 	group: "525E608ED23BAD1F"
-	hide_quest_details_until_startable: true
-	hide_quest_until_deps_visible: true
 	icon: "minecraft:cobblestone"
 	id: "06593A64897BEF3B"
 	order_index: 0
@@ -32,6 +30,11 @@
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "5CBD0FD78BF0ACEA"
+			rewards: [{
+				id: "063F6D98BD8626D4"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				count: 8L
 				icon: "minecraft:oak_log"
@@ -45,6 +48,11 @@
 		{
 			dependencies: ["5CBD0FD78BF0ACEA"]
 			id: "7CB8F4196C533EE2"
+			rewards: [{
+				id: "51E0F4BB6A2518A9"
+				type: "xp"
+				xp: 500
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [
@@ -66,6 +74,11 @@
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "6E92FAF32B9F2EA5"
+			rewards: [{
+				id: "22887117902F7578"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				count: 32L
 				id: "79BFDDA283DCDCE7"
@@ -78,6 +91,11 @@
 		{
 			dependencies: ["6E92FAF32B9F2EA5"]
 			id: "2938241529596ACD"
+			rewards: [{
+				id: "55300658216182FB"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				count: 16L
 				id: "28FB018C89686A6F"
@@ -109,6 +127,11 @@
 				}
 			}
 			id: "3C67E0A05BA200FF"
+			rewards: [{
+				id: "5574C692D6FD620E"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "These suck"
 			tasks: [
 				{
@@ -207,6 +230,11 @@
 			]
 			description: ["Sorry, no easy charcoal here, you'll need a fancy Coke Oven, you'll get that soon enough, until then, planks are your best bet for fuel"]
 			id: "78C6C273A4789425"
+			rewards: [{
+				id: "458360EF79763B6D"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "58760D7AC31D09E9"
 				item: "minecraft:furnace"
@@ -218,6 +246,11 @@
 		{
 			dependencies: ["7CB8F4196C533EE2"]
 			id: "72E9D259D08BC2C7"
+			rewards: [{
+				id: "327D4B75C6C21304"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "7B90FD2FE804AE46"
 				item: "minecraft:chest"
@@ -229,6 +262,11 @@
 		{
 			dependencies: ["3C67E0A05BA200FF"]
 			id: "77850E91E8C022E0"
+			rewards: [{
+				id: "2E434902B272D23D"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				count: 32L
 				id: "61550F2935A97C18"
@@ -244,6 +282,11 @@
 				"78C6C273A4789425"
 			]
 			id: "33AD0F7AF4822787"
+			rewards: [{
+				id: "188C91048CE2F6E1"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "4586B6E5C50895BC"
 				item: {
@@ -267,6 +310,11 @@
 		{
 			dependencies: ["78C6C273A4789425"]
 			id: "0675E5069FBF9C1A"
+			rewards: [{
+				id: "0592648891A096A3"
+				type: "xp"
+				xp: 500
+			}]
 			shape: "gear"
 			size: 1.25d
 			tasks: [
@@ -306,6 +354,11 @@
 			]
 			description: ["You will make many of these, so stock up on iron."]
 			id: "5AA5DB2447E377F8"
+			rewards: [{
+				id: "187E0A04C795554D"
+				type: "xp"
+				xp: 500
+			}]
 			shape: "gear"
 			size: 1.25d
 			tasks: [{
@@ -334,6 +387,11 @@
 		{
 			dependencies: ["5AA5DB2447E377F8"]
 			id: "7567D4267276DF13"
+			rewards: [{
+				id: "58DBED6CB1086A29"
+				type: "xp"
+				xp: 500
+			}]
 			shape: "gear"
 			size: 1.0d
 			tasks: [
@@ -447,6 +505,11 @@
 			dependencies: ["3C67E0A05BA200FF"]
 			description: ["You will need this to start the first tier of machines, Create Machines."]
 			id: "6CFF94C849C5A9F7"
+			rewards: [{
+				id: "264933B039620165"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				count: 16L
 				id: "48362698672CB2E6"
@@ -463,6 +526,11 @@
 			]
 			description: ["The recipie that you will be using for now is not great, but once you start the LV age, the recipie will improve."]
 			id: "18BE55716A68B0F8"
+			rewards: [{
+				id: "4D0DEC0685E10BCC"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				count: 8L
 				id: "46F4871B943F3ED9"
@@ -475,6 +543,11 @@
 		{
 			dependencies: ["18BE55716A68B0F8"]
 			id: "5EB51E8078212F2F"
+			rewards: [{
+				id: "0525260C65EFE394"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				count: 8L
 				id: "30F23479495F872D"
@@ -490,6 +563,11 @@
 				"6CFF94C849C5A9F7"
 			]
 			id: "1FD241BBCC48FFD1"
+			rewards: [{
+				id: "3844E0C2D0F9B3E3"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				count: 16L
 				id: "087D862029F7E54B"
@@ -505,6 +583,11 @@
 				"0675E5069FBF9C1A"
 			]
 			id: "34D1D229B842E238"
+			rewards: [{
+				id: "6602DCBE4BE16BD9"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				count: 8L
 				id: "5922A795F4AA6716"
@@ -520,6 +603,11 @@
 				"5EB51E8078212F2F"
 			]
 			id: "2F7CFB679D7A9350"
+			rewards: [{
+				id: "7381E91B2FEA0F4F"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "29596BD16D7069FA"
 				item: "gtceu:andesite_alloy_plate"
@@ -562,6 +650,11 @@
 			dependencies: ["5AA5DB2447E377F8"]
 			description: ["Your first microcrafting, you will be making lots of these tools, so save the recipies"]
 			id: "28F55F1A3D9A558F"
+			rewards: [{
+				id: "7F36634A34D3ECEA"
+				type: "xp"
+				xp: 500
+			}]
 			shape: "gear"
 			size: 1.0d
 			tasks: [
@@ -647,6 +740,11 @@
 		{
 			dependencies: ["7CB8F4196C533EE2"]
 			id: "5C3FF4F669A855F1"
+			rewards: [{
+				id: "4C839CA5D69E1E88"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [
 				{
 					id: "445EA625D7F19E84"

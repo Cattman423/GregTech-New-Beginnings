@@ -1,8 +1,8 @@
 GTCEuStartupEvents.registry('gtceu:material', event => {
-    event.create('andesite_alloy')
+    /*event.create('andesite_alloy')
         .ingot(1)
         .components('9x andesite', '1x zinc')
-        .color(0x839689)
+        .color(0x99B09F)
         .iconSet(GTMaterialIconSet.DULL)
         .rotorStats(4, 2, 100)
         .flags(
@@ -11,7 +11,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_SMALL_GEAR, 
             GTMaterialFlags.GENERATE_BOLT_SCREW, 
             GTMaterialFlags.GENERATE_ROTOR
-        )
+        )*/
 
     event.create('nitrocellulose')
         .polymer()
@@ -64,45 +64,24 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .blastTemp(1500, 'low', 120, 1200)
         .cableProperties(32, 1, 0, true)
 
-    event.create('desh')
-        .ingot(1)
-        .element('desh')
-        .color(0xC77142)
-        .iconSet(GTMaterialIconSet.METALLIC)
-        .flags(
-            GTMaterialFlags.GENERATE_PLATE, 
-        )
-        .blastTemp(1800, 'low', 480, 2400)
-        .cableProperties(128, 2, 0, true)
-
-    event.create('ostrum')
-        .ingot(1)
-        .element('ostrum')
-        .color(0x925E64)
-        .iconSet(GTMaterialIconSet.SHINY)
-        .flags(
-            GTMaterialFlags.GENERATE_PLATE, 
-        )
-        .blastTemp(2700, 'mid', 1920, 2400)
-
-    event.create('calorite')
-        .ingot(1)
-        .element('calorite')
-        .color(0xB83145)
-        .iconSet(GTMaterialIconSet.DULL)
-        .flags(
-            GTMaterialFlags.GENERATE_PLATE, 
-        )
-        .blastTemp(3600, 'mid', 7680, 2400)
-
-    event.create('ice_shard')
+    event.create('enriched_certus')
         .gem()
-        .components('2x hydrogen', 'oxygen')
-        .color(0x98BAD6)
-        .iconSet(GTMaterialIconSet.GLASS)
-        .flags()
+        .element('enriched_certus')
+        .color(0x99bbff)
+        .secondaryColor(0x6dacc5)
+        .iconSet(GTMaterialIconSet.CERTUS)
+        .flags(
+            GTMaterialFlags.GENERATE_LENS,
+            GTMaterialFlags.EXCLUDE_PLATE_COMPRESSOR_RECIPE
+        )
 
-
+        GTMaterials.get('andesite_alloy').addFlags(
+        GTMaterialFlags.GENERATE_PLATE, 
+        GTMaterialFlags.GENERATE_GEAR, 
+        GTMaterialFlags.GENERATE_SMALL_GEAR, 
+        GTMaterialFlags.GENERATE_BOLT_SCREW, 
+        GTMaterialFlags.GENERATE_ROTOR
+    );
     GTMaterials.Wood.addFlags(
         GTMaterialFlags.GENERATE_SMALL_GEAR
     );

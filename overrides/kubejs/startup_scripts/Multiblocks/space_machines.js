@@ -1,12 +1,12 @@
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
-    //Steam Engine
-        event.create('basic_launch_facility')
-            .category('space_production')
-            .setEUIO('in')
-            .setMaxIOSize(6, 12, 3, 6) //Max Item Inputs, Max Item Outputs, Max Fluid Inputs, Max Fluid Outputs
-            //.setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
-            .setSound(GTSoundEntries.ARC)
-    })
+//Steam Engine
+    event.create('basic_launch_facility')
+        .category('space_production')
+        .setEUIO('in')
+        .setMaxIOSize(6, 12, 3, 6) //Max Item Inputs, Max Item Outputs, Max Fluid Inputs, Max Fluid Outputs
+        //.setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
+        .setSound(GTSoundEntries.ARC)
+})
 GTCEuStartupEvents.registry('gtceu:machine', event => {
 //Steam Engine space_production
     event.create('basic_launch_facility', 'multiblock')

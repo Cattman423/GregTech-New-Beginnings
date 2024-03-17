@@ -22,6 +22,11 @@ ServerEvents.recipes(event => {
         'create:propeller',
         'gtceu:andesite_alloy_rotor'
         )
+    event.replaceInput(
+        { input: 'createdeco:andesite_sheet' },
+        'createdeco:andesite_sheet',
+        'gtceu:andesite_alloy_plate'
+        )
 //Poor steel
     event.recipes.create.mixing(
         ['3x gtceu:poor_steel_ingot'], 
@@ -90,6 +95,21 @@ ServerEvents.recipes(event => {
             B: '#forge:tools/saws'
         }
        )
+//Goggles
+    event.shaped(
+        Item.of('create:goggles'),
+        [
+            'S S',
+            'GRG',
+            'RCR'
+        ],
+        {
+            S: 'gtceu:iron_screw',
+            G: 'gtceu:glass_lens',
+            R: 'gtceu:iron_rod',
+            C: '#forge:tools/screwdrivers'
+        }
+    )
 //Create cog replacement
     event.shaped(
         Item.of('create:cogwheel',),
@@ -400,19 +420,31 @@ ServerEvents.recipes(event => {
     event.shaped(
         Item.of('create:mechanical_pump',),
         [
-            'DCB',
+            'DC ',
             'GAH',
-            'BEF'
+            ' EF'
         ],
         {
             A: 'create:fluid_pipe',
-            B: 'gtceu:raw_rubber_ring',
             C: 'gtceu:andesite_alloy_rotor',
             D: 'gtceu:andesite_alloy_screw',
             E: 'create:cogwheel',
             F: 'create:shaft',
             G: '#forge:tools/screwdrivers',
             H: '#forge:tools/wrenches'
+        }
+        )
+    event.shaped(
+        Item.of('create:fluid_tank',),
+        [
+            ' C ',
+            'ABA',
+            'ABA'
+        ],
+        {
+            A: 'gtceu:copper_plate',
+            B: 'gtceu:long_copper_rod',
+            C: '#forge:tools/hammers'
         }
         )
 //Create intermediates    

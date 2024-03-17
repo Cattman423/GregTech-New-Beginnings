@@ -1,25 +1,34 @@
 ServerEvents.tags('item', event => {
 //Circuits
-    event.add('gtceu:circuits/zpm', 'kubejs:optical_processor')
-    event.add('gtceu:circuits/uv', 'kubejs:optical_processor_assembly')
-    event.add('gtceu:circuits/uv', 'kubejs:quantum_processor')
-    event.add('gtceu:circuits/uhv', 'kubejs:optical_processor_computer')
-    event.add('gtceu:circuits/uhv', 'kubejs:quantum_processor_assembly')
+    event.add('gtceu:circuits/zpm', 'kubejs:fungal_processor')
+
+    event.add('gtceu:circuits/uv', 'kubejs:optical_processor')
+    event.add('gtceu:circuits/uv', 'kubejs:fungal_processor_assembly')
+
+    event.add('gtceu:circuits/uhv', 'kubejs:fungal_processor_computer')
+    event.add('gtceu:circuits/uhv', 'kubejs:optical_processor_assembly')
     event.add('gtceu:circuits/uhv', 'kubejs:deep_space_processor')
-    event.add('forge:circuits/uev', 'kubejs:optical_processor_mainframe')
-    event.add('forge:circuits/uev', 'kubejs:quantum_processor_computer')
+
+    event.add('forge:circuits/uev', 'kubejs:fungal_processor_mainframe')
+    event.add('forge:circuits/uev', 'kubejs:optical_processor_computer')
     event.add('forge:circuits/uev', 'kubejs:deep_space_processor_assembly')
     event.add('forge:circuits/uev', 'kubejs:singularity_processor')
-    event.add('forge:circuits/uiv', 'kubejs:quantuml_processor_mainframe')
+
+    event.add('forge:circuits/uiv', 'kubejs:optical_processor_mainframe')
     event.add('forge:circuits/uiv', 'kubejs:deep_space_processor_computer')
     event.add('forge:circuits/uiv', 'kubejs:singularity_processor_assembly')
     event.add('forge:circuits/uiv', 'kubejs:4d_processor')
+
     event.add('forge:circuits/uxv', 'kubejs:deep_space_processor_mainframe')
     event.add('forge:circuits/uxv', 'kubejs:singularity_processor_computer')
     event.add('forge:circuits/uxv', 'kubejs:4d_processor_assembly')
+
     event.add('forge:circuits/opv', 'kubejs:singularity_processor_mainframe')
     event.add('forge:circuits/opv', 'kubejs:4d_processor_computer')
+
     event.add('forge:circuits/max', 'kubejs:4d_processor_mainframe')
+//Misc
+    event.add('forge:ingots/aluminium', 'nuclearcraft:aluminum_ingot')
 //Lenses
     event.add('forge:lenses/red', 'gtceu:almandine_lens')
     event.add('forge:lenses/red', 'gtceu:cinnabar_lens')
@@ -34,6 +43,7 @@ ServerEvents.tags('item', event => {
     event.add('forge:lenses/yellow', 'gtceu:monazite_lens')
     event.add('forge:lenses/light_blue', 'gtceu:blue_topaz_lens')
     event.add('forge:lenses/light_blue', 'gtceu:certus_quartz_lens')
+    event.add('forge:lenses/light_blue', 'gtceu:enriched_certus_lens')
     event.add('forge:lenses/black', 'gtceu:coal_lens')
     event.add('forge:lenses/lime', 'gtceu:green_sapphire_lens')
     event.add('forge:lenses/lime', 'gtceu:malachite_lens')

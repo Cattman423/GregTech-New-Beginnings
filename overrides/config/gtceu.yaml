@@ -103,7 +103,7 @@ worldgen:
 
     # The maximum random offset (in blocks) from the grid for generating an ore vein.
     # Default: 12
-    oreVeinRandomOffset: 12
+    oreVeinRandomOffset: 0
 
     # Prevents regular vanilla ores from being generated outside GregTech ore veins
     # Default: true
@@ -235,7 +235,7 @@ machines:
 
   # Whether search for recipes asynchronously.
   #  Default: true
-  asyncRecipeSearching: true
+  asyncRecipeSearching: false
 
 client:
   # Whether or not to enable Emissive Textures for GregTech Machines.
@@ -308,7 +308,7 @@ compat:
 
   # Whether to hide filled cells in JEI and creative search menu.
   # Default: true
-  hideFilledCellsInJEI: true
+  hideFilledCellsInJEI: false
 
   # Whether Gregtech should remove smelting recipes from the vanilla furnace for ingots requiring the Electric Blast Furnace.
   # Default: true

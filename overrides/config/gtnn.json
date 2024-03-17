@@ -1,0 +1,13 @@
+{
+  "Client": {
+    "extraHeartRenderer": false,
+    "killToast": false,
+    "addChatAnimation": false
+  },
+  "Server": {
+    "enableHarderPlatinumLine": false,
+    "enableHarderNaquadahLine": false,
+    "banCreateFanBlasting": false,
+    "makesEMIBetter": true
+  }
+}

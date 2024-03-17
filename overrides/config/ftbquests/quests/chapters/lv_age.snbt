@@ -11,6 +11,7 @@
 	quests: [
 		{
 			dependencies: ["71EC3043DE613FF5"]
+			description: ["&cWARNING, YOUR ELECTRIC MACHINES WILL EXPLODE IN THE RAIN!!!"]
 			id: "03EB4C61B9428B0D"
 			shape: "gear"
 			size: 1.5d

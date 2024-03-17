@@ -1,0 +1,18 @@
+{
+	icon: "create:cogwheel"
+	id: "1B7755B454F4DDDD"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 3, item: "create:cogwheel", weight: 1.5f }
+		{ count: 2, item: "create:large_cogwheel", weight: 1.5f }
+		{ count: 8, item: "create:shaft", weight: 1.5f }
+		{ item: "create:belt_connector" }
+		{ count: 2, item: "create:fluid_pipe" }
+		{ item: "create:andesite_casing", weight: 0.5f }
+		{ count: 2, item: "minecraft:bread" }
+		{ item: "pamhc2foodextended:raspberryjellyitem" }
+		{ item: "pamhc2foodcore:applejuiceitem", weight: 0.75f }
+	]
+	title: "Create Loot"
+}

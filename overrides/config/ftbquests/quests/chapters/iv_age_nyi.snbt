@@ -7,6 +7,18 @@
 	id: "50A20D2B0D7C30A2"
 	order_index: 7
 	quest_links: [ ]
-	quests: [ ]
-	title: "Iv Age [NYI]"
+	quests: [{
+		dependencies: ["795C854D7C3424CE"]
+		id: "0C9F41F9CA655FBA"
+		shape: "gear"
+		size: 2.0d
+		tasks: [{
+			id: "476E8D3E5B43B900"
+			item: "gtceu:iv_machine_hull"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Iv Age [WIP]"
 }

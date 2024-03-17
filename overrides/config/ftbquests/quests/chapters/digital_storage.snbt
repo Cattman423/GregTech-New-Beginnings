@@ -5,8 +5,319 @@
 	group: "4E8777506C4F26CC"
 	icon: "ae2:controller"
 	id: "38EAA9A88501D1F1"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
-	title: "Digital Storage [NYI]"
+	quests: [
+		{
+			dependencies: ["27E3ED1A28B9FAC0"]
+			id: "4A839038198B57A8"
+			tasks: [{
+				id: "49A614DD6356A1CC"
+				item: "gtceu:certus_quartz_gem"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4A839038198B57A8"
+				"2B8550109C759597"
+			]
+			id: "25709B2B99626687"
+			tasks: [{
+				id: "15E82DADFBE9B66C"
+				item: "gtceu:enriched_certus_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["25709B2B99626687"]
+			id: "5C4A6F4514184EF4"
+			tasks: [{
+				id: "7E60145CA6DB2ABB"
+				item: "gtceu:enriched_certus_gem"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C4A6F4514184EF4"]
+			id: "6ECA384E3CC4A4BD"
+			tasks: [{
+				id: "2946FC115AB6CC1F"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7A4D681F7EF69714"]
+			id: "2B8550109C759597"
+			tasks: [{
+				id: "0A7EE46A80884341"
+				item: "gtceu:mv_chemical_reactor"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4A839038198B57A8"]
+			id: "7D58CD5E7E7298C9"
+			tasks: [{
+				id: "47E9C13973EB13AE"
+				item: "gtceu:certus_quartz_dust"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7D58CD5E7E7298C9"
+				"5D905AEA5AEEF893"
+			]
+			id: "667A4D38F5478F09"
+			tasks: [{
+				id: "0BE336CA988122B3"
+				item: "kubejs:certus_quartz_boule"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"667A4D38F5478F09"
+				"44ECBA64C5E66BE7"
+			]
+			id: "08612F3C597DFFDE"
+			tasks: [{
+				id: "4D2FB4960E5F5C48"
+				item: "kubejs:certus_wafer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3B36589D2289A16A"]
+			id: "44ECBA64C5E66BE7"
+			tasks: [{
+				id: "6F6B2C8132551637"
+				item: "gtceu:hv_cutter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"08612F3C597DFFDE"
+				"61571ED3D53BD832"
+			]
+			id: "6876743A230E6C98"
+			tasks: [
+				{
+					id: "6B8E906B97AB0A4F"
+					item: "kubejs:calculation_wafer"
+					type: "item"
+				}
+				{
+					id: "74538EF3003BB555"
+					item: "kubejs:engineering_wafer"
+					type: "item"
+				}
+				{
+					id: "557F3535264FB848"
+					item: "kubejs:logic_wafer"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6876743A230E6C98"]
+			id: "7C0591F7631994CA"
+			tasks: [
+				{
+					id: "2326F9FDCB282A0F"
+					item: "ae2:printed_calculation_processor"
+					type: "item"
+				}
+				{
+					id: "1CAD166BF653243F"
+					item: "ae2:printed_engineering_processor"
+					type: "item"
+				}
+				{
+					id: "13B63132234593CF"
+					item: "ae2:printed_logic_processor"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7C0591F7631994CA"]
+			hide_dependent_lines: true
+			id: "7B3C3FD216595E5F"
+			shape: "octagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "0662500226722686"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "4FB920EA41849A90"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+				{
+					id: "4720AB71931E542F"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0F473004BDE8A486"]
+			id: "43EE36A64E02A74B"
+			tasks: [{
+				id: "2641F7EF94C4212C"
+				item: "ae2:quartz_glass"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["43EE36A64E02A74B"]
+			id: "723E893F12F7028F"
+			tasks: [{
+				id: "2510A83EFB5696A3"
+				item: "ae2:quartz_vibrant_glass"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"723E893F12F7028F"
+				"7E4816E87F55B828"
+			]
+			id: "1797C1F370960EC5"
+			tasks: [{
+				id: "1302C21F7D7F3470"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1797C1F370960EC5"]
+			id: "3F346959CE5A1E37"
+			tasks: [{
+				id: "30A068EF40910B13"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6ECA384E3CC4A4BD"]
+			id: "4EFE6ACE0FC088CE"
+			tasks: [{
+				id: "0A240086C592CCE7"
+				item: "ae2:fluix_dust"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1DC42708937FA8D4"
+				"4EFE6ACE0FC088CE"
+			]
+			id: "25C68989648C18FB"
+			tasks: [{
+				id: "11CA9139AA304A0A"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["709D247370A65E2B"]
+			id: "1DC42708937FA8D4"
+			tasks: [{
+				id: "196EB3AE7545A57E"
+				item: "ae2:quartz_fiber"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["25C68989648C18FB"]
+			id: "657D16141B5CD492"
+			tasks: [{
+				id: "20AB1D5F4381315F"
+				item: "ae2:fluix_smart_cable"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["25C68989648C18FB"]
+			id: "3809F77869BB5E37"
+			tasks: [{
+				id: "53514AC6996DE5FB"
+				item: "ae2:fluix_covered_cable"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3809F77869BB5E37"]
+			id: "1FA1CDD811BE50A9"
+			tasks: [{
+				id: "62684092037CB691"
+				item: "ae2:fluix_covered_dense_cable"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1FA1CDD811BE50A9"]
+			id: "691B6F5599D7C1B4"
+			tasks: [{
+				id: "48D21D8152583ACB"
+				item: "ae2:fluix_smart_dense_cable"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+	]
+	title: "Digital Storage [WIP]"
 }

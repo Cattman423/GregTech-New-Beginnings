@@ -15,6 +15,9 @@ JEIEvents.hideItems(event => {
         'tfmg:steel_frame',
         'ironchests:blank_chest_upgrade',
         'gtceu:iv_processing_array',
-        'gtceu:luv_processing_array'
+        'gtceu:luv_processing_array',
+        'ae2:inscriber',
+        'expatternprovider:ex_inscriber',
+        '#ae2:inscriber_presses'
     ])
   })

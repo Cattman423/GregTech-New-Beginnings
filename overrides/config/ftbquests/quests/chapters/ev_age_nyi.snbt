@@ -1,4 +1,5 @@
 {
+	autofocus_id: "120E0370867C0DA6"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ev_age_nyi"
@@ -7,18 +8,764 @@
 	id: "68BE8C9E324FEE7D"
 	order_index: 6
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["7E4816E87F55B828"]
-		id: "1686B7B896DF8FC3"
-		shape: "gear"
-		size: 2.0d
-		tasks: [{
-			id: "03896D5FD99FFD75"
-			item: "gtceu:ev_machine_hull"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["7E4816E87F55B828"]
+			id: "1686B7B896DF8FC3"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "03896D5FD99FFD75"
+				item: "gtceu:ev_machine_hull"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1686B7B896DF8FC3"]
+			id: "1D57085375A0F9BE"
+			tasks: [{
+				id: "4069CCB5EF9ADE78"
+				title: "Ev Power"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1D57085375A0F9BE"]
+			id: "0C893AEDE19EC348"
+			shape: "pentagon"
+			tasks: [{
+				id: "6C7CAE43B072C922"
+				item: "gtnn:ev_rocket_engine"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1D57085375A0F9BE"]
+			id: "0DEFF15C522642C4"
+			shape: "pentagon"
+			tasks: [{
+				id: "11248B86FD1DF199"
+				item: "gtceu:gas_large_turbine"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1D57085375A0F9BE"]
+			id: "662C254E24071AB2"
+			shape: "pentagon"
+			tasks: [{
+				id: "06FCE91A1BB05401"
+				item: "gtceu:large_combustion_engine"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1D57085375A0F9BE"]
+			id: "5E4F3B0AADD07782"
+			shape: "pentagon"
+			tasks: [{
+				id: "6DC8CE5042E3BE9E"
+				item: "gtnn:ev_naquadah_reactor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1686B7B896DF8FC3"]
+			id: "4D4CC8F24B7784B1"
+			tasks: [
+				{
+					id: "5C3C1BED9960D8C5"
+					item: "gtceu:ev_electric_motor"
+					type: "item"
+				}
+				{
+					id: "29211DD4C5707E91"
+					item: "gtceu:ev_electric_pump"
+					type: "item"
+				}
+				{
+					id: "0DBF405C8AC264F0"
+					item: "gtceu:ev_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "78621D347265150A"
+					item: "gtceu:ev_electric_piston"
+					type: "item"
+				}
+				{
+					id: "546E13ABB4865DB9"
+					item: "gtceu:ev_robot_arm"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1686B7B896DF8FC3"]
+			hide_dependent_lines: true
+			id: "120E0370867C0DA6"
+			shape: "diamond"
+			tasks: [{
+				id: "456E46C9CEDA27FF"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["120E0370867C0DA6"]
+			hide_dependent_lines: true
+			id: "0395CDE30ECD367F"
+			tasks: [{
+				id: "21C2F115FB19A70C"
+				item: "gtceu:ev_mixer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0395CDE30ECD367F"
+				"6FCE53397AD6DCD3"
+				"0938C3C91204153D"
+				"42E390CDBC50CFB5"
+			]
+			id: "0E846E1022E49C62"
+			optional: true
+			tasks: [{
+				id: "30BC2ED3E1C2E47F"
+				item: "gtceu:rtm_alloy_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0E846E1022E49C62"]
+			id: "63287CEAE36145C0"
+			optional: true
+			tasks: [{
+				id: "07FA764C7D00EC31"
+				item: "gtceu:rtm_alloy_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["120E0370867C0DA6"]
+			id: "58E43B229D56D9DC"
+			shape: "octagon"
+			tasks: [{
+				id: "7E493A3617A58A55"
+				item: "gtceu:ev_assembler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"63287CEAE36145C0"
+				"58E43B229D56D9DC"
+			]
+			id: "60C8162C1B9D9D19"
+			optional: true
+			tasks: [
+				{
+					id: "5436D8B393CEB5FD"
+					item: "gtceu:rtm_alloy_coil_block"
+					type: "item"
+				}
+				{
+					id: "64BC4D22923EA602"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["58E43B229D56D9DC"]
+			id: "159907ED3340162A"
+			tasks: [{
+				id: "0DAA655B10ECB4C6"
+				item: "gtceu:ev_energy_input_hatch"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["159907ED3340162A"]
+			id: "505289420695F2F9"
+			tasks: [{
+				id: "1C66A01EB4BBDE3A"
+				item: "gtceu:ev_energy_input_hatch_4a"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"60C8162C1B9D9D19"
+				"159907ED3340162A"
+			]
+			icon: "gtceu:electric_blast_furnace"
+			id: "1CABE36FD9F1E458"
+			tasks: [{
+				id: "5B9FEA633E4BA4A5"
+				title: "EBF Upgrades"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["505289420695F2F9"]
+			id: "3F168C7400B8D16A"
+			tasks: [{
+				id: "78522E01DB5A12DC"
+				item: "gtceu:ev_energy_input_hatch_16a"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["58E43B229D56D9DC"]
+			id: "3CFF4709CBAEC89D"
+			tasks: [{
+				id: "5C1338DCD8724BD7"
+				item: "gtceu:ev_energy_output_hatch"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3CFF4709CBAEC89D"]
+			id: "52DA58C76E973197"
+			tasks: [{
+				id: "765FA71277FD6D92"
+				item: "gtceu:ev_energy_output_hatch_4a"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["52DA58C76E973197"]
+			id: "5C287A0B05114E21"
+			tasks: [{
+				id: "0A0B6117185CCABB"
+				item: "gtceu:ev_energy_output_hatch_16a"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3346D0F08E2B0D45"]
+			id: "42E390CDBC50CFB5"
+			optional: true
+			tasks: [{
+				id: "6BF08C78D777A62F"
+				item: "gtceu:ruthenium_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["120E0370867C0DA6"]
+			id: "6FCE53397AD6DCD3"
+			optional: true
+			tasks: [{
+				id: "5FF7BC797B804DD5"
+				item: "gtceu:molybdenum_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"27B0997039904561"
+				"120E0370867C0DA6"
+			]
+			id: "0938C3C91204153D"
+			tasks: [{
+				id: "21F11A455A503B6F"
+				item: "gtceu:tungsten_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["165E7AC3A777BB72"]
+			id: "3346D0F08E2B0D45"
+			optional: true
+			tasks: [{
+				id: "2D2617BDBB925678"
+				item: "gtceu:ruthenium_tetroxide_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D59D041C7BE580E"]
+			id: "165E7AC3A777BB72"
+			optional: true
+			tasks: [{
+				id: "0DDF5FD1B0F283BA"
+				item: "gtceu:inert_metal_mixture_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"36E3CAF03901E373"
+				"45995456D343E04E"
+			]
+			id: "2D59D041C7BE580E"
+			optional: true
+			tasks: [{
+				id: "479E88EAFDE9E94B"
+				item: "gtceu:platinum_group_sludge_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["20BD1EFDD3E3A4D3"]
+			id: "45995456D343E04E"
+			optional: true
+			tasks: [
+				{
+					id: "2FA01FEDEDE56F27"
+					item: "gtceu:purified_pentlandite_ore"
+					type: "item"
+				}
+				{
+					id: "2C2CEB81A61E19F6"
+					item: "gtceu:purified_tetrahedrite_ore"
+					type: "item"
+				}
+				{
+					id: "450D8BFAD139C57D"
+					item: "gtceu:purified_chalcocite_ore"
+					type: "item"
+				}
+				{
+					id: "2A414E5AFCCA8C32"
+					item: "gtceu:purified_cooperite_ore"
+					type: "item"
+				}
+				{
+					id: "1C9C046F42ABB475"
+					item: "gtceu:purified_bornite_ore"
+					type: "item"
+				}
+				{
+					id: "1515C9BECE10CC12"
+					item: "gtceu:purified_chalcopyrite_ore"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["20BD1EFDD3E3A4D3"]
+			id: "36E3CAF03901E373"
+			optional: true
+			tasks: [{
+				id: "11B24E0B78DB8EBA"
+				item: "gtceu:nitric_acid_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["120E0370867C0DA6"]
+			id: "20BD1EFDD3E3A4D3"
+			optional: true
+			tasks: [{
+				id: "676D274C8DBECCFA"
+				title: "Plat Line"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"76A3BDBB868E8D7F"
+				"1CABE36FD9F1E458"
+			]
+			id: "795C854D7C3424CE"
+			tasks: [{
+				id: "575EB9B17B19074C"
+				item: "gtceu:tungsten_steel_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"0395CDE30ECD367F"
+				"0938C3C91204153D"
+			]
+			id: "76A3BDBB868E8D7F"
+			tasks: [{
+				id: "1237D8EB171AC002"
+				item: "gtceu:tungsten_steel_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["795C854D7C3424CE"]
+			id: "350D403494E82743"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0BA9E166DFDDD02F"
+				item: "gtceu:iv_machine_hull"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3529B7F48DAE78FF"]
+			id: "14B42FDF213347E0"
+			shape: "diamond"
+			tasks: [{
+				id: "6001755D800D9C30"
+				item: "gtceu:nano_processor_mainframe"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"0AC5CC316CE49122"
+				"2100E18685C8FD09"
+				"61CAA13A416CD53F"
+			]
+			id: "3529B7F48DAE78FF"
+			shape: "diamond"
+			tasks: [{
+				id: "28466622FC0CF323"
+				item: "gtceu:nano_processor_computer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"0AC5CC316CE49122"
+				"591719DC95CFD30C"
+			]
+			id: "2100E18685C8FD09"
+			shape: "diamond"
+			tasks: [{
+				id: "3C124049B0E7C9B2"
+				item: "gtceu:nano_processor_assembly"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"0AC5CC316CE49122"
+				"0EC5FAFCD6A1A4BC"
+			]
+			id: "591719DC95CFD30C"
+			shape: "diamond"
+			tasks: [{
+				id: "7F07BCADF54F5418"
+				item: "gtceu:nano_processor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5BC1D1F9B1BCE2D5"]
+			id: "61CAA13A416CD53F"
+			tasks: [{
+				id: "7977F0B1B7E9410F"
+				item: "gtceu:nor_memory_chip"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["660BBA6369512836"]
+			id: "0AC5CC316CE49122"
+			tasks: [{
+				id: "6F92A47978C22ABF"
+				item: "gtceu:epoxy_printed_circuit_board"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3019331946842770"]
+			id: "0EC5FAFCD6A1A4BC"
+			tasks: [{
+				id: "4130C40A2D2FCE54"
+				item: "gtceu:nano_cpu_chip"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"571C1A6D46D0E7D1"
+				"6E29C0B9BB4FF885"
+				"5DA0F23DD3B0C837"
+			]
+			id: "3019331946842770"
+			tasks: [{
+				id: "09371EDDC42F1281"
+				item: "gtceu:nano_cpu_wafer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["120E0370867C0DA6"]
+			id: "571C1A6D46D0E7D1"
+			tasks: [{
+				id: "0421A46BE45C175F"
+				item: "gtceu:cpu_wafer"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3B4D5E1165C3B07D"]
+			id: "5DA0F23DD3B0C837"
+			tasks: [{
+				id: "1A74F4E5EBEEE2F5"
+				item: "gtceu:carbon_fibers"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["120E0370867C0DA6"]
+			id: "6E29C0B9BB4FF885"
+			tasks: [{
+				id: "732666E836247D9B"
+				item: "gtceu:ev_chemical_reactor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3F0DE8D87DE27AC6"
+				"0CDC5FFD04978084"
+				"6BAB06D89D0F9790"
+			]
+			id: "3B4D5E1165C3B07D"
+			tasks: [{
+				id: "6370E26ECC6ED5B3"
+				item: "gtceu:epoxy_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3B4D5E1165C3B07D"]
+			id: "660BBA6369512836"
+			tasks: [{
+				id: "6F22C6EE20186C6D"
+				item: "gtceu:epoxy_circuit_board"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["43732644523C6FD5"]
+			id: "5BC1D1F9B1BCE2D5"
+			tasks: [{
+				id: "18544405AF2F9958"
+				item: "gtceu:nor_memory_wafer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["120E0370867C0DA6"]
+			id: "43732644523C6FD5"
+			tasks: [{
+				id: "0B8300F4B50AAFD3"
+				item: "gtceu:opal_lens"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3DD5609BBC388A37"]
+			id: "6BAB06D89D0F9790"
+			tasks: [{
+				id: "21CBFD246B0D07D9"
+				item: "gtceu:acetone_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["63BA90A9FC212FCA"]
+			id: "3F0DE8D87DE27AC6"
+			tasks: [{
+				id: "70B3F88F8351992D"
+				item: "gtceu:hydrochloric_acid_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3F0DE8D87DE27AC6"
+				"2B2F050BB1E63A36"
+			]
+			id: "0CDC5FFD04978084"
+			tasks: [{
+				id: "0D458209ADDFD30F"
+				item: "gtceu:epichlorohydrin_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["25C25BE652B0954D"]
+			id: "3DD5609BBC388A37"
+			tasks: [{
+				id: "3F2E7D53C33E987D"
+				item: "gtceu:cumene_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["63BA90A9FC212FCA"]
+			id: "25C25BE652B0954D"
+			tasks: [{
+				id: "55B4DB8E9E6664DB"
+				item: "gtceu:phosphoric_acid_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"7C0D759ADDB9E74A"
+				"290B790FC19AA5D2"
+			]
+			id: "2B2F050BB1E63A36"
+			tasks: [{
+				id: "669642E7E31BF944"
+				item: "gtceu:glycerol_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["63BA90A9FC212FCA"]
+			id: "290B790FC19AA5D2"
+			tasks: [{
+				id: "10E808312C5A60CE"
+				item: "gtceu:seed_oil_bucket"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1FC4B857EE24DABA"]
+			id: "7C0D759ADDB9E74A"
+			tasks: [{
+				id: "44D6AD0C6D3F1946"
+				item: "gtceu:ethanol_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["63BA90A9FC212FCA"]
+			id: "1FC4B857EE24DABA"
+			tasks: [{
+				id: "1791639C88EBE844"
+				item: "gtceu:wood_vinegar_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["120E0370867C0DA6"]
+			id: "63BA90A9FC212FCA"
+			tasks: [{
+				id: "2BE82715EBEC5182"
+				title: "Epoxy troubles"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+	]
 	title: "Ev Age [WIP]"
 }

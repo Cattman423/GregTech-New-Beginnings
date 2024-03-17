@@ -1,4 +1,5 @@
 {
+	autofocus_id: "15EA3D78FF90EC09"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "hv_age"
@@ -9,26 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["7511A3ABFA67D9E0"]
-			id: "3CE2B3AF2478F239"
-			shape: "gear"
-			size: 2.0d
-			tasks: [{
-				id: "333F434B8B1E2269"
-				item: "gtceu:hv_machine_hull"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"384BEEA622B92B77"
-				"15FF795E9B993E9F"
-				"33BAED2DA60D22C3"
-				"5BFA0F9B4A49F9A3"
-				"3CE2B3AF2478F239"
-			]
+			dependencies: ["15EA3D78FF90EC09"]
 			hide_dependent_lines: true
 			id: "3B36589D2289A16A"
 			shape: "diamond"
@@ -115,7 +97,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["3CE2B3AF2478F239"]
+			dependencies: ["15EA3D78FF90EC09"]
 			id: "1CB9E2AD3CCF332D"
 			tasks: [{
 				id: "7E6D07C03CC1EA7B"
@@ -264,7 +246,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["3CE2B3AF2478F239"]
+			dependencies: ["15EA3D78FF90EC09"]
 			id: "26D3F8BE07B4CFC3"
 			tasks: [
 				{
@@ -325,6 +307,7 @@
 		{
 			dependencies: ["3B36589D2289A16A"]
 			id: "5688B92DB43F370F"
+			shape: "hexagon"
 			tasks: [{
 				id: "436445A4BBF202C2"
 				item: "gtceu:hv_assembler"
@@ -360,58 +343,8 @@
 		}
 		{
 			dependencies: [
-				"2666020D483EB552"
-				"2E7F7909604C631B"
-			]
-			id: "2DA641BF5B9E157B"
-			tasks: [{
-				id: "15F2336A24B613C5"
-				item: "gtceu:rutile_dust"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 2.0d
-		}
-		{
-			dependencies: [
-				"3183D053D96F8B4C"
-				"2DA641BF5B9E157B"
-			]
-			id: "2F237E09059FED10"
-			tasks: [{
-				id: "326FD227A56AEC15"
-				item: "gtceu:titanium_tetrachloride_bucket"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["3B36589D2289A16A"]
-			id: "2666020D483EB552"
-			tasks: [{
-				id: "33295BB34C1916F7"
-				item: "gtceu:hv_electrolyzer"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["2F237E09059FED10"]
-			id: "336D99C24D1858ED"
-			tasks: [{
-				id: "71DF438429F7338A"
-				item: "gtceu:hot_titanium_ingot"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 4.0d
-		}
-		{
-			dependencies: [
 				"6DB4718EFEFFD6ED"
-				"336D99C24D1858ED"
+				"58F0EBEF8BA5D581"
 			]
 			id: "7E4816E87F55B828"
 			tasks: [{
@@ -420,7 +353,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7E4816E87F55B828"]
@@ -433,40 +366,101 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["3B36589D2289A16A"]
-			id: "613ADD041118C647"
-			tasks: [{
-				id: "173A4724E5310064"
-				item: "gtceu:hv_chemical_bath"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 1.0d
+			dependencies: ["6DF005C195DC485B"]
+			id: "35E2036607FD7C4A"
+			tasks: [
+				{
+					id: "4C19542B10B7A3BC"
+					item: "gtceu:raw_ilmenite"
+					type: "item"
+				}
+				{
+					id: "7EABD71DB076157E"
+					item: "gtceu:ilmenite_dust"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["613ADD041118C647"]
-			id: "7BBE48CBBC8FD958"
+			dependencies: ["35E2036607FD7C4A"]
+			id: "58C512E480898F53"
 			tasks: [{
-				id: "4353FF931D3971C7"
-				item: "minecraft:ender_eye"
+				id: "4D94F23B9C825E6A"
+				item: "gtceu:rutile_dust"
 				type: "item"
 			}]
 			x: -3.0d
 			y: 1.0d
 		}
 		{
-			dependencies: ["7BBE48CBBC8FD958"]
-			id: "2E7F7909604C631B"
+			dependencies: ["58C512E480898F53"]
+			id: "6DBC686B01FE2D9A"
 			tasks: [{
-				id: "098E5FA5443CB78A"
-				item: "minecraft:dragon_egg"
+				id: "77379F5701238673"
+				item: "gtceu:titanium_tetrachloride_bucket"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 1.5d
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6DBC686B01FE2D9A"]
+			id: "58F0EBEF8BA5D581"
+			tasks: [
+				{
+					id: "1CDE0E4DBB24DAEA"
+					item: "gtceu:hot_titanium_ingot"
+					type: "item"
+				}
+				{
+					id: "4B9272977790D45C"
+					item: "gtceu:magnesium_chloride_dust"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3B36589D2289A16A"]
+			id: "3D4C9E14A3803752"
+			shape: "hexagon"
+			tasks: [{
+				id: "504B366930F83375"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7511A3ABFA67D9E0"]
+			id: "15EA3D78FF90EC09"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "7D2149BFB9B564F8"
+				item: "gtceu:hv_machine_hull"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B36589D2289A16A"]
+			id: "709D247370A65E2B"
+			tasks: [{
+				id: "0553C911070C7FC5"
+				item: "gtceu:hv_chemical_bath"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
 		}
 	]
 	title: "Hv Age [WIP]"

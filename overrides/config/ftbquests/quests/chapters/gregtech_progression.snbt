@@ -1279,8 +1279,8 @@
 				item: "kubejs:optical_processor"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 5.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0C7ED2B33B155226"]
@@ -1290,8 +1290,8 @@
 				item: "kubejs:optical_processor_assembly"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.0d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["63D2BE7E1E679298"]
@@ -1301,8 +1301,8 @@
 				item: "kubejs:optical_processor_computer"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.0d
+			x: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3C7DF1DBB735B9BB"]
@@ -1312,53 +1312,53 @@
 				item: "kubejs:optical_processor_mainframe"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			description: [""]
 			id: "056F4150D9422BC3"
 			tasks: [{
-				id: "1EB07C2FBD78395B"
-				item: "kubejs:quantum_processor"
+				id: "29661D79802221EF"
+				item: "kubejs:fungal_processor"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.0d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["056F4150D9422BC3"]
 			id: "76736D19B529608F"
 			tasks: [{
-				id: "1B21E4EB4E974184"
-				item: "kubejs:quantum_processor_assembly"
+				id: "58E7E32F1916E118"
+				item: "kubejs:fungal_processor_assembly"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.0d
+			x: 4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["76736D19B529608F"]
 			id: "34C16C9A74E34ADF"
 			tasks: [{
-				id: "50DCB80EAF3558B8"
-				item: "kubejs:quantum_processor_computer"
+				id: "33B730FA636F8411"
+				item: "kubejs:fungal_processor_computer"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.0d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["34C16C9A74E34ADF"]
 			id: "6B502A66F599AEB5"
 			tasks: [{
-				id: "34D8803FD19418E0"
-				item: "kubejs:quantum_processor_mainframe"
+				id: "24B8953456BC2236"
+				item: "kubejs:fungal_processor_mainframe"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.0d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
