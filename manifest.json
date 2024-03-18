@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "GregTech:New Beginnings",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "",
   "files": [
     {
@@ -150,8 +150,8 @@
       "required": true
     },
     {
-      "projectID": 845950,
-      "fileID": 4936656,
+      "projectID": 943925,
+      "fileID": 4926070,
       "required": true
     },
     {
@@ -430,11 +430,6 @@
       "required": true
     },
     {
-      "projectID": 277616,
-      "fileID": 4888575,
-      "required": true
-    },
-    {
       "projectID": 365460,
       "fileID": 4625518,
       "required": true
@@ -615,6 +610,11 @@
       "required": true
     },
     {
+      "projectID": 889915,
+      "fileID": 4932157,
+      "required": true
+    },
+    {
       "projectID": 714958,
       "fileID": 5132359,
       "required": true
@@ -715,11 +715,6 @@
       "required": true
     },
     {
-      "projectID": 878047,
-      "fileID": 4987217,
-      "required": true
-    },
-    {
       "projectID": 454372,
       "fileID": 5102258,
       "required": true
@@ -727,6 +722,11 @@
     {
       "projectID": 949719,
       "fileID": 5075893,
+      "required": true
+    },
+    {
+      "projectID": 912788,
+      "fileID": 4791478,
       "required": true
     },
     {
@@ -782,6 +782,11 @@
     {
       "projectID": 880593,
       "fileID": 5047180,
+      "required": true
+    },
+    {
+      "projectID": 912469,
+      "fileID": 5189155,
       "required": true
     },
     {

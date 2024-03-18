@@ -124,7 +124,12 @@
 		}
 		{
 			dependencies: ["4AEB55A92229EA6F"]
-			description: ["For now this is how you will generate kinetic energy unless you like turning cranks...."]
+			description: [
+				"For now this is how you will generate kinetic energy unless you like turning cranks...."
+				""
+				"Please note that there is two stats to look for, bime efficiancy, and hight efficiancy, you will want to maximize these values. "
+				"Also you need plenty of open space to operate your windmill, no more tiny windmill spam in a tiny cave."
+			]
 			icon: "create:windmill_bearing"
 			id: "2C85B125BAEF65A3"
 			rewards: [
@@ -307,8 +312,8 @@
 				item: "gtceu:compressed_coke_clay"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.0d
+			x: 3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["365710CA452DFB41"]
@@ -367,7 +372,7 @@
 				item: "gtceu:coke_oven_brick"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -394,7 +399,7 @@
 				item: "minecraft:brick"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 4.0d
 			y: 1.0d
 		}
 		{
@@ -427,7 +432,7 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -462,7 +467,7 @@
 				}
 			]
 			title: "Coke Oven Upgrades"
-			x: 5.0d
+			x: 4.5d
 			y: -1.0d
 		}
 		{
@@ -518,7 +523,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["72A7E79D2BF58883"]
+			dependencies: ["6010D47FC93874BE"]
 			id: "2BCE33B1C25758FC"
 			rewards: [
 				{
@@ -545,7 +550,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			title: "Filling and Empting"
+			x: 1.0d
 			y: 5.0d
 		}
 		{
@@ -640,6 +646,7 @@
 				"576E2F40DEF76344"
 			]
 			id: "35F0F173EF427B4F"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -670,6 +677,7 @@
 					type: "item"
 				}
 			]
+			title: "Basic Automation"
 			x: 3.5d
 			y: 5.0d
 		}
@@ -680,6 +688,7 @@
 				"6D3322D2FFCBEB8C"
 			]
 			id: "32868E00D20F376B"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -720,6 +729,7 @@
 					type: "item"
 				}
 			]
+			title: "Better Automation"
 			x: 5.0d
 			y: 6.0d
 		}
@@ -748,7 +758,7 @@
 				item: "gtceu:treated_wood_planks"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -794,7 +804,7 @@
 				}
 			]
 			title: "Early Infinite Water"
-			x: 7.5d
+			x: 7.0d
 			y: 0.0d
 		}
 		{
@@ -802,7 +812,9 @@
 				"1928A0F6075A46AC"
 				"235E8244B5B522FF"
 			]
+			description: ["You will need these if you want to make a pumpjack to get oil before the Mv Age."]
 			id: "07B9229EA02A6C1E"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -847,7 +859,7 @@
 				item: "gtceu:compressed_clay"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 3.0d
 			y: 2.0d
 		}
 		{
@@ -912,7 +924,11 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["6E2F1BC142C13B68"]
+			dependencies: [
+				"6E2F1BC142C13B68"
+				"392ACD047179A5D8"
+				"4E68C8330998DB20"
+			]
 			id: "0F6B6479A8529BD2"
 			rewards: [
 				{
@@ -938,6 +954,7 @@
 		{
 			dependencies: ["0F6B6479A8529BD2"]
 			id: "235E8244B5B522FF"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1010,6 +1027,7 @@
 		{
 			dependencies: ["07B9229EA02A6C1E"]
 			id: "78E7CCFA9B401E69"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1054,8 +1072,8 @@
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 4.0d
+			x: 7.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["5468ECF42040C129"]
@@ -1084,7 +1102,9 @@
 		}
 		{
 			dependencies: ["38747E7B7CB63D8D"]
+			description: ["It's not worth it, don't make these, the nerf is intentional."]
 			id: "72092B24E1356AA6"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1112,7 +1132,7 @@
 				}
 			]
 			x: 9.0d
-			y: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["72A7E79D2BF58883"]
@@ -1135,7 +1155,7 @@
 				item: "create:fluid_tank"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 0.0d
 			y: 5.0d
 		}
 		{
@@ -1195,7 +1215,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 5.5d
 			y: -1.0d
 		}
 		{
@@ -1227,6 +1247,19 @@
 		{
 			dependencies: ["576E2F40DEF76344"]
 			id: "6E2F1BC142C13B68"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "366FA6BB8FE3806C"
+					table_id: 1979144794260430301L
+					type: "random"
+				}
+				{
+					id: "6068FD3E01724B61"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "6C9F5C026E65C39C"
 				item: {
@@ -1265,6 +1298,20 @@
 			}]
 			x: 0.0d
 			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1928A0F6075A46AC"
+				"235E8244B5B522FF"
+			]
+			id: "7D685353A25903BB"
+			tasks: [{
+				id: "0B283EC57F7847B3"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.5d
 		}
 	]
 	title: "Create Age"

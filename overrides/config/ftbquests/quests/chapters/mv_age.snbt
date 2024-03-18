@@ -1002,6 +1002,19 @@
 			x: -9.0d
 			y: 4.0d
 		}
+		{
+			dependencies: ["7511A3ABFA67D9E0"]
+			description: ["&4Please remove all items before upgrading, otherwise you will void your items. A fix will be made as soon as I can make it.&r"]
+			id: "278D2BAE2AFD8BB8"
+			size: 1.0d
+			tasks: [{
+				id: "2CD646833BB9CD09"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
 	]
 	title: "Mv Age"
 }

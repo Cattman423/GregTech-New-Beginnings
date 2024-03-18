@@ -162,7 +162,7 @@
 				""
 				"Fret not! I will give you some bottles of soulfire for free!"
 				""
-				"To avoid this issue, you can stand near soulfire sources like a soul campfire or soul torch, or wear a resperator or a copper back tank with a diving helm."
+				"To avoid this issue, you can stand near soulfire sources like a &esoul campfire&r or &esoul torch&r, or wear a &eresperator&r or a &ecopper back tank&r with a &ediving helm&r. If you can't afford soulfire, or haven't gotted &eresperators&r, or a &ediving helm&r, you can always make an &eair bladder&r."
 			]
 			hide_text_until_complete: false
 			icon: "thinair:soulfire_bottle"

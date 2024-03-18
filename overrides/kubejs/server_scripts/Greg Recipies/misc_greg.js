@@ -317,4 +317,40 @@ ServerEvents.recipes(event => {
         .itemOutputs('kubejs:mining_ship')
         .duration(1200)
         .EUt(120)
+    event.shaped(
+        Item.of('2x gtceu:paper_dust',),
+        [
+            '   ',
+            'AAA',
+            ' B '
+        ],
+        {
+            A: '#forge:paper_plants',
+            B: '#forge:tools/mortars'
+        }
+        )
+    event.shaped(
+        Item.of('2x gtceu:paper_dust',),
+        [
+            '   ',
+            'AAA',
+            ' B '
+        ],
+        {
+            A: 'dawnoftimebuilder:mulberry_leaves',
+            B: '#forge:tools/mortars'
+        }
+        )
+    event.shaped(
+        Item.of('2x gtceu:paper_dust',),
+        [
+            '   ',
+            'AAA',
+            ' B '
+        ],
+        {
+            A: 'famersdelight:tree_bark',
+            B: '#forge:tools/mortars'
+        }
+        )
 })

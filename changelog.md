@@ -1,5 +1,30 @@
 # Changelog
 
+## V 0.0.4
+
+* Quests
+  * Added text to the thin air quest to suggest crafting an air bladder
+  * Added quests for Sophisticated Backpacks up to Tungsten Steel Backpack
+  * Added a note to the windmill quest to hint at restrictions
+  * Fixed quests for logs, planks, and workstations to accept any type of wood
+  * Fixed `tfmg:steel_mechanism` being required to open the Steam age quests despite not being used in that age (yet)
+* Items
+  * Added uses for `productivebees:configurable_honeycomb` and `productivebees:configurable_comb`
+  * Nerfed Paper crafting
+  * Gregified Sophisticated Backpacks, note, upgrades are currently disabled, some will be returning soon
+  * Gregified Storage Drawers, note, some upgrades are currently disabled, and will be returning soon
+  * Gregified more Create items and machines
+  * Removed Pam's Harvestcraft charcoal recipe
+* Mod Additions
+  * Added Achievments Optimizer
+  * Added FTB Filter System
+  * Added FTB Quests Optimizer
+  * Added FTB XMod Compat
+* Mod Removals
+  * Removed Create:Armory
+  * Removed SoL:Carrot
+  * Removed SoL:Onion
+
 ## V 0.0.3
 
 * Gameplay
@@ -28,7 +53,7 @@
   * Added link to the discord in the welcome questline
   * Reworked Hv quest line
   * Started the Ev quest line
-* Mods additions
+* Mod Additions
   * Added Ad Astra
   * Added Ad Astra: Giselle Addition
   * Added GT--
@@ -54,7 +79,7 @@
   * FTB Chunks v2001.2.6
   * FTB Quests v2001.3.4
   * FTB Teams v2001.2.0
-  * Hostile Nural Networks v5.3.0
+  * Hostile Neural Networks v5.3.0
   * Lootr v0.7.32.79
   * Moonlight v2.11.4
   * Productive Bees v12.4.2

@@ -10,10 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"07B9229EA02A6C1E"
-				"4E5F6BF9EF55DC13"
-			]
+			dependencies: ["4E5F6BF9EF55DC13"]
 			icon: "gtceu:bronze_machine_casing"
 			id: "2A211CF31866A27A"
 			shape: "gear"
@@ -681,6 +678,18 @@
 			}]
 			x: 1.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["71EC3043DE613FF5"]
+			id: "1E899C9F261952B4"
+			size: 0.75d
+			tasks: [{
+				id: "12AC631B598EFE7A"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
 		}
 	]
 	title: "Steam Age"

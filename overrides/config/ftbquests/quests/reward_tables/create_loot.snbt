@@ -13,6 +13,10 @@
 		{ count: 2, item: "minecraft:bread" }
 		{ item: "pamhc2foodextended:raspberryjellyitem" }
 		{ item: "pamhc2foodcore:applejuiceitem", weight: 0.75f }
+		{ count: 4, item: "gtceu:andesite_alloy_ingot" }
+		{ item: "create:electron_tube", weight: 0.1f }
+		{ item: "create:fluid_tank", weight: 0.5f }
+		{ count: 2, item: "minecraft:charcoal" }
 	]
 	title: "Create Loot"
 }

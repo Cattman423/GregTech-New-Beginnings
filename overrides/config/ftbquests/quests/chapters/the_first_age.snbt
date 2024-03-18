@@ -37,16 +37,23 @@
 			}]
 			tasks: [{
 				count: 8L
-				icon: "minecraft:oak_log"
-				id: "7F0A82F2FBE11C61"
-				item: "minecraft:oak_log"
+				id: "73355E8B4DF8741A"
+				item: {
+					Count: 1b
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(minecraft:logs)"
+					}
+				}
 				type: "item"
 			}]
+			title: "Logs"
 			x: 0.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["5CBD0FD78BF0ACEA"]
+			icon: "minecraft:crafting_table"
 			id: "7CB8F4196C533EE2"
 			rewards: [{
 				id: "51E0F4BB6A2518A9"
@@ -64,7 +71,13 @@
 				{
 					count: 4L
 					id: "2B2D7C1A3BE8A840"
-					item: { Count: 4b, id: "minecraft:oak_planks" }
+					item: {
+						Count: 1b
+						id: "ftbfiltersystem:smart_filter"
+						tag: {
+							"ftbfiltersystem:filter": "item_tag(minecraft:planks)"
+						}
+					}
 					type: "item"
 				}
 			]
@@ -732,6 +745,25 @@
 					}
 					type: "item"
 				}
+				{
+					id: "676A86A6F1BF0714"
+					item: {
+						Count: 1b
+						id: "gtceu:iron_knife"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								AttackDamage: 2.0f
+								AttackSpeed: 3.0f
+								Damage: 0
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
 			]
 			title: "Basic Gregtech Tools"
 			x: 4.0d
@@ -745,18 +777,17 @@
 				type: "xp"
 				xp: 10
 			}]
-			tasks: [
-				{
-					id: "445EA625D7F19E84"
-					item: "workshop_for_handsome_adventurer:simple_table_oak"
-					type: "item"
+			tasks: [{
+				id: "4813A4735F2F7E3B"
+				item: {
+					Count: 1b
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(workshop_for_handsome_adventurer:workstation_placer_oak)item(workshop_for_handsome_adventurer:workstation_placer_spruce)item(workshop_for_handsome_adventurer:workstation_placer_jungle)item(workshop_for_handsome_adventurer:workstation_placer_birch)item(workshop_for_handsome_adventurer:workstation_placer_dark_oak)item(workshop_for_handsome_adventurer:workstation_placer_cherry)item(workshop_for_handsome_adventurer:workstation_placer_acacia)item(workshop_for_handsome_adventurer:workstation_placer_bamboo)item(workshop_for_handsome_adventurer:workstation_placer_fir)item(workshop_for_handsome_adventurer:workstation_placer_redwood)item(workshop_for_handsome_adventurer:workstation_placer_mahogany)item(workshop_for_handsome_adventurer:workstation_placer_jacaranda)item(workshop_for_handsome_adventurer:workstation_placer_palm)item(workshop_for_handsome_adventurer:workstation_placer_willow)item(workshop_for_handsome_adventurer:workstation_placer_dead)item(workshop_for_handsome_adventurer:workstation_placer_magic)item(workshop_for_handsome_adventurer:workstation_placer_umbran)item(workshop_for_handsome_adventurer:workstation_placer_hellbark)item(workshop_for_handsome_adventurer:workstation_placer_glacian)item(workshop_for_handsome_adventurer:workstation_placer_walnut)item(workshop_for_handsome_adventurer:simple_table_oak)item(workshop_for_handsome_adventurer:simple_table_spruce)item(workshop_for_handsome_adventurer:simple_table_jungle)item(workshop_for_handsome_adventurer:simple_table_birch)item(workshop_for_handsome_adventurer:simple_table_dark_oak)item(workshop_for_handsome_adventurer:simple_table_mangrove)item(workshop_for_handsome_adventurer:simple_table_cherry)item(workshop_for_handsome_adventurer:simple_table_acacia)item(workshop_for_handsome_adventurer:simple_table_bamboo)item(workshop_for_handsome_adventurer:simple_table_fir)item(workshop_for_handsome_adventurer:simple_table_redwood)item(workshop_for_handsome_adventurer:simple_table_mahogany)item(workshop_for_handsome_adventurer:simple_table_jacaranda)item(workshop_for_handsome_adventurer:simple_table_palm)item(workshop_for_handsome_adventurer:simple_table_willow)item(workshop_for_handsome_adventurer:simple_table_dead)item(workshop_for_handsome_adventurer:simple_table_magic)item(workshop_for_handsome_adventurer:simple_table_umbran)item(workshop_for_handsome_adventurer:simple_table_hellbark)item(workshop_for_handsome_adventurer:simple_table_glacian)item(workshop_for_handsome_adventurer:simple_table_walnut))"
+					}
 				}
-				{
-					id: "331DEBA5F2CDBF3C"
-					item: "workshop_for_handsome_adventurer:workstation_placer_oak"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			title: "Crafting upgrades"
 			x: 2.0d
 			y: 2.0d

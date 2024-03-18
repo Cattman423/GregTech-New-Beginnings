@@ -179,7 +179,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('create:large_cogwheel')
         .duration(100)
         .EUt(7)
-//Create belt replacement
+//Create transportation
     event.shaped(
         Item.of('create:belt_connector',),
         [
@@ -273,6 +273,47 @@ ServerEvents.recipes(event => {
         .duration(100)
         .EUt(30)
         .circuit(1)
+    function chute(output, plate, circuit){
+        event.shaped(
+            Item.of(output),
+            [
+                'A A',
+                'ABA',
+                'DAC'
+            ],
+            {
+                A: plate,
+                B: circuit,
+                C: '#forge:tools/hammers',
+                D: '#forge:tools/wrenches',
+            }
+            )
+    }
+    chute('2x create:chute', 'gtceu:andesite_alloy_plate', 'gtceu:small_andesite_alloy_gear')
+    chute('2x create:smart_chute', 'gtceu:brass_plate', 'create:electron_tube')
+    function funnel(output, plate, circuit, belt){
+        event.shaped(
+            Item.of(output),
+            [
+                'DFC',
+                'ABA',
+                'AEA'
+                
+            ],
+            {
+                A: plate,
+                B: circuit,
+                C: '#forge:tools/hammers',
+                D: '#forge:tools/wrenches',
+                E: belt,
+                F: '#forge:tools/knives'
+            }
+            )
+    }
+    funnel('2x create:andesite_funnel', 'gtceu:andesite_alloy_plate', 'gtceu:small_andesite_alloy_gear', 'minecraft:dried_kelp')
+    funnel('2x create:brass_funnel', 'gtceu:brass_plate', 'create:electron_tube', 'minecraft:dried_kelp')
+    funnel('2x create:andesite_tunnel', 'gtceu:andesite_alloy_plate', 'gtceu:small_andesite_alloy_gear', 'create:belt_connector')
+    funnel('2x create:brass_tunnel', 'gtceu:brass_plate', 'create:electron_tube', 'create:belt_connector')
 //Create shaft replacement
     event.shapeless(
         Item.of('create:shaft', 2),
@@ -447,6 +488,40 @@ ServerEvents.recipes(event => {
             C: '#forge:tools/hammers'
         }
         )
+    event.shaped(
+        Item.of('create:spout'),
+        [
+            'CED',
+            'FAF',
+            'GBG'
+        ],
+        {
+            A: 'create:fluid_tank',
+            B: 'create:fluid_pipe',
+            C: '#forge:tools/hammers',
+            D: '#forge:tools/wrenches',
+            E: '#forge:tools/screwdrivers',
+            F: 'gtceu:small_wood_gear',
+            G: 'gtceu:andesite_alloy_screw'
+        }
+        )
+    event.shaped(
+        Item.of('create:item_drain'),
+        [
+            'CBD',
+            'FAF',
+            'GEG'
+        ],
+        {
+            A: 'create:fluid_tank',
+            B: 'minecraft:iron_bars',
+            C: '#forge:tools/hammers',
+            D: '#forge:tools/wrenches',
+            E: '#forge:tools/screwdrivers',
+            F: 'gtceu:copper_plate',
+            G: 'gtceu:andesite_alloy_screw'
+        }
+        )
 //Create intermediates    
     event.shaped(
         Item.of('create:whisk',),
@@ -502,57 +577,31 @@ ServerEvents.recipes(event => {
             B: '#forge:tools/hammers'
         }
         )
-    event.shaped(
-        Item.of('create:encased_fan',),
-        [
-            'ECF',
-            'DBD',
-            'GAG'
-        ],
-        {
-            A: 'gtceu:andesite_alloy_rotor',
-            B: 'create:andesite_casing',
-            C: 'create:shaft',
-            D: 'gtceu:small_wood_gear',
-            E: '#forge:tools/wrenches',
-            F: '#forge:tools/screwdrivers',
-            G: 'gtceu:andesite_alloy_screw'
-        }
-        )
-    event.shaped(
-        Item.of('create:mechanical_press'),
-        [
-            'ECF',
-            'DBD',
-            'GAG'
-        ],
-        {
-            A: 'gtceu:double_iron_plate',
-            B: 'create:andesite_casing',
-            C: 'create:shaft',
-            D: 'gtceu:small_wood_gear',
-            E: '#forge:tools/wrenches',
-            F: '#forge:tools/screwdrivers',
-            G: 'gtceu:andesite_alloy_screw'
-        }
-        )
-    event.shaped(
-        Item.of('create:mechanical_mixer'),
-        [
-            'ECF',
-            'DBD',
-            'GAG'
-        ],
-        {
-            A: 'create:whisk',
-            B: 'create:andesite_casing',
-            C: 'create:shaft',
-            D: 'gtceu:small_wood_gear',
-            E: '#forge:tools/wrenches',
-            F: '#forge:tools/screwdrivers',
-            G: 'gtceu:andesite_alloy_screw'
-        }
-        )
+    function mechcreate(output, input, shaft){
+        event.shaped(
+            Item.of(output),
+            [
+                'ECF',
+                'DBD',
+                'GAG'
+            ],
+            {
+                A: input,
+                B: 'create:andesite_casing',
+                C: shaft,
+                D: 'gtceu:small_wood_gear',
+                E: '#forge:tools/wrenches',
+                F: '#forge:tools/screwdrivers',
+                G: 'gtceu:andesite_alloy_screw'
+            }
+            )
+    }
+    mechcreate('create:encased_fan', 'gtceu:andesite_alloy_rotor', 'create:shaft')
+    mechcreate('create:mechanical_press', 'gtceu:double_iron_plate', 'create:shaft')
+    mechcreate('create:mechanical_mixer', 'create:whisk', 'create:shaft')
+    mechcreate('create:mechanical_saw', 'gtceu:iron_buzz_saw_blade', 'create:shaft')
+    mechcreate('create:deployer', 'create:brass_hand', 'create:electron_tube')
+
     let kjsgc = 'kubejs:incomplete_generator_coil'
     event.recipes.create.sequenced_assembly([
         Item.of('create_new_age:generator_coil').withChance(84.0),
@@ -591,6 +640,21 @@ ServerEvents.recipes(event => {
             C: 'create:electron_tube',
             D: 'minecraft:crafting_table',
             E: 'create:shaft'
+        }
+        )
+    event.shaped(
+        Item.of('createlowheated:charcoal_burner'),
+        [
+            'AEA',
+            'ABA',
+            'CAD'
+        ],
+        {
+            A: 'gtceu:andesite_alloy_plate',
+            B: 'minecraft:charcoal',
+            C: '#forge:tools/wrenches',
+            D: '#forge:tools/hammers',
+            E: 'create:electron_tube'
         }
         )
 //Create kinetic generators
@@ -643,6 +707,22 @@ ServerEvents.recipes(event => {
             A: 'create:andesite_casing',
             B: '#minecraft:planks',
             C: 'create:shaft'
+        }
+        )
+    event.recipes.create.mechanical_crafting(
+        'create:steam_engine', 
+        [
+            'BBB F   ',
+            'BDEEAEEC',
+            'BBB     '
+        ], 
+        {
+            A: 'gtceu:brass_plate',
+            B: 'gtceu:copper_plate',
+            C: 'create:shaft',
+            D: 'create:precision_mechanism',
+            E: 'gtceu:poor_steel_rod',
+            F: 'gtceu:poor_steel_bolt'
         }
         )
 })

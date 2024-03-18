@@ -1163,6 +1163,19 @@
 			x: 7.0d
 			y: 4.0d
 		}
+		{
+			dependencies: ["44A087F9D2E4BFC8"]
+			description: ["&4Please remove all items before upgrading, otherwise you will void your items. A fix will be made as soon as I can make it.&r"]
+			id: "200E5BF134028D25"
+			size: 0.75d
+			tasks: [{
+				id: "28B208EDF6422CC5"
+				item: "sophisticatedbackpacks:copper_backpack"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
 	]
 	title: "Lv Age"
 }
