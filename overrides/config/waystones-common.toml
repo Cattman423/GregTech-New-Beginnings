@@ -7,25 +7,25 @@
 	blocksPerXpLevel = 1000
 	#The minimum base xp cost (may be subceeded by multipliers defined below)
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	minimumBaseXpCost = 0.0
+	minimumBaseXpCost = 1.0
 	#The maximum base xp cost (may be exceeded by multipliers defined below), set to 0 to disable all distance-based XP costs
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	maximumBaseXpCost = 3.0
+	maximumBaseXpCost = 1000.0
 	#How much xp is needed per leashed animal to travel with you
 	#Range: > -2147483648
-	xpCostPerLeashed = 0
+	xpCostPerLeashed = 10
 	#The base xp level cost when travelling between dimensions. Ignores block distance.
 	#Range: > -2147483648
 	dimensionalWarpXpCost = 3
 	#The multiplier applied to the base xp cost when teleporting to a global waystone through any method.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	globalWaystoneXpCostMultiplier = 0.0
+	globalWaystoneXpCostMultiplier = 1.0
 	#The multiplier applied to the base xp cost when teleporting using a Warp Stone item (not the Waystone block, Konstantin)
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	warpStoneXpCostMultiplier = 0.0
+	warpStoneXpCostMultiplier = 1.0
 	#The multiplier applied to the base xp cost when teleporting from one waystone to another.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-	waystoneXpCostMultiplier = 0.0
+	waystoneXpCostMultiplier = 1.0
 	#The multiplier applied to the base xp cost when teleporting from one sharestone to another.
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	sharestoneXpCostMultiplier = 0.0
@@ -41,11 +41,11 @@
 
 [restrictions]
 	#If enabled, only creative players can place, edit or break waystones. This does NOT disable the crafting recipe.
-	restrictToCreative = false
+	restrictToCreative = true
 	#If enabled, only the owner of a waystone (the one who placed it) can rename it.
 	restrictRenameToOwner = false
 	#If enabled, waystones generated in worldgen are unbreakable.
-	generatedWaystonesUnbreakable = false
+	generatedWaystonesUnbreakable = true
 	#If enabled, leashed mobs will be teleported with you
 	transportLeashed = true
 	#Whether to take leashed mobs with you when teleporting between dimensions
@@ -54,7 +54,7 @@
 	leashedDenyList = ["minecraft:wither"]
 	#Set to 'ALLOW' to allow dimensional warp in general. Set to 'GLOBAL_ONLY' to restrict dimensional warp to global waystones. Set to 'DENY' to disallow all dimensional warps.
 	#Allowed Values: ALLOW, GLOBAL_ONLY, DENY
-	dimensionalWarp = "ALLOW"
+	dimensionalWarp = "DENY"
 	#List of dimensions that players are allowed to warp cross-dimension from and to. If left empty, all dimensions except those in dimensionalWarpDenyList are allowed.
 	dimensionalWarpAllowList = []
 	#List of dimensions that players are not allowed to warp cross-dimension from and to. Only used if dimensionalWarpAllowList is empty.
@@ -106,7 +106,7 @@
 	worldGenStyle = "BIOME"
 	#Approximate chunk distance between waystones generated freely in world generation. Set to 0 to disable generation.
 	#Range: > -2147483648
-	frequency = 25
+	frequency = 64
 	#List of dimensions that waystones are allowed to spawn in through world gen. If left empty, all dimensions except those in worldGenDimensionDenyList are used.
 	dimensionAllowList = ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"]
 	#List of dimensions that waystones are not allowed to spawn in through world gen. Only used if worldGenDimensionAllowList is empty.

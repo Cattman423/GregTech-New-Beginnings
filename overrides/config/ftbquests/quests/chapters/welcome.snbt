@@ -181,6 +181,18 @@
 			x: -1.5d
 			y: -1.5d
 		}
+		{
+			dependencies: ["225F16B6DE413EDE"]
+			description: ["I won't be adding more tips or tricks here, they now have their own page now. Check it frequently for updates."]
+			id: "7619572CF93B415D"
+			tasks: [{
+				id: "475F32AD970BE202"
+				title: "Tips and Tricks"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
 	]
 	title: "Welcome"
 }

@@ -349,7 +349,7 @@ ServerEvents.recipes(event => {
             ' B '
         ],
         {
-            A: 'famersdelight:tree_bark',
+            A: 'farmersdelight:tree_bark',
             B: '#forge:tools/mortars'
         }
         )

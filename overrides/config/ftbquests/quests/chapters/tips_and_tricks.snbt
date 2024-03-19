@@ -1,0 +1,125 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tips_and_tricks"
+	group: ""
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:book"
+	id: "0E571D2581C169E6"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7619572CF93B415D"]
+			description: ["I have made the nights tougher, as in more Apothic Boss mobs spawn, and they've been buffed. You may want to avoid the night for now..."]
+			icon: "apotheosis:boss_summoner"
+			id: "3ECE80926E16BDE9"
+			tasks: [{
+				id: "7F8C7F2804123BC9"
+				title: "Mobs"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71EC3043DE613FF5"]
+			description: [
+				"Warning, your electric machines may explode if exposed to the elements of water and fire."
+				""
+				"I am not responsible for any explosions this may cause."
+			]
+			icon: "dawnoftimebuilder:water_source_trickle"
+			id: "6C3745A6630A085B"
+			tasks: [{
+				id: "048C7B50E677BB47"
+				title: "Don't get Wet!"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54D5926072B165D5"]
+			description: [
+				"You must keep your boilers stocked with water, should you add water to a heated and dry boiler, you will have a crater where your steam set up was."
+				""
+				"Please send complaints to the physics department, not to me."
+			]
+			icon: "minecraft:water_bucket"
+			id: "3CEE64FBA36BF3C6"
+			tasks: [{
+				id: "71872AEF1EDDA553"
+				title: "Keep boilers wet"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["392ACD047179A5D8"]
+			description: [
+				"Most GregTech pros know to wall-share their multiblock structures."
+				"You may now consider yourself of the elect that know this tip."
+				""
+				"You can share things like casings and coils, even output busses and hatches, though those aren't reccomended..."
+				""
+				"However you cannot share your controllers, maintnece hatches, that just doesn't work."
+				""
+				"You probably can, but shouldn't share input hatches and busses..."
+			]
+			icon: "gtceu:coke_oven"
+			id: "4978643A7FAB5299"
+			tasks: [{
+				id: "6598BEFA12F29FB2"
+				title: "Wall-sharing"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["79F35DAA01A154B9"]
+			description: [
+				"Now that you have some electricity, how do you transfer it?"
+				""
+				"For now you will be using cables or wires, make sure you read the tooltip as it gives some useful info."
+				"{@pagebreak}"
+				"The first line is the max voltage, this just indicates how much EUt it can transfer, and what voltage tier it is, &cYou must keep voltage tiers equal, if you try and feed an Lv machine with Mv power, it will explode!&r"
+				"{@pagebreak}"
+				"The next line is how many aps it can carry. You want to make sure your cable can transmit enough amps per consumer, for trying to push 2 amps through a 1 amp cable will end poorly..."
+				"{@pagebreak}"
+				"Finally you have what the cable loss is, the lower the better. What this means is that for every block your cable travels, you lose this amount of EUt per amp. So a tin cable traviling 5 blocks from a power source loses 5 max EUt, going from 32EUt down to 27EUt."
+			]
+			icon: "gtceu:tin_single_cable"
+			id: "32F075C4104F59D4"
+			tasks: [{
+				id: "515195E926A28B0A"
+				title: "Power, EUt, Amps, Volts, oh my"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A211CF31866A27A"]
+			description: [
+				"All GregTech recipes have a required voltage, this is what the minimum tier machine you need to run it at is. "
+				""
+				"A recipe that needs 7 EUt can be run in any tier machine, on that needs 16 requires at least an Lv machine to craft."
+				""
+				"&cPlease check what the EUt requirement for your recipe is before submitting a bug report, it will save you the embarassment. Trust me...&r"
+			]
+			icon: "gtceu:lp_steam_macerator"
+			id: "2D93FAC4A9AD94A7"
+			tasks: [{
+				id: "03E8E800E9FF3548"
+				title: "Tiered Machines"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+	title: "Tips and Tricks"
+}

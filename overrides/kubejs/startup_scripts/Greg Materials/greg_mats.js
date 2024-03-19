@@ -52,7 +52,8 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .flags(
             GTMaterialFlags.GENERATE_PLATE, 
             GTMaterialFlags.GENERATE_ROD, 
-            GTMaterialFlags.GENERATE_LENS
+            GTMaterialFlags.GENERATE_LENS,
+            GTMaterialFlags.MORTAR_GRINDABLE
         )
 
     event.create('redstone_alloy')
@@ -74,7 +75,6 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_LENS,
             GTMaterialFlags.EXCLUDE_PLATE_COMPRESSOR_RECIPE
         )
-
         GTMaterials.get('andesite_alloy').addFlags(
         GTMaterialFlags.GENERATE_PLATE, 
         GTMaterialFlags.GENERATE_GEAR, 
@@ -188,4 +188,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     GTMaterials.Monazite.addFlags(
         GTMaterialFlags.GENERATE_LENS
     )
+const $IngotProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.IngotProperty')
+
+    GTMaterials.Obsidian.setProperty(PropertyKey.INGOT, new $IngotProperty())
 })

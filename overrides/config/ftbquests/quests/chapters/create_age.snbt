@@ -558,6 +558,7 @@
 			dependencies: [
 				"2BCE33B1C25758FC"
 				"3BB723ACE6619C1E"
+				"0F6B6479A8529BD2"
 			]
 			id: "4E68C8330998DB20"
 			rewards: [
@@ -927,7 +928,6 @@
 			dependencies: [
 				"6E2F1BC142C13B68"
 				"392ACD047179A5D8"
-				"4E68C8330998DB20"
 			]
 			id: "0F6B6479A8529BD2"
 			rewards: [

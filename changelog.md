@@ -1,5 +1,31 @@
 # Changelog
 
+## V 0.0.5
+
+* Recipe Tweaks
+  * Added crafting table and assembler recipes for `create:electron_tube`
+  * Added mixer recipe for `gtceu:rose_quartz`
+  * Changed charcoal burner recipe so now rose quartz isn't gated behind electron tubes
+  * Fixed implementation for `productivebees:configurable_honeycomb` and `productivebees:configurable_comb`, now working as intended
+  * Fixed Chad recipe
+* Quests
+  * Added xp rewards to Steam age quests
+  * Added some tips and tricks in their own chapter
+  * Misc Quest additions and changes
+* Mod Changes
+  * Nerfed Waystones
+  * Increased the amount of breathable air in the overworld to y=-16 to y=144 from the previous y=0 to y=128
+* Mod Additions
+  * Added Create Jetpack
+  * Added Hang Glider
+* Mod Updates
+  * Stargate Journey v0.6.22
+  * Productive Bees v12.4.3
+  * Geckolib v4.4.4
+  * Almost Unified v0.9.2
+  * Create Connected v0.7.3
+  * Ae2 Insert Export Card v1.1.1
+
 ## V 0.0.4
 
 * Quests
@@ -16,7 +42,7 @@
   * Gregified more Create items and machines
   * Removed Pam's Harvestcraft charcoal recipe
 * Mod Additions
-  * Added Achievments Optimizer
+  * Added Achievements Optimizer
   * Added FTB Filter System
   * Added FTB Quests Optimizer
   * Added FTB XMod Compat

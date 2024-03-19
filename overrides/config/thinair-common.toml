@@ -4,7 +4,7 @@
 #The air will have that quality starting at that height and above (until the next entry).
 #The entries must be in ascending order of height.
 #If a dimension doesn't have an entry here, it'll be assumed to be green everywhere.
-dimensions = ["minecraft:overworld=yellow,0:green,128:yellow,512:red", "minecraft:the_nether=yellow", "minecraft:the_end=red"]
+dimensions = ["minecraft:overworld=yellow,-16:green,144:yellow,512:red", "minecraft:the_nether=yellow", "minecraft:the_end=red"]
 #Whether to allow right-clicking torches to make them spray particle effects
 enableSignalTorches = true
 #How much air a Drowned attack removes. Set to 0 to disable this feature.

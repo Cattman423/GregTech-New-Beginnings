@@ -792,6 +792,30 @@
 			x: 2.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["28F55F1A3D9A558F"]
+			description: ["With your new GregTech tools, you can craft up some storage drawers and save on storage space for things like cobblestone and stone dust."]
+			id: "3978CEE3DFDF9009"
+			rewards: [{
+				id: "67D19615BE4FCBBA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2AB7EBFB86491B92"
+				item: {
+					Count: 1b
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(storagedrawers:drawers)"
+					}
+				}
+				type: "item"
+			}]
+			title: "Drawers"
+			x: 4.0d
+			y: 5.0d
+		}
 	]
 	title: "Start Here"
 }

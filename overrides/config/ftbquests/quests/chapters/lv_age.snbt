@@ -998,7 +998,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "5EFE482E16918A16"
-				item: "tfmg:crude_oil_fluid_bucket"
+				item: "gtceu:oil_bucket"
 				type: "item"
 			}]
 			x: -7.0d
@@ -1059,6 +1059,8 @@
 				"With a good amount of steel, you can start your oil toil. "
 				""
 				"I gave you a whole chapter where you can investigate how to get to what products that you want to make."
+				""
+				"Check the pumpjack ponder to see how to construct it."
 			]
 			icon: "tfmg:crude_oil_fluid_bucket"
 			id: "3FA0C8E967B390B0"
