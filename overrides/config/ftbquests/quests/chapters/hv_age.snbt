@@ -1,5 +1,5 @@
 {
-	autofocus_id: "15EA3D78FF90EC09"
+	autofocus_id: "3B36589D2289A16A"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "hv_age"
@@ -7,11 +7,17 @@
 	icon: "gtceu:hv_machine_hull"
 	id: "419C00124105BC5B"
 	order_index: 5
-	quest_links: [ ]
+	quest_links: [{
+		id: "07B8D2B09F4D5836"
+		linked_quest: "6DFF476463BE46A1"
+		shape: "gear"
+		size: 2.0d
+		x: 0.0d
+		y: 0.0d
+	}]
 	quests: [
 		{
-			dependencies: ["15EA3D78FF90EC09"]
-			hide_dependent_lines: true
+			dependencies: ["6DFF476463BE46A1"]
 			id: "3B36589D2289A16A"
 			shape: "diamond"
 			tasks: [{
@@ -23,7 +29,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["34212834EDAEDFF9"]
+			dependencies: [
+				"34212834EDAEDFF9"
+				"3A7DEFE44A93315D"
+			]
 			id: "74E7F580B488CA69"
 			tasks: [{
 				id: "15233C4F0B808F37"
@@ -31,7 +40,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["74E7F580B488CA69"]
@@ -42,7 +51,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["61571ED3D53BD832"]
@@ -53,10 +62,11 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["7BB6DA286AC97192"]
+			description: ["Yes, this is an Iv tier circuit in Hv. These unlock the Multiblock vareints of your single block machines, however you kinda need the Alloy Blast Smelter and Iv versions of the single blocks first..."]
 			id: "31340984653FF047"
 			tasks: [{
 				id: "71DF3A9EF516BF24"
@@ -64,7 +74,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2DCEA426D77C7BCE"]
@@ -94,10 +104,10 @@
 				}
 			]
 			x: 2.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["15EA3D78FF90EC09"]
+			dependencies: ["6DFF476463BE46A1"]
 			id: "1CB9E2AD3CCF332D"
 			tasks: [{
 				id: "7E6D07C03CC1EA7B"
@@ -110,6 +120,7 @@
 		{
 			dependencies: ["1CB9E2AD3CCF332D"]
 			id: "34FBCA1F6579A6DA"
+			optional: true
 			shape: "pentagon"
 			tasks: [{
 				id: "0DE9F3E3894AC6BD"
@@ -122,6 +133,7 @@
 		{
 			dependencies: ["1CB9E2AD3CCF332D"]
 			id: "252C92273787619E"
+			optional: true
 			shape: "pentagon"
 			tasks: [{
 				id: "1F216AA739436184"
@@ -134,6 +146,7 @@
 		{
 			dependencies: ["1CB9E2AD3CCF332D"]
 			id: "5C2599185FA58E26"
+			optional: true
 			shape: "pentagon"
 			tasks: [{
 				id: "517DF01F1798A474"
@@ -146,6 +159,7 @@
 		{
 			dependencies: ["1CB9E2AD3CCF332D"]
 			id: "3C164289713FF1E0"
+			optional: true
 			shape: "pentagon"
 			tasks: [{
 				id: "158DC5A5EC06F221"
@@ -158,6 +172,7 @@
 		{
 			dependencies: ["1CB9E2AD3CCF332D"]
 			id: "237BF9AA857FAF68"
+			optional: true
 			shape: "pentagon"
 			tasks: [{
 				id: "15E989624A366B30"
@@ -177,7 +192,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7BB6DA286AC97192"]
@@ -188,7 +203,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7BB6DA286AC97192"]
@@ -198,8 +213,8 @@
 				item: "gtceu:distillation_tower"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.0d
+			x: 2.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7BB6DA286AC97192"]
@@ -209,8 +224,8 @@
 				item: "gtceu:hv_fluid_drilling_rig"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 5.0d
+			x: 3.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["673D20CCAD847242"]
@@ -221,7 +236,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3183D053D96F8B4C"]
@@ -232,7 +247,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2DCEA426D77C7BCE"]
@@ -242,11 +257,11 @@
 				item: "gtceu:large_chemical_reactor"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 1.5d
 			y: 6.0d
 		}
 		{
-			dependencies: ["15EA3D78FF90EC09"]
+			dependencies: ["6DFF476463BE46A1"]
 			id: "26D3F8BE07B4CFC3"
 			tasks: [
 				{
@@ -439,19 +454,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["7511A3ABFA67D9E0"]
-			id: "15EA3D78FF90EC09"
-			shape: "gear"
-			size: 2.0d
-			tasks: [{
-				id: "7D2149BFB9B564F8"
-				item: "gtceu:hv_machine_hull"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["3B36589D2289A16A"]
 			id: "709D247370A65E2B"
 			tasks: [{
@@ -474,6 +476,109 @@
 			}]
 			x: -3.0d
 			y: 5.0d
+		}
+		{
+			dependencies: [
+				"17FC743ACF978E61"
+				"27557239EE4C55DD"
+			]
+			dependency_requirement: "one_started"
+			description: [
+				"Regular &o&dGregTech&r Fluid Pipes can only transport one fluid type at a time."
+				""
+				"&3Quadruple Fluid Pipes&r can transfer four different types of fluids. &3Nonuple Fluid Pipes&r can transfer nine different types! Useful for compact setups."
+				""
+				"&3Nonuple Fluid Pipes&r will be useful in &5EV&r for handling the many outputs of the &3Distillation Tower&r."
+				""
+				"Get &eeither&r to finish this quest."
+			]
+			icon: "gtceu:tungsten_steel_quadruple_fluid_pipe"
+			id: "1B83EF707BC4FDE8"
+			size: 1.0d
+			subtitle: "\"I thought channels were disabled!\""
+			tasks: [
+				{
+					id: "73518ADB6A54B50D"
+					item: "gtceu:stainless_steel_quadruple_fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "2272B5C40E51D108"
+					item: "gtceu:stainless_steel_nonuple_fluid_pipe"
+					type: "item"
+				}
+			]
+			title: "Multiple Channel Pipes"
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6DFF476463BE46A1"]
+			description: [
+				"You now have access to two &3new Maintenance Hatches&r. Both hatches &6do not require Maintenance&r when first placed in a Multiblock. We're going to ask for both here."
+				""
+				"The &3Automatic Maintenance Hatch&r is pretty simple - it eliminates the need for Maintenance, &6forever&r."
+				""
+				"The &3Configurable Maintenance Hatch&r is more interesting. You can configure it to cut off &a10% duration&r on recipes, at the cost of making Maintenance happen three times as fast. That is &d16 real hours&r of activity."
+				""
+				"&9Reminder:&r You can put Tape in the maintenance Hatch to automatically fix problems."
+				"{@pagebreak}"
+				"&l&3Lore:&r&o The Automatic Maintenance Hatch texture and mechanic comes from TecTech, an addon mod originally made for GregTech: New Horizons. "
+				""
+				"&oYou'll see more from TecTech if you stick with us with the late game."
+			]
+			icon: "gtceu:configurable_maintenance_hatch"
+			id: "14A56E4E7282ABD4"
+			size: 1.0d
+			subtitle: "Huge News for Maintenance Haters"
+			tasks: [
+				{
+					id: "39F1E855F30F7215"
+					item: "gtceu:configurable_maintenance_hatch"
+					type: "item"
+				}
+				{
+					id: "6EB40C42CDB9BFB9"
+					item: "gtceu:auto_maintenance_hatch"
+					type: "item"
+				}
+			]
+			title: "Advanced Maintenance"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B36589D2289A16A"]
+			id: "3A7DEFE44A93315D"
+			tasks: [
+				{
+					id: "50919D6039AC773E"
+					item: "gtceu:smd_transistor"
+					type: "item"
+				}
+				{
+					id: "7240E88FD926CA22"
+					item: "gtceu:smd_resistor"
+					type: "item"
+				}
+				{
+					id: "08A6BB1F23447947"
+					item: "gtceu:smd_capacitor"
+					type: "item"
+				}
+				{
+					id: "63BA43D2FA08EC02"
+					item: "gtceu:smd_diode"
+					type: "item"
+				}
+				{
+					id: "3415912C18C40E60"
+					item: "gtceu:smd_inductor"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
 		}
 	]
 	title: "Hv Age [WIP]"

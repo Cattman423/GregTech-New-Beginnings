@@ -2,7 +2,8 @@
   "Client": {
     "extraHeartRenderer": false,
     "killToast": false,
-    "addChatAnimation": false
+    "addChatAnimation": false,
+    "enableRemakeGTMEMI": true
   },
   "Server": {
     "enableHarderPlatinumLine": false,

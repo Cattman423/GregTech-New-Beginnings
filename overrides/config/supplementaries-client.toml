@@ -150,7 +150,7 @@
 	#Range: -10.0 ~ 10.0
 	test3 = 0.0
 	#Disables Amendments suggestion screen
-	no_amendments_screen = false
+	no_amendments_screen = true
 
 #Game tweaks
 [tweaks]

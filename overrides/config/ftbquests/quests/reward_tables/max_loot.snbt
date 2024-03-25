@@ -1,0 +1,8 @@
+{
+	icon: "gtceu:max_machine_hull"
+	id: "0B91BDB6EA836D26"
+	loot_size: 1
+	order_index: 15
+	rewards: [ ]
+	title: "MAX Loot"
+}

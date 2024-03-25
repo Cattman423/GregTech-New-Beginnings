@@ -1,0 +1,8 @@
+{
+	icon: "gtceu:uxv_machine_hull"
+	id: "48EA52DB11FE7E1B"
+	loot_size: 1
+	order_index: 13
+	rewards: [ ]
+	title: "Uxv Loot"
+}

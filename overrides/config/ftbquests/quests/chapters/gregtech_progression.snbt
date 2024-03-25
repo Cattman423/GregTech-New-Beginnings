@@ -1,6 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	default_quest_size: 0.5d
 	filename: "gregtech_progression"
 	group: ""
 	icon: "gtceu:electric_blast_furnace"
@@ -11,547 +12,547 @@
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "39FBBB543016D038"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "4CCE9ED778A93102"
 				item: "create:andesite_casing"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -4.25d
 			y: -11.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "72ADA3A25D569FE5"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "38FD70B9A724D57A"
 				item: "create:brass_casing"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -3.75d
 			y: -11.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "6BC3AF591099C3F0"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "576AF9900A59E63F"
 				item: "gtceu:ulv_machine_hull"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -2.25d
 			y: -11.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "339FCF9E5991E442"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "74DB14487910E598"
 				item: "gtceu:lv_machine_hull"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -1.75d
 			y: -11.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "372FA61883B3BAB5"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "1BD24639DFBCBD2D"
 				item: "gtceu:mv_machine_hull"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -1.25d
 			y: -11.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "300C2D223257FCEE"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "2D95B75E37C15228"
 				item: "gtceu:hv_machine_hull"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -0.75d
 			y: -11.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "0B54038BAA8C698D"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "79D58FEED21DE9C1"
 				item: "gtceu:ev_machine_hull"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -0.25d
 			y: -11.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "373ABCB347BBFE32"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "21F43CC7EBA5E8DE"
 				item: "gtceu:iv_machine_hull"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.25d
 			y: -11.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "3144EC7A40D60ECD"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "016BCDC47BED28E8"
 				item: "gtceu:luv_machine_hull"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.75d
 			y: -11.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "5E1EEA4EC3E1D994"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "03D0BF982E15ECE8"
 				item: "gtceu:zpm_machine_hull"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.25d
 			y: -11.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "525F1D0848DBA278"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "50D527E8712F0A8B"
 				item: "gtceu:uv_machine_hull"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.75d
 			y: -11.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "76E25F4AD36D49BD"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "53EEAA71860FA152"
 				item: "gtceu:uhv_machine_hull"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.25d
 			y: -11.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "06A039CF827EC834"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "03CAA5AE6DAFE37D"
 				item: "create:electron_tube"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -3.75d
 			y: -10.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "02E051DBBB084DB9"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "0378EB810C7CE060"
 				item: "gtceu:vacuum_tube"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -7.0d
+			x: -2.25d
+			y: -8.5d
 		}
 		{
 			dependencies: ["02E051DBBB084DB9"]
 			id: "07E3CDF0154C11A2"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "62B8F89DAAAA169B"
 				item: "gtceu:basic_electronic_circuit"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -6.0d
+			x: -1.75d
+			y: -8.0d
 		}
 		{
 			dependencies: ["07E3CDF0154C11A2"]
 			id: "248F70B8CEB77460"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "364A9F0FDCECB1F8"
 				item: "gtceu:good_electronic_circuit"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -5.0d
+			x: -1.75d
+			y: -7.5d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "40564468A157A895"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "271802AB51E8E194"
 				item: "gtceu:basic_integrated_circuit"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -6.0d
+			x: -1.25d
+			y: -8.0d
 		}
 		{
 			dependencies: ["40564468A157A895"]
 			id: "4F2BAF30E9FD72B6"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "30F6AA8DECE7A58B"
 				item: "gtceu:good_integrated_circuit"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -5.0d
+			x: -1.25d
+			y: -7.5d
 		}
 		{
 			dependencies: ["4F2BAF30E9FD72B6"]
 			id: "1A8F74DC923AEDD4"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "1B15A91D21FC41A2"
 				item: "gtceu:advanced_integrated_circuit"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -4.0d
+			x: -1.25d
+			y: -7.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "7557546568D4F651"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "42DD09FD66E5EE5A"
 				item: "gtceu:uev_machine_hull"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 2.75d
 			y: -11.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "3CC8BFC6EFD399A3"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "0DEA6957F2965343"
 				item: "gtceu:uiv_machine_hull"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 3.25d
 			y: -11.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "5199F336C6E50E8C"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "7661582C62AB0A1D"
 				item: "gtceu:uxv_machine_hull"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 3.75d
 			y: -11.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "6454671AF334EDB2"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "208D81953228A7D7"
 				item: "gtceu:opv_machine_hull"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 4.25d
 			y: -11.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "263C50F8332D0689"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "26A919CFC8BCB0B6"
 				item: "gtceu:max_machine_hull"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 4.75d
 			y: -11.0d
 		}
 		{
 			dependencies: ["06A039CF827EC834"]
 			id: "548B5BDB2D148D9B"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
-				id: "38B1E8D2C2D01756"
-				item: "create:precision_mechanism"
+				id: "535F69223453322E"
+				item: "kubejs:clockwork_mechanism"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -9.0d
+			x: -3.25d
+			y: -9.5d
 		}
 		{
 			dependencies: ["548B5BDB2D148D9B"]
 			id: "3FC77DE69BD49242"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
-				id: "4E2D377F01118B13"
-				item: "tfmg:steel_mechanism"
+				id: "38D646ECC51DB006"
+				item: "kubejs:advanced_clockwork_mechanism"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -8.0d
+			x: -2.75d
+			y: -9.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			icon: "create:andesite_casing"
 			id: "6BAC837957A9DADC"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "471927189E76CB5F"
 				item: "gtceu:andesite_alloy_ingot"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -10.0d
+			x: -4.75d
+			y: -10.5d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			icon: "create:brass_casing"
 			id: "0B3FA22F4E66B0C8"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "08C3D8FFBB2EAF63"
 				item: "gtceu:brass_ingot"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -9.0d
+			x: -4.75d
+			y: -10.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			icon: "gtceu:ulv_machine_hull"
 			id: "768D5C9CED0EEBFF"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "0A428A00E72B5E22"
 				item: "gtceu:wrought_iron_ingot"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -7.0d
+			x: -4.75d
+			y: -8.5d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			icon: "gtceu:lv_machine_hull"
 			id: "1D7B51DF53B1BEA7"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "17A663E5739C610D"
 				item: "gtceu:steel_ingot"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -6.0d
+			x: -4.75d
+			y: -8.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			icon: "gtceu:mv_machine_hull"
 			id: "2B1929F16C9A0C9A"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "25FBEE831AA2240E"
 				item: "gtceu:aluminium_ingot"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -5.0d
+			x: -4.75d
+			y: -7.5d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			icon: "gtceu:hv_machine_hull"
 			id: "24F22C1C0796DD41"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "40C253421167A9F3"
 				item: "gtceu:stainless_steel_ingot"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -4.0d
+			x: -4.75d
+			y: -7.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			icon: "gtceu:ev_machine_hull"
 			id: "56B57C72D8E7B75E"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "6FBC95127D8E69CF"
 				item: "gtceu:titanium_ingot"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -3.0d
+			x: -4.75d
+			y: -6.5d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			icon: "gtceu:iv_machine_hull"
 			id: "6F4695F5CEFCF12C"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "1590CA8645CD37DF"
 				item: "gtceu:tungsten_steel_ingot"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -2.0d
+			x: -4.75d
+			y: -6.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			icon: "gtceu:luv_machine_hull"
 			id: "47B02035E39B083F"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "593E8EE7B284904C"
 				item: "gtceu:rhodium_plated_palladium_ingot"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -1.0d
+			x: -4.75d
+			y: -5.5d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			icon: "gtceu:zpm_machine_hull"
 			id: "4C8DCC8B1C28E7B6"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "3F196715C0BDA197"
 				item: "gtceu:naquadah_alloy_ingot"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 0.0d
+			x: -4.75d
+			y: -5.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			icon: "gtceu:uv_machine_hull"
 			id: "5A8A19E0E08650D3"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "05759C29A06C2006"
 				item: "gtceu:darmstadtium_ingot"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 1.0d
+			x: -4.75d
+			y: -4.5d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			icon: "gtceu:uhv_machine_hull"
 			id: "0B384B230A3E0747"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "5404529563BAF554"
 				item: "gtceu:neutronium_ingot"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 2.0d
+			x: -4.75d
+			y: -4.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			icon: "gtceu:uev_machine_hull"
 			id: "7FB5535CEC09077E"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "610AFAC443907F45"
 				item: "minecraft:bedrock"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 3.0d
+			x: -4.75d
+			y: -3.5d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			icon: "gtceu:uiv_machine_hull"
 			id: "0831197FAD47971E"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "3B8810BE02026D7F"
 				item: "minecraft:bedrock"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 4.0d
+			x: -4.75d
+			y: -3.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			icon: "gtceu:uxv_machine_hull"
 			id: "40DF11B1F39E8D84"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "6539B43D1BEBFF24"
 				item: "minecraft:bedrock"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 5.0d
+			x: -4.75d
+			y: -2.5d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			icon: "gtceu:opv_machine_hull"
 			id: "049C148E6B328294"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "2EC2ABFBF672E90A"
 				item: "minecraft:bedrock"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 6.0d
+			x: -4.75d
+			y: -2.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			icon: "gtceu:max_machine_hull"
 			id: "03FBC9ED8CCBE47C"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "5DD0AB77B9937C5B"
 				item: "minecraft:bedrock"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 7.0d
+			x: -4.75d
+			y: -1.5d
 		}
 		{
 			dependencies: ["13E528F2999E6157"]
 			id: "67E71F45353C53B9"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "5B4D6C1445D72FF3"
 				item: "gtceu:cupronickel_coil_block"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 9.0d
+			x: -1.75d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -559,14 +560,14 @@
 				"4EA7DC5964E9BED1"
 			]
 			id: "35A0EB4C5F256C48"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "4F9C01ECE16EF215"
 				item: "gtceu:kanthal_coil_block"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 9.0d
+			x: -1.25d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -574,14 +575,14 @@
 				"7FB4D748A4204AC1"
 			]
 			id: "6698AD1D1C37816C"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "644A09D195F53C5D"
 				item: "gtceu:nichrome_coil_block"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 9.0d
+			x: -0.75d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -589,14 +590,14 @@
 				"67E7EB2FA1FD1252"
 			]
 			id: "70659A6D31309536"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "180147474723C1F7"
 				item: "gtceu:rtm_alloy_coil_block"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 9.0d
+			x: 0.25d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -604,14 +605,14 @@
 				"43A76DB66A221A37"
 			]
 			id: "32F52A775048432A"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "13704DBA6C828C41"
 				item: "gtceu:hssg_coil_block"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 9.0d
+			x: 0.75d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -619,14 +620,14 @@
 				"5F630DF8580FDCFB"
 			]
 			id: "3D2878EDD6C9025D"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "051B8E6E3837BCD1"
 				item: "gtceu:naquadah_coil_block"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 9.0d
+			x: 1.25d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -634,14 +635,14 @@
 				"35A93DB7EA041370"
 			]
 			id: "5BDAA88785959115"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "0A43FBA137719DE2"
 				item: "gtceu:trinium_coil_block"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 9.0d
+			x: 1.75d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -649,19 +650,19 @@
 				"37A20D84A841C806"
 			]
 			id: "3F638438107C2C7C"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "2DE0BE2603999512"
 				item: "gtceu:tritanium_coil_block"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 9.0d
+			x: 2.25d
+			y: -0.5d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "7D22CE9357B9086F"
-			size: 1.0d
+			size: 0.5d
 			tasks: [
 				{
 					id: "4E25C5F77353176C"
@@ -679,13 +680,13 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: 10.0d
+			x: -1.75d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7D22CE9357B9086F"]
 			id: "2849D134759F8E69"
-			size: 1.0d
+			size: 0.5d
 			tasks: [
 				{
 					id: "615AD5E404811795"
@@ -703,13 +704,13 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: 10.0d
+			x: -1.25d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2849D134759F8E69"]
 			id: "53C9EE856C34CB89"
-			size: 1.0d
+			size: 0.5d
 			tasks: [
 				{
 					id: "75AD26FEBCE56521"
@@ -727,68 +728,68 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
-			y: 10.0d
+			x: -0.75d
+			y: 0.0d
 		}
 		{
 			dependencies: ["53C9EE856C34CB89"]
 			id: "6E67FE83586A4EC2"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "0A04B5963C46C4CD"
 				item: "gtceu:ev_vanadium_battery"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 10.0d
+			x: -0.25d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6E67FE83586A4EC2"]
 			id: "0238D3FC78C1EEA8"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "7AA1FE79741242C7"
 				item: "gtceu:iv_vanadium_battery"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 10.0d
+			x: 0.25d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0238D3FC78C1EEA8"]
 			id: "7A93007009404EF1"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "37D308D8CD512C34"
 				item: "gtceu:luv_vanadium_battery"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 10.0d
+			x: 0.75d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7A93007009404EF1"]
 			id: "5C23832BDC6B734B"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "0904E5620A48D125"
 				item: "gtceu:zpm_naquadria_battery"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 10.0d
+			x: 1.25d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5C23832BDC6B734B"]
 			id: "65E96A1996451D5A"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "469489E6BDB769F3"
 				item: "gtceu:uv_naquadria_battery"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 10.0d
+			x: 1.75d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -796,453 +797,453 @@
 				"65E96A1996451D5A"
 			]
 			id: "4537B415882DD34D"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "5E11A05222244A20"
 				item: "gtceu:max_battery"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 10.0d
+			x: 2.25d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5A3EF263B59B9342"]
 			id: "129D8F09A6D65702"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "0BD1EE7A7C5CB09D"
 				item: "gtceu:lapotron_crystal"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 11.0d
+			x: -0.25d
+			y: 0.5d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "5A3EF263B59B9342"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "431AD3C15FC7D9B5"
 				item: "gtceu:energy_crystal"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 11.0d
+			x: -0.75d
+			y: 0.5d
 		}
 		{
 			dependencies: ["129D8F09A6D65702"]
 			id: "335AC971CB49E708"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "35AA3E4DD184B677"
 				item: "gtceu:lapotronic_energy_orb"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 11.0d
+			x: 0.25d
+			y: 0.5d
 		}
 		{
 			dependencies: ["335AC971CB49E708"]
 			id: "4304F9929E57D3D0"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "5866E7592448ADA9"
 				item: "gtceu:lapotronic_energy_orb_cluster"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 11.0d
+			x: 0.75d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4304F9929E57D3D0"]
 			id: "7718127C8757D05C"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "11218FA4D1B4F7FC"
 				item: "gtceu:energy_module"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 11.0d
+			x: 1.25d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7718127C8757D05C"]
 			id: "3A8BCC05FBEF2FF6"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "4770FFB264D6F47F"
 				item: "gtceu:energy_cluster"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 11.0d
+			x: 1.75d
+			y: 0.5d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "13E528F2999E6157"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "40252C3BCE7435A5"
 				item: "gtceu:cupronickel_ingot"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 8.0d
+			x: -1.75d
+			y: -1.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "4EA7DC5964E9BED1"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "10AF4B16B4EC68B6"
 				item: "gtceu:kanthal_ingot"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 8.0d
+			x: -1.25d
+			y: -1.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "7FB4D748A4204AC1"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "66714C8C2A88C209"
 				item: "gtceu:nichrome_ingot"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 8.0d
+			x: -0.75d
+			y: -1.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "67E7EB2FA1FD1252"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "64E0E01101B60ACC"
 				item: "gtceu:rtm_alloy_ingot"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 8.0d
+			x: 0.25d
+			y: -1.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "43A76DB66A221A37"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "122E847DD48A2F1A"
 				item: "gtceu:hssg_ingot"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.0d
+			x: 0.75d
+			y: -1.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "5F630DF8580FDCFB"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "69A6C8AAB9CA0A23"
 				item: "gtceu:naquadah_ingot"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 8.0d
+			x: 1.25d
+			y: -1.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "35A93DB7EA041370"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "6505E6C147B50E8D"
 				item: "gtceu:trinium_ingot"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 8.0d
+			x: 1.75d
+			y: -1.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "37A20D84A841C806"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "17FA1173973410FC"
 				item: "gtceu:tritanium_ingot"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 8.0d
+			x: 2.25d
+			y: -1.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "5947089F43550495"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "5B06F2BADA5BB452"
 				item: "gtceu:nand_chip"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -7.0d
+			x: -0.75d
+			y: -8.5d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "19C70BB142A5379B"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "742989F93E2DA4E4"
 				item: "gtceu:microchip_processor"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -6.0d
+			x: -0.75d
+			y: -8.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "25FC17F8581F7B44"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "7AB4395BDEC81F90"
 				item: "gtceu:micro_processor"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -5.0d
+			x: -0.75d
+			y: -7.5d
 		}
 		{
 			dependencies: ["25FC17F8581F7B44"]
 			id: "2F2A824BE3A232F4"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "64997A6776B797C6"
 				item: "gtceu:micro_processor_assembly"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -4.0d
+			x: -0.75d
+			y: -7.0d
 		}
 		{
 			dependencies: ["2F2A824BE3A232F4"]
 			id: "56F21E929460C33D"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "7DB464D324E2BFA5"
 				item: "gtceu:micro_processor_computer"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -3.0d
+			x: -0.75d
+			y: -6.5d
 		}
 		{
 			dependencies: ["56F21E929460C33D"]
 			id: "684BEA603DC6E7F4"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "347C23908747ABAD"
 				item: "gtceu:micro_processor_mainframe"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.0d
+			x: -0.25d
+			y: -6.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "269A70634FD57DE0"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "3E8E92FED618F30D"
 				item: "gtceu:nano_processor"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -4.0d
+			x: 0.25d
+			y: -7.0d
 		}
 		{
 			dependencies: ["269A70634FD57DE0"]
 			id: "3E4F84A8137D587E"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "0B757D2A9BBAECCF"
 				item: "gtceu:nano_processor_assembly"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -3.0d
+			x: 0.25d
+			y: -6.5d
 		}
 		{
 			dependencies: ["3E4F84A8137D587E"]
 			id: "7BED543D320C7D60"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "56C2B00DFB9DC7AB"
 				item: "gtceu:nano_processor_computer"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -2.0d
+			x: 0.25d
+			y: -6.0d
 		}
 		{
 			dependencies: ["7BED543D320C7D60"]
 			id: "54C923297D808BEE"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "3FE0A0F80FF55772"
 				item: "gtceu:nano_processor_mainframe"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -1.0d
+			x: 0.25d
+			y: -5.5d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			description: [""]
 			id: "60FF3D861BAE2F49"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "2B694F8611751609"
 				item: "gtceu:quantum_processor"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.0d
+			x: 0.75d
+			y: -6.5d
 		}
 		{
 			dependencies: ["60FF3D861BAE2F49"]
 			id: "7CA6723F827A2722"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "25FC3DAB64FEAFEC"
 				item: "gtceu:quantum_processor_assembly"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.0d
+			x: 0.75d
+			y: -6.0d
 		}
 		{
 			dependencies: ["7CA6723F827A2722"]
 			id: "17805806E7D4CDEE"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "7E964D135BD590AF"
 				item: "gtceu:quantum_processor_computer"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.0d
+			x: 0.75d
+			y: -5.5d
 		}
 		{
 			dependencies: ["17805806E7D4CDEE"]
 			id: "1A7369D262163941"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "6E33CDFD46C5167D"
 				item: "gtceu:quantum_processor_mainframe"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: 0.75d
+			y: -5.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "2475A0B501C5874E"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "4439A150F01854F6"
 				item: "gtceu:crystal_processor"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.0d
+			x: 1.25d
+			y: -6.0d
 		}
 		{
 			dependencies: ["2475A0B501C5874E"]
 			id: "25CA3A056DD3F500"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "1652D23637878F14"
 				item: "gtceu:crystal_processor_assembly"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.0d
+			x: 1.25d
+			y: -5.5d
 		}
 		{
 			dependencies: ["25CA3A056DD3F500"]
 			id: "3BE3DEA7A4F26A3E"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "0909EE2FBA38EEC4"
 				item: "gtceu:crystal_processor_computer"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.0d
+			x: 1.25d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3BE3DEA7A4F26A3E"]
 			id: "54AF42C4E252EC79"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "57EA63BE26409C8A"
 				item: "gtceu:crystal_processor_mainframe"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.0d
+			x: 1.25d
+			y: -4.5d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "1622D23244EE5F98"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "594DEF82241980F8"
 				item: "gtceu:wetware_processor"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.0d
+			x: 1.75d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1622D23244EE5F98"]
 			id: "26767EC000BFB2FB"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "4ED5C278E25F806D"
 				item: "gtceu:wetware_processor_assembly"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 1.75d
+			y: -5.0d
 		}
 		{
 			dependencies: ["26767EC000BFB2FB"]
 			id: "550A4F573100A278"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "499994DA7A5BE371"
 				item: "gtceu:wetware_processor_computer"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 1.75d
+			y: -4.5d
 		}
 		{
 			dependencies: ["550A4F573100A278"]
 			id: "2DD5A36A3D5F794B"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "21378BE5D0DD76B6"
 				item: "gtceu:wetware_processor_mainframe"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 2.0d
+			x: 2.25d
+			y: -4.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			icon: "gtceu:bronze_machine_casing"
 			id: "3429E7EF8C6B1528"
-			size: 1.0d
+			size: 0.5d
 			tasks: [
 				{
 					id: "091149724A1D193F"
@@ -1255,243 +1256,306 @@
 					type: "item"
 				}
 			]
-			x: -6.0d
+			x: -3.25d
 			y: -11.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			icon: "gtceu:bronze_machine_casing"
 			id: "78E03847BD8AE7AC"
-			size: 1.0d
+			size: 0.5d
 			tasks: [{
 				id: "0F1CA1DFCD074C5E"
 				item: "gtceu:bronze_ingot"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -8.0d
+			x: -4.75d
+			y: -9.5d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "0C7ED2B33B155226"
+			size: 0.5d
 			tasks: [{
 				id: "75A63C2417CF351E"
 				item: "kubejs:optical_processor"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.0d
+			x: 3.25d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0C7ED2B33B155226"]
 			id: "63D2BE7E1E679298"
+			size: 0.5d
 			tasks: [{
 				id: "3EAAEC9096CDE72A"
 				item: "kubejs:optical_processor_assembly"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.0d
+			x: 3.25d
+			y: -4.0d
 		}
 		{
 			dependencies: ["63D2BE7E1E679298"]
 			id: "3C7DF1DBB735B9BB"
+			size: 0.5d
 			tasks: [{
 				id: "199CFFA9351AFA13"
 				item: "kubejs:optical_processor_computer"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.0d
+			x: 3.25d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3C7DF1DBB735B9BB"]
 			id: "2BC234DF679A9623"
+			size: 0.5d
 			tasks: [{
 				id: "385D79F7D5671136"
 				item: "kubejs:optical_processor_mainframe"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.0d
+			x: 3.25d
+			y: -3.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			description: [""]
 			id: "056F4150D9422BC3"
+			size: 0.5d
 			tasks: [{
 				id: "29661D79802221EF"
 				item: "kubejs:fungal_processor"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 2.75d
+			y: -5.0d
 		}
 		{
 			dependencies: ["056F4150D9422BC3"]
 			id: "76736D19B529608F"
+			size: 0.5d
 			tasks: [{
 				id: "58E7E32F1916E118"
 				item: "kubejs:fungal_processor_assembly"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.0d
+			x: 2.75d
+			y: -4.5d
 		}
 		{
 			dependencies: ["76736D19B529608F"]
 			id: "34C16C9A74E34ADF"
+			size: 0.5d
 			tasks: [{
 				id: "33B730FA636F8411"
 				item: "kubejs:fungal_processor_computer"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.0d
+			x: 2.75d
+			y: -4.0d
 		}
 		{
 			dependencies: ["34C16C9A74E34ADF"]
 			id: "6B502A66F599AEB5"
+			size: 0.5d
 			tasks: [{
 				id: "24B8953456BC2236"
 				item: "kubejs:fungal_processor_mainframe"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.0d
+			x: 2.75d
+			y: -3.5d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "686CEDF5D7DEE055"
+			size: 0.5d
 			tasks: [{
 				id: "0180B46D9CB94E71"
 				item: "kubejs:deep_space_processor"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 2.0d
+			x: 3.75d
+			y: -4.0d
 		}
 		{
 			dependencies: ["686CEDF5D7DEE055"]
 			id: "6C87583C509D9D13"
+			size: 0.5d
 			tasks: [{
 				id: "5A7077943CF596F9"
 				item: "kubejs:deep_space_processor_assembly"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 3.75d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6C87583C509D9D13"]
 			id: "252A84DF5CE040FB"
+			size: 0.5d
 			tasks: [{
 				id: "4A97154A14506E9E"
 				item: "kubejs:deep_space_processor_computer"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.0d
+			x: 3.75d
+			y: -3.0d
 		}
 		{
 			dependencies: ["252A84DF5CE040FB"]
 			id: "0C18D675E2EC3A87"
+			size: 0.5d
 			tasks: [{
 				id: "41EF584307B67B1D"
 				item: "kubejs:deep_space_processor_mainframe"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 5.0d
+			x: 3.75d
+			y: -2.5d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "692431047E7AC478"
+			size: 0.5d
 			tasks: [{
 				id: "0DDDBB2D22B1A70E"
 				item: "kubejs:singularity_processor"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 3.0d
+			x: 4.25d
+			y: -3.5d
 		}
 		{
 			dependencies: ["692431047E7AC478"]
 			id: "4167D581293157BE"
+			size: 0.5d
 			tasks: [{
 				id: "73827E728A7F1E6C"
 				item: "kubejs:singularity_processor_assembly"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 4.0d
+			x: 4.25d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4167D581293157BE"]
 			id: "6CF3736B731E672F"
+			size: 0.5d
 			tasks: [{
 				id: "782223DC6505CC43"
 				item: "kubejs:singularity_processor_computer"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 5.0d
+			x: 4.25d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6CF3736B731E672F"]
 			id: "7F80AC037F7E71D5"
+			size: 0.5d
 			tasks: [{
 				id: "3A2B4D449DDDED31"
 				item: "kubejs:singularity_processor_mainframe"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 6.0d
+			x: 4.25d
+			y: -2.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			description: [""]
 			id: "3BA41DD82B59727C"
+			size: 0.5d
 			tasks: [{
 				id: "04B8CBF8EBB9DE68"
 				item: "kubejs:4d_processor"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 4.0d
+			x: 4.75d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3BA41DD82B59727C"]
 			id: "58A5E0C4A6020FDB"
+			size: 0.5d
 			tasks: [{
 				id: "63171C383C115DB2"
 				item: "kubejs:4d_processor_assembly"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 5.0d
+			x: 4.75d
+			y: -2.5d
 		}
 		{
 			dependencies: ["58A5E0C4A6020FDB"]
 			id: "7F2A1BB15FCCDFA4"
+			size: 0.5d
 			tasks: [{
 				id: "5F8C517DE1FFAD2A"
 				item: "kubejs:4d_processor_computer"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 6.0d
+			x: 4.75d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7F2A1BB15FCCDFA4"]
 			id: "2CC66107D738B833"
+			size: 0.5d
 			tasks: [{
 				id: "218EA60FDB691769"
 				item: "kubejs:4d_processor_mainframe"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 7.0d
+			x: 5.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["72F3F36CD583B9FA"]
+			icon: "gtceu:steel_machine_casing"
+			id: "1828BC4B709E3FF3"
+			size: 0.5d
+			tasks: [
+				{
+					id: "5AB80A25CC3DC0CA"
+					item: "gtceu:steel_machine_casing"
+					type: "item"
+				}
+				{
+					id: "28E7D310A99A092F"
+					item: "gtceu:steel_brick_casing"
+					type: "item"
+				}
+			]
+			x: -2.75d
+			y: -11.0d
+		}
+		{
+			dependencies: ["72F3F36CD583B9FA"]
+			id: "38F360A9D9483ADF"
+			tasks: [{
+				id: "4D9158A5BDBCE6FD"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: -4.25d
+			y: -10.5d
+		}
+		{
+			dependencies: ["72F3F36CD583B9FA"]
+			icon: "gtceu:steel_machine_casing"
+			id: "1FF8909D05CA99E4"
+			tasks: [{
+				id: "151C7C85E6A79594"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			x: -4.75d
+			y: -9.0d
 		}
 	]
 	title: "GregTech Progression"

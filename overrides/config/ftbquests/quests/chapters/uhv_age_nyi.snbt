@@ -6,7 +6,88 @@
 	icon: "gtceu:uhv_machine_hull"
 	id: "04747AE8CC8A449E"
 	order_index: 11
-	quest_links: [ ]
-	quests: [ ]
-	title: "Uhv Age [NYI]"
+	quest_links: [{
+		id: "36F10B354829A42C"
+		linked_quest: "1EB5DC412AD984BD"
+		shape: "gear"
+		size: 2.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["1EB5DC412AD984BD"]
+			id: "2BF97A9C3BF717D1"
+			shape: "diamond"
+			tasks: [{
+				id: "043D2FD1540148D7"
+				item: "gtceu:wetware_processor_mainframe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2BF97A9C3BF717D1"]
+			id: "7BA9F0E0B0EC8EC1"
+			shape: "diamond"
+			tasks: [{
+				id: "2539B99ECC10D478"
+				item: "kubejs:fungal_processor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7BA9F0E0B0EC8EC1"]
+			id: "0DFCEDE260D238BF"
+			shape: "diamond"
+			tasks: [{
+				id: "335A9289251E5CEC"
+				item: "kubejs:fungal_processor_assembly"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0DFCEDE260D238BF"]
+			id: "5371389404903CA4"
+			shape: "diamond"
+			tasks: [{
+				id: "0934295FCD8DA49B"
+				item: "kubejs:fungal_processor_computer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5371389404903CA4"]
+			id: "2F9ADF08704118F9"
+			shape: "diamond"
+			tasks: [{
+				id: "77361367E3D1F5D8"
+				item: "kubejs:fungal_processor_mainframe"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2BF97A9C3BF717D1"]
+			id: "16CBE482FC748A15"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "69C99DA950939A3A"
+				item: "gtceu:uev_machine_hull"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+	]
+	title: "Uhv Age [WIP]"
 }

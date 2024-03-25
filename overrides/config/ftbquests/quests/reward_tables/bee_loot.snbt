@@ -1,0 +1,8 @@
+{
+	icon: "minecraft:bee_nest"
+	id: "53FE3EDD5F021EFE"
+	loot_size: 1
+	order_index: 19
+	rewards: [ ]
+	title: "Bee Loot"
+}

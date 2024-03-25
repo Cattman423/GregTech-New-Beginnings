@@ -1,4 +1,5 @@
 {
+	autofocus_id: "107D46A3DC31222F"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "iv_age_nyi"
@@ -6,19 +7,712 @@
 	icon: "gtceu:iv_machine_hull"
 	id: "50A20D2B0D7C30A2"
 	order_index: 7
-	quest_links: [ ]
-	quests: [{
-		dependencies: ["795C854D7C3424CE"]
-		id: "0C9F41F9CA655FBA"
+	quest_links: [{
+		id: "1859D264A91B62BC"
+		linked_quest: "350D403494E82743"
 		shape: "gear"
 		size: 2.0d
-		tasks: [{
-			id: "476E8D3E5B43B900"
-			item: "gtceu:iv_machine_hull"
-			type: "item"
-		}]
 		x: 0.0d
 		y: 0.0d
 	}]
+	quests: [
+		{
+			dependencies: ["0536B278EE23716F"]
+			id: "652674ECC5A6E845"
+			shape: "diamond"
+			tasks: [{
+				id: "42BD945EED8341C2"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["791329B7A3DB2EE5"]
+			id: "0536B278EE23716F"
+			shape: "diamond"
+			tasks: [{
+				id: "76D71921398C9B0A"
+				item: "gtceu:quantum_processor_computer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5DC306A17FBFCC8A"]
+			id: "791329B7A3DB2EE5"
+			shape: "diamond"
+			tasks: [{
+				id: "530B7FCB6F09A859"
+				item: "gtceu:quantum_processor_assembly"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0E49B313803508B5"
+				"522F1487855D6C96"
+				"6DB2BAA866A4B741"
+			]
+			id: "5DC306A17FBFCC8A"
+			shape: "diamond"
+			tasks: [{
+				id: "5402E13391B051E3"
+				item: "gtceu:quantum_processor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"60C8162C1B9D9D19"
+				"587B58D1CB81E025"
+			]
+			id: "51FB10705DC48675"
+			tasks: [{
+				id: "5ECF7B8361B59365"
+				item: "gtceu:rhodium_plated_palladium_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["51FB10705DC48675"]
+			id: "7BC656817FDE6E77"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "37091F267E305EFB"
+				item: "gtceu:luv_machine_hull"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["63287CEAE36145C0"]
+			id: "60C8162C1B9D9D19"
+			optional: true
+			tasks: [{
+				id: "5436D8B393CEB5FD"
+				item: "gtceu:rtm_alloy_coil_block"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0E846E1022E49C62"]
+			id: "63287CEAE36145C0"
+			tasks: [{
+				id: "07FA764C7D00EC31"
+				item: "gtceu:rtm_alloy_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"6FCE53397AD6DCD3"
+				"42E390CDBC50CFB5"
+				"4714F6D2797256E7"
+				"03F8257E6A73D384"
+			]
+			id: "0E846E1022E49C62"
+			tasks: [{
+				id: "30BC2ED3E1C2E47F"
+				item: "gtceu:rtm_alloy_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["120E0370867C0DA6"]
+			id: "6FCE53397AD6DCD3"
+			tasks: [{
+				id: "5FF7BC797B804DD5"
+				item: "gtceu:molybdenum_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3346D0F08E2B0D45"]
+			id: "42E390CDBC50CFB5"
+			tasks: [{
+				id: "6BF08C78D777A62F"
+				item: "gtceu:ruthenium_dust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["165E7AC3A777BB72"]
+			id: "3346D0F08E2B0D45"
+			tasks: [
+				{
+					id: "2D2617BDBB925678"
+					item: "gtceu:ruthenium_tetroxide_dust"
+					type: "item"
+				}
+				{
+					id: "0E9A03642E68ABEB"
+					item: "gtceu:rhodium_sulfate_bucket"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2D59D041C7BE580E"]
+			id: "165E7AC3A777BB72"
+			tasks: [{
+				id: "0DDF5FD1B0F283BA"
+				item: "gtceu:inert_metal_mixture_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"36E3CAF03901E373"
+				"45995456D343E04E"
+			]
+			id: "2D59D041C7BE580E"
+			tasks: [{
+				id: "479E88EAFDE9E94B"
+				item: "gtceu:platinum_group_sludge_dust"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20BD1EFDD3E3A4D3"]
+			id: "36E3CAF03901E373"
+			tasks: [{
+				id: "11B24E0B78DB8EBA"
+				item: "gtceu:nitric_acid_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35D0AFC4352CE1D6"]
+			id: "20BD1EFDD3E3A4D3"
+			tasks: [{
+				id: "676D274C8DBECCFA"
+				title: "Plat Line"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["20BD1EFDD3E3A4D3"]
+			id: "45995456D343E04E"
+			tasks: [
+				{
+					id: "2FA01FEDEDE56F27"
+					item: "gtceu:purified_pentlandite_ore"
+					type: "item"
+				}
+				{
+					id: "2C2CEB81A61E19F6"
+					item: "gtceu:purified_tetrahedrite_ore"
+					type: "item"
+				}
+				{
+					id: "450D8BFAD139C57D"
+					item: "gtceu:purified_chalcocite_ore"
+					type: "item"
+				}
+				{
+					id: "2A414E5AFCCA8C32"
+					item: "gtceu:purified_cooperite_ore"
+					type: "item"
+				}
+				{
+					id: "1C9C046F42ABB475"
+					item: "gtceu:purified_bornite_ore"
+					type: "item"
+				}
+				{
+					id: "1515C9BECE10CC12"
+					item: "gtceu:purified_chalcopyrite_ore"
+					type: "item"
+				}
+			]
+			title: "Purified Ores"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["27B0997039904561"]
+			id: "4714F6D2797256E7"
+			tasks: [{
+				id: "6C3CAA1B546E0E49"
+				item: "gtceu:tungsten_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["350D403494E82743"]
+			hide_dependent_lines: true
+			id: "35D0AFC4352CE1D6"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "520BC3B1F5B76DEE"
+					item: "gtceu:micro_processor_mainframe"
+					type: "item"
+				}
+				{
+					id: "48AF638FDD4258FC"
+					item: "gtceu:nano_processor_computer"
+					type: "item"
+				}
+			]
+			title: "Iv Circuits"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["350D403494E82743"]
+			id: "787E410D4CACE307"
+			tasks: [{
+				id: "625FADB3B9C889A2"
+				title: "Iv Power"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"03F8257E6A73D384"
+				"3346D0F08E2B0D45"
+			]
+			id: "587B58D1CB81E025"
+			tasks: [{
+				id: "3AFC8FF9F0266496"
+				item: "gtceu:rhodium_plated_palladium_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"35D0AFC4352CE1D6"
+				"107D46A3DC31222F"
+			]
+			id: "03F8257E6A73D384"
+			tasks: [{
+				id: "2F2BAF6436A7F61C"
+				item: "gtceu:iv_mixer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["787E410D4CACE307"]
+			id: "054D584E2C90CE0B"
+			optional: true
+			shape: "pentagon"
+			tasks: [{
+				id: "75440B0A21F00019"
+				item: "gtnn:iv_rocket_engine"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["787E410D4CACE307"]
+			id: "52CA5F3B1AB5891F"
+			optional: true
+			shape: "pentagon"
+			tasks: [{
+				id: "77D2AA448BBBF4CB"
+				item: "gtnn:iv_naquadah_reactor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["787E410D4CACE307"]
+			id: "2F1BB55572D5E7D0"
+			optional: true
+			shape: "pentagon"
+			tasks: [{
+				id: "741A7F2A0522242C"
+				item: "gtceu:extreme_combustion_engine"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["787E410D4CACE307"]
+			id: "54C48DD1FB92238F"
+			optional: true
+			shape: "pentagon"
+			tasks: [{
+				id: "178841C5AA97ABB1"
+				item: "gtceu:extreme_alternator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7D7A506CD4659015"]
+			id: "522F1487855D6C96"
+			tasks: [{
+				id: "3B9B6D39B5E8AFC9"
+				item: "gtceu:fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["689AB5933E0C1DDB"]
+			id: "0E49B313803508B5"
+			tasks: [{
+				id: "7679E61961178DF8"
+				item: "gtceu:qbit_cpu_chip"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["35D0AFC4352CE1D6"]
+			id: "689AB5933E0C1DDB"
+			tasks: [{
+				id: "245BFEBBE544904C"
+				item: "gtceu:qbit_cpu_wafer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["62702970D38AD8E0"]
+			id: "7D7A506CD4659015"
+			tasks: [{
+				id: "1BDF565267F2F042"
+				item: "gtceu:fiber_reinforced_circuit_board"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["35D0AFC4352CE1D6"]
+			description: ["Remember your epoxy set up? Mix some of that with carbon fibers or borosilicate glass fibers to make reinforced epoxy sheets."]
+			id: "62702970D38AD8E0"
+			tasks: [{
+				id: "6176EEBBAE75C75D"
+				item: "gtceu:reinforced_epoxy_resin_plate"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7B8C948E17AD1AED"]
+			id: "107D46A3DC31222F"
+			tasks: [{
+				id: "3E1643A5EE4E9016"
+				item: "gtceu:laminated_glass"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3AF5B06EAE8DC4D5"
+				"1F9541F5937BE07D"
+			]
+			id: "7B8C948E17AD1AED"
+			tasks: [{
+				id: "11D9D9A911A6BC75"
+				item: "gtceu:polyvinyl_butyral_plate"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["19028A5CD361113F"]
+			id: "1F9541F5937BE07D"
+			tasks: [{
+				id: "574F35C540FF763E"
+				item: "gtceu:polyvinyl_acetate_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["209BC9200D1EC2B7"]
+			id: "3AF5B06EAE8DC4D5"
+			tasks: [{
+				id: "1D6A30D594F1A382"
+				item: "gtceu:butyraldehyde_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["209BC9200D1EC2B7"]
+			id: "19028A5CD361113F"
+			tasks: [{
+				id: "50F8DE145CEFCEC3"
+				item: "gtceu:vinyl_acetate_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["35D0AFC4352CE1D6"]
+			id: "209BC9200D1EC2B7"
+			tasks: [{
+				id: "436C3738069C439B"
+				title: "Laminated Glass"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["350D403494E82743"]
+			description: ["At this point you know what you must do..."]
+			icon: "gtceu:iv_electric_motor"
+			id: "03FB304DB392840C"
+			tasks: [{
+				id: "72011BB2962B6367"
+				title: "Iv Microcrafting"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"35D0AFC4352CE1D6"
+				"107D46A3DC31222F"
+			]
+			icon: "gtceu:assembly_line"
+			id: "1BC802591CED2FA7"
+			subtitle: "Also known as the AssLine"
+			tasks: [
+				{
+					id: "089E04EB2BEA5B37"
+					item: "gtceu:assembly_line"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "26E92AFD29D301DE"
+					item: { Count: 5b, id: "gtceu:ulv_input_bus" }
+					type: "item"
+				}
+				{
+					id: "3CC61A65053BC646"
+					item: "gtceu:ulv_output_bus"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2EFD3EF5D855B66F"
+					item: { Count: 4b, id: "gtceu:lv_input_hatch" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "30792C0B0E3237B3"
+					item: { Count: 11b, id: "gtceu:assembly_line_casing" }
+					type: "item"
+				}
+				{
+					count: 11L
+					id: "19AA7189D10CEC66"
+					item: "gtceu:assembly_line_grating"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "6639080A8A387B59"
+					item: "gtceu:assembly_line_unit"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "1067033ED316A695"
+					item: { Count: 12b, id: "gtceu:laminated_glass" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["60C8162C1B9D9D19"]
+			id: "50254B36D8EB3D27"
+			shape: "octagon"
+			tasks: [{
+				id: "250143915B3F9E36"
+				item: "gtceu:alloy_blast_smelter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["50254B36D8EB3D27"]
+			description: [
+				"Now that you have the Alloy Blast Smelter, you have unlocked the multiblock versions of your single blocks!"
+				""
+				"These are a massive step up from what you had previously, but are expesive to build and expensive to run, so you have a choice to make my friend."
+			]
+			icon: "gtceu:large_maceration_tower"
+			id: "558475899AC39BD9"
+			shape: "octagon"
+			tasks: [{
+				id: "4A361AF15C7556C2"
+				title: "Multis of Singles"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["31ACD22DC523CA85"]
+			id: "6DB2BAA866A4B741"
+			tasks: [
+				{
+					id: "2FDC792BF07F523E"
+					item: "gtceu:advanced_smd_transistor"
+					type: "item"
+				}
+				{
+					id: "130D0B530AE93899"
+					item: "gtceu:advanced_smd_resistor"
+					type: "item"
+				}
+				{
+					id: "71D737C8E7D0AA31"
+					item: "gtceu:advanced_smd_capacitor"
+					type: "item"
+				}
+				{
+					id: "71E9E0BF97100A0B"
+					item: "gtceu:advanced_smd_diode"
+					type: "item"
+				}
+				{
+					id: "375EE74443D385A8"
+					item: "gtceu:advanced_smd_inductor"
+					type: "item"
+				}
+			]
+			title: "Advanced SMDs"
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"190D7059CBF309E4"
+				"584FD3DCCB391D45"
+			]
+			id: "31ACD22DC523CA85"
+			tasks: [{
+				id: "3E82196EFAD2F0AF"
+				item: "gtceu:polybenzimidazole_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["62A2AAAD227A061F"]
+			id: "190D7059CBF309E4"
+			tasks: [{
+				id: "41B09609ED051B9D"
+				item: "gtceu:diaminobenzidine_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3FBEF1D6F27265D1"]
+			id: "584FD3DCCB391D45"
+			tasks: [{
+				id: "35D7D6E60C746E0C"
+				item: "gtceu:diphenyl_isophthalate_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["00D7FB3EE142E9A4"]
+			id: "62A2AAAD227A061F"
+			tasks: [{
+				id: "6E35EECAAB6CADF0"
+				item: "gtceu:dichlorobenzene_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["00D7FB3EE142E9A4"]
+			id: "3FBEF1D6F27265D1"
+			tasks: [{
+				id: "13C68564C954FC16"
+				item: "gtceu:phthalic_acid_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["35D0AFC4352CE1D6"]
+			id: "00D7FB3EE142E9A4"
+			tasks: [{
+				id: "09F2FF49D1668F22"
+				title: "PBI - The last plastic"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+	]
 	title: "Iv Age [WIP]"
 }

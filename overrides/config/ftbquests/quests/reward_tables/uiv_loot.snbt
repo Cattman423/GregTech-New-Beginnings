@@ -1,0 +1,8 @@
+{
+	icon: "gtceu:uiv_machine_hull"
+	id: "5FB7AA434C36E0E7"
+	loot_size: 1
+	order_index: 12
+	rewards: [ ]
+	title: "Uiv Loot"
+}

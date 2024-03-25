@@ -1,0 +1,8 @@
+{
+	icon: "gtceu:iv_machine_hull"
+	id: "0B7CC07AF2556903"
+	loot_size: 1
+	order_index: 6
+	rewards: [ ]
+	title: "Iv Loot"
+}

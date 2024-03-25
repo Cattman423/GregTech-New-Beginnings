@@ -1,0 +1,132 @@
+{
+	icon: "gtceu:lv_machine_hull"
+	id: "7C7326C2460071CA"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "gtceu:steel_ingot", weight: 0.1f }
+		{ item: "pamhc2foodextended:grapejuiceitem" }
+		{ item: "gtceu:lv_machine_hull", weight: 0.1f }
+		{
+			item: {
+				Count: 1b
+				id: "gtceu:steel_hammer"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						HarvestLevel: 3
+						MaxDamage: 511
+						ToolSpeed: 9.0f
+					}
+					HideFlags: 2
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "gtceu:steel_file"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						MaxDamage: 511
+					}
+					HideFlags: 2
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "gtceu:steel_wire_cutter"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						HarvestLevel: 3
+						MaxDamage: 511
+						ToolSpeed: 9.0f
+					}
+					HideFlags: 2
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "gtceu:steel_wrench"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						HarvestLevel: 3
+						MaxDamage: 511
+						ToolSpeed: 9.0f
+					}
+					HideFlags: 2
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "gtceu:steel_screwdriver"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						MaxDamage: 511
+					}
+					HideFlags: 2
+				}
+			}
+			weight: 0.25f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "gtceu:steel_crowbar"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						HarvestLevel: 3
+						MaxDamage: 511
+						ToolSpeed: 9.0f
+					}
+					HideFlags: 2
+				}
+			}
+			weight: 0.25f
+		}
+		{ count: 2, item: "gtceu:basic_electronic_circuit", weight: 0.5f }
+		{ count: 64, item: "xtonesreworked:korp_block_0" }
+		{ count: 64, item: "minecraft:stone" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:healing"
+				}
+			}
+			weight: 0.5f
+		}
+		{ count: 64, item: "blockofsky:sky_block" }
+		{ count: 64, item: "minecraft:oak_log" }
+		{ count: 16, item: "minecraft:candle" }
+	]
+	title: "Lv Loot"
+}

@@ -231,4 +231,13 @@ StartupEvents.registry('item', event => {
         .displayName('Logic Wafer')
         .texture('gtceu:item/ae_2/logic_wafer')
         .tooltip('Raw Logic Processor')
+
+//Clockwork Mechanism
+    event.create('clockwork_mechanism')
+        .displayName('Clockwork Mechanism')
+        .texture('gtceu:item/mechanisms/clockwork_mechanism')
+
+    event.create('advanced_clockwork_mechanism')
+        .displayName('Advanced Clockwork Mechanism')
+        .texture('gtceu:item/mechanisms/advanced_clockwork_mechanism')
 })

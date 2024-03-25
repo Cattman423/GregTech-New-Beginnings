@@ -3,7 +3,7 @@
 [waterwheels]
 	#Enable waterwheels modifications?
 	waterwheelsEnabled = true
-	#Penalty for Waterwheels placed on whitelisted but not on preferential biomes [waterwheel_boosted biome tag]
+	#Penalty for Waterwheels placed on whitelisted but not on preferential biomes [waterwheel_boosted biome tag].
 	#Range: 0.0 ~ 1.0
 	waterwheelPenalty = 0.25
 	#The minimum amount of fluid blocks the waterwheel needs to find before rotation begins.
@@ -12,15 +12,17 @@
 	#The maximum distance a waterwheel can consider fluid blocks from.
 	#Range: > 1
 	waterwheelRange = 128
+	#Only enable pickyness onPlacement, if the water wheel was instead generated during worldgen, it works as default.
+	waterwheelsPickyOnPlacement = true
 
 ##Windmill requirements
 [windmills]
 	#Enable windmills modifications?
 	windmillsEnabled = true
-	#Penalty for Windmills placed on whitelisted but not on preferential biomes [windmills_boosted biome tag]
+	#Penalty for Windmills placed on whitelisted but not on preferential biomes [windmills_boosted biome tag].
 	#Range: 0.0 ~ 1.0
 	windmillPenalty = 0.75
-	#The minimum floor area required. Default: 1/4 of the max area [PI * 32 ^ 2]
+	#The minimum floor area required. Default: 1/4 of the max area [PI * 32 ^ 2].
 	#Range: > 1
 	windmillThreshold = 804
 	#The minimum length of air current required.

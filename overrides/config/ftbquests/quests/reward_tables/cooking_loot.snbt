@@ -1,0 +1,8 @@
+{
+	icon: "farmersdelight:stove"
+	id: "4738A071C5A17504"
+	loot_size: 1
+	order_index: 18
+	rewards: [ ]
+	title: "Cooking Loot"
+}

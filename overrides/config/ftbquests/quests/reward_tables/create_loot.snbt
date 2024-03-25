@@ -1,5 +1,5 @@
 {
-	icon: "create:cogwheel"
+	icon: "create:andesite_casing"
 	id: "1B7755B454F4DDDD"
 	loot_size: 1
 	order_index: 0
@@ -17,6 +17,8 @@
 		{ item: "create:electron_tube", weight: 0.1f }
 		{ item: "create:fluid_tank", weight: 0.5f }
 		{ count: 2, item: "minecraft:charcoal" }
+		{ count: 4, item: "minecraft:oak_log" }
+		{ item: "thinair:soulfire_bottle", weight: 0.25f }
 	]
 	title: "Create Loot"
 }

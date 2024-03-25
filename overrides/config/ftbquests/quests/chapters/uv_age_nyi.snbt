@@ -6,7 +6,133 @@
 	icon: "gtceu:uv_machine_hull"
 	id: "3BB06F447F60CABE"
 	order_index: 10
-	quest_links: [ ]
-	quests: [ ]
-	title: "Uv Age [NYI]"
+	quest_links: [
+		{
+			id: "38A06083C34D7176"
+			linked_quest: "15F8A472306D9DCA"
+			shape: "gear"
+			size: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6F2FDA6899625138"
+			linked_quest: "3201F1246277CFCC"
+			x: -2.5d
+			y: 3.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"0BADFBA6F96E457E"
+				"3201F1246277CFCC"
+			]
+			description: [
+				"&4&l[ NOT YET IMPLEMENTED ]&r"
+				""
+				"The &3Data Module&r is required for Endgame Research. &aAssembly Lines&r cannot read from it using &aData Access Hatches&r directly, and instead require the &9Data Bank&r."
+			]
+			id: "45E300FD7CD05A37"
+			size: 1.0d
+			subtitle: "Data storage sure is expensive..."
+			tasks: [{
+				id: "4F9B678E31002121"
+				type: "checkmark"
+			}]
+			title: "Data Module"
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["15F8A472306D9DCA"]
+			description: [
+				"&4&l[ NOT YET IMPLEMENTED ]&r"
+				""
+				"The &3Network Switch&r allows multiple HPCAs to be used in conjunction with each other! This allows you to provide far more computation to your &aResearch Station&r."
+				""
+				"HPCAs can be connected to &3Network Switches&r with transmission and reception hatches, and then the Network Switch can output to a &aResearch Station&r with another transmission hatch."
+				""
+				"HPCAs cannot connect to &3Network Switches&r by default, and each connected HPCA requires an &3HPCA Bridge Component&r to enable this functionality."
+			]
+			id: "0BADFBA6F96E457E"
+			size: 1.0d
+			subtitle: "With our powers combined..."
+			tasks: [{
+				id: "3DAB523583CEACA8"
+				type: "checkmark"
+			}]
+			title: "Network Switch"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["37132AF24523E1E2"]
+			id: "5D17D5ABF941ECFB"
+			tasks: [{
+				id: "70C9570959D5E71A"
+				item: "gtceu:neutronium_ingot"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1DAD072C5A0EDFFB"]
+			id: "37132AF24523E1E2"
+			tasks: [{
+				id: "23FCC80145AE72CD"
+				item: "gtceu:uv_fusion_reactor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["15F8A472306D9DCA"]
+			id: "1DAD072C5A0EDFFB"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4D57446B07F376E9"
+					item: "gtceu:wetware_processor_computer"
+					type: "item"
+				}
+				{
+					id: "5AA29162E5498827"
+					item: "gtceu:crystal_processor_mainframe"
+					type: "item"
+				}
+			]
+			title: "Uv Circuits"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5D17D5ABF941ECFB"]
+			id: "1EB5DC412AD984BD"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "6BB26F4F2677B279"
+				item: "gtceu:uhv_machine_hull"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1DAD072C5A0EDFFB"]
+			id: "2689478D36764943"
+			shape: "diamond"
+			tasks: [{
+				id: "11C74BBF96C4F0B8"
+				item: "gtceu:wetware_processor_mainframe"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+	]
+	title: "Uv Age [WIP]"
 }

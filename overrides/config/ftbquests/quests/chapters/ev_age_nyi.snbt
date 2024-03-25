@@ -7,23 +7,17 @@
 	icon: "gtceu:ev_machine_hull"
 	id: "68BE8C9E324FEE7D"
 	order_index: 6
-	quest_links: [ ]
+	quest_links: [{
+		id: "160751DD3031C07C"
+		linked_quest: "6470A1ACB205DCF4"
+		shape: "gear"
+		size: 2.0d
+		x: 0.0d
+		y: 0.0d
+	}]
 	quests: [
 		{
-			dependencies: ["7E4816E87F55B828"]
-			id: "1686B7B896DF8FC3"
-			shape: "gear"
-			size: 2.0d
-			tasks: [{
-				id: "03896D5FD99FFD75"
-				item: "gtceu:ev_machine_hull"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1686B7B896DF8FC3"]
+			dependencies: ["6470A1ACB205DCF4"]
 			id: "1D57085375A0F9BE"
 			tasks: [{
 				id: "4069CCB5EF9ADE78"
@@ -36,6 +30,7 @@
 		{
 			dependencies: ["1D57085375A0F9BE"]
 			id: "0C893AEDE19EC348"
+			optional: true
 			shape: "pentagon"
 			tasks: [{
 				id: "6C7CAE43B072C922"
@@ -48,6 +43,7 @@
 		{
 			dependencies: ["1D57085375A0F9BE"]
 			id: "0DEFF15C522642C4"
+			optional: true
 			shape: "pentagon"
 			tasks: [{
 				id: "11248B86FD1DF199"
@@ -60,6 +56,7 @@
 		{
 			dependencies: ["1D57085375A0F9BE"]
 			id: "662C254E24071AB2"
+			optional: true
 			shape: "pentagon"
 			tasks: [{
 				id: "06FCE91A1BB05401"
@@ -72,6 +69,7 @@
 		{
 			dependencies: ["1D57085375A0F9BE"]
 			id: "5E4F3B0AADD07782"
+			optional: true
 			shape: "pentagon"
 			tasks: [{
 				id: "6DC8CE5042E3BE9E"
@@ -82,7 +80,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["1686B7B896DF8FC3"]
+			dependencies: ["6470A1ACB205DCF4"]
 			id: "4D4CC8F24B7784B1"
 			tasks: [
 				{
@@ -115,7 +113,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1686B7B896DF8FC3"]
+			dependencies: ["6470A1ACB205DCF4"]
 			hide_dependent_lines: true
 			id: "120E0370867C0DA6"
 			shape: "diamond"
@@ -140,35 +138,6 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"0395CDE30ECD367F"
-				"6FCE53397AD6DCD3"
-				"0938C3C91204153D"
-				"42E390CDBC50CFB5"
-			]
-			id: "0E846E1022E49C62"
-			optional: true
-			tasks: [{
-				id: "30BC2ED3E1C2E47F"
-				item: "gtceu:rtm_alloy_dust"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["0E846E1022E49C62"]
-			id: "63287CEAE36145C0"
-			optional: true
-			tasks: [{
-				id: "07FA764C7D00EC31"
-				item: "gtceu:rtm_alloy_ingot"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 2.0d
-		}
-		{
 			dependencies: ["120E0370867C0DA6"]
 			id: "58E43B229D56D9DC"
 			shape: "octagon"
@@ -179,27 +148,6 @@
 			}]
 			x: 2.0d
 			y: 2.0d
-		}
-		{
-			dependencies: [
-				"63287CEAE36145C0"
-				"58E43B229D56D9DC"
-			]
-			id: "60C8162C1B9D9D19"
-			optional: true
-			tasks: [
-				{
-					id: "5436D8B393CEB5FD"
-					item: "gtceu:rtm_alloy_coil_block"
-					type: "item"
-				}
-				{
-					id: "64BC4D22923EA602"
-					type: "checkmark"
-				}
-			]
-			x: 4.0d
-			y: 3.0d
 		}
 		{
 			dependencies: ["58E43B229D56D9DC"]
@@ -225,8 +173,8 @@
 		}
 		{
 			dependencies: [
-				"60C8162C1B9D9D19"
 				"159907ED3340162A"
+				"049270490606EFE3"
 			]
 			icon: "gtceu:electric_blast_furnace"
 			id: "1CABE36FD9F1E458"
@@ -283,30 +231,6 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["3346D0F08E2B0D45"]
-			id: "42E390CDBC50CFB5"
-			optional: true
-			tasks: [{
-				id: "6BF08C78D777A62F"
-				item: "gtceu:ruthenium_dust"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["120E0370867C0DA6"]
-			id: "6FCE53397AD6DCD3"
-			optional: true
-			tasks: [{
-				id: "5FF7BC797B804DD5"
-				item: "gtceu:molybdenum_dust"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 1.0d
-		}
-		{
 			dependencies: [
 				"27B0997039904561"
 				"120E0370867C0DA6"
@@ -319,108 +243,6 @@
 			}]
 			x: 6.0d
 			y: 2.0d
-		}
-		{
-			dependencies: ["165E7AC3A777BB72"]
-			id: "3346D0F08E2B0D45"
-			optional: true
-			tasks: [{
-				id: "2D2617BDBB925678"
-				item: "gtceu:ruthenium_tetroxide_dust"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2D59D041C7BE580E"]
-			id: "165E7AC3A777BB72"
-			optional: true
-			tasks: [{
-				id: "0DDF5FD1B0F283BA"
-				item: "gtceu:inert_metal_mixture_dust"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"36E3CAF03901E373"
-				"45995456D343E04E"
-			]
-			id: "2D59D041C7BE580E"
-			optional: true
-			tasks: [{
-				id: "479E88EAFDE9E94B"
-				item: "gtceu:platinum_group_sludge_dust"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["20BD1EFDD3E3A4D3"]
-			id: "45995456D343E04E"
-			optional: true
-			tasks: [
-				{
-					id: "2FA01FEDEDE56F27"
-					item: "gtceu:purified_pentlandite_ore"
-					type: "item"
-				}
-				{
-					id: "2C2CEB81A61E19F6"
-					item: "gtceu:purified_tetrahedrite_ore"
-					type: "item"
-				}
-				{
-					id: "450D8BFAD139C57D"
-					item: "gtceu:purified_chalcocite_ore"
-					type: "item"
-				}
-				{
-					id: "2A414E5AFCCA8C32"
-					item: "gtceu:purified_cooperite_ore"
-					type: "item"
-				}
-				{
-					id: "1C9C046F42ABB475"
-					item: "gtceu:purified_bornite_ore"
-					type: "item"
-				}
-				{
-					id: "1515C9BECE10CC12"
-					item: "gtceu:purified_chalcopyrite_ore"
-					type: "item"
-				}
-			]
-			x: 5.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["20BD1EFDD3E3A4D3"]
-			id: "36E3CAF03901E373"
-			optional: true
-			tasks: [{
-				id: "11B24E0B78DB8EBA"
-				item: "gtceu:nitric_acid_bucket"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["120E0370867C0DA6"]
-			id: "20BD1EFDD3E3A4D3"
-			optional: true
-			tasks: [{
-				id: "676D274C8DBECCFA"
-				title: "Plat Line"
-				type: "checkmark"
-			}]
-			x: 5.0d
-			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -473,7 +295,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -489,7 +311,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -504,7 +326,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -519,7 +341,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5BC1D1F9B1BCE2D5"]
@@ -530,7 +352,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["660BBA6369512836"]
@@ -541,7 +363,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3019331946842770"]
@@ -552,7 +374,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -567,7 +389,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["120E0370867C0DA6"]
@@ -578,7 +400,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3B4D5E1165C3B07D"]
@@ -589,7 +411,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["120E0370867C0DA6"]
@@ -600,7 +422,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -615,7 +437,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3B4D5E1165C3B07D"]
@@ -626,7 +448,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["43732644523C6FD5"]
@@ -637,7 +459,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["120E0370867C0DA6"]
@@ -648,7 +470,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3DD5609BBC388A37"]
@@ -659,7 +481,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["63BA90A9FC212FCA"]
@@ -670,7 +492,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -684,7 +506,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["25C25BE652B0954D"]
@@ -695,7 +517,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["63BA90A9FC212FCA"]
@@ -706,7 +528,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -720,7 +542,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["63BA90A9FC212FCA"]
@@ -731,7 +553,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1FC4B857EE24DABA"]
@@ -742,7 +564,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["63BA90A9FC212FCA"]
@@ -753,7 +575,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["120E0370867C0DA6"]
@@ -764,7 +586,7 @@
 				type: "checkmark"
 			}]
 			x: -3.0d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["795C854D7C3424CE"]
@@ -777,6 +599,44 @@
 				type: "item"
 			}]
 			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"0938C3C91204153D"
+				"58E43B229D56D9DC"
+			]
+			description: ["While you don't need to set up the Platline, or start production of RTM Alloy Coils, doing so now may save you later in the Iv Age."]
+			icon: "gtceu:rtm_alloy_coil_block"
+			id: "049270490606EFE3"
+			tasks: [{
+				id: "4F13B3A5266DB69D"
+				title: "Platline and RTM Alloy"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["14B42FDF213347E0"]
+			id: "243DA43997C11F34"
+			tasks: [{
+				id: "507AE083594D659F"
+				item: "gtceu:luv_circuit_assembler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["14B42FDF213347E0"]
+			id: "528A662D8D26C9EC"
+			tasks: [{
+				id: "584FE2E01B4521AE"
+				item: "gtceu:power_substation"
+				type: "item"
+			}]
+			x: -0.5d
 			y: 7.0d
 		}
 	]

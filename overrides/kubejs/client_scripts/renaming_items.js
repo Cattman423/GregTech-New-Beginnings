@@ -11,4 +11,5 @@ ClientEvents.lang('en_us', event => {
     event.renameItem("sophisticatedbackpacks:gold_backpack", "Titanium Backpack")
     event.renameItem("sophisticatedbackpacks:diamond_backpack", "Tungsten Steel Backpack")
     event.renameItem("sophisticatedbackpacks:netherite_backpack", "Rhodium Plated Palladium Backpack")
+    event.renameItem("create:blaze_burner", "Clockwork Burner")
 });

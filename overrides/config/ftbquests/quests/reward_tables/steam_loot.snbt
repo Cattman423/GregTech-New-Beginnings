@@ -1,0 +1,101 @@
+{
+	icon: "gtceu:bronze_brick_casing"
+	id: "2CC12E6C5C835203"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 3, item: "gtceu:bronze_dust" }
+		{ item: "gtceu:bronze_machine_casing", weight: 0.5f }
+		{ count: 4, item: "minecraft:oak_log" }
+		{
+			item: {
+				Count: 1b
+				id: "gtceu:wrought_iron_hammer"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						HarvestLevel: 2
+						MaxDamage: 383
+						ToolSpeed: 6.0f
+					}
+					HideFlags: 2
+				}
+			}
+			weight: 0.75f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "gtceu:wrought_iron_screwdriver"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						MaxDamage: 383
+					}
+					HideFlags: 2
+				}
+			}
+			weight: 0.75f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "gtceu:wrought_iron_wrench"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						HarvestLevel: 2
+						MaxDamage: 383
+						ToolSpeed: 6.0f
+					}
+					HideFlags: 2
+				}
+			}
+			weight: 0.75f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "gtceu:wrought_iron_file"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						MaxDamage: 383
+					}
+					HideFlags: 2
+				}
+			}
+			weight: 0.75f
+		}
+		{ item: "pamhc2foodextended:plumjellytoastitem" }
+		{ count: 2, item: "gtceu:glass_dust" }
+		{ count: 4, item: "minecraft:copper_ingot" }
+		{ item: "thinair:soulfire_bottle", weight: 0.25f }
+		{ count: 16, item: "minecraft:torch" }
+		{
+			item: {
+				Count: 1b
+				id: "gtceu:iron_mortar"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						MaxDamage: 255
+					}
+					HideFlags: 2
+				}
+			}
+		}
+		{ count: 3, item: "gtceu:wrought_iron_ingot" }
+	]
+	title: "Steam Loot"
+}

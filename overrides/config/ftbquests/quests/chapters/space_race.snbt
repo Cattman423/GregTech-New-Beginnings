@@ -436,7 +436,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["649C064676DB2C18"]
+			dependencies: ["0B63D791F5769481"]
 			id: "55362FA849D9F00B"
 			tasks: [{
 				id: "44202218A2EA88E8"
@@ -445,6 +445,31 @@
 			}]
 			x: 1.5d
 			y: 9.0d
+		}
+		{
+			dependencies: [
+				"79EDA644D7F9EF36"
+				"649C064676DB2C18"
+			]
+			id: "0B63D791F5769481"
+			tasks: [{
+				id: "26BB8FF26E8B0F35"
+				item: "gtceu:ethyl_anthra_quinone_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["225267E303DA4628"]
+			id: "79EDA644D7F9EF36"
+			tasks: [{
+				id: "236EDC5FB5F71BC4"
+				item: "gtceu:ethylbenzene_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.0d
 		}
 	]
 	title: "Space Race [WIP]"

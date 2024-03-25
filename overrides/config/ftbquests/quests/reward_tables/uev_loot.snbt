@@ -1,0 +1,8 @@
+{
+	icon: "gtceu:uev_machine_hull"
+	id: "1ADF5EC79F9C5473"
+	loot_size: 1
+	order_index: 11
+	rewards: [ ]
+	title: "Uev Loot"
+}

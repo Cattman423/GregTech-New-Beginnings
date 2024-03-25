@@ -1,0 +1,8 @@
+{
+	icon: "gtceu:mv_machine_hull"
+	id: "708ADDB681DB0096"
+	loot_size: 1
+	order_index: 3
+	rewards: [ ]
+	title: "Mv Loot"
+}

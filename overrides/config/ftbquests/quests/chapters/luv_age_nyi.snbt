@@ -6,7 +6,329 @@
 	icon: "gtceu:luv_machine_hull"
 	id: "141C26D8EA7453AC"
 	order_index: 8
-	quest_links: [ ]
-	quests: [ ]
-	title: "Luv Age [NYI]"
+	quest_links: [{
+		id: "3443CD8E1BB788AF"
+		linked_quest: "7BC656817FDE6E77"
+		shape: "gear"
+		size: 2.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["7BC656817FDE6E77"]
+			hide_dependent_lines: true
+			id: "5ABF13E42D763B39"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "34214FDD8170DDE3"
+					item: "gtceu:nano_processor_mainframe"
+					type: "item"
+				}
+				{
+					id: "043669AEA86DDD73"
+					item: "gtceu:quantum_processor_computer"
+					type: "item"
+				}
+			]
+			title: "Luv Circuits"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7BC656817FDE6E77"]
+			id: "5C0F37A4683804EF"
+			tasks: [{
+				id: "69CDC9C9F4D1B270"
+				title: "Luv Power"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5C0F37A4683804EF"]
+			id: "41A731A3A4B92B9A"
+			tasks: [{
+				id: "3D73F5D7CA1CA54E"
+				item: "gtnn:luv_rocket_engine"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5C0F37A4683804EF"]
+			id: "142E2675DC593957"
+			tasks: [{
+				id: "4EC6CA0AE81E442E"
+				item: "gtnn:luv_naquadah_reactor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5C0F37A4683804EF"]
+			id: "2C68297EFB37F31B"
+			tasks: [{
+				id: "45E63F40ABCAEB28"
+				item: "gtceu:plasma_large_turbine"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3061801F9CC087D8"]
+			id: "5B314DC5478CB545"
+			tasks: [{
+				id: "66FFFED7FC8F3A39"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0A444985CE9A4641"]
+			id: "3061801F9CC087D8"
+			tasks: [{
+				id: "1813EA5FF446A0DD"
+				item: "gtceu:crystal_processor_computer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["68D82A56997E45DF"]
+			id: "0A444985CE9A4641"
+			tasks: [{
+				id: "0311AC656B3FA055"
+				item: "gtceu:crystal_processor_assembly"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"149AF456DA83D172"
+				"40B2DDB01B346AA3"
+			]
+			id: "68D82A56997E45DF"
+			tasks: [{
+				id: "714033E9210C7F3C"
+				item: "gtceu:crystal_processor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["56851049644C8ADF"]
+			id: "149AF456DA83D172"
+			tasks: [{
+				id: "03039E39A33D49D9"
+				item: "gtceu:crystal_cpu"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["212BD7B9D12428A7"]
+			id: "40B2DDB01B346AA3"
+			tasks: [{
+				id: "1BD44D3FFC2D097B"
+				item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5ABF13E42D763B39"]
+			id: "212BD7B9D12428A7"
+			tasks: [{
+				id: "299D69AE1A2C60AB"
+				item: "gtceu:multilayer_fiber_reinforced_circuit_board"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B471AC40CCD0FAA"]
+			id: "56851049644C8ADF"
+			tasks: [{
+				id: "6138D95D03C506A3"
+				item: "gtceu:engraved_crystal_chip"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6DD3ADC7FC66EA23"]
+			id: "2B471AC40CCD0FAA"
+			tasks: [{
+				id: "3D8AA022E88159D1"
+				item: "gtceu:raw_crystal_chip"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1AA7BCFAE22FB2EF"]
+			id: "6DD3ADC7FC66EA23"
+			tasks: [{
+				id: "64ADEF8D7CC4B336"
+				item: "gtceu:europium_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5A0DA82B357528C8"]
+			id: "1AA7BCFAE22FB2EF"
+			shape: "octagon"
+			tasks: [{
+				id: "59F06DA79B1FF4D1"
+				item: "gtceu:luv_fusion_reactor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DF569024142810F"]
+			id: "5A0DA82B357528C8"
+			tasks: [{
+				id: "28759C0FE9D628CC"
+				item: "gtceu:uhpic_chip"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5ABF13E42D763B39"]
+			id: "7DF569024142810F"
+			tasks: [{
+				id: "784921D1543D73BF"
+				item: "gtceu:uhpic_wafer"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"650FB3B27EC91760"
+				"27E84466DACAD5CC"
+			]
+			id: "1361C0B53D664A2E"
+			tasks: [{
+				id: "7EE17C95B6A541EF"
+				item: "gtceu:naquadah_alloy_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1361C0B53D664A2E"]
+			id: "757DDBA99EFFD574"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "33A45F6CD7EF5F44"
+				item: "gtceu:zpm_machine_hull"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1D7D8A85FB50D67C"]
+			id: "650FB3B27EC91760"
+			tasks: [{
+				id: "4451D4980B0050E8"
+				item: "gtceu:naquadah_coil_block"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5ABF13E42D763B39"]
+			id: "1D7D8A85FB50D67C"
+			tasks: [{
+				id: "33C15E00DC614282"
+				item: "gtceu:luv_assembler"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5ABF13E42D763B39"]
+			id: "27E84466DACAD5CC"
+			tasks: [{
+				id: "709B0DCB9C68ADDB"
+				item: "gtceu:naquadah_alloy_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7BC656817FDE6E77"]
+			description: ["No longer will you be making your componets in the assembler or crafting table, but instead in the AssLine."]
+			id: "1BCFCA48E8717B61"
+			tasks: [{
+				id: "02AFE080DA0204B3"
+				item: "gtceu:luv_electric_motor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5ABF13E42D763B39"]
+			description: [
+				"&4&l[ NOT YET IMPLEMENTED ]&r"
+				""
+				"The &3Data Bank&r is a multiblock capable of storing huge amounts of data. You can fill it with &aData Access Hatches&r, and fill those with &aData Storage Items&r."
+				""
+				"After that, you'll need power, and then a way to connect it to your Assembly Line! This is done through &3Optical Fiber Cables&r, which can be used to link &3Optical Data Hatches together&r."
+				"{@pagebreak}"
+				"An &9Optical Transmission Hatch&r is used to send data (like an output), and an &9Optical Reception Hatch&r to recieve the data (like an input). "
+				""
+				"Optical cables have some restrictions however. They can only connect &eone input to one output&r. The Data Bank is a solution to this, since you can place many hatches on them to route in different directions."
+				""
+				"You can use this behavior to &echain&r Data Banks as well. Connecting one Data Bank to another, and then one of them to an Assembly Line will provide the data of both banks!"
+				"{@pagebreak}"
+				"&eNote: &rThis multiblock will be required later on in progression, but is very useful to set up early."
+				""
+				"&l&3Lore:&r&o This multiblock also originates from TecTech, but it required optical cables to be painted as well. You don't have to do that here, but it looks really nice if you do!"
+			]
+			id: "3201F1246277CFCC"
+			size: 1.0d
+			subtitle: "Time for a server room"
+			tasks: [{
+				id: "47B7237E867F427F"
+				type: "checkmark"
+			}]
+			title: "Mass Data Storage"
+			x: -2.0d
+			y: 2.0d
+		}
+	]
+	title: "Luv Age [WIP]"
 }

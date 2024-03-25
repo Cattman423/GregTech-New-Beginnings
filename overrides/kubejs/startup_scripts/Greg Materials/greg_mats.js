@@ -1,17 +1,4 @@
 GTCEuStartupEvents.registry('gtceu:material', event => {
-    /*event.create('andesite_alloy')
-        .ingot(1)
-        .components('9x andesite', '1x zinc')
-        .color(0x99B09F)
-        .iconSet(GTMaterialIconSet.DULL)
-        .rotorStats(4, 2, 100)
-        .flags(
-            GTMaterialFlags.GENERATE_PLATE, 
-            GTMaterialFlags.GENERATE_GEAR, 
-            GTMaterialFlags.GENERATE_SMALL_GEAR, 
-            GTMaterialFlags.GENERATE_BOLT_SCREW, 
-            GTMaterialFlags.GENERATE_ROTOR
-        )*/
 
     event.create('nitrocellulose')
         .polymer()
@@ -75,7 +62,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_LENS,
             GTMaterialFlags.EXCLUDE_PLATE_COMPRESSOR_RECIPE
         )
-        GTMaterials.get('andesite_alloy').addFlags(
+    GTMaterials.get('andesite_alloy').addFlags(
         GTMaterialFlags.GENERATE_PLATE, 
         GTMaterialFlags.GENERATE_GEAR, 
         GTMaterialFlags.GENERATE_SMALL_GEAR, 

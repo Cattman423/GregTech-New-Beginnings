@@ -31,7 +31,11 @@ ServerEvents.recipes(event => {
     event.recipes.create.mixing(
         ['3x gtceu:poor_steel_ingot'], 
         ['2x minecraft:iron_ingot', '2x minecraft:coal']
-        ).heatRequirement('lowheated')
+        ).heatRequirement('heated')
+    event.recipes.create.pressing(
+        'gtceu:wrought_iron',
+        'gtceu:poor_steel'
+    )
     event.replaceInput(
         { input: 'tfmg:cast_iron_ingot' },
         'tfmg:cast_iron_ingot',
@@ -41,6 +45,16 @@ ServerEvents.recipes(event => {
         { input: 'createdeco:industrial_iron_ingot' },
         'createdeco:industrial_iron_ingot',
         'gtceu:poor_steel_ingot'
+        )
+    event.replaceInput(
+        { input: 'createdeco:industrial_iron_sheet' },
+        'createdeco:industrial_iron_sheet',
+        'gtceu:poor_steel_plate'
+        )
+    event.replaceInput(
+        { input: 'createdeco:zinc_sheet' },
+        'createdeco:zinc_sheet',
+        'gtceu:zinc_plate'
         )
 //Create rose quartz
     event.replaceInput(
@@ -287,7 +301,7 @@ ServerEvents.recipes(event => {
             'gtceu:andesite_alloy_rod'
         ]
     )
-//Create andesite casing
+//Create casings
     function casingass(id, plate, log, output){
         event.recipes.gtceu.assembler(id)
             .itemInputs(plate, log)
@@ -442,22 +456,57 @@ ServerEvents.recipes(event => {
         .itemOutputs('2x create:electron_tube')
         .duration(200)
         .EUt(16)
-    event.recipes.create.mechanical_crafting(
+
+    let kjscm = 'kubejs:incomplete_clockwork_mechanism'
+    event.recipes.create.sequenced_assembly([
+        Item.of('kubejs:clockwork_mechanism').withChance(95.0),
+        Item.of('2x gtceu:brass_nugget').withChance(3.0),
+        Item.of('2x gtceu:small_rose_quartz_dust').withChance(2.0)
+    ], 'gtceu:brass_plate', [
+    event.recipes.createDeploying(kjscm, [kjscm, 'create:cogwheel']),
+    event.recipes.createDeploying(kjscm, [kjscm, 'gtceu:small_bronze_gear']),
+    event.recipes.createDeploying(kjscm, [kjscm, 'gtceu:brass_nugget']),
+    event.recipes.createPressing(kjscm, [kjscm]),
+    event.recipes.createDeploying(kjscm, [kjscm, 'create:electron_tube']),
+    event.recipes.createPressing(kjscm, [kjscm])
+    ]).transitionalItem(kjscm).loops(2)
+
+    event.replaceInput(
+        { input: 'create:precision_mechanism' },
         'create:precision_mechanism',
+        'kubejs:clockwork_mechanism'
+        )
+//Blaze Burner
+    event.shaped(
+        Item.of('create:empty_blaze_burner'),
         [
-            'ECFCE',
-            'EABAE',
-            'FDDDF'
+            'BCB',
+            'BAB',
+            'DED'
         ],
         {
-            A: 'create:electron_tube',
-            B: 'gtceu:brass_plate',
-            C: 'create:cogwheel',
-            D: 'create:shaft',
-            E: 'gtceu:poor_steel_gear',
-            F: 'gtceu:poor_steel_plate'
+            A: 'minecraft:netherrack',
+            B: 'minecraft:iron_bars',
+            C: '#forge:tools/wrenches',
+            D: 'gtceu:iron_plate',
+            E: 'create:electron_tube'
         }
-        )
+    )    
+    let kjsbb = 'kubejs:incomplete_blaze_burner'
+    event.recipes.create.sequenced_assembly([
+        Item.of('create:blaze_burner').withChance(95.0),
+        Item.of('2x gtceu:iron_nugget').withChance(3.0),
+        Item.of('2x gtceu:small_netherrack_dust').withChance(2.0)
+    ], 'create:empty_blaze_burner', [
+    event.recipes.createDeploying(kjsbb, [kjsbb, 'create:cogwheel']),
+    event.recipes.createDeploying(kjsbb, [kjsbb, 'kubejs:clockwork_mechanism']),
+    event.recipes.createFilling(kjsbb, [kjsbb, Fluid.lava(100)]),
+    event.recipes.createPressing(kjsbb, [kjsbb]),
+    event.recipes.createDeploying(kjsbb, [kjsbb, 'gtceu:brass_plate']),
+    event.recipes.createDeploying(kjsbb, [kjsbb, 'gtceu:brass_plate']),
+    event.recipes.createDeploying(kjsbb, [kjsbb, 'create:electron_tube']),
+    event.recipes.createPressing(kjsbb, [kjsbb])
+    ]).transitionalItem(kjsbb).loops(2)
 //Create mechanical devices
     event.shaped(
         Item.of('create:basin',),
@@ -470,7 +519,7 @@ ServerEvents.recipes(event => {
             A: 'gtceu:andesite_alloy_plate',
             B: '#forge:tools/hammers'
         }
-        )
+    )
     function mechcreate(output, input, shaft){
         event.shaped(
             Item.of(output),
@@ -532,7 +581,7 @@ ServerEvents.recipes(event => {
         }
         )
     event.shaped(
-        Item.of('createlowheated:charcoal_burner'),
+        Item.of('createlowheated:basic_burner'),
         [
             'A A',
             'ABA',
@@ -546,6 +595,21 @@ ServerEvents.recipes(event => {
             //E: 'create:electron_tube'
         }
         )
+    /*event.recipes.create.mechanical_crafting(
+        'vintageimprovements:helve_hammer', 
+        [ 
+            ' B SS',
+            'BLLLC',
+            'BB  s'
+        ], 
+        {
+            S: 'gtceu:iron_spring',
+            B: 'gtceu:double_iron_plate',
+            L: '#minecraft:logs',
+            s: 'create:shaft',
+            C: 'create:andesite_casing'
+        }
+        )*/
 //Create kinetic generators
     event.shaped(
         Item.of('create:windmill_bearing',),
@@ -609,7 +673,7 @@ ServerEvents.recipes(event => {
             A: 'gtceu:brass_plate',
             B: 'gtceu:copper_plate',
             C: 'create:shaft',
-            D: 'create:precision_mechanism',
+            D: 'kubejs:clockwork_mechanism',
             E: 'gtceu:poor_steel_rod',
             F: 'gtceu:poor_steel_bolt'
         }
@@ -642,5 +706,23 @@ ServerEvents.recipes(event => {
     mechcreate('create:mechanical_press', 'gtceu:double_iron_plate', 'create:shaft')
     mechcreate('create:mechanical_mixer', 'create:whisk', 'create:shaft')
     mechcreate('create:mechanical_saw', 'gtceu:iron_buzz_saw_blade', 'create:shaft')
+    mechcreate('create:mechanical_drill', 'gtceu:iron_drill_head', 'create:electron_tube')
+    mechcreate('create:mechanical_roller', 'create:crushing_wheel', 'create:electron_tube')
+    mechcreate('create:mechanical_piston', 'create:piston_extension_pole', '#minecraft:wooden_slabs')
+    mechcreate('create:mechanical_bearing', 'create:shaft', '#minecraft:wooden_slabs')
+    mechcreate('create:speedometer', 'minecraft:compass', 'create:shaft')
+    mechcreate('create:millstone', '#balm:stones', 'create:cogwheel')
+    mechcreate('create:gantry_carriage', 'create:cogwheel', '#minecraft:wooden_slabs')
+    mechcreate('create:cuckoo_clock', 'minecraft:clock', '#minecraft:planks')
     mechcreate('create:deployer', 'create:brass_hand', 'create:electron_tube')
+    mechcreate('create:rope_pulley', '#forge:rope', 'create:electron_tube')
+    mechcreate('sliceanddice:slicer', 'create:turntable', 'create:electron_tube')
+    mechcreate('rechiseledcreate:mechanical_chisel', 'rechiseled:chisel', 'create:shaft')
+    mechcreate('createqol:botanist_saw', 'chipped:botanist_table', 'create:shaft')
+    mechcreate('createqol:glassblower_saw', 'chipped:glassblower_table', 'create:shaft')
+    mechcreate('createqol:loom_saw', 'chipped:loom_table', 'create:shaft')
+    mechcreate('createqol:mason_saw', 'chipped:mason_table', 'create:shaft')
+    mechcreate('createqol:tinkering_saw', 'chipped:tinkering_table', 'create:shaft')
+    //mechcreate('vintageimprovements:belt_grinder', 'vintageimprovements:grinder_belt', 'create:shaft')
+    //mechcreate('vintageimprovements:spring_coiling_machine', 'vintageimprovements:spring_coiling_machine_wheel', 'create:shaft')
 })

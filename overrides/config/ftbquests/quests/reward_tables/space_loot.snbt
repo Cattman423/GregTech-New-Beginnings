@@ -1,0 +1,12 @@
+{
+	icon: {
+		Count: 1b
+		id: "ad_astra:tier_1_rocket"
+		tag: { }
+	}
+	id: "1C3CDD94045E7B42"
+	loot_size: 1
+	order_index: 16
+	rewards: [ ]
+	title: "Space Loot"
+}

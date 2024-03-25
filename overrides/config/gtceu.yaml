@@ -212,7 +212,7 @@ machines:
 
   # Wether to add a "Processing Array"
   # Default: true
-  doProcessingArray: true
+  doProcessingArray: false
 
   # Makes nearly every GCYM Multiblock require blocks which set their maximum voltages.
   # Default: false

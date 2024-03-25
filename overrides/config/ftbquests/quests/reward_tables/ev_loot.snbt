@@ -1,0 +1,8 @@
+{
+	icon: "gtceu:ev_machine_hull"
+	id: "24B32F154B7E6049"
+	loot_size: 1
+	order_index: 5
+	rewards: [ ]
+	title: "Ev Loot"
+}

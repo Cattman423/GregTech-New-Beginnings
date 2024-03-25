@@ -397,39 +397,14 @@
 		}
 		{
 			dependencies: ["020A0EFF251D51F7"]
+			description: ["There's six types of Pam's Gardens, they will help you gather the different crop types, go and find them!"]
+			icon: "pamhc2crops:tropicalgarden"
 			id: "5D695F49378D1E23"
-			tasks: [
-				{
-					id: "1956BD4114331964"
-					item: "pamhc2crops:aridgarden"
-					type: "item"
-				}
-				{
-					id: "4CA9C15E64EEAE91"
-					item: "pamhc2crops:frostgarden"
-					type: "item"
-				}
-				{
-					id: "50804294DCC52E47"
-					item: "pamhc2crops:shadedgarden"
-					type: "item"
-				}
-				{
-					id: "4F9D14DA0AFA84B1"
-					item: "pamhc2crops:soggygarden"
-					type: "item"
-				}
-				{
-					id: "472377BD285CE241"
-					item: "pamhc2crops:tropicalgarden"
-					type: "item"
-				}
-				{
-					id: "43BD68276605EAEA"
-					item: "pamhc2crops:windygarden"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "671CA871514F4880"
+				type: "checkmark"
+			}]
+			title: "Gardens"
 			x: 1.5d
 			y: 2.5d
 		}

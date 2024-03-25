@@ -13,6 +13,80 @@
 	id: "05D6B994FA7C65C3"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
-	title: "Bees [NYI]"
+	quests: [
+		{
+			dependencies: ["23E74436B4CC52EC"]
+			id: "784B3D3721A36A42"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "22808F109A9A5422"
+				item: "productivebees:bee_cage"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FE7A3DC2813ED45"]
+			id: "2A7DA0C5C6656970"
+			tasks: [{
+				id: "3BF1BD03768A03F1"
+				item: "minecraft:beehive"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["784B3D3721A36A42"]
+			id: "1FE7A3DC2813ED45"
+			tasks: [{
+				id: "34534EFE70F73292"
+				item: "minecraft:honeycomb"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2A7DA0C5C6656970"]
+			icon: "productivebees:advanced_oak_beehive"
+			id: "46E33549F9EBFE88"
+			tasks: [{
+				id: "2B37C20C312F1632"
+				item: {
+					Count: 1b
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(productivebees:advanced_beehives)"
+					}
+				}
+				type: "item"
+			}]
+			title: "Advanced Hives"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["46E33549F9EBFE88"]
+			icon: "productivebees:expansion_box_oak"
+			id: "61317CD800528D5F"
+			tasks: [{
+				id: "173C6D9D1C0BFCFA"
+				item: {
+					Count: 1b
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(productivebees:expansion_boxes)"
+					}
+				}
+				type: "item"
+			}]
+			title: "Expansion Boxes"
+			x: 2.0d
+			y: 3.0d
+		}
+	]
+	title: "Bees [WIP]"
 }

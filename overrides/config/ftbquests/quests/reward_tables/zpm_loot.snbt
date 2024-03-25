@@ -1,0 +1,8 @@
+{
+	icon: "gtceu:zpm_machine_hull"
+	id: "5FBA4EA2283A2630"
+	loot_size: 1
+	order_index: 8
+	rewards: [ ]
+	title: "Zpm Loot"
+}

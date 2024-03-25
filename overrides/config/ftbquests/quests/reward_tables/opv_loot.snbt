@@ -1,0 +1,8 @@
+{
+	icon: "gtceu:opv_machine_hull"
+	id: "4352527A1EAA0623"
+	loot_size: 1
+	order_index: 14
+	rewards: [ ]
+	title: "Opv Loot"
+}

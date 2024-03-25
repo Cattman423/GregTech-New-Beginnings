@@ -3,7 +3,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
     event.create('builders_press')
         .category('multiblock')
         .setEUIO('in')
-            .setMaxIOSize(1, 1, 1, 1) //Max Item Inputs, Max Item Outputs, Max Fluid Inputs, Max Fluid Outputs
+            .setMaxIOSize(3, 6, 3, 3) //Max Item Inputs, Max Item Outputs, Max Fluid Inputs, Max Fluid Outputs
         //.setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.ARC)
 })

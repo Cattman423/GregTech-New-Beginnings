@@ -1,0 +1,8 @@
+{
+	icon: "gtceu:hv_machine_hull"
+	id: "3068434AAB6D8F0C"
+	loot_size: 1
+	order_index: 4
+	rewards: [ ]
+	title: "Hv Loot"
+}

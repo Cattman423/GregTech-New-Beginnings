@@ -7,36 +7,17 @@
 	icon: "create:andesite_casing"
 	id: "15B5E090F479155C"
 	order_index: 1
-	quest_links: [ ]
+	quest_links: [{
+		id: "348585C5400C58EC"
+		linked_quest: "6A91810EF77054CF"
+		shape: "gear"
+		size: 2.0d
+		x: 0.0d
+		y: 0.0d
+	}]
 	quests: [
 		{
-			dependencies: ["2F7CFB679D7A9350"]
-			id: "518744B43DD55B4D"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "471DC47A6F06ECC2"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "4998F65A788AE11B"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "gear"
-			size: 2.0d
-			tasks: [{
-				id: "2DE9C8B0B12C1849"
-				item: "create:andesite_casing"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["518744B43DD55B4D"]
+			dependencies: ["6A91810EF77054CF"]
 			id: "7B3581FCBF20F163"
 			rewards: [
 				{
@@ -164,7 +145,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["518744B43DD55B4D"]
+			dependencies: ["6A91810EF77054CF"]
 			icon: "create:hand_crank"
 			id: "10662D01B89030A9"
 			require_sequential_tasks: false
@@ -199,7 +180,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["518744B43DD55B4D"]
+			dependencies: ["6A91810EF77054CF"]
 			description: ["You will need a lot of these materials going forward, and no, the recipies won't get better until the LV age, so I suggest doing some bulk crafting."]
 			icon: "gtceu:wood_gear"
 			id: "365710CA452DFB41"
@@ -313,7 +294,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["365710CA452DFB41"]
@@ -346,7 +327,7 @@
 				}
 			]
 			x: 2.0d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -471,7 +452,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["518744B43DD55B4D"]
+			dependencies: ["6A91810EF77054CF"]
 			hide_dependency_lines: true
 			id: "72A7E79D2BF58883"
 			rewards: [
@@ -613,9 +594,9 @@
 		}
 		{
 			dependencies: [
-				"4E68C8330998DB20"
 				"6D3322D2FFCBEB8C"
 				"38747E7B7CB63D8D"
+				"491F667B940BC625"
 			]
 			id: "1928A0F6075A46AC"
 			rewards: [
@@ -634,11 +615,11 @@
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
-				id: "6E4B536CC0716604"
-				item: "create:precision_mechanism"
+				id: "21D2B6BCA7DA7737"
+				item: "kubejs:clockwork_mechanism"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 9.0d
 			y: 7.0d
 		}
 		{
@@ -684,7 +665,6 @@
 		}
 		{
 			dependencies: [
-				"1928A0F6075A46AC"
 				"35F0F173EF427B4F"
 				"6D3322D2FFCBEB8C"
 			]
@@ -719,20 +699,10 @@
 					item: "create:brass_tunnel"
 					type: "item"
 				}
-				{
-					id: "007DC413022804EF"
-					item: "create:mechanical_arm"
-					type: "item"
-				}
-				{
-					id: "72502D1FD848A484"
-					item: "create:deployer"
-					type: "item"
-				}
 			]
 			title: "Better Automation"
 			x: 5.0d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -832,11 +802,11 @@
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
-				id: "1B381D651FA22E6E"
-				item: "tfmg:steel_mechanism"
+				id: "775CFE8D4018976E"
+				item: "kubejs:advanced_clockwork_mechanism"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 12.0d
 			y: 7.0d
 		}
 		{
@@ -861,7 +831,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6D3322D2FFCBEB8C"]
@@ -887,11 +857,14 @@
 				item: "create:brass_casing"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: 4.0d
 		}
 		{
-			dependencies: ["4E5F6BF9EF55DC13"]
+			dependencies: [
+				"4E5F6BF9EF55DC13"
+				"1928A0F6075A46AC"
+			]
 			icon: "gtceu:bronze_machine_casing"
 			id: "54D5926072B165D5"
 			rewards: [
@@ -908,7 +881,7 @@
 				}
 			]
 			shape: "gear"
-			size: 2.0d
+			size: 1.5d
 			tasks: [
 				{
 					id: "6B3AECE0967B849C"
@@ -921,7 +894,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 9.0d
 			y: 2.0d
 		}
 		{
@@ -944,15 +917,15 @@
 				}
 			]
 			tasks: [{
-				id: "60F928D1D1BB6C16"
-				item: "createlowheated:charcoal_burner"
+				id: "5C5A9810613F98B9"
+				item: "createlowheated:basic_burner"
 				type: "item"
 			}]
 			x: 5.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["0F6B6479A8529BD2"]
+			dependencies: ["7F4D9E3845178B7B"]
 			id: "235E8244B5B522FF"
 			optional: true
 			rewards: [
@@ -973,8 +946,8 @@
 				item: "gtceu:poor_steel_ingot"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 3.0d
+			x: 12.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0F6B6479A8529BD2"]
@@ -997,8 +970,8 @@
 				item: "gtceu:brass_dust"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.0d
+			x: 6.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0F6B6479A8529BD2"]
@@ -1025,33 +998,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["07B9229EA02A6C1E"]
-			id: "78E7CCFA9B401E69"
-			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "754CA743F8736469"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "0C0DFF7A43CA78F6"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "gear"
-			size: 1.25d
-			tasks: [{
-				id: "5F47AB0D5356B1A9"
-				item: "gtceu:ulv_machine_hull"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 7.0d
-		}
-		{
 			dependencies: ["48DC0E7A6ADBFFCE"]
 			id: "38747E7B7CB63D8D"
 			rewards: [
@@ -1072,8 +1018,8 @@
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 5.5d
+			x: 8.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5468ECF42040C129"]
@@ -1131,8 +1077,8 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
-			y: 4.0d
+			x: 8.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["72A7E79D2BF58883"]
@@ -1275,7 +1221,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["518744B43DD55B4D"]
+			dependencies: ["6A91810EF77054CF"]
 			description: [
 				"You can't craft these for a while yet, so why don't I trade you a pair for a stack of andesite alloy."
 				""
@@ -1305,13 +1251,113 @@
 				"235E8244B5B522FF"
 			]
 			id: "7D685353A25903BB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "36853D46EE2AFD7B"
+					table_id: 1979144794260430301L
+					type: "random"
+				}
+				{
+					id: "3A66064F37B0E7CC"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "0B283EC57F7847B3"
 				item: "create:steam_engine"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 5.5d
+			x: 11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1928A0F6075A46AC"]
+			description: ["If you somehow get precision mechanisms, I'll trade you for some clockwork ones."]
+			id: "4922E54CD484BF8A"
+			rewards: [{
+				id: "2051A3CF90B96544"
+				item: "kubejs:clockwork_mechanism"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [{
+				consume_items: true
+				id: "1F3F662540AD58EB"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["07B9229EA02A6C1E"]
+			description: ["If you somehow get steel mechanisms, I'll trade you for some advanced clockwork ones."]
+			id: "0D33D7BB3FEB4D75"
+			optional: true
+			rewards: [{
+				id: "0727BF21C374552E"
+				item: "kubejs:advanced_clockwork_mechanism"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [{
+				consume_items: true
+				id: "5063889E071739F2"
+				item: "tfmg:steel_mechanism"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1928A0F6075A46AC"]
+			id: "7F4D9E3845178B7B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "732073E2F19793BD"
+					table_id: 1979144794260430301L
+					type: "random"
+				}
+				{
+					id: "7C18EC33E6FCA127"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "77D6DF251A3F63FC"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4E68C8330998DB20"]
+			id: "491F667B940BC625"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F54FA3AC9EBE71E"
+					table_id: 1979144794260430301L
+					type: "random"
+				}
+				{
+					id: "0039EC4DB8C40FD7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "350EAE07F9C82B53"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
 		}
 	]
 	title: "Create Age"

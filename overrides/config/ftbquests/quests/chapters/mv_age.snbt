@@ -7,23 +7,17 @@
 	icon: "gtceu:mv_machine_hull"
 	id: "6766564C9E361F32"
 	order_index: 4
-	quest_links: [ ]
+	quest_links: [{
+		id: "4682A9E3E152BDBF"
+		linked_quest: "022992D132A0423F"
+		shape: "gear"
+		size: 2.0d
+		x: 0.0d
+		y: 0.0d
+	}]
 	quests: [
 		{
-			dependencies: ["44A087F9D2E4BFC8"]
-			id: "60553EDA13EB2F1D"
-			shape: "gear"
-			size: 2.0d
-			tasks: [{
-				id: "15CCA4C53A21A433"
-				item: "gtceu:mv_machine_hull"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["60553EDA13EB2F1D"]
+			dependencies: ["022992D132A0423F"]
 			id: "71FA201CC3CEF1B4"
 			tasks: [{
 				id: "31E2F0B5444C8C32"
@@ -82,7 +76,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["60553EDA13EB2F1D"]
+			dependencies: ["022992D132A0423F"]
 			id: "1D563AA8C13C822E"
 			tasks: [{
 				id: "1AAB87DA92536327"
@@ -146,7 +140,7 @@
 			dependencies: [
 				"5E80BB772B0F3103"
 				"1CFD6454C50C67FA"
-				"60553EDA13EB2F1D"
+				"022992D132A0423F"
 			]
 			hide_dependent_lines: true
 			id: "7A4D681F7EF69714"
@@ -161,7 +155,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["60553EDA13EB2F1D"]
+			dependencies: ["022992D132A0423F"]
 			id: "2786FB21A83F31C0"
 			tasks: [{
 				id: "7DEA1B03F79BB4E5"

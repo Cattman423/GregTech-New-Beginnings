@@ -39,7 +39,7 @@ ServerEvents.recipes(event => {
         ]
     )
 //Intermediates
-    event.recipes.create.mechanical_crafting('tfmg:steel_mechanism', [
+    /*event.recipes.create.mechanical_crafting('kubejs:advanced_clockwork_mechanism', [
         'AEBEA',
         'ACFCA',
         'BDDDB'
@@ -51,13 +51,31 @@ ServerEvents.recipes(event => {
         D: 'create:shaft',
         E: 'create:cogwheel',
         F: 'gtceu:poor_steel_plate'
-    })
+    })*/
+
+    let kjsacm = 'kubejs:incomplete_advanced_clockwork_mechanism'
+    event.recipes.create.sequenced_assembly([
+        Item.of('kubejs:advanced_clockwork_mechanism').withChance(95.0),
+        Item.of('2x gtceu:poor_steel_nugget').withChance(3.0),
+        Item.of('2x gtceu:small_rose_quartz_dust').withChance(2.0)
+    ], 'gtceu:poor_steel_plate', [
+    event.recipes.createDeploying(kjsacm, [kjsacm, 'create:electron_tube']),
+    event.recipes.createDeploying(kjsacm, [kjsacm, 'gtceu:poor_steel_gear']),
+    event.recipes.createPressing(kjsacm, [kjsacm]),
+    event.recipes.createDeploying(kjsacm, [kjsacm, 'kubejs:clockwork_mechanism']),
+    event.recipes.createPressing(kjsacm, [kjsacm])
+    ]).transitionalItem(kjsacm).loops(2)
+
+    event.replaceInput(
+        { input: 'tfmg:steel_mechanism' },
+        'tfmg:steel_mechanism',
+        'kubejs:advanced_clockwork_mechanism')
 //Pumpjack
     event.recipes.gtceu.assembler('machine_input')
         .circuit(9)
         .itemInputs(
             'gtceu:solid_machine_casing', 
-            'tfmg:steel_mechanism', 
+            'kubejs:advanced_clockwork_mechanism', 
             'create:shaft'
         )
         .itemOutputs('tfmg:machine_input')
@@ -78,7 +96,7 @@ ServerEvents.recipes(event => {
         .circuit(11)
         .itemInputs(
             '4x gtceu:steel_plate',
-            '2x tfmg:steel_mechanism', 
+            '2x kubejs:advanced_clockwork_mechanism', 
             'tfmg:industrial_pipe', 
             'minecraft:string', 
             'gtceu:solid_machine_casing'

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "shop_nyi"
+	group: "4E8777506C4F26CC"
+	icon: "gtceu:doge_coin"
+	id: "44083E0BF511F47F"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Shop [NYI]"
+}

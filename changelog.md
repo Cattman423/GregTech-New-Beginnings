@@ -1,5 +1,78 @@
 # Changelog
 
+## V 0.0.6
+
+* Progression
+  * Overhauled Create Progression
+    * Replaced Precision and Steel Mechanisms with Clockwork and Advanced Clockwork Mechanisms
+    * Added recipe for Blaze Burners
+    * Renamed Blaze Burners to Clockwork Burners
+    * Changed Poor Steel heating requirement to require a heated Clockwork Burner
+    * Poor Steel can be pressed into Wrought Iron
+    * Re-removed Create Mixing recipe for Brass Ingots
+    * Gregified more Create Recipes
+  * Overhauled Steam Progression
+    * Bronze and Steel Machine Casings are now crafted with Mechanical Crafters and require Clockwork Mechanisms and Advanced Clockwork Mechanisms respectively
+    * Boilers are crafted using Mechanical Crafters
+    * Made Solar Boilers more expensive
+    * Bronze and Steel Bricked Hulls are made via Sequenced Assembly
+    * Added Steam Loot rewards
+  * Lv Quests
+    * Added Lv Loot Rewards
+  * Added Iv Quest Line
+    * Moved RTM Alloy and Platline to Iv as they aren't required until then
+  * Added Luv Quest Line
+  * Added Zpm Quest Line
+  * Added Uv Quest Line
+  * Added Uhv Quest Line
+  * Beegun adding Bee Quest Line
+* Recipes
+  * Fixed Rubber Wood crafting
+  * Fixed 1 Steel Ingot being pressed into 1 Steel Plate before Lv Bender
+  * Added mixer recipes for `gtceu:concrete` and `gtceu:firebricks`
+  * Added recipes for Cooking for Blockheads
+* Mod Additions
+  * Added Create Quality of Life
+  * Added Smooth Boot Reloaded
+  * Added Entity Culling
+  * Added Jade Addons
+  * Added AntiBlocksReChiseled
+  * Added Infernal Mobs
+  * Added Travelers Titles
+  * Added Enhanced Celestials
+    * Added Corgi Lib
+  * Added Builder's Gadgets
+  * Added Gateways to Eternity
+  * Added Path Under Gates
+  * Added Progressive Bosses
+    * Added Insane Lib
+  * Added Block of Sky
+  * Added Exchangers
+  * Added Factory Blocks
+  * Added Volcanic Caverns
+  * Added More Red
+  * Added CC: Tweaked
+  * Added CC:C Bridge
+  * Added More Red x CC:Tweaked Compat
+  * Added Iron Furnaces
+* Mod Updates
+  * Amendments v1.1.11
+  * Create Low Heated v0.5.1.f
+  * Create Connected 0.7.4
+  * Create Picky Wheels v0.5.1.f-c
+  * Sophisticated Backpacks v3.20.3.1034
+  * PuzzlesLib v8.1.18
+  * PolyLib v2000.0.3-build.132
+  * Moonlight v2.11.9
+  * Dawn of Time v1.3.3
+  * GT-- v1.0.2d
+  * Modern Fix v5.15.0
+  * Lootr v0.7.32.80
+  * Extended AE v1.0.17
+* Mod Removals
+  * Removed Quality Crops
+  * Removed Quality's Delight
+
 ## V 0.0.5
 
 * Recipe Tweaks
