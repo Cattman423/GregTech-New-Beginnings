@@ -229,4 +229,6 @@ ServerEvents.recipes(event => {
         .itemOutputs('64x tfmg:industrial_pipe')
         .duration(32)
         .EUt(120)
+    event.recipes.create.crushing(['gtceu:raw_lignite', Item.of('gtceu:raw_lignite').withChance(0.005)], 'tfmg:lignite')
+    event.recipes.create.milling([Item.of('gtceu:raw_lignite').withChance(0.95)], 'tfmg:lignite')
 })

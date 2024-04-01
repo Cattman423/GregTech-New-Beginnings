@@ -1,0 +1,706 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lenses"
+	group: "4E8777506C4F26CC"
+	icon: "gtceu:glass_lens"
+	id: "0C8FA2783D735D04"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "04EF7CCA4CCD0297"
+			optional: true
+			tasks: [{
+				id: "240A1E4DC69E35E9"
+				item: "gtceu:glass_lens"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "615E755D12D346BD"
+			optional: true
+			tasks: [{
+				id: "6B397FB62759A8F7"
+				item: "gtceu:orange_glass_lens"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "414A231B6EAE3072"
+			optional: true
+			tasks: [{
+				id: "7BF9FA092DE83F3C"
+				item: "gtceu:magenta_glass_lens"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "59A529B84D677FD3"
+			optional: true
+			tasks: [{
+				id: "2FBA358771857631"
+				item: "gtceu:light_blue_glass_lens"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "41779CB1D24475A3"
+			optional: true
+			tasks: [{
+				id: "251E42435CA7E787"
+				item: "gtceu:yellow_glass_lens"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "4AEC5849F63153E6"
+			optional: true
+			tasks: [{
+				id: "42840121FB5D88BC"
+				item: "gtceu:lime_glass_lens"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "063B6118FCA2FDD8"
+			optional: true
+			tasks: [{
+				id: "3594F8C99D63DEB6"
+				item: "gtceu:pink_glass_lens"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "7DD126240BF56B61"
+			optional: true
+			tasks: [{
+				id: "1B89DADB2C03778F"
+				item: "gtceu:gray_glass_lens"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "5F1DF7707298B4CC"
+			optional: true
+			tasks: [{
+				id: "274B996CD7021F81"
+				item: "gtceu:light_gray_glass_lens"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "6C7F7BB1802C309D"
+			optional: true
+			tasks: [{
+				id: "15993DA202CA9E0B"
+				item: "gtceu:cyan_glass_lens"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "2E470E8C053CFDAE"
+			optional: true
+			tasks: [{
+				id: "2566F196DD37C7B0"
+				item: "gtceu:purple_glass_lens"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "1E742C3D24F4972F"
+			optional: true
+			tasks: [{
+				id: "45555E847E0BBD80"
+				item: "gtceu:blue_glass_lens"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "730387C3F7FA3F4F"
+			optional: true
+			tasks: [{
+				id: "02C96CA1EBB49491"
+				item: "gtceu:green_glass_lens"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "5F1D13FBD71F37F6"
+			optional: true
+			tasks: [{
+				id: "6CCAB17CC20B5CBE"
+				item: "gtceu:red_glass_lens"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "65F24CE42C80B785"
+			optional: true
+			tasks: [{
+				id: "3C8AAE4FF9E88327"
+				item: "gtceu:black_glass_lens"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "2CC64BCE923E36BD"
+			optional: true
+			tasks: [{
+				id: "0D7DF02E56AFEE0F"
+				item: "gtceu:rock_salt_lens"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "563EA60CD6D106A5"
+			optional: true
+			tasks: [{
+				id: "14C802A25DF508EE"
+				item: "gtceu:salt_lens"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "5FD0218913125181"
+			optional: true
+			tasks: [{
+				id: "06CA7C1F9C0B23D2"
+				item: "gtceu:nether_quartz_lens"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "19C478FA35BF99F2"
+			optional: true
+			tasks: [{
+				id: "56453631BB3AED99"
+				item: "gtceu:quartzite_lens"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "512B1BA26B4C813F"
+			optional: true
+			tasks: [{
+				id: "5EDCFAB4AA3F120E"
+				item: "gtceu:nether_star_lens"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "3BFA209188B9B335"
+			optional: true
+			tasks: [{
+				id: "2BA17BB751811A90"
+				item: "gtceu:grossular_lens"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "0716666F11C3DA69"
+			optional: true
+			tasks: [{
+				id: "7805B1A1D8054E73"
+				item: "gtceu:spessartine_lens"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "6AF7619BD57E03F4"
+			optional: true
+			tasks: [{
+				id: "177E4DB1BFF10C1C"
+				item: "gtceu:blue_topaz_lens"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "4581484EFCCD375A"
+			optional: true
+			tasks: [{
+				id: "1CAD0C883A9F6FA1"
+				item: "gtceu:diamond_lens"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "715D9E2557525C2C"
+			optional: true
+			tasks: [{
+				id: "73258B6147289324"
+				item: "gtceu:certus_quartz_lens"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "3A923127933944EF"
+			optional: true
+			tasks: [{
+				id: "3DE4A0DA5D7945A7"
+				item: "gtceu:enriched_certus_lens"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "3F56F0A54BA56CDE"
+			optional: true
+			tasks: [{
+				id: "54B5A521F27CE101"
+				item: "gtceu:andradite_lens"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "03337552528AFC8B"
+			optional: true
+			tasks: [{
+				id: "1C3F708B708D6C69"
+				item: "gtceu:topaz_lens"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "352214CA5D5E6912"
+			optional: true
+			tasks: [{
+				id: "5F512DB487AD3E70"
+				item: "gtceu:yellow_garnet_lens"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "18FCA3A9A2963C0B"
+			optional: true
+			tasks: [{
+				id: "64483A8BBF633177"
+				item: "gtceu:monazite_lens"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "75F1DEBB95B76644"
+			optional: true
+			tasks: [{
+				id: "281167B30F18D623"
+				item: "gtceu:prasiolite_lens"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "54C483D8103BF333"
+			optional: true
+			tasks: [{
+				id: "4629C16AEE4F1107"
+				item: "gtceu:green_sapphire_lens"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "1DF2B64C517AAF76"
+			optional: true
+			tasks: [{
+				id: "0C96AFDC363942A8"
+				item: "gtceu:malachite_lens"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "30FE72BCC98E8279"
+			optional: true
+			tasks: [{
+				id: "2F6E2F723110E07F"
+				item: "gtceu:olivine_lens"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "324FA9F3B8EBD0C4"
+			optional: true
+			tasks: [{
+				id: "73CCEED52D9186A0"
+				item: "gtceu:opal_lens"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "679F4D2774FCC77A"
+			optional: true
+			tasks: [{
+				id: "1800A9D93BD3F8C3"
+				item: "gtceu:coke_lens"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "132C7906CAB0B7A3"
+			optional: true
+			tasks: [{
+				id: "48CC4E59A79C84BF"
+				item: "gtceu:apatite_lens"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "68FCED193CF8004C"
+			optional: true
+			tasks: [{
+				id: "54CD4F37E50686E4"
+				item: "gtceu:amethyst_lens"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "06A8B90431B92933"
+			optional: true
+			tasks: [{
+				id: "06E0D23A1B348ED5"
+				item: "gtceu:lazurite_lens"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "25A008321F884470"
+			optional: true
+			tasks: [{
+				id: "010C86FEEDD7659E"
+				item: "gtceu:sapphire_lens"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "6DC4358EF14670E9"
+			optional: true
+			tasks: [{
+				id: "4EFFAFE1F5BBD339"
+				item: "gtceu:sodalite_lens"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "4197D7902D12900B"
+			optional: true
+			tasks: [{
+				id: "54D8C0FBF405A6DA"
+				item: "gtceu:lapis_lens"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "716AF7893B5CDD4A"
+			optional: true
+			tasks: [{
+				id: "7BCEF7D34E135C5F"
+				item: "gtceu:emerald_lens"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "5096912C55D37E88"
+			optional: true
+			tasks: [{
+				id: "02135B261C7832D5"
+				item: "gtceu:uvarovite_lens"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "743435B2088A1C03"
+			optional: true
+			tasks: [{
+				id: "575EFDA37446EECC"
+				item: "gtceu:almandine_lens"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "429708A287F2EBC6"
+			optional: true
+			tasks: [{
+				id: "0D27B19E4950B553"
+				item: "gtceu:cinnabar_lens"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "04ECD913CE2159E7"
+			optional: true
+			tasks: [{
+				id: "5D6D5C2F916601E5"
+				item: "gtceu:rutile_lens"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "2A14632558B03938"
+			optional: true
+			tasks: [{
+				id: "7EC8B2D574C7D043"
+				item: "gtceu:pyrope_lens"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "64E27E131BEF4F2B"
+			optional: true
+			tasks: [{
+				id: "06DB2BC6EFE10488"
+				item: "gtceu:ruby_lens"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "22C5D3771303623C"
+			optional: true
+			tasks: [{
+				id: "1B7DBC42BC32B5FE"
+				item: "gtceu:realgar_lens"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "74ED54D229CC830E"
+			optional: true
+			tasks: [{
+				id: "794B775E4B860BDB"
+				item: "gtceu:red_garnet_lens"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "060A7F7F60C21995"
+			optional: true
+			tasks: [{
+				id: "25CB48912C67B799"
+				item: "gtceu:rose_quartz_lens"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "294FA35470945EA4"
+			optional: true
+			tasks: [{
+				id: "6EE69CCB43178008"
+				item: "gtceu:coal_lens"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0499DFCF0CD12618"]
+			description: ["This page is completly optional, you do not need to make all of these, it's just here to show you your options for lens colours."]
+			hide_dependent_lines: true
+			id: "44279043DD31B476"
+			tasks: [{
+				id: "2BF580495BEDB0A5"
+				title: "Lens types"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "5600ABD6B2A247E4"
+			tasks: [{
+				id: "2420D9F7B3AA429E"
+				item: "gtceu:magneto_resonatic_lens"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "48655A07E383C0D8"
+			tasks: [{
+				id: "31DD22637C2B4143"
+				item: "gtceu:cubic_zirconium_lens"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "412B65892EDBC340"
+			tasks: [{
+				id: "25538CAF8CFB8A41"
+				item: "gtceu:brown_glass_lens"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "1D0388C25ABF9805"
+			tasks: [{
+				id: "63BA1C422D9E6EBC"
+				item: "gtceu:lignite_lens"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+	]
+	title: "Lenses"
+}

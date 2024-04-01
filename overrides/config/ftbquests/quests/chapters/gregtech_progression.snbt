@@ -1557,6 +1557,152 @@
 			x: -4.75d
 			y: -9.0d
 		}
+		{
+			dependencies: [
+				"25465C97912AF33A"
+				"3F638438107C2C7C"
+			]
+			id: "71039352B9AA0425"
+			tasks: [{
+				id: "497BBE6811F0E6C1"
+				item: "kubejs:mithril_coil_block"
+				type: "item"
+			}]
+			x: 2.75d
+			y: -0.5d
+		}
+		{
+			dependencies: ["72F3F36CD583B9FA"]
+			id: "25465C97912AF33A"
+			tasks: [{
+				id: "6719115287F42880"
+				item: "gtceu:mithril_ingot"
+				type: "item"
+			}]
+			x: 2.75d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2378158EA6D72B11"]
+			id: "10B70C83E79C4F4B"
+			tasks: [{
+				id: "6E72B7AFFBF01685"
+				item: "kubejs:uev_magneto_resonance_circuit"
+				type: "item"
+			}]
+			x: 5.75d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7CE8CD236F06959C"]
+			id: "2378158EA6D72B11"
+			tasks: [{
+				id: "1F625E7DCF29EE83"
+				item: "kubejs:uhv_magneto_resonance_circuit"
+				type: "item"
+			}]
+			x: 5.75d
+			y: -4.0d
+		}
+		{
+			dependencies: ["31544566A0EA166B"]
+			id: "7CE8CD236F06959C"
+			tasks: [{
+				id: "29304F4582015552"
+				item: "kubejs:uv_magneto_resonance_circuit"
+				type: "item"
+			}]
+			x: 5.75d
+			y: -4.5d
+		}
+		{
+			dependencies: ["06ADAFC10100FFFA"]
+			id: "31544566A0EA166B"
+			tasks: [{
+				id: "3B4FB54FF08F10BE"
+				item: "kubejs:zpm_magneto_resonance_circuit"
+				type: "item"
+			}]
+			x: 5.75d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4CFA6AF6D449DCFB"]
+			id: "06ADAFC10100FFFA"
+			tasks: [{
+				id: "751DC9CF2FBA69CE"
+				item: "kubejs:luv_magneto_resonance_circuit"
+				type: "item"
+			}]
+			x: 5.75d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7B73F60126F3D96F"]
+			id: "4CFA6AF6D449DCFB"
+			tasks: [{
+				id: "4F0434782A5055E2"
+				item: "kubejs:iv_magneto_resonance_circuit"
+				type: "item"
+			}]
+			x: 5.75d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2803966EC0FCAE7F"]
+			id: "7B73F60126F3D96F"
+			tasks: [{
+				id: "56C8C43A8D043961"
+				item: "kubejs:ev_magneto_resonance_circuit"
+				type: "item"
+			}]
+			x: 5.75d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6C5948083BF8A581"]
+			id: "2803966EC0FCAE7F"
+			tasks: [{
+				id: "3A3D1435A1B3A8C3"
+				item: "kubejs:hv_magneto_resonance_circuit"
+				type: "item"
+			}]
+			x: 5.75d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1B9F063E9B0CCD35"]
+			id: "6C5948083BF8A581"
+			tasks: [{
+				id: "780DEC8CF3A691EE"
+				item: "kubejs:mv_magneto_resonance_circuit"
+				type: "item"
+			}]
+			x: 5.75d
+			y: -7.5d
+		}
+		{
+			dependencies: ["50033F8E5CC9448B"]
+			id: "1B9F063E9B0CCD35"
+			tasks: [{
+				id: "506FC1CC17B89582"
+				item: "kubejs:lv_magneto_resonance_circuit"
+				type: "item"
+			}]
+			x: 5.75d
+			y: -8.0d
+		}
+		{
+			dependencies: ["72F3F36CD583B9FA"]
+			id: "50033F8E5CC9448B"
+			tasks: [{
+				id: "666E84ADAC9D9CE7"
+				item: "kubejs:ulv_magneto_resonance_circuit"
+				type: "item"
+			}]
+			x: 5.75d
+			y: -8.5d
+		}
 	]
 	title: "GregTech Progression"
 }

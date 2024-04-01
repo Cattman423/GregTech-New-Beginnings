@@ -8,4 +8,13 @@ GTCEuStartupEvents.registry('gtceu:element', event => {
         'SiO+', //Atomic Symbol
         false//Is Isotope
         ) 
+    event.create(
+        'mithril', //Element Name
+        28, //Protons
+        178, //Neutrons
+        -1, //Half Life Seconds
+        null, //Decay To
+        'Mi', //Atomic Symbol
+        false//Is Isotope
+        ) 
  })

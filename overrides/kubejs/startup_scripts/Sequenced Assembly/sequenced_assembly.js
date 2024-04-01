@@ -8,7 +8,7 @@ StartupEvents.registry('item', event => {
 	event.create('incomplete_steel_hull', 'create:sequenced_assembly')
 	event.create('incomplete_blaze_burner', 'create:sequenced_assembly')
 
-	// IRON CHESTS RESTOCKED
+// IRON CHESTS RESTOCKED
 	let createIncompleteChest = (material) => {
 		event.create('incomplete_' + material + '_barrel', 'create:sequenced_assembly')
 		event.create('incomplete_' + material + '_chest_upgrade', 'create:sequenced_assembly')

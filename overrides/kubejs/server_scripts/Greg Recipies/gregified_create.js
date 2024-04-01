@@ -11,6 +11,12 @@ ServerEvents.recipes(event => {
           '3x gtceu:andesite_dust', 'gtceu:small_zinc_dust', // arg 2: the array of inputs
         ]
         )
+    event.shapeless(
+        Item.of('gtceu:andesite_alloy_dust', 2), // arg 1: output
+        [
+          '3x gtceu:andesite_dust', 'gtceu:small_iron_dust', // arg 2: the array of inputs
+        ]
+        )
     event.replaceInput(
         { input: 'create:andesite_alloy' }, // Arg 1: the filter
         'create:andesite_alloy',            // Arg 2: the item to replace

@@ -351,7 +351,7 @@
 				}
 				{
 					count: 8L
-					id: "1F7AB517EEF642A6"
+					id: "716A030DC7D67730"
 					item: { Count: 8b, id: "gtceu:zinc_ingot" }
 					type: "item"
 				}
@@ -603,7 +603,7 @@
 			}]
 			tasks: [{
 				count: 8L
-				id: "5922A795F4AA6716"
+				id: "434927CB3BBD156A"
 				item: { Count: 8b, id: "gtceu:small_zinc_dust" }
 				type: "item"
 			}]

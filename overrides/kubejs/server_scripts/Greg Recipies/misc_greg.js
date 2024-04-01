@@ -317,6 +317,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('kubejs:mining_ship')
         .duration(1200)
         .EUt(120)
+//Paper fixes
     event.shaped(
         Item.of('2x gtceu:paper_dust',),
         [
@@ -353,4 +354,21 @@ ServerEvents.recipes(event => {
             B: '#forge:tools/mortars'
         }
         )
+//Smelting
+    function smelting(input, output){
+        event.smelting(output, input)
+    }
+//Cubic Zirconium
+    event.recipes.gtceu.chemical_reactor('cubic_zirconium')
+        .itemInputs('gtceu:zirconium_dust')
+        .inputFluids('gtceu:oxygen 2000')
+        .chancedOutput('gtceu:cubic_zirconium_dust', 7500, 500)
+        .duration(6000)
+        .EUt(480)
+
+    smelting('gtceu:raw_zircon', 'gtceu:zirconium_ingot')
+    smelting('gtceu:endstone_zircon_ore', '2x gtceu:zirconium_ingot')
+    smelting('gtceu:netherrack_zircon_ore', '2x gtceu:zirconium_ingot')
+    smelting('gtceu:zircon_ore', 'gtceu:zirconium_ingot')
+    smelting('gtceu:deepslate_zircon_ore', 'gtceu:zirconium_ingot')
 })

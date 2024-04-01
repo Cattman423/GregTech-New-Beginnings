@@ -96,7 +96,7 @@ ServerEvents.recipes(event => {
     honeycomb('tungsten', '{EntityTag: {type: "productivebees:tungsten"}}', 'gtceu:raw_tungsten', 4000, 50, 1200, 30)
     honeycomb('uranium', '{EntityTag: {type: "productivebees:radioactive"}}', 'gtceu:raw_uranium', 2000, 50, 1200, 30)
     honeycomb('vanadium_magnetite', '{EntityTag: {type: "productivebees:vanadium_magnetite"}}', 'gtceu:raw_vanadium_magnetite', 8000, 50, 1200, 30)
-    honeycomb('zinc', '{EntityTag: {type: "productivebees:zinc"}}', 'create:raw_zinc', 4000, 50, 1200, 30)
+    honeycomb('zinc', '{EntityTag: {type: "productivebees:zinc"}}', 'gtceu:raw_zinc', 4000, 50, 1200, 30)
 //Mob drops
     honeycomb('blazing', '{EntityTag: {type: "productivebees:blazing"}}', 'minecraft:blaze_powder', 3000, 50, 1200, 30)
     honeycomb('draconic', '{EntityTag: {type: "productivebees:draconic"}}', 'productivebees:draconic_dust', 3000, 50, 1200, 30)
@@ -235,7 +235,7 @@ function honeycombfluidblock(id, input, output, time, eu){
     honeycombblock('tungsten_block', '{EntityTag: {type: "productivebees:tungsten"}}', '4x gtceu:raw_tungsten', 4000, 50, 1200, 30)
     honeycombblock('uranium_block', '{EntityTag: {type: "productivebees:radioactive"}}', '4x gtceu:raw_uranium', 2000, 50, 1200, 30)
     honeycombblock('vanadium_magnetite_block', '{EntityTag: {type: "productivebees:vanadium_magnetite"}}', '4x gtceu:raw_vanadium_magnetite', 8000, 50, 1200, 30)
-    honeycombblock('zinc_block', '{EntityTag: {type: "productivebees:zinc"}}', '4x create:raw_zinc', 4000, 50, 1200, 30)
+    honeycombblock('zinc_block', '{EntityTag: {type: "productivebees:zinc"}}', '4x gtceu:raw_zinc', 4000, 50, 1200, 30)
 //Mob drops Blocks
     honeycombblock('blazing_block', '{EntityTag: {type: "productivebees:blazing"}}', '4x minecraft:blaze_powder', 3000, 50, 1200, 30)
     honeycombblock('draconic_block', '{EntityTag: {type: "productivebees:draconic"}}', '4x productivebees:draconic_dust', 3000, 50, 1200, 30)

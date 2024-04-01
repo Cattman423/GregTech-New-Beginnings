@@ -1,5 +1,53 @@
 # Changelog
 
+## V 0.0.7
+
+* Recipes
+  * Added ore processing to Create mechanisms
+  * Added recipes for Optical SMDs
+  * Moved Uv+ circuits to Circuit Assembly Line
+  * Added recipe for Andesite Alloy using iron dust, allowing the player to craft andesite alloy before the Nether
+  * Added new recipes for Iron Chest's and their upgrades courtesy of kniterayth in the GTNB Discord
+* Quests
+  * Added optional quest page to show lens types
+* Textures
+  * Added textures to endgame circuit components
+* Language
+  * Added English translations for all ore veins
+* Materials
+  * Added Indalloy 140, a replacement for soldering alloy for UV+ circuits
+  * Added Zinc Overworld veins
+  * Added Lignite, ores don't generate yet, but you can get it through crushing `tfmg:lignite`
+* Mod Additions
+  * Added Flat Bedrock
+* Mod ports
+  * Added BartWorks Magneto Resonatic Circuits and their materials
+* Mod Updates
+  * Ad Astra: Giselle Addon v6.6
+  * AE2 Insert Export Card v1.2.1
+  * Apotheosis v7.3.4
+  * Apothic Attributes v1.3.4
+  * Applied Energistics 2 Wireless Terminals v15.2.3
+  * Create Central Kitchen v1.3.11
+  * Create Enchanment Industry v1.2.9
+  * Create: Quality of Life v1.1-ht1
+  * CraftTweaker v14.0.38
+  * FTB Chuncks v2001.2.7
+  * ExtendedAE v1.0.19
+  * Embeddium v0.3.11
+  * Glodium v1.4
+  * GregTechCEu Modern v1.1.4.b
+  * GT-- v1.0.4
+  * JEI v5.9.20
+  * Lootr v0.7.33.83
+  * Productive Bees v12.4.4
+  * PolyLib v2000.0.3-build.133
+  * Productive Bees v12.4.6
+  * Polymorph v0.49.3
+  * Resourceful Lib v2.1.24
+  * Sophisticated Core v0.6.12.589
+  * Supplementaries v2.8.10
+
 ## V 0.0.6
 
 * Progression

@@ -62,6 +62,105 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_LENS,
             GTMaterialFlags.EXCLUDE_PLATE_COMPRESSOR_RECIPE
         )
+
+    event.create('mithril')
+        .ingot()
+        .element('mithril')
+        .color(0x95F9F1)
+        //.secondaryColor(0x13414E)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .flags(
+            GTMaterialFlags.GENERATE_PLATE
+        )
+        .blastTemp(10800, 'highest', 1966080, 1200)
+        .cableProperties(2097152, 3, 32, false)
+
+    event.create('prasiolite')
+        .dust()
+        .components('5x silicon', '10x oxygen', 'iron')
+        .color(0xA8B278)
+        .iconSet(GTMaterialIconSet.FLINT)
+        .flags(
+            GTMaterialFlags.GENERATE_PLATE,
+            GTMaterialFlags.GENERATE_FOIL,
+            GTMaterialFlags.GENERATE_LENS,
+            GTMaterialFlags.GENERATE_ROD,
+            GTMaterialFlags.GENERATE_LONG_ROD
+        )
+        .ore()
+
+    event.create('bismuth_tellurite')
+        .dust()
+        .components('2x bismuth', '3x tellurium')
+        .color(0x1A3A1A)
+        .iconSet(GTMaterialIconSet.FLINT)
+        .flags()
+
+    event.create('cubic_zirconium')
+        .gem()
+        .components('zirconium', '2x oxygen')
+        .color(0xC8FFFF)
+        .iconSet(GTMaterialIconSet.DIAMOND)
+        .flags(
+            GTMaterialFlags.GENERATE_LENS
+        )
+
+    event.create('magneto_resonatic')
+        .gem()
+        .components('3x prasiolite', '4x bismuth_tellurite', 'cubic_zirconium', 'magnetic_steel')
+        .color(0xD472D4)
+        .iconSet(GTMaterialIconSet.DULL)
+        .flags(
+            GTMaterialFlags.GENERATE_LENS,
+            GTMaterialFlags.IS_MAGNETIC,
+            GTMaterialFlags.EXCLUDE_PLATE_COMPRESSOR_RECIPE
+        )
+
+    event.create('dibismuthhydroborat')
+        .dust()
+        .components('2x bismuth', 'boron', 'hydrogen')
+        .color(0x3C773C)
+        .iconSet(GTMaterialIconSet.FLINT)
+        .flags()
+
+    event.create('circuit_compound_mk_three')
+        .dust()
+        .components('indium_gallium_phosphide', '3x dibismuthhydroborat', '2x bismuth_tellurite')
+        .color(0x1E1E1E)
+        .iconSet(GTMaterialIconSet.FLINT)
+        .flags()
+
+    event.create('indalloy_140')
+        .ingot()
+        .fluid()
+        .components('47x bismuth', '25x lead', '13x tin', '10x cadmium', '5x indium')
+        .color(0x725777)
+        .iconSet(GTMaterialIconSet.DULL)
+        .blastTemp(3000, 'mid', 7680, 800)
+        .flags(
+            GTMaterialFlags.SOLDER_MATERIAL_GOOD
+        )
+
+    event.create('zircon')
+        .dust()
+        .components('zirconium', 'silicon', '4x oxygen')
+        .color(0xfff0e2)
+        .iconSet(GTMaterialIconSet.DULL)
+        .flags()
+        .ore()
+        .oreSmeltInto('zirconium_ingot')
+
+    event.create('lignite')
+        .gem()
+        .burnTime(1200)
+        .components('carbon')
+        .color(0x513939)
+        .iconSet(GTMaterialIconSet.LIGNITE)
+        .flags(
+            GTMaterialFlags.GENERATE_LENS
+        )
+        .ore(2, 1)
+
     GTMaterials.get('andesite_alloy').addFlags(
         GTMaterialFlags.GENERATE_PLATE, 
         GTMaterialFlags.GENERATE_GEAR, 
@@ -175,7 +274,24 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     GTMaterials.Monazite.addFlags(
         GTMaterialFlags.GENERATE_LENS
     )
-const $IngotProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.IngotProperty')
+const $OreProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.OreProperty');
+const $IngotProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.IngotProperty');
+const $DustProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.DustProperty')
 
     GTMaterials.Obsidian.setProperty(PropertyKey.INGOT, new $IngotProperty())
+    GTMaterials.Zirconium.setProperty(PropertyKey.INGOT, new $IngotProperty())
+    GTMaterials.Tellurium.setProperty(PropertyKey.DUST, new $DustProperty())
+    GTMaterials.Zinc.setProperty(PropertyKey.ORE, new $OreProperty())
+})
+StartupEvents.registry('block', event => {
+    event.create('mithril_coil_block', 'gtceu:coil')
+        .temperature(12600)
+        .level(16)
+        .energyDiscount(16) // 
+        .tier(8)
+        .coilMaterial(GTMaterials.get('mithril'))
+        .texture('gtceu:block/coils/machine_coil_mithril')
+        .hardness(5)
+        .requiresTool(true)
+        .material('metal')
 })
