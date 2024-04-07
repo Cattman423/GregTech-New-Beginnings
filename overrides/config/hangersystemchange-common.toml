@@ -1,0 +1,12 @@
+#Range: > 0
+quantityLength = 20
+#Range: > 0
+categoryLength = 10
+#Range: 0.0 ~ 1.0
+decreaseByQuantity = 0.75
+#Range: 0.0 ~ 1.0
+decreaseByCategory = 0.8
+whitelist = []
+blacklist = ["minecraft:cookie", "minecraft:glow_berries", "minecraft:honey_bottle", "minecraft:pufferfish", "minecraft:salmon", "minecraft:rotten_flesh", "minecraft:spider_eye", "minecraft:sweet_berries", "minecraft:dried_kelp", "minecraft:tropical_fish", "minecraft:apple", "minecraft:chorus_fruit", "minecraft:melon_slice", "minecraft:beetroot", "minecraft:carrot", "minecraft:poisonous_potato", "minecraft:potato", "minecraft:beef", "minecraft:chicken", "minecraft:mutton", "minecraft:porkchop", "minecraft:rabbit", "minecraft:cod"]
+ignoredFoods = []
+

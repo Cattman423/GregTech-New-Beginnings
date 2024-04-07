@@ -400,6 +400,7 @@
 		{
 			dependencies: ["5AA5DB2447E377F8"]
 			id: "7567D4267276DF13"
+			optional: true
 			rewards: [{
 				id: "58DBED6CB1086A29"
 				type: "xp"
@@ -511,6 +512,7 @@
 					type: "item"
 				}
 			]
+			title: "Extra Greg Tools"
 			x: 2.0d
 			y: 5.0d
 		}
@@ -646,6 +648,7 @@
 		{
 			dependencies: ["7CB8F4196C533EE2"]
 			id: "37686CA6FACFAE23"
+			optional: true
 			shape: "hexagon"
 			tasks: [{
 				icon: "tetra:basic_workbench"
@@ -663,6 +666,7 @@
 			dependencies: ["5AA5DB2447E377F8"]
 			description: ["Your first microcrafting, you will be making lots of these tools, so save the recipies"]
 			id: "28F55F1A3D9A558F"
+			optional: true
 			rewards: [{
 				id: "7F36634A34D3ECEA"
 				type: "xp"
@@ -764,6 +768,23 @@
 					}
 					type: "item"
 				}
+				{
+					id: "23A973F13A1CC33D"
+					item: {
+						Count: 1b
+						id: "gtceu:wood_mallet"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								MaxDamage: 127
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+				}
 			]
 			title: "Basic Gregtech Tools"
 			x: 4.0d
@@ -772,6 +793,7 @@
 		{
 			dependencies: ["7CB8F4196C533EE2"]
 			id: "5C3FF4F669A855F1"
+			optional: true
 			rewards: [{
 				id: "4C839CA5D69E1E88"
 				type: "xp"
@@ -796,6 +818,7 @@
 			dependencies: ["28F55F1A3D9A558F"]
 			description: ["With your new GregTech tools, you can craft up some storage drawers and save on storage space for things like cobblestone and stone dust."]
 			id: "3978CEE3DFDF9009"
+			optional: true
 			rewards: [{
 				id: "67D19615BE4FCBBA"
 				type: "xp"

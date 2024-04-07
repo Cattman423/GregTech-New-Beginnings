@@ -854,6 +854,30 @@
 			x: 0.0d
 			y: -1.5d
 		}
+		{
+			dependencies: ["3C67E0A05BA200FF"]
+			description: [
+				"You can't craft an Ore Scanner yet, but that doesn't mean it's useless now."
+				""
+				"If you hit the uses button on it (default 'u'), you will see a list of every GT Ore vein that generates and what dimension they generate it, as well as the y-level. &eYou don't even need the item, you can do it from your JEI serch/bookmark menu!&r"
+				""
+				"While exploring you can also find small piles of dust on the ground, dig below these to find that ore vein."
+				"{@pagebreak}"
+				""
+				"Another thing to note is that ore veins only generate once per layer, every three chunks, centered on the chunk. This means there is a grid of ore veins."
+				""
+				"You can have up to two ore veins per ore chunk, one in the stone layer, and another in the deepslate layer."
+			]
+			icon: "gtceu:prospector.lv"
+			id: "0687DD058F9A7D00"
+			tasks: [{
+				id: "34B37F8785E9E5E2"
+				title: "Ores and where to find them"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
 	]
 	title: "Tips and Tricks"
 }

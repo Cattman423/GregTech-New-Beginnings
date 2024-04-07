@@ -365,10 +365,20 @@ ServerEvents.recipes(event => {
         .chancedOutput('gtceu:cubic_zirconium_dust', 7500, 500)
         .duration(6000)
         .EUt(480)
-
+//Blank Discs
+    function formpress(id, input, output, cast, time, eu){
+        event.recipes.gtceu.fluid_solidifier(id)
+            .notConsumable(cast)
+            .inputFluids(input)
+            .itemOutputs(output)
+            .duration(time)
+            .EUt(eu)
+    }
     smelting('gtceu:raw_zircon', 'gtceu:zirconium_ingot')
     smelting('gtceu:endstone_zircon_ore', '2x gtceu:zirconium_ingot')
     smelting('gtceu:netherrack_zircon_ore', '2x gtceu:zirconium_ingot')
     smelting('gtceu:zircon_ore', 'gtceu:zirconium_ingot')
     smelting('gtceu:deepslate_zircon_ore', 'gtceu:zirconium_ingot')
+    formpress('disc_bakelite', 'gtceu:bakelite 144', 'etched:blank_music_disc', 'gtceu:cylinder_casting_mold', 200, 16)
+    formpress('disc_pvc', 'gtceu:polyvinyl_chloride 108', 'etched:blank_music_disc', 'gtceu:cylinder_casting_mold', 200, 48)
 })

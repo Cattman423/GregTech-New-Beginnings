@@ -148,6 +148,7 @@
 			dependencies: ["6A91810EF77054CF"]
 			icon: "create:hand_crank"
 			id: "10662D01B89030A9"
+			optional: true
 			require_sequential_tasks: false
 			rewards: [
 				{
@@ -301,6 +302,7 @@
 			hide_dependent_lines: true
 			icon: "create:encased_fan"
 			id: "25563EB0D3B172D1"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -314,18 +316,11 @@
 					xp: 100
 				}
 			]
-			tasks: [
-				{
-					id: "66F7D92C462934BF"
-					item: "create:encased_fan"
-					type: "item"
-				}
-				{
-					id: "29A48D4659F88745"
-					item: "create_connected:empty_fan_catalyst"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "66F7D92C462934BF"
+				item: "create:encased_fan"
+				type: "item"
+			}]
 			x: 2.0d
 			y: 0.5d
 		}
@@ -334,6 +329,7 @@
 				"25563EB0D3B172D1"
 				"5D543CB93A9280B1"
 			]
+			dependency_requirement: "one_completed"
 			id: "78F515CD1306B155"
 			rewards: [
 				{
@@ -361,6 +357,7 @@
 				"25563EB0D3B172D1"
 				"606DA6A53D1E2C79"
 			]
+			dependency_requirement: "one_completed"
 			id: "5468ECF42040C129"
 			rewards: [
 				{
@@ -1110,6 +1107,7 @@
 				"4E68C8330998DB20"
 			]
 			id: "395FE02FF61A1EAF"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1168,6 +1166,7 @@
 			dependencies: ["25563EB0D3B172D1"]
 			description: ["You can get iron nuggets from washing gravel."]
 			id: "10C065ECA848A594"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1229,6 +1228,7 @@
 			]
 			icon: "create:goggles"
 			id: "076AB0E738B70451"
+			optional: true
 			rewards: [{
 				id: "50F6452B1ED306A6"
 				item: "create:goggles"
@@ -1358,6 +1358,31 @@
 			}]
 			x: 5.0d
 			y: 7.0d
+		}
+		{
+			dependencies: ["6D3322D2FFCBEB8C"]
+			id: "690F1E476C947D8F"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "088E2F8C53AEBD65"
+					table_id: 1979144794260430301L
+					type: "random"
+				}
+				{
+					id: "431446DF32DD84DC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "185EF6B6704F0204"
+				item: "create_connected:empty_fan_catalyst"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
 		}
 	]
 	title: "Create Age"

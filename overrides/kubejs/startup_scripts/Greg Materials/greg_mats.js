@@ -4,7 +4,6 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .polymer()
         .components('6x carbon', '7x hydrogen', '2x nitrogen_dioxide', '5x oxygen')
         .color(0xffffff)
-        .iconSet(GTMaterialIconSet.FLINT)
 
     event.create('barium_nitride')
         .dust()
@@ -160,6 +159,18 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_LENS
         )
         .ore(2, 1)
+
+    event.create('formaldehyde')
+        .gas()
+        .components('carbon', '2x hydrogen', 'oxygen')
+        .color(0xffffff)
+        .iconSet(GTMaterialIconSet.FLINT)
+
+    event.create('bakelite')
+        .polymer()
+        .components('phenol', 'formaldehyde')
+        .color(0x79392F)
+        .secondaryColor(0xA16E7F)
 
     GTMaterials.get('andesite_alloy').addFlags(
         GTMaterialFlags.GENERATE_PLATE, 

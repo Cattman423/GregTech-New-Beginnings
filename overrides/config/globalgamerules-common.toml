@@ -58,10 +58,10 @@
 		#Whether the player should keep items and experience in their inventory after death .
 		keep_inventory = false
 		#Whether the player can regenerate health naturally if their hunger is full enough (doesn't affect external healing, such as golden apples, the Regeneration effect, etc.)
-		natural_regeneration = true
+		natural_regeneration = false
 		#What percentage of players must sleep to skip the night.
 		#Range: > 0
-		players_sleeping_percentage = 100
+		players_sleeping_percentage = 25
 		#The number of blocks outward from the world spawn coordinates that a player spawns in when first joining a server or when dying without a personal spawnpoint. Has no effect on servers where the default game mode is Adventure.
 		#Range: > 0
 		spawn_radius = 10

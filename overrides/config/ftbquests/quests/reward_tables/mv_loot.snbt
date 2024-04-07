@@ -3,6 +3,25 @@
 	id: "708ADDB681DB0096"
 	loot_size: 1
 	order_index: 3
-	rewards: [ ]
+	rewards: [
+		{ item: "gtceu:mv_machine_hull", weight: 0.1f }
+		{ item: "gtceu:mv_battery_hull", weight: 0.01f }
+		{ item: "gtceu:good_electronic_circuit", weight: 0.75f }
+		{ count: 4, item: "gtceu:annealed_copper_single_cable" }
+		{ item: "gtceu:mv_electric_motor" }
+		{ item: "gtceu:mv_conveyor_module" }
+		{ item: "gtceu:aluminium_ingot" }
+		{ item: "gtceu:mv_power_unit", weight: 0.1f }
+		{ item: "fruitsdelight:cranberry_muffin" }
+		{ item: "gtceu:damascus_steel_ingot", weight: 0.5f }
+		{ count: 3, item: "thinair:soulfire_bottle" }
+		{ count: 64, item: "xtonesreworked:xtone_tile", weight: 1.5f }
+		{ count: 64, item: "minecraft:oak_log" }
+		{
+			type: "xp_levels"
+			xp_levels: 1
+		}
+		{ count: 4, item: "storagedrawers:oak_full_drawers_1" }
+	]
 	title: "Mv Loot"
 }

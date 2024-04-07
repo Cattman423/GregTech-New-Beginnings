@@ -1,5 +1,43 @@
 # Changelog
 
+## V 0.0.8
+
+* Recipes
+  * Gregified Blank Disc creation
+  * Changed Compressed Coke Clay recipe to accept any type of `#minecraft:sand`
+* Quests
+  * Fixed some quests in the Create and Lv Chapters
+  * Added Rewards to Mv Quests
+  * Added Periodic Table Quests
+  * Removed Ore Gen quest due to being inaccurate
+  * Added a quest to clue you into where/how to find ores
+* World Gen
+  * Raised the generation levels for Zinc from -60-20 to 20-60
+  * Increased rarity of generated structures like villages and dungeons
+* Gamerules
+  * Set player sleep percentage to 25%
+* Mod Additions
+  * Added Faster Ladder Climbing
+  * Added Light Overlays
+  * Added Sparse Structures Reforged
+  * Added Etched
+  * Added Scaffolding Drops Nearby
+    * Added Collective
+  * Added Hunger System Overhaul
+* Mod Updates
+  * Artifacts v9.4.0
+  * Ammendments v1.1.14
+  * Applied Energistics 2 v15.1.0
+  * Create Central Kitchen v1.3.12
+  * Create Enchanment Industry v1.2.9.c
+  * Cucumber v7.0.8
+  * Embeddium v0.3.12
+  * Extended AE v1.1.1
+  * Extended Crafting v6.0.7
+  * Glodium v1.5
+  * ProbeJS v6.0.1
+  * Tetra v6.3.0
+
 ## V 0.0.7
 
 * Recipes

@@ -273,7 +273,7 @@ ServerEvents.recipes(event => {
             '16x gtceu:magneto_resonatic_gem',
             '16x kubejs:ev_magneto_resonance_circuit',
             '24x kubejs:advanced_smd_diode_wrap',
-            '24x kubejs:optical_smd_capacitor_wrap',
+            '24x kubejs:advanced_smd_capacitor_wrap',
             '24x kubejs:advanced_smd_transistor_wrap'
             )
         .inputFluids('gtceu:soldering_alloy 864')
@@ -287,7 +287,7 @@ ServerEvents.recipes(event => {
             '16x gtceu:magneto_resonatic_gem',
             '16x kubejs:iv_magneto_resonance_circuit',
             '28x kubejs:advanced_smd_diode_wrap',
-            '28x kubejs:optical_smd_capacitor_wrap',
+            '28x kubejs:advanced_smd_capacitor_wrap',
             '28x kubejs:advanced_smd_transistor_wrap'
             )
         .inputFluids('gtceu:soldering_alloy 1008')
@@ -301,7 +301,7 @@ ServerEvents.recipes(event => {
             '16x gtceu:exquisite_magneto_resonatic_gem',
             '16x kubejs:luv_magneto_resonance_circuit',
             '52x kubejs:advanced_smd_diode_wrap',
-            '52x kubejs:optical_smd_capacitor_wrap',
+            '52x kubejs:advanced_smd_capacitor_wrap',
             '52x kubejs:advanced_smd_transistor_wrap'
             )
         .inputFluids('gtceu:soldering_alloy 1152')
@@ -315,7 +315,7 @@ ServerEvents.recipes(event => {
             '16x gtceu:exquisite_magneto_resonatic_gem',
             '16x kubejs:zpm_magneto_resonance_circuit',
             '56x kubejs:advanced_smd_diode_wrap',
-            '56x kubejs:optical_smd_capacitor_wrap',
+            '56x kubejs:advanced_smd_capacitor_wrap',
             '56x kubejs:advanced_smd_transistor_wrap'
             )
         .inputFluids('gtceu:molten_indalloy_140 1296')

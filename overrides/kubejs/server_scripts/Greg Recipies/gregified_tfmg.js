@@ -39,20 +39,6 @@ ServerEvents.recipes(event => {
         ]
     )
 //Intermediates
-    /*event.recipes.create.mechanical_crafting('kubejs:advanced_clockwork_mechanism', [
-        'AEBEA',
-        'ACFCA',
-        'BDDDB'
-    ], 
-    {
-        A: 'gtceu:wrought_iron_gear',
-        B: 'gtceu:wrought_iron_plate',
-        C: 'create:precision_mechanism',
-        D: 'create:shaft',
-        E: 'create:cogwheel',
-        F: 'gtceu:poor_steel_plate'
-    })*/
-
     let kjsacm = 'kubejs:incomplete_advanced_clockwork_mechanism'
     event.recipes.create.sequenced_assembly([
         Item.of('kubejs:advanced_clockwork_mechanism').withChance(95.0),

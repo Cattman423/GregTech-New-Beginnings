@@ -11,7 +11,7 @@ GTCEuServerEvents.oreVeins(event => {
         vein.dimensions("minecraft:overworld")
         vein.biomes("#minecraft:is_overworld")
     // Define a height range:
-        vein.heightRangeTriangle(-60, 20)
+        vein.heightRangeTriangle(20, 60)
     // Define the vein's generator:
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern

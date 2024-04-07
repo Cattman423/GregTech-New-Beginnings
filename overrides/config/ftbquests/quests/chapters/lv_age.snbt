@@ -384,7 +384,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["684E9CD189ACC2D0"]
+			dependencies: [
+				"684E9CD189ACC2D0"
+				"7ECACB03A401C050"
+			]
 			id: "2769AA51C73E747C"
 			rewards: [
 				{
@@ -938,6 +941,7 @@
 				"684E9CD189ACC2D0"
 			]
 			id: "791A8CEEFB6E1B15"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -966,6 +970,7 @@
 				"7ECACB03A401C050"
 			]
 			id: "35A3B98E3B808E3D"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -991,6 +996,7 @@
 		{
 			dependencies: ["791A8CEEFB6E1B15"]
 			id: "4CCB585322AD16C3"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1020,6 +1026,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "30975CCDF56C33D4"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1045,6 +1052,7 @@
 		{
 			dependencies: ["30975CCDF56C33D4"]
 			id: "5A287C94DC7A9B33"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1071,6 +1079,7 @@
 			dependencies: ["791A8CEEFB6E1B15"]
 			icon: "gtceu:hv_macerator"
 			id: "6E7A5647ADE2FFE9"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1096,6 +1105,7 @@
 		{
 			dependencies: ["5A287C94DC7A9B33"]
 			id: "2752A5E6F395C4B2"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1121,6 +1131,7 @@
 		{
 			dependencies: ["5A287C94DC7A9B33"]
 			id: "01C0A7E96AF65988"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1146,6 +1157,7 @@
 		{
 			dependencies: ["5A287C94DC7A9B33"]
 			id: "3BCC7AE04FBB12EE"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1254,6 +1266,12 @@
 		{
 			dependencies: ["44A087F9D2E4BFC8"]
 			id: "022992D132A0423F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7638AB3244D67320"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -1720,6 +1738,7 @@
 		{
 			dependencies: ["1D4C793468A72AE7"]
 			id: "743BC8C9FCC8D928"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1773,6 +1792,7 @@
 		{
 			dependencies: ["1D4C793468A72AE7"]
 			id: "291ACCE334CDD204"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -2062,6 +2082,7 @@
 		{
 			dependencies: ["0F473004BDE8A486"]
 			id: "2B8966EB05C92F98"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -2122,6 +2143,7 @@
 				"Let's be real, I know that you weren't using the wrought iron and coke recipe in the PBF, you were probably just throwing iron and charcoal in..."
 			]
 			id: "36E0A24E518B0CAD"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -2149,6 +2171,7 @@
 			dependencies: ["44A087F9D2E4BFC8"]
 			description: ["&4Please remove all items before upgrading, otherwise you will void your items. A fix will be made as soon as I can make it.&r"]
 			id: "200E5BF134028D25"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true

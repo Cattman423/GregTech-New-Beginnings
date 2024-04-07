@@ -1,0 +1,1616 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_periodic_table"
+	group: "4E8777506C4F26CC"
+	icon: "createdeco:decal_warning"
+	id: "138CF10CF49924C7"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "79B8D81A07003512"
+			tasks: [{
+				id: "22AD306B28B09491"
+				item: {
+					Count: 1b
+					id: "gtceu:fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "ad_astra:hydrogen"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "622987728F7A50CE"
+			tasks: [{
+				id: "28DCEB82246DEBDE"
+				item: "gtceu:lithium_dust"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "012E367134F473F5"
+			tasks: [{
+				id: "47A8F28BC5D3B657"
+				item: "gtceu:beryllium_dust"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "7BDDE9EB6E90B408"
+			tasks: [{
+				id: "51D5C2D85CF1D9F0"
+				item: "gtceu:sodium_dust"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "2D471868CF681C51"
+			tasks: [{
+				id: "2B82EF4924C049BB"
+				item: "gtceu:magnesium_dust"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "2E10AAF31D7796ED"
+			tasks: [{
+				id: "42F2CAFBB4E7AC76"
+				item: "gtceu:potassium_dust"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "2D743F712A268216"
+			tasks: [{
+				id: "1794F962F3A1D5DF"
+				item: "gtceu:calcium_dust"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "3361A268DEDBFE85"
+			optional: true
+			tasks: [{
+				id: "51C56195193F090B"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Scandium [NYI]"
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "51606580E97EA950"
+			tasks: [{
+				id: "1DB1750999F088B1"
+				item: "gtceu:titanium_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "2256CEEE0D81A3F9"
+			tasks: [{
+				id: "657FFE933CBB3748"
+				item: "gtceu:vanadium_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "3D8968A1BF456497"
+			tasks: [{
+				id: "425E2D08C16639FD"
+				item: "gtceu:chromium_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "367788CF09A4B686"
+			tasks: [{
+				id: "4CE7C95632E8F27A"
+				item: "gtceu:manganese_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "487118EA0584748B"
+			tasks: [{
+				id: "15BAEE6E76669841"
+				item: "gtceu:iron_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "3EFE38BF63CA4025"
+			tasks: [{
+				id: "5637887BA5CF03A9"
+				item: "gtceu:cobalt_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "5AC50DAF6E3041CE"
+			tasks: [{
+				id: "20CB4367B1A9D3CC"
+				item: "gtceu:nickel_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "207CCF754A1D7261"
+			tasks: [{
+				id: "7A6B1EF233889B5C"
+				item: "gtceu:copper_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "22A6AD2D72D0655C"
+			tasks: [{
+				id: "1A66CC92A92DA9EC"
+				item: "gtceu:zinc_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "0B07173B616B7E4F"
+			tasks: [{
+				id: "71788EF98B03AB3C"
+				item: "gtceu:gallium_dust"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "7571C2AF32505385"
+			tasks: [{
+				id: "358EFB22F8EEB5A5"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "4F4C6CE178C26909"
+			tasks: [{
+				id: "3DC28308492970A3"
+				item: "gtceu:boron_dust"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "16A42C65F9F4C155"
+			tasks: [{
+				id: "19CEF9AB604A1BB4"
+				item: "gtceu:carbon_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "35AD78F0C6578EFF"
+			tasks: [{
+				id: "0E4DA9391A97728E"
+				item: {
+					Count: 1b
+					id: "gtceu:fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "gtceu:nitrogen"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "3C1A6C4475CF8FDF"
+			tasks: [{
+				id: "5320FAFAD2708409"
+				item: {
+					Count: 1b
+					id: "gtceu:fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "gtceu:oxygen"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "0728CEBCA652B609"
+			tasks: [{
+				id: "3AEEC912B4D68CE8"
+				item: {
+					Count: 1b
+					id: "gtceu:fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "gtceu:fluorine"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "5078F17550B39369"
+			tasks: [{
+				id: "66697178C2B209B8"
+				item: {
+					Count: 1b
+					id: "gtceu:fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "gtceu:neon"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "59E32292E0430AC9"
+			tasks: [{
+				id: "29A394D685AA12C5"
+				item: {
+					Count: 1b
+					id: "gtceu:fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "gtceu:helium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "6B3C9D350E5F6A5A"
+			tasks: [{
+				id: "44518915CE29102E"
+				item: "gtceu:silicon_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "4A95E9025871A7E5"
+			tasks: [{
+				id: "320DBA6567D00816"
+				item: "gtceu:phosphorus_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "14333306C87C76B4"
+			tasks: [{
+				id: "3F46C37AC95FEDC5"
+				item: "gtceu:sulfur_dust"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "693BC76D32ED0436"
+			tasks: [{
+				id: "3930B0B02CAFD7C0"
+				item: {
+					Count: 1b
+					id: "gtceu:fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "gtceu:chlorine"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "1EA6849A8BEAD344"
+			tasks: [{
+				id: "1C01534EC68C331B"
+				item: {
+					Count: 1b
+					id: "gtceu:fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "gtceu:argon"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "352075AF0A0ED390"
+			optional: true
+			tasks: [{
+				id: "7905F67D8574F097"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Germanium [NYI]"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "65E8F5504EFE2371"
+			tasks: [{
+				id: "73156EC45F519C34"
+				item: "gtceu:arsenic_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "120D225E9CD8D2A1"
+			optional: true
+			tasks: [{
+				id: "1C01F9460553AA31"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Selenium [NYI]"
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "5A134D2B0B02A6B0"
+			tasks: [{
+				id: "0E3CA441AD0773B8"
+				item: {
+					Count: 1b
+					id: "gtceu:fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "gtceu:bromine"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "6B81C0E54862390B"
+			tasks: [{
+				id: "76F632BF85793FEE"
+				item: {
+					Count: 1b
+					id: "gtceu:fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "gtceu:krypton"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "63DCF699E539E509"
+			optional: true
+			tasks: [{
+				id: "32C5AB67D7A6EB35"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Rubidium [NYI]"
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "71F9B819C49684CE"
+			optional: true
+			tasks: [{
+				id: "1582C27EFB4A9905"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Strontium [NYI]"
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "3FEBBCA8B6F20AAE"
+			tasks: [{
+				id: "6C4E0CED15F38044"
+				item: "gtceu:yttrium_dust"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "0BBFA2B48E10840A"
+			tasks: [{
+				id: "0364D8039CE71F6D"
+				item: "gtceu:zirconium_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "7B944911AF79DA08"
+			tasks: [{
+				id: "5EA5B5A2937EE4BE"
+				item: "gtceu:niobium_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "59FAFC7662AF4DE3"
+			tasks: [{
+				id: "1FB3C6D42BE1A0AB"
+				item: "gtceu:molybdenum_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "323726B498B61B24"
+			optional: true
+			tasks: [{
+				id: "79A121C04B65FDA9"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Technetium [NYI]"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "0FF3FEBEE6AEE6DC"
+			tasks: [{
+				id: "46338E478F9F5CE2"
+				item: "gtceu:ruthenium_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "6EA8B7CEB66399F7"
+			tasks: [{
+				id: "104B23859E510A77"
+				item: "gtceu:rhodium_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "375DC369A65F587C"
+			tasks: [{
+				id: "0E484F5B163E624F"
+				item: "gtceu:palladium_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "4C1A3F9D39DE4FCC"
+			tasks: [{
+				id: "76FE8C54FC6F8FF8"
+				item: "gtceu:silver_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "45C501021CB4487D"
+			tasks: [{
+				id: "1B79679DD36AD651"
+				item: "gtceu:cadmium_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "0FDB32B683531DC6"
+			tasks: [{
+				id: "2704DD3F8725215C"
+				item: "gtceu:indium_dust"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "22F344A96CC172A9"
+			tasks: [{
+				id: "3CC182C26ECF0B2C"
+				item: "gtceu:tin_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "10B4A0E6F0B89635"
+			tasks: [{
+				id: "12389B94F311B716"
+				item: "gtceu:antimony_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "0B159C78A3C7F328"
+			tasks: [{
+				id: "11682B17BA26ED83"
+				item: "gtceu:tellurium_dust"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "4535625DF9ABBC2F"
+			tasks: [{
+				id: "342AAD151BC46579"
+				item: "gtceu:iodine_dust"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "7C31847E5E8010F4"
+			tasks: [{
+				id: "60E842C376A49C9E"
+				item: {
+					Count: 1b
+					id: "gtceu:fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "gtceu:xenon"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "00379201710BB2B0"
+			tasks: [{
+				id: "443D82EA8329B9F3"
+				item: "gtceu:caesium_dust"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "5F860D9C457A032B"
+			tasks: [{
+				id: "4E23CA71B69DD8B0"
+				item: "gtceu:barium_dust"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "6E586C9FFD72C762"
+			tasks: [{
+				id: "570900FA55EBDE3A"
+				item: "gtceu:lanthanum_dust"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "4C98837602566588"
+			optional: true
+			tasks: [{
+				id: "75AEC5A78A38BC74"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Hafnium [NYI]"
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "29CD1A7D1E64072D"
+			tasks: [{
+				id: "7E1EF11A8A9284F5"
+				item: "gtceu:tantalum_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "4B5026CAFB67C660"
+			tasks: [{
+				id: "2EBAA693D78A4AD0"
+				item: "gtceu:tungsten_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "052082029D5DE7B3"
+			optional: true
+			tasks: [{
+				id: "06D3D387767E0DB3"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Rhenium [NYI]"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "1EAC770CAF8E84A2"
+			tasks: [{
+				id: "242B9E94F54846DC"
+				item: "gtceu:osmium_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "42AA2BD3DA7E6F2E"
+			tasks: [{
+				id: "00E3E07A53336D88"
+				item: "gtceu:iridium_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "53345A629F164118"
+			tasks: [{
+				id: "07620FE6ACBFCE03"
+				item: "gtceu:platinum_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "01FDE5381ABF9D1E"
+			tasks: [{
+				id: "7DF3B26DC2A17E91"
+				item: "gtceu:gold_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "6D31B229F3CDAC91"
+			tasks: [{
+				id: "245B2EE85D1BB774"
+				item: {
+					Count: 1b
+					id: "gtceu:fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "gtceu:mercury"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "28C23B0DC8E90996"
+			optional: true
+			tasks: [{
+				id: "785CC460F7D12556"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Thallium [NYI]"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "1BD43A8BCD79B348"
+			tasks: [{
+				id: "06D57ABBC5B8A554"
+				item: "gtceu:lead_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "2233DCAFAEF2D6C0"
+			tasks: [{
+				id: "34C4844C9294C047"
+				item: "gtceu:bismuth_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "39870F079DDA7BE6"
+			optional: true
+			tasks: [{
+				id: "6FF19BAC5C3A4C20"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Polonium [NYI]"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "6F0DD312F54DD3FE"
+			optional: true
+			tasks: [{
+				id: "0A64DCEF1A5AF8E1"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Astatine"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "667CE6CBDA7DE162"
+			tasks: [{
+				id: "07C582D3FD7F33BE"
+				item: {
+					Count: 1b
+					id: "gtceu:fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "gtceu:radon"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "73F8FB88324C4562"
+			optional: true
+			tasks: [{
+				id: "124D41BFC8F38865"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Francium [NYI]"
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "6517893D9B49A2DE"
+			optional: true
+			tasks: [{
+				id: "4913AC5AD3016DB5"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Radium [NYI]"
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "575B697F32D5BD18"
+			optional: true
+			tasks: [{
+				id: "6E8570C0B0EBF84E"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Actinium [NYI]"
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "09287105F6F2BA07"
+			optional: true
+			tasks: [{
+				id: "1A3DD73E8C51CDC9"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Rutherfordium [NYI]"
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "4CDE835F6D15FF70"
+			optional: true
+			tasks: [{
+				id: "4CB7C6AED9EFCF1F"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Dubnium [NYI]"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "353F2BC707F5BE43"
+			optional: true
+			tasks: [{
+				id: "6CFDE14C5B3EDEF6"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Seaborgium [NYI]"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "200E19B3B9DEC657"
+			optional: true
+			tasks: [{
+				id: "68739D678B630F0E"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Bohrium [NYI]"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "5E4CD04E13C04020"
+			optional: true
+			tasks: [{
+				id: "0FA8622CC230E1DD"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Hassium [NYI]"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "2604CD6948394569"
+			optional: true
+			tasks: [{
+				id: "020F44BBFDD1FC17"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Meitnerium [NYI]"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "6D9294CF5E6633EF"
+			optional: true
+			tasks: [{
+				id: "357A7B42444ABDB5"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Roentgenium [NYI]"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "47DD11298784BBC6"
+			optional: true
+			tasks: [{
+				id: "7BC4332C6BE00A66"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Copernicium [NYI]"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "73310CCF170200BD"
+			optional: true
+			tasks: [{
+				id: "26F323E751515D7B"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Nihonium [NYI]"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "47D53AFD2A8689FA"
+			optional: true
+			tasks: [{
+				id: "1EFBE0EE74780D33"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Flerovium [NYI]"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "450FEE500AA1432E"
+			optional: true
+			tasks: [{
+				id: "4D8AA1C8744AE651"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Moscovium [NYI]"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "0B7AAF9E2BFB5A95"
+			optional: true
+			tasks: [{
+				id: "4BF822255F16BEBE"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Livermorium [NYI]"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "60E3CE91904DB4DD"
+			optional: true
+			tasks: [{
+				id: "5D17F141B03C29C7"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Tennessine [NYI]"
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "2F8AC30A840D454C"
+			tasks: [{
+				id: "1D19D2F2079DA25B"
+				item: "gtceu:darmstadtium_dust"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "27106C7F4D39C595"
+			tasks: [{
+				id: "09BCCEBC83950302"
+				item: "gtceu:cerium_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "52731431C8271EDD"
+			tasks: [{
+				id: "55966FC2C7FBE1FD"
+				item: "gtceu:praseodymium_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "3E9341CC35B17DB6"
+			tasks: [{
+				id: "40D2BA3859C84332"
+				item: "gtceu:neodymium_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "007ED701AC4DA5F9"
+			optional: true
+			tasks: [{
+				id: "222E30372EBBC758"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Promethium [NYI]"
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "5039BC7EF7F0455B"
+			tasks: [{
+				id: "7A61EFA3D29FE7F3"
+				item: "gtceu:samarium_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "7A443CEBB75E6690"
+			tasks: [{
+				id: "69FB7A026E9AA6A5"
+				item: "gtceu:europium_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "00FC5965C5C88443"
+			optional: true
+			tasks: [{
+				id: "2E5E212C3A1AA80D"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Gadolinium [NYI]"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "5D97C21659523601"
+			optional: true
+			tasks: [{
+				id: "5F62AD965FA34F4C"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Terbium [NYI]"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "1093AB6E72833420"
+			optional: true
+			tasks: [{
+				id: "057866283F8B2B78"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Dysprosium [NYI]"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "375EF5C156B94E88"
+			optional: true
+			tasks: [{
+				id: "2945C3F93E293761"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Holmium [NYI]"
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "6ABD7CE10E904DF7"
+			optional: true
+			tasks: [{
+				id: "7B124A3667BA2621"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Erbium [NYI]"
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "1F752996C67B6C8D"
+			optional: true
+			tasks: [{
+				id: "3D3F9A1E3AE6C463"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Thulium [NYI]"
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "74ED861CC10C4007"
+			optional: true
+			tasks: [{
+				id: "3CF2670A528C079F"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Ytterbium [NYI]"
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "4263D69259709BE6"
+			optional: true
+			tasks: [{
+				id: "287B503443DE64D4"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Lutetium [NYI]"
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "0DBE36A81B2D368B"
+			tasks: [{
+				id: "2D1764D9084E7362"
+				item: "gtceu:thorium_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "6E05CFA5192A0667"
+			optional: true
+			tasks: [{
+				id: "401B998A0D37ADD1"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Protactinium [NYI]"
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "35B094E5D6B71A0D"
+			tasks: [{
+				id: "173231A6D91BC39D"
+				item: "gtceu:uranium_235_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "188F0F8C6A2DD0A8"
+			optional: true
+			tasks: [{
+				id: "33E3C49BEAFDBBC5"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Neptunium [NYI]"
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "60DECA920531D7F5"
+			tasks: [{
+				id: "4AF1DADE65513412"
+				item: "gtceu:plutonium_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "233BC68E18E11103"
+			tasks: [{
+				id: "1F13215A9A9536D9"
+				item: "gtceu:americium_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "28D23AB4922BA188"
+			optional: true
+			tasks: [{
+				id: "18CEDC65FEA3734D"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Curium [NYI]"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "2FAA7EEE847E9CEC"
+			optional: true
+			tasks: [{
+				id: "6CFFB0E931CE9C04"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Berkelium [NYI]"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "680479E1E31FBF7B"
+			optional: true
+			tasks: [{
+				id: "4EA59CDACD592CAE"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Einsteinium [NYI]"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "245386FBAA191D28"
+			optional: true
+			tasks: [{
+				id: "1F021A9045CB28B5"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Fermium [NYI]"
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "6937E0BC6A74F31D"
+			optional: true
+			tasks: [{
+				id: "7E1D36C3EC3B533B"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Mendelevium [NYI]"
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "2F08DA87D3CB07EF"
+			optional: true
+			tasks: [{
+				id: "3E57037CCA486603"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Nobelium [NYI]"
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "2DFA7C42292E9E0B"
+			optional: true
+			tasks: [{
+				id: "10FCA2AA510F0CF0"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Lawrencium [NYI]"
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "64EC0CCBC017C516"
+			tasks: [{
+				id: "524EAB66AB52F9E0"
+				item: {
+					Count: 1b
+					id: "gtceu:fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "gtceu:californium"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "714385C88F7ADE61"
+			tasks: [{
+				id: "761709947ACDE292"
+				item: {
+					Count: 1b
+					id: "gtceu:fluid_cell"
+					tag: {
+						Fluid: {
+							Amount: 1000
+							FluidName: "gtceu:oganesson"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "17E8514E34B574F0"
+			tasks: [{
+				id: "16E9CBF54B73AB91"
+				item: "gtceu:desh_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "11DAF68AB20507D5"
+			tasks: [{
+				id: "5F4A4E43BC50C1A8"
+				item: "gtceu:ostrum_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "613B86D7A7BD213E"
+			tasks: [{
+				id: "25B9459CA3CB18F9"
+				item: "gtceu:calorite_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "29D52D231CB20686"
+			tasks: [{
+				id: "7A93AA694D143A6B"
+				item: "gtceu:neutronium_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "1022152FF882F605"
+			tasks: [{
+				id: "365B518E2411F8C5"
+				item: "gtceu:mithril_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "3530D94F6A699A98"
+			tasks: [{
+				id: "67A2680D606D525F"
+				item: "gtceu:infinity_catalyst_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["72F3F36CD583B9FA"]
+			hide_dependent_lines: true
+			icon: "createdeco:decal_warning"
+			id: "2AF48E6902C16848"
+			size: 1.0d
+			tasks: [{
+				id: "0015623780085946"
+				title: "The Periodic Table"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+	]
+	title: "The Periodic Table"
+}

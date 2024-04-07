@@ -19,6 +19,12 @@
 		{
 			dependencies: ["022992D132A0423F"]
 			id: "71FA201CC3CEF1B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51FC53D123F5BA36"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "31E2F0B5444C8C32"
 				item: "gtceu:mv_electric_motor"
@@ -31,6 +37,12 @@
 		{
 			dependencies: ["71FA201CC3CEF1B4"]
 			id: "43616DF7FEC29A8A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4927971CCB00ABC3"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5CCEA503A606CBB7"
 				item: "gtceu:mv_electric_pump"
@@ -42,6 +54,12 @@
 		{
 			dependencies: ["71FA201CC3CEF1B4"]
 			id: "0FA9C9758577EF8D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40ABC8E153D27080"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3E25442EB2A915E7"
 				item: "gtceu:mv_conveyor_module"
@@ -53,6 +71,12 @@
 		{
 			dependencies: ["71FA201CC3CEF1B4"]
 			id: "45F55AADF4B6223E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1672F17CF892D3A2"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "52A87A42F161FD24"
 				item: "gtceu:mv_electric_piston"
@@ -67,6 +91,12 @@
 				"45F55AADF4B6223E"
 			]
 			id: "57EBAB7AC768B431"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01685BCD5BF210E7"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "241C403EA1EDA92B"
 				item: "gtceu:mv_robot_arm"
@@ -78,6 +108,12 @@
 		{
 			dependencies: ["022992D132A0423F"]
 			id: "1D563AA8C13C822E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00155D4A5F950279"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1AAB87DA92536327"
 				title: "Mv Power"
@@ -89,6 +125,12 @@
 		{
 			dependencies: ["1D563AA8C13C822E"]
 			id: "7CD113C2F8623D32"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5511C2C5EF7F1056"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "28AA589160DFAB07"
@@ -101,6 +143,12 @@
 		{
 			dependencies: ["1D563AA8C13C822E"]
 			id: "1249A72A3260A6FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12B9170847222091"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "2B944081A9C6CA43"
@@ -113,6 +161,12 @@
 		{
 			dependencies: ["1D563AA8C13C822E"]
 			id: "02CCE419DF2E6A07"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63EE37F1D80BEA1B"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "7298FE3545763C1A"
@@ -126,6 +180,12 @@
 			dependencies: ["1D563AA8C13C822E"]
 			icon: "gtceu:basic_alternator"
 			id: "513EFF4AD64F14DE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78FBCB4BB287FE18"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "7210CF5F53ED2973"
@@ -144,6 +204,12 @@
 			]
 			hide_dependent_lines: true
 			id: "7A4D681F7EF69714"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75913EE4CA0F90E7"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
@@ -157,6 +223,12 @@
 		{
 			dependencies: ["022992D132A0423F"]
 			id: "2786FB21A83F31C0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A17CD7ED34CFA19"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7DEA1B03F79BB4E5"
 				item: "gtceu:mv_mixer"
@@ -169,6 +241,12 @@
 			dependencies: ["2786FB21A83F31C0"]
 			description: ["You can get the chromium from rubies, and vanadium from vanadium magnitite."]
 			id: "4A49F80AFCCEEB15"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34A5F5C891121131"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4A34038422A6596A"
 				item: "gtceu:vanadium_steel_dust"
@@ -180,6 +258,12 @@
 		{
 			dependencies: ["4A49F80AFCCEEB15"]
 			id: "7B53AB62EBED767F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28F72EF7BF580364"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "262B5E58E67836A8"
 				item: "gtceu:vanadium_steel_buzz_saw_blade"
@@ -191,6 +275,12 @@
 		{
 			dependencies: ["7B53AB62EBED767F"]
 			id: "0499DFCF0CD12618"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22B743EFF95DB4CA"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "715C42666BCEA81D"
 				item: "gtceu:mv_cutter"
@@ -202,6 +292,12 @@
 		{
 			dependencies: ["0499DFCF0CD12618"]
 			id: "49CCF8D6153A989D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78AC0CC436154A24"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6280DEABA801C8D9"
 				item: "ironchests:diamond_dolly"
@@ -214,6 +310,12 @@
 			dependencies: ["0499DFCF0CD12618"]
 			description: ["Now you can get 6 planks per log without using crafting tools!"]
 			id: "5E78B108ED437E17"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EEC03E14586744E"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "50D9B94E2B1F0A81"
 				item: "minecraft:oak_planks"
@@ -225,6 +327,12 @@
 		{
 			dependencies: ["69702FB2E9CF858F"]
 			id: "384BEEA622B92B77"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A5A28B4DED7FCAC"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "415FBC1CF2A503E8"
 				item: "gtceu:ram_chip"
@@ -236,6 +344,12 @@
 		{
 			dependencies: ["193E3643D493511F"]
 			id: "15FF795E9B993E9F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A5BB89A17106859"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "321665FA9CAB1D40"
 				item: "gtceu:ilc_chip"
@@ -247,6 +361,12 @@
 		{
 			dependencies: ["0499DFCF0CD12618"]
 			id: "61D83CBDFBA8CE73"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5297F8A453DBF8F8"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "255DCA106E07AD03"
 				item: "gtceu:emerald_plate"
@@ -258,6 +378,12 @@
 		{
 			dependencies: ["0499DFCF0CD12618"]
 			id: "1ABF3901188A8287"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "754125233931801C"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4B2AD3F287944478"
 				item: "gtceu:ruby_plate"
@@ -270,6 +396,12 @@
 			dependencies: ["7A4D681F7EF69714"]
 			hide_dependent_lines: true
 			id: "1879934231CF2284"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E1BFFEAB6BFFF62"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1BA4FC0383183BA8"
 				item: "gtceu:mv_lathe"
@@ -284,6 +416,12 @@
 				"1879934231CF2284"
 			]
 			id: "071D6F7179DECE6B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7807BABB8743834D"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "12E3B27BBD606A4F"
 				item: "gtceu:ruby_lens"
@@ -298,6 +436,12 @@
 				"1879934231CF2284"
 			]
 			id: "1208EE11BA69EFAA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CDBAA1671B22FDC"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "59EDD9A9AA904096"
 				item: "gtceu:emerald_lens"
@@ -313,6 +457,12 @@
 				"448127F22EC963D4"
 			]
 			id: "193E3643D493511F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20350423FEFBC6E9"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7577A5C6A8B7D541"
 				item: "gtceu:ilc_wafer"
@@ -328,6 +478,12 @@
 				"448127F22EC963D4"
 			]
 			id: "69702FB2E9CF858F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "307E82B92E209224"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "22BC63834F6492D5"
 				item: "gtceu:ram_wafer"
@@ -339,6 +495,12 @@
 		{
 			dependencies: ["15FF795E9B993E9F"]
 			id: "60F3CC12929C1638"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C9D44C12EF4ADBF"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "45FC9035D6E5F691"
@@ -351,6 +513,12 @@
 		{
 			dependencies: ["60F3CC12929C1638"]
 			id: "33BAED2DA60D22C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FDE08E38FA51AF3"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "33A73C8CC606DBD0"
@@ -368,6 +536,12 @@
 				"5BFA0F9B4A49F9A3"
 			]
 			id: "5ED5A70F495733F9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "633EC785A4DF6DA3"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "29162F61DCA06538"
@@ -380,6 +554,12 @@
 		{
 			dependencies: ["0499DFCF0CD12618"]
 			id: "3BEC95B763D67E73"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "586AB08EBF0A4508"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6AB3681BCF2205F1"
 				item: "gtceu:sapphire_plate"
@@ -394,6 +574,12 @@
 				"1879934231CF2284"
 			]
 			id: "476817B13F07150A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7618DA222CD4BC7A"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6336D09B55EEC9AC"
 				item: "gtceu:sapphire_lens"
@@ -409,6 +595,12 @@
 				"448127F22EC963D4"
 			]
 			id: "16A3467B1B3FFF95"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B6FB77089659466"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "70B9749BE6D7CAF0"
 				item: "gtceu:ulpic_wafer"
@@ -421,6 +613,12 @@
 			dependencies: ["16A3467B1B3FFF95"]
 			hide_dependent_lines: true
 			id: "548AC3903A464DC9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10B4B6657A659C98"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2B90DD3362BC1C2A"
 				item: "gtceu:ulpic_chip"
@@ -435,6 +633,12 @@
 				"57E91852D2C01518"
 			]
 			id: "2F34B65EA76D23BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BFE35C8B2906606"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				count: 2L
 				id: "4BAE72FA97E9A320"
@@ -447,6 +651,12 @@
 		{
 			dependencies: ["7A4D681F7EF69714"]
 			id: "57E91852D2C01518"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "618B93FD0413FCF3"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "6420C502C99ED0F4"
@@ -460,6 +670,12 @@
 			dependencies: ["0499DFCF0CD12618"]
 			hide_dependent_lines: true
 			id: "4F306185C956467E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "493D8CBE1146536C"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "4F74293052595EA4"
@@ -473,6 +689,12 @@
 			dependencies: ["4F306185C956467E"]
 			description: ["With silicon wafers, you can make diodes much less expensive."]
 			id: "290C8C16C7D555DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5ACEEE70C2EB4D9F"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "160C8C935F4362B0"
 				item: "gtceu:diode"
@@ -488,6 +710,12 @@
 				"212B19FEEE23F24D"
 			]
 			id: "6A36071AFF6A953F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "06A3C690118D3DF9"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "287B9AD96A5CC705"
 				item: "gtceu:mv_chemical_bath"
@@ -499,6 +727,12 @@
 		{
 			dependencies: ["6A36071AFF6A953F"]
 			id: "57D577B1EA1B81F5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4409C4899F23EF9E"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2FE7583233984A10"
 				item: "gtceu:silicon_ingot"
@@ -510,6 +744,12 @@
 		{
 			dependencies: ["0F473004BDE8A486"]
 			id: "2131544C5244B337"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "108223C5FA6469AF"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0A6976211ED39302"
 				item: "gtceu:hot_silicon_ingot"
@@ -521,6 +761,12 @@
 		{
 			dependencies: ["2786FB21A83F31C0"]
 			id: "212B19FEEE23F24D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7AE2EF5B45000631"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "50A7ABDD44959ABD"
 				item: "gtceu:hot_kanthal_ingot"
@@ -532,6 +778,12 @@
 		{
 			dependencies: ["6A36071AFF6A953F"]
 			id: "044946C612C0A177"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "042FACCC983AA3D0"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "540BFEEEB41E685D"
 				item: "gtceu:kanthal_ingot"
@@ -547,6 +799,12 @@
 			]
 			hide_dependent_lines: true
 			id: "5BFA0F9B4A49F9A3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15C8CCE6C14FD9AE"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "735D5FFF8A9EFB3A"
 				item: "gtceu:transistor"
@@ -561,6 +819,12 @@
 				"044946C612C0A177"
 			]
 			id: "5A491F4570BDA1BB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E250695F7825C59"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				count: 16L
 				id: "066A614FEBDE8692"
@@ -573,6 +837,12 @@
 		{
 			dependencies: ["2786FB21A83F31C0"]
 			id: "29EF84ECE6082A36"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7EDDA70382CA53D0"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "549209650B46029E"
 				item: "gtceu:stainless_steel_dust"
@@ -588,6 +858,12 @@
 			]
 			icon: "gtceu:electric_blast_furnace"
 			id: "5D905AEA5AEEF893"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A9390FE39F78F65"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "01B82C6F89515BEF"
 				title: "EBF Upgrades"
@@ -602,6 +878,12 @@
 				"29EF84ECE6082A36"
 			]
 			id: "7511A3ABFA67D9E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4052E03B3D3F78B7"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "1572378C08EB1BB8"
@@ -617,6 +899,12 @@
 				"55D8A22C1186A56A"
 			]
 			id: "6DFF476463BE46A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23A282732FA0159C"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -630,6 +918,13 @@
 		{
 			dependencies: ["7A4D681F7EF69714"]
 			id: "5A572858F671AC23"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C129B94D4D3D9A0"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0795ED976E8011C5"
 				item: "gtceu:pyrolyse_oven"
@@ -644,6 +939,13 @@
 				"4AA652DE3B02DAFE"
 			]
 			id: "69399128BA027D80"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CC9ABF3507B9710"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4BC09CD38856A31F"
 				item: "gtceu:wood_tar_bucket"
@@ -655,6 +957,13 @@
 		{
 			dependencies: ["5A572858F671AC23"]
 			id: "4AA652DE3B02DAFE"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A2504C34010CCD8"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2D082C3EDAFC87A7"
 				item: "minecraft:charcoal"
@@ -671,6 +980,13 @@
 				"One milibucket of benzene is 352 eu, one whole bucket is worth 352000 eu."
 			]
 			id: "3AD47EE3D81EBB04"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63EB132A0B43934B"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "44D08BF323148BE0"
@@ -683,6 +999,12 @@
 		{
 			dependencies: ["262E12D96350FAB8"]
 			id: "0248B3D116C39F9E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4695475D16E6823F"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "31835098C312AFF7"
 				item: "gtceu:oil_bucket"
@@ -695,6 +1017,12 @@
 			dependencies: ["0248B3D116C39F9E"]
 			description: ["Distillery on circuit 4 will get you sulfuric gas."]
 			id: "222675B0A74C4C77"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C4D1099025477B0"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0980C3B1351FFE2B"
 				item: "gtceu:sulfuric_gas_bucket"
@@ -707,6 +1035,12 @@
 			dependencies: ["222675B0A74C4C77"]
 			description: ["Chem react that gas with some hydrogen to make refinery gas."]
 			id: "08BD87EABD9943EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39C0A377AEB74065"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6F494B48EA3730E4"
 				item: "gtceu:refinery_gas_bucket"
@@ -719,6 +1053,12 @@
 			dependencies: ["08BD87EABD9943EF"]
 			description: ["Chem react that gas with some steam and circuit condition 3 to get severly steam cracked gas."]
 			id: "18C0CA625EC006AA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2077F3562A665AC7"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "54F72BEFB5491174"
 				item: "gtceu:severely_steam_cracked_gas_bucket"
@@ -731,6 +1071,12 @@
 			dependencies: ["18C0CA625EC006AA"]
 			description: ["Distill the gas on circuit condition 3 to get ethylene."]
 			id: "381A3CDC17364C9C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39530C345B853388"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5CC8135B64499D31"
 				item: "gtceu:ethylene_bucket"
@@ -747,6 +1093,12 @@
 				"If you haven't set up passive production at this point, you really &oreally&r should...."
 			]
 			id: "55D8A22C1186A56A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25BF13BBAF8736E0"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "66BF1A921E0CC904"
@@ -759,6 +1111,12 @@
 		{
 			dependencies: ["57E91852D2C01518"]
 			id: "262E12D96350FAB8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "036D51DFC686986E"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1E7E2988EE030301"
 				item: "gtceu:mv_fluid_drilling_rig"
@@ -770,6 +1128,12 @@
 		{
 			dependencies: ["5ED5A70F495733F9"]
 			id: "3A51E427F7327444"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20E7FAF6807B5EDD"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3394CE5C207F3129"
 				item: "gtceu:multi_smelter"
@@ -781,6 +1145,12 @@
 		{
 			dependencies: ["5ED5A70F495733F9"]
 			id: "1F4423C33F533874"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BA9B554A71F14D7"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1865E3208B58DB4B"
 				item: "gtceu:mv_circuit_assembler"
@@ -792,6 +1162,12 @@
 		{
 			dependencies: ["5ED5A70F495733F9"]
 			id: "763CBD1EF00A5FCD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64D3D4F6D397A5E8"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5EEDC826B99ED00B"
 				item: "gtceu:steel_large_boiler"
@@ -803,6 +1179,12 @@
 		{
 			dependencies: ["5ED5A70F495733F9"]
 			id: "1384830848BACEBE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0430DC62BCF19CFA"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "52D788B46698F498"
 				item: "gtceu:implosion_compressor"
@@ -814,6 +1196,12 @@
 		{
 			dependencies: ["519036B142090327"]
 			id: "2851F948564A0A3D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "294FF1268F4B0171"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "34506332E11EC934"
 				item: "gtceu:mv_emitter"
@@ -825,6 +1213,12 @@
 		{
 			dependencies: ["7A4D681F7EF69714"]
 			id: "519036B142090327"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69BF149DE4974F16"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "76C35D5C31B72E8D"
 				item: "gtceu:mv_sifter"
@@ -837,6 +1231,12 @@
 			dependencies: ["2851F948564A0A3D"]
 			hide_dependent_lines: true
 			id: "448127F22EC963D4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CE4C250975B715F"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "10D56D89CE789A5A"
 				item: "gtceu:mv_laser_engraver"
@@ -851,6 +1251,13 @@
 				"2B250011C3D8B6BF"
 			]
 			id: "339CE1B0F7D43153"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0CD2079163760DD8"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			shape: "diamond"
 			size: 1.0d
 			tasks: [{
@@ -865,6 +1272,12 @@
 			dependencies: ["404B60D8AC985F28"]
 			hide_dependent_lines: true
 			id: "2B250011C3D8B6BF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4559384811D78528"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2873D9C5E74C79B5"
 				item: "gtceu:cpu_chip"
@@ -880,6 +1293,12 @@
 				"4F306185C956467E"
 			]
 			id: "404B60D8AC985F28"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1FA374D35F615DC3"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0D3E2785FD6AD205"
 				item: "gtceu:cpu_wafer"
@@ -894,6 +1313,12 @@
 				"1879934231CF2284"
 			]
 			id: "25316CF027AE4AF0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "708C4A6B77B0C863"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1391E4252792340D"
 				item: "gtceu:diamond_lens"
@@ -905,6 +1330,12 @@
 		{
 			dependencies: ["0499DFCF0CD12618"]
 			id: "7502764D580782F8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B9F7CE8123940C8"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "61A866EE05442683"
 				item: "gtceu:diamond_plate"
@@ -919,6 +1350,13 @@
 				"3F9096CEE34FABEA"
 			]
 			id: "7F4F55BE3A817131"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34B8EDB6DA278C9F"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			shape: "diamond"
 			size: 1.0d
 			tasks: [{
@@ -935,6 +1373,13 @@
 				"57E91852D2C01518"
 			]
 			id: "5672D361EF666916"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44A9D7E8389EEC43"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "41F1D95C8F071D8A"
@@ -947,6 +1392,12 @@
 		{
 			dependencies: ["0499DFCF0CD12618"]
 			id: "79CF9EBC1EAC112E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F0FCF88B66776A7"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "42F289B2DD3FBA5B"
 				item: "gtceu:apatite_plate"
@@ -961,6 +1412,12 @@
 				"1879934231CF2284"
 			]
 			id: "08A00517830866A3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5982517C7E3ED860"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "12C9719CFB32B903"
 				item: "gtceu:apatite_lens"
@@ -976,6 +1433,12 @@
 				"4F306185C956467E"
 			]
 			id: "67D253911043F9ED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F1EC727ED5F8BDB"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "51318DD436BF1C5E"
 				item: "gtceu:simple_soc_wafer"
@@ -988,6 +1451,12 @@
 			dependencies: ["67D253911043F9ED"]
 			hide_dependent_lines: true
 			id: "3F9096CEE34FABEA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DF4CFF313A789F1"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			tasks: [{
 				id: "22629F42B730D933"
 				item: "gtceu:simple_soc"
@@ -1000,6 +1469,12 @@
 			dependencies: ["7511A3ABFA67D9E0"]
 			description: ["&4Please remove all items before upgrading, otherwise you will void your items. A fix will be made as soon as I can make it.&r"]
 			id: "278D2BAE2AFD8BB8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CD8E19C889E7394"
+				table_id: 8109537854966399126L
+				type: "random"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "2CD646833BB9CD09"
