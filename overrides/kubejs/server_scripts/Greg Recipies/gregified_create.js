@@ -336,9 +336,9 @@ ServerEvents.recipes(event => {
     event.shaped(
         Item.of('create:fluid_pipe',),
         [
-            '   ',
+            'B C',
             'AAA',
-            'B C'
+            '   '
         ],
         {
             A: '#forge:plates/copper',

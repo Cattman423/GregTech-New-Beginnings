@@ -58,7 +58,7 @@
 		#Whether the player should keep items and experience in their inventory after death .
 		keep_inventory = false
 		#Whether the player can regenerate health naturally if their hunger is full enough (doesn't affect external healing, such as golden apples, the Regeneration effect, etc.)
-		natural_regeneration = false
+		natural_regeneration = true
 		#What percentage of players must sleep to skip the night.
 		#Range: > 0
 		players_sleeping_percentage = 25
@@ -109,7 +109,7 @@
 		#Whether patrols can spawn.
 		do_patrol_spawning = true
 		#Whether wandering traders can spawn.
-		do_trader_spawning = true
+		do_trader_spawning = false
 		#Whether wardens can spawn.
 		do_warden_spawning = true
 

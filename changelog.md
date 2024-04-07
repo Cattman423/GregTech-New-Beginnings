@@ -1,5 +1,17 @@
 # Changelog
 
+## V 0.0.9
+
+* Gamerules
+  * Fixed Natural Regen being disabled
+  * Disabled Trader Spawns
+* Recipes
+  * Added non-chad morter recipes to the Create Millstone
+  * Creatified Bread
+  * Fixed some broken recipes
+* Mod Additions
+  * Added Disable Villager Trades
+
 ## V 0.0.8
 
 * Recipes
