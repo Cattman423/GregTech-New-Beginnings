@@ -899,12 +899,20 @@
 				"55D8A22C1186A56A"
 			]
 			id: "6DFF476463BE46A1"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "23A282732FA0159C"
-				table_id: 8109537854966399126L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "23A282732FA0159C"
+					table_id: 8109537854966399126L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16B7C851D622D9CB"
+					table_id: 3488111899381174028L
+					type: "random"
+				}
+			]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{

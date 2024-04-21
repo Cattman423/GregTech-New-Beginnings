@@ -80,6 +80,9 @@
   "lootr": {
     "info": true
   },
+  "melter": {
+    "melter_data": true
+  },
   "ae2": {
     "part_icon": true,
     "charger": true,

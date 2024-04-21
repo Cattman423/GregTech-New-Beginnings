@@ -122,6 +122,8 @@
 			allow_system_wide_connections = true
 			#If true, the Universe Stargate will always rotate in the best direction; If false, the Universe Stargate will alternate between rotation directions
 			universe_stargate_best_direction = true
+			#If true, the Universe Stargate will rotate faster (Fast full rotation takes 108 ticks, slow full toration takes 162 ticks)
+			universe_fast_rotation = true
 
 	["Stargate Journey Common Config"."Naquadah Generator Config"]
 

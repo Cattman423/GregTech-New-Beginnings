@@ -1,0 +1,30 @@
+{
+    "key": "gt_titanium",
+    "category": "metal",
+    "primary": 10,
+    "secondary": 6.5,
+    "tertiary": 2.4,
+    "durability": 1536,
+    "integrityCost": 2,
+    "integrityGain": 7,
+    "magicCapacity": 60,
+    "toolLevel": "minecraft:diamond",
+    "toolEfficiency": 12,
+    "tints": {
+        "glyph": "e8b1fa",
+        "texture": "e8b1fa"
+    },
+    "textures": [
+        "heavy",
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "gtceu:titanium_plate"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    }
+}

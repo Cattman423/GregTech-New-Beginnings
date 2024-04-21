@@ -19,6 +19,7 @@
 		{ count: 2, item: "minecraft:charcoal" }
 		{ count: 4, item: "minecraft:oak_log" }
 		{ item: "thinair:soulfire_bottle", weight: 0.25f }
+		{ item: "supplementaries:antique_ink" }
 	]
 	title: "Create Loot"
 }

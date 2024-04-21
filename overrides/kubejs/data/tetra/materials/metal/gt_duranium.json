@@ -1,0 +1,30 @@
+{
+    "key": "gt_duranium",
+    "category": "metal",
+    "primary": 16,
+    "secondary": 6.5,
+    "tertiary": 2.4,
+    "durability": 8192,
+    "integrityCost": 2,
+    "integrityGain": 7,
+    "magicCapacity": 60,
+    "toolLevel": "minecraft:netherite",
+    "toolEfficiency": 18,
+    "tints": {
+        "glyph": "f3e7a9",
+        "texture": "f3e7a9"
+    },
+    "textures": [
+        "heavy",
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "gtceu:duranium_plate"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    }
+}

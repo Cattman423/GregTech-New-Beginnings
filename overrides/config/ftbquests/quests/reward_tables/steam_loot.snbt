@@ -97,6 +97,7 @@
 		}
 		{ count: 3, item: "gtceu:wrought_iron_ingot" }
 		{ item: "gtceu:damascus_steel_ingot", weight: 0.5f }
+		{ item: "supplementaries:antique_ink" }
 	]
 	title: "Steam Loot"
 }

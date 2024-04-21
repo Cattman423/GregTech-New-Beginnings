@@ -1,0 +1,30 @@
+{
+    "key": "gt_wrought_iron",
+    "category": "metal",
+    "primary": 6,
+    "secondary": 6.5,
+    "tertiary": 2.4,
+    "durability": 384,
+    "integrityCost": 1,
+    "integrityGain": 5,
+    "magicCapacity": 60,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 6,
+    "tints": {
+        "glyph": "bcbcbc",
+        "texture": "bcbcbc"
+    },
+    "textures": [
+        "heavy",
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "gtceu:wrought_iron_plate"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    }
+}

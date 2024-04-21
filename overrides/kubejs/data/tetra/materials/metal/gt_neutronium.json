@@ -1,0 +1,35 @@
+{
+    "key": "gt_neutronium",
+    "category": "metal",
+    "primary": 104,
+    "secondary": 6.5,
+    "tertiary": 2.4,
+    "durability": 1536,
+    "integrityCost": 3,
+    "integrityGain": 7,
+    "magicCapacity": 60,
+    "toolLevel": "minecraft:netherite",
+    "toolEfficiency": 184,
+    "effects": {
+        "unbreaking": [
+            99
+        ]
+    },
+    "tints": {
+        "glyph": "FFFFFF",
+        "texture": "FFFFFF"
+    },
+    "textures": [
+        "heavy",
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "gtceu:neutronium_plate"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    }
+}

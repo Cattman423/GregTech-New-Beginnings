@@ -129,6 +129,7 @@
 		{ count: 16, item: "minecraft:candle" }
 		{ item: "gtceu:damascus_steel_ingot", weight: 0.5f }
 		{ item: "gtceu:lv_battery_hull", weight: 0.01f }
+		{ item: "supplementaries:antique_ink" }
 	]
 	title: "Lv Loot"
 }

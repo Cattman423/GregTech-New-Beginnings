@@ -32,6 +32,12 @@
 			milky_way_stargate_back_lights_up = false
 			#Decide if Chevrons on the back of Pegasus Stargate should light up
 			pegasus_stargate_back_lights_up = true
+			#The distance at which the sounds a Stargate makes can still be heard at full volume
+			#Range: 0 ~ 128
+			stargate_full_sound_distance = 32
+			#The distance at which the sounds a Stargate makes can still be heard
+			#Range: 16 ~ 128
+			stargate_max_sound_distance = 64
 
 	["Stargate Journey Client Config"."Sky Config"]
 

@@ -374,6 +374,43 @@ ServerEvents.recipes(event => {
             .duration(time)
             .EUt(eu)
     }
+//
+    event.shaped(
+        Item.of('framedblocks:framed_lever'),
+        [
+            ' B ',
+            ' A ',
+            '   '
+        ],
+        {
+            A: 'minecraft:lever',
+            B: 'framedblocks:framed_cube'
+        }
+        )
+    event.shaped(
+        Item.of('create:analog_lever'),
+        [
+            ' B ',
+            ' A ',
+            '   '
+        ],
+        {
+            A: 'minecraft:lever',
+            B: 'create:andesite_casing'
+        }
+        )
+    event.shaped(
+        Item.of('supplementaries:sconce_lever'),
+        [
+            ' B ',
+            ' A ',
+            '   '
+        ],
+        {
+            A: 'minecraft:lever',
+            B: 'supplementaries:sconce'
+        }
+        )
     smelting('gtceu:raw_zircon', 'gtceu:zirconium_ingot')
     smelting('gtceu:endstone_zircon_ore', '2x gtceu:zirconium_ingot')
     smelting('gtceu:netherrack_zircon_ore', '2x gtceu:zirconium_ingot')

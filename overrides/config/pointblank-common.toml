@@ -1,7 +1,31 @@
-#Enable auto-reloading of guns
+#Enables auto-reloading of guns
 #Allowed Values: CREATIVE, SURVIVAL, ENABLED, DISABLED
 autoReloadEnabled = "CREATIVE"
-#Mouse sensitivity while aiming with optical scopes
+#Adjusts mouse sensitivity when using scopes
 #Range: 0.01 ~ 0.9
 scopeAimingMouseSensitivity = 0.1
+#Toggle to reset player pitch to original after auto fire
+resetAutoFirePitchEnabled = true
+#Adjusts the knockback force applied to entities hit by gunfire, with higher values causing greater knockback distance.
+#Range: 0.1 ~ 2.0
+knockback = 1.0
+#Enables particle effects
+particleEffectsEnabled = true
+#Sets the likelihood of an 'Arms Dealer' house appearing in new villages, with higher values increasing frequency and lower values making it rarer.
+#Range: 0 ~ 20
+armsDealerHouse = 10
+#Set the exchange rate to determine how many in-game price units are equivalent to one emerald.
+#Range: 1.0 ~ 1000.0
+emeraldExchangeRate = 100.0
+#Controls whether the player's arm pose is permanently set to the aiming/firing position in third-person view, regardless of their current action with a gun.
+thirdPersonArmPoseAlwaysOn = true
+#Specifies how often the "picture-in-picture" scope updates, with 1 being every frame, 2 for every other frame, etc. A higher number may improve performance.
+#Range: 0 ~ 5
+pipScopeRefreshRate = 1
+#Enables pip scopes
+pipScopesEnabled = true
+#Enables custom shaders
+customShadersEnabled = true
+#Enables explosions to destroy blocks
+explosionDestroyBlocksEnabled = true
 

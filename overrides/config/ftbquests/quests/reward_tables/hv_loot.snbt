@@ -3,6 +3,50 @@
 	id: "3068434AAB6D8F0C"
 	loot_size: 1
 	order_index: 4
-	rewards: [ ]
+	rewards: [
+		{ item: "gtceu:hv_machine_hull", weight: 0.1f }
+		{ item: "gtceu:advanced_integrated_circuit", weight: 0.1f }
+		{
+			type: "xp_levels"
+			weight: 0.5f
+			xp_levels: 1
+		}
+		{
+			type: "xp"
+			xp: 100
+		}
+		{ count: 64, item: "minecraft:oak_log" }
+		{
+			item: {
+				Count: 1b
+				id: "gtceu:aluminium_fluid_cell"
+				tag: {
+					Fluid: {
+						Amount: 32000
+						FluidName: "gtceu:benzene"
+					}
+				}
+			}
+			weight: 0.01f
+		}
+		{ item: "gtceu:damascus_steel_ingot", weight: 0.1f }
+		{ count: 4, item: "gtceu:stainless_steel_ingot", weight: 0.75f }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:strong_healing"
+				}
+			}
+		}
+		{ count: 2, item: "fruitsdelight:orange_chicken" }
+		{ count: 64, item: "laboratoryblocks:laboratory_block" }
+		{ count: 64, item: "caupona:stone_road" }
+		{ count: 2, item: "gtceu:stainless_steel_ingot" }
+		{ item: "supplementaries:antique_ink" }
+		{ item: "gtceu:hv_power_unit", weight: 0.1f }
+		{ item: "gtceu:hv_input_bus", weight: 0.025f }
+	]
 	title: "Hv Loot"
 }

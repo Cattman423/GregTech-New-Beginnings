@@ -23,6 +23,11 @@
 		{
 			dependencies: ["7CB8F4196C533EE2"]
 			id: "4C0DFDDB3BC62FD6"
+			rewards: [{
+				id: "411EFC9547C01BCD"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -100,6 +105,17 @@
 		{
 			dependencies: ["6075378568C6CFC7"]
 			id: "08E7F7BE88E95A4A"
+			rewards: [{
+				id: "7E1F0D96DF85222E"
+				item: {
+					Count: 1b
+					id: "tetra:thermal_cell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "tetra:upgrades/hammer_5"
 				criterion: ""
@@ -112,6 +128,17 @@
 		{
 			dependencies: ["08E7F7BE88E95A4A"]
 			id: "25B5B687E0F0629B"
+			rewards: [{
+				id: "7F6AAB2B4BFDE8FC"
+				item: {
+					Count: 1b
+					id: "tetra:thermal_cell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "tetra:upgrades/hammer_6"
 				criterion: ""

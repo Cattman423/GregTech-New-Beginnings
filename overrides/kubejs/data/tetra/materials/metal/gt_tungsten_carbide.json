@@ -1,0 +1,30 @@
+{
+    "key": "gt_tungsten_carbide",
+    "category": "metal",
+    "primary": 6,
+    "secondary": 6.5,
+    "tertiary": 2.4,
+    "durability": 1024,
+    "integrityCost": 2,
+    "integrityGain": 7,
+    "magicCapacity": 60,
+    "toolLevel": "minecraft:netherite",
+    "toolEfficiency": 64,
+    "tints": {
+        "glyph": "6b6478",
+        "texture": "6b6478"
+    },
+    "textures": [
+        "heavy",
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "gtceu:tungsten_carbide_plate"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    }
+}

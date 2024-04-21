@@ -19,6 +19,12 @@
 		{
 			dependencies: ["6DFF476463BE46A1"]
 			id: "3B36589D2289A16A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BC5DB713DE0AA78"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "0AE7BF1503202D9A"
@@ -34,6 +40,12 @@
 				"3A7DEFE44A93315D"
 			]
 			id: "74E7F580B488CA69"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A7C946207B7BB00"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			tasks: [{
 				id: "15233C4F0B808F37"
 				item: "gtceu:micro_processor"
@@ -45,6 +57,12 @@
 		{
 			dependencies: ["74E7F580B488CA69"]
 			id: "2DCEA426D77C7BCE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B863CEF7AC5BF0A"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5F47E39B25B8CB25"
 				item: "gtceu:micro_processor_assembly"
@@ -56,6 +74,12 @@
 		{
 			dependencies: ["61571ED3D53BD832"]
 			id: "7BB6DA286AC97192"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "611EBCB1853928DA"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			tasks: [{
 				id: "500AC426D127E914"
 				item: "gtceu:micro_processor_computer"
@@ -68,6 +92,12 @@
 			dependencies: ["7BB6DA286AC97192"]
 			description: ["Yes, this is an Iv tier circuit in Hv. These unlock the Multiblock vareints of your single block machines, however you kinda need the Alloy Blast Smelter and Iv versions of the single blocks first..."]
 			id: "31340984653FF047"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "069954114551A12C"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			tasks: [{
 				id: "71DF3A9EF516BF24"
 				item: "gtceu:micro_processor_mainframe"
@@ -80,6 +110,12 @@
 			dependencies: ["2DCEA426D77C7BCE"]
 			icon: "gtceu:cleanroom"
 			id: "61571ED3D53BD832"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E321B673BD29C41"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "3AFEE059BDF529EB"
@@ -109,6 +145,12 @@
 		{
 			dependencies: ["6DFF476463BE46A1"]
 			id: "1CB9E2AD3CCF332D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DD45805E009FE8E"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7E6D07C03CC1EA7B"
 				title: "Hv Power"
@@ -121,6 +163,12 @@
 			dependencies: ["1CB9E2AD3CCF332D"]
 			id: "34FBCA1F6579A6DA"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7377A5793C520CCF"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "0DE9F3E3894AC6BD"
@@ -134,6 +182,12 @@
 			dependencies: ["1CB9E2AD3CCF332D"]
 			id: "252C92273787619E"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31FDDB5D80DB5A82"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "1F216AA739436184"
@@ -147,6 +201,12 @@
 			dependencies: ["1CB9E2AD3CCF332D"]
 			id: "5C2599185FA58E26"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FC345364E527219"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "517DF01F1798A474"
@@ -160,6 +220,12 @@
 			dependencies: ["1CB9E2AD3CCF332D"]
 			id: "3C164289713FF1E0"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DA5A0146C248364"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "158DC5A5EC06F221"
@@ -173,6 +239,12 @@
 			dependencies: ["1CB9E2AD3CCF332D"]
 			id: "237BF9AA857FAF68"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07CD01E96D737D3C"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "15E989624A366B30"
@@ -186,6 +258,12 @@
 			dependencies: ["7BB6DA286AC97192"]
 			hide_dependent_lines: true
 			id: "6DB4718EFEFFD6ED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47185B3304EB3A9C"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			tasks: [{
 				id: "686E2E450B2F4933"
 				item: "gtceu:vacuum_freezer"
@@ -197,6 +275,12 @@
 		{
 			dependencies: ["7BB6DA286AC97192"]
 			id: "7E03750C15D7FFBE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "484C965C93DD0950"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3FF6EDE6E76832F6"
 				item: "gtceu:hv_circuit_assembler"
@@ -208,6 +292,12 @@
 		{
 			dependencies: ["7BB6DA286AC97192"]
 			id: "17FC743ACF978E61"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E826402AF8EEC15"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			tasks: [{
 				id: "50B8F208E9C85D5B"
 				item: "gtceu:distillation_tower"
@@ -219,6 +309,12 @@
 		{
 			dependencies: ["7BB6DA286AC97192"]
 			id: "61A70241B2A5F32B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0B97745FC4FF3DD6"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5A714EA2A9251A3E"
 				item: "gtceu:hv_fluid_drilling_rig"
@@ -230,6 +326,12 @@
 		{
 			dependencies: ["673D20CCAD847242"]
 			id: "34212834EDAEDFF9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65BF6C0366D108F9"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4AB9CAA27F14913E"
 				item: "gtceu:plastic_printed_circuit_board"
@@ -241,6 +343,12 @@
 		{
 			dependencies: ["3183D053D96F8B4C"]
 			id: "673D20CCAD847242"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BD11BE5B94D2D05"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			tasks: [{
 				id: "69D2D4CB7830490D"
 				item: "gtceu:plastic_circuit_board"
@@ -252,6 +360,12 @@
 		{
 			dependencies: ["2DCEA426D77C7BCE"]
 			id: "27557239EE4C55DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2161CE819C872208"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			tasks: [{
 				id: "743811C12FABDA97"
 				item: "gtceu:large_chemical_reactor"
@@ -263,6 +377,12 @@
 		{
 			dependencies: ["6DFF476463BE46A1"]
 			id: "26D3F8BE07B4CFC3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E2F717FC4EDCC18"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "1F375F08FDC2E17A"
@@ -297,6 +417,12 @@
 		{
 			dependencies: ["3B36589D2289A16A"]
 			id: "3183D053D96F8B4C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FCBCBE9FF9F83D8"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			tasks: [{
 				id: "648CDD48107D949A"
 				item: "gtceu:hv_chemical_reactor"
@@ -311,6 +437,12 @@
 				"3DE24861F3921182"
 			]
 			id: "78C0D42D0033FBB6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "285798452D5B530A"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			tasks: [{
 				id: "62705D9150C562D7"
 				item: "gtceu:nichrome_ingot"
@@ -322,6 +454,12 @@
 		{
 			dependencies: ["3B36589D2289A16A"]
 			id: "5688B92DB43F370F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C86D4A2A03A23FD"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "436445A4BBF202C2"
@@ -337,6 +475,12 @@
 				"78C0D42D0033FBB6"
 			]
 			id: "4B85E2F6F3DE4CFC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EFB2ADB41C716C4"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			tasks: [{
 				id: "66F5303E56B94BE3"
 				item: "gtceu:nichrome_coil_block"
@@ -348,6 +492,12 @@
 		{
 			dependencies: ["3B36589D2289A16A"]
 			id: "3DE24861F3921182"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BDBFA8189E38B97"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3F9BBC3C8984E578"
 				item: "gtceu:hv_mixer"
@@ -362,6 +512,12 @@
 				"58F0EBEF8BA5D581"
 			]
 			id: "7E4816E87F55B828"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79C945AB7D42BC4E"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6B0BE056C2DEFB13"
 				item: "gtceu:titanium_ingot"
@@ -373,6 +529,12 @@
 		{
 			dependencies: ["7E4816E87F55B828"]
 			id: "6470A1ACB205DCF4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B1606C87E034ED5"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -386,6 +548,12 @@
 		{
 			dependencies: ["6DF005C195DC485B"]
 			id: "35E2036607FD7C4A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E85E0B6B43911D1"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "4C19542B10B7A3BC"
@@ -404,6 +572,12 @@
 		{
 			dependencies: ["35E2036607FD7C4A"]
 			id: "58C512E480898F53"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78D5ACDDDE459097"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4D94F23B9C825E6A"
 				item: "gtceu:rutile_dust"
@@ -415,6 +589,12 @@
 		{
 			dependencies: ["58C512E480898F53"]
 			id: "6DBC686B01FE2D9A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FDE33526F5A7173"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			tasks: [{
 				id: "77379F5701238673"
 				item: "gtceu:titanium_tetrachloride_bucket"
@@ -426,6 +606,12 @@
 		{
 			dependencies: ["6DBC686B01FE2D9A"]
 			id: "58F0EBEF8BA5D581"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CDBA45BDC151FA8"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "1CDE0E4DBB24DAEA"
@@ -444,6 +630,12 @@
 		{
 			dependencies: ["3B36589D2289A16A"]
 			id: "3D4C9E14A3803752"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "393548D0DBC77A8B"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "504B366930F83375"
@@ -456,6 +648,12 @@
 		{
 			dependencies: ["3B36589D2289A16A"]
 			id: "709D247370A65E2B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3080A8D57BBE9B93"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0553C911070C7FC5"
 				item: "gtceu:hv_chemical_bath"
@@ -468,6 +666,12 @@
 			dependencies: ["7E4816E87F55B828"]
 			description: ["&4Please remove all items before upgrading, otherwise you will void your items. A fix will be made as soon as I can make it.&r"]
 			id: "7A7781CBDDE03B62"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56211858215C3379"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "052AD659403AA8E6"
@@ -494,6 +698,12 @@
 			]
 			icon: "gtceu:tungsten_steel_quadruple_fluid_pipe"
 			id: "1B83EF707BC4FDE8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45B2895BC233D020"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			size: 1.0d
 			subtitle: "\"I thought channels were disabled!\""
 			tasks: [
@@ -529,6 +739,12 @@
 			]
 			icon: "gtceu:configurable_maintenance_hatch"
 			id: "14A56E4E7282ABD4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "365E41FDDE0FF198"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			size: 1.0d
 			subtitle: "Huge News for Maintenance Haters"
 			tasks: [
@@ -550,6 +766,12 @@
 		{
 			dependencies: ["3B36589D2289A16A"]
 			id: "3A7DEFE44A93315D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21338353A6631396"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "50919D6039AC773E"

@@ -1,0 +1,30 @@
+{
+    "key": "gt_hsse",
+    "category": "metal",
+    "primary": 14,
+    "secondary": 6.5,
+    "tertiary": 2.4,
+    "durability": 3072,
+    "integrityCost": 2,
+    "integrityGain": 7,
+    "magicCapacity": 60,
+    "toolLevel": "minecraft:netherite",
+    "toolEfficiency": 9,
+    "tints": {
+        "glyph": "9d9cbe",
+        "texture": "9d9cbe"
+    },
+    "textures": [
+        "heavy",
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "gtceu:hsse_plate"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    }
+}

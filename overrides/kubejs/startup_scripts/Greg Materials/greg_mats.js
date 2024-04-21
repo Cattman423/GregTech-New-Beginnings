@@ -1,4 +1,14 @@
 GTCEuStartupEvents.registry('gtceu:material', event => {
+const $OreProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.OreProperty');
+const $IngotProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.IngotProperty');
+const $DustProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.DustProperty')
+
+    GTMaterials.Obsidian.setProperty(PropertyKey.INGOT, new $IngotProperty())
+    GTMaterials.Zirconium.setProperty(PropertyKey.INGOT, new $IngotProperty())
+    GTMaterials.Holmium.setProperty(PropertyKey.INGOT, new $IngotProperty())
+    GTMaterials.Germanium.setProperty(PropertyKey.INGOT, new $IngotProperty())
+    GTMaterials.Tellurium.setProperty(PropertyKey.DUST, new $DustProperty())
+    GTMaterials.Zinc.setProperty(PropertyKey.ORE, new $OreProperty())
 
     event.create('nitrocellulose')
         .polymer()
@@ -9,13 +19,11 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .dust()
         .components('3x barium', '2x nitrogen')
         .color(0xffffff)
-        .iconSet(GTMaterialIconSet.FLINT)
 
     event.create('lead_styphnate')
         .dust()
         .components('6x carbon', 'hydrogen', '3x nitrogen', '8x oxygen', 'lead')
         .color(0xffffff)
-        .iconSet(GTMaterialIconSet.FLINT)
 
     event.create('poor_steel')
         .ingot(1)
@@ -26,7 +34,8 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
             GTMaterialFlags.GENERATE_PLATE, 
             GTMaterialFlags.GENERATE_GEAR, 
             GTMaterialFlags.GENERATE_SMALL_GEAR, 
-            GTMaterialFlags.GENERATE_BOLT_SCREW
+            GTMaterialFlags.GENERATE_BOLT_SCREW,
+            GTMaterialFlags.GENERATE_LONG_ROD
         )
 
     event.create('rose_quartz')
@@ -49,7 +58,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(GTMaterialIconSet.METALLIC)
         .flags()
         .blastTemp(1500, 'low', 120, 1200)
-        .cableProperties(32, 1, 0, true)
+        .cableProperties(32, 2, 0, true)
 
     event.create('enriched_certus')
         .gem()
@@ -92,7 +101,6 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .dust()
         .components('2x bismuth', '3x tellurium')
         .color(0x1A3A1A)
-        .iconSet(GTMaterialIconSet.FLINT)
         .flags()
 
     event.create('cubic_zirconium')
@@ -119,14 +127,12 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .dust()
         .components('2x bismuth', 'boron', 'hydrogen')
         .color(0x3C773C)
-        .iconSet(GTMaterialIconSet.FLINT)
         .flags()
 
     event.create('circuit_compound_mk_three')
         .dust()
         .components('indium_gallium_phosphide', '3x dibismuthhydroborat', '2x bismuth_tellurite')
         .color(0x1E1E1E)
-        .iconSet(GTMaterialIconSet.FLINT)
         .flags()
 
     event.create('indalloy_140')
@@ -164,13 +170,40 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .gas()
         .components('carbon', '2x hydrogen', 'oxygen')
         .color(0xffffff)
-        .iconSet(GTMaterialIconSet.FLINT)
 
     event.create('bakelite')
         .polymer()
         .components('phenol', 'formaldehyde')
         .color(0x79392F)
         .secondaryColor(0xA16E7F)
+    
+    event.create('protonium')
+        .ingot()
+        .element('protonium')
+        .color(0xFF0000)
+        .secondaryColor(0xFF7F7F)
+        .iconSet(GTMaterialIconSet.METALLIC)
+
+    event.create('flux')
+        .gem()
+        .components('64x redstone', 'obsidian', '6x desh')
+        .color(0xCE872B)
+        .secondaryColor(0xFF7F7F)
+        .iconSet(GTMaterialIconSet.NETHERSTAR)
+        .flags(
+            GTMaterialFlags.GENERATE_PLATE,
+            GTMaterialFlags.GENERATE_ROD,
+            GTMaterialFlags.GENERATE_FRAME,
+            GTMaterialFlags.DISABLE_DECOMPOSITION
+        )
+
+    event.create('flux_plated_desh')
+        .ingot()
+        .components('2x desh', 'flux')
+        .color(0xCE872B)
+        .iconSet(GTMaterialIconSet.METALLIC)
+        .blastTemp(3300, 'low', 480, 1500)
+        .cableProperties(512, 4, 0, true)
 
     GTMaterials.get('andesite_alloy').addFlags(
         GTMaterialFlags.GENERATE_PLATE, 
@@ -285,24 +318,9 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     GTMaterials.Monazite.addFlags(
         GTMaterialFlags.GENERATE_LENS
     )
-const $OreProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.OreProperty');
-const $IngotProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.IngotProperty');
-const $DustProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.DustProperty')
-
-    GTMaterials.Obsidian.setProperty(PropertyKey.INGOT, new $IngotProperty())
-    GTMaterials.Zirconium.setProperty(PropertyKey.INGOT, new $IngotProperty())
-    GTMaterials.Tellurium.setProperty(PropertyKey.DUST, new $DustProperty())
-    GTMaterials.Zinc.setProperty(PropertyKey.ORE, new $OreProperty())
-})
-StartupEvents.registry('block', event => {
-    event.create('mithril_coil_block', 'gtceu:coil')
-        .temperature(12600)
-        .level(16)
-        .energyDiscount(16) // 
-        .tier(8)
-        .coilMaterial(GTMaterials.get('mithril'))
-        .texture('gtceu:block/coils/machine_coil_mithril')
-        .hardness(5)
-        .requiresTool(true)
-        .material('metal')
+    GTMaterials.Germanium.addFlags(
+        GTMaterialFlags.GENERATE_PLATE,
+        GTMaterialFlags.GENERATE_FOIL,
+        GTMaterialFlags.GENERATE_FINE_WIRE
+    )
 })

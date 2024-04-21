@@ -1,5 +1,83 @@
 # Changelog
 
+## V 0.1.0
+
+* Make A backup before updating the pack!
+
+* Items
+  * Torches now light Basic Burners
+  * Removed Manganese Phosphide, use Redstone Alloy for Lv Superconductors
+  * Added Wrapped Chips
+  * Added Wrapped PCBs
+* Recipes
+  * Fixed many more broken recipes
+  * Creatified Treated Wood Planks
+  * Gregified MoreRed
+  * Disabled manual crafting for Lv and Mv circuits and componets, they now need either a Chemical Reactor, Assembler, or the Kinetic Assembler
+  * Removed Sticks into torches recipe
+  * Ported the wrapped circuit mass crafting recipes from GTNH for base GTCEU circuits
+* Quests
+  * Added Millstone quest in the Create Age
+  * Changed Charcoal/Coke Quest reward
+  * Added Quest for the Melter in the Create Age
+  * Added Quests for the Kinetic Assembler in the Steam Age
+  * Added Rewards to some Tetra Quests
+  * Added Rewards to Hv Age Quests
+* Tools
+  * Added GregTech materials to Tetra
+* Multiblocks
+  * Added Particle Accelerator for late game materials
+  * Added Kinetic Assembler for early game crafting
+* Mod Additions
+  * Added Ad Astra: Rocketed
+  * Added LootJS
+  * Added MoreJS
+  * Added Flux Networks
+  * Added Tom's Simple Storage Mod
+  * Added Artemis' Laboratory Blocks
+  * Added Dungeon Now Loading 1%
+  * Added Melter
+  * Added Create: Numismatics
+* Mod Updates
+  * Artifacts v9.4.2
+  * Almost Unified v0.9.3
+  * Ammendments v1.1.22
+  * Applied Energistics 2 v15.1.1
+  * Bookshelf v20.1.10
+  * CC: Tweaked v1.110.2
+  * Chipped v3.0.6
+  * ChoiceTheorem's Overhauled Village v3.4.3
+  * Create Low Heated v0.5.1.f-e
+  * Create Steam and Rails v1.6.3
+  * CreativeCore v2.11.26
+  * Cognition v2.0.4
+  * Cooking for Blockheads v16.0.4
+  * Curios v5.8.1
+  * Dawn of Time Builder Edition v1.5.5
+  * Delightful v3.5.3
+  * Entity Texture Features v6.0
+  * Embeddium v0.3.14
+  * Embeddium++ v1.2.7
+  * Extended AE v1.1.2
+  * Framed Blocks v9.2.2
+  * Fruits Delight v1.0.9
+  * FTB XMod Compat v2.1.1
+  * GregTechCEu Modern v1.2.0.a
+  * GT-- v1.0.5
+  * KubeJS v2001.6.5-build.7
+  * Modern Fix v5.16.1
+  * Moonlight v2.11.12
+  * Point Blank v1.2.4
+  * Sophisticated Backpacks v3.20.3.1039
+  * Sophisticated Core v0.6.9.597
+  * Stargate Journey v0.6.23 Hotfix 2
+  * Workshop for Handsome Adventurer v1.15.0
+  * Yung's Better Dungeons v4.0.4
+  * Zume v0.18.1
+* Mod Removals
+  * Removed Crafting Station
+  * Removed Survival Fire Sticks
+
 ## V 0.0.9
 
 * Gamerules

@@ -1,0 +1,30 @@
+{
+    "key": "gt_sterling_silver",
+    "category": "metal",
+    "primary": 12,
+    "secondary": 6.5,
+    "tertiary": 2.4,
+    "durability": 768,
+    "integrityCost": 1,
+    "integrityGain": 6,
+    "magicCapacity": 60,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 7,
+    "tints": {
+        "glyph": "faf4dc",
+        "texture": "faf4dc"
+    },
+    "textures": [
+        "heavy",
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "gtceu:sterling_silver_plate"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    }
+}

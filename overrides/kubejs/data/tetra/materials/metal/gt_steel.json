@@ -1,0 +1,30 @@
+{
+    "key": "gt_steel",
+    "category": "metal",
+    "primary": 7,
+    "secondary": 6.5,
+    "tertiary": 2.4,
+    "durability": 512,
+    "integrityCost": 2,
+    "integrityGain": 7,
+    "magicCapacity": 60,
+    "toolLevel": "minecraft:diamond",
+    "toolEfficiency": 9,
+    "tints": {
+        "glyph": "a7a7a7",
+        "texture": "a7a7a7"
+    },
+    "textures": [
+        "heavy",
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "gtceu:steel_plate"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    }
+}

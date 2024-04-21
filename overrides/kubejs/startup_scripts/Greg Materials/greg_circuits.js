@@ -1,10 +1,10 @@
 StartupEvents.registry('item', event => {
     Platform.mods.kubejs.name = 'GT:NB'
-    //Line one (brown)
+//Line one (brown)
     event.create('fungal_processing_unit')
-    //.displayName()
-    //.texture()
-    //.tooltip()
+        //.displayName()
+        //.texture()
+        //.tooltip()
 
     event.create('fungal_circuit_board')
         //.displayName()
@@ -36,11 +36,11 @@ StartupEvents.registry('item', event => {
         .texture('gtceu:item/fungal_circuits/fungal_processor_mainframe')
         .tooltip('§dUEV-tier Circuit')
 
-    //Line two (purple)
+//Line two (purple)
     event.create('optical_processing_unit')
-    //.displayName()
-    //.texture()
-    //.tooltip()
+        //.displayName()
+        //.texture()
+        //.tooltip()
 
     event.create('optical_circuit_board')
         //.displayName()
@@ -72,11 +72,11 @@ StartupEvents.registry('item', event => {
         .texture('gtceu:item/optical_circuits/optical_processor_mainframe')
         .tooltip('§5UIV-tier Circuit')
 
-    //Line three (darg green)
+//Line three (dark green)
     event.create('deep_space_processing_unit')
-    //.displayName()
-    //.texture()
-    //.tooltip()
+        //.displayName()
+        //.texture()
+        //.tooltip()
 
     event.create('deep_space_circuit_board')
         //.displayName()
@@ -108,11 +108,11 @@ StartupEvents.registry('item', event => {
         .texture('gtceu:item/deep_space_circuits/deep_space_processor_mainframe')
         .tooltip('§8UXV-tier Circuit')
 
-    //Line four (dark grey)
+//Line four (dark grey)
     event.create('singularity_processing_unit')
-    //.displayName()
-    //.texture()
-    //.tooltip()
+        //.displayName()
+        //.texture()
+        //.tooltip()
 
     event.create('singularity_circuit_board')
         //.displayName()
@@ -144,11 +144,11 @@ StartupEvents.registry('item', event => {
         .texture('gtceu:item/singularity_circuits/singularity_processor_mainframe')
         .tooltip('§fOPV-tier Circuit')
 
-    //Line five (gold)
+//Line five (gold)
     event.create('4d_processing_unit')
-    //.displayName()
-    //.texture()
-    //.tooltip()
+        //.displayName()
+        //.texture()
+        //.tooltip()
 
     event.create('4d_circuit_board')
         //.displayName()
@@ -180,33 +180,33 @@ StartupEvents.registry('item', event => {
         .texture('gtceu:item/4d_circuits/4d_processor_mainframe')
         .tooltip('§6MAX-tier Circuit')
 
-    //Optical SMD
+//Optical SMD
     event.create('optical_smd_transistor')
         //.displayName()
         .texture('gtceu:item/circuit_comp/optical_smd_transistor')
-    //.tooltip()
+        //.tooltip()
 
     event.create('optical_smd_resistor')
         //.displayName()
         .texture('gtceu:item/circuit_comp/optical_smd_resistor')
-    //.tooltip()
+        //.tooltip()
 
     event.create('optical_smd_capacitor')
         //.displayName()
         .texture('gtceu:item/circuit_comp/optical_smd_capacitor')
-    //.tooltip()
+        //.tooltip()
 
     event.create('optical_smd_diode')
         //.displayName()
         .texture('gtceu:item/circuit_comp/optical_smd_diode')
-    //.tooltip()
+        //.tooltip()
 
     event.create('optical_smd_inductor')
         //.displayName()
         .texture('gtceu:item/circuit_comp/optical_smd_inductor')
-    //.tooltip()
+        //.tooltip()
 
-    //Boules
+//Boules
     event.create('certus_quartz_boule')
         .displayName('Certus-doped Monocrystalline Silicon Boule')
         .texture('gtceu:item/ae_2/certus_quartz_boule')
@@ -232,7 +232,7 @@ StartupEvents.registry('item', event => {
         .texture('gtceu:item/ae_2/logic_wafer')
         .tooltip('Raw Logic Processor')
 
-    //Clockwork Mechanism
+//Clockwork Mechanism
     event.create('clockwork_mechanism')
         .displayName('Clockwork Mechanism')
         .texture('gtceu:item/mechanisms/clockwork_mechanism')
@@ -241,7 +241,7 @@ StartupEvents.registry('item', event => {
         .displayName('Advanced Clockwork Mechanism')
         .texture('gtceu:item/mechanisms/advanced_clockwork_mechanism')
 
-    //Magneto Resonance Circuits
+//Magneto Resonance Circuits
     event.create('ulv_magneto_resonance_circuit')
         .displayName('Ulv Magneto Resonance Circuit')
         .texture('gtceu:item/mag_res_circuit/ulv_mag_res')
@@ -307,7 +307,8 @@ StartupEvents.registry('item', event => {
         .texture('gtceu:item/mag_res_circuit/uev_mag_res')
         .tooltip('§5UEV-Tier Circuit')
         .tooltip('§aOriginally from BartWorks')
-    //Bart Works stuff
+
+//Bart Works stuff
     event.create('imprint_supporting_board')
         .displayName('Imprint Supporting Board')
         .texture('gtceu:item/mag_res_circuit/imprint_supporting_board')
@@ -319,79 +320,193 @@ StartupEvents.registry('item', event => {
         .texture('gtceu:item/mag_res_circuit/raw_imprint_supporting_board')
         .tooltip('A raw board needed for circuit imprints')
         .tooltip('§aOriginally from BartWorks')
-    //Wraps
+
+//SMD Wraps
     event.create('smd_capacitor_wrap')
         .displayName('Wrap of SMD Capacitors')
         .texture('gtceu:item/wraps/smd_capacitor_wrap')
-        .tooltip('')
 
     event.create('smd_diode_wrap')
         .displayName('Wrap of SMD Diodes')
         .texture('gtceu:item/wraps/smd_diode_wrap')
-        .tooltip('')
 
     event.create('smd_inductor_wrap')
         .displayName('Wrap of SMD Inductors')
         .texture('gtceu:item/wraps/smd_inductor_wrap')
-        .tooltip('')
 
     event.create('smd_resistor_wrap')
         .displayName('Wrap of SMD Resistors')
         .texture('gtceu:item/wraps/smd_resistor_wrap')
-        .tooltip('')
 
     event.create('smd_transistor_wrap')
         .displayName('Wrap of SMD Transistors')
         .texture('gtceu:item/wraps/smd_transistor_wrap')
-        .tooltip('')
 
     event.create('advanced_smd_capacitor_wrap')
         .displayName('Wrap of Advanced SMD Capacitors')
         .texture('gtceu:item/wraps/advanced_smd_capacitor_wrap')
-        .tooltip('')
 
     event.create('advanced_smd_diode_wrap')
         .displayName('Wrap of Advanced SMD Diodes')
         .texture('gtceu:item/wraps/advanced_smd_diode_wrap')
-        .tooltip('')
 
     event.create('advanced_smd_inductor_wrap')
         .displayName('Wrap of Advanced SMD Inductors')
         .texture('gtceu:item/wraps/advanced_smd_inductor_wrap')
-        .tooltip('')
 
     event.create('advanced_smd_resistor_wrap')
         .displayName('Wrap of Advanced SMD Resistors')
         .texture('gtceu:item/wraps/advanced_smd_resistor_wrap')
-        .tooltip('')
 
     event.create('advanced_smd_transistor_wrap')
         .displayName('Wrap of Advanced SMD Transistors')
         .texture('gtceu:item/wraps/advanced_smd_transistor_wrap')
-        .tooltip('')
 
     event.create('optical_smd_capacitor_wrap')
         .displayName('Wrap of Optical SMD Capacitors')
         .texture('gtceu:item/wraps/optical_smd_capacitor_wrap')
-        .tooltip('')
 
     event.create('optical_smd_diode_wrap')
         .displayName('Wrap of Optical SMD Diodes')
         .texture('gtceu:item/wraps/optical_smd_diode_wrap')
-        .tooltip('')
 
     event.create('optical_smd_inductor_wrap')
         .displayName('Wrap of Optical SMD Inductors')
         .texture('gtceu:item/wraps/optical_smd_inductor_wrap')
-        .tooltip('')
 
     event.create('optical_smd_resistor_wrap')
         .displayName('Wrap of Optical SMD Resistors')
         .texture('gtceu:item/wraps/optical_smd_resistor_wrap')
-        .tooltip('')
 
     event.create('optical_smd_transistor_wrap')
         .displayName('Wrap of Optical SMD Transistors')
         .texture('gtceu:item/wraps/optical_smd_transistor_wrap')
-        .tooltip('')
+
+//Chip Wraps
+    event.create('cpu_chip_wrap')
+        .displayName('Wrap of CPU Chips')
+        .texture('gtceu:item/wraps/cpu_chip_wrap')
+        
+    event.create('ram_chip_wrap')
+        .displayName('Wrap of RAM Chips')
+        .texture('gtceu:item/wraps/ram_chip_wrap')
+        
+    event.create('ilc_chip_wrap')
+        .displayName('Wrap of ILC Chips')
+        .texture('gtceu:item/wraps/ilc_chip_wrap')
+        
+    event.create('nano_cpu_chip_wrap')
+        .displayName('Wrap of Nano CPU Chips')
+        .texture('gtceu:item/wraps/nano_cpu_chip_wrap')
+        
+    event.create('qbit_cpu_chip_wrap')
+        .displayName('Wrap of Qbit CPU Chips')
+        .texture('gtceu:item/wraps/qbit_cpu_chip_wrap')
+        
+    event.create('simple_soc_wrap')
+        .displayName('Wrap of Simple SOCs')
+        .texture('gtceu:item/wraps/simple_soc_wrap')
+        
+    event.create('soc_wrap')
+        .displayName('Wrap of SOCs')
+        .texture('gtceu:item/wraps/soc_wrap')
+        
+    event.create('advanced_soc_wrap')
+        .displayName('Wrap of Advanced SOCs')
+        .texture('gtceu:item/wraps/advanced_soc_wrap')
+        
+    event.create('highly_advanced_soc_wrap')
+        .displayName('Wrap of Highly Advanced SOCs')
+        .texture('gtceu:item/wraps/highly_advanced_soc_wrap')
+        
+    event.create('nand_memory_chip_wrap')
+        .displayName('Wrap of NAND Memory Chips')
+        .texture('gtceu:item/wraps/nand_memory_chip_wrap')
+        
+    event.create('nor_memory_chip_wrap')
+        .displayName('Wrap of NOR Memory Chips')
+        .texture('gtceu:item/wraps/nor_memory_chip_wrap')
+        
+    event.create('ulpic_chip_wrap')
+        .displayName('Wrap of ULPIC Chips')
+        .texture('gtceu:item/wraps/ulpic_chip_wrap')
+        
+    event.create('lpic_chip_wrap')
+        .displayName('Wrap of LPIC Chips')
+        .texture('gtceu:item/wraps/lpic_chip_wrap')
+        
+    event.create('mpic_chip_wrap')
+        .displayName('Wrap of MPIC Chips')
+        .texture('gtceu:item/wraps/mpic_chip_wrap')
+        
+    event.create('hpic_chip_wrap')
+        .displayName('Wrap of HPIC Chips')
+        .texture('gtceu:item/wraps/hpic_chip_wrap')
+        
+    event.create('uhpic_chip_wrap')
+        .displayName('Wrap of UHPIC Chips')
+        .texture('gtceu:item/wraps/uhpic_chip_wrap')
+
+//PCBs
+    event.create('resin_printed_circuit_board_wrap')
+        .displayName('Wrap of Resin Printed Circuit Boards')
+        .texture('gtceu:item/wraps/resin_printed_circuit_board_wrap')
+        
+    event.create('phenolic_printed_circuit_board_wrap')
+        .displayName('Wrap of Phenolic Printed Circuit Boards')
+        .texture('gtceu:item/wraps/phenolic_printed_circuit_board_wrap')
+        
+    event.create('plastic_printed_circuit_board_wrap')
+        .displayName('Wrap of Plastic Printed Circuit Boards')
+        .texture('gtceu:item/wraps/plastic_printed_circuit_board_wrap')
+        
+    event.create('epoxy_printed_circuit_board_wrap')
+        .displayName('Wrap of Epoxy Printed Circuit Boards')
+        .texture('gtceu:item/wraps/epoxy_printed_circuit_board_wrap')
+        
+    event.create('fiber_reinforced_printed_circuit_board_wrap')
+        .displayName('Wrap of Fiber-reinforced Printed Circuit Boards')
+        .texture('gtceu:item/wraps/fiber_reinforced_printed_circuit_board_wrap')
+        
+    event.create('multilayer_fiber_reinforced_printed_circuit_board_wrap')
+        .displayName('Wrap of Multilayer Fiber-reinforced Printed Circuit Boards')
+        .texture('gtceu:item/wraps/multilayer_fiber_reinforced_printed_circuit_board_wrap')
+        
+    event.create('wetware_printed_circuit_board_wrap')
+        .displayName('Wrap of Wetware Printed Circuit Boards')
+        .texture('gtceu:item/wraps/wetware_printed_circuit_board_wrap')
+        
+    event.create('fungal_printed_circuit_board_wrap')
+        .displayName('Wrap of Fungal Printed Circuit Boards')
+        .texture('gtceu:item/wraps/fungal_printed_circuit_board_wrap')
+        
+    event.create('optical_printed_circuit_board_wrap')
+        .displayName('Wrap of Optical Printed Circuit Boards')
+        .texture('gtceu:item/wraps/optical_printed_circuit_board_wrap')
+        
+    event.create('deep_space_printed_circuit_board_wrap')
+        .displayName('Wrap of Deep Space Printed Circuit Boards')
+        .texture('gtceu:item/wraps/deep_space_printed_circuit_board_wrap')
+        
+    event.create('singularity_printed_circuit_board_wrap')
+        .displayName('Wrap of Singularity Printed Circuit Boards')
+        .texture('gtceu:item/wraps/singularity_printed_circuit_board_wrap')
+        
+    event.create('4d_printed_circuit_board_wrap')
+        .displayName('Wrap of 4d Printed Circuit Boards')
+        .texture('gtceu:item/wraps/4d_printed_circuit_board_wrap')
+
+//Crystal Wraps
+    event.create('crystal_cpu_wrap')
+        .displayName('Wrap of Crystal CPUs')
+        .texture('gtceu:item/wraps/crystal_cpu_wrap')
+        
+    event.create('crystal_soc_wrap')
+        .displayName('Wrap of Crystal SOCs')
+        .texture('gtceu:item/wraps/crystal_soc_wrap')
+
+//Processing Units
+    event.create('neuro_processing_unit_wrap')
+        .displayName('Wrap of Neuro Processing Units')
+        .texture('gtceu:item/wraps/neuro_processing_unit_wrap')
 })

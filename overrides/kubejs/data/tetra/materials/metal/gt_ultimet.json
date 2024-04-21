@@ -1,0 +1,30 @@
+{
+    "key": "gt_ultimet",
+    "category": "metal",
+    "primary": 11,
+    "secondary": 6.5,
+    "tertiary": 2.4,
+    "durability": 2084,
+    "integrityCost": 2,
+    "integrityGain": 7,
+    "magicCapacity": 60,
+    "toolLevel": "minecraft:netherite",
+    "toolEfficiency": 14,
+    "tints": {
+        "glyph": "9f9fb1",
+        "texture": "9f9fb1"
+    },
+    "textures": [
+        "heavy",
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "gtceu:ultimet_plate"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:iron"
+    }
+}

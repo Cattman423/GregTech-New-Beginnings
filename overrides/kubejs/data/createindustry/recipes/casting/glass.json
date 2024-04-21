@@ -1,0 +1,22 @@
+{
+    "type": "createindustry:casting",
+    "ingredients": [
+      {
+        "fluid": "gtceu:glass",
+        "amount": 144
+      }
+    ],
+    "processingTime": 300,
+    "results": [
+      {
+        "count": 1,
+        "item": "create:framed_glass"
+      }
+    ,
+      {
+        "count": 1,
+        "item": "create:framed_glass"
+      }
+  
+    ]
+  }

@@ -1,0 +1,49 @@
+{
+    "replace": true,
+    "type": "tetra:basic_major_module",
+    "slots": ["single/head"],
+    "improvements": [
+        "tetra:single/shared/",
+        "tetra:shared/"
+    ],
+    "variants": [
+        {
+            "materials": [ "tetra:metal/" ],
+            "key": "file/",
+            "attributes": {
+                "generic.attack_damage": -1.5,
+                "generic.attack_speed": -1.8
+            },
+            "aspects": {
+                "blockBreaker": 2,
+                "breakable": 2
+            },
+            "durability": -20,
+            "extract": {
+                "primaryAttributes": {
+                    "generic.attack_damage": 1
+                },
+                "tools": {
+                    "shovel_dig": [ 1, 1 ],
+                    "shovel_flatten": 1,
+                    "dowse": 1
+                },
+                "durability": 1,
+                "integrity": -1,
+                "magicCapacity": 1,
+                "glyph": {
+                    "textureX": 0,
+                    "textureY": 0,
+                    "textureLocation": "tetra:gui/my-glyphs.png",
+                    "tint": "ff0000"
+                },
+                "availableTextures": [ "metal", "shiny", "grainy", "crude" ],
+                "models": [ 
+                    { 
+                        "location": "tetra:items/module/single/head/file/" 
+                    } 
+                ]
+            }
+        }
+    ]
+}

@@ -426,13 +426,12 @@
 		{
 			dependencies: ["2AF48E6902C16848"]
 			id: "352075AF0A0ED390"
-			optional: true
 			tasks: [{
-				id: "7905F67D8574F097"
-				item: "minecraft:bedrock"
+				id: "158CEC86F14602E9"
+				item: "gtceu:germanium_dust"
 				type: "item"
 			}]
-			title: "Germanium [NYI]"
+			title: "Germanium"
 			x: 4.5d
 			y: -2.0d
 		}
@@ -1268,13 +1267,12 @@
 		{
 			dependencies: ["2AF48E6902C16848"]
 			id: "375EF5C156B94E88"
-			optional: true
 			tasks: [{
-				id: "2945C3F93E293761"
-				item: "minecraft:bedrock"
+				id: "5E93FD1C49DB845F"
+				item: "gtceu:holmium_dust"
 				type: "item"
 			}]
-			title: "Holmium [NYI]"
+			title: "Holmium"
 			x: 3.5d
 			y: 2.5d
 		}
@@ -1583,7 +1581,7 @@
 				item: "gtceu:mithril_dust"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -0.5d
 			y: 5.0d
 		}
 		{
@@ -1594,7 +1592,7 @@
 				item: "gtceu:infinity_catalyst_dust"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.5d
 			y: 5.0d
 		}
 		{
@@ -1610,6 +1608,17 @@
 			}]
 			x: 0.0d
 			y: -5.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "75A4DAE814049DC1"
+			tasks: [{
+				id: "290CF6ECC01A3CF1"
+				item: "gtceu:protonium_dust"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.0d
 		}
 	]
 	title: "The Periodic Table"

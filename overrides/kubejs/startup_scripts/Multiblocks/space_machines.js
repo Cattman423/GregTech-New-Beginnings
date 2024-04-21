@@ -1,7 +1,7 @@
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 //Steam Engine
     event.create('basic_launch_facility')
-        .category('space_production')
+        .category('multiblock')
         .setEUIO('in')
         .setMaxIOSize(6, 12, 3, 6) //Max Item Inputs, Max Item Outputs, Max Fluid Inputs, Max Fluid Outputs
         //.setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)

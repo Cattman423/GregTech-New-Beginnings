@@ -17,4 +17,13 @@ GTCEuStartupEvents.registry('gtceu:element', event => {
         'Mi', //Atomic Symbol
         false//Is Isotope
         ) 
+    event.create(
+        'protonium',
+        1,
+        0,
+        -1,
+        null,
+        'Po',
+        false
+    )
  })

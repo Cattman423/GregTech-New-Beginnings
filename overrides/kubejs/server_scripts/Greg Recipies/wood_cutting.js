@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 //Functions
-    function cutter(id, input, fluid, plank, dust, time, eu){
+    function cutter(id, input, fluid, plank, dust, time){
         event.recipes.gtceu.cutter(id)
             .itemInputs(input)
             .inputFluids(fluid)
@@ -92,6 +92,39 @@ ServerEvents.recipes(event => {
     cutter('water_rubber', 'gtceu:rubber_log', 'minecraft:water 5', '4x gtceu:rubber_planks', '2x gtceu:wood_dust', 400)
     cutter('dist_water_rubber', 'gtceu:rubber_log', 'gtceu:distilled_water 3', '4x gtceu:rubber_planks', '2x gtceu:wood_dust', 300)
     cutter('lube_rubber', 'gtceu:rubber_log', 'gtceu:lubricant 1', '6x gtceu:rubber_planks', 'gtceu:wood_dust', 200)
-    notool('2x gtceu:rubber_planks','gtceu:rubber_log')
+    cutter('water_c_walnut', '#caupona:walnut_log', 'minecraft:water 5', '4x caupona:walnut_planks', '2x gtceu:wood_dust', 400)
+    cutter('dist_water_c_walnut', '#caupona:walnut_log', 'gtceu:distilled_water 3', '4x caupona:walnut_planks', '2x gtceu:wood_dust', 300)
+    cutter('lube_c_walnut', '#caupona:walnut_log', 'gtceu:lubricant 1', '6x caupona:walnut_planks', 'gtceu:wood_dust', 400)
+    cutter('water_charred_spruce', 'dawnoftimebuilder:charred_spruce_log_stripped', 'minecraft:water 5', '4x dawnoftimebuilder:charred_spruce_planks', '2x gtceu:wood_dust', 400)
+    cutter('dist_charred_spruce', 'dawnoftimebuilder:charred_spruce_log_stripped', 'gtceu:distilled_water 3', '4x dawnoftimebuilder:charred_spruce_planks', '2x gtceu:wood_dust', 300)
+    cutter('lube_charred_spruce', 'dawnoftimebuilder:charred_spruce_log_stripped', 'gtceu:lubricant 1', '6x dawnoftimebuilder:charred_spruce_planks', 'gtceu:wood_dust', 400)
+    cutter('water_waxed_oak', 'dawnoftimebuilder:waxed_oak_log_stripped', 'minecraft:water 5', '4x dawnoftimebuilder:waxed_oak_planks', '2x gtceu:wood_dust', 400)
+    cutter('dist_waxed_oak', 'dawnoftimebuilder:waxed_oak_log_stripped', 'gtceu:distilled_water 3', '4x dawnoftimebuilder:waxed_oak_planks', '2x gtceu:wood_dust', 300)
+    cutter('lube_waxed_oak', 'dawnoftimebuilder:waxed_oak_log_stripped', 'gtceu:lubricant 1', '6x dawnoftimebuilder:waxed_oak_planks', 'gtceu:wood_dust', 400)
+    cutter('water_aeronos', '#ad_astra:aeronos_caps', 'minecraft:water 5', '4x ad_astra:aeronos_planks', '2x gtceu:wood_dust', 400)
+    cutter('dist_aeronos', '#ad_astra:aeronos_caps', 'gtceu:distilled_water 3', '4x ad_astra:aeronos_planks', '2x gtceu:wood_dust', 300)
+    cutter('lube_aeronos', '#ad_astra:aeronos_caps', 'gtceu:lubricant 1', '6x ad_astra:aeronos_planks', 'gtceu:wood_dust', 400)
+    cutter('water_strophar', '#ad_astra:strophar_caps', 'minecraft:water 5', '4x ad_astra:strophar_planks', '2x gtceu:wood_dust', 400)
+    cutter('dist_strophar', '#ad_astra:strophar_caps', 'gtceu:distilled_water 3', '4x ad_astra:strophar_planks', '2x gtceu:wood_dust', 300)
+    cutter('lube_strophar', '#ad_astra:strophar_caps', 'gtceu:lubricant 1', '6x ad_astra:strophar_planks', 'gtceu:wood_dust', 400)
+    cutter('water_glacian', '#ad_astra:glacian_logs', 'minecraft:water 5', '4x ad_astra:glacian_planks', '2x gtceu:wood_dust', 400)
+    cutter('dist_glacian', '#ad_astra:glacian_logs', 'gtceu:distilled_water 3', '4x ad_astra:glacian_planks', '2x gtceu:wood_dust', 300)
+    cutter('lube_glacian', '#ad_astra:glacian_logs', 'gtceu:lubricant 1', '6x ad_astra:glacian_planks', 'gtceu:wood_dust', 400)
+
+
+    notool('2x gtceu:rubber_planks', 'gtceu:rubber_log')
+    notool('2x caupona:walnut_planks', '#caupona:walnut_log')
+    notool('2x dawnoftimebuilder:charred_spruce_planks', 'dawnoftimebuilder:charred_spruce_log_stripped')
+    notool('2x dawnoftimebuilder:waxed_oak_planks', 'dawnoftimebuilder:waxed_oak_log_stripped')
+    notool('2x ad_astra:aeronos_planks', '#ad_astra:aeronos_caps')
+    notool('2x ad_astra:strophar_planks', '#ad_astra:strophar_caps')
+    notool('2x ad_astra:glacian_planks', '#ad_astra:glacian_logs')
+
     sawcraft('4x gtceu:rubber_planks', 'gtceu:rubber_log')
+    sawcraft('4x caupona:walnut_planks', '#caupona:walnut_log')
+    sawcraft('4x dawnoftimebuilder:charred_spruce_planks', 'dawnoftimebuilder:charred_spruce_log_stripped')
+    sawcraft('4x dawnoftimebuilder:waxed_oak_planks', 'dawnoftimebuilder:waxed_oak_log_stripped')
+    sawcraft('4x ad_astra:aeronos_planks', '#ad_astra:aeronos_caps')
+    sawcraft('4x ad_astra:strophar_planks', '#ad_astra:strophar_caps')
+    sawcraft('4x ad_astra:glacian_planks', '#ad_astra:glacian_logs')
 })

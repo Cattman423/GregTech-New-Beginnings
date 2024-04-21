@@ -96,33 +96,9 @@
 					type: "item"
 				}
 			]
+			title: "Easier Glass"
 			x: 5.5d
 			y: 2.0d
-		}
-		{
-			dependencies: ["23E74436B4CC52EC"]
-			id: "0581896335A678AC"
-			rewards: [
-				{
-					id: "58664F11CF934C30"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5A58F85A21E3F4F9"
-					table_id: 3224909851117441539L
-					type: "random"
-				}
-			]
-			size: 0.75d
-			tasks: [{
-				id: "2312AA92D7DA2C76"
-				item: "fluidtank:tank_wood"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 1.0d
 		}
 		{
 			dependencies: ["54D5926072B165D5"]
@@ -1043,32 +1019,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["0581896335A678AC"]
-			id: "12BAC26900561FE2"
-			optional: true
-			rewards: [
-				{
-					id: "35A58DD6FAC5ACB6"
-					type: "xp"
-					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1B71C58CA6832E36"
-					table_id: 3224909851117441539L
-					type: "random"
-				}
-			]
-			size: 0.75d
-			tasks: [{
-				id: "490F233D714364BC"
-				item: "fluidtank:tank_iron"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 0.0d
-		}
-		{
 			dependencies: ["3207FF72AB2204F6"]
 			id: "2E5EC2A70C589B0C"
 			optional: true
@@ -1292,6 +1242,84 @@
 			}]
 			x: 4.0d
 			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0BDAEF833FC83123"
+				"07B9229EA02A6C1E"
+			]
+			id: "38322351E59F4A58"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A9C6C284C5C46BC"
+				table_id: 3224909851117441539L
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 0.75d
+			tasks: [{
+				id: "6C09D31C183E2AAD"
+				item: "gtceu:kinetic_assembler"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23E74436B4CC52EC"]
+			id: "0BDAEF833FC83123"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E878E8A333A015B"
+				table_id: 3224909851117441539L
+				type: "random"
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "3346528C6274D949"
+				item: "create:framed_glass"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["23E74436B4CC52EC"]
+			hide_dependency_lines: true
+			id: "0581896335A678AC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F88E9CB9712C9AE"
+				table_id: 3224909851117441539L
+				type: "random"
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "2312AA92D7DA2C76"
+				item: "fluidtank:tank_wood"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0581896335A678AC"]
+			id: "12BAC26900561FE2"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18502EB0F99875C8"
+				table_id: 3224909851117441539L
+				type: "random"
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "490F233D714364BC"
+				item: "fluidtank:tank_iron"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
 		}
 	]
 	title: "Steam Age"
