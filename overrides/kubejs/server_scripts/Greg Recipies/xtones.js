@@ -1,47 +1,26 @@
 ServerEvents.recipes(event => {
-    function xtoneplain(id, circuit, output){
-    event.recipes.gtceu.builders_press(id)
-        .circuit(circuit)
-        .inputFluids('gtceu:construction_foam 4000')
-        .itemOutputs(output)
-        .EUt(60)
-        .duration(400)
+    function xtone(id, output, circuit) {
+        event.recipes.gtceu.builders_press(id)
+            .circuit(circuit)
+            .inputFluids('gtceu:construction_foam 4000')
+            .itemOutputs(output)
+            .EUt(60)
+            .duration(400)
     }
-    xtoneplain('agon', 0, '64x xtonesreworked:agon_block_0')
-    xtoneplain('azur', 1, '64x xtonesreworked:azur_block_0')
-    xtoneplain('bitt', 2, '64x xtonesreworked:bitt_block_0')
-    xtoneplain('cray', 3, '64x xtonesreworked:cray_block_0')
-    xtoneplain('fort', 4, '64x xtonesreworked:fort_block_0')
-    xtoneplain('glaxx', 5, '64x xtonesreworked:glaxx_block_0')
-    xtoneplain('iszm', 6, '64x xtonesreworked:iszm_block_0')
-    xtoneplain('jelt', 7, '64x xtonesreworked:jelt_block_0')
-    xtoneplain('korp', 8, '64x xtonesreworked:korp_block_0')
-    xtoneplain('kryp', 9, '64x xtonesreworked:kryp_block_0')
-    xtoneplain('lair', 10, '64x xtonesreworked:lair_block_0')
-    xtoneplain('lave', 11, '64x xtonesreworked:lave_block_0')
-    xtoneplain('mint', 12, '64x xtonesreworked:mint_block_0')
-    xtoneplain('myst', 13, '64x xtonesreworked:myst_block_0')
-    xtoneplain('reds', 14, '64x xtonesreworked:reds_block_0')
-    xtoneplain('reed', 15, '64x xtonesreworked:reed_block_0')
-    xtoneplain('roen', 16, '64x xtonesreworked:roen_block_0')
-    xtoneplain('sols', 17, '64x xtonesreworked:sols_block_0')
-    xtoneplain('sync', 18, '64x xtonesreworked:sync_block_0')
-    xtoneplain('tank', 19, '64x xtonesreworked:tank_block_0')
-    xtoneplain('vect', 20, '64x xtonesreworked:vect_block_0')
-    xtoneplain('vena', 21, '64x xtonesreworked:vena_block_0')
-    xtoneplain('zane', 22, '64x xtonesreworked:zane_block_0')
-    xtoneplain('zech', 23, '64x xtonesreworked:zech_block_0')
-    xtoneplain('zest', 24, '64x xtonesreworked:zest_block_0')
-    xtoneplain('zeta', 25, '64x xtonesreworked:zeta_block_0')
-    xtoneplain('zion', 26, '64x xtonesreworked:zion_block_0')
-    xtoneplain('zoea', 27, '64x xtonesreworked:zoea_block_0')
-    xtoneplain('zome', 28, '64x xtonesreworked:zome_block_0')
-    xtoneplain('zone', 29, '64x xtonesreworked:zone_block_0')
-    xtoneplain('zorg', 30, '64x xtonesreworked:zorg_block_0')
-    xtoneplain('ztyl', 31, '64x xtonesreworked:ztyl_block_0')
-    xtoneplain('zyth', 32, '64x xtonesreworked:zyth_block_0')
+
+    const xtonebase = ['agon', 'azur', 'bitt', 'cray', 'fort', 'glaxx', 'iszm', 'jelt', 'korp', 'kryp', 'lair', 'lave', 'mint', 'myst', 'reds', 'reed', 
+        'roen', 'sols', 'sync', 'tank', 'vect', 'vena', 'zane', 'zech', 'zest', 'zeta', 'zion', 'zoea', 'zome', 'zone', 'zorg', 'ztyl', 'zyth']
+
+    xtonebase.forEach( (base) => {
+        let id = 'kubejs:gtceu/builders_press/xtones/' + base
+        let out = '64x xtonesreworked:' + base + '_block_0'
+        let i = xtonebase.indexOf(base)
+
+        xtone(id, out, i)
+    })
+
 //Zkul
-    event.recipes.gtceu.builders_press('zkul')
+    event.recipes.gtceu.builders_press('kubejs:gtceu/builders_press/xtones/zkul')
         .notConsumable('minecraft:skeleton_skull')
         .inputFluids('gtceu:construction_foam 4000')
         .itemOutputs('64x xtonesreworked:zkul_block_0')

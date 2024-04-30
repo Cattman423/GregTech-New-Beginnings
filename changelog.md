@@ -1,5 +1,58 @@
 # Changelog
 
+## V 0.1.1 The Forestry Update
+
+* Make A backup of your world before updating the pack!
+
+* Progression
+  * Started overhaul of Productive Bees
+* Recipes
+  * Buffed Clay Dust from Millstone recipe
+  * Re-added Desh, Ostrum, and Ochrum ore processing to Create ore processing line
+  * Fixed some nugget recipes
+  * Enabled Chipped and Flawed Gems
+  * Sticky resin can now be tapped from GT Rubber Trees
+  * Added Fluix dust recipe to GT Macerator
+* Items
+  * Renamed Iron(III) Chloride to Ferric Chloride
+* Mod Additions
+  * Added Productive Trees
+  * Added Clumps
+  * Added Curios API
+  * Added Attribute Fix
+  * Added Connectivity
+  * Added Cosmetic Armour Reworked
+  * Added Server Performance - Smooth Chunk Save
+  * Added Double Doors
+  * Added Tree Placer
+  * Added Tree Tap
+  * Added Embeddium/Rubidium Dynamic Lights
+* Mod Updates
+  * Artifacts v9.5.2
+  * CC: Tweaked v1.110.3
+  * CreativeCore v2.11.27
+  * Create Deco v2.0.2
+  * Create Low Heated v0.5.1.f-f
+  * Create: Numismatics v1.0.4
+  * Collective v7.54
+  * Dungeon Now Loading 1% v1.3
+  * Embeddium++ v1.2.8
+  * Entity Texture Features v6.0.1
+  * Extended AE v1.1.4
+  * FTB Quests Optimizer v1.2.3
+  * InsaneLib v1.13.4
+  * JourneyMap v5.9.21
+  * Polymorphic Energistics v0.1.1
+  * ModernFix v5.17.0
+  * MoreJS v0.9.0
+  * Oculus v1.7.0
+  * Rechiseled v1.1.6
+  * Searchables v1.0.3
+  * Sophisticated Backpacks v3.20.3.1044
+  * Sophisticated Core v0.6.9.609
+  * Stargate Journey v0.6.25 Hotfix
+  * Vintage Delight v0.0.12
+
 ## V 0.1.0
 
 * Make A backup before updating the pack!
@@ -41,7 +94,7 @@
 * Mod Updates
   * Artifacts v9.4.2
   * Almost Unified v0.9.3
-  * Ammendments v1.1.22
+  * Amendments v1.1.22
   * Applied Energistics 2 v15.1.1
   * Bookshelf v20.1.10
   * CC: Tweaked v1.110.2
@@ -116,10 +169,10 @@
   * Added Hunger System Overhaul
 * Mod Updates
   * Artifacts v9.4.0
-  * Ammendments v1.1.14
+  * Amendments v1.1.14
   * Applied Energistics 2 v15.1.0
   * Create Central Kitchen v1.3.12
-  * Create Enchanment Industry v1.2.9.c
+  * Create Enchantment Industry v1.2.9.c
   * Cucumber v7.0.8
   * Embeddium v0.3.12
   * Extended AE v1.1.1
@@ -319,7 +372,7 @@
   * Retextured Deep Space circuits
   * Replaced `Kubejs:Quantum` circuit line with `Kubejs:Fungal` circuit line
   * Reworked `create:mechanical_pump` to be craftable in the create age
-  * Started AE2 ovehaul
+  * Started AE2 overhaul
 * Quests
   * Added rewards to the Start Here quests
   * Added rewards to the Create Age quests

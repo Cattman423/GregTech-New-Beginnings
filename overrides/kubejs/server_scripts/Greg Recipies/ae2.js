@@ -198,4 +198,11 @@ ServerEvents.recipes(event => {
         .itemOutputs('2x ae2:fluix_crystal')
         .duration(400)
         .EUt(120)
+
+    event.recipes.gtceu.macerator('fluix_dust')
+        .itemInputs('ae2:fluix_crystal')
+        .itemOutputs('ae2:fluix_dust')
+        .chancedOutput('ae2:fluix_dust', 500, 5)
+        .duration(400)
+        .EUt(30)
 })

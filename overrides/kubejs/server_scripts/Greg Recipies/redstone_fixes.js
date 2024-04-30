@@ -177,4 +177,71 @@ ServerEvents.recipes(event => {
     buttoncutter('water_glacian_button', 'ad_astra:glacian_pressure_plate', 'minecraft:water 4', '12x ad_astra:glacian_button', 50)
     buttoncutter('dist_water_glacian_button', 'ad_astra:glacian_pressure_plate', 'gtceu:distilled_water 3', '12x ad_astra:glacian_button', 37)
     buttoncutter('lube_glacian_button', 'ad_astra:glacian_pressure_plate', 'gtceu:lubricant 1', '12x ad_astra:glacian_button', 25)
+//Productive Trees
+    const prodtreeplanks = ['alder', 'allspice', 'almond', 'apricot', 'aquilaria', 'asai_palm', 'ash', 'aspen', 'avocado', 'balsa', 'balsam_fir', 'banana', 'beech', 
+    'beliy_naliv_apple', 'blackthorn', 'black_cherry', 'black_ember', 'black_locust', 'blue_mahoe', 'boxwood', 'brazilwood', 'brazil_nut', 'breadfruit', 'brown_amber', 
+    'buddhas_hand', 'bull_pine', 'butternut', 'cacao', 'candlenut', 'carob', 'cashew', 'cave_dweller', 'cedar', 'cempedak', 'ceylon_ebony', 'cherry_plum', 'cinnamon', 
+    'citron', 'clove', 'cocobolo', 'coconut', 'coffea', 'copoazu', 'copper_beech', 'cork_oak', 'cultivated_pear', 'date_palm', 'dogwood', 'douglas_fir', 'elderberry', 'elm', 
+    'european_larch', 'finger_lime', 'firecracker', 'flickering_sun', 'flowering_crabapple', 'foggy_blast', 'ginkgo', 'golden_delicious_apple', 'grandidiers_baobab', 
+    'granny_smith_apple', 'grapefruit', 'great_sallow', 'greenheart', 'hawthorn', 'hazel', 'holly', 'hornbeam', 'ipe', 'iroko', 'jackfruit', 'juniper', 'kapok', 'key_lime', 
+    'kumquat', 'lawson_cypress', 'lemon', 'lime', 'loblolly_pine', 'logwood', 'mahogany', 'mandarin', 'mango', 'monkey_puzzle', 'moonlight_magic_crepe_myrtle', 'myrtle_ebony', 
+    'nectarine', 'night_fuchsia', 'nutmeg', 'old_fustic', 'olive', 'orange', 'osange_orange', 'padauk', 'pandanus', 'papaya', 'peach', 'pecan', 'persimmon', 'pink_ivory', 
+    'pink_ipe', 'pistachio', 'plantain', 'plum', 'pomegranate', 'pomelo', 'prairie_crabapple', 'purpleheart', 'purple_blackthorn', 'purple_crepe_myrtle', 'purple_spiral', 
+    'purple_ipe', 'rainbow_gum', 'red_banana', 'red_crepe_myrtle', 'red_delicious_apple', 'red_maple', 'rippling_willow', 'rosewood', 'rose_gum', 'rowan', 'rubber_tree', 
+    'salak', 'sandalwood', 'sand_pear', 'satsuma', 'sequoia', 'silver_fir', 'silver_lime', 'slimy_delight', 'socotra_dragon', 'soul_tree', 'soursop', 'sour_cherry', 
+    'sparkle_cherry', 'star_anise', 'star_fruit', 'sugar_apple', 'sugar_maple', 'swamp_gum', 'sweetgum', 'sweet_chestnut', 'sweet_crabapple', 'sycamore_fig', 'tangerine', 
+    'teak', 'thunder_bolt', 'time_traveller', 'tuscarora_crepe_myrtle', 'blue_yonder', 'walnut', 'water_wonder', 'wenge', 'western_hemlock', 'whitebeam', 'white_poplar', 
+    'white_ipe', 'white_willow', 'wild_cherry', 'yellow_meranti', 'yew', 'zebrano']
+
+    prodtreeplanks.forEach( (base) => {
+        let inp = 'productivetrees:' + base + '_slab'
+        let out = '2x productivetrees:' + base + '_pressure_plate'
+
+        woodpressureplate(out, inp)
+    })
+
+    prodtreeplanks.forEach( (base) => {
+        let id = 'kubejs:gtceu/assembler/redstone/prodtrees/' + base + '_pressure_plate'
+        let inp = '2x productivetrees:' + base + '_slab'
+        let out = '2x productivetrees:' + base + '_pressure_plate'
+
+        pressureplateass(id, out, inp)
+    })
+
+    prodtreeplanks.forEach( (base) => {
+        let inp = 'productivetrees:' + base + '_pressure_plate'
+        let out = '12x productivetrees:' + base + '_button'
+
+        buttoncraft(out, inp)
+    })
+
+    prodtreeplanks.forEach( (base) => {
+        let id = 'kubejs:gtceu/cutter/redstone/prodtrees/' + base + '_water'
+        let inp = 'productivetrees:' + base + '_pressure_plate'
+        let fluid = 'minecraft:water 5'
+        let out = '12x productivetrees:' + base + '_button'
+        let t = 50
+
+        buttoncutter(id, inp, fluid, out, t)
+    })
+
+    prodtreeplanks.forEach( (base) => {
+        let id = 'kubejs:gtceu/cutter/redstone/prodtrees/' + base + '_dist'
+        let inp = 'productivetrees:' + base + '_pressure_plate'
+        let fluid = 'gtceu:distilled_water 3'
+        let out = '12x productivetrees:' + base + '_button'
+        let t = 37
+
+        buttoncutter(id, inp, fluid, out, t)
+    })
+
+    prodtreeplanks.forEach( (base) => {
+        let id = 'kubejs:gtceu/cutter/redstone/prodtrees/' + base + '_lube'
+        let inp = 'productivetrees:' + base + '_pressure_plate'
+        let fluid = 'gtceu:lubricant 1'
+        let out = '12x productivetrees:' + base + '_button'
+        let t = 25
+
+        buttoncutter(id, inp, fluid, out, t)
+    })
 })

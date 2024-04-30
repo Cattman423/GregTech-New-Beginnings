@@ -81,6 +81,7 @@
 		{
 			dependencies: ["4AEB55A92229EA6F"]
 			id: "41B8910A54BA4210"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -113,6 +114,7 @@
 			]
 			icon: "create:windmill_bearing"
 			id: "2C85B125BAEF65A3"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -359,6 +361,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "5468ECF42040C129"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -409,6 +412,7 @@
 			dependencies: ["392ACD047179A5D8"]
 			icon: "gtceu:coke_oven"
 			id: "6E3CD9EF8D2F90DC"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -801,6 +805,7 @@
 		{
 			dependencies: ["576E2F40DEF76344"]
 			id: "606DA6A53D1E2C79"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -917,7 +922,6 @@
 		{
 			dependencies: ["7F4D9E3845178B7B"]
 			id: "235E8244B5B522FF"
-			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1014,6 +1018,7 @@
 		{
 			dependencies: ["5468ECF42040C129"]
 			id: "36C838DF116F3DC6"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1127,6 +1132,7 @@
 			description: ["With your Coke oven, I want some charcoal and some coke, if you give me these items, I have a present for you."]
 			icon: "gtceu:coke_gem"
 			id: "6C664AC541F96CF6"
+			optional: true
 			rewards: [
 				{
 					id: "35FBF4658C240B5B"
@@ -1243,6 +1249,7 @@
 				"235E8244B5B522FF"
 			]
 			id: "7D685353A25903BB"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1380,6 +1387,7 @@
 			dependencies: ["4AEB55A92229EA6F"]
 			description: ["With this millstone you can put down the morter, unless you want some paper..."]
 			id: "4B51A58EDFDFB90C"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "11BA7692098E0FDB"
@@ -1398,6 +1406,7 @@
 			dependencies: ["38747E7B7CB63D8D"]
 			description: ["With some crushing wheels, you can get a start on ore-processing with byproducts!"]
 			id: "31A4B48A295F5197"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "01FB6182A4F4910F"

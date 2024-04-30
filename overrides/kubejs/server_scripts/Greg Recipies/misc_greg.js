@@ -411,6 +411,24 @@ ServerEvents.recipes(event => {
             B: 'supplementaries:sconce'
         }
         )
+    event.shaped(
+        Item.of('treetap:tap'),
+        [
+            'ABC',
+            'DDE',
+            'FGH'
+        ],
+        {
+            A: '#forge:tools/hammers',
+            B: 'gtceu:andesite_alloy_screw',
+            C: '#forge:tools/screwdrivers',
+            D: 'gtceu:copper_normal_fluid_pipe',
+            E: 'gtceu:copper_small_fluid_pipe',
+            F: 'gtceu:copper_large_fluid_pipe',
+            G: '#forge:tools/wrenches',
+            H: '#forge:tools/files'
+        }
+        )
     smelting('gtceu:raw_zircon', 'gtceu:zirconium_ingot')
     smelting('gtceu:endstone_zircon_ore', '2x gtceu:zirconium_ingot')
     smelting('gtceu:netherrack_zircon_ore', '2x gtceu:zirconium_ingot')

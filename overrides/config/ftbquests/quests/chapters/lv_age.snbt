@@ -46,6 +46,7 @@
 		{
 			dependencies: ["79F35DAA01A154B9"]
 			id: "3C4BDE1873D01587"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -72,6 +73,7 @@
 		{
 			dependencies: ["79F35DAA01A154B9"]
 			id: "5F5944C2B43B10AC"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -98,6 +100,7 @@
 		{
 			dependencies: ["79F35DAA01A154B9"]
 			id: "3937D677DE66DAB8"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -124,6 +127,7 @@
 		{
 			dependencies: ["79F35DAA01A154B9"]
 			id: "6EF25B4F7E987329"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -150,6 +154,7 @@
 		{
 			dependencies: ["79F35DAA01A154B9"]
 			id: "5A5D4764A12F1643"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1979,6 +1984,7 @@
 			dependencies: ["0A30CCFFB2BFB567"]
 			description: ["With the assembler, you can now make cables with liquid rubber instead of making sheets first"]
 			id: "0F09E0BBC009A78B"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -2112,6 +2118,7 @@
 				"684E9CD189ACC2D0"
 			]
 			id: "345C604165A797F7"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -2197,6 +2204,7 @@
 		{
 			dependencies: ["44A087F9D2E4BFC8"]
 			id: "7C8F641693F6DBCB"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "42B79B2362678A38"

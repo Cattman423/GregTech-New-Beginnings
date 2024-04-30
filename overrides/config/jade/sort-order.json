@@ -111,6 +111,7 @@
   "create:goggles": null,
   "expatternprovider:jade_chamber": null,
   "melter:melter_data": null,
+  "treetap:tap": null,
   "melter:melter_data": null,
   "apotheosis:spawner": null,
   "apotheosis:ench": null,
@@ -221,6 +222,7 @@
   "workshop_for_handsome_adventurer:jade_plugin2": null,
   "workshop_for_handsome_adventurer:jade_plugin3": null,
   "fluidtank:jade_plugin": null,
+  "treetap:tap": null,
   "delightful:crop_progress": null,
   "delightful:pie_icons": null
 }

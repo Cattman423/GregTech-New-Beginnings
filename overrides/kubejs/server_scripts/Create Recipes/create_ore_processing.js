@@ -413,7 +413,7 @@ ServerEvents.recipes(event => {
     crushwheel(['gtceu:crushed_dolomite_ore', Item.of('gtceu:crushed_dolomite_ore').withChance(0.5), Item.of('create:experience_nugget').withChance(0.75)], 'gtceu:raw_dolomite')
     crushwheel(['gtceu:impure_dolomite_dust', Item.of('gtceu:impure_dolomite_dust').withChance(0.5), Item.of('gtceu:dolomite_dust').withChance(0.1)], 'gtceu:crushed_dolomite_ore')
     wash('gtceu:dolomite_dust', 'gtceu:impure_dolomite_dust')
-    /*crushwheel(['gtceu:crushed_desh_ore', Item.of('gtceu:crushed_desh_ore').withChance(0.5), Item.of('create:experience_nugget').withChance(0.75)], 'gtceu:raw_desh')
+    crushwheel(['gtceu:crushed_desh_ore', Item.of('gtceu:crushed_desh_ore').withChance(0.5), Item.of('create:experience_nugget').withChance(0.75)], 'gtceu:raw_desh')
     crushwheel(['gtceu:impure_desh_dust', Item.of('gtceu:impure_desh_dust').withChance(0.5), Item.of('gtceu:desh_dust').withChance(0.1)], 'gtceu:crushed_desh_ore')
     wash('gtceu:desh_dust', 'gtceu:impure_desh_dust')
     crushwheel(['gtceu:crushed_ostrum_ore', Item.of('gtceu:crushed_ostrum_ore').withChance(0.5), Item.of('create:experience_nugget').withChance(0.75)], 'gtceu:raw_ostrum')
@@ -421,7 +421,7 @@ ServerEvents.recipes(event => {
     wash('gtceu:ostrum_dust', 'gtceu:impure_ostrum_dust')
     crushwheel(['gtceu:crushed_calorite_ore', Item.of('gtceu:crushed_calorite_ore').withChance(0.5), Item.of('create:experience_nugget').withChance(0.75)], 'gtceu:raw_calorite')
     crushwheel(['gtceu:impure_calorite_dust', Item.of('gtceu:impure_calorite_dust').withChance(0.5), Item.of('gtceu:calorite_dust').withChance(0.1)], 'gtceu:crushed_calorite_ore')
-    wash('gtceu:calorite_dust', 'gtceu:impure_calorite_dust')*/
+    wash('gtceu:calorite_dust', 'gtceu:impure_calorite_dust')
     crushwheel(['gtceu:crushed_zinc_ore', Item.of('gtceu:crushed_zinc_ore').withChance(0.5), Item.of('create:experience_nugget').withChance(0.75)], 'gtceu:raw_zinc')
     crushwheel(['gtceu:impure_zinc_dust', Item.of('gtceu:impure_zinc_dust').withChance(0.5), Item.of('gtceu:zinc_dust').withChance(0.1)], 'gtceu:crushed_zinc_ore')
     wash('gtceu:zinc_dust', 'gtceu:impure_zinc_dust')

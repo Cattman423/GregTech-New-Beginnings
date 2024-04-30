@@ -576,6 +576,7 @@
 			description: ["This is really expensive if you haven't gotten the Lv mixer to make concrete with water stone dust and clay dust, a whole lot cheaper than the manual crafting you're doing now."]
 			icon: "gtceu:primitive_blast_furnace"
 			id: "263C39E4AEADD22E"
+			optional: true
 			rewards: [
 				{
 					id: "13EB971B24D1D60C"
@@ -874,6 +875,7 @@
 		{
 			dependencies: ["71EC3043DE613FF5"]
 			id: "44853FAC4AC3675E"
+			optional: true
 			rewards: [
 				{
 					id: "5A8A3203AE928E2C"
@@ -1189,6 +1191,7 @@
 		{
 			dependencies: ["71EC3043DE613FF5"]
 			id: "1E899C9F261952B4"
+			optional: true
 			rewards: [
 				{
 					id: "03482877387B2827"
@@ -1214,6 +1217,7 @@
 		{
 			dependencies: ["23E74436B4CC52EC"]
 			id: "68418E565CCFACAF"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "28948D74C1193BE9"
@@ -1248,6 +1252,8 @@
 				"0BDAEF833FC83123"
 				"07B9229EA02A6C1E"
 			]
+			description: ["You MUST use steam import busses for this multiblock, otherwise you won't be able to make your circuits."]
+			icon: "gtceu:kinetic_assembler"
 			id: "38322351E59F4A58"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1257,11 +1263,72 @@
 			}]
 			shape: "octagon"
 			size: 0.75d
-			tasks: [{
-				id: "6C09D31C183E2AAD"
-				item: "gtceu:kinetic_assembler"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6C09D31C183E2AAD"
+					item: "gtceu:kinetic_assembler"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3BFE62E8DFA0521F"
+					item: { Count: 2b, id: "create:mechanical_arm" }
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "1AC7CC0BF566B4A3"
+					item: { Count: 17b, id: "create:framed_glass" }
+					type: "item"
+				}
+				{
+					id: "73E6062AFF1A769C"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "189262960B419C2D"
+					item: "create:depot"
+					type: "item"
+				}
+				{
+					id: "23BF5627B019C1BF"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "56B091A1E589402B"
+					item: "create:spout"
+					type: "item"
+				}
+				{
+					count: 60L
+					id: "734D963FF6DEAD6C"
+					item: { Count: 60b, id: "create:andesite_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "19C0A78A61AC8F0E"
+					item: { Count: 2b, id: "gtceu:steam_input_bus" }
+					type: "item"
+				}
+				{
+					id: "5469CB08D5562967"
+					item: "gtceu:ulv_output_bus"
+					type: "item"
+				}
+				{
+					id: "579B924B6D4D18C3"
+					item: "gtceu:lv_kinetic_input_box"
+					type: "item"
+				}
+				{
+					id: "1157CC2B24D5EE98"
+					item: "gtceu:ulv_input_hatch"
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: 0.0d
 		}
@@ -1287,6 +1354,7 @@
 			dependencies: ["23E74436B4CC52EC"]
 			hide_dependency_lines: true
 			id: "0581896335A678AC"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7F88E9CB9712C9AE"
@@ -1320,6 +1388,47 @@
 			}]
 			x: 7.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["002FD4AF44DAF6EB"]
+			description: [
+				"Do you hate endlessly cutting down rubber trees for minimal sticky resin? Do you like LARPing as Plantation owner in 1920's Central Africa/Brazil? Then I have just the thing for you! We at Cattman Modding Inc have developed a new technology for you, the Tree Tap, now you too can set up massive rubber plantations to grow your empire!"
+				""
+				"To use, place the treetap on the trunk of a GT rubber tree, then right click on the tree tap with a bucket. The bigger the tree that the tap is on, the faster it operates."
+				""
+				"This tree tap is automatable, using standard I/O methods."
+			]
+			icon: "treetap:tap"
+			id: "623E05CC59C0246D"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "37C828A6E7A50832"
+					table_id: 3224909851117441539L
+					type: "loot"
+				}
+				{
+					id: "0383B5E939FDC994"
+					item: "gtceu:rubber_sapling"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			tasks: [
+				{
+					id: "5512BFE200606C6A"
+					item: "treetap:tap"
+					type: "item"
+				}
+				{
+					id: "30DD552AC247ADD8"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 4.0d
 		}
 	]
 	title: "Steam Age"

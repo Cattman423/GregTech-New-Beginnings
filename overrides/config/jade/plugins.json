@@ -161,6 +161,9 @@
     "milk_jar": true,
     "toaster": true
   },
+  "treetap": {
+    "tap": true
+  },
   "storagedrawers": {
     "display.stacklimit": true,
     "display.content": true,

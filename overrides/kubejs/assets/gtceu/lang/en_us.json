@@ -7,7 +7,7 @@
     "material.gtceu.enriched_certus": "Enriched Certus",
     "material.gtceu.mithril": "Mithril",
     "material.gtceu.prasiolite": "Prasiolite",
-    "material.gtceu.telluriums": "Tellurium",
+    "material.gtceu.tellurium": "Tellurium",
     "material.gtceu.bismuth_tellurite": "Bismuth Tellurite",
     "material.gtceu.zirconium": "Zirconium",
     "material.gtceu.cubic_zirconium": "Cubic Zirconium",
@@ -18,6 +18,8 @@
     "material.gtceu.zircon": "Zircon",
     "material.gtceu.lignite": "Lignite",
     "material.gtceu.protonium": "Protonium",
+
+    "material.gtceu.iron_iii_chloride": "Ferric Chloride",
 
     "gtceu.create_mixer": "Semikinetic Mixer",
     "gtceu.basic_alternator": "Basic Alternator",

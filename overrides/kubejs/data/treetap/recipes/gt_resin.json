@@ -1,0 +1,11 @@
+{
+    "type": "treetap:tap_extract",
+    "log": {
+      "item": "gtceu:rubber_log"
+    },
+    "processing_time": 1200,
+    "result": {
+      "item": "gtceu:sticky_resin"
+    },
+    "fluid_color": "#F9C888"
+  }

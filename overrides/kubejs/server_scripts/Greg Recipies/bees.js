@@ -278,4 +278,125 @@ function honeycombfluidblock(id, input, output, time, eu){
     honeycombfluidblock('experience_block', '{EntityTag: {type: "productivebees:experience"}}', 'experienceobelisk:cognitium 400', 1200, 30)
     honeycombfluidblock('hyper_experience_block', '{EntityTag: {type: "productivebees:hyper_experience"}}', 'create_enchantment_industry:hyper_experience 40', 1200, 30)
     honeycombfluidblock('tea_block', '{EntityTag: {type: "productivebees:tea"}}', 'create:tea 400', 1200, 30)
+
+//Bee Houses and frames
+    event.shaped(
+        Item.of('kubejs:bee_frame'),
+        [
+            'AAA',
+            'BCB',
+            'BBB'
+        ],
+        {
+            A: '#minecraft:wooden_slabs',
+            B: 'minecraft:stick',
+            C: 'minecraft:honeycomb'
+        }
+    )
+    event.recipes.gtceu.assembler('kubejs:gtceu/assembler/bees/advanced_frame')
+        .itemInputs('3x gtceu:treated_wood_plate', '5x gtceu:treated_wood_rod', '2x minecraft:string')
+        .inputFluids('gtceu:seed_oil 250')
+        .itemOutputs('kubejs:advanced_frame')
+        .EUt(60)
+        .duration(1200)
+    event.recipes.gtceu.assembler('kubejs:gtceu/assembler/bees/ultimate_frame')
+        .itemInputs('gtceu:nickel_zinc_ferrite_plate', '5x gtceu:nickel_zinc_ferrite_rod', 'gtceu:carbon_fiber_plate')
+        .inputFluids('gtceu:polyethylene 288')
+        .itemOutputs('kubejs:ultimate_frame')
+        .EUt(1920)
+        .duration(1200)
+    event.shaped(
+        Item.of('minecraft:beehive'),
+        [
+            'AAA',
+            'BBB',
+            'AAA'
+        ],
+        {
+            A: '#minecraft:planks',
+            B: 'kubejs:bee_frame'
+        }
+    )
+    function adbee(id, input, output){
+        event.recipes.gtceu.assembler(id)
+            .circuit(1)
+            .itemInputs(input, '3x kubejs:advanced_frame', '4x gtceu:steel_screw', 'minecraft:beehive')
+            .itemOutputs(output)
+            .EUt(120)
+            .duration(1200)
+    }
+    function adbeeexp(id, input, output){
+        event.recipes.gtceu.assembler(id)
+            .circuit(2)
+            .itemInputs(input, '2x kubejs:advanced_frame', '4x gtceu:steel_screw')
+            .itemOutputs(output)
+            .EUt(480)
+            .duration(1200)
+    }
+    const mcplanks = ['oak', 'spruce', 'birch', 'jungle', 'acacia', 'dark_oak', 'mangrove', 'cherry']
+
+    const bopplanks = ['fir', 'redwood', 'mahogany', 'jacaranda', 'palm', 'willow', 'dead', 'magic', 'umbran', 'hellbark']
+
+    const prodtreeplanks = ['alder', 'allspice', 'almond', 'apricot', 'aquilaria', 'asai_palm', 'ash', 'aspen', 'avocado', 'balsa', 'balsam_fir', 'banana', 'beech', 
+    'beliy_naliv_apple', 'blackthorn', 'black_cherry', 'black_ember', 'black_locust', 'blue_mahoe', 'boxwood', 'brazilwood', 'brazil_nut', 'breadfruit', 'brown_amber', 
+    'buddhas_hand', 'bull_pine', 'butternut', 'cacao', 'candlenut', 'carob', 'cashew', 'cave_dweller', 'cedar', 'cempedak', 'ceylon_ebony', 'cherry_plum', 'cinnamon', 
+    'citron', 'clove', 'cocobolo', 'coconut', 'coffea', 'copoazu', 'copper_beech', 'cork_oak', 'cultivated_pear', 'date_palm', 'dogwood', 'douglas_fir', /*'elderberry',*/ 'elm', 
+    'european_larch', 'finger_lime', 'firecracker', 'flickering_sun', 'flowering_crabapple', 'foggy_blast', 'ginkgo', 'golden_delicious_apple', 'grandidiers_baobab', 
+    'granny_smith_apple', 'grapefruit', 'great_sallow', 'greenheart', 'hawthorn', 'hazel', 'holly', 'hornbeam', 'ipe', 'iroko', 'jackfruit', 'juniper', 'kapok', 'key_lime', 
+    'kumquat', 'lawson_cypress', 'lemon', 'lime', 'loblolly_pine', 'logwood', 'mahogany', 'mandarin', 'mango', 'monkey_puzzle', 'moonlight_magic_crepe_myrtle', 'myrtle_ebony', 
+    'nectarine', 'night_fuchsia', 'nutmeg', 'old_fustic', 'olive', 'orange', 'osange_orange', 'padauk', 'pandanus', 'papaya', 'peach', 'pecan', 'persimmon', 'pink_ivory', 
+    'pink_ipe', 'pistachio', 'plantain', 'plum', 'pomegranate', 'pomelo', 'prairie_crabapple', 'purpleheart', 'purple_blackthorn', 'purple_crepe_myrtle', 'purple_spiral', 
+    'purple_ipe', 'rainbow_gum', 'red_banana', 'red_crepe_myrtle', 'red_delicious_apple', 'red_maple', 'rippling_willow', 'rosewood', 'rose_gum', 'rowan', 'rubber_tree', 
+    'salak', 'sandalwood', 'sand_pear', 'satsuma', 'sequoia', 'silver_fir', 'silver_lime', 'slimy_delight', 'socotra_dragon', 'soul_tree', 'soursop', 'sour_cherry', 
+    'sparkle_cherry', 'star_anise', 'star_fruit', 'sugar_apple', 'sugar_maple', 'swamp_gum', 'sweetgum', 'sweet_chestnut', 'sweet_crabapple', 'sycamore_fig', 'tangerine', 
+    'teak', 'thunder_bolt', 'time_traveller', 'tuscarora_crepe_myrtle', 'blue_yonder', 'walnut', 'water_wonder', 'wenge', 'western_hemlock', 'whitebeam', 'white_poplar', 
+    'white_ipe', 'white_willow', 'wild_cherry', 'yellow_meranti', 'yew', 'zebrano']
+
+    mcplanks.forEach( (base) => {
+        let id = 'kubejs:gtceu/assembler/bees/advanced_' + base + '_beehive'
+        let inp = '4x minecraft:' + base + '_planks'
+        let out = 'productivebees:advanced_' + base + '_beehive'
+
+        adbee(id, inp, out)
+    })
+
+    bopplanks.forEach( (base) => {
+        let id = 'kubejs:gtceu/assembler/bees/advanced_biomesoplenty_' + base + '_beehive'
+        let inp = '4x biomesoplenty:' + base + '_planks'
+        let out = 'productivebees:advanced_biomesoplenty_' + base + '_beehive'
+
+        adbee(id, inp, out)
+    })
+
+    prodtreeplanks.forEach( (base) => {
+        let id = 'kubejs:gtceu/assembler/bees/advanced_' + base + '_beehive'
+        let inp = '4x productivetrees:' + base + '_planks'
+        let out = 'productivetrees:advanced_' + base + '_beehive'
+
+        adbee(id, inp, out)
+    })
+
+    mcplanks.forEach( (base) => {
+        let id = 'kubejs:gtceu/assembler/bees/expansion_box_' + base
+        let inp = '8x minecraft:' + base + '_planks'
+        let out = 'productivebees:expansion_box_' + base
+
+        adbeeexp(id, inp, out)
+    })
+
+    bopplanks.forEach( (base) => {
+        let id = 'kubejs:gtceu/assembler/bees/expansion_box_biomesoplenty_' + base
+        let inp = '8x biomesoplenty:' + base + '_planks'
+        let out = 'productivebees:expansion_box_biomesoplenty_' + base
+
+        adbeeexp(id, inp, out)
+    })
+
+    prodtreeplanks.forEach( (base) => {
+        let id = 'kubejs:gtceu/assembler/bees/expansion_box_' + base
+        let inp = '8x productivetrees:' + base + '_planks'
+        let out = 'productivetrees:expansion_box_' + base
+
+        adbeeexp(id, inp, out)
+    })
 })
