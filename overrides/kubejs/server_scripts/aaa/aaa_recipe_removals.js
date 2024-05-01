@@ -404,11 +404,11 @@ ServerEvents.recipes(event => {
     event.remove({id:'productivebees:centrifuge'})
     event.remove({id:'productivebees:powered_centrifuge/vanilla'})
     event.remove({id:'productivebees:heated_centrifuge'})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
+    event.remove({id:'tfmg:crafting/pipes/brass_pipe_horizontal'})
+    event.remove({id:'tfmg:crafting/pipes/brass_pipe_vertical'})
+    event.remove({id:'tfmg:crafting/pipes/aluminum_pipe_vertical'})
+    event.remove({id:'tfmg:crafting/pipes/aluminum_pipe_horizontal'})
+    event.remove({id:'createcasing:cutting/brass_ingot'})
     event.remove({id:''})
     event.remove({id:''})
     event.remove({id:''})
@@ -588,6 +588,8 @@ ServerEvents.recipes(event => {
     'teak', 'thunder_bolt', 'time_traveller', 'tuscarora_crepe_myrtle', 'blue_yonder', 'walnut', 'water_wonder', 'wenge', 'western_hemlock', 'whitebeam', 'white_poplar', 
     'white_ipe', 'white_willow', 'wild_cherry', 'yellow_meranti', 'yew', 'zebrano']
 
+    const shaft = ['oak', 'spruce', 'birch', 'jungle', 'acacia', 'dark_oak', 'mangrove', 'cherry', 'crimson', 'warped', 'glass', 'bamboo']
+
     function removals(output){
         event.remove({id: output})
     }
@@ -621,6 +623,10 @@ ServerEvents.recipes(event => {
     })
     prodtreeplanks.forEach( (base) => {
         let id = 'productivetrees:trapdoor/' + base + '_trapdoor'
+        removals(id)
+    })
+    shaft.forEach( (base) => {
+        let id = 'createcasing:crafting/shafts/' + base + '_shaft'
         removals(id)
     })
 })

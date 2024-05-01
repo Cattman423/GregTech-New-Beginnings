@@ -429,6 +429,12 @@ ServerEvents.recipes(event => {
             H: '#forge:tools/files'
         }
         )
+    event.shapeless(
+        Item.of('8x gtceu:brass_nugget'),
+        [
+          'gtceu:brass_ingot', '#forge:tools/saws',
+        ]
+        )
     smelting('gtceu:raw_zircon', 'gtceu:zirconium_ingot')
     smelting('gtceu:endstone_zircon_ore', '2x gtceu:zirconium_ingot')
     smelting('gtceu:netherrack_zircon_ore', '2x gtceu:zirconium_ingot')

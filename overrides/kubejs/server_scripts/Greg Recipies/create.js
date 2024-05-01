@@ -679,6 +679,45 @@ ServerEvents.recipes(event => {
             F: 'gtceu:poor_steel_bolt'
         }
         )
+    const mcplanks = ['oak', 'spruce', 'birch', 'jungle', 'acacia', 'dark_oak', 'mangrove', 'cherry']
+
+    mcplanks.forEach( (base) => {
+        event.shapeless(
+            Item.of('createcasing:' + base + '_shaft'),
+            [
+              'minecraft:stripped_' + base + '_log', 'create:shaft',
+            ]
+            )
+    })
+    event.shapeless(
+        Item.of('createcasing:bamboo_shaft'),
+        [
+          'minecraft:stripped_bamboo_block', 'create:shaft',
+        ]
+        )
+    event.shapeless(
+        Item.of('createcasing:crimson_shaft'),
+        [
+          'minecraft:stripped_crimson_stem', 'create:shaft',
+        ]
+        )
+    event.shapeless(
+        Item.of('createcasing:warped_shaft'),
+        [
+          'minecraft:stripped_warped_stem', 'create:shaft',
+        ]
+        )
+    event.shaped(
+        Item.of('createcasing:brass_shaft'),
+        [' A ', ' B ', ' C '],
+        {A: '#forge:tools/hammers', B: 'gtceu:brass_plate', C: 'create:shaft'}
+        )
+    event.recipes.gtceu.lathe('kubejs:gtceu/lathe/create/glass_shaft')
+        .itemInputs(/*'minecraft:glass'*/'#forge:glass')
+        .itemOutputs('createcasing:glass_shaft')
+        .EUt(16)
+        .duration(196)
+
     chute('2x create:chute', 'gtceu:andesite_alloy_plate', 'gtceu:small_andesite_alloy_gear')
     chute('2x create:smart_chute', 'gtceu:brass_plate', 'create:electron_tube')
     cogs('plastic_cog', 'gtceu:small_wood_gear', 'gtceu:polyethylene 144')

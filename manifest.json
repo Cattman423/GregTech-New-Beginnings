@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "GregTech:New Beginnings",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "",
   "files": [
     {
@@ -511,7 +511,7 @@
     },
     {
       "projectID": 896746,
-      "fileID": 5269334,
+      "fileID": 5308080,
       "required": true
     },
     {
@@ -601,7 +601,7 @@
     },
     {
       "projectID": 499980,
-      "fileID": 5254462,
+      "fileID": 5306528,
       "required": true
     },
     {
@@ -860,13 +860,13 @@
       "required": false
     },
     {
-      "projectID": 856996,
-      "fileID": 4861833,
+      "projectID": 314906,
+      "fileID": 5210496,
       "required": true
     },
     {
-      "projectID": 314906,
-      "fileID": 5210496,
+      "projectID": 856996,
+      "fileID": 4861833,
       "required": true
     },
     {
@@ -941,7 +941,7 @@
     },
     {
       "projectID": 377897,
-      "fileID": 5223785,
+      "fileID": 5304827,
       "required": true
     },
     {
@@ -950,13 +950,13 @@
       "required": true
     },
     {
-      "projectID": 412742,
-      "fileID": 4963937,
+      "projectID": 245755,
+      "fileID": 4962610,
       "required": true
     },
     {
-      "projectID": 245755,
-      "fileID": 4962610,
+      "projectID": 412742,
+      "fileID": 4963937,
       "required": true
     },
     {
@@ -990,13 +990,13 @@
       "required": true
     },
     {
-      "projectID": 398521,
-      "fileID": 5051242,
+      "projectID": 912469,
+      "fileID": 5300277,
       "required": true
     },
     {
-      "projectID": 912469,
-      "fileID": 5300277,
+      "projectID": 398521,
+      "fileID": 5051242,
       "required": true
     },
     {
@@ -1080,13 +1080,13 @@
       "required": true
     },
     {
-      "projectID": 908741,
-      "fileID": 5265338,
+      "projectID": 480006,
+      "fileID": 4769514,
       "required": true
     },
     {
-      "projectID": 480006,
-      "fileID": 4769514,
+      "projectID": 908741,
+      "fileID": 5265338,
       "required": true
     },
     {
@@ -1115,13 +1115,13 @@
       "required": true
     },
     {
-      "projectID": 238222,
-      "fileID": 5101366,
+      "projectID": 892005,
+      "fileID": 5297417,
       "required": true
     },
     {
-      "projectID": 892005,
-      "fileID": 5297417,
+      "projectID": 238222,
+      "fileID": 5101366,
       "required": true
     },
     {
@@ -1135,13 +1135,13 @@
       "required": true
     },
     {
-      "projectID": 633823,
-      "fileID": 5273070,
+      "projectID": 679286,
+      "fileID": 4837128,
       "required": true
     },
     {
-      "projectID": 679286,
-      "fileID": 4837128,
+      "projectID": 633823,
+      "fileID": 5273070,
       "required": true
     },
     {
@@ -1161,17 +1161,17 @@
     },
     {
       "projectID": 666198,
-      "fileID": 5287873,
-      "required": true
-    },
-    {
-      "projectID": 737135,
-      "fileID": 5207761,
+      "fileID": 5308267,
       "required": true
     },
     {
       "projectID": 351264,
       "fileID": 4983659,
+      "required": true
+    },
+    {
+      "projectID": 737135,
+      "fileID": 5207761,
       "required": true
     },
     {
@@ -1235,18 +1235,18 @@
       "required": true
     },
     {
-      "projectID": 445385,
-      "fileID": 5099572,
-      "required": true
-    },
-    {
       "projectID": 941096,
       "fileID": 5282394,
       "required": true
     },
     {
-      "projectID": 927874,
-      "fileID": 5112443,
+      "projectID": 445385,
+      "fileID": 5099572,
+      "required": true
+    },
+    {
+      "projectID": 905861,
+      "fileID": 5080957,
       "required": true
     },
     {
@@ -1255,8 +1255,8 @@
       "required": true
     },
     {
-      "projectID": 905861,
-      "fileID": 5080957,
+      "projectID": 927874,
+      "fileID": 5112443,
       "required": true
     }
   ],

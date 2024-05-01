@@ -326,4 +326,10 @@ const $DustProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.ma
     GTMaterials.NickelZincFerrite.addFlags(
         GTMaterialFlags.GENERATE_PLATE
     )
+    GTMaterials.Lead.addFlags(
+        GTMaterialFlags.GENERATE_ROUND
+    )
+    GTMaterials.Steel.addFlags(
+        GTMaterialFlags.GENERATE_ROUND
+    )
 })

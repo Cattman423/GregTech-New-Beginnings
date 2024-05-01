@@ -1,5 +1,19 @@
 # Changelog
 
+## V 0.1.2
+
+* Recipes
+  * Removed recipes for `tfmg:brass_pipe` and `tfmg:aluminum_pipe`
+  * Nerfed Create Cased shaft recipes
+* Materials
+  * Added Lead Rounds
+  * Added Steel Rounds
+* Mod Updates
+  * Amendments v1.1.26
+  * Moonlight v2.11.13
+  * MoreJS v0.10.0
+  * Productive Bees v12.5.1
+
 ## V 0.1.1 The Forestry Update
 
 * Make A backup of your world before updating the pack!
