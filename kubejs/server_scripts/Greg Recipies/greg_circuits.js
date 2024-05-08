@@ -49,9 +49,10 @@ ServerEvents.recipes(event => {
             )
         .inputFluids('gtceu:molten_indalloy_140 1440')
         .itemOutputs('gtceu:crystal_processor_mainframe')
-        .cleanroom(CleanroomType.CLEANROOM)
         .duration(800)
         .EUt(30720)
+        .stationResearch(b => b.researchStack(Item.of('gtceu:crystal_processor_computer')).EUt(GTValues.VA[GTValues.IV]).CWUt(96))
+
     event.recipes.gtceu.circuit_assembly_line('wetware_processor_computer')
         .itemInputs(
             'gtceu:wetware_printed_circuit_board', 
@@ -65,9 +66,10 @@ ServerEvents.recipes(event => {
             )
         .inputFluids('gtceu:molten_indalloy_140 1152')
         .itemOutputs('gtceu:wetware_processor_computer')
-        .cleanroom(CleanroomType.CLEANROOM)
         .duration(400)
         .EUt(38400)
+        .stationResearch(b => b.researchStack(Item.of('gtceu:wetware_processor_assembly')).EUt(GTValues.VA[GTValues.IV]).CWUt(96))
+
     event.recipes.gtceu.circuit_assembly_line('wetware_processor_mainframe')
         .itemInputs(
             '2x gtceu:tritanium_frame',
@@ -84,7 +86,7 @@ ServerEvents.recipes(event => {
             )
         .inputFluids('gtceu:molten_indalloy_140', 'gtceu:polybenzimidazole 1152')
         .itemOutputs('gtceu:wetware_processor_mainframe')
-        .cleanroom(CleanroomType.CLEANROOM)
         .duration(2000)
         .EUt(300000)
+        .stationResearch(b => b.researchStack(Item.of('gtceu:wetware_processor_computer')).EUt(GTValues.VA[GTValues.LUV]).CWUt(128))
 })
