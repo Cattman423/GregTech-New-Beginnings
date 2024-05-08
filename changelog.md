@@ -1,5 +1,21 @@
 # Changelog
 
+## V 0.1.3
+
+* Materials
+  * Added Adamantite
+  * Added Chadium
+  * Added Moon, Mars, Mercury, and Venus Stone Dusts and Air
+* Mod Additions
+  * Added Functional Storage
+  * Added Functional Gregtech Drawers
+* Disabled Block of Sky due to conflicts with shaders
+* Mod Updates
+  * Amendments v1.1.27
+  * Create Low Heated v0.5.1.f-h
+  * GregTechCEu Modern v1.2.1
+  * GT-- v1.0.6a
+
 ## V 0.1.2
 
 * Recipes
