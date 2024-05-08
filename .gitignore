@@ -18,10 +18,10 @@ scripts
 shaderpacks
 resourcepacks
 .curseclient
-knownkeys
-minecraftinstance
-options
-patchouli_data
-rhino.local
-usercache
-usernamecache
+knownkeys.txt
+minecraftinstance.json
+options.txt
+patchouli_data.json
+rhino.local.properties
+usercache.json
+usernamecache.json
