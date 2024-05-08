@@ -26,4 +26,13 @@ GTCEuStartupEvents.registry('gtceu:element', event => {
         'Po',
         false
     )
- })
+    event.create(
+        'adamantite',
+        29,
+        179,
+        -1,
+        null,
+        'Ad',
+        false
+    )
+})

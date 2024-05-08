@@ -1,4 +1,5 @@
 ServerEvents.recipes(event => {
+    //import.
 //Andesite alloy dust
     event.recipes.gtceu.mixer('andesite_alloy_dust')
         .itemInputs('8x gtceu:andesite_dust', 'gtceu:zinc_dust')
@@ -168,8 +169,8 @@ ServerEvents.recipes(event => {
             .itemInputs(gear, 'create:shaft')
             .inputFluids(fluid)
             .itemOutputs('create:cogwheel')
-            .duration(100)
-            .EUt(7)
+            .duration(sec*5)
+            .EUt(ulv)
         }
 //Create transportation
     event.shaped(
@@ -241,29 +242,29 @@ ServerEvents.recipes(event => {
         .itemInputs('2x create:cogwheel', 'create:shaft')
         .inputFluids('gtceu:raw_rubber 864')
         .itemOutputs('2x create:belt_connector')
-        .duration(100)
-        .EUt(30)
+        .duration(sec*5)
+        .EUt(lv)
         .circuit(1)
     event.recipes.gtceu.assembler('rubber_belt_c')
         .itemInputs('2x gtceu:lv_electric_motor', 'create:shaft')
         .inputFluids('gtceu:rubber 864')
         .itemOutputs('4x create:belt_connector')
-        .duration(100)
-        .EUt(30)
+        .duration(sec*5)
+        .EUt(lv)
         .circuit(1)
     event.recipes.gtceu.assembler('silicone_rubber_belt_c')
         .itemInputs('2x gtceu:mv_electric_motor', 'create:shaft')
         .inputFluids('gtceu:silicone_rubber 864')
         .itemOutputs('8x create:belt_connector')
-        .duration(100)
-        .EUt(30)
+        .duration(sec*5)
+        .EUt(lv)
         .circuit(1)
     event.recipes.gtceu.assembler('styrene_butadiene_rubber_belt_c')
         .itemInputs('2x gtceu:hv_electric_motor', 'create:shaft')
         .inputFluids('gtceu:styrene_butadiene_rubber 864')
         .itemOutputs('16x create:belt_connector')
-        .duration(100)
-        .EUt(30)
+        .duration(sec*5)
+        .EUt(lv)
         .circuit(1)
     function chute(output, plate, circuit){
         event.shaped(

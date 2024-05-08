@@ -1376,28 +1376,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: [
-				"7A4D681F7EF69714"
-				"57E91852D2C01518"
-			]
-			id: "5672D361EF666916"
-			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "44A9D7E8389EEC43"
-				table_id: 8109537854966399126L
-				type: "random"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "41F1D95C8F071D8A"
-				item: "gtceu:basic_launch_facility"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 6.5d
-		}
-		{
 			dependencies: ["0499DFCF0CD12618"]
 			id: "79CF9EBC1EAC112E"
 			rewards: [{

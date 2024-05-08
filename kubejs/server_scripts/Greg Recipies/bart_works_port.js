@@ -3,44 +3,44 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.chemical_reactor('bismuth_tellurite')
         .itemInputs('2x gtceu:bismuth_dust', '3x gtceu:tellurium_dust')
         .itemOutputs('5x gtceu:bismuth_tellurite_dust')
-        .duration(161)
-        .EUt(60)
+        .duration(sec*8)
+        .EUt(mv/2)
     event.recipes.gtceu.chemical_reactor('dibismuthhydroborat')
         .itemInputs('2x gtceu:bismuth_dust', 'gtceu:boron_dust')
         .inputFluids('gtceu:hydrogen 1000')
         .itemOutputs('4x gtceu:dibismuthhydroborat_dust')
-        .duration(57)
-        .EUt(90)
+        .duration(sec*3)
+        .EUt(mv*0.75)
     event.recipes.gtceu.mixer('circuit_compound_mk_three')
         .itemInputs('gtceu:indium_gallium_phosphide_dust', '3x gtceu:dibismuthhydroborat_dust', '2x gtceu:bismuth_tellurite_dust')
         .itemOutputs('6x gtceu:circuit_compound_mk_three_dust')
-        .duration(39)
-        .EUt(15)
+        .duration(sec*2)
+        .EUt(lv/2)
 //Magneto Resonatic Gem
     event.recipes.gtceu.mixer('magneto_resonatic_dust')
         .itemInputs('3x gtceu:prasiolite_dust', '4x gtceu:bismuth_tellurite_dust', 'gtceu:cubic_zirconium_dust', 'gtceu:magnetic_steel_dust')
         .itemOutputs('9x gtceu:magneto_resonatic_dust')
-        .duration(600)
-        .EUt(480)
+        .duration(min/2)
+        .EUt(hv)
     event.recipes.gtceu.autoclave('magneto_resonatic_gem')
         .itemInputs('gtceu:magneto_resonatic_dust')
         .inputFluids('gtceu:krypton 1000')
         .itemOutputs('gtceu:magneto_resonatic_gem')
-        .duration(4500)
-        .EUt(7680)
+        .duration(min*3.75)
+        .EUt(iv)
 //Imprint Boards
     event.recipes.gtceu.forming_press('raw_imprint_board')
         .itemInputs('gtceu:magneto_resonatic_dust', '4x gtceu:circuit_compound_mk_three_dust')
         .itemOutputs('kubejs:raw_imprint_supporting_board')
-        .duration(300)
-        .EUt(480)
+        .duration(sec*15)
+        .EUt(hv)
     event.recipes.gtceu.autoclave('imprint_board')
         .itemInputs('kubejs:raw_imprint_supporting_board')
         .inputFluids('gtceu:soldering_alloy 576')
         .chancedOutput('kubejs:imprint_supporting_board', 7500, 50)
         .cleanroom(CleanroomType.CLEANROOM)
-        .duration(300)
-        .EUt(480)
+        .duration(sec*15)
+        .EUt(hv)
 //Magneto Resonatic Circuits
     event.recipes.gtceu.circuit_assembler('ulv_magneto_resonance_circuit')
         .itemInputs(
@@ -54,8 +54,8 @@ ServerEvents.recipes(event => {
         .inputFluids('gtceu:soldering_alloy 36')
         .itemOutputs('kubejs:ulv_magneto_resonance_circuit')
         .cleanroom(CleanroomType.CLEANROOM)
-        .duration(750)
-        .EUt(30)
+        .duration(sec*30)
+        .EUt(lv)
     event.recipes.gtceu.circuit_assembler('lv_magneto_resonance_circuit')
         .itemInputs(
             'kubejs:imprint_supporting_board', 
@@ -68,8 +68,8 @@ ServerEvents.recipes(event => {
         .inputFluids('gtceu:soldering_alloy 72')
         .itemOutputs('kubejs:lv_magneto_resonance_circuit')
         .cleanroom(CleanroomType.CLEANROOM)
-        .duration(1500)
-        .EUt(120)
+        .duration(min)
+        .EUt(mv)
     event.recipes.gtceu.circuit_assembler('mv_magneto_resonance_circuit')
         .itemInputs(
             'kubejs:imprint_supporting_board', 
@@ -82,8 +82,8 @@ ServerEvents.recipes(event => {
         .inputFluids('gtceu:soldering_alloy 108')
         .itemOutputs('kubejs:mv_magneto_resonance_circuit')
         .cleanroom(CleanroomType.CLEANROOM)
-        .duration(2250)
-        .EUt(480)
+        .duration(min*2)
+        .EUt(hv)
     event.recipes.gtceu.circuit_assembler('hv_magneto_resonance_circuit')
         .itemInputs(
             'kubejs:imprint_supporting_board', 
@@ -96,8 +96,8 @@ ServerEvents.recipes(event => {
         .inputFluids('gtceu:soldering_alloy 144')
         .itemOutputs('kubejs:hv_magneto_resonance_circuit')
         .cleanroom(CleanroomType.CLEANROOM)
-        .duration(3000)
-        .EUt(1920)
+        .duration(min*4)
+        .EUt(ev)
     event.recipes.gtceu.circuit_assembler('ev_magneto_resonance_circuit')
         .itemInputs(
             'kubejs:imprint_supporting_board', 
@@ -110,8 +110,8 @@ ServerEvents.recipes(event => {
         .inputFluids('gtceu:soldering_alloy 180')
         .itemOutputs('kubejs:ev_magneto_resonance_circuit')
         .cleanroom(CleanroomType.CLEANROOM)
-        .duration(3750)
-        .EUt(7680)
+        .duration(min*6)
+        .EUt(iv)
     event.recipes.gtceu.circuit_assembler('iv_magneto_resonance_circuit')
         .itemInputs(
             '6x kubejs:imprint_supporting_board', 
@@ -124,8 +124,8 @@ ServerEvents.recipes(event => {
         .inputFluids('gtceu:soldering_alloy 864')
         .itemOutputs('kubejs:iv_magneto_resonance_circuit')
         .cleanroom(CleanroomType.CLEANROOM)
-        .duration(18000)
-        .EUt(30720)
+        .duration(min*8)
+        .EUt(luv)
     event.recipes.gtceu.circuit_assembler('luv_magneto_resonance_circuit')
         .itemInputs(
             '6x kubejs:imprint_supporting_board', 
@@ -138,8 +138,8 @@ ServerEvents.recipes(event => {
         .inputFluids('gtceu:soldering_alloy 1008')
         .itemOutputs('kubejs:luv_magneto_resonance_circuit')
         .cleanroom(CleanroomType.CLEANROOM)
-        .duration(21000)
-        .EUt(122880)
+        .duration(min*10)
+        .EUt(zpm)
     event.recipes.gtceu.circuit_assembler('zpm_magneto_resonance_circuit')
         .itemInputs(
             '6x kubejs:imprint_supporting_board', 
@@ -152,8 +152,8 @@ ServerEvents.recipes(event => {
         .inputFluids('gtceu:soldering_alloy 1152')
         .itemOutputs('kubejs:zpm_magneto_resonance_circuit')
         .cleanroom(CleanroomType.CLEANROOM)
-        .duration(48000)
-        .EUt(491520)
+        .duration(min*20)
+        .EUt(uv)
     event.recipes.gtceu.circuit_assembler('uv_magneto_resonance_circuit')
         .itemInputs(
             '6x kubejs:imprint_supporting_board', 
@@ -166,8 +166,8 @@ ServerEvents.recipes(event => {
         .inputFluids('gtceu:molten_indalloy_140 1296')
         .itemOutputs('kubejs:uv_magneto_resonance_circuit')
         .cleanroom(CleanroomType.CLEANROOM)
-        .duration(54000)
-        .EUt(1966080)
+        .duration(min*30)
+        .EUt(uhv)
     event.recipes.gtceu.circuit_assembler('uhv_magneto_resonance_circuit')
         .itemInputs(
             '6x kubejs:imprint_supporting_board', 
@@ -180,8 +180,8 @@ ServerEvents.recipes(event => {
         .inputFluids('gtceu:molten_indalloy_140 1440')
         .itemOutputs('kubejs:uhv_magneto_resonance_circuit')
         .cleanroom(CleanroomType.CLEANROOM)
-        .duration(60000)
-        .EUt(7864320)
+        .duration(min*50)
+        .EUt(uev)
     event.recipes.gtceu.circuit_assembler('uev_magneto_resonance_circuit')
         .itemInputs(
             '6x kubejs:imprint_supporting_board', 
@@ -194,8 +194,8 @@ ServerEvents.recipes(event => {
         .inputFluids('gtceu:molten_indalloy_140 1584')
         .itemOutputs('kubejs:uev_magneto_resonance_circuit')
         .cleanroom(CleanroomType.CLEANROOM)
-        .duration(66000)
-        .EUt(31457280)
+        .duration(min*60)
+        .EUt(uiv)
 
 //Wraps
     function wrapping(output, input){
@@ -204,8 +204,8 @@ ServerEvents.recipes(event => {
             .inputFluids('gtceu:polyethylene 72')
             .circuit(16)
             .itemOutputs(output)
-            .duration(600)
-            .EUt(30)
+            .duration(min/2)
+            .EUt(lv)
     }
 //Data
 /*    event.recipes.gtceu.research_station('ulv_mag_res')
@@ -218,6 +218,12 @@ ServerEvents.recipes(event => {
             .itemOutputs(output)
             .duration(time)
             .EUt(eu)
+            /*["scannerResearch(java.util.function.UnaryOperator)"]
+            (b => b
+                .researchStack(Item.of('kubejs:imprint_supporting_board'))
+                .EUt(eu)
+                .duration(time / 60)
+            )*/
     }
 wrapping('kubejs:smd_capacitor_wrap', '16x gtceu:smd_capacitor')
 wrapping('kubejs:smd_diode_wrap', '16x gtceu:smd_diode')
@@ -273,77 +279,77 @@ AsslineCircuit('ulv_mag_res',
     '16x gtceu:nand_chip',
     '4x kubejs:smd_diode_wrap',
     '4x kubejs:smd_capacitor_wrap',
-    '4x kubejs:smd_transistor_wrap'], 'gtceu:soldering_alloy 36', '16x kubejs:ulv_magneto_resonance_circuit', 9000, 30)
+    '4x kubejs:smd_transistor_wrap'], 'gtceu:soldering_alloy 36', '16x kubejs:ulv_magneto_resonance_circuit', 9000, lv)
 AsslineCircuit('lv_mag_res',
     ['16x kubejs:imprint_supporting_board', 
     '16x gtceu:magneto_resonatic_gem',
     '16x kubejs:ulv_magneto_resonance_circuit',
     '8x kubejs:smd_diode_wrap',
     '8x kubejs:smd_capacitor_wrap',
-    '8x kubejs:smd_transistor_wrap'], 'gtceu:soldering_alloy 72', '16x kubejs:lv_magneto_resonance_circuit', 18000, 120)
+    '8x kubejs:smd_transistor_wrap'], 'gtceu:soldering_alloy 72', '16x kubejs:lv_magneto_resonance_circuit', 18000, mv)
 AsslineCircuit('mv_mag_res',
     ['16x kubejs:imprint_supporting_board', 
     '16x gtceu:magneto_resonatic_gem',
     '16x kubejs:lv_magneto_resonance_circuit',
     '12x kubejs:smd_diode_wrap',
     '12x kubejs:smd_capacitor_wrap',
-    '12x kubejs:smd_transistor_wrap'], 'gtceu:soldering_alloy 108', '16x kubejs:mv_magneto_resonance_circuit', 27000, 480)
+    '12x kubejs:smd_transistor_wrap'], 'gtceu:soldering_alloy 108', '16x kubejs:mv_magneto_resonance_circuit', 27000, hv)
 AsslineCircuit('hv_mag_res',
     ['16x kubejs:imprint_supporting_board', 
     '16x gtceu:magneto_resonatic_gem',
     '16x kubejs:mv_magneto_resonance_circuit',
     '16x kubejs:smd_diode_wrap',
     '16x kubejs:smd_capacitor_wrap',
-    '16x kubejs:smd_transistor_wrap'], 'gtceu:soldering_alloy 144', '16x kubejs:hv_magneto_resonance_circuit', 36000, 1920)
+    '16x kubejs:smd_transistor_wrap'], 'gtceu:soldering_alloy 144', '16x kubejs:hv_magneto_resonance_circuit', 36000, ev)
 AsslineCircuit('ev_mag_res',
     ['16x kubejs:imprint_supporting_board', 
     '16x gtceu:magneto_resonatic_gem',
     '16x kubejs:hv_magneto_resonance_circuit',
     '20x kubejs:smd_diode_wrap',
     '20x kubejs:smd_capacitor_wrap',
-    '20x kubejs:smd_transistor_wrap'], 'gtceu:soldering_alloy 180', '16x kubejs:ev_magneto_resonance_circuit', 45000, 7680)
+    '20x kubejs:smd_transistor_wrap'], 'gtceu:soldering_alloy 180', '16x kubejs:ev_magneto_resonance_circuit', 45000, iv)
 AsslineCircuit('iv_mag_res',
     ['16x kubejs:imprint_supporting_board', 
     '16x gtceu:magneto_resonatic_gem',
     '16x kubejs:ev_magneto_resonance_circuit',
     '24x kubejs:advanced_smd_diode_wrap',
     '24x kubejs:advanced_smd_capacitor_wrap',
-    '24x kubejs:advanced_smd_transistor_wrap'], 'gtceu:soldering_alloy 864', '16x kubejs:iv_magneto_resonance_circuit', 54000, 30720)
+    '24x kubejs:advanced_smd_transistor_wrap'], 'gtceu:soldering_alloy 864', '16x kubejs:iv_magneto_resonance_circuit', 54000, luv)
 AsslineCircuit('luv_mag_res',
     ['16x kubejs:imprint_supporting_board', 
     '16x gtceu:magneto_resonatic_gem',
     '16x kubejs:iv_magneto_resonance_circuit',
     '28x kubejs:advanced_smd_diode_wrap',
     '28x kubejs:advanced_smd_capacitor_wrap',
-    '28x kubejs:advanced_smd_transistor_wrap'], 'gtceu:soldering_alloy 1008', '16x kubejs:luv_magneto_resonance_circuit', 63000, 122880)
+    '28x kubejs:advanced_smd_transistor_wrap'], 'gtceu:soldering_alloy 1008', '16x kubejs:luv_magneto_resonance_circuit', 63000, zpm)
 AsslineCircuit('zpm_mag_res', 
     ['16x kubejs:imprint_supporting_board', 
     '16x gtceu:exquisite_magneto_resonatic_gem',
     '16x kubejs:luv_magneto_resonance_circuit',
     '52x kubejs:advanced_smd_diode_wrap',
     '52x kubejs:advanced_smd_capacitor_wrap',
-    '52x kubejs:advanced_smd_transistor_wrap'], 'gtceu:soldering_alloy 1152', '16x kubejs:zpm_magneto_resonance_circuit', 72000, 491520)
+    '52x kubejs:advanced_smd_transistor_wrap'], 'gtceu:soldering_alloy 1152', '16x kubejs:zpm_magneto_resonance_circuit', 72000, uv)
 AsslineCircuit('uv_mag_res', 
     ['16x kubejs:imprint_supporting_board', 
     '16x gtceu:exquisite_magneto_resonatic_gem',
     '16x kubejs:zpm_magneto_resonance_circuit',
     '56x kubejs:advanced_smd_diode_wrap',
     '56x kubejs:advanced_smd_capacitor_wrap',
-    '56x kubejs:advanced_smd_transistor_wrap'], 'gtceu:molten_indalloy_140 1296', '16x kubejs:uv_magneto_resonance_circuit', 81000, 1966080)
+    '56x kubejs:advanced_smd_transistor_wrap'], 'gtceu:molten_indalloy_140 1296', '16x kubejs:uv_magneto_resonance_circuit', 81000, uhv)
 AsslineCircuit('uhv_mag_res', 
     ['16x kubejs:imprint_supporting_board', 
     '16x gtceu:exquisite_magneto_resonatic_gem',
     '16x kubejs:uv_magneto_resonance_circuit',
     '60x kubejs:optical_smd_diode_wrap',
     '60x kubejs:optical_smd_capacitor_wrap',
-    '60x kubejs:optical_smd_transistor_wrap'], 'gtceu:molten_indalloy_140 1440', '16x kubejs:uhv_magneto_resonance_circuit', 90000, 7864320)
+    '60x kubejs:optical_smd_transistor_wrap'], 'gtceu:molten_indalloy_140 1440', '16x kubejs:uhv_magneto_resonance_circuit', 90000, uev)
 AsslineCircuit('uev_mag_res', 
     ['16x kubejs:imprint_supporting_board', 
     '16x gtceu:exquisite_magneto_resonatic_gem',
     '16x kubejs:uhv_magneto_resonance_circuit',
     '64x kubejs:optical_smd_diode_wrap',
     '64x kubejs:optical_smd_capacitor_wrap',
-    '64x kubejs:optical_smd_transistor_wrap'], 'gtceu:molten_indalloy_140 1584', '16x kubejs:uev_magneto_resonance_circuit', 99000, 31457280)
+    '64x kubejs:optical_smd_transistor_wrap'], 'gtceu:molten_indalloy_140 1584', '16x kubejs:uev_magneto_resonance_circuit', 99000, uiv)
 
 //Early Circuits
 AsslineCircuit('lv_one', 
@@ -352,26 +358,26 @@ AsslineCircuit('lv_one',
     '2x kubejs:smd_resistor_wrap', 
     '2x kubejs:smd_diode_wrap', 
     '2x gtceu:copper_quadruple_wire',
-    '32x gtceu:tin_bolt'], 'gtceu:soldering_alloy 72', '16x gtceu:basic_integrated_circuit', 2400, 16)
+    '32x gtceu:tin_bolt'], 'gtceu:soldering_alloy 72', '16x gtceu:basic_integrated_circuit', 2400, lv/1.875)
 AsslineCircuit('mv_one', 
     ['kubejs:phenolic_printed_circuit_board_wrap', 
     '32x #gtceu:circuits/lv', 
     '2x kubejs:smd_diode_wrap', 
-    '2x gtceu:copper_hex_wire'], 'gtceu:soldering_alloy 72', '16x gtceu:good_electronic_circuit', 3600, 30)
+    '2x gtceu:copper_hex_wire'], 'gtceu:soldering_alloy 72', '16x gtceu:good_electronic_circuit', 3600, lv)
 AsslineCircuit('mv_two', 
     ['kubejs:phenolic_printed_circuit_board_wrap', 
     '32x gtceu:basic_integrated_circuit', 
     '4x kubejs:smd_resistor_wrap',
     '4x kubejs:smd_diode_wrap', 
     '4x gtceu:gold_quadruple_wire',
-    '64x gtceu:silver_bolt'], 'gtceu:soldering_alloy 72', '16x gtceu:good_integrated_circuit', 2400, 24)
+    '64x gtceu:silver_bolt'], 'gtceu:soldering_alloy 72', '16x gtceu:good_integrated_circuit', 2400, lv/1.25)
 AsslineCircuit('mv_two_ad', 
     ['kubejs:phenolic_printed_circuit_board_wrap', 
     '32x gtceu:basic_integrated_circuit', 
     'kubejs:advanced_smd_resistor_wrap',
     'kubejs:advanced_smd_diode_wrap', 
     '4x gtceu:gold_quadruple_wire',
-    '64x gtceu:silver_bolt'], 'gtceu:soldering_alloy 72', '16x gtceu:good_integrated_circuit', 4800, 24)
+    '64x gtceu:silver_bolt'], 'gtceu:soldering_alloy 72', '16x gtceu:good_integrated_circuit', 4800, lv/1.25)
 
 //Micro Processors
 AsslineCircuit('mv_three', 
@@ -380,14 +386,14 @@ AsslineCircuit('mv_three',
     '4x kubejs:smd_resistor_wrap',
     '4x kubejs:smd_capacitor_wrap',
     '4x kubejs:smd_transistor_wrap', 
-    '4x gtceu:red_alloy_quadruple_wire'], 'gtceu:soldering_alloy 72', '16x gtceu:micro_processor', 2400, 60)
+    '4x gtceu:red_alloy_quadruple_wire'], 'gtceu:soldering_alloy 72', '16x gtceu:micro_processor', 2400, mv/2)
 AsslineCircuit('mv_three_ad', 
     ['kubejs:plastic_printed_circuit_board_wrap', 
     'kubejs:cpu_chip_wrap', 
     'kubejs:advanced_smd_resistor_wrap',
     'kubejs:advanced_smd_capacitor_wrap',
     'kubejs:advanced_smd_transistor_wrap', 
-    '4x gtceu:red_alloy_quadruple_wire'], 'gtceu:soldering_alloy 72', '16x gtceu:micro_processor', 1200, 60)
+    '4x gtceu:red_alloy_quadruple_wire'], 'gtceu:soldering_alloy 72', '16x gtceu:micro_processor', 1200, mv/2)
 AsslineCircuit('mv_three_soc', 
     ['kubejs:plastic_printed_circuit_board_wrap', 
     'kubejs:soc_wrap',  
@@ -399,7 +405,7 @@ AsslineCircuit('hv_one',
     '4x kubejs:smd_inductor_wrap',
     '8x kubejs:smd_capacitor_wrap',
     '4x kubejs:ram_chip_wrap', 
-    '8x gtceu:red_alloy_quadruple_wire'], 'gtceu:soldering_alloy 72', '16x gtceu:micro_processor_assembly', 2400, 120)
+    '8x gtceu:red_alloy_quadruple_wire'], 'gtceu:soldering_alloy 72', '16x gtceu:micro_processor_assembly', 2400, mv)
 AsslineCircuit('hv_one_ad', 
     ['kubejs:plastic_printed_circuit_board_wrap', 
     '32x gtceu:micro_processor', 
@@ -413,28 +419,28 @@ AsslineCircuit('ev_one',
     '4x kubejs:smd_diode_wrap',
     '8x kubejs:ram_chip_wrap',  
     '16x gtceu:electrum_quadruple_wire',
-    '64x gtceu:blue_alloy_bolt'], 'gtceu:soldering_alloy 144', '16x gtceu:micro_processor_computer', 4800, 120)
+    '64x gtceu:blue_alloy_bolt'], 'gtceu:soldering_alloy 144', '16x gtceu:micro_processor_computer', 4800, mv)
 AsslineCircuit('ev_one_ad', 
     ['kubejs:epoxy_printed_circuit_board_wrap', 
     '32x gtceu:micro_processor_assembly', 
     'kubejs:advanced_smd_diode_wrap',
     '8x kubejs:ram_chip_wrap',  
     '16x gtceu:electrum_quadruple_wire',
-    '64x gtceu:blue_alloy_bolt'], 'gtceu:soldering_alloy 144', '16x gtceu:micro_processor_computer', 2400, 120)
+    '64x gtceu:blue_alloy_bolt'], 'gtceu:soldering_alloy 144', '16x gtceu:micro_processor_computer', 2400, mv)
 AsslineCircuit('iv_one', 
     ['32x gtceu:aluminium_frame', 
     '32x gtceu:micro_processor_computer', 
     '12x kubejs:smd_inductor_wrap',
     '24x kubejs:smd_capacitor_wrap',
     '16x kubejs:ram_chip_wrap', 
-    '24x gtceu:annealed_copper_hex_wire'], 'gtceu:soldering_alloy 288', '16x gtceu:micro_processor_mainframe', 19200, 480)
+    '24x gtceu:annealed_copper_hex_wire'], 'gtceu:soldering_alloy 288', '16x gtceu:micro_processor_mainframe', 19200, hv)
 AsslineCircuit('iv_one_ad', 
     ['32x gtceu:aluminium_frame', 
     '32x gtceu:micro_processor_computer', 
     '3x kubejs:advanced_smd_inductor_wrap',
     '4x kubejs:advanced_smd_capacitor_wrap',
     '16x kubejs:ram_chip_wrap', 
-    '16x gtceu:annealed_copper_hex_wire'], 'gtceu:soldering_alloy 288', '16x gtceu:micro_processor_mainframe', 9600, 480)
+    '16x gtceu:annealed_copper_hex_wire'], 'gtceu:soldering_alloy 288', '16x gtceu:micro_processor_mainframe', 9600, hv)
 
 //Nano Processors
 AsslineCircuit('hv_two', 
@@ -490,14 +496,14 @@ AsslineCircuit('luv_one',
     '16x kubejs:smd_inductor_wrap',
     '32x kubejs:smd_capacitor_wrap',
     '16x kubejs:ram_chip_wrap', 
-    '32x gtceu:annealed_copper_hex_wire'], 'gtceu:soldering_alloy 288', '16x gtceu:nano_processor_mainframe', 19200, 480)
+    '32x gtceu:annealed_copper_hex_wire'], 'gtceu:soldering_alloy 288', '16x gtceu:nano_processor_mainframe', 19200, hv)
 AsslineCircuit('luv_one_ad', 
     ['32x gtceu:aluminium_frame', 
     '32x gtceu:nano_processor_computer', 
     '4x kubejs:advanced_smd_inductor_wrap',
     '8x kubejs:advanced_smd_capacitor_wrap',
     '16x kubejs:ram_chip_wrap', 
-    '32x gtceu:annealed_copper_hex_wire'], 'gtceu:soldering_alloy 288', '16x gtceu:nano_processor_mainframe', 9600, 480)
+    '32x gtceu:annealed_copper_hex_wire'], 'gtceu:soldering_alloy 288', '16x gtceu:nano_processor_mainframe', 9600, hv)
 
 //Quantum Processors
 AsslineCircuit('ev_three', 

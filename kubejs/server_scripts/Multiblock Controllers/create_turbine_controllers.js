@@ -3,8 +3,8 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.basic_alternator('lv_1_amp')
         .circuit(1)
         .notConsumable('2x create_new_age:generator_coil')
-        .inputStress(1024)
-        .rpm(64)
+        //.inputStress(1024)
+        .rpm(8)
         .duration(9600)
         .EUt(-32)
     event.recipes.gtceu.advanced_alternator('hv_1_amp')
@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
         .inputStress(2048)
         .rpm(128)
         .duration(9600)
-        .outputEU(-512)
+        .outputEU(512)
     event.recipes.gtceu.extreme_alternator('iv_1_amp')
         .circuit(1)
         .notConsumable('5x create_new_age:generator_coil')
@@ -22,7 +22,7 @@ ServerEvents.recipes(event => {
         .inputStress(4096)
         .rpm(256)
         .duration(9600)
-        .outputEU(-8192)
+        .outputEU(8192)
 //Machine recipes
     event.shaped(
         Item.of('gtceu:basic_alternator'),
