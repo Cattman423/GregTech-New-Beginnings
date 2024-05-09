@@ -6,4 +6,4 @@ The main mods are GregTech and Create. You will start with basic flint tools bef
 
 More quests and progression through the end of the MAX tier so you can build the stargate are coming soon.
 
-Join the Discord at <https://discord.gg/uRfcbsK6NF>
+Join the Discord [here](https://discord.gg/uRfcbsK6NF)
