@@ -371,19 +371,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["787E410D4CACE307"]
-			id: "54C48DD1FB92238F"
-			optional: true
-			shape: "pentagon"
-			tasks: [{
-				id: "178841C5AA97ABB1"
-				item: "gtceu:extreme_alternator"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -3.5d
-		}
-		{
 			dependencies: ["7D7A506CD4659015"]
 			id: "522F1487855D6C96"
 			tasks: [{

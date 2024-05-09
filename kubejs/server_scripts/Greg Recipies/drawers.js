@@ -1,186 +1,156 @@
 ServerEvents.recipes(event => {
+
     event.remove({mod: 'storagedrawers'})
-    function onedrawer(output, plank){
-        event.shaped(
-            Item.of(output),
-            [
-                'AAA',
-                'CBD',
-                'AAA'
-            ],
-            {
-                A: plank,
-                B: 'minecraft:chest',
-                C: '#forge:tools/mallets',
-                D: '#forge:tools/saws'
-            }
-            )
-    }
-    onedrawer('storagedrawers:oak_full_drawers_1', 'minecraft:oak_planks')
-    onedrawer('storagedrawers:spruce_full_drawers_1', 'minecraft:spruce_planks')
-    onedrawer('storagedrawers:birch_full_drawers_1', 'minecraft:birch_planks')
-    onedrawer('storagedrawers:jungle_full_drawers_1', 'minecraft:jungle_planks')
-    onedrawer('storagedrawers:acacia_full_drawers_1', 'minecraft:acacia_planks')
-    onedrawer('storagedrawers:dark_oak_full_drawers_1', 'minecraft:dark_oak_planks')
-    onedrawer('storagedrawers:crimson_full_drawers_1', 'minecraft:crimson_planks')
-    onedrawer('storagedrawers:warped_full_drawers_1', 'minecraft:warped_planks')
-    onedrawer('storagedrawers:oak_half_drawers_1', 'minecraft:oak_slab')
-    onedrawer('storagedrawers:spruce_half_drawers_1', 'minecraft:spruce_slab')
-    onedrawer('storagedrawers:birch_half_drawers_1', 'minecraft:birch_slab')
-    onedrawer('storagedrawers:jungle_half_drawers_1', 'minecraft:jungle_slab')
-    onedrawer('storagedrawers:acacia_half_drawers_1', 'minecraft:acacia_slab')
-    onedrawer('storagedrawers:dark_oak_half_drawers_1', 'minecraft:dark_oak_slab')
-    onedrawer('storagedrawers:crimson_half_drawers_1', 'minecraft:crimson_slab')
-    onedrawer('storagedrawers:warped_half_drawers_1', 'minecraft:warped_slab')
+    event.remove({mod: 'functionalstorage'})
+    event.remove({mod: 'rubberdrawers'})
 
-    function twodrawer(output, plank){
-        event.shaped(
-            Item.of(output),
-            [
-                'ABA',
-                'CAD',
-                'ABA'
-            ],
-            {
-                A: plank,
-                B: 'minecraft:chest',
-                C: '#forge:tools/mallets',
-                D: '#forge:tools/saws'
-            }
-            )
-    }
-    twodrawer('2x storagedrawers:oak_full_drawers_2', 'minecraft:oak_planks')
-    twodrawer('2x storagedrawers:spruce_full_drawers_2', 'minecraft:spruce_planks')
-    twodrawer('2x storagedrawers:birch_full_drawers_2', 'minecraft:birch_planks')
-    twodrawer('2x storagedrawers:jungle_full_drawers_2', 'minecraft:jungle_planks')
-    twodrawer('2x storagedrawers:acacia_full_drawers_2', 'minecraft:acacia_planks')
-    twodrawer('2x storagedrawers:dark_oak_full_drawers_2', 'minecraft:dark_oak_planks')
-    twodrawer('2x storagedrawers:crimson_full_drawers_2', 'minecraft:crimson_planks')
-    twodrawer('2x storagedrawers:warped_full_drawers_2', 'minecraft:warped_planks')
-    twodrawer('2x storagedrawers:oak_half_drawers_2', 'minecraft:oak_slab')
-    twodrawer('2x storagedrawers:spruce_half_drawers_2', 'minecraft:spruce_slab')
-    twodrawer('2x storagedrawers:birch_half_drawers_2', 'minecraft:birch_slab')
-    twodrawer('2x storagedrawers:jungle_half_drawers_2', 'minecraft:jungle_slab')
-    twodrawer('2x storagedrawers:acacia_half_drawers_2', 'minecraft:acacia_slab')
-    twodrawer('2x storagedrawers:dark_oak_half_drawers_2', 'minecraft:dark_oak_slab')
-    twodrawer('2x storagedrawers:crimson_half_drawers_2', 'minecraft:crimson_slab')
-    twodrawer('2x storagedrawers:warped_half_drawers_2', 'minecraft:warped_slab')
+    const mcplanks = ['oak', 'spruce', 'birch', 'jungle', 'acacia', 'dark_oak', 'mangrove', 'cherry', 'warped', 'crimson']
 
-    function fourdrawer(output, plank){
+    mcplanks.forEach( (base) => {
         event.shaped(
-            Item.of(output),
-            [
-                'BAB',
-                'CAD',
-                'BAB'
-            ],
-            {
-                A: plank,
-                B: 'minecraft:chest',
-                C: '#forge:tools/mallets',
-                D: '#forge:tools/saws'
-            }
-            )
-    }
-    fourdrawer('4x storagedrawers:oak_full_drawers_4', 'minecraft:oak_planks')
-    fourdrawer('4x storagedrawers:spruce_full_drawers_4', 'minecraft:spruce_planks')
-    fourdrawer('4x storagedrawers:birch_full_drawers_4', 'minecraft:birch_planks')
-    fourdrawer('4x storagedrawers:jungle_full_drawers_4', 'minecraft:jungle_planks')
-    fourdrawer('4x storagedrawers:acacia_full_drawers_4', 'minecraft:acacia_planks')
-    fourdrawer('4x storagedrawers:dark_oak_full_drawers_4', 'minecraft:dark_oak_planks')
-    fourdrawer('4x storagedrawers:crimson_full_drawers_4', 'minecraft:crimson_planks')
-    fourdrawer('4x storagedrawers:warped_full_drawers_4', 'minecraft:warped_planks')
-    fourdrawer('4x storagedrawers:oak_half_drawers_4', 'minecraft:oak_slab')
-    fourdrawer('4x storagedrawers:spruce_half_drawers_4', 'minecraft:spruce_slab')
-    fourdrawer('4x storagedrawers:birch_half_drawers_4', 'minecraft:birch_slab')
-    fourdrawer('4x storagedrawers:jungle_half_drawers_4', 'minecraft:jungle_slab')
-    fourdrawer('4x storagedrawers:acacia_half_drawers_4', 'minecraft:acacia_slab')
-    fourdrawer('4x storagedrawers:dark_oak_half_drawers_4', 'minecraft:dark_oak_slab')
-    fourdrawer('4x storagedrawers:crimson_half_drawers_4', 'minecraft:crimson_slab')
-    fourdrawer('4x storagedrawers:warped_half_drawers_4', 'minecraft:warped_slab')
-
-    event.shaped(
-        Item.of('storagedrawers:drawer_key'),
-        [
-            '   ',
-            'BAA',
-            'CDE'
-        ],
-        {
-            A: 'gtceu:gold_plate',
-            B: 'storagedrawers:upgrade_template',
-            C: '#forge:tools/hammers',
-            D: '#forge:tools/saws',
-            E: '#forge:tools/files'
-        }
+            Item.of('functionalstorage:' + base + '_1'), ['AAA', 'CBD', 'AAA'],
+            {A: 'minecraft:' + base + '_planks', B: 'minecraft:chest', C: '#forge:tools/mallets', D: '#forge:tools/saws'}
         )
-    function key(output, input){
-        event.shapeless(
-            Item.of(output),
-            [
-                input
-            ]
-            )
-        }
-    key('storagedrawers:quantify_key', 'storagedrawers:drawer_key')
-    key('storagedrawers:shroud_key', 'storagedrawers:quantify_key')
-    key('storagedrawers:drawer_key', 'storagedrawers:shroud_key')
-    
-    function upgrade(output, mata, matb, roda){
         event.shaped(
-            Item.of(output),
-            [
-                'ABA',
-                'BCB',
-                'ADA'
-            ],
-            {
-                A: mata,
-                B: 'storagedrawers:upgrade_template',
-                C: matb,
-                D: roda
-            }
-            )
-    }
-    upgrade('storagedrawers:obsidian_storage_upgrade', 'gtceu:iron_plate', 'gtceu:iron_plate', 'gtceu:iron_rod')
-    upgrade('storagedrawers:iron_storage_upgrade', 'gtceu:gold_plate', 'gtceu:bronze_plate', 'gtceu:gold_rod')
-    upgrade('storagedrawers:gold_storage_upgrade', 'gtceu:obsidian_plate', 'gtceu:steel_plate', 'gtceu:obsidian_rod')
-    upgrade('storagedrawers:diamond_storage_upgrade', 'gtceu:diamond_plate', 'gtceu:aluminium_plate', 'gtceu:diamond_rod')
-    upgrade('storagedrawers:emerald_storage_upgrade', 'gtceu:ruby_plate', 'gtceu:stainless_steel_plate', 'gtceu:ruby_rod')
-    upgrade('storagedrawers:one_stack_upgrade', 'gtceu:rubber_plate', 'minecraft:soul_sand', 'gtceu:rubber_rod')
-
-    event.shaped(
-        Item.of('storagedrawers:upgrade_template'),
-        [
-            'ABA',
-            'ACA',
-            ' D '
-        ],
-        {
-            A: 'gtceu:iron_screw',
-            B: 'minecraft:piston',
-            C: '#storagedrawers:drawers',
-            D: '#forge:tools/screwdrivers'
-        }
+            Item.of('2x functionalstorage:' + base + '_2'), ['ABA', 'CAD', 'ABA'],
+            {A: 'minecraft:' + base + '_planks', B: 'minecraft:chest', C: '#forge:tools/mallets', D: '#forge:tools/saws'}
         )
-    function controller(output, plate){
         event.shaped(
-            Item.of(output),
-            [
-                'ABA',
-                'CDC',
-                'EFE'
-            ],
-            {
-                A: 'gtceu:stainless_steel_plate',
-                B: '#gtceu:circuits/mv',
-                C: 'minecraft:comparater',
-                D: '#storagedrawers:drawers',
-                E: 'gtceu:obsidian_plate',
-                F: plate
-            }
-            )
+            Item.of('4x functionalstorage:' + base + '_4'), ['BAB', 'CAD', 'BAB'],
+            {A: 'minecraft:' + base + '_planks', B: 'minecraft:chest', C: '#forge:tools/mallets', D: '#forge:tools/saws'}
+        )
+    })
+//GT Wood
+    event.shaped(
+        Item.of('functionalstorage:rubber_1'), ['AAA', 'CBD', 'AAA'],
+        {A: 'gtceu:rubber_planks', B: 'minecraft:chest', C: '#forge:tools/mallets', D: '#forge:tools/saws'}
+    )
+    event.shaped(
+        Item.of('2x functionalstorage:rubber_2'), ['ABA', 'CAD', 'ABA'],
+        {A: 'gtceu:rubber_planks', B: 'minecraft:chest', C: '#forge:tools/mallets', D: '#forge:tools/saws'}
+    )
+    event.shaped(
+        Item.of('4x functionalstorage:rubber_4'), ['BAB', 'CAD', 'BAB'],
+        {A: 'gtceu:rubber_planks', B: 'minecraft:chest', C: '#forge:tools/mallets', D: '#forge:tools/saws'}
+    )
+    event.shaped(
+        Item.of('functionalstorage:treated_1'), ['AAA', 'CBD', 'AAA'],
+        {A: 'gtceu:treated_wood_planks', B: 'minecraft:chest', C: '#forge:tools/mallets', D: '#forge:tools/saws'}
+    )
+    event.shaped(
+        Item.of('2x functionalstorage:treated_2'), ['ABA', 'CAD', 'ABA'],
+        {A: 'gtceu:treated_wood_planks', B: 'minecraft:chest', C: '#forge:tools/mallets', D: '#forge:tools/saws'}
+    )
+    event.shaped(
+        Item.of('4x functionalstorage:treated_4'), ['BAB', 'CAD', 'BAB'],
+        {A: 'gtceu:treated_wood_planks', B: 'minecraft:chest', C: '#forge:tools/mallets', D: '#forge:tools/saws'}
+    )
+//Fluid Drawers
+    event.shaped(
+        Item.of('functionalstorage:fluid_1'), ['AAA', 'CBD', 'AAA'],
+        {A: 'gtceu:treated_wood_planks', B: 'gtceu:fluid_cell', C: '#forge:tools/mallets', D: '#forge:tools/saws'}
+    )
+    event.shaped(
+        Item.of('2x functionalstorage:fluid_2'), ['ABA', 'CAD', 'ABA'],
+        {A: 'gtceu:treated_wood_planks', B: 'gtceu:fluid_cell', C: '#forge:tools/mallets', D: '#forge:tools/saws'}
+    )
+    event.shaped(
+        Item.of('4x functionalstorage:fluid_4'), ['BAB', 'CAD', 'BAB'],
+        {A: 'gtceu:treated_wood_planks', B: 'gtceu:fluid_cell', C: '#forge:tools/mallets', D: '#forge:tools/saws'}
+    )
+//Compacting Drawers
+    event.shaped(
+        Item.of('functionalstorage:compacting_drawer'), ['AEA', 'CBD', 'AEA'],
+        {A: 'minecraft:stone', B: '#functionalstorage:drawer', C: '#forge:tools/hammers', D: '#forge:tools/wrenches', E: 'minecraft:piston'}
+    )
+    event.shaped(
+        Item.of('functionalstorage:simple_compacting_drawer'), ['AEA', 'CBD', 'AAA'],
+        {A: 'minecraft:stone', B: '#functionalstorage:drawer', C: '#forge:tools/hammers', D: '#forge:tools/wrenches', E: 'minecraft:piston'}
+    )
+//Controller
+    event.shaped(
+        Item.of('functionalstorage:storage_controller'), ['ABA', 'CDC', 'EBF'],
+        {A: 'gtceu:wrought_iron_plate', B: '#functionalstorage:drawer', C: '#gtceu:circuits/ulv', D: 'gtceu:ulv_machine_hull', E: '#forge:tools/hammers', F: '#forge:tools/wrenches'}
+    )
+    event.shaped(
+        Item.of('functionalstorage:controller_extension'), ['ABA', 'CDC', 'EBF'],
+        {A: 'gtceu:wrought_iron_plate', B: '#functionalstorage:drawer', C: '#gtceu:circuits/ulv', D: 'gtceu:ulv_machine_casing', E: '#forge:tools/hammers', F: '#forge:tools/wrenches'}
+    )
+//Armory Cabinet
+    event.shaped(
+        Item.of('functionalstorage:armory_cabinet'), ['AEA', 'CBD', 'AAA'],
+        {A: 'gtceu:steel_plate', B: '#functionalstorage:drawer', C: '#forge:tools/mallets', D: '#forge:tools/saws', E: 'minecraft:comparator'}
+    )
+//Ender Drawer
+    event.shaped(
+        Item.of('functionalstorage:ender_drawer'), ['AEA', 'CBD', 'AAA'],
+        {A: 'gtceu:double_aluminium_plate', B: 'minecraft:ender_chest', C: '#forge:tools/mallets', D: '#forge:tools/saws', E: '#functionalstorage:drawer'}
+    )
+//Framed Drawers
+    event.shaped(
+        Item.of('functionalstorage:framed_1'), ['AAA', 'CBD', 'AAA'],
+        {A: 'minecraft:iron_nugget', B: 'minecraft:chest', C: '#forge:tools/wire_cutters', D: '#forge:tools/wrenches'}
+    )
+    event.shaped(
+        Item.of('2x functionalstorage:framed_2'), ['ABA', 'CAD', 'ABA'],
+        {A: 'minecraft:iron_nugget', B: 'minecraft:chest', C: '#forge:tools/wire_cutters', D: '#forge:tools/wrenches'}
+    )
+    event.shaped(
+        Item.of('4x functionalstorage:framed_4'), ['BAB', 'CAD', 'BAB'],
+        {A: 'minecraft:iron_nugget', B: 'minecraft:chest', C: '#forge:tools/wire_cutters', D: '#forge:tools/wrenches'}
+    )
+    event.shaped(
+        Item.of('functionalstorage:compacting_framed_drawer'), ['AEA', 'CBD', 'AEA'],
+        {A: 'minecraft:iron_nugget', B: '#functionalstorage:drawer', C: '#forge:tools/wire_cutters', D: '#forge:tools/wrenches', E: 'minecraft:piston'}
+    )
+    event.shaped(
+        Item.of('functionalstorage:framed_simple_compacting_drawer'), ['AEA', 'CBD', 'AAA'],
+        {A: 'minecraft:iron_nugget', B: '#functionalstorage:drawer', C: '#forge:tools/wire_cutters', D: '#forge:tools/wrenches', E: 'minecraft:piston'}
+    )
+    event.shaped(
+        Item.of('functionalstorage:framed_storage_controller'), ['ABA', 'CDC', 'EBF'],
+        {A: 'gtceu:wrought_iron_nugget', B: '#functionalstorage:drawer', C: '#gtceu:circuits/ulv', D: 'gtceu:ulv_machine_hull', E: '#forge:tools/hammers', F: '#forge:tools/wrenches'}
+    )
+    event.shaped(
+        Item.of('functionalstorage:framed_controller_extension'), ['ABA', 'CDC', 'EBF'],
+        {A: 'gtceu:wrought_iron_nugget', B: '#functionalstorage:drawer', C: '#gtceu:circuits/ulv', D: 'gtceu:ulv_machine_casing', E: '#forge:tools/hammers', F: '#forge:tools/wrenches'}
+    )
+//Upgrades
+    function upgrades(output, screw, plate, old){
+        event.shaped(
+            Item.of('functionalstorage:'+ output +'_upgrade'), ['ABA', 'BCB', 'DBE'],
+            {A: screw, B: plate, C: old, D: '#forge:tools/hammers', E: '#forge:tools/screwdrivers'}
+        )
     }
-    controller('storagedrawers:controller', 'gtceu:diamond_plate')
-    controller('storagedrawers:controller_slave', 'gtceu:ender_eye_plate')
+    upgrades('copper', 'gtceu:copper_screw', 'gtceu:double_copper_plate', '#functionalstorage:drawer')
+    upgrades('gold', 'gtceu:gold_screw', 'gtceu:double_gold_plate', 'functionalstorage:copper_upgrade')
+    upgrades('diamond', 'gtceu:diamond_screw', 'gtceu:diamond_plate', 'functionalstorage:gold_upgrade')
+    upgrades('netherite', 'gtceu:diamond_screw', 'minecraft:netherite_ingot', 'functionalstorage:diamond_upgrade')
+    upgrades('void', 'gtceu:obsidian_screw', 'gtceu:obsidian_plate', '#functionalstorage:drawer')
+    upgrades('redstone', 'minecraft:comparator', 'gtceu:redstone_plate', '#functionalstorage:drawer')
+    event.shaped(
+        Item.of('functionalstorage:iron_downgrade'), ['ABA', 'BCB', 'DBE'],
+        {A: 'gtceu:iron_screw', B: 'gtceu:iron_plate', C: '#functionalstorage:drawer', D: '#forge:tools/hammers', E: '#forge:tools/screwdrivers'}
+    )
+    event.shaped(
+        Item.of('functionalstorage:collector_upgrade'), ['ABA', 'FCF', 'DBE'],
+        {A: 'gtceu:iron_screw', B: 'gtceu:redstone_plate', C: '#functionalstorage:drawer', D: '#forge:tools/hammers', E: '#forge:tools/screwdrivers', F: 'minecraft:hopper'}
+    )
+    event.shaped(
+        Item.of('functionalstorage:puller_upgrade'), ['AFA', 'GCG', 'DBE'],
+        {A: 'gtceu:iron_screw', B: 'gtceu:redstone_plate', C: '#functionalstorage:drawer', D: '#forge:tools/hammers', E: '#forge:tools/screwdrivers', F: 'minecraft:hopper', G: 'gtceu:stone_plate'}
+    )
+    event.shaped(
+        Item.of('functionalstorage:pusher_upgrade'), ['ABA', 'GCG', 'DFE'],
+        {A: 'gtceu:iron_screw', B: 'gtceu:redstone_plate', C: '#functionalstorage:drawer', D: '#forge:tools/hammers', E: '#forge:tools/screwdrivers', F: 'minecraft:hopper', G: 'gtceu:stone_plate'}
+    )
+//Tools
+    event.shaped(
+        Item.of('functionalstorage:configuration_tool'), ['ABA', 'BCB', 'DBE'],
+        {A: 'gtceu:iron_screw', B: 'gtceu:gold_plate', C: 'create:electron_tube', D: '#forge:tools/hammers', E: '#forge:tools/screwdrivers'}
+    )
+    event.shaped(
+        Item.of('functionalstorage:linking_tool'), ['ABA', 'BCB', 'DBE'],
+        {A: 'gtceu:iron_screw', B: 'gtceu:steel_plate', C: '#gtceu:circuits/ulv', D: '#forge:tools/hammers', E: '#forge:tools/screwdrivers'}
+    )
 })

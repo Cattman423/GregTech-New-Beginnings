@@ -6,26 +6,7 @@
 	icon: "gtceu:electric_blast_furnace"
 	id: "58C40E69243385C6"
 	order_index: 0
-	quest_links: [
-		{
-			id: "3C2DF83E9D5C4C96"
-			linked_quest: "54C48DD1FB92238F"
-			x: -11.5d
-			y: 0.5d
-		}
-		{
-			id: "4E065A58129D70F9"
-			linked_quest: "3C164289713FF1E0"
-			x: -11.5d
-			y: -1.0d
-		}
-		{
-			id: "52D349138AA78FEE"
-			linked_quest: "6EF25B4F7E987329"
-			x: -11.5d
-			y: -2.5d
-		}
-	]
+	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["79F35DAA01A154B9"]

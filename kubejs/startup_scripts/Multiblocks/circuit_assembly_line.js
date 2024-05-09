@@ -1,5 +1,5 @@
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
-//Steam Engine
+//Circuit Assembly Line
     event.create('circuit_assembly_line')
         .category('multiblock')
         .setEUIO('in')
@@ -10,7 +10,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 })
 //import static com.gregtechceu.gtceu.api.pattern.util.RelativeDirection.*;
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-//Steam Engine
+//Circuit Assembly Line
     event.create('circuit_assembly_line', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('circuit_assembly_line')
@@ -22,7 +22,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where('A', Predicates.controller(Predicates.blocks(definition.get())))
             .where('C', Predicates.blocks(GTBlocks.CASING_STEEL_SOLID.get())
                     .or(Predicates.abilities(PartAbility.IMPORT_FLUIDS).setMaxGlobalLimited(4)))
-            .where('O', Predicates.abilities(PartAbility.EXPORT_ITEMS/*addTooltips(Component.translatable("gtceu.multiblock.pattern.location_end"))*/))
+            .where('O', Predicates.abilities(PartAbility.EXPORT_ITEMS))
             .where('I', Predicates.blocks('gtceu:ulv_input_bus'))
             .where('F', Predicates.blocks(GTBlocks.CASING_STEEL_SOLID.get())
                     .or(Predicates.abilities(PartAbility.INPUT_ENERGY).setMinGlobalLimited(1).setMaxGlobalLimited(3)))
@@ -38,31 +38,5 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .workableCasingRenderer(
             "gtceu:block/casings/solid/machine_casing_solid_steel",
             "gtceu:block/multiblock/assembly_line", false
-        )/*,
-        event.create('assembly_line', 'multiblock')
-        .rotationState(RotationState.NON_Y_AXIS)
-        .recipeType(GTRecipeTypes.ASSEMBLY_LINE_RECIPES)
-        .recipeModifier(GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK))
-        .appearanceBlock(CASING_STEEL_SOLID)
-        .pattern(definition => FactoryBlockPattern.start(BACK, UP, RIGHT)
-                .aisle("FIF", "RTR", "SAG", "#Y#")
-                .aisle("FIF", "RTR", "GAG", "#Y#").setRepeatable(3, 15)
-                .aisle("FOF", "RTR", "GAG", "#Y#")
-                .where('S', Predicates.controller(blocks(definition.getBlock())))
-                .where('F', blocks(CASING_STEEL_SOLID.get())
-                        .or(Predicates.abilities(PartAbility.IMPORT_FLUIDS).setMaxGlobalLimited(4)))
-                .where('O', Predicates.abilities(PartAbility.EXPORT_ITEMS).addTooltips(Component.translatable("gtceu.multiblock.pattern.location_end")))
-                .where('Y', blocks(CASING_STEEL_SOLID.get()).or(Predicates.abilities(PartAbility.INPUT_ENERGY).setMinGlobalLimited(1).setMaxGlobalLimited(3)))
-                .where('I', blocks(ITEM_IMPORT_BUS[0].getBlock()))
-                .where('G', blocks(CASING_GRATE.get()))
-                .where('A', blocks(CASING_ASSEMBLY_CONTROL.get()))
-                .where('R', blocks(CASING_LAMINATED_GLASS.get()))
-                .where('T', blocks(CASING_ASSEMBLY_LINE.get()))
-                .where('#', Predicates.any())
-                .build())
-        .workableCasingRenderer(GTCEu.id("block/casings/solid/machine_casing_solid_steel"),
-                GTCEu.id("block/multiblock/assembly_line"), false)
-        .compassSections(GTCompassSections.TIER[IV])
-        .compassNodeSelf()
-        .register()*/
+        )
 })

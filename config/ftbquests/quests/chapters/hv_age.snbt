@@ -218,25 +218,6 @@
 		}
 		{
 			dependencies: ["1CB9E2AD3CCF332D"]
-			id: "3C164289713FF1E0"
-			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3DA5A0146C248364"
-				table_id: 3488111899381174028L
-				type: "random"
-			}]
-			shape: "pentagon"
-			tasks: [{
-				id: "158DC5A5EC06F221"
-				item: "gtceu:advanced_alternator"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["1CB9E2AD3CCF332D"]
 			id: "237BF9AA857FAF68"
 			optional: true
 			rewards: [{
@@ -251,8 +232,8 @@
 				item: "gtceu:steam_large_turbine"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -2.5d
+			x: -1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["7BB6DA286AC97192"]
