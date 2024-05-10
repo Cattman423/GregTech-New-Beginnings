@@ -28,4 +28,10 @@ pipScopesEnabled = true
 customShadersEnabled = true
 #Enables explosions to destroy blocks
 explosionDestroyBlocksEnabled = true
+#Sets the probability of dropping some item(s) by monster mobs.
+#Range: 0.0 ~ 1.0
+itemDropChance = 0.35
+#Sets the max count of items to be dropped by a monster mob.
+#Range: 1 ~ 64
+maxItemDropCount = 7
 

@@ -153,4 +153,26 @@ ServerEvents.recipes(event => {
         Item.of('functionalstorage:linking_tool'), ['ABA', 'BCB', 'DBE'],
         {A: 'gtceu:iron_screw', B: 'gtceu:steel_plate', C: '#gtceu:circuits/ulv', D: '#forge:tools/hammers', E: '#forge:tools/screwdrivers'}
     )
+
+    const stordrawer = ['oak', 'spruce', 'birch', 'jungle', 'acacia', 'dark_oak', 'mangrove', 'warped', 'crimson']
+    stordrawer.forEach( (base) => {
+        event.shapeless(Item.of('functionalstorage:' + base + '_1'),['storagedrawers:' + base + '_full_drawers_1'])
+        event.shapeless(Item.of('functionalstorage:' + base + '_1'),['2x storagedrawers:' + base + '_half_drawers_1'])
+        event.shapeless(Item.of('functionalstorage:' + base + '_2'),['storagedrawers:' + base + '_full_drawers_2'])
+        event.shapeless(Item.of('functionalstorage:' + base + '_2'),['2x storagedrawers:' + base + '_half_drawers_2'])
+        event.shapeless(Item.of('functionalstorage:' + base + '_4'),['storagedrawers:' + base + '_full_drawers_4'])
+        event.shapeless(Item.of('functionalstorage:' + base + '_4'),['2x storagedrawers:' + base + '_half_drawers_4'])
+    })
+    event.shapeless(Item.of('functionalstorage:copper_upgrade'),['4x storagedrawers:obsidian_storage_upgrade'])
+    event.shapeless(Item.of('functionalstorage:copper_upgrade'),['2x storagedrawers:iron_storage_upgrade'])
+    event.shapeless(Item.of('functionalstorage:copper_upgrade'),['storagedrawers:gold_storage_upgrade'])
+    event.shapeless(Item.of('functionalstorage:gold_upgrade'),['storagedrawers:diamond_storage_upgrade'])
+    event.shapeless(Item.of('functionalstorage:netherite_upgrade'),['storagedrawers:emerald_storage_upgrade'])
+    event.shapeless(Item.of('functionalstorage:iron_downgrade'),['storagedrawers:one_stack_upgrade'])
+    event.shapeless(Item.of('functionalstorage:void_upgrade'),['storagedrawers:void_upgrade'])
+    event.shapeless(Item.of('functionalstorage:storage_controller'),['storagedrawers:controller'])
+    event.shapeless(Item.of('functionalstorage:controller_extension'),['storagedrawers:controller_slave'])
+    event.shapeless(Item.of('functionalstorage:configuration_tool'),['storagedrawers:quantify_key'])
+    event.shapeless(Item.of('functionalstorage:configuration_tool'),['storagedrawers:shroud_key'])
+    event.shapeless(Item.of('functionalstorage:configuration_tool'),['storagedrawers:drawer_key'])
 })

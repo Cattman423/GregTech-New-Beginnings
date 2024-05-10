@@ -9,5 +9,6 @@ StartupEvents.registry('block', event => {
         .hardness(5)
         .requiresTool(true)
         .material('metal')
-        .soundType(SoundType.LODESTONE)
+        .soundType(SoundType.NETHERITE_BLOCK)
+        .tagBlock('forge:mineable/wrench')
 })

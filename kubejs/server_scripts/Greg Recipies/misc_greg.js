@@ -283,8 +283,8 @@ ServerEvents.recipes(event => {
             '32x gtceu:steel_plate', 
             '4x #gtceu:circuits/mv')
         .itemOutputs('kubejs:leo_lv')
-        .duration(1200)
-        .EUt(120)
+        .duration(min)
+        .EUt(mv)
     event.recipes.gtceu.assembler('leo_lv_2')
         .circuit(32)
         .itemInputs(
@@ -294,7 +294,7 @@ ServerEvents.recipes(event => {
             '3x #gtceu:circuits/hv')
         .itemOutputs('kubejs:leo_lv')
         .duration(900)
-        .EUt(480)
+        .EUt(hv)
     event.recipes.gtceu.assembler('leo_lv_3')
         .circuit(32)
         .itemInputs(
@@ -303,8 +303,8 @@ ServerEvents.recipes(event => {
             '16x gtceu:stainless_steel_plate', 
             '2x #gtceu:circuits/ev')
         .itemOutputs('kubejs:leo_lv')
-        .duration(600)
-        .EUt(1920)
+        .duration(min/2)
+        .EUt(ev)
     event.recipes.gtceu.assembler('mining_ship_1')
         .circuit(16)
         .itemInputs(
@@ -315,8 +315,7 @@ ServerEvents.recipes(event => {
             '32x gtceu:aluminium_plate', 
             '4x #gtceu:circuits/mv')
         .itemOutputs('kubejs:mining_ship')
-        .duration(1200)
-        .EUt(120)
+        .duration(min).EUt(mv)
 //Paper fixes
     event.shaped(
         Item.of('2x gtceu:paper_dust',),
@@ -363,8 +362,7 @@ ServerEvents.recipes(event => {
         .itemInputs('gtceu:zirconium_dust')
         .inputFluids('gtceu:oxygen 2000')
         .chancedOutput('gtceu:cubic_zirconium_dust', 7500, 500)
-        .duration(6000)
-        .EUt(480)
+        .duration(min*5).EUt(hv)
 //Blank Discs
     function formpress(id, input, output, cast, time, eu){
         event.recipes.gtceu.fluid_solidifier(id)
@@ -374,6 +372,11 @@ ServerEvents.recipes(event => {
             .duration(time)
             .EUt(eu)
     }
+//Bakelite
+    event.recipes.gtceu.chemical_reactor('kubejs:gtceu/chemical_reactor/misc_greg/bakelite')
+        .inputFluids('gtceu:phenol 1000', 'gtceu:formaldehyde 1000')
+        .outputFluids('gtceu:bakelite 1000')
+        .duration(min/2).EUt(lv/2)
 //
     event.shaped(
         Item.of('framedblocks:framed_lever'),

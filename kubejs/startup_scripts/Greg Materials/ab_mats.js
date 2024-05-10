@@ -223,6 +223,7 @@ const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
         .components('phenol', 'formaldehyde')
         .color(0x79392F)
         .secondaryColor(0xA16E7F)
+        .flags(plates, gear, small_gear, rod, frame)
     
     event.create('protonium')
         .ingot()
@@ -267,6 +268,18 @@ const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
         .dust()
         .components('iron', 'oxygen')
         .color(0x382C26)
+
+    event.create('netherite_scrap')
+        .ingot()
+        .element('netherite_scrap')
+        .color(0x4D494D)
+
+    event.create('netherite')
+        .ingot()
+        .iconSet(SHINY)
+        .components('4x netherite_scrap', '4x gold')
+        .color(0x4D494D)
+        .flags(plates, rod, bolt_and_screw)
 
 //Regoliths
     event.create('moon_stone')
