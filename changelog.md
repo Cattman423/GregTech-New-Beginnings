@@ -2,19 +2,39 @@
 
 ## V 0.1.3
 
+* Multiblocks
+  * Removed the 9-amp lv steam engine multiblock
+  * Removed the Alternator multiblocks
 * Materials
   * Added Adamantite
   * Added Chadium
   * Added Moon, Mars, Mercury, and Venus Stone Dusts and Air
+* Recipes
+  * Removed recipes for Storage Drawers in favor of Functional Storage
 * Mod Additions
   * Added Functional Storage
   * Added Functional Gregtech Drawers
 * Disabled Block of Sky due to conflicts with shaders
 * Mod Updates
   * Amendments v1.1.27
+  * Applied Energistics 2 v15.2.1
+  * Apotheosis v7.3.5
+  * Artifacts v9.5.4
+  * Collective v7.57
   * Create Low Heated v0.5.1.f-h
+  * Delightful v3.5.4
+  * Dummmmmmy v1.8.17b
+  * Enhanced Celestials v5.0.0.4
+  * Extended AE v1.1.5
+  * Factory Blocks v1.3.0
+  * FTBQuestsOptimizer v2.0.1
   * GregTechCEu Modern v1.2.1
   * GT-- v1.0.6a
+  * Point Blank v1.3.3
+  * ProgressiveBosses v3.9.7
+  * Stargate Journey v0.6.26
+  * TerraBlender v3.0.1.6
+  * Terralith v2.5.0
 
 ## V 0.1.2
 
