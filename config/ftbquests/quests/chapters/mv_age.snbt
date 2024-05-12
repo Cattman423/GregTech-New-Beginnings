@@ -8,6 +8,7 @@
 	id: "6766564C9E361F32"
 	order_index: 4
 	quest_links: [{
+		disable_toast: true
 		id: "4682A9E3E152BDBF"
 		linked_quest: "022992D132A0423F"
 		shape: "gear"

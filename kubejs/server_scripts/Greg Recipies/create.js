@@ -19,9 +19,9 @@ ServerEvents.recipes(event => {
         ]
         )
     event.replaceInput(
-        { input: 'create:andesite_alloy' }, // Arg 1: the filter
-        'create:andesite_alloy',            // Arg 2: the item to replace
-        'gtceu:andesite_alloy_ingot'        // Arg 3: the item to replace it with
+        { input: 'gtceu:andesite_alloy_ingot' }, // Arg 1: the filter
+        'gtceu:andesite_alloy_ingot',            // Arg 2: the item to replace
+        'create:andesite_alloy'        // Arg 3: the item to replace it with
         // Note: tagged fluid ingredients do not work on Fabric, but tagged items do.
         )
     event.replaceInput(
@@ -87,8 +87,8 @@ ServerEvents.recipes(event => {
 	    ]).transitionalItem(kjswi).loops(1) // set the transitional item and the number of loops
 //Greg bricks
     event.recipes.create.compacting(
-        'gtceu:compressed_clay', 
-        'minecraft:clay_ball'
+        ['gtceu:compressed_clay', 'gtceu:brick_wooden_form'], 
+        ['minecraft:clay_ball', 'gtceu:brick_wooden_form']
     )
     event.recipes.create.compacting(
         ['2x gtceu:compressed_coke_clay'], 
@@ -140,7 +140,7 @@ ServerEvents.recipes(event => {
             'FB '
         ],
         {
-            A: 'gtceu:small_wood_gear',
+            A: '#forge:small_bakelite',
             B: 'create:shaft',
             C: '#forge:tools/hammers',
             D: '#forge:tools/mallets',
@@ -156,7 +156,7 @@ ServerEvents.recipes(event => {
             'FB '
         ],
         {
-            A: 'gtceu:wood_gear',
+            A: '#forge:bakelite',
             B: 'create:shaft',
             C: '#forge:tools/hammers',
             D: '#forge:tools/mallets',
@@ -164,11 +164,11 @@ ServerEvents.recipes(event => {
             F: 'gtceu:andesite_alloy_screw'
         }
         )
-    function cogs(id, gear, fluid){
+    function cogs(id, gear, fluid, output){
         event.recipes.gtceu.assembler(id)
             .itemInputs(gear, 'create:shaft')
             .inputFluids(fluid)
-            .itemOutputs('create:cogwheel')
+            .itemOutputs(output)
             .duration(sec*5)
             .EUt(ulv)
         }
@@ -183,7 +183,7 @@ ServerEvents.recipes(event => {
         {
             A: '#minecraft:wool',
             B: 'create:shaft',
-            C: 'gtceu:wood_gear'
+            C: '#forge:bakelite'
         }
         )
     event.shaped(
@@ -390,7 +390,7 @@ ServerEvents.recipes(event => {
             C: '#forge:tools/hammers',
             D: '#forge:tools/wrenches',
             E: '#forge:tools/screwdrivers',
-            F: 'gtceu:small_wood_gear',
+            F: '#forge:small_bakelite',
             G: 'gtceu:andesite_alloy_screw'
         }
         )
@@ -534,7 +534,7 @@ ServerEvents.recipes(event => {
                 A: input,
                 B: 'create:andesite_casing',
                 C: shaft,
-                D: 'gtceu:small_wood_gear',
+                D: '#forge:small_bakelite',
                 E: '#forge:tools/wrenches',
                 F: '#forge:tools/screwdrivers',
                 G: 'gtceu:andesite_alloy_screw'
@@ -624,7 +624,7 @@ ServerEvents.recipes(event => {
             A: 'create:andesite_casing',
             B: 'create:shaft',
             C: '#minecraft:wooden_slabs',
-            D: 'gtceu:wood_gear',
+            D: '#forge:bakelite',
             E: 'gtceu:andesite_alloy_screw',
             F: '#forge:tools/screwdrivers',
             G: '#forge:tools/hammers'
@@ -721,12 +721,12 @@ ServerEvents.recipes(event => {
 
     chute('2x create:chute', 'gtceu:andesite_alloy_plate', 'gtceu:small_andesite_alloy_gear')
     chute('2x create:smart_chute', 'gtceu:brass_plate', 'create:electron_tube')
-    cogs('plastic_cog', 'gtceu:small_wood_gear', 'gtceu:polyethylene 144')
-    cogs('ptfe_cog', 'gtceu:small_wood_gear', 'gtceu:polytetrafluoroethylene 72')
-    cogs('pbi_cog', 'gtceu:small_wood_gear', 'gtceu:polybenzimidazole 36')
-    cogs('plastic_large_cog', 'gtceu:wood_gear', 'gtceu:polyethylene 144')
-    cogs('ptfe_large_cog', 'gtceu:wood_gear', 'gtceu:polytetrafluoroethylene 72')
-    cogs('pbi_large_cog', 'gtceu:wood_gear', 'gtceu:polybenzimidazole 36')
+    cogs('plastic_cog', '#forge:small_bakelite', 'gtceu:polyethylene 144', 'create:cogwheel')
+    cogs('ptfe_cog', '#forge:small_bakelite', 'gtceu:polytetrafluoroethylene 72', 'create:cogwheel')
+    cogs('pbi_cog', '#forge:small_bakelite', 'gtceu:polybenzimidazole 36', 'create:cogwheel')
+    cogs('plastic_large_cog', '#forge:bakelite', 'gtceu:polyethylene 144', 'create:large_cogwheel')
+    cogs('ptfe_large_cog', '#forge:bakelite', 'gtceu:polytetrafluoroethylene 72', 'create:large_cogwheel')
+    cogs('pbi_large_cog', '#forge:bakelite', 'gtceu:polybenzimidazole 36', 'create:large_cogwheel')
     funnel('2x create:andesite_funnel', 'gtceu:andesite_alloy_plate', 'gtceu:small_andesite_alloy_gear', 'minecraft:dried_kelp')
     funnel('2x create:brass_funnel', 'gtceu:brass_plate', 'create:electron_tube', 'minecraft:dried_kelp')
     funnel('2x create:andesite_tunnel', 'gtceu:andesite_alloy_plate', 'gtceu:small_andesite_alloy_gear', 'create:belt_connector')

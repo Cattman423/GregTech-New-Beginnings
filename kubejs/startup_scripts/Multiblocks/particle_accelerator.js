@@ -1,4 +1,4 @@
-GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
+/*GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 //Steam Engine
     event.create('particle_accelerator')
         .category('multiblock')
@@ -60,4 +60,4 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             'gtnn:block/casings/solid/mar_casing',
             'gtceu:block/multiblock/large_chemical_reactor', false
         )
-})
+})*/

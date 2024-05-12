@@ -432,12 +432,17 @@ ServerEvents.recipes(event => {
             H: '#forge:tools/files'
         }
         )
-    event.shapeless(
-        Item.of('8x gtceu:brass_nugget'),
-        [
-          'gtceu:brass_ingot', '#forge:tools/saws',
-        ]
-        )
+//Nuggets
+    let anuggets = Ingredient.of("#forge:nuggets").itemIds
+
+    anuggets.forEach((itemIds) => {
+        event.shapeless((Item.of(itemIds, 8)), [itemIds.slice(0, -7)+'_ingot', '#forge:tools/saws'])
+    })
+    event.shapeless(('8x gtceu:andesite_alloy_nugget'), ['create:andesite_alloy', '#forge:tools/saws'])
+    event.shapeless(('8x gtceu:netherite_alloy_nugget'), ['minecraft:netherite_ingot', '#forge:tools/saws'])
+    event.shapeless(('8x gtceu:netherite_scrap_nugget'), ['minecraft:netherite_scrap', '#forge:tools/saws'])
+    event.shapeless(('8x gtceu:copper_nugget'), ['minecraft:copper_ingot', '#forge:tools/saws'])
+//
     smelting('gtceu:raw_zircon', 'gtceu:zirconium_ingot')
     smelting('gtceu:endstone_zircon_ore', '2x gtceu:zirconium_ingot')
     smelting('gtceu:netherrack_zircon_ore', '2x gtceu:zirconium_ingot')

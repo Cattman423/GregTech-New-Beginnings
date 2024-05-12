@@ -1,5 +1,8 @@
 {
     "material.gtceu.andesite_alloy": "Andesite Alloy",
+    "material.gtceu.desh": "Desh",
+    "material.gtceu.ostrum": "Ostrum",
+    "material.gtceu.calorite": "Calorite",
     "material.gtceu.poor_steel": "Poor Steel",
     "material.gtceu.rose_quartz": "Rose Quartz",
     "material.gtceu.nitrocellulose": "Nitrocellulose",
@@ -20,6 +23,8 @@
     "material.gtceu.formaldehyde": "Formaldehyde",
     "material.gtceu.bakelite": "Bakelite",
     "material.gtceu.protonium": "Protonium",
+    "material.gtceu.flux": "Flux",
+    "material.gtceu.flux_plated_desh": "Flux-Plated Desh",
     "material.gtceu.adamantite": "Adamantite",
     "material.gtceu.chadium": "Chadium",
     "material.gtceu.moon_stone": "Moon Stone",
@@ -129,6 +134,15 @@
     "block.gtceu.circuit_assembly_line": "Circuit Assembly Line",
     "block.gtceu.particle_accelerator": "Particle Accelerator",
     "block.gtceu.kinetic_assembler": "Kinetic Assembler",
+
+    "tagprefix.moon_stone": "Moon Stone %s Ore",
+    "tagprefix.moon_deepslate": "Moon Deepslate %s Ore",
+    "tagprefix.mars_stone": "Mars Stone %s Ore",
+    "tagprefix.venus_stone": "Venus Stone %s Ore",
+    "tagprefix.venus_sandstone": "Venus Stone %s Ore",
+    "tagprefix.mercury_stone": "Mercury Stone %s Ore",
+    "tagprefix.glacio_stone": "Glacio Stone %s Ore",
+    "tagprefix.permafrost": "Permafrost %s Ore",
 
     "tetra.material.gt_aluminium": "Aluminium",
     "tetra.material.gt_aluminium.prefix": "Aluminium",

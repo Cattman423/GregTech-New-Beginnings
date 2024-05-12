@@ -10,47 +10,18 @@
 		tag: { }
 	}
 	id: "6C5B3E76E3CCF3C8"
-	order_index: 1
-	quest_links: [ ]
+	order_index: 0
+	quest_links: [{
+		disable_toast: true
+		id: "40364A7137DFBAD6"
+		linked_quest: "5688B92DB43F370F"
+		shape: "hexagon"
+		size: 2.0d
+		x: 0.0d
+		y: 0.0d
+	}]
 	quests: [
 		{
-			dependencies: ["3B36589D2289A16A"]
-			id: "1BF2AF2968B229E9"
-			shape: "hexagon"
-			size: 2.0d
-			tasks: [{
-				id: "131BF65FFCD6A9CF"
-				item: "gtceu:hv_assembler"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["1BF2AF2968B229E9"]
-			hide_dependent_lines: true
-			id: "1028032D7D63A368"
-			tasks: [{
-				id: "17EE00F6E651DFAA"
-				item: "gtnn:heavy_ingot_t1"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["1028032D7D63A368"]
-			id: "6AE506F177EEAB2B"
-			tasks: [{
-				id: "1F84903BA6708005"
-				item: "gtnn:heavy_plate_t1"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["6AE506F177EEAB2B"]
 			id: "49FA29A83BF3E20B"
 			tasks: [{
 				id: "0F5659FCED78BB31"
@@ -61,7 +32,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["6AE506F177EEAB2B"]
 			id: "3A668F0914DC697D"
 			tasks: [{
 				id: "1EFE6B9CED9FB5BC"
@@ -72,7 +42,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["6AE506F177EEAB2B"]
 			id: "0FB28F02BA8EDDB7"
 			tasks: [{
 				id: "3F0137798285EC4F"
@@ -103,10 +72,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: [
-				"7877178DCDE78A5C"
-				"684DAE23A2DD6D4E"
-			]
+			dependencies: ["7877178DCDE78A5C"]
 			id: "6DF005C195DC485B"
 			tasks: [{
 				dimension: "ad_astra:moon"
@@ -117,162 +83,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: [
-				"649C064676DB2C18"
-				"57D644B7B3B815DD"
-			]
-			hide_dependent_lines: true
-			id: "684DAE23A2DD6D4E"
-			tasks: [{
-				id: "6D098E825FEB2891"
-				item: "gtceu:rp_1_mixed_fuel_bucket"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["225267E303DA4628"]
-			id: "649C064676DB2C18"
-			tasks: [{
-				id: "1C5AC09A9911F15F"
-				item: "gtnn:exxonmobil_chemical_plant"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["6EBAC6717ABE9972"]
-			id: "57D644B7B3B815DD"
-			tasks: [{
-				id: "1F5BFEF7AD10992D"
-				item: "gtceu:rp_1_rocket_fuel_bucket"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["20067316C02B2C1F"]
-			id: "6EBAC6717ABE9972"
-			tasks: [{
-				id: "690E3662CA3B1006"
-				item: "gtceu:kerosene_bucket"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"4601095311A0616A"
-				"1E7ECAD85034E7BD"
-			]
-			id: "20067316C02B2C1F"
-			tasks: [{
-				id: "5BD09CF2B5DC6FBB"
-				item: "gtceu:diesel_bucket"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["2D4E3017669CCEF0"]
-			id: "4601095311A0616A"
-			tasks: [{
-				id: "649D482DBF3EAF9E"
-				item: "gtceu:light_fuel_bucket"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["552A390B51203645"]
-			id: "1E7ECAD85034E7BD"
-			tasks: [{
-				id: "28E0A1FAE8EF1BD7"
-				item: "gtceu:heavy_fuel_bucket"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["33C09E78830887A3"]
-			id: "2D4E3017669CCEF0"
-			tasks: [{
-				id: "62569BC5064F3B5F"
-				item: "gtceu:sulfuric_light_fuel_bucket"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["33C09E78830887A3"]
-			id: "552A390B51203645"
-			tasks: [{
-				id: "686BBB059752470D"
-				item: "gtceu:sulfuric_heavy_fuel_bucket"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["225267E303DA4628"]
-			id: "33C09E78830887A3"
-			tasks: [{
-				id: "1CC5D3CE91951C3F"
-				item: "gtceu:oil_bucket"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["1BF2AF2968B229E9"]
-			hide_dependent_lines: true
-			id: "225267E303DA4628"
-			tasks: [{
-				id: "49754D5AD8EA80A0"
-				title: "Rocket Fuel"
-				type: "checkmark"
-			}]
-			x: -4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"6DF005C195DC485B"
-				"1028032D7D63A368"
-			]
-			hide_dependent_lines: true
-			id: "183021849778C0F7"
-			tasks: [{
-				id: "02B1684B6709C127"
-				item: "gtnn:heavy_ingot_t2"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["183021849778C0F7"]
-			id: "3EB915CB9E673D29"
-			tasks: [{
-				id: "0915B912DCDBECBD"
-				item: "gtnn:heavy_plate_t2"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["3EB915CB9E673D29"]
 			id: "20E65891D66A0A73"
 			tasks: [{
 				id: "0D71AB471A79DD7A"
@@ -298,10 +108,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: [
-				"0C39B285FD846E40"
-				"684DAE23A2DD6D4E"
-			]
+			dependencies: ["0C39B285FD846E40"]
 			id: "1F1834B620A96993"
 			tasks: [{
 				dimension: "ad_astra:mars"
@@ -312,32 +119,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: [
-				"1F1834B620A96993"
-				"183021849778C0F7"
-			]
-			id: "29ED2751890EE987"
-			tasks: [{
-				id: "173AD91C439D9989"
-				item: "gtnn:heavy_ingot_t3"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["29ED2751890EE987"]
-			id: "0CC8FE1B9F88E811"
-			tasks: [{
-				id: "23E37C6349D808F8"
-				item: "gtnn:heavy_plate_t3"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["0CC8FE1B9F88E811"]
 			id: "58D3907058D571FE"
 			tasks: [{
 				id: "2F7DA97D9EF8F46B"
@@ -363,10 +144,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"49F59FB4586DF4F2"
-				"1721ED3ECB4F8A6D"
-			]
+			dependencies: ["49F59FB4586DF4F2"]
 			id: "27B0997039904561"
 			tasks: [{
 				dimension: "ad_astra:mercury"
@@ -377,10 +155,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"49F59FB4586DF4F2"
-				"1721ED3ECB4F8A6D"
-			]
+			dependencies: ["49F59FB4586DF4F2"]
 			id: "4CD5D555C645C82A"
 			tasks: [{
 				dimension: "ad_astra:venus"
@@ -389,87 +164,6 @@
 			}]
 			x: 6.0d
 			y: 1.0d
-		}
-		{
-			dependencies: ["22A742D2480730EA"]
-			hide_dependent_lines: true
-			id: "1721ED3ECB4F8A6D"
-			tasks: [{
-				id: "3CEF5E076450672A"
-				item: "gtceu:methylhydrazine_nitrate_rocket_fuel_bucket"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["73F4E213EF227250"]
-			id: "22A742D2480730EA"
-			tasks: [{
-				id: "437486B1AD380458"
-				item: "gtceu:methyl_hydrazine_bucket"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["59D249D3EC3EC7E9"]
-			id: "73F4E213EF227250"
-			tasks: [{
-				id: "6EF203F79BD1F277"
-				item: "gtceu:hydrazine_bucket"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["55362FA849D9F00B"]
-			id: "59D249D3EC3EC7E9"
-			tasks: [{
-				id: "2A4BA71DD1A638B4"
-				item: "gtceu:hydrogen_peroxide_bucket"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["0B63D791F5769481"]
-			id: "55362FA849D9F00B"
-			tasks: [{
-				id: "44202218A2EA88E8"
-				item: "gtceu:ethyl_anthra_hydro_quinone_bucket"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 9.0d
-		}
-		{
-			dependencies: [
-				"79EDA644D7F9EF36"
-				"649C064676DB2C18"
-			]
-			id: "0B63D791F5769481"
-			tasks: [{
-				id: "26BB8FF26E8B0F35"
-				item: "gtceu:ethyl_anthra_quinone_bucket"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["225267E303DA4628"]
-			id: "79EDA644D7F9EF36"
-			tasks: [{
-				id: "236EDC5FB5F71BC4"
-				item: "gtceu:ethylbenzene_bucket"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 10.0d
 		}
 	]
 	title: "Space Race [WIP]"

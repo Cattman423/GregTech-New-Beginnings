@@ -8,6 +8,7 @@
 	id: "50A20D2B0D7C30A2"
 	order_index: 7
 	quest_links: [{
+		disable_toast: true
 		id: "1859D264A91B62BC"
 		linked_quest: "350D403494E82743"
 		shape: "gear"
@@ -333,32 +334,6 @@
 		}
 		{
 			dependencies: ["787E410D4CACE307"]
-			id: "054D584E2C90CE0B"
-			optional: true
-			shape: "pentagon"
-			tasks: [{
-				id: "75440B0A21F00019"
-				item: "gtnn:iv_rocket_engine"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["787E410D4CACE307"]
-			id: "52CA5F3B1AB5891F"
-			optional: true
-			shape: "pentagon"
-			tasks: [{
-				id: "77D2AA448BBBF4CB"
-				item: "gtnn:iv_naquadah_reactor"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["787E410D4CACE307"]
 			id: "2F1BB55572D5E7D0"
 			optional: true
 			shape: "pentagon"
@@ -367,8 +342,8 @@
 				item: "gtceu:extreme_combustion_engine"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -4.0d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7D7A506CD4659015"]

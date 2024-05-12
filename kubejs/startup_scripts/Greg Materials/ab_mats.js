@@ -89,6 +89,37 @@ const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
     GTMaterials.Tellurium.setProperty(PropertyKey.DUST, new $DustProperty())
     GTMaterials.Zinc.setProperty(PropertyKey.ORE, new $OreProperty())
 
+    event.create('andesite_alloy')
+        .ingot()
+        .components('8x andesite', 'zinc')
+        .color(0x839689)
+        .iconSet(DULL)
+        .flags(plates, gear, small_gear, bolt_and_screw, rotor, no_decomp)
+
+    event.create('desh')
+        .ingot()
+        .ore()
+        .color(0xF2A057).secondaryColor(0x2E2F04)
+        .element('desh')
+        .iconSet(METALLIC)
+        .flags(plates)
+
+    event.create('ostrum')
+        .ingot()
+        .ore()
+        .color(0xE5939B).secondaryColor(0x2F0425)
+        .element('ostrum')
+        .iconSet(METALLIC)
+        .flags(plates)
+
+    event.create('calorite')
+        .ingot()
+        .ore()
+        .color(0xE65757).secondaryColor(0x2F0506)
+        .element('calorite')
+        .iconSet(METALLIC)
+        .flags(plates)
+
     event.create('nitrocellulose')
         .polymer()
         .components('6x carbon', '7x hydrogen', '2x nitrogen_dioxide', '5x oxygen')
@@ -275,11 +306,17 @@ const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
         .color(0x4D494D)
 
     event.create('netherite')
+        .dust()
+        .iconSet(DULL)
+        .element('netherite')
+        .color(0x4D494D)
+
+    event.create('netherite_alloy')
         .ingot()
         .iconSet(SHINY)
-        .components('4x netherite_scrap', '4x gold')
+        .components('netherite', '4x gold')
         .color(0x4D494D)
-        .flags(plates, rod, bolt_and_screw)
+        .flags(plates, dense_plate, rod, bolt_and_screw)
 
 //Regoliths
     event.create('moon_stone')
@@ -357,7 +394,7 @@ const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
 //Mantles
 
 //Modifications
-    GTMaterials.get('andesite_alloy').addFlags(plates, gear, small_gear, bolt_and_screw, rotor);
+    //GTMaterials.get('andesite_alloy').addFlags(plates, gear, small_gear, bolt_and_screw, rotor);
     GTMaterials.Wood.addFlags(small_gear);
     GTMaterials.RawRubber.addFlags(ring, plates);
     GTMaterials.Obsidian.addFlags(bolt_and_screw);

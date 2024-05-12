@@ -7,6 +7,7 @@
 	id: "141C26D8EA7453AC"
 	order_index: 8
 	quest_links: [{
+		disable_toast: true
 		id: "3443CD8E1BB788AF"
 		linked_quest: "7BC656817FDE6E77"
 		shape: "gear"
@@ -49,46 +50,25 @@
 		}
 		{
 			dependencies: ["5C0F37A4683804EF"]
-			id: "41A731A3A4B92B9A"
-			tasks: [{
-				id: "3D73F5D7CA1CA54E"
-				item: "gtnn:luv_rocket_engine"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["5C0F37A4683804EF"]
-			id: "142E2675DC593957"
-			tasks: [{
-				id: "4EC6CA0AE81E442E"
-				item: "gtnn:luv_naquadah_reactor"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["5C0F37A4683804EF"]
 			id: "2C68297EFB37F31B"
+			shape: "pentagon"
 			tasks: [{
 				id: "45E63F40ABCAEB28"
 				item: "gtceu:plasma_large_turbine"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -4.0d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["3061801F9CC087D8"]
+			dependencies: ["65C9B89DBED4082F"]
 			id: "5B314DC5478CB545"
 			tasks: [{
 				id: "66FFFED7FC8F3A39"
 				item: "gtceu:crystal_processor_mainframe"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: 4.0d
 		}
 		{
@@ -320,12 +300,24 @@
 			size: 1.0d
 			subtitle: "Time for a server room"
 			tasks: [{
-				id: "47B7237E867F427F"
-				type: "checkmark"
+				id: "3C5186994A5C400D"
+				item: "gtceu:data_bank"
+				type: "item"
 			}]
 			title: "Mass Data Storage"
 			x: -2.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["3061801F9CC087D8"]
+			id: "65C9B89DBED4082F"
+			tasks: [{
+				id: "2DA6E3FBA75F094C"
+				item: "gtceu:circuit_assembly_line"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
 		}
 	]
 	title: "Luv Age [WIP]"

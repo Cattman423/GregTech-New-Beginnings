@@ -38,4 +38,60 @@ StartupEvents.registry('item', event => {
         .displayName('Extraterrestrial Mining Lander')
         .texture('gtceu:item/space_production/mining_lander')
         .tooltip('Lands on forigen bodies and returns with raw materials')
+
+//Deep Space Network Computers
+    event.create('nesn_computer_chip')
+        .displayName('Near-Earth Space Network Computer Chip')
+        .texture('gtceu:item/space_production/nesn_computer_chip')
+
+    event.create('dsn_computer_chip')
+        .displayName('Deep Space Network Computer Chip')
+        .texture('gtceu:item/space_production/dsn_computer_chip')
+
+    event.create('adsn_computer_chip')
+        .displayName('Advanced Deep Space Network Computer Chip')
+        .texture('gtceu:item/space_production/adsn_computer_chip')
+
+//Nosecone componets
+    event.create('bls_system')
+        .displayName('Basic Life Support System')
+        .texture('gtceu:item/space_production/bls_system')
+
+    event.create('als_system')
+        .displayName('Advanced Life Support System')
+        .texture('gtceu:item/space_production/als_system')
+    
+    event.create('thermal_tiles')
+        .displayName('Thermal Tiles')
+        .texture('gtceu:item/space_production/thermal_tiles')
+    
+    event.create('rcs_block')
+        .displayName('Reaction Control System')
+        .texture('gtceu:item/space_production/rcs_block')
+
+//Engine componets
+    event.create('steel_nozzel')
+        .displayName('Steel Engine Nozzel')
+        .texture('gtceu:item/space_production/steel_nozzel')
+
+    event.create('steel_fuel')
+        .displayName('Steel Fuel Injectors')
+        .texture('gtceu:item/space_production/steel_fuel')
+
+//Rocket housings
+    event.create('aluminium_stringer')
+        .displayName('Aluminium Stringer Tank Section')
+        .texture('gtceu:item/space_production/aluminium_stringer')
+
+    event.create('desh_stringer')
+        .displayName('Desh Stringer Tank Section')
+        .texture('gtceu:item/space_production/desh_stringer')
+
+    event.create('ostrum_stringer')
+        .displayName('Ostrum Stringer Tank Section')
+        .texture('gtceu:item/space_production/ostrum_stringer')
+
+    event.create('calorite_stringer')
+        .displayName('Calorite Stringer Tank Section')
+        .texture('gtceu:item/space_production/calorite_stringer')
 })

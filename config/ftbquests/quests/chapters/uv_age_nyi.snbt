@@ -8,6 +8,7 @@
 	order_index: 10
 	quest_links: [
 		{
+			disable_toast: true
 			id: "38A06083C34D7176"
 			linked_quest: "15F8A472306D9DCA"
 			shape: "gear"
@@ -33,8 +34,9 @@
 			size: 1.0d
 			subtitle: "Data storage sure is expensive..."
 			tasks: [{
-				id: "4F9B678E31002121"
-				type: "checkmark"
+				id: "2A41CAA77D9E798B"
+				item: "gtceu:data_module"
+				type: "item"
 			}]
 			title: "Data Module"
 			x: -2.5d
@@ -53,8 +55,9 @@
 			size: 1.0d
 			subtitle: "With our powers combined..."
 			tasks: [{
-				id: "3DAB523583CEACA8"
-				type: "checkmark"
+				id: "1833219C85019CE1"
+				item: "gtceu:network_switch"
+				type: "item"
 			}]
 			title: "Network Switch"
 			x: -2.5d

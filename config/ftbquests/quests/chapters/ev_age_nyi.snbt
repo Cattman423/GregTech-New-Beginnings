@@ -8,6 +8,7 @@
 	id: "68BE8C9E324FEE7D"
 	order_index: 6
 	quest_links: [{
+		disable_toast: true
 		id: "160751DD3031C07C"
 		linked_quest: "6470A1ACB205DCF4"
 		shape: "gear"
@@ -29,19 +30,6 @@
 		}
 		{
 			dependencies: ["1D57085375A0F9BE"]
-			id: "0C893AEDE19EC348"
-			optional: true
-			shape: "pentagon"
-			tasks: [{
-				id: "6C7CAE43B072C922"
-				item: "gtnn:ev_rocket_engine"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["1D57085375A0F9BE"]
 			id: "0DEFF15C522642C4"
 			optional: true
 			shape: "pentagon"
@@ -50,8 +38,8 @@
 				item: "gtceu:gas_large_turbine"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -4.0d
+			x: 0.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1D57085375A0F9BE"]
@@ -63,21 +51,8 @@
 				item: "gtceu:large_combustion_engine"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["1D57085375A0F9BE"]
-			id: "5E4F3B0AADD07782"
-			optional: true
-			shape: "pentagon"
-			tasks: [{
-				id: "6DC8CE5042E3BE9E"
-				item: "gtnn:ev_naquadah_reactor"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -3.5d
+			x: -0.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6470A1ACB205DCF4"]

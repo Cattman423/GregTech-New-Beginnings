@@ -8,6 +8,7 @@
 	id: "15B5E090F479155C"
 	order_index: 1
 	quest_links: [{
+		disable_toast: true
 		id: "348585C5400C58EC"
 		linked_quest: "6A91810EF77054CF"
 		shape: "gear"
@@ -555,7 +556,7 @@
 				item: "create:electron_tube"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.5d
 			y: 7.0d
 		}
 		{
@@ -588,7 +589,6 @@
 		{
 			dependencies: [
 				"6D3322D2FFCBEB8C"
-				"38747E7B7CB63D8D"
 				"491F667B940BC625"
 			]
 			id: "1928A0F6075A46AC"
@@ -858,6 +858,8 @@
 			dependencies: [
 				"4E5F6BF9EF55DC13"
 				"1928A0F6075A46AC"
+				"38747E7B7CB63D8D"
+				"36C838DF116F3DC6"
 			]
 			icon: "gtceu:bronze_machine_casing"
 			id: "54D5926072B165D5"
@@ -1019,20 +1021,8 @@
 			dependencies: ["5468ECF42040C129"]
 			id: "36C838DF116F3DC6"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "31D4B21F3BCAEACC"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "66B92D9E73223C8C"
-					type: "xp"
-					xp: 500
-				}
-			]
 			shape: "hexagon"
+			size: 1.0d
 			tasks: [{
 				id: "0D72FE3B6E8D7DCA"
 				item: "minecraft:bricks"
@@ -1124,7 +1114,7 @@
 				item: "create:smart_fluid_pipe"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 1.0d
 			y: 7.0d
 		}
 		{
@@ -1263,6 +1253,7 @@
 					xp: 100
 				}
 			]
+			shape: "pentagon"
 			tasks: [{
 				id: "0B283EC57F7847B3"
 				item: "create:steam_engine"
@@ -1355,7 +1346,7 @@
 				item: "create:deployer"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 6.5d
 			y: 7.0d
 		}
 		{

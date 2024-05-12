@@ -1,7 +1,11 @@
 # Changelog
 
-## V 0.1.3
+## V 0.2.0
 
+* Quests
+  * Fixed some quests in the Create Age
+  * Changed some quests to be linked quests to cleam up the questbook a bit
+  * Removed Multiblock Madness quest line, it may return in the future
 * Multiblocks
   * Removed the 9-amp lv steam engine multiblock
   * Removed the Alternator multiblocks
@@ -9,12 +13,24 @@
   * Added Adamantite
   * Added Chadium
   * Added Moon, Mars, Mercury, and Venus Stone Dusts and Air
+  * Switched textures for Desh, Ostrum, Calorite, and Andesite Alloy, ingots, blocks, and nuggets (where applicable) for their base-mod versions
+  * Removed Soul Soil Ores
 * Recipes
   * Removed recipes for Storage Drawers in favor of Functional Storage
+  * Fixed Impure Redstone not washing into Redstone dust correctly
+  * You can now cut ingots into 8x nuggets
+  * Compressed Coke Clay and Compressed Clay now have non-conflicting recipes
+  * Crude Oil can now be distilled into Oil
+  * Create Larg Cogwheels can now be made in an assembler
+  * Bakelite gears and small gears can now be used in place of their wooden counterparts
+  * Changed Tier One Rocket recipe
 * Mod Additions
   * Added Functional Storage
   * Added Functional Gregtech Drawers
 * Disabled Block of Sky due to conflicts with shaders
+* Mod Additions
+  * Added Avaritia Lite
+  * Added Showcase Item
 * Mod Updates
   * Amendments v1.1.27
   * Applied Energistics 2 v15.2.1
@@ -26,15 +42,17 @@
   * Dummmmmmy v1.8.17b
   * Enhanced Celestials v5.0.0.4
   * Extended AE v1.1.5
-  * Factory Blocks v1.3.0
+  * Factory Blocks v1.3.1
   * FTBQuestsOptimizer v2.0.1
-  * GregTechCEu Modern v1.2.1
+  * GregTechCEu Modern v1.2.2
   * GT-- v1.0.6a
   * Point Blank v1.3.3
   * ProgressiveBosses v3.9.7
   * Stargate Journey v0.6.26
   * TerraBlender v3.0.1.6
   * Terralith v2.5.0
+* Mod Removals
+  * Removed GT--
 
 ## V 0.1.2
 

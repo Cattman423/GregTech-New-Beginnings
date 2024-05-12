@@ -565,8 +565,8 @@
 			}]
 			tasks: [{
 				count: 8L
-				id: "30F23479495F872D"
-				item: { Count: 8b, id: "gtceu:andesite_alloy_ingot" }
+				id: "00A6C51C80FCB388"
+				item: { Count: 8b, id: "create:andesite_alloy" }
 				type: "item"
 			}]
 			x: -5.0d
@@ -825,12 +825,12 @@
 				xp: 100
 			}]
 			tasks: [{
-				id: "2AB7EBFB86491B92"
+				id: "5C34F1B5E9EEAEE6"
 				item: {
 					Count: 1b
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						"ftbfiltersystem:filter": "item_tag(storagedrawers:drawers)"
+						"ftbfiltersystem:filter": "item_tag(functionalstorage:drawer)"
 					}
 				}
 				type: "item"

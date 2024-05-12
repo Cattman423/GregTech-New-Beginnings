@@ -7,6 +7,7 @@
 	id: "758204673DED5B03"
 	order_index: 9
 	quest_links: [{
+		disable_toast: true
 		id: "74C08D18B5F07862"
 		linked_quest: "757DDBA99EFFD574"
 		shape: "gear"
@@ -203,7 +204,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["370FC1CDF5F9A9CC"]
+			dependencies: [
+				"370FC1CDF5F9A9CC"
+				"65C9B89DBED4082F"
+			]
 			description: [
 				"The third circuit of the &4wetware&r line. Get some &bEuropium&r to make these."
 				""
