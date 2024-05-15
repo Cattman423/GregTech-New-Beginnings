@@ -102,7 +102,7 @@ const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
         .color(0xF2A057).secondaryColor(0x2E2F04)
         .element('desh')
         .iconSet(METALLIC)
-        .flags(plates)
+        .flags(plates, dense_plate)
 
     event.create('ostrum')
         .ingot()
@@ -110,7 +110,7 @@ const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
         .color(0xE5939B).secondaryColor(0x2F0425)
         .element('ostrum')
         .iconSet(METALLIC)
-        .flags(plates)
+        .flags(plates, dense_plate)
 
     event.create('calorite')
         .ingot()
@@ -118,7 +118,7 @@ const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
         .color(0xE65757).secondaryColor(0x2F0506)
         .element('calorite')
         .iconSet(METALLIC)
-        .flags(plates)
+        .flags(plates, dense_plate)
 
     event.create('nitrocellulose')
         .polymer()
@@ -395,43 +395,44 @@ const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
 
 //Modifications
     //GTMaterials.get('andesite_alloy').addFlags(plates, gear, small_gear, bolt_and_screw, rotor);
-    GTMaterials.Wood.addFlags(small_gear);
-    GTMaterials.RawRubber.addFlags(ring, plates);
-    GTMaterials.Obsidian.addFlags(bolt_and_screw);
-    GTMaterials.Copper.addFlags(bolt_and_screw);
-    GTMaterials.Glass.addFlags(bolt_and_screw);
-    GTMaterials.Almandine.addFlags(lens);
-    GTMaterials.Andradite.addFlags(lens);
-    GTMaterials.BlueTopaz.addFlags(lens);
-    GTMaterials.Cinnabar.addFlags(lens);
-    GTMaterials.Coal.addFlags(lens);
-    GTMaterials.GreenSapphire.addFlags(lens);
-    GTMaterials.Grossular.addFlags(lens);
-    GTMaterials.Rutile.addFlags(lens);
-    GTMaterials.Lazurite.addFlags(lens);
-    GTMaterials.Pyrope.addFlags(lens);
-    GTMaterials.RockSalt.addFlags(lens);
-    GTMaterials.Salt.addFlags(lens);
-    GTMaterials.Sodalite.addFlags(lens);
-    GTMaterials.Coke.addFlags(lens);
-    GTMaterials.Spessartine.addFlags(lens);
-    GTMaterials.Topaz.addFlags(lens);
-    GTMaterials.Uvarovite.addFlags(lens);
-    GTMaterials.NetherQuartz.addFlags(lens);
-    GTMaterials.CertusQuartz.addFlags(lens);
-    GTMaterials.Quartzite.addFlags(lens);
-    GTMaterials.Realgar.addFlags(lens);
-    GTMaterials.Malachite.addFlags(lens);
-    GTMaterials.Olivine.addFlags(lens);
-    GTMaterials.Opal.addFlags(lens);
-    GTMaterials.Amethyst.addFlags(lens);
-    GTMaterials.Lapis.addFlags(lens);
-    GTMaterials.Apatite.addFlags(lens);
-    GTMaterials.GarnetRed.addFlags(lens);
-    GTMaterials.GarnetYellow.addFlags(lens);
-    GTMaterials.Monazite.addFlags(lens)
+    GTMaterials.Aluminium.addFlags(dense_plate)
+    GTMaterials.Almandine.addFlags(lens)
+    GTMaterials.Amethyst.addFlags(lens)
+    GTMaterials.Andradite.addFlags(lens)
+    GTMaterials.Apatite.addFlags(lens)
+    GTMaterials.BlueTopaz.addFlags(lens)
+    GTMaterials.CertusQuartz.addFlags(lens)
+    GTMaterials.Cinnabar.addFlags(lens)
+    GTMaterials.Coal.addFlags(lens)
+    GTMaterials.Coke.addFlags(lens)
+    GTMaterials.Copper.addFlags(bolt_and_screw)
+    GTMaterials.GarnetRed.addFlags(lens)
+    GTMaterials.GarnetYellow.addFlags(lens)
     GTMaterials.Germanium.addFlags(plates, foil, fine_wire)
-    GTMaterials.NickelZincFerrite.addFlags(plates)
+    GTMaterials.Glass.addFlags(bolt_and_screw)
+    GTMaterials.GreenSapphire.addFlags(lens)
+    GTMaterials.Grossular.addFlags(lens)
+    GTMaterials.Lapis.addFlags(lens)
+    GTMaterials.Lazurite.addFlags(lens)
     GTMaterials.Lead.addFlags(round)
-    GTMaterials.Steel.addFlags(round)
+    GTMaterials.Malachite.addFlags(lens)
+    GTMaterials.Monazite.addFlags(lens)
+    GTMaterials.NetherQuartz.addFlags(lens)
+    GTMaterials.NickelZincFerrite.addFlags(plates)
+    GTMaterials.Obsidian.addFlags(bolt_and_screw)
+    GTMaterials.Olivine.addFlags(lens)
+    GTMaterials.Opal.addFlags(lens)
+    GTMaterials.Pyrope.addFlags(lens)
+    GTMaterials.Quartzite.addFlags(lens)
+    GTMaterials.RawRubber.addFlags(ring, plates)
+    GTMaterials.Realgar.addFlags(lens)
+    GTMaterials.RockSalt.addFlags(lens)
+    GTMaterials.Rutile.addFlags(lens)
+    GTMaterials.Salt.addFlags(lens)
+    GTMaterials.Sodalite.addFlags(lens)
+    GTMaterials.Spessartine.addFlags(lens)
+    GTMaterials.Steel.addFlags(round, dense_plate)
+    GTMaterials.Topaz.addFlags(lens)
+    GTMaterials.Uvarovite.addFlags(lens)
+    GTMaterials.Wood.addFlags(small_gear)
 })

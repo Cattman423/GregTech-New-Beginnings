@@ -102,7 +102,7 @@ ServerEvents.recipes(event => {
     milling('gtceu:steel_dust', 'gtceu:steel_ingot')
     milling('gtceu:antimony_dust', 'gtceu:antimony_ingot')
     milling('gtceu:brick_dust', 'minecraft:brick')
-    milling('gtceu:iron_dust', 'gtceu:iron_ingot')
+    milling('gtceu:iron_dust', 'minecraft:iron_ingot')
     milling('gtceu:coal_dust', 'minecraft:coal')
     milling('4x gtceu:rose_quartz_dust', 'gtceu:exquisite_rose_quartz_gem')
     milling('gtceu:invar_dust', 'gtceu:invar_ingot')

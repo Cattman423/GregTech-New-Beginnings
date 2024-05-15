@@ -1,5 +1,5 @@
 {
-	autofocus_id: "3B36589D2289A16A"
+	autofocus_id: "62A0EA129E1D3906"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "hv_age"
@@ -19,6 +19,7 @@
 	quests: [
 		{
 			dependencies: ["6DFF476463BE46A1"]
+			hide_dependent_lines: true
 			id: "3B36589D2289A16A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -27,6 +28,7 @@
 				type: "random"
 			}]
 			shape: "diamond"
+			size: 1.25d
 			tasks: [{
 				id: "0AE7BF1503202D9A"
 				item: "gtceu:advanced_integrated_circuit"
@@ -52,8 +54,8 @@
 				item: "gtceu:micro_processor"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.0d
+			x: -3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["74E7F580B488CA69"]
@@ -69,7 +71,7 @@
 				item: "gtceu:micro_processor_assembly"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -3.0d
 			y: 5.0d
 		}
 		{
@@ -86,8 +88,8 @@
 				item: "gtceu:micro_processor_computer"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.0d
+			x: -3.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["7BB6DA286AC97192"]
@@ -104,11 +106,12 @@
 				item: "gtceu:micro_processor_mainframe"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 5.0d
+			x: -3.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["2DCEA426D77C7BCE"]
+			hide_dependent_lines: true
 			icon: "gtceu:cleanroom"
 			id: "61571ED3D53BD832"
 			rewards: [{
@@ -139,9 +142,14 @@
 					item: "gtceu:filter_casing"
 					type: "item"
 				}
+				{
+					id: "30590C8540D97C2E"
+					item: "minecraft:iron_door"
+					type: "item"
+				}
 			]
-			x: 2.0d
-			y: 5.0d
+			x: -3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6DFF476463BE46A1"]
@@ -251,12 +259,13 @@
 				item: "gtceu:vacuum_freezer"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 4.0d
+			x: -2.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["7BB6DA286AC97192"]
 			id: "7E03750C15D7FFBE"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "484C965C93DD0950"
@@ -268,12 +277,13 @@
 				item: "gtceu:hv_circuit_assembler"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 4.0d
+			x: -4.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7BB6DA286AC97192"]
 			id: "17FC743ACF978E61"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "2E826402AF8EEC15"
@@ -285,12 +295,13 @@
 				item: "gtceu:distillation_tower"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 6.0d
+			x: -2.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7BB6DA286AC97192"]
 			id: "61A70241B2A5F32B"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0B97745FC4FF3DD6"
@@ -302,8 +313,8 @@
 				item: "gtceu:hv_fluid_drilling_rig"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 6.0d
+			x: -4.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["673D20CCAD847242"]
@@ -319,8 +330,8 @@
 				item: "gtceu:plastic_printed_circuit_board"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 5.0d
+			x: -3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3183D053D96F8B4C"]
@@ -336,8 +347,8 @@
 				item: "gtceu:plastic_circuit_board"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 5.0d
+			x: -3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2DCEA426D77C7BCE"]
@@ -353,8 +364,8 @@
 				item: "gtceu:large_chemical_reactor"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 6.0d
+			x: -2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6DFF476463BE46A1"]
@@ -411,7 +422,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -430,11 +441,12 @@
 				item: "gtceu:nichrome_ingot"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.0d
+			x: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3B36589D2289A16A"]
+			hide_dependent_lines: true
 			id: "5688B92DB43F370F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -448,8 +460,8 @@
 				item: "gtceu:hv_assembler"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -468,8 +480,8 @@
 				item: "gtceu:nichrome_coil_block"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.0d
+			x: 4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3B36589D2289A16A"]
@@ -486,7 +498,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -505,8 +517,8 @@
 				item: "gtceu:titanium_ingot"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 4.0d
+			x: 4.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7E4816E87F55B828"]
@@ -524,11 +536,11 @@
 				item: "gtceu:ev_machine_hull"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 4.0d
+			x: 4.0d
+			y: -1.0d
 		}
 		{
-			dependencies: ["6DF005C195DC485B"]
+			dependencies: ["0E91E9F7AEE9816D"]
 			id: "35E2036607FD7C4A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -548,8 +560,8 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: 0.0d
+			x: 5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["35E2036607FD7C4A"]
@@ -565,8 +577,8 @@
 				item: "gtceu:rutile_dust"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 1.0d
+			x: 5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["58C512E480898F53"]
@@ -582,8 +594,8 @@
 				item: "gtceu:titanium_tetrachloride_bucket"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 2.0d
+			x: 5.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6DBC686B01FE2D9A"]
@@ -606,11 +618,14 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: 3.0d
+			x: 5.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["3B36589D2289A16A"]
+			dependencies: [
+				"62A0EA129E1D3906"
+				"5688B92DB43F370F"
+			]
 			id: "3D4C9E14A3803752"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -618,14 +633,13 @@
 				table_id: 3488111899381174028L
 				type: "random"
 			}]
-			shape: "hexagon"
 			tasks: [{
 				id: "504B366930F83375"
 				item: "ad_astra:nasa_workbench"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.0d
+			x: 3.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3B36589D2289A16A"]
@@ -642,12 +656,13 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7E4816E87F55B828"]
 			description: ["&4Please remove all items before upgrading, otherwise you will void your items. A fix will be made as soon as I can make it.&r"]
 			id: "7A7781CBDDE03B62"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "56211858215C3379"
@@ -660,8 +675,8 @@
 				item: "sophisticatedbackpacks:gold_backpack"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 5.0d
+			x: 3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -680,6 +695,7 @@
 			]
 			icon: "gtceu:tungsten_steel_quadruple_fluid_pipe"
 			id: "1B83EF707BC4FDE8"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "45B2895BC233D020"
@@ -701,8 +717,8 @@
 				}
 			]
 			title: "Multiple Channel Pipes"
-			x: 2.0d
-			y: 7.0d
+			x: -2.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["6DFF476463BE46A1"]
@@ -721,6 +737,7 @@
 			]
 			icon: "gtceu:configurable_maintenance_hatch"
 			id: "14A56E4E7282ABD4"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "365E41FDDE0FF198"
@@ -781,8 +798,286 @@
 					type: "item"
 				}
 			]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"3D4C9E14A3803752"
+				"3404B4283A5DFAFA"
+				"3E424C2A85FE9E4F"
+				"00725B669B5C4739"
+			]
+			id: "4C392C49DE635809"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4D7AF05C53CD4E7B"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				id: "2340BD060FBAAD7D"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"497B5FCB7762909B"
+				"62A0EA129E1D3906"
+				"63BB659C35A59C9F"
+				"0B744A542A967B08"
+			]
+			id: "3404B4283A5DFAFA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7770CB1E6EF59E4B"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "764F697CDA5E5029"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0599979F129A5F8D"]
+			id: "3E424C2A85FE9E4F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AEB0C36B8687645"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6012B23C40036A64"
+				item: "kubejs:aluminium_stringer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"540D2F4C86AE0C3D"
+				"07024B6AA5E6F8CE"
+			]
+			id: "00725B669B5C4739"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F010260CF0BFF11"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4EE8755C70AEF0F9"
+				item: "ad_astra:steel_engine"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"27557239EE4C55DD"
+				"61571ED3D53BD832"
+			]
+			id: "497B5FCB7762909B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D35AB547897FED2"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7B449D75928333D0"
+				item: "kubejs:bls_system"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5688B92DB43F370F"
+				"61571ED3D53BD832"
+			]
+			id: "63BB659C35A59C9F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66EBC2081612354C"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
+			tasks: [{
+				id: "043434787BFF580A"
+				item: "kubejs:thermal_tiles"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"540D2F4C86AE0C3D"
+				"61571ED3D53BD832"
+			]
+			id: "0B744A542A967B08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "576207E983711171"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
+			tasks: [{
+				id: "66235AC92F83EA58"
+				item: "kubejs:rcs_block"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"3A7DEFE44A93315D"
+				"3B36589D2289A16A"
+				"61571ED3D53BD832"
+			]
+			id: "62A0EA129E1D3906"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E00A609969CF39A"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0AE90CB073DDC28A"
+				item: "kubejs:nesn_computer_chip"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5688B92DB43F370F"]
+			id: "540D2F4C86AE0C3D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43F65AB0887E8135"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
+			tasks: [{
+				id: "55D24D02EA9DFF5A"
+				item: "ad_astra:engine_frame"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["278A444FC3F37F9B"]
+			id: "07024B6AA5E6F8CE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CD336D22271C2A1"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
+			tasks: [{
+				id: "360FEC20733AB309"
+				item: "gtceu:styrene_butadiene_rubber_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3B36589D2289A16A"]
+			id: "01CF49B041DC4B8A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5749680F42348205"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
+			tasks: [{
+				id: "619148248489D77A"
+				item: "gtceu:hv_chemical_reactor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["01CF49B041DC4B8A"]
+			id: "278A444FC3F37F9B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03A36110888B3147"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
+			tasks: [{
+				id: "546598EB96DAD2D8"
+				item: "gtceu:styrene_bucket"
+				type: "item"
+			}]
 			x: 0.0d
-			y: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3B36589D2289A16A"]
+			id: "0599979F129A5F8D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11207CE8220A6A07"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
+			tasks: [{
+				id: "79465442CDED4C1E"
+				item: "gtceu:hv_extruder"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["4C392C49DE635809"]
+			id: "0E91E9F7AEE9816D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C6A5A2AE1D96AAD"
+					table_id: 3488111899381174028L
+					type: "random"
+				}
+				{
+					id: "688600F0B1D754E1"
+					item: "ad_astra:moon_globe"
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "ad_astra:moon"
+				id: "4BB9341E224C55F9"
+				type: "dimension"
+			}]
+			x: 5.0d
+			y: 5.0d
 		}
 	]
 	title: "Hv Age [WIP]"

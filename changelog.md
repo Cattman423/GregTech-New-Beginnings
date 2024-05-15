@@ -6,9 +6,15 @@
   * Fixed some quests in the Create Age
   * Changed some quests to be linked quests to cleam up the questbook a bit
   * Removed Multiblock Madness quest line, it may return in the future
+  * Removed Space Race quest line, quests will be merged into respective ages
+* Progression
+  * Ad Astra
+    * Changed Tier One Rocket recipe
+    * Lunar Ores are the default End veins, this is subject to change
 * Multiblocks
   * Removed the 9-amp lv steam engine multiblock
   * Removed the Alternator multiblocks
+  * Removed GT-- Multiblocks
 * Materials
   * Added Adamantite
   * Added Chadium
@@ -23,36 +29,44 @@
   * Crude Oil can now be distilled into Oil
   * Create Larg Cogwheels can now be made in an assembler
   * Bakelite gears and small gears can now be used in place of their wooden counterparts
-  * Changed Tier One Rocket recipe
-* Mod Additions
-  * Added Functional Storage
-  * Added Functional Gregtech Drawers
-* Disabled Block of Sky due to conflicts with shaders
 * Mod Additions
   * Added Avaritia Lite
+  * Added Custom Credits
+  * Added Functional Gregtech Drawers
+  * Added Functional Storage
   * Added Showcase Item
+  * Added Trash Cans
+* Disabled Block of Sky due to conflicts with shaders
 * Mod Updates
+  * Ad Astra: Giselle Addon v6.7
   * Amendments v1.1.27
   * Applied Energistics 2 v15.2.1
   * Apotheosis v7.3.5
   * Artifacts v9.5.4
+  * Chisel v1.7.1
   * Collective v7.57
+  * Create Enchanment Industry v1.2.9.d
   * Create Low Heated v0.5.1.f-h
   * Delightful v3.5.4
+  * Double Doors v5.7
   * Dummmmmmy v1.8.17b
   * Enhanced Celestials v5.0.0.4
-  * Extended AE v1.1.5
+  * Extended AE v1.1.6
   * Factory Blocks v1.3.1
   * FTBQuestsOptimizer v2.0.1
-  * GregTechCEu Modern v1.2.2
-  * GT-- v1.0.6a
+  * GregTechCEu Modern v1.2.2.a
   * Point Blank v1.3.3
   * ProgressiveBosses v3.9.7
+  * Sophisticated Core v0.6.9.611
   * Stargate Journey v0.6.26
   * TerraBlender v3.0.1.6
   * Terralith v2.5.0
+  * Yung's API v4.0.5
+  * Yung's Better Jungle Temples v2.0.5
 * Mod Removals
   * Removed GT--
+  * Removed Tetranomicon
+  * Removed Zume
 
 ## V 0.1.2
 

@@ -5,14 +5,14 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         .setEUIO('in')
         .setMaxIOSize(8, 1, 1, 0) //Max Item Inputs, Max Item Outputs, Max Fluid Inputs, Max Fluid Outputs
         .setProgressBar(GuiTextures.PROGRESS_BAR_CIRCUIT_ASSEMBLER, FillDirection.LEFT_TO_RIGHT)
-        .setSound(GTSoundEntries.ARC)
+        .setSound(GTSoundEntries.ASSEMBLER)
 })
 GTCEuStartupEvents.registry('gtceu:machine', event => {
 //kinetic_assembler
     event.create('kinetic_assembler', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('kinetic_assembler')
-        .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
+        .appearanceBlock(() => Block.getBlock('create:andesite_casing'))
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('CCKCC', 'CCCCC', 'CCCCC', 'CCFCC', 'CCCCC')
             .aisle('CCCCC', 'CCGCC', 'J   J', 'J P J', 'CICIC')
@@ -35,7 +35,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .build()
         )
         .workableCasingRenderer(
-            'create:block/andesite_casing',
+            new ResourceLocation('create', 'block/andesite_casing'),
             'gtceu:block/multiblock/large_chemical_reactor', false
         )
 })

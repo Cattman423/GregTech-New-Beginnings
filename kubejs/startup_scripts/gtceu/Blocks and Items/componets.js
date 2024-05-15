@@ -69,10 +69,19 @@ StartupEvents.registry('item', event => {
         .displayName('Reaction Control System')
         .texture('gtceu:item/space_production/rcs_block')
 
+//Command Pods
+    event.create('ad_command')
+        .displayName('Advanced Command Pod')
+        .texture('gtceu:item/space_production/ad_command')
+
+    event.create('ex_command')
+        .displayName('Extreme Command Pod')
+        .texture('gtceu:item/space_production/ex_command')
+
 //Engine componets
-    event.create('steel_nozzel')
-        .displayName('Steel Engine Nozzel')
-        .texture('gtceu:item/space_production/steel_nozzel')
+    event.create('steel_nozzle')
+        .displayName('Steel Engine Nozzle')
+        .texture('gtceu:item/space_production/steel_nozzle')
 
     event.create('steel_fuel')
         .displayName('Steel Fuel Injectors')

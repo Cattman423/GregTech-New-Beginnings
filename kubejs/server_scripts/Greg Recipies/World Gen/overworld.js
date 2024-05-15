@@ -30,7 +30,7 @@ GTCEuServerEvents.oreVeins(event => {
         ) 
     })
 //Lignite DO NOT ENABLE THIS IT WILL CRASH YOUR GAME
-    /*event.add("kubejs:lignite_vein", vein => {
+/*    event.add("kubejs:lignite_vein", vein => {
     // Basic vein generation properties
         vein.weight(90)
         vein.clusterSize(20)
@@ -41,7 +41,7 @@ GTCEuServerEvents.oreVeins(event => {
         vein.dimensions("minecraft:overworld")
         vein.biomes("#minecraft:is_overworld")
     // Define a height range:
-        vein.heightRangeTriangle(-60, 20)
+        vein.heightRangeTriangle(40, 60)
     // Define the vein's generator:
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern

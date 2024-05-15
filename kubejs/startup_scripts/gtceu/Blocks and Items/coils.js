@@ -11,4 +11,17 @@ StartupEvents.registry('block', event => {
         .material('metal')
         .soundType(SoundType.NETHERITE_BLOCK)
         .tagBlock('forge:mineable/wrench')
+
+    event.create('chadium_coil_block', 'gtceu:coil')
+        .temperature(14400)
+        .level(32)
+        .energyDiscount(32) // 
+        .tier(9)
+        .coilMaterial(() => GTMaterials.get('chadium'))
+        .texture('gtceu:block/coils/machine_coil_chadium')
+        .hardness(5)
+        .requiresTool(true)
+        .material('metal')
+        .soundType(SoundType.NETHERITE_BLOCK)
+        .tagBlock('forge:mineable/wrench')
 })

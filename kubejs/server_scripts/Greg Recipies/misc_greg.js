@@ -432,6 +432,11 @@ ServerEvents.recipes(event => {
             H: '#forge:tools/files'
         }
         )
+    event.recipes.gtceu.compressor('jumbo_furnace')
+        .itemInputs('64x minecraft:furnace')
+        .itemOutputs('jumbofurnace:jumbo_furnace')
+        .duration(min*5)
+        .EUt(ulv)
 //Nuggets
     let anuggets = Ingredient.of("#forge:nuggets").itemIds
 
