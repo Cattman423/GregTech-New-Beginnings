@@ -39,7 +39,7 @@
 				count: 8L
 				id: "73355E8B4DF8741A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "item_tag(minecraft:logs)"
@@ -72,7 +72,7 @@
 					count: 4L
 					id: "2B2D7C1A3BE8A840"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
 							"ftbfiltersystem:filter": "item_tag(minecraft:planks)"
@@ -95,7 +95,7 @@
 			tasks: [{
 				count: 32L
 				id: "79BFDDA283DCDCE7"
-				item: { Count: 32b, id: "minecraft:gravel" }
+				item: { Count: 32, id: "minecraft:gravel" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -112,7 +112,7 @@
 			tasks: [{
 				count: 16L
 				id: "28FB018C89686A6F"
-				item: { Count: 16b, id: "minecraft:flint" }
+				item: { Count: 16, id: "minecraft:flint" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -125,7 +125,7 @@
 			]
 			description: ["This will have to do for now, soon you can get better tools"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:flint_pickaxe"
 				tag: {
 					DisallowContainerItem: 0b
@@ -150,7 +150,7 @@
 				{
 					id: "74194FBC90B5E9BF"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:flint_pickaxe"
 						tag: {
 							DisallowContainerItem: 0b
@@ -169,7 +169,7 @@
 				{
 					id: "7FBFF238BB1FAAD9"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:flint_shovel"
 						tag: {
 							DisallowContainerItem: 0b
@@ -188,7 +188,7 @@
 				{
 					id: "4001865D19B24477"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:flint_axe"
 						tag: {
 							DisallowContainerItem: 0b
@@ -210,7 +210,7 @@
 				{
 					id: "052DDFB25CEAB211"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:flint_sword"
 						tag: {
 							DisallowContainerItem: 0b
@@ -283,7 +283,7 @@
 			tasks: [{
 				count: 32L
 				id: "61550F2935A97C18"
-				item: { Count: 32b, id: "minecraft:cobblestone" }
+				item: { Count: 32, id: "minecraft:cobblestone" }
 				type: "item"
 			}]
 			x: -3.5d
@@ -303,7 +303,7 @@
 			tasks: [{
 				id: "4586B6E5C50895BC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:flint_mortar"
 					tag: {
 						DisallowContainerItem: 0b
@@ -334,25 +334,25 @@
 				{
 					count: 16L
 					id: "2536FFF3445901E7"
-					item: { Count: 16b, id: "minecraft:iron_ingot" }
+					item: { Count: 16, id: "minecraft:iron_ingot" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "0E2AA1BF0CBBAC2E"
-					item: { Count: 8b, id: "minecraft:copper_ingot" }
+					item: { Count: 8, id: "minecraft:copper_ingot" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "4C3BD596430DF1A8"
-					item: { Count: 8b, id: "gtceu:tin_ingot" }
+					item: { Count: 8, id: "gtceu:tin_ingot" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "716A030DC7D67730"
-					item: { Count: 8b, id: "gtceu:zinc_ingot" }
+					item: { Count: 8, id: "gtceu:zinc_ingot" }
 					type: "item"
 				}
 			]
@@ -377,7 +377,7 @@
 			tasks: [{
 				id: "01E48B37BD1DA498"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:iron_hammer"
 					tag: {
 						DisallowContainerItem: 0b
@@ -412,7 +412,7 @@
 				{
 					id: "0DB336FE65E7B8C6"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:iron_mining_hammer"
 						tag: {
 							DisallowContainerItem: 0b
@@ -438,7 +438,7 @@
 				{
 					id: "027782D9022BEB14"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:iron_axe"
 						tag: {
 							DisallowContainerItem: 0b
@@ -460,7 +460,7 @@
 				{
 					id: "1AE7482794C35E6E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:iron_spade"
 						tag: {
 							DisallowContainerItem: 0b
@@ -486,7 +486,7 @@
 				{
 					id: "56C3FD60B1801B0A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:iron_scythe"
 						tag: {
 							DisallowContainerItem: 0b
@@ -528,7 +528,7 @@
 			tasks: [{
 				count: 16L
 				id: "48362698672CB2E6"
-				item: { Count: 16b, id: "minecraft:andesite" }
+				item: { Count: 16, id: "minecraft:andesite" }
 				type: "item"
 			}]
 			x: -3.5d
@@ -549,7 +549,7 @@
 			tasks: [{
 				count: 8L
 				id: "46F4871B943F3ED9"
-				item: { Count: 8b, id: "gtceu:andesite_alloy_dust" }
+				item: { Count: 8, id: "gtceu:andesite_alloy_dust" }
 				type: "item"
 			}]
 			x: -6.5d
@@ -565,8 +565,8 @@
 			}]
 			tasks: [{
 				count: 8L
-				id: "30F23479495F872D"
-				item: { Count: 8b, id: "gtceu:andesite_alloy_ingot" }
+				id: "00A6C51C80FCB388"
+				item: { Count: 8, id: "create:andesite_alloy" }
 				type: "item"
 			}]
 			x: -5.0d
@@ -586,7 +586,7 @@
 			tasks: [{
 				count: 16L
 				id: "087D862029F7E54B"
-				item: { Count: 16b, id: "gtceu:andesite_dust" }
+				item: { Count: 16, id: "gtceu:andesite_dust" }
 				type: "item"
 			}]
 			x: -5.0d
@@ -606,7 +606,7 @@
 			tasks: [{
 				count: 8L
 				id: "434927CB3BBD156A"
-				item: { Count: 8b, id: "gtceu:small_zinc_dust" }
+				item: { Count: 8, id: "gtceu:small_zinc_dust" }
 				type: "item"
 			}]
 			x: -6.5d
@@ -678,7 +678,7 @@
 				{
 					id: "226A2CBE8FE0819A"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:iron_file"
 						tag: {
 							DisallowContainerItem: 0b
@@ -695,7 +695,7 @@
 				{
 					id: "0F03970854CB5416"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:iron_saw"
 						tag: {
 							DisallowContainerItem: 0b
@@ -714,7 +714,7 @@
 				{
 					id: "4A85ECBC6B5C5378"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:iron_wrench"
 						tag: {
 							DisallowContainerItem: 0b
@@ -733,7 +733,7 @@
 				{
 					id: "105398B7C90A536F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:iron_wire_cutter"
 						tag: {
 							DisallowContainerItem: 0b
@@ -752,7 +752,7 @@
 				{
 					id: "676A86A6F1BF0714"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:iron_knife"
 						tag: {
 							DisallowContainerItem: 0b
@@ -771,7 +771,7 @@
 				{
 					id: "23A973F13A1CC33D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:wood_mallet"
 						tag: {
 							DisallowContainerItem: 0b
@@ -802,7 +802,7 @@
 			tasks: [{
 				id: "4813A4735F2F7E3B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "or(item(workshop_for_handsome_adventurer:workstation_placer_oak)item(workshop_for_handsome_adventurer:workstation_placer_spruce)item(workshop_for_handsome_adventurer:workstation_placer_jungle)item(workshop_for_handsome_adventurer:workstation_placer_birch)item(workshop_for_handsome_adventurer:workstation_placer_dark_oak)item(workshop_for_handsome_adventurer:workstation_placer_cherry)item(workshop_for_handsome_adventurer:workstation_placer_acacia)item(workshop_for_handsome_adventurer:workstation_placer_bamboo)item(workshop_for_handsome_adventurer:workstation_placer_fir)item(workshop_for_handsome_adventurer:workstation_placer_redwood)item(workshop_for_handsome_adventurer:workstation_placer_mahogany)item(workshop_for_handsome_adventurer:workstation_placer_jacaranda)item(workshop_for_handsome_adventurer:workstation_placer_palm)item(workshop_for_handsome_adventurer:workstation_placer_willow)item(workshop_for_handsome_adventurer:workstation_placer_dead)item(workshop_for_handsome_adventurer:workstation_placer_magic)item(workshop_for_handsome_adventurer:workstation_placer_umbran)item(workshop_for_handsome_adventurer:workstation_placer_hellbark)item(workshop_for_handsome_adventurer:workstation_placer_glacian)item(workshop_for_handsome_adventurer:workstation_placer_walnut)item(workshop_for_handsome_adventurer:simple_table_oak)item(workshop_for_handsome_adventurer:simple_table_spruce)item(workshop_for_handsome_adventurer:simple_table_jungle)item(workshop_for_handsome_adventurer:simple_table_birch)item(workshop_for_handsome_adventurer:simple_table_dark_oak)item(workshop_for_handsome_adventurer:simple_table_mangrove)item(workshop_for_handsome_adventurer:simple_table_cherry)item(workshop_for_handsome_adventurer:simple_table_acacia)item(workshop_for_handsome_adventurer:simple_table_bamboo)item(workshop_for_handsome_adventurer:simple_table_fir)item(workshop_for_handsome_adventurer:simple_table_redwood)item(workshop_for_handsome_adventurer:simple_table_mahogany)item(workshop_for_handsome_adventurer:simple_table_jacaranda)item(workshop_for_handsome_adventurer:simple_table_palm)item(workshop_for_handsome_adventurer:simple_table_willow)item(workshop_for_handsome_adventurer:simple_table_dead)item(workshop_for_handsome_adventurer:simple_table_magic)item(workshop_for_handsome_adventurer:simple_table_umbran)item(workshop_for_handsome_adventurer:simple_table_hellbark)item(workshop_for_handsome_adventurer:simple_table_glacian)item(workshop_for_handsome_adventurer:simple_table_walnut))"
@@ -825,12 +825,12 @@
 				xp: 100
 			}]
 			tasks: [{
-				id: "2AB7EBFB86491B92"
+				id: "5C34F1B5E9EEAEE6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						"ftbfiltersystem:filter": "item_tag(storagedrawers:drawers)"
+						"ftbfiltersystem:filter": "item_tag(functionalstorage:drawer)"
 					}
 				}
 				type: "item"

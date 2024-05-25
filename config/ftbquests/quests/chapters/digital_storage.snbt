@@ -6,7 +6,7 @@
 	group: "4E8777506C4F26CC"
 	icon: "ae2:controller"
 	id: "38EAA9A88501D1F1"
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -746,7 +746,7 @@
 				{
 					id: "63DD64BE2A9E5D0F"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "ae2:memory_card"
 						tag: { }
 					}

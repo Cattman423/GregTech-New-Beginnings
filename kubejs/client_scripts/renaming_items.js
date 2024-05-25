@@ -12,4 +12,5 @@ ClientEvents.lang('en_us', event => {
     event.renameItem("sophisticatedbackpacks:diamond_backpack", "Tungsten Steel Backpack")
     event.renameItem("sophisticatedbackpacks:netherite_backpack", "Rhodium Plated Palladium Backpack")
     event.renameItem("create:blaze_burner", "Clockwork Burner")
+    event.renameItem("ad_astra:rocket_nose_cone", "Basic Command Pod")
 });

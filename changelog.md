@@ -1,5 +1,118 @@
 # Changelog
 
+## V 0.2.0
+
+### Forge Updated to v47.2.20
+
+* Make A backup of your world before updating the pack! You will lose some items in this update, mainly your stockpiles of andesite alloy ingots, please turn it into dust before updating!!!
+
+* Quests
+  * Fixed some quests in the Create Age
+  * Changed some quests to be linked quests to clean up the questbook a bit
+  * Removed Multiblock Madness quest line, it may return in the future
+  * Removed Space Race quest line, quests will be merged into respective ages
+  * Changed Gasses in the Periodic Table questline to require buckets instead of fluid cells
+  * Rearranged some quest in the Mv age to clear up some confusion.
+  * Fixed some spelling mistakes
+* Progression
+  * Ad Astra
+    * Changed Tier One Rocket recipe
+    * Lunar Ores are most of the default End veins, this is subject to change, as well as Desh
+  * Enabled FE to EU converters with a ratio of 2 FE:1 EU
+* Multiblocks
+  * Removed the 9-amp lv steam engine multiblock
+  * Removed the Alternator multiblocks
+  * Removed GT-- Multiblocks
+* Materials
+  * Added Adamantite
+  * Added Chadium
+  * Added Moon, Mars, Mercury, and Venus Stone Dusts and Air
+  * Switched textures/items for Desh, Ostrum, Calorite, and Andesite Alloy, ingots, blocks, and nuggets (where applicable) for their base-mod versions
+  * Removed Soul Soil Ores
+* Recipes
+  * Removed recipes for Storage Drawers in favor of Functional Storage
+  * Fixed Impure Redstone not washing into Redstone dust correctly
+  * You can now cut ingots into 8x nuggets
+  * Compressed Coke Clay and Compressed Clay now have non-conflicting recipes
+  * Crude Oil can now be distilled into Oil
+  * Create Large Cogwheels can now be made in an assembler
+  * Bakelite gears and small gears can now be used in place of their wooden counterparts
+  * Added Bakelite crafting line
+  * Removed Brass, Primers, and Bullets for ammo production in favor of the Point Blank Weapon Printer
+  * Removed Recipes for barium nitrate and lead styphnate, you can still break these down, but they will be removed at some point in the future
+  * Added Recipes for firearms
+* Mod Additions
+  * Added Auto Leveling
+  * Added Avaritia Lite
+  * Added Custom Credits
+  * Added Functional Gregtech Drawers
+  * Added Functional Storage
+  * Added Just Enough Calculations
+  * Added Showcase Item
+  * Added Trash Cans
+  * Re-added Spice of Life Onion Edition
+* Disabled Block of Sky due to conflicts with shaders
+* Mod Updates
+  * Achievements Optimizer v1.0.5
+  * Ad Astra: Giselle Addon v6.7
+  * Amendments v1.1.31
+  * Applied Energistics 2 v15.2.1
+  * Apotheosis v7.3.5
+  * Apothic Attributes v1.3.5
+  * Artifacts v9.5.4
+  * Chisel v1.7.1
+  * Cognition v2.1.0
+  * Collective v7.60
+  * Colorful Hearts v4.1.6
+  * Curios v5.9.1
+  * Create Enchanment Industry v1.2.9.d
+  * Create Low Heated v0.5.1.f-h
+  * CreativeCore v2.11.28
+  * Dawn of Time Builder Edition v1.5.6
+  * Delightful v3.5.5
+  * Double Doors v5.7
+  * Dummmmmmy v1.8.17b
+  * Dungeon Now Loading 1% v1.5
+  * Enhanced Celestials v5.0.0.4
+  * Etched v3.0.2
+  * Embeddium v0.3.19
+  * Embeddium++ v1.2.12
+  * Extended AE v1.1.6
+  * Factory Blocks v1.3.1
+  * FTB Chunks v2001.3.0
+  * FTB Library v2001.2.2
+  * FTB Quests v2001.4.4
+  * FTB Teams v2001.3.0
+  * FTBQuestsOptimizer v2.0.1
+  * GregTechCEu Modern v1.2.3.a
+  * Jade v11.8.0
+  * Moonlight v2.11.29
+  * Mouse Tweaks v2.25.1
+  * Open Loader v19.0.4
+  * Path Under Gates v1.0.2
+  * Point Blank v1.4.3
+  * PolyLib v2000.0.3-build.143
+  * Polymorph v0.49.4
+  * Productive Bees v12.5.2
+  * Productive Trees v0.2.3
+  * ProgressiveBosses v3.9.7
+  * PuzzlesLib v8.1.19
+  * Resourceful Lib v2.1.25
+  * Sophisticated Core v0.6.9.611
+  * Sound Physics Remastered v1.4.0
+  * Stargate Journey v0.6.26 Hotfix
+  * Supplementaries v2.8.11
+  * TerraBlender v3.0.1.6
+  * Terralith v2.5.1
+  * Titanium v3.8.28
+  * Yung's API v4.0.5
+  * Yung's Better Jungle Temples v2.0.5
+* Mod Removals
+  * Removed GT--
+  * Removed Tetranomicon
+  * Removed TexTrue's Embeddium Options
+  * Removed Zume
+
 ## V 0.1.2
 
 * Recipes

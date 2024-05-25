@@ -1,0 +1,16 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 10,
+      "item": "pointblank:gunmetal_ingot"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:tnt"
+    }
+  ],
+  "result": {
+    "item": "pointblank:smaw_rocket"
+  }
+}

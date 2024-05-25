@@ -8,6 +8,7 @@
 	id: "117AF94A3710DFC6"
 	order_index: 3
 	quest_links: [{
+		disable_toast: true
 		id: "243FA83EBAFCBD7F"
 		linked_quest: "179BE55EAA6BA680"
 		shape: "gear"
@@ -123,60 +124,6 @@
 			}]
 			x: 1.5d
 			y: -3.0d
-		}
-		{
-			dependencies: ["79F35DAA01A154B9"]
-			id: "6EF25B4F7E987329"
-			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "6C7BE4E7713D8D74"
-					table_id: 8967553898864734666L
-					type: "random"
-				}
-				{
-					id: "150CA85AD07AA20E"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "pentagon"
-			size: 0.75d
-			tasks: [{
-				id: "5EDB428C979D4902"
-				item: "gtceu:basic_alternator"
-				type: "item"
-			}]
-			x: -1.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["79F35DAA01A154B9"]
-			id: "5A5D4764A12F1643"
-			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4E135FFBD42518EA"
-					table_id: 8967553898864734666L
-					type: "random"
-				}
-				{
-					id: "31BC7E26F3CFA5EB"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "pentagon"
-			size: 0.75d
-			tasks: [{
-				id: "6F4E9F2C45AADDE2"
-				item: "gtceu:steam_engine_multi"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -2.0d
 		}
 		{
 			dependencies: ["179BE55EAA6BA680"]
@@ -470,7 +417,7 @@
 			dependencies: ["684E9CD189ACC2D0"]
 			hide_dependent_lines: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:programmed_circuit"
 				tag: {
 					Configuration: 0
@@ -776,7 +723,7 @@
 				{
 					count: 2L
 					id: "58CF0EA27F53FA19"
-					item: { Count: 2b, id: "gtceu:lv_energy_input_hatch" }
+					item: { Count: 2, id: "gtceu:lv_energy_input_hatch" }
 					type: "item"
 				}
 				{
@@ -2072,7 +2019,7 @@
 				{
 					id: "4F279854AB9074AB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "create:super_glue"
 						tag: {
 							Damage: 0
@@ -2139,8 +2086,8 @@
 				item: "gtceu:bronze_large_boiler"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.0d
+			x: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0F473004BDE8A486"]
@@ -2219,6 +2166,26 @@
 			}]
 			x: 5.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["79F35DAA01A154B9"]
+			id: "39FBDD9D5320834D"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1563D6B7CBBFC758"
+				table_id: 8967553898864734666L
+				type: "random"
+			}]
+			shape: "pentagon"
+			size: 0.75d
+			tasks: [{
+				id: "694AB331A7DD53AA"
+				item: "gtceu:basic_alternator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
 		}
 	]
 	title: "Lv Age"

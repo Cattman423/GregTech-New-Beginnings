@@ -4,7 +4,7 @@
 	filename: "firearms"
 	group: "41910268CB9EDE34"
 	icon: {
-		Count: 1b
+		Count: 1
 		ForgeCaps: {
 			"pointblank:reload_cooldown": {
 				ammoCount: 0

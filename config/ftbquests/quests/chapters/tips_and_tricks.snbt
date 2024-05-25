@@ -81,9 +81,9 @@
 		{
 			dependencies: ["179BE55EAA6BA680"]
 			description: [
-				"All GregTech recipes have a required voltage, this is what the minimum tier machine you need to run it at is. "
+				"All GregTech recipes have a required voltage, which indicates the minimum tier of machine you need to run it at is. "
 				""
-				"A recipe that needs 7 EUt can be run in any tier machine, on that needs 16 requires at least an Lv machine to craft."
+				"For example: A recipe that needs 7 EUt can be run in any tier machine, and one that needs 16 requires at least an Lv machine to craft."
 				""
 				"&cPlease check what the EUt requirement for your recipe is before submitting a bug report, it will save you the embarassment. Trust me...&r"
 			]
@@ -267,7 +267,7 @@
 				"(This is more than a ZPM Amp!)"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:turbine_rotor"
 				tag: {
 					GT.PartStats: {

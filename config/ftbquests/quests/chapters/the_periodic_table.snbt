@@ -5,24 +5,15 @@
 	group: "4E8777506C4F26CC"
 	icon: "createdeco:decal_warning"
 	id: "138CF10CF49924C7"
-	order_index: 5
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["2AF48E6902C16848"]
 			id: "79B8D81A07003512"
 			tasks: [{
-				id: "22AD306B28B09491"
-				item: {
-					Count: 1b
-					id: "gtceu:fluid_cell"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "ad_astra:hydrogen"
-						}
-					}
-				}
+				id: "41E3EC58DF1E08ED"
+				item: "ad_astra:hydrogen_bucket"
 				type: "item"
 			}]
 			x: -9.0d
@@ -254,17 +245,8 @@
 			dependencies: ["2AF48E6902C16848"]
 			id: "35AD78F0C6578EFF"
 			tasks: [{
-				id: "0E4DA9391A97728E"
-				item: {
-					Count: 1b
-					id: "gtceu:fluid_cell"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "gtceu:nitrogen"
-						}
-					}
-				}
+				id: "74F63DED224030E7"
+				item: "gtceu:nitrogen_bucket"
 				type: "item"
 			}]
 			x: 5.5d
@@ -274,17 +256,8 @@
 			dependencies: ["2AF48E6902C16848"]
 			id: "3C1A6C4475CF8FDF"
 			tasks: [{
-				id: "5320FAFAD2708409"
-				item: {
-					Count: 1b
-					id: "gtceu:fluid_cell"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "gtceu:oxygen"
-						}
-					}
-				}
+				id: "7B123487D3AF3ECE"
+				item: "gtceu:oxygen_bucket"
 				type: "item"
 			}]
 			x: 6.5d
@@ -294,17 +267,8 @@
 			dependencies: ["2AF48E6902C16848"]
 			id: "0728CEBCA652B609"
 			tasks: [{
-				id: "3AEEC912B4D68CE8"
-				item: {
-					Count: 1b
-					id: "gtceu:fluid_cell"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "gtceu:fluorine"
-						}
-					}
-				}
+				id: "4818D34F75858CFA"
+				item: "gtceu:fluorine_bucket"
 				type: "item"
 			}]
 			x: 7.5d
@@ -314,17 +278,8 @@
 			dependencies: ["2AF48E6902C16848"]
 			id: "5078F17550B39369"
 			tasks: [{
-				id: "66697178C2B209B8"
-				item: {
-					Count: 1b
-					id: "gtceu:fluid_cell"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "gtceu:neon"
-						}
-					}
-				}
+				id: "378ACAEB1DC9105C"
+				item: "gtceu:neon_bucket"
 				type: "item"
 			}]
 			x: 8.5d
@@ -334,17 +289,8 @@
 			dependencies: ["2AF48E6902C16848"]
 			id: "59E32292E0430AC9"
 			tasks: [{
-				id: "29A394D685AA12C5"
-				item: {
-					Count: 1b
-					id: "gtceu:fluid_cell"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "gtceu:helium"
-						}
-					}
-				}
+				id: "59A739D439D53B60"
+				item: "gtceu:helium_bucket"
 				type: "item"
 			}]
 			x: 8.5d
@@ -387,17 +333,8 @@
 			dependencies: ["2AF48E6902C16848"]
 			id: "693BC76D32ED0436"
 			tasks: [{
-				id: "3930B0B02CAFD7C0"
-				item: {
-					Count: 1b
-					id: "gtceu:fluid_cell"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "gtceu:chlorine"
-						}
-					}
-				}
+				id: "1EFD8C5A67A32628"
+				item: "gtceu:chlorine_bucket"
 				type: "item"
 			}]
 			x: 7.5d
@@ -407,17 +344,8 @@
 			dependencies: ["2AF48E6902C16848"]
 			id: "1EA6849A8BEAD344"
 			tasks: [{
-				id: "1C01534EC68C331B"
-				item: {
-					Count: 1b
-					id: "gtceu:fluid_cell"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "gtceu:argon"
-						}
-					}
-				}
+				id: "139CFD22BCCCB540"
+				item: "gtceu:argon_bucket"
 				type: "item"
 			}]
 			x: 8.5d
@@ -461,39 +389,10 @@
 		}
 		{
 			dependencies: ["2AF48E6902C16848"]
-			id: "5A134D2B0B02A6B0"
-			tasks: [{
-				id: "0E3CA441AD0773B8"
-				item: {
-					Count: 1b
-					id: "gtceu:fluid_cell"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "gtceu:bromine"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 7.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["2AF48E6902C16848"]
 			id: "6B81C0E54862390B"
 			tasks: [{
-				id: "76F632BF85793FEE"
-				item: {
-					Count: 1b
-					id: "gtceu:fluid_cell"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "gtceu:krypton"
-						}
-					}
-				}
+				id: "53DE39AC8BAFF851"
+				item: "gtceu:krypton_bucket"
 				type: "item"
 			}]
 			x: 8.5d
@@ -684,11 +583,13 @@
 		{
 			dependencies: ["2AF48E6902C16848"]
 			id: "4535625DF9ABBC2F"
+			optional: true
 			tasks: [{
-				id: "342AAD151BC46579"
-				item: "gtceu:iodine_dust"
+				id: "7C6BA8447BDDC474"
+				item: "minecraft:bedrock"
 				type: "item"
 			}]
+			title: "Iodine [NYI]"
 			x: 7.5d
 			y: -1.0d
 		}
@@ -696,17 +597,8 @@
 			dependencies: ["2AF48E6902C16848"]
 			id: "7C31847E5E8010F4"
 			tasks: [{
-				id: "60E842C376A49C9E"
-				item: {
-					Count: 1b
-					id: "gtceu:fluid_cell"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "gtceu:xenon"
-						}
-					}
-				}
+				id: "2B656FC6E0D0381C"
+				item: "gtceu:xenon_bucket"
 				type: "item"
 			}]
 			x: 8.5d
@@ -841,17 +733,8 @@
 			dependencies: ["2AF48E6902C16848"]
 			id: "6D31B229F3CDAC91"
 			tasks: [{
-				id: "245B2EE85D1BB774"
-				item: {
-					Count: 1b
-					id: "gtceu:fluid_cell"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "gtceu:mercury"
-						}
-					}
-				}
+				id: "0FDC6C96ECEC9390"
+				item: "gtceu:mercury_bucket"
 				type: "item"
 			}]
 			x: 2.5d
@@ -922,17 +805,8 @@
 			dependencies: ["2AF48E6902C16848"]
 			id: "667CE6CBDA7DE162"
 			tasks: [{
-				id: "07C582D3FD7F33BE"
-				item: {
-					Count: 1b
-					id: "gtceu:fluid_cell"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "gtceu:radon"
-						}
-					}
-				}
+				id: "4D979B69FA31BB26"
+				item: "gtceu:radon_bucket"
 				type: "item"
 			}]
 			x: 8.5d
@@ -1166,17 +1040,6 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["2AF48E6902C16848"]
-			id: "52731431C8271EDD"
-			tasks: [{
-				id: "55966FC2C7FBE1FD"
-				item: "gtceu:praseodymium_dust"
-				type: "item"
-			}]
-			x: -4.5d
 			y: 2.5d
 		}
 		{
@@ -1491,54 +1354,14 @@
 		}
 		{
 			dependencies: ["2AF48E6902C16848"]
-			id: "64EC0CCBC017C516"
-			tasks: [{
-				id: "524EAB66AB52F9E0"
-				item: {
-					Count: 1b
-					id: "gtceu:fluid_cell"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "gtceu:californium"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 2.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["2AF48E6902C16848"]
-			id: "714385C88F7ADE61"
-			tasks: [{
-				id: "761709947ACDE292"
-				item: {
-					Count: 1b
-					id: "gtceu:fluid_cell"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "gtceu:oganesson"
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 8.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["2AF48E6902C16848"]
 			id: "17E8514E34B574F0"
 			tasks: [{
 				id: "16E9CBF54B73AB91"
 				item: "gtceu:desh_dust"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 5.0d
+			x: -4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2AF48E6902C16848"]
@@ -1548,8 +1371,8 @@
 				item: "gtceu:ostrum_dust"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 5.0d
+			x: -3.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2AF48E6902C16848"]
@@ -1559,8 +1382,8 @@
 				item: "gtceu:calorite_dust"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 5.0d
+			x: -2.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2AF48E6902C16848"]
@@ -1570,7 +1393,7 @@
 				item: "gtceu:neutronium_dust"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.5d
 			y: 5.0d
 		}
 		{
@@ -1581,19 +1404,8 @@
 				item: "gtceu:mithril_dust"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["2AF48E6902C16848"]
-			id: "3530D94F6A699A98"
-			tasks: [{
-				id: "67A2680D606D525F"
-				item: "gtceu:infinity_catalyst_dust"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 5.0d
+			x: -1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
@@ -1617,8 +1429,126 @@
 				item: "gtceu:protonium_dust"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "63858F19B7BE42AF"
+			tasks: [{
+				id: "1E0940005494D0B9"
+				item: "gtceu:netherite_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "5BE1B06404D9B3A7"
+			tasks: [{
+				id: "09B31C65516986C6"
+				item: "gtceu:adamantite_dust"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "62257AC1C8113552"
+			tasks: [{
+				id: "1AFA7A1E56DD7F84"
+				item: "gtceu:naquadah_dust"
+				type: "item"
+			}]
+			x: -5.5d
 			y: 5.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "39CCC4019D5D6A68"
+			tasks: [{
+				id: "27993C65F5308529"
+				item: "gtceu:trinium_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "7C4168E50DBCB1F3"
+			tasks: [{
+				id: "680DDAAD85FA81A8"
+				item: "gtceu:tritanium_dust"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "3ACF46E7335B15DE"
+			tasks: [{
+				id: "7C8C5D5FDF5B15DB"
+				item: "gtceu:duranium_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "26588F61B1C85743"
+			optional: true
+			tasks: [{
+				id: "2B1FFFE807B44658"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Oganesson [NYI]"
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "55A8D5E98A14C9A4"
+			optional: true
+			tasks: [{
+				id: "13628B1294BD1CD0"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Bromine [NYI]"
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "2AE9716C9A416343"
+			optional: true
+			tasks: [{
+				id: "6716E6508396FF43"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Californium [NYI]"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "21DAD55A4AE265E5"
+			optional: true
+			tasks: [{
+				id: "708A9B9A30CBAB91"
+				item: "minecraft:bedrock"
+				type: "item"
+			}]
+			title: "Praseodymium"
+			x: -4.5d
+			y: 2.5d
 		}
 	]
 	title: "The Periodic Table"

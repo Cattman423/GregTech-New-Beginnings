@@ -1,0 +1,28 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 29,
+      "item": "gtceu:steel_ingot"
+    },
+    {
+      "count": 8,
+      "item": "pointblank:guninternals"
+    },
+    {
+      "count": 9,
+      "item": "gtceu:steel_plate"
+    },
+    {
+      "count": 2,
+      "item": "gtceu:bakelite_ingot"
+    },
+    {
+      "count": 4,
+      "item": "gtceu:treated_wood_plate"
+    }
+  ],
+  "result": {
+    "item": "pointblank:ak74"
+  }
+}

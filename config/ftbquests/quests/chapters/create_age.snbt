@@ -8,6 +8,7 @@
 	id: "15B5E090F479155C"
 	order_index: 1
 	quest_links: [{
+		disable_toast: true
 		id: "348585C5400C58EC"
 		linked_quest: "6A91810EF77054CF"
 		shape: "gear"
@@ -35,7 +36,7 @@
 			tasks: [{
 				count: 8L
 				id: "07CF7D88040F6F40"
-				item: { Count: 8b, id: "create:shaft" }
+				item: { Count: 8, id: "create:shaft" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -98,7 +99,7 @@
 			tasks: [{
 				count: 4L
 				id: "63373B3386A2AE9D"
-				item: { Count: 4b, id: "create:belt_connector" }
+				item: { Count: 4, id: "create:belt_connector" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -109,7 +110,7 @@
 			description: [
 				"For now this is how you will generate kinetic energy unless you like turning cranks...."
 				""
-				"Please note that there is two stats to look for, bime efficiancy, and hight efficiancy, you will want to maximize these values. "
+				"Please note that there is two stats to look for, bime efficency, and hight efficiancy, you will want to maximize these values. "
 				"Also you need plenty of open space to operate your windmill, no more tiny windmill spam in a tiny cave."
 			]
 			icon: "create:windmill_bearing"
@@ -138,7 +139,7 @@
 				{
 					count: 8L
 					id: "1E62E4586FB38E04"
-					item: { Count: 8b, id: "create:white_sail" }
+					item: { Count: 8, id: "create:white_sail" }
 					type: "item"
 				}
 			]
@@ -436,7 +437,7 @@
 				{
 					count: 4L
 					id: "6CCBB4BBAE66FCB4"
-					item: { Count: 4b, id: "gtceu:coke_oven_hatch" }
+					item: { Count: 4, id: "gtceu:coke_oven_hatch" }
 					type: "item"
 				}
 			]
@@ -555,7 +556,7 @@
 				item: "create:electron_tube"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.5d
 			y: 7.0d
 		}
 		{
@@ -588,7 +589,6 @@
 		{
 			dependencies: [
 				"6D3322D2FFCBEB8C"
-				"38747E7B7CB63D8D"
 				"491F667B940BC625"
 			]
 			id: "1928A0F6075A46AC"
@@ -858,6 +858,8 @@
 			dependencies: [
 				"4E5F6BF9EF55DC13"
 				"1928A0F6075A46AC"
+				"38747E7B7CB63D8D"
+				"36C838DF116F3DC6"
 			]
 			icon: "gtceu:bronze_machine_casing"
 			id: "54D5926072B165D5"
@@ -1019,20 +1021,8 @@
 			dependencies: ["5468ECF42040C129"]
 			id: "36C838DF116F3DC6"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "31D4B21F3BCAEACC"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "66B92D9E73223C8C"
-					type: "xp"
-					xp: 500
-				}
-			]
 			shape: "hexagon"
+			size: 1.0d
 			tasks: [{
 				id: "0D72FE3B6E8D7DCA"
 				item: "minecraft:bricks"
@@ -1124,7 +1114,7 @@
 				item: "create:smart_fluid_pipe"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 1.0d
 			y: 7.0d
 		}
 		{
@@ -1142,7 +1132,7 @@
 				{
 					id: "5C6BAD3BB6564C8E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:damascus_steel_mining_hammer"
 						tag: {
 							DisallowContainerItem: 0b
@@ -1234,10 +1224,9 @@
 			}]
 			shape: "octagon"
 			tasks: [{
-				consume_items: true
 				count: 64L
-				id: "7E950E980FF974A5"
-				item: "gtceu:andesite_alloy_ingot"
+				id: "45651C7361D3C576"
+				item: { Count: 64, id: "create:andesite_alloy" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -1263,6 +1252,7 @@
 					xp: 100
 				}
 			]
+			shape: "pentagon"
 			tasks: [{
 				id: "0B283EC57F7847B3"
 				item: "create:steam_engine"
@@ -1270,45 +1260,6 @@
 			}]
 			x: 11.5d
 			y: 5.0d
-		}
-		{
-			dependencies: ["1928A0F6075A46AC"]
-			description: ["If you somehow get precision mechanisms, I'll trade you for some clockwork ones."]
-			id: "4922E54CD484BF8A"
-			rewards: [{
-				id: "2051A3CF90B96544"
-				item: "kubejs:clockwork_mechanism"
-				type: "item"
-			}]
-			size: 0.5d
-			tasks: [{
-				consume_items: true
-				id: "1F3F662540AD58EB"
-				item: "create:precision_mechanism"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["07B9229EA02A6C1E"]
-			description: ["If you somehow get steel mechanisms, I'll trade you for some advanced clockwork ones."]
-			id: "0D33D7BB3FEB4D75"
-			optional: true
-			rewards: [{
-				id: "0727BF21C374552E"
-				item: "kubejs:advanced_clockwork_mechanism"
-				type: "item"
-			}]
-			size: 0.5d
-			tasks: [{
-				consume_items: true
-				id: "5063889E071739F2"
-				item: "tfmg:steel_mechanism"
-				type: "item"
-			}]
-			x: 13.0d
-			y: 7.5d
 		}
 		{
 			dependencies: ["1928A0F6075A46AC"]
@@ -1355,7 +1306,7 @@
 				item: "create:deployer"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 6.5d
 			y: 7.0d
 		}
 		{
@@ -1416,7 +1367,7 @@
 			tasks: [{
 				count: 2L
 				id: "74230C79D4830D2D"
-				item: { Count: 2b, id: "create:crushing_wheel" }
+				item: { Count: 2, id: "create:crushing_wheel" }
 				type: "item"
 			}]
 			x: 8.5d
@@ -1445,6 +1396,44 @@
 			}]
 			x: 13.5d
 			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1928A0F6075A46AC"]
+			id: "2A6D904B243EA019"
+			optional: true
+			rewards: [{
+				id: "3EEE513F6A7732BC"
+				item: "kubejs:clockwork_mechanism"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "3110188034627420"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["07B9229EA02A6C1E"]
+			id: "06F50280030E69BD"
+			optional: true
+			rewards: [{
+				id: "640AD1C16301419F"
+				item: "kubejs:advanced_clockwork_mechanism"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "49228725F6989157"
+				item: "tfmg:steel_mechanism"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 7.5d
 		}
 	]
 	title: "Create Age"

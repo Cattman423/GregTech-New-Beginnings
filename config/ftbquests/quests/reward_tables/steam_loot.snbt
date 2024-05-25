@@ -9,7 +9,7 @@
 		{ count: 4, item: "minecraft:oak_log" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:wrought_iron_hammer"
 				tag: {
 					DisallowContainerItem: 0b
@@ -27,7 +27,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:wrought_iron_screwdriver"
 				tag: {
 					DisallowContainerItem: 0b
@@ -43,7 +43,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:wrought_iron_wrench"
 				tag: {
 					DisallowContainerItem: 0b
@@ -61,7 +61,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:wrought_iron_file"
 				tag: {
 					DisallowContainerItem: 0b
@@ -82,7 +82,7 @@
 		{ count: 16, item: "minecraft:torch" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:iron_mortar"
 				tag: {
 					DisallowContainerItem: 0b

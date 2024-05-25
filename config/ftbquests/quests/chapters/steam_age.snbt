@@ -8,6 +8,7 @@
 	id: "582E3703244524AE"
 	order_index: 2
 	quest_links: [{
+		disable_toast: true
 		id: "10FDB43F923D9F28"
 		linked_quest: "54D5926072B165D5"
 		shape: "gear"
@@ -595,13 +596,13 @@
 				{
 					count: 3L
 					id: "348D72B40FCC8AD1"
-					item: { Count: 3b, id: "gtceu:primitive_blast_furnace" }
+					item: { Count: 3, id: "gtceu:primitive_blast_furnace" }
 					type: "item"
 				}
 				{
 					count: 51L
 					id: "135C70494DE8FF96"
-					item: { Count: 64b, id: "gtceu:firebricks" }
+					item: { Count: 64, id: "gtceu:firebricks" }
 					type: "item"
 				}
 			]
@@ -708,7 +709,7 @@
 			tasks: [{
 				id: "7A622B9C5856B819"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:flint_and_steel"
 					tag: {
 						Damage: 0
@@ -893,7 +894,7 @@
 			tasks: [{
 				id: "73ACD7BF8AE35CAC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ironchests:iron_dolly"
 					tag: {
 						Damage: 0
@@ -1041,7 +1042,7 @@
 			tasks: [{
 				id: "4B17364644495862"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "gtceu:rubber_plunger"
 					tag: {
 						DisallowContainerItem: 0b
@@ -1272,13 +1273,13 @@
 				{
 					count: 2L
 					id: "3BFE62E8DFA0521F"
-					item: { Count: 2b, id: "create:mechanical_arm" }
+					item: { Count: 2, id: "create:mechanical_arm" }
 					type: "item"
 				}
 				{
 					count: 17L
 					id: "1AC7CC0BF566B4A3"
-					item: { Count: 17b, id: "create:framed_glass" }
+					item: { Count: 17, id: "create:framed_glass" }
 					type: "item"
 				}
 				{
@@ -1304,13 +1305,13 @@
 				{
 					count: 60L
 					id: "734D963FF6DEAD6C"
-					item: { Count: 60b, id: "create:andesite_casing" }
+					item: { Count: 60, id: "create:andesite_casing" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "19C0A78A61AC8F0E"
-					item: { Count: 2b, id: "gtceu:steam_input_bus" }
+					item: { Count: 2, id: "gtceu:steam_input_bus" }
 					type: "item"
 				}
 				{

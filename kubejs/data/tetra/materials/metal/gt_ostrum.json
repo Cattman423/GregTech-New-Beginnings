@@ -1,0 +1,36 @@
+{
+    "key": "gt_ostrum",
+    "category": "metal",
+    "primary": 7,
+    "secondary": 5.5,
+    "tertiary": 3.2,
+    "durability": 2048,
+    "integrityCost": 2,
+    "integrityGain": 6,
+    "magicCapacity": 54,
+    "toolLevel": "minecraft:diamond",
+    "toolEfficiency": 9,
+    "effects": {
+        "stun": [
+            10,
+            2
+        ]
+    },
+    "tints": {
+        "glyph": "925e64",
+        "texture": "925e64"
+    },
+    "textures": [
+        "heavy",
+        "metal",
+        "default"
+    ],
+    "material": {
+        "items": [
+            "ad_astra:ostrum_plate"
+        ]
+    },
+    "requiredTools": {
+        "hammer_dig": "minecraft:diamond"
+    }
+}

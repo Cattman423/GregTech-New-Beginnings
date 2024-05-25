@@ -1,0 +1,28 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 28,
+      "item": "gtceu:steel_ingot"
+    },
+    {
+      "count": 20,
+      "item": "pointblank:guninternals"
+    },
+    {
+      "count": 1,
+      "item": "pointblank:motor"
+    },
+    {
+      "count": 14,
+      "item": "gtceu:polyethylene_ingot"
+    },
+    {
+      "count": 10,
+      "item": "gtceu:aluminium_ingot"
+    }
+  ],
+  "result": {
+    "item": "pointblank:m134minigun"
+  }
+}

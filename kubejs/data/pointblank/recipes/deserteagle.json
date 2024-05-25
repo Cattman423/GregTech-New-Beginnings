@@ -1,0 +1,20 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 22,
+      "item": "gtceu:steel_ingot"
+    },
+    {
+      "count": 4,
+      "item": "pointblank:guninternals"
+    },
+    {
+      "count": 10,
+      "item": "gtceu:polyethylene_ingot"
+    }
+  ],
+  "result": {
+    "item": "pointblank:deserteagle"
+  }
+}

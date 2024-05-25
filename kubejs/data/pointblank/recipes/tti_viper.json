@@ -1,0 +1,20 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 20,
+      "item": "gtceu:steel_ingot"
+    },
+    {
+      "count": 4,
+      "item": "pointblank:guninternals"
+    },
+    {
+      "count": 4,
+      "item": "gtceu:polyethylene_ingot"
+    }
+  ],
+  "result": {
+    "item": "pointblank:tti_viper"
+  }
+}

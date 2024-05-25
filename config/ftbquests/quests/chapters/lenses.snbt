@@ -5,7 +5,7 @@
 	group: "4E8777506C4F26CC"
 	icon: "gtceu:glass_lens"
 	id: "0C8FA2783D735D04"
-	order_index: 4
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -660,6 +660,7 @@
 		{
 			dependencies: ["44279043DD31B476"]
 			id: "5600ABD6B2A247E4"
+			optional: true
 			tasks: [{
 				id: "2420D9F7B3AA429E"
 				item: "gtceu:magneto_resonatic_lens"
@@ -671,6 +672,7 @@
 		{
 			dependencies: ["44279043DD31B476"]
 			id: "48655A07E383C0D8"
+			optional: true
 			tasks: [{
 				id: "31DD22637C2B4143"
 				item: "gtceu:cubic_zirconium_lens"
@@ -693,6 +695,7 @@
 		{
 			dependencies: ["44279043DD31B476"]
 			id: "1D0388C25ABF9805"
+			optional: true
 			tasks: [{
 				id: "63BA1C422D9E6EBC"
 				item: "gtceu:lignite_lens"

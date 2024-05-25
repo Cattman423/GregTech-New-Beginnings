@@ -81,4 +81,9 @@ ServerEvents.tags('item', event => {
 //Tools
     event.add('forge:tools/screwdrivers', 'tfmg:screwdriver')
     event.add('createlowheated:burner_starters', 'minecraft:torch')
+//Bakelite and Wood
+    event.add('forge:small_bakelite', 'gtceu:small_wood_gear')
+    event.add('forge:bakelite', 'gtceu:wood_gear')
+    event.add('forge:small_bakelite', 'gtceu:small_bakelite_gear')
+    event.add('forge:bakelite', 'gtceu:bakelite_gear')
 })

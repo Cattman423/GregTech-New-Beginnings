@@ -18,7 +18,7 @@
 		{ count: 64, item: "minecraft:oak_log" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:aluminium_fluid_cell"
 				tag: {
 					Fluid: {
@@ -33,7 +33,7 @@
 		{ count: 4, item: "gtceu:stainless_steel_ingot", weight: 0.75f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "minecraft:strong_healing"

@@ -1,0 +1,28 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+   {
+      "count": 40,
+      "item": "pointblank:gunmetal_ingot"
+    },
+    {
+      "count": 32,
+      "item": "pointblank:guninternals"
+    },
+    {
+      "count": 4,
+      "item": "minecraft:diamond"
+    },
+    {
+      "count": 10,
+      "tag": "forge:ingots/gold"
+    },
+    {
+      "count": 1,
+      "item": "gtceu:neutronium_ingot"
+    }
+  ],
+  "result": {
+    "item": "pointblank:m32mgl"
+  }
+}

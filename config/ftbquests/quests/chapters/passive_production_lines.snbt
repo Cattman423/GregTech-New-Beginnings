@@ -36,6 +36,7 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["672A1709AB494310"]
 			id: "7EA08C5D472AB4C2"
 			tasks: [{
 				id: "0C7E05AD09DC7553"
@@ -527,8 +528,8 @@
 			id: "4755D347068CCF31"
 			shape: "octagon"
 			tasks: [{
-				id: "69BD40741E578985"
-				item: "gtceu:andesite_alloy_ingot"
+				id: "70A0072120C48576"
+				item: "create:andesite_alloy"
 				type: "item"
 			}]
 			x: -8.5d

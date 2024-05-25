@@ -1,0 +1,21 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 1,
+      "item": "gtceu:brass_ingot"
+    },
+    {
+      "count": 1,
+      "tag": "forge:gunpowder"
+    },
+    {
+      "count": 1,
+      "item": "gtceu:lead_round"
+    }
+  ],
+  "result": {
+    "count": 19,
+    "item": "pointblank:ammo45acp"
+  }
+}

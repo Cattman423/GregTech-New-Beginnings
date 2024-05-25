@@ -9,7 +9,7 @@
 		{ item: "gtceu:lv_machine_hull", weight: 0.1f }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:steel_hammer"
 				tag: {
 					DisallowContainerItem: 0b
@@ -27,7 +27,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:steel_file"
 				tag: {
 					DisallowContainerItem: 0b
@@ -43,7 +43,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:steel_wire_cutter"
 				tag: {
 					DisallowContainerItem: 0b
@@ -61,7 +61,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:steel_wrench"
 				tag: {
 					DisallowContainerItem: 0b
@@ -79,7 +79,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:steel_screwdriver"
 				tag: {
 					DisallowContainerItem: 0b
@@ -95,7 +95,7 @@
 		}
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:steel_crowbar"
 				tag: {
 					DisallowContainerItem: 0b
@@ -116,7 +116,7 @@
 		{ count: 64, item: "minecraft:stone" }
 		{
 			item: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:potion"
 				tag: {
 					Potion: "minecraft:healing"

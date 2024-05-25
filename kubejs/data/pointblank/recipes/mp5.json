@@ -1,0 +1,24 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 26,
+      "item": "gtceu:steel_ingot"
+    },
+    {
+      "count": 7,
+      "item": "pointblank:guninternals"
+    },
+    {
+      "count": 4,
+      "item": "gtceu:polyethylene_ingot"
+    },
+    {
+      "count": 1,
+      "item": "gtceu:aluminium_ingot"
+    }
+  ],
+  "result": {
+    "item": "pointblank:mp5"
+  }
+}

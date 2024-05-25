@@ -8,8 +8,6 @@
 	images: [
 		{
 			click: "https://discord.gg/uRfcbsK6NF"
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: ["Join the Discord"]
 			image: "ftbchunks:textures/waypoint_default.png"
@@ -20,8 +18,6 @@
 		}
 		{
 			click: "https://github.com/Cattman423/GregTech-New-Beginnings/issues"
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: [
 				"Please report Issues and Bugs on the GitHub"
