@@ -57,7 +57,7 @@
 			tasks: [{
 				id: "6662592119061B5A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "farmersdelight:skillet"
 					tag: {
 						Damage: 0
@@ -118,7 +118,7 @@
 			tasks: [{
 				id: "5054A741730DD73B"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: { }
 					}

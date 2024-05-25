@@ -417,7 +417,7 @@
 			dependencies: ["684E9CD189ACC2D0"]
 			hide_dependent_lines: true
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "gtceu:programmed_circuit"
 				tag: {
 					Configuration: 0
@@ -723,7 +723,7 @@
 				{
 					count: 2L
 					id: "58CF0EA27F53FA19"
-					item: { Count: 2b, id: "gtceu:lv_energy_input_hatch" }
+					item: { Count: 2, id: "gtceu:lv_energy_input_hatch" }
 					type: "item"
 				}
 				{
@@ -2019,7 +2019,7 @@
 				{
 					id: "4F279854AB9074AB"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "create:super_glue"
 						tag: {
 							Damage: 0

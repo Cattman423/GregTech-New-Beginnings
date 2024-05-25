@@ -4,7 +4,7 @@
 	filename: "bees"
 	group: "29D9E440AAB8AE92"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "patchouli:guide_book"
 		tag: {
 			"patchouli:book": "productivebees:guide"
@@ -56,7 +56,7 @@
 			tasks: [{
 				id: "2B37C20C312F1632"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "item_tag(productivebees:advanced_beehives)"
@@ -75,7 +75,7 @@
 			tasks: [{
 				id: "173C6D9D1C0BFCFA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
 						"ftbfiltersystem:filter": "item_tag(productivebees:expansion_boxes)"

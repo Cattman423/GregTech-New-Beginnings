@@ -108,7 +108,7 @@
 			rewards: [{
 				id: "7E1F0D96DF85222E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "tetra:thermal_cell"
 					tag: {
 						Damage: 0
@@ -131,7 +131,7 @@
 			rewards: [{
 				id: "7F6AAB2B4BFDE8FC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "tetra:thermal_cell"
 					tag: {
 						Damage: 0

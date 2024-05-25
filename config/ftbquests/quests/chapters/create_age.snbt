@@ -36,7 +36,7 @@
 			tasks: [{
 				count: 8L
 				id: "07CF7D88040F6F40"
-				item: { Count: 8b, id: "create:shaft" }
+				item: { Count: 8, id: "create:shaft" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -99,7 +99,7 @@
 			tasks: [{
 				count: 4L
 				id: "63373B3386A2AE9D"
-				item: { Count: 4b, id: "create:belt_connector" }
+				item: { Count: 4, id: "create:belt_connector" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -139,7 +139,7 @@
 				{
 					count: 8L
 					id: "1E62E4586FB38E04"
-					item: { Count: 8b, id: "create:white_sail" }
+					item: { Count: 8, id: "create:white_sail" }
 					type: "item"
 				}
 			]
@@ -437,7 +437,7 @@
 				{
 					count: 4L
 					id: "6CCBB4BBAE66FCB4"
-					item: { Count: 4b, id: "gtceu:coke_oven_hatch" }
+					item: { Count: 4, id: "gtceu:coke_oven_hatch" }
 					type: "item"
 				}
 			]
@@ -1132,7 +1132,7 @@
 				{
 					id: "5C6BAD3BB6564C8E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "gtceu:damascus_steel_mining_hammer"
 						tag: {
 							DisallowContainerItem: 0b
@@ -1226,7 +1226,7 @@
 			tasks: [{
 				count: 64L
 				id: "45651C7361D3C576"
-				item: { Count: 64b, id: "create:andesite_alloy" }
+				item: { Count: 64, id: "create:andesite_alloy" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -1367,7 +1367,7 @@
 			tasks: [{
 				count: 2L
 				id: "74230C79D4830D2D"
-				item: { Count: 2b, id: "create:crushing_wheel" }
+				item: { Count: 2, id: "create:crushing_wheel" }
 				type: "item"
 			}]
 			x: 8.5d

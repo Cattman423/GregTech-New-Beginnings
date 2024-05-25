@@ -499,7 +499,7 @@
 				{
 					count: 5L
 					id: "26E92AFD29D301DE"
-					item: { Count: 5b, id: "gtceu:ulv_input_bus" }
+					item: { Count: 5, id: "gtceu:ulv_input_bus" }
 					type: "item"
 				}
 				{
@@ -510,13 +510,13 @@
 				{
 					count: 4L
 					id: "2EFD3EF5D855B66F"
-					item: { Count: 4b, id: "gtceu:lv_input_hatch" }
+					item: { Count: 4, id: "gtceu:lv_input_hatch" }
 					type: "item"
 				}
 				{
 					count: 6L
 					id: "30792C0B0E3237B3"
-					item: { Count: 11b, id: "gtceu:assembly_line_casing" }
+					item: { Count: 11, id: "gtceu:assembly_line_casing" }
 					type: "item"
 				}
 				{
@@ -534,7 +534,7 @@
 				{
 					count: 12L
 					id: "1067033ED316A695"
-					item: { Count: 12b, id: "gtceu:laminated_glass" }
+					item: { Count: 12, id: "gtceu:laminated_glass" }
 					type: "item"
 				}
 			]

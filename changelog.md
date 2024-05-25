@@ -4,7 +4,7 @@
 
 ### Forge Updated to v47.2.20
 
-* Make A backup of your world before updating the pack!
+* Make A backup of your world before updating the pack! You will lose some items in this update, mainly your stockpiles of andesite alloy ingots, please turn it into dust before updating!!!
 
 * Quests
   * Fixed some quests in the Create Age
@@ -17,7 +17,7 @@
 * Progression
   * Ad Astra
     * Changed Tier One Rocket recipe
-    * Lunar Ores are the default End veins, this is subject to change
+    * Lunar Ores are most of the default End veins, this is subject to change, as well as Desh
   * Eneabled FE to EU converters with a ratio of 2 FE:1 EU
 * Multiblocks
   * Removed the 9-amp lv steam engine multiblock
@@ -27,7 +27,7 @@
   * Added Adamantite
   * Added Chadium
   * Added Moon, Mars, Mercury, and Venus Stone Dusts and Air
-  * Switched textures for Desh, Ostrum, Calorite, and Andesite Alloy, ingots, blocks, and nuggets (where applicable) for their base-mod versions
+  * Switched textures/items for Desh, Ostrum, Calorite, and Andesite Alloy, ingots, blocks, and nuggets (where applicable) for their base-mod versions
   * Removed Soul Soil Ores
 * Recipes
   * Removed recipes for Storage Drawers in favor of Functional Storage
@@ -79,6 +79,10 @@
   * Embeddium++ v1.2.12
   * Extended AE v1.1.6
   * Factory Blocks v1.3.1
+  * FTB Chunks v2001.3.0
+  * FTB Library v2001.2.2
+  * FTB Quests v2001.4.4
+  * FTB Teams v2001.3.0
   * FTBQuestsOptimizer v2.0.1
   * GregTechCEu Modern v1.2.3.a
   * Jade v11.8.0
@@ -88,11 +92,14 @@
   * Path Under Gates v1.0.2
   * Point Blank v1.4.3
   * PolyLib v2000.0.3-build.143
+  * Polymorph v0.49.4
+  * Productive Bees v12.5.2
   * Productive Trees v0.2.3
   * ProgressiveBosses v3.9.7
   * PuzzlesLib v8.1.19
   * Resourceful Lib v2.1.25
   * Sophisticated Core v0.6.9.611
+  * Sound Physics Remastered v1.4.0
   * Stargate Journey v0.6.26 Hotfix
   * Supplementaries v2.8.11
   * TerraBlender v3.0.1.6

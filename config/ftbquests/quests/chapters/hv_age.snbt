@@ -814,7 +814,7 @@
 			tasks: [{
 				id: "2340BD060FBAAD7D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ad_astra:tier_1_rocket"
 					tag: { }
 				}
