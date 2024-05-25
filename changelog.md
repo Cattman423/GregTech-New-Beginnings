@@ -4,7 +4,7 @@
 
 ### Forge Updated to v47.2.20
 
-* Make A backup of your world before updating the pack!
+* Make A backup of your world before updating the pack! You will lose some items in this update, mainly your stockpiles of andesite alloy ingots, please turn it into dust before updating!!!
 
 * Quests
   * Fixed some quests in the Create Age
