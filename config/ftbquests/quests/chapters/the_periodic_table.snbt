@@ -12,17 +12,8 @@
 			dependencies: ["2AF48E6902C16848"]
 			id: "79B8D81A07003512"
 			tasks: [{
-				id: "22AD306B28B09491"
-				item: {
-					Count: 1b
-					id: "gtceu:fluid_cell"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "ad_astra:hydrogen"
-						}
-					}
-				}
+				id: "41E3EC58DF1E08ED"
+				item: "ad_astra:hydrogen_bucket"
 				type: "item"
 			}]
 			x: -9.0d
@@ -254,17 +245,8 @@
 			dependencies: ["2AF48E6902C16848"]
 			id: "35AD78F0C6578EFF"
 			tasks: [{
-				id: "0E4DA9391A97728E"
-				item: {
-					Count: 1b
-					id: "gtceu:fluid_cell"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "gtceu:nitrogen"
-						}
-					}
-				}
+				id: "74F63DED224030E7"
+				item: "gtceu:nitrogen_bucket"
 				type: "item"
 			}]
 			x: 5.5d
@@ -274,17 +256,8 @@
 			dependencies: ["2AF48E6902C16848"]
 			id: "3C1A6C4475CF8FDF"
 			tasks: [{
-				id: "5320FAFAD2708409"
-				item: {
-					Count: 1b
-					id: "gtceu:fluid_cell"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "gtceu:oxygen"
-						}
-					}
-				}
+				id: "7B123487D3AF3ECE"
+				item: "gtceu:oxygen_bucket"
 				type: "item"
 			}]
 			x: 6.5d
@@ -294,17 +267,8 @@
 			dependencies: ["2AF48E6902C16848"]
 			id: "0728CEBCA652B609"
 			tasks: [{
-				id: "3AEEC912B4D68CE8"
-				item: {
-					Count: 1b
-					id: "gtceu:fluid_cell"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "gtceu:fluorine"
-						}
-					}
-				}
+				id: "4818D34F75858CFA"
+				item: "gtceu:fluorine_bucket"
 				type: "item"
 			}]
 			x: 7.5d
@@ -314,17 +278,8 @@
 			dependencies: ["2AF48E6902C16848"]
 			id: "5078F17550B39369"
 			tasks: [{
-				id: "66697178C2B209B8"
-				item: {
-					Count: 1b
-					id: "gtceu:fluid_cell"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "gtceu:neon"
-						}
-					}
-				}
+				id: "378ACAEB1DC9105C"
+				item: "gtceu:neon_bucket"
 				type: "item"
 			}]
 			x: 8.5d
@@ -334,17 +289,8 @@
 			dependencies: ["2AF48E6902C16848"]
 			id: "59E32292E0430AC9"
 			tasks: [{
-				id: "29A394D685AA12C5"
-				item: {
-					Count: 1b
-					id: "gtceu:fluid_cell"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "gtceu:helium"
-						}
-					}
-				}
+				id: "59A739D439D53B60"
+				item: "gtceu:helium_bucket"
 				type: "item"
 			}]
 			x: 8.5d
@@ -387,17 +333,8 @@
 			dependencies: ["2AF48E6902C16848"]
 			id: "693BC76D32ED0436"
 			tasks: [{
-				id: "3930B0B02CAFD7C0"
-				item: {
-					Count: 1b
-					id: "gtceu:fluid_cell"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "gtceu:chlorine"
-						}
-					}
-				}
+				id: "1EFD8C5A67A32628"
+				item: "gtceu:chlorine_bucket"
 				type: "item"
 			}]
 			x: 7.5d
@@ -407,17 +344,8 @@
 			dependencies: ["2AF48E6902C16848"]
 			id: "1EA6849A8BEAD344"
 			tasks: [{
-				id: "1C01534EC68C331B"
-				item: {
-					Count: 1b
-					id: "gtceu:fluid_cell"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "gtceu:argon"
-						}
-					}
-				}
+				id: "139CFD22BCCCB540"
+				item: "gtceu:argon_bucket"
 				type: "item"
 			}]
 			x: 8.5d
@@ -463,17 +391,8 @@
 			dependencies: ["2AF48E6902C16848"]
 			id: "6B81C0E54862390B"
 			tasks: [{
-				id: "76F632BF85793FEE"
-				item: {
-					Count: 1b
-					id: "gtceu:fluid_cell"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "gtceu:krypton"
-						}
-					}
-				}
+				id: "53DE39AC8BAFF851"
+				item: "gtceu:krypton_bucket"
 				type: "item"
 			}]
 			x: 8.5d
@@ -678,17 +597,8 @@
 			dependencies: ["2AF48E6902C16848"]
 			id: "7C31847E5E8010F4"
 			tasks: [{
-				id: "60E842C376A49C9E"
-				item: {
-					Count: 1b
-					id: "gtceu:fluid_cell"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "gtceu:xenon"
-						}
-					}
-				}
+				id: "2B656FC6E0D0381C"
+				item: "gtceu:xenon_bucket"
 				type: "item"
 			}]
 			x: 8.5d
@@ -823,17 +733,8 @@
 			dependencies: ["2AF48E6902C16848"]
 			id: "6D31B229F3CDAC91"
 			tasks: [{
-				id: "245B2EE85D1BB774"
-				item: {
-					Count: 1b
-					id: "gtceu:fluid_cell"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "gtceu:mercury"
-						}
-					}
-				}
+				id: "0FDC6C96ECEC9390"
+				item: "gtceu:mercury_bucket"
 				type: "item"
 			}]
 			x: 2.5d
@@ -904,17 +805,8 @@
 			dependencies: ["2AF48E6902C16848"]
 			id: "667CE6CBDA7DE162"
 			tasks: [{
-				id: "07C582D3FD7F33BE"
-				item: {
-					Count: 1b
-					id: "gtceu:fluid_cell"
-					tag: {
-						Fluid: {
-							Amount: 1000
-							FluidName: "gtceu:radon"
-						}
-					}
-				}
+				id: "4D979B69FA31BB26"
+				item: "gtceu:radon_bucket"
 				type: "item"
 			}]
 			x: 8.5d

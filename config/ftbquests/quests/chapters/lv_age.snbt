@@ -2167,6 +2167,26 @@
 			x: 5.0d
 			y: 1.0d
 		}
+		{
+			dependencies: ["79F35DAA01A154B9"]
+			id: "39FBDD9D5320834D"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1563D6B7CBBFC758"
+				table_id: 8967553898864734666L
+				type: "random"
+			}]
+			shape: "pentagon"
+			size: 0.75d
+			tasks: [{
+				id: "694AB331A7DD53AA"
+				item: "gtceu:basic_alternator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
 	]
 	title: "Lv Age"
 }

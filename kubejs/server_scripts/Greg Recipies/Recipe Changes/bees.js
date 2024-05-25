@@ -38,7 +38,7 @@ ServerEvents.recipes(event => {
     honeycomb('bastnasite', '{EntityTag: {type: "productivebees:bastnasite"}}', 'gtceu:raw_bastnasite', 8000, 50, 1200, 30)
     honeycomb('bauxite', '{EntityTag: {type: "productivebees:bauxite"}}', 'gtceu:raw_bauxite', 8000, 50, 1200, 30)
     honeycomb('calorite', '{EntityTag: {type: "productivebees:calorite"}}', 'gtceu:raw_calorite', 3000, 50, 1200, 30)
-    honeycomb('certus', '{EntityTag: {type: "productivebees:spatial"}}', 'gtceu:raw_certus_quartz', 9000, 50, 1200, 30)
+    honeycomb('certus', '{EntityTag: {type: "productivebees:spacial"}}', 'gtceu:raw_certus_quartz', 9000, 50, 1200, 30)
     honeycomb('chromite', '{EntityTag: {type: "productivebees:chromite"}}', 'gtceu:raw_chromite', 8000, 50, 1200, 30)
     honeycomb('cinnabar', '{EntityTag: {type: "productivebees:cinnabar"}}', 'gtceu:raw_cinnabar', 5000, 50, 1200, 30)
     honeycomb('coal', '{EntityTag: {type: "productivebees:coal"}}', 'gtceu:raw_coal', 6000, 50, 1200, 30)
@@ -118,6 +118,7 @@ ServerEvents.recipes(event => {
     honeycomb('steel', '{EntityTag: {type: "productivebees:steel"}}', 'gtceu:steel_dust', 8000, 50, 1200, 30)
     honeycomb('sticky_resin', '{EntityTag: {type: "productivebees:sticky_resin"}}', 'gtceu:sticky_resin', 9000, 50, 1200, 30)
     honeycomb('warped', '{EntityTag: {type: "productivebees:warped"}}', 'minecraft:warped_fungus', 7000, 50, 1200, 30)
+    honeycomb('flux', '{EntityTag: {type: "productivebees:flux"}}', 'gtceu:flux_dust', 7000, 50, 1200, 30)
 //Alloys
     honeycomb('bismuth', '{EntityTag: {type: "productivebees:bismuth"}}', 'gtceu:bismuth_dust', 9000, 50, 1200, 30)
     honeycomb('brass', '{EntityTag: {type: "productivebees:brass"}}', 'gtceu:brass_dust', 8000, 50, 1200, 30)
@@ -253,6 +254,7 @@ function honeycombfluidblock(id, input, output, time, eu){
     honeycombblock('steel_block', '{EntityTag: {type: "productivebees:steel"}}', '4x gtceu:steel_dust', 8000, 50, 1200, 30)
     honeycombblock('sticky_resin_block', '{EntityTag: {type: "productivebees:sticky_resin"}}', '4x gtceu:sticky_resin', 9000, 50, 1200, 30)
     honeycombblock('warped_block', '{EntityTag: {type: "productivebees:warped"}}', '4x minecraft:warped_fungus', 7000, 50, 1200, 30)
+    honeycombblock('flux_block', '{EntityTag: {type: "productivebees:flux"}}', '4x gtceu:flux_dust', 7000, 50, 1200, 30)
 //Alloys Blocks
     honeycombblock('bismuth_block', '{EntityTag: {type: "productivebees:bismuth"}}', '4x gtceu:bismuth_dust', 9000, 50, 1200, 30)
     honeycombblock('brass_block', '{EntityTag: {type: "productivebees:brass"}}', '4x gtceu:brass_dust', 8000, 50, 1200, 30)

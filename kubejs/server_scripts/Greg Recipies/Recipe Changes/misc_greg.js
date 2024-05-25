@@ -44,236 +44,6 @@ ServerEvents.recipes(event => {
         .itemOutputs('minecraft:netherrack')
         .duration(16)
         .EUt(480)
-//Gunpowder line
-    event.recipes.gtceu.chemical_reactor('nitrocellulose')
-        .circuit(16)
-        .itemInputs('5x minecraft:paper')
-        .inputFluids('gtceu:nitric_acid 3000', 'gtceu:sulfuric_acid 8000')
-        .itemOutputs('5x gtceu:nitrocellulose_ingot')
-        .outputFluids('minecraft:water 3000')
-        .duration(200)
-        .EUt(24)
-    event.recipes.gtceu.mixer('pistol_mixing')
-        .circuit(16)
-        .itemInputs('4x gtceu:nitrocellulose_dust', '5x minecraft:gunpowder')
-        .itemOutputs('5x kubejs:pistol_powder')
-        .duration(200)
-        .EUt(24)
-    event.recipes.gtceu.mixer('rifle_mixing')
-        .circuit(17)
-        .itemInputs('4x gtceu:nitrocellulose_dust', '5x minecraft:gunpowder')
-        .itemOutputs('5x kubejs:rifle_powder')
-        .duration(200)
-        .EUt(24)
-    event.recipes.gtceu.mixer('shotgun_mixing')
-        .circuit(18)
-        .itemInputs('4x gtceu:nitrocellulose_dust', '5x minecraft:gunpowder')
-        .itemOutputs('5x kubejs:shotgun_powder')
-        .duration(200)
-        .EUt(24)
-    event.recipes.gtceu.chemical_reactor('barium_nitride')
-        .circuit(16)
-        .itemInputs('3x gtceu:barium_dust')
-        .inputFluids('gtceu:nitrogen 2000')
-        .itemOutputs('5x gtceu:barium_nitride_dust')
-        .duration(200)
-        .EUt(24)
-    event.recipes.gtceu.chemical_reactor('lead_styphnate')
-        .circuit(16)
-        .itemInputs('gtceu:lead_dust', '6x gtceu:carbon_dust')
-        .inputFluids('gtceu:hydrogen 1000', 'gtceu:nitrogen 3000', 'gtceu:oxygen 8000')
-        .itemOutputs('19x gtceu:lead_styphnate_dust')
-        .duration(200)
-        .EUt(24)
-    event.recipes.gtceu.assembler('small_rifle_primer')
-        .circuit(16)
-        .itemInputs('3x gtceu:lead_styphnate_dust', 'gtceu:stibnite_dust', 'gtceu:barium_nitride_dust', '16x gtceu:brass_nugget')
-        .itemOutputs('16x kubejs:small_rifle_primer')
-        .duration(200)
-        .EUt(24)
-    event.recipes.gtceu.assembler('large_rifle_primer')
-        .circuit(17)
-        .itemInputs('3x gtceu:lead_styphnate_dust', 'gtceu:stibnite_dust', 'gtceu:barium_nitride_dust', '16x gtceu:brass_nugget')
-        .itemOutputs('16x kubejs:large_rifle_primer')
-        .duration(200)
-        .EUt(24)
-    event.recipes.gtceu.assembler('pistol_primer')
-        .circuit(18)
-        .itemInputs('3x gtceu:lead_styphnate_dust', 'gtceu:stibnite_dust', 'gtceu:barium_nitride_dust', '16x gtceu:brass_nugget')
-        .itemOutputs('16x kubejs:pistol_primer')
-        .duration(200)
-        .EUt(24)
-    event.recipes.gtceu.assembler('shotgun_primer')
-        .circuit(19)
-        .itemInputs('3x gtceu:lead_styphnate_dust', 'gtceu:stibnite_dust', 'gtceu:barium_nitride_dust', '16x gtceu:brass_nugget', '4x gtceu:steel_nugget')
-        .itemOutputs('16x kubejs:shotgun_primer')
-        .duration(200)
-        .EUt(24)
-    event.shaped(
-        Item.of('pointblank:ammo9mm',),
-        [
-            ' D ',
-            'ACB',
-            ' E '
-        ],
-        {
-            A: 'kubejs:reloading_kit',
-            B: 'kubejs:pistol_powder',
-            C: 'kubejs:small_pistol_brass',
-            D: 'kubejs:small_pistol_bullet',
-            E: 'kubejs:pistol_primer'
-        }
-        )
-    event.shaped(
-        Item.of('pointblank:ammo45acp',),
-        [
-            ' D ',
-            'ACB',
-            ' E '
-        ],
-        {
-            A: 'kubejs:reloading_kit',
-            B: 'kubejs:pistol_powder',
-            C: 'kubejs:large_pistol_brass',
-            D: 'kubejs:large_pistol_bullet',
-            E: 'kubejs:pistol_primer'
-        }
-        )
-    event.shaped(
-        Item.of('pointblank:ammo46',),
-        [
-            ' D ',
-            'ACB',
-            ' E '
-        ],
-        {
-            A: 'kubejs:reloading_kit',
-            B: 'kubejs:rifle_powder',
-            C: 'kubejs:small_rifle_brass',
-            D: 'kubejs:small_rifle_bullet',
-            E: 'kubejs:pistol_primer'
-        }
-        )
-    event.shaped(
-        Item.of('pointblank:ammo545',),
-        [
-            ' D ',
-            'BCA',
-            ' E '
-        ],
-        {
-            A: 'kubejs:reloading_kit',
-            B: 'kubejs:rifle_powder',
-            C: 'kubejs:small_rifle_brass',
-            D: 'kubejs:small_rifle_bullet',
-            E: 'kubejs:pistol_primer'
-        }
-        )
-    event.shaped(
-        Item.of('pointblank:ammo556',),
-        [
-            ' D ',
-            'ACB',
-            ' E '
-        ],
-        {
-            A: 'kubejs:reloading_kit',
-            B: 'kubejs:rifle_powder',
-            C: 'kubejs:small_rifle_brass',
-            D: 'kubejs:small_rifle_bullet',
-            E: 'kubejs:small_rifle_primer'
-        }
-        )
-    event.shaped(
-        Item.of('pointblank:ammo68',),
-        [
-            ' D ',
-            'ACB',
-            ' EB'
-        ],
-        {
-            A: 'kubejs:reloading_kit',
-            B: 'kubejs:rifle_powder',
-            C: 'kubejs:medium_rifle_brass',
-            D: 'kubejs:small_rifle_bullet',
-            E: 'kubejs:small_rifle_primer'
-        }
-        )
-    event.shaped(
-        Item.of('pointblank:ammo762',),
-        [
-            ' D ',
-            'ACB',
-            ' EB'
-        ],
-        {
-            A: 'kubejs:reloading_kit',
-            B: 'kubejs:rifle_powder',
-            C: 'kubejs:medium_rifle_brass',
-            D: 'kubejs:medium_rifle_bullet',
-            E: 'kubejs:small_rifle_primer'
-        }
-        )
-    event.shaped(
-        Item.of('pointblank:ammo762x51',),
-        [
-            ' DB',
-            'ACB',
-            ' EB'
-        ],
-        {
-            A: 'kubejs:reloading_kit',
-            B: 'kubejs:rifle_powder',
-            C: 'kubejs:medium_rifle_brass',
-            D: 'kubejs:medium_rifle_bullet',
-            E: 'kubejs:large_rifle_primer'
-        }
-        )
-    event.shaped(
-        Item.of('pointblank:ammo338lapua',),
-        [
-            'BD ',
-            'BCA',
-            'BE '
-        ],
-        {
-            A: 'kubejs:reloading_kit',
-            B: 'kubejs:rifle_powder',
-            C: 'kubejs:medium_rifle_brass',
-            D: 'kubejs:medium_rifle_bullet',
-            E: 'kubejs:large_rifle_primer'
-        }
-        )
-    event.shaped(
-        Item.of('pointblank:ammo50bmg',),
-        [
-            'ADB',
-            'BCB',
-            'BEB'
-        ],
-        {
-            A: 'kubejs:reloading_kit',
-            B: 'kubejs:rifle_powder',
-            C: 'kubejs:large_rifle_brass',
-            D: 'kubejs:large_rifle_bullet',
-            E: 'kubejs:large_rifle_primer'
-        }
-        )
-    event.shaped(
-        Item.of('pointblank:ammo12gauge',),
-        [
-            ' D ',
-            'ACB',
-            ' EB'
-        ],
-        {
-            A: 'kubejs:reloading_kit',
-            B: 'kubejs:shotgun_powder',
-            C: 'kubejs:shotgun_hull',
-            D: 'kubejs:shotgun_bullet',
-            E: 'kubejs:shotgun_primer'
-        }
-        )
 //Spacecraft
     event.recipes.gtceu.assembler('leo_lv_1')
         .circuit(32)
@@ -447,6 +217,18 @@ ServerEvents.recipes(event => {
     event.shapeless(('8x gtceu:netherite_alloy_nugget'), ['minecraft:netherite_ingot', '#forge:tools/saws'])
     event.shapeless(('8x gtceu:netherite_scrap_nugget'), ['minecraft:netherite_scrap', '#forge:tools/saws'])
     event.shapeless(('8x gtceu:copper_nugget'), ['minecraft:copper_ingot', '#forge:tools/saws'])
+//
+    event.recipes.gtceu.chemical_reactor('formaldehyde_dust')
+        .itemInputs('gtceu:carbon_dust')
+        .inputFluids('gtceu:oxygen 1000', 'gtceu:hydrogen 2000')
+        .outputFluids('gtceu:formaldehyde 4000')
+        .duration(sec*15)
+        .EUt(lv)
+    event.recipes.gtceu.chemical_reactor('formaldehyde_gas')
+        .inputFluids('gtceu:carbon_monoxide 2000', 'gtceu:hydrogen 2000')
+        .outputFluids('gtceu:formaldehyde 4000')
+        .duration(sec*15)
+        .EUt(lv)
 //
     smelting('gtceu:raw_zircon', 'gtceu:zirconium_ingot')
     smelting('gtceu:endstone_zircon_ore', '2x gtceu:zirconium_ingot')

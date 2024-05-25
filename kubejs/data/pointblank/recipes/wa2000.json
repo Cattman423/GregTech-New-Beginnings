@@ -1,0 +1,32 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 28,
+      "item": "gtceu:steel_ingot"
+    },
+    {
+      "count": 12,
+      "item": "pointblank:guninternals"
+    },
+    {
+      "count": 10,
+      "item": "gtceu:steel_plate"
+    },
+    {
+      "count": 5,
+      "item": "gtceu:bakelite_ingot"
+    },
+    {
+      "count": 4,
+      "item": "gtceu:treated_wood_plate"
+    },
+    {
+      "count": 2,
+      "tag": "forge:lenses/white"
+    }
+  ],
+  "result": {
+    "item": "pointblank:wa2000"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 9,
+      "item": "gtceu:steel_ingot"
+    },
+    {
+      "count": 6,
+      "item": "pointblank:guninternals"
+    },
+    {
+      "count": 2,
+      "item": "gtceu:treated_wood_plate"
+    }
+  ],
+  "result": {
+    "item": "pointblank:rhino"
+  }
+}

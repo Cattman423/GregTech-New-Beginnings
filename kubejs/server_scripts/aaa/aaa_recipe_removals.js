@@ -344,11 +344,9 @@ ServerEvents.recipes(event => {
     event.remove({id:'minecraft:netherite_ingot_from_netherite_block'})
     event.remove({id:'minecraft:netherite_ingot'})
     event.remove({id:'createdeco:netherite_ingot'})
-    //event.remove({id:'ad_astra:nasa_workbench/tier_1_rocket_from_nasa_workbench'})
     event.remove({id:'ad_astra:nasa_workbench/tier_2_rocket_from_nasa_workbench'})
     event.remove({id:'ad_astra:nasa_workbench/tier_3_rocket_from_nasa_workbench'})
     event.remove({id:'ad_astra:nasa_workbench/tier_4_rocket_from_nasa_workbench'})
-    event.remove({id:'pointblank:printer'})
     event.remove({id:'create:crafting/materials/andesite_alloy_block'})
     event.remove({id:'ad_astra:desh_ingot'})
     event.remove({id:'ad_astra:desh_ingot_from_desh_block'})
@@ -372,12 +370,12 @@ ServerEvents.recipes(event => {
     event.remove({id:'ad_astra:desh_engine'})
     event.remove({id:'ad_astra:ostrum_engine'})
     event.remove({id:'ad_astra:calorite_engine'})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
+    event.remove({id:'pointblank:guninternals'})
+    event.remove({id:'pointblank:gunmetal_ingot_from_nuggets'})
+    event.remove({id:'pointblank:gunmetal_ingot_from_blasting_gunmetal_mesh'})
+    event.remove({id:'pointblank:gunmetal_ingot_from_smelting_gunmetal_mesh'})
+    event.remove({id:'pointblank:gunmetal_mesh'})
+    event.remove({id:'pointblank:gunmetal_nugget'})
     event.remove({id:''})
     event.remove({id:''})
     event.remove({id:''})
@@ -533,7 +531,7 @@ ServerEvents.recipes(event => {
     'dusts/honeycomb_glowing', 'gtceu/honeycomb_naquadah', 'gems/honeycomb_quartz', 'gtceu/honeycomb_galena', 'raw_materials/honeycomb_zinc', 'raw_materials/honeycomb_netherite', 
     'honeycomb_sculk', 'gems/honeycomb_lapis', 'gtceu/honeycomb_realgar', 'honeycomb_obsidian', 'gtceu/honeycomb_cobaltite', 'honeycomb_frosty', 'gtceu/honeycomb_vanadium_magnetite', 
     'ae2/honeycomb_spacial', 'gtceu/honeycomb_pyrolusite', 'honeycomb_magmatic', 'gtceu/honeycomb_molybdenum', 'gtceu/honeycomb_tungstate', 'honeycomb_silky', 
-    'gtceu/honeycomb_electrotine']
+    'gtceu/honeycomb_electrotine', 'honeycomb_flux']
 
     function removals(output){
         event.remove({id: output})

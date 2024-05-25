@@ -341,7 +341,7 @@
 				item: "gtceu:extreme_combustion_engine"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 0.5d
 			y: -3.0d
 		}
 		{
@@ -673,6 +673,19 @@
 			}]
 			x: -5.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["787E410D4CACE307"]
+			id: "6C5E0160E41FDF58"
+			optional: true
+			shape: "pentagon"
+			tasks: [{
+				id: "3B7C56EEBDCC099B"
+				item: "gtceu:extreme_alternator"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
 		}
 	]
 	title: "Iv Age [WIP]"

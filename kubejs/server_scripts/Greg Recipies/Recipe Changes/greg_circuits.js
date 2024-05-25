@@ -51,6 +51,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtceu:crystal_processor_mainframe')
         .duration(800)
         .EUt(luv)
+        //.researchRecipeEntries()
         .stationResearch(b => b.researchStack(Item.of('gtceu:crystal_processor_computer')).EUt(luv).CWUt(16))
 
     event.recipes.gtceu.research_station('gtceu:crystal_processor_mainframe')

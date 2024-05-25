@@ -159,10 +159,18 @@ machines:
   # Default: 100
   energyUsageMultiplier: 100
 
+  # Energy use multiplier for prospectors.
+  # Default: 100
+  prospectorEnergyUseMultiplier: 100
+
   # Whether machines or boilers damage the terrain when they explode.
   # Note machines and boilers always explode when overloaded with power or met with special conditions, regardless of this config.
   # Default: true
   doesExplosionDamagesTerrain: true
+
+  # Enables Safe Active Transformers, removing their ability to explode if unformed while transmitting/receiving power.
+  # Default: false
+  harmlessActiveTransformers: false
 
   # Divisor for Recipe Duration per Overclock.
   # Default: 2.0
@@ -289,7 +297,7 @@ client:
     # 3 - left-bottom corner
     # 4 - right-bottom corner
     # Default: 1
-    hudLocation: 1
+    hudLocation: 3
 
     # Horizontal offset of HUD.
     # Default: 0
@@ -309,6 +317,12 @@ tools:
   # Default: 16
   sprayCanChainLength: 16
 
+# Config options for Game Mechanics
+gameplay:
+  # Enable hazardous materials
+  # Default: true
+  hazardsEnabled: true
+
 # Config options for Mod Compatibility
 compat:
   # Config options regarding GTEU compatibility with other energy systems
@@ -320,17 +334,17 @@ compat:
 
     # Enable GTEU to Platform native (and vice versa) Converters.
     # Default: false
-    enablePlatformConverters: false
+    enablePlatformConverters: true
 
     # Platform native Energy to GTEU ratio for converting FE to EU.
     # Only affects converters.
     # Default: 4 FE/Energy == 1 EU
-    platformToEuRatio: 4
+    platformToEuRatio: 2
 
     # GTEU to Platform native Energy ratio for converting EU to FE.
     # Affects native conversion and Converters.
     # Default: 4 FE/Energy == 1 EU
-    euToPlatformRatio: 4
+    euToPlatformRatio: 2
 
   # Whether to hide facades of all blocks in JEI and creative search menu.
   # Default: true

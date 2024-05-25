@@ -1,0 +1,32 @@
+{
+  "type": "pointblank:default",
+  "ingredients": [
+    {
+      "count": 40,
+      "item": "pointblank:gunmetal_ingot"
+    },
+    {
+      "count": 24,
+      "item": "pointblank:guninternals"
+    },
+    {
+      "count": 1,
+      "item": "pointblank:processor"
+    },
+    {
+      "count": 33,
+      "item": "minecraft:redstone"
+    },
+    {
+      "count": 7,
+      "item": "minecraft:diamond"
+    },
+    {
+      "count": 1,
+      "item": "gtceu:neutronium_ingot"
+    }
+  ],
+  "result": {
+    "item": "pointblank:javelin"
+  }
+}

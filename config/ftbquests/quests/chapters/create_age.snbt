@@ -110,7 +110,7 @@
 			description: [
 				"For now this is how you will generate kinetic energy unless you like turning cranks...."
 				""
-				"Please note that there is two stats to look for, bime efficiancy, and hight efficiancy, you will want to maximize these values. "
+				"Please note that there is two stats to look for, bime efficency, and hight efficiancy, you will want to maximize these values. "
 				"Also you need plenty of open space to operate your windmill, no more tiny windmill spam in a tiny cave."
 			]
 			icon: "create:windmill_bearing"
@@ -1224,10 +1224,9 @@
 			}]
 			shape: "octagon"
 			tasks: [{
-				consume_items: true
 				count: 64L
-				id: "7E950E980FF974A5"
-				item: "gtceu:andesite_alloy_ingot"
+				id: "45651C7361D3C576"
+				item: { Count: 64b, id: "create:andesite_alloy" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -1261,45 +1260,6 @@
 			}]
 			x: 11.5d
 			y: 5.0d
-		}
-		{
-			dependencies: ["1928A0F6075A46AC"]
-			description: ["If you somehow get precision mechanisms, I'll trade you for some clockwork ones."]
-			id: "4922E54CD484BF8A"
-			rewards: [{
-				id: "2051A3CF90B96544"
-				item: "kubejs:clockwork_mechanism"
-				type: "item"
-			}]
-			size: 0.5d
-			tasks: [{
-				consume_items: true
-				id: "1F3F662540AD58EB"
-				item: "create:precision_mechanism"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["07B9229EA02A6C1E"]
-			description: ["If you somehow get steel mechanisms, I'll trade you for some advanced clockwork ones."]
-			id: "0D33D7BB3FEB4D75"
-			optional: true
-			rewards: [{
-				id: "0727BF21C374552E"
-				item: "kubejs:advanced_clockwork_mechanism"
-				type: "item"
-			}]
-			size: 0.5d
-			tasks: [{
-				consume_items: true
-				id: "5063889E071739F2"
-				item: "tfmg:steel_mechanism"
-				type: "item"
-			}]
-			x: 13.0d
-			y: 7.5d
 		}
 		{
 			dependencies: ["1928A0F6075A46AC"]
@@ -1436,6 +1396,44 @@
 			}]
 			x: 13.5d
 			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1928A0F6075A46AC"]
+			id: "2A6D904B243EA019"
+			optional: true
+			rewards: [{
+				id: "3EEE513F6A7732BC"
+				item: "kubejs:clockwork_mechanism"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "3110188034627420"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["07B9229EA02A6C1E"]
+			id: "06F50280030E69BD"
+			optional: true
+			rewards: [{
+				id: "640AD1C16301419F"
+				item: "kubejs:advanced_clockwork_mechanism"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "49228725F6989157"
+				item: "tfmg:steel_mechanism"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 7.5d
 		}
 	]
 	title: "Create Age"

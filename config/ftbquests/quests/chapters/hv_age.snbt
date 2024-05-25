@@ -154,12 +154,6 @@
 		{
 			dependencies: ["6DFF476463BE46A1"]
 			id: "1CB9E2AD3CCF332D"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5DD45805E009FE8E"
-				table_id: 3488111899381174028L
-				type: "random"
-			}]
 			tasks: [{
 				id: "7E6D07C03CC1EA7B"
 				title: "Hv Power"
@@ -1078,6 +1072,25 @@
 			}]
 			x: 5.0d
 			y: 5.0d
+		}
+		{
+			dependencies: ["1CB9E2AD3CCF332D"]
+			id: "3BC8DD4DB9D57671"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08FF50826DF5F042"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "19B5AC0951EB637A"
+				item: "gtceu:advanced_alternator"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
 		}
 	]
 	title: "Hv Age [WIP]"

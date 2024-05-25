@@ -109,12 +109,6 @@
 		{
 			dependencies: ["022992D132A0423F"]
 			id: "1D563AA8C13C822E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "00155D4A5F950279"
-				table_id: 8109537854966399126L
-				type: "random"
-			}]
 			tasks: [{
 				id: "1AAB87DA92536327"
 				title: "Mv Power"
@@ -293,6 +287,7 @@
 		{
 			dependencies: ["0499DFCF0CD12618"]
 			id: "49CCF8D6153A989D"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "78AC0CC436154A24"
@@ -646,7 +641,7 @@
 				item: "gtceu:mv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: 3.0d
 		}
 		{
@@ -705,11 +700,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"7A4D681F7EF69714"
-				"2131544C5244B337"
-				"212B19FEEE23F24D"
-			]
+			dependencies: ["7A4D681F7EF69714"]
 			id: "6A36071AFF6A953F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -726,7 +717,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["6A36071AFF6A953F"]
+			dependencies: [
+				"2131544C5244B337"
+				"6A36071AFF6A953F"
+			]
 			id: "57D577B1EA1B81F5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -740,7 +734,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0F473004BDE8A486"]
@@ -777,7 +771,11 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["6A36071AFF6A953F"]
+			dependencies: [
+				"212B19FEEE23F24D"
+				"6A36071AFF6A953F"
+			]
+			hide_dependent_lines: true
 			id: "044946C612C0A177"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -791,7 +789,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -812,7 +810,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -832,7 +830,7 @@
 				item: "gtceu:kanthal_coil_block"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: 4.0d
 		}
 		{
@@ -891,7 +889,7 @@
 				item: "gtceu:stainless_steel_ingot"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: 5.0d
 		}
 		{
@@ -900,20 +898,12 @@
 				"55D8A22C1186A56A"
 			]
 			id: "6DFF476463BE46A1"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "23A282732FA0159C"
-					table_id: 8109537854966399126L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "16B7C851D622D9CB"
-					table_id: 3488111899381174028L
-					type: "random"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16B7C851D622D9CB"
+				table_id: 3488111899381174028L
+				type: "random"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -921,7 +911,7 @@
 				item: "gtceu:hv_machine_hull"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 6.0d
 			y: 5.0d
 		}
 		{
@@ -939,8 +929,8 @@
 				item: "gtceu:pyrolyse_oven"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -2.0d
+			x: 7.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -960,8 +950,8 @@
 				item: "gtceu:wood_tar_bucket"
 				type: "item"
 			}]
-			x: 6.0d
-			y: -1.0d
+			x: 7.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5A572858F671AC23"]
@@ -978,8 +968,8 @@
 				item: "minecraft:charcoal"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -2.0d
+			x: 6.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["69399128BA027D80"]
@@ -1002,7 +992,7 @@
 				item: "gtceu:benzene_bucket"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 7.0d
 			y: 0.0d
 		}
 		{
@@ -1019,85 +1009,18 @@
 				item: "gtceu:oil_bucket"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["0248B3D116C39F9E"]
-			description: ["Distillery on circuit 4 will get you sulfuric gas."]
-			id: "222675B0A74C4C77"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2C4D1099025477B0"
-				table_id: 8109537854966399126L
-				type: "random"
-			}]
-			tasks: [{
-				id: "0980C3B1351FFE2B"
-				item: "gtceu:sulfuric_gas_bucket"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["222675B0A74C4C77"]
-			description: ["Chem react that gas with some hydrogen to make refinery gas."]
-			id: "08BD87EABD9943EF"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "39C0A377AEB74065"
-				table_id: 8109537854966399126L
-				type: "random"
-			}]
-			tasks: [{
-				id: "6F494B48EA3730E4"
-				item: "gtceu:refinery_gas_bucket"
-				type: "item"
-			}]
-			x: 7.0d
+			x: 3.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["08BD87EABD9943EF"]
-			description: ["Chem react that gas with some steam and circuit condition 3 to get severly steam cracked gas."]
-			id: "18C0CA625EC006AA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2077F3562A665AC7"
-				table_id: 8109537854966399126L
-				type: "random"
-			}]
-			tasks: [{
-				id: "54F72BEFB5491174"
-				item: "gtceu:severely_steam_cracked_gas_bucket"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["18C0CA625EC006AA"]
-			description: ["Distill the gas on circuit condition 3 to get ethylene."]
-			id: "381A3CDC17364C9C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "39530C345B853388"
-				table_id: 8109537854966399126L
-				type: "random"
-			}]
-			tasks: [{
-				id: "5CC8135B64499D31"
-				item: "gtceu:ethylene_bucket"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["381A3CDC17364C9C"]
+			dependencies: [
+				"0248B3D116C39F9E"
+				"5A572858F671AC23"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"Chem react the ethylene with some oxygen to get your polyethylene."
+				"You can get ethylene either from oil, ethanol, or glycerol production, the choice is yours."
 				""
 				"If you haven't set up passive production at this point, you really &oreally&r should...."
 			]
@@ -1114,8 +1037,8 @@
 				item: "gtceu:polyethylene_bucket"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 5.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["57E91852D2C01518"]
@@ -1131,7 +1054,7 @@
 				item: "gtceu:mv_fluid_drilling_rig"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 2.0d
 			y: 2.0d
 		}
 		{
@@ -1456,6 +1379,7 @@
 			dependencies: ["7511A3ABFA67D9E0"]
 			description: ["&4Please remove all items before upgrading, otherwise you will void your items. A fix will be made as soon as I can make it.&r"]
 			id: "278D2BAE2AFD8BB8"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6CD8E19C889E7394"
@@ -1468,7 +1392,7 @@
 				item: "sophisticatedbackpacks:iron_backpack"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: 6.0d
 		}
 	]

@@ -130,6 +130,9 @@
     "jade_plugin": true,
     "compact_number": false
   },
+  "autoleveling": {
+    "level": true
+  },
   "appliedcooking": {
     "kitchen_station": true
   },
