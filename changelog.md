@@ -8,7 +8,7 @@
 
 * Quests
   * Fixed some quests in the Create Age
-  * Changed some quests to be linked quests to cleam up the questbook a bit
+  * Changed some quests to be linked quests to clean up the questbook a bit
   * Removed Multiblock Madness quest line, it may return in the future
   * Removed Space Race quest line, quests will be merged into respective ages
   * Changed Gasses in the Periodic Table questline to require buckets instead of fluid cells
@@ -18,7 +18,7 @@
   * Ad Astra
     * Changed Tier One Rocket recipe
     * Lunar Ores are most of the default End veins, this is subject to change, as well as Desh
-  * Eneabled FE to EU converters with a ratio of 2 FE:1 EU
+  * Enabled FE to EU converters with a ratio of 2 FE:1 EU
 * Multiblocks
   * Removed the 9-amp lv steam engine multiblock
   * Removed the Alternator multiblocks
@@ -35,11 +35,11 @@
   * You can now cut ingots into 8x nuggets
   * Compressed Coke Clay and Compressed Clay now have non-conflicting recipes
   * Crude Oil can now be distilled into Oil
-  * Create Larg Cogwheels can now be made in an assembler
+  * Create Large Cogwheels can now be made in an assembler
   * Bakelite gears and small gears can now be used in place of their wooden counterparts
   * Added Bakelite crafting line
   * Removed Brass, Primers, and Bullets for ammo production in favor of the Point Blank Weapon Printer
-  * Removed Recipes for barium nitrate and lead styphnate, you can stil break these down, but they will be removed at some point in the future
+  * Removed Recipes for barium nitrate and lead styphnate, you can still break these down, but they will be removed at some point in the future
   * Added Recipes for firearms
 * Mod Additions
   * Added Auto Leveling
@@ -50,7 +50,7 @@
   * Added Just Enough Calculations
   * Added Showcase Item
   * Added Trash Cans
-  * Readded Spice of Life Onion Edition
+  * Re-added Spice of Life Onion Edition
 * Disabled Block of Sky due to conflicts with shaders
 * Mod Updates
   * Achievements Optimizer v1.0.5
