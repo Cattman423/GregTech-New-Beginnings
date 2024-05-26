@@ -39,8 +39,6 @@ ServerEvents.tags('item', event => {
     event.add('forge:circuits/opv', 'kubejs:4d_processor_computer')
 
     event.add('forge:circuits/max', 'kubejs:4d_processor_mainframe')
-//Misc
-    event.add('forge:ingots/aluminium', 'nuclearcraft:aluminum_ingot')
 //Lenses
     event.add('forge:lenses/red', 'gtceu:almandine_lens')
     event.add('forge:lenses/red', 'gtceu:cinnabar_lens')
@@ -86,4 +84,27 @@ ServerEvents.tags('item', event => {
     event.add('forge:bakelite', 'gtceu:wood_gear')
     event.add('forge:small_bakelite', 'gtceu:small_bakelite_gear')
     event.add('forge:bakelite', 'gtceu:bakelite_gear')
+})
+
+ServerEvents.tags('block', event => {
+//Ore
+    event.add('minecraft:mineable/pickaxe', '#forge:ores_in_ground/sand')
+    event.add('minecraft:mineable/pickaxe', '#forge:ores_in_ground/red_sand')
+    event.add('minecraft:mineable/pickaxe', '#forge:ores_in_ground/gravel')
+    event.add('minecraft:mineable/pickaxe', '#forge:ores_in_ground/moon_stone')
+    event.add('minecraft:needs_iron_tool', '#forge:ores_in_ground/moon_stone')
+    event.add('minecraft:mineable/pickaxe', '#forge:ores_in_ground/moon_deepslate')
+    event.add('minecraft:needs_iron_tool', '#forge:ores_in_ground/moon_deepslate')
+    event.add('minecraft:mineable/pickaxe', '#forge:ores_in_ground/mars_stone')
+    event.add('minecraft:needs_iron_tool', '#forge:ores_in_ground/mars_stone')
+    event.add('minecraft:mineable/pickaxe', '#forge:ores_in_ground/venus_stone')
+    event.add('minecraft:needs_iron_tool', '#forge:ores_in_ground/venus_stone')
+    event.add('minecraft:mineable/pickaxe', '#forge:ores_in_ground/venus_sandstone')
+    event.add('minecraft:needs_iron_tool', '#forge:ores_in_ground/venus_sandstone')
+    event.add('minecraft:mineable/pickaxe', '#forge:ores_in_ground/mercury_stone')
+    event.add('minecraft:needs_iron_tool', '#forge:ores_in_ground/mercury_stone')
+    event.add('minecraft:mineable/pickaxe', '#forge:ores_in_ground/glacio_stone')
+    event.add('minecraft:needs_iron_tool', '#forge:ores_in_ground/glacio_stone')
+    event.add('minecraft:mineable/pickaxe', '#forge:ores_in_ground/permafrost')
+    event.add('minecraft:needs_iron_tool', '#forge:ores_in_ground/permafrost')
 })

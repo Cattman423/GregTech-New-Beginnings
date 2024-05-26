@@ -13,5 +13,6 @@ GTCEuStartupEvents.registry('gtceu:tag_prefix', event => {
             .unificationEnabled(true)
             .materialIconType(GTMaterialIconType.ore)
             .generationCondition(ItemGenerationCondition.hasOreProperty)
+            //.requiresTool('#minecraft:mineable/pickaxe')
     })
 })

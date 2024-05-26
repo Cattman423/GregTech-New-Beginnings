@@ -1,5 +1,15 @@
 # Changelog
 
+## V 0.2.1
+
+* Added some missing lang files
+* Fixed Ad Astra and sand/gravel ore tags so that they can be mined by pickaxes and mining hammers
+* Fixed Andesite and Andesite Alloy being hazardous incorrectly
+* Recipes
+  * Re-added raw ore -> crushed ore -> impure dust line for Create Crushing Wheels
+* Mod Removals
+  * Hunger System Overhaul
+
 ## V 0.2.0
 
 ### Forge Updated to v47.2.20
