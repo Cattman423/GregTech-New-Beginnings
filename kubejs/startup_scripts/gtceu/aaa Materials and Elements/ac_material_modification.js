@@ -1,4 +1,6 @@
 GTCEuStartupEvents.materialModification(/*'gtceu:material',*/ event => {
+
+//Byproducts
     GTMaterials.Sphalerite.getProperty(PropertyKey.ORE).setOreByProducts(GTMaterials.Germanium)
     GTMaterials.Silver.getProperty(PropertyKey.ORE).setOreByProducts(GTMaterials.Germanium)
     GTMaterials.Lead.getProperty(PropertyKey.ORE).setOreByProducts(GTMaterials.Germanium)
@@ -46,4 +48,8 @@ GTCEuStartupEvents.materialModification(/*'gtceu:material',*/ event => {
         () => Item.getItem('ad_astra:ostrum_plate'))
     TagPrefix.plate['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('calorite'), 
         () => Item.getItem('ad_astra:calorite_plate'))
+
+//Hazards
+    GTMaterials.Andesite.properties.removeProperty(PropertyKey.HAZARD)
+    GTMaterials.get('andesite_alloy').properties.removeProperty(PropertyKey.HAZARD)
 })

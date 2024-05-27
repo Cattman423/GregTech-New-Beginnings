@@ -1355,7 +1355,11 @@
 		}
 		{
 			dependencies: ["38747E7B7CB63D8D"]
-			description: ["With some crushing wheels, you can get a start on ore-processing with byproducts!"]
+			description: [
+				"With some crushing wheels, you can get a start on ore-processing with byproducts!"
+				""
+				"However, you don't get any side byproducts, ie, a stack of iron ore will only output iron crushed ore/dusts."
+			]
 			id: "31A4B48A295F5197"
 			optional: true
 			rewards: [{
