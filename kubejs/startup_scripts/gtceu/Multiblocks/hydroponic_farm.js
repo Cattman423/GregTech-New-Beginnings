@@ -1,4 +1,4 @@
-/*GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
+GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 //Builder's press
     event.create('hydroponic_farm')
         .category('multiblock')
@@ -14,21 +14,21 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .recipeType('hydroponic_farm')
         .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
         .pattern(definition => FactoryBlockPattern.start()
-            .aisle("CCC", "TTT", "TTT", "TTT", "CCC")
-            .aisle("CCC", "TTT", "TTT", "TTT", "CCC")
-            .aisle("CCC", "TTT", "TTT", "TTT", "CCC")
-            .aisle("CCC", "CPC", "CPC", "CPC", "CCC")
-            .aisle("CCC", "CAC", "CCC", "CCC", "CCC")
+            .aisle("CCCCCCCC", "CCCCCCCC", "CGGGGGGC", "CCCCCCCC")
+            .aisle("CCCCCCCC", "CDDDDDDC", "G      I", "CGGGGGGC").setRepeatable(1, 16)
+            .asile("CCCCCCCC", "CCCACCCC", "CGGGGGGC", "CCCCCCCC")
             .where('A', Predicates.controller(Predicates.blocks(definition.get())))
-            .where('P', Predicates.blocks(GTBlocks.CASING_STEEL_PIPE.get()))
+            .where('I', Predicates.blocks('gtceu:ulv_input_bus'))
+            .where('G', Predicates.blocks(GTBlocks.CASING_LAMINATED_GLASS.get()))
             .where("C", Predicates.blocks(GTBlocks.CASING_STEEL_SOLID.get())
-                    .or(Predicates.autoAbilities(definition.getRecipeTypes()))
-                    .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1)))
-            .where('T', Predicates.blocks('create:fluid_tank'))
+                    .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1))
+                    .or(Predicates.abilities(PartAbility.IMPORT_FLUIDS).setMaxGlobalLimited(2))
+                    .or(Predicates.abilities(PartAbility.INPUT_ENERGY).setMaxGlobalLimited(2))
+                    .or(Predicates.abilities(PartAbility.EXPORT_ITEMS)))
             .build()
         )
         .workableCasingRenderer(
             "gtceu:block/casings/solid/machine_casing_solid_steel",
             "gtceu:block/multiblock/implosion_compressor", false
         )
-})*/
+})
