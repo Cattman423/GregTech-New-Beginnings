@@ -102,7 +102,7 @@ const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
         .color(0xF2A057).secondaryColor(0x2E2F04)
         .element('desh')
         .iconSet(METALLIC)
-        .flags(plates, dense_plate)
+        .flags(plates, dense_plate, foil)
 
     event.create('ostrum')
         .ingot()
@@ -110,7 +110,7 @@ const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
         .color(0xE5939B).secondaryColor(0x2F0425)
         .element('ostrum')
         .iconSet(METALLIC)
-        .flags(plates, dense_plate)
+        .flags(plates, dense_plate, foil)
 
     event.create('calorite')
         .ingot()
@@ -118,21 +118,11 @@ const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
         .color(0xE65757).secondaryColor(0x2F0506)
         .element('calorite')
         .iconSet(METALLIC)
-        .flags(plates, dense_plate)
+        .flags(plates, dense_plate, foil)
 
     event.create('nitrocellulose')
         .polymer()
         .components('6x carbon', '7x hydrogen', '2x nitrogen_dioxide', '5x oxygen')
-        .color(0xffffff)
-
-    event.create('barium_nitride')
-        .dust()
-        .components('3x barium', '2x nitrogen')
-        .color(0xffffff)
-
-    event.create('lead_styphnate')
-        .dust()
-        .components('6x carbon', 'hydrogen', '3x nitrogen', '8x oxygen', 'lead')
         .color(0xffffff)
 
     event.create('poor_steel')
@@ -303,7 +293,16 @@ const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
     event.create('netherite_scrap')
         .ingot()
         .element('netherite_scrap')
-        .color(0x4D494D)
+        .color(0x654740)
+        .blastTemp(2700, 'low', 480, 1200)
+
+    event.create('impure_netherite_slurry')
+        .fluid(/*new FluidBuilder().attribute(FluidAttributes.ACID)*/)
+        .color(0x654740)
+
+    event.create('pure_netherite_slurry')
+        .fluid(/*new FluidBuilder().attribute(FluidAttributes.ACID)*/)
+        .color(0x684824)
 
     event.create('netherite')
         .dust()
@@ -316,12 +315,32 @@ const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
         .iconSet(SHINY)
         .components('netherite', '4x gold')
         .color(0x4D494D)
+        .blastTemp(3600, 'mid', 1920, 2400)
         .flags(plates, dense_plate, rod, bolt_and_screw)
+
+    event.create('lunite')
+        .gem()
+        .iconSet(OPAL)
+        .components('9x silicon_dioxide', '2x aluminium', '2x wustite')
+        .color(0x5695E2)
+        .flags(plates, lens)
+        .ore(2, 1)
+
+    event.create('ostrite')
+        .ore()
+        .color(0xC47F71).secondaryColor(0x4F0663)
+        .components('3x ostrum', '2x tantalite', '3x wustite', '4x magnesia')
+        .iconSet(METALLIC)
 
 //Regoliths
     event.create('moon_stone')
         .dust()
         .components('21x silicon_dioxide', '6x bauxite', '5x quicklime', '2x wustite', '2x magnesia', 'rutile')
+        .color(0x4A5253)
+
+    event.create('moon_deepslate')
+        .dust()
+        .components('21x silicon_dioxide', '3x rutile', '2x magnesia', '2x biotite', '2x bauxite', 'quicklime', 'wustite')
         .color(0x4A5253)
 
     event.create('mars_stone')

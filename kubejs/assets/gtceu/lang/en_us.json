@@ -29,9 +29,15 @@
     "material.gtceu.chadium": "Chadium",
     "material.gtceu.wustite": "Wüstite",
     "material.gtceu.netherite_scrap": "Netherite Scrap",
+    "material.gtceu.impure_netherite_slurry": "Impure Netherite Slurry",
+    "material.gtceu.pure_netherite_slurry": "Pure Netherite Slurry",
     "material.gtceu.netherite": "Netherite",
     "material.gtceu.netherite_alloy": "Netherite Alloy",
+    "material.gtceu.lunite": "Lunite",
+    "material.gtceu.ostrite": "Ostrite",
+    
     "material.gtceu.moon_stone": "Moon Stone",
+    "material.gtceu.moon_deepslate": "Moon Deepslate",
     "material.gtceu.mars_stone": "Mars Stone",
     "material.gtceu.mercury_stone": "Mercury Stone",
     "material.gtceu.venus_stone": "Venus Stone",
@@ -55,6 +61,7 @@
     "gtceu.circuit_assembly_line": "Circuit Assembly Line",
     "gtceu.particle_accelerator": "Particle Accelerator",
     "gtceu.kinetic_assembler": "Kinetic Assembler",
+    "gtceu.hydroponic_farm": "Hydroponic Farm",
 
     "gtceu.jei.ore_vein.desh_vein_mn": "Desh Vein",
     "gtceu.jei.ore_vein.iron_vein_mn": "Iron Vein",
@@ -90,6 +97,7 @@
     "block.gtceu.circuit_assembly_line": "Circuit Assembly Line",
     "block.gtceu.particle_accelerator": "Particle Accelerator",
     "block.gtceu.kinetic_assembler": "Kinetic Assembler",
+    "block.gtceu.hydroponic_farm": "Hydroponic Farm",
 
     "tagprefix.moon_stone": "Moon Stone %s Ore",
     "tagprefix.moon_deepslate": "Moon Deepslate %s Ore",

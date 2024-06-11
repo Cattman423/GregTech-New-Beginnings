@@ -7,15 +7,23 @@
 	icon: "gtceu:ev_machine_hull"
 	id: "68BE8C9E324FEE7D"
 	order_index: 6
-	quest_links: [{
-		disable_toast: true
-		id: "160751DD3031C07C"
-		linked_quest: "6470A1ACB205DCF4"
-		shape: "gear"
-		size: 2.0d
-		x: 0.0d
-		y: 0.0d
-	}]
+	quest_links: [
+		{
+			disable_toast: true
+			id: "160751DD3031C07C"
+			linked_quest: "6470A1ACB205DCF4"
+			shape: "gear"
+			size: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6DA040D64334498F"
+			linked_quest: "435C37AE8D4B768B"
+			x: 4.0d
+			y: 0.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["6470A1ACB205DCF4"]
@@ -206,7 +214,10 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["120E0370867C0DA6"]
+			dependencies: [
+				"120E0370867C0DA6"
+				"7A297137DDB14A78"
+			]
 			id: "0938C3C91204153D"
 			tasks: [{
 				id: "21F11A455A503B6F"
@@ -438,9 +449,17 @@
 			id: "43732644523C6FD5"
 			tasks: [{
 				id: "0B8300F4B50AAFD3"
-				item: "gtceu:opal_lens"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:lenses/pink)"
+					}
+				}
+				title: "Any #forge:lenses/pink"
 				type: "item"
 			}]
+			title: "Pink Lens"
 			x: -2.0d
 			y: 3.0d
 		}
@@ -610,6 +629,44 @@
 			}]
 			x: -0.5d
 			y: 7.0d
+		}
+		{
+			dependencies: ["435C37AE8D4B768B"]
+			description: ["I trust you know how to make this?"]
+			id: "3D0F8ABD6366D42E"
+			tasks: [{
+				id: "47220E113488CB15"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D0F8ABD6366D42E"]
+			id: "6B7FA929FE355DF1"
+			tasks: [{
+				dimension: "ad_astra:mars"
+				id: "0FD6F133970F8D8B"
+				type: "dimension"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B7FA929FE355DF1"]
+			id: "7A297137DDB14A78"
+			tasks: [{
+				id: "11E3C61B51FDBB57"
+				item: "gtceu:raw_tungstate"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
 		}
 	]
 	title: "Ev Age [WIP]"

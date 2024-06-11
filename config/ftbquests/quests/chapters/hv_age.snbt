@@ -75,7 +75,10 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["61571ED3D53BD832"]
+			dependencies: [
+				"2DCEA426D77C7BCE"
+				"61571ED3D53BD832"
+			]
 			id: "7BB6DA286AC97192"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -89,7 +92,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7BB6DA286AC97192"]
@@ -107,10 +110,10 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 8.0d
+			y: 7.0d
 		}
 		{
-			dependencies: ["2DCEA426D77C7BCE"]
+			dependencies: ["3B36589D2289A16A"]
 			hide_dependent_lines: true
 			icon: "gtceu:cleanroom"
 			id: "61571ED3D53BD832"
@@ -148,8 +151,8 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: 6.0d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6DFF476463BE46A1"]
@@ -254,7 +257,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 7.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7BB6DA286AC97192"]
@@ -272,7 +275,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 6.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7BB6DA286AC97192"]
@@ -290,7 +293,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 6.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7BB6DA286AC97192"]
@@ -308,7 +311,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 7.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["673D20CCAD847242"]
@@ -711,8 +714,8 @@
 				}
 			]
 			title: "Multiple Channel Pipes"
-			x: -2.0d
-			y: 5.5d
+			x: -1.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6DFF476463BE46A1"]
@@ -1092,6 +1095,18 @@
 			x: -2.0d
 			y: -2.5d
 		}
+		{
+			dependencies: ["0E91E9F7AEE9816D"]
+			description: ["Not the most useful yet, but you'll need it in Ev, or if you want Hv Superconductors."]
+			id: "435C37AE8D4B768B"
+			tasks: [{
+				id: "01EDF766FB79E365"
+				item: "gtceu:raw_desh"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
 	]
-	title: "Hv Age [WIP]"
+	title: "Hv Age"
 }

@@ -1,5 +1,90 @@
 # Changelog
 
+## V 0.3.0
+
+* Quests
+  * Cleanroom quest no longer depends on Microprocessor Assembly quest, now only requires Advanced Integrated Circuits quest.
+* Textures
+  * Added textures for Advanced Command Pod and Advanced Command Pod II
+  * Added textures for Advanced Life Support System
+  * Added Textures for Desh/Ostrum/Calorite Stringer Tank Sections
+  * Updated Mithril and Chadium Coil textures to mach their materials
+  * Updated Aluminium Stringer Tank Section texture
+* Progression
+  * Moved Scheelite ore veins to Mars
+  * Added Ostrum veins to Mars
+* Materials
+  * Added Impure Netherite Slurry
+  * Added Pure Netherite Slurry
+  * Added Moon Deepslate Dust
+  * Added Lunite
+  * Added Ostrite
+  * Removed Lead Styphnate
+  * Removed Barium Nitride
+* Items
+  * Added Advanced Command Pod III
+  * Renamed Extreme Commancd Pod to Advanced Command Pod II
+  * Renamed Steel Fuel Injector to and Fuel Injector
+  * Renamed Steel Engine Nozzle to Engine Nozzle
+* Recipes
+  * Added Netherite Processing line
+  * Gold ingots can now be macerated into gold dust in a Millstone and Crushing Wheels
+  * Added collection/distillation recipes for planetary atmo/exospheres
+  * Added maceration recipes for planetary stone/cobblestone/sand to respective stone dusts
+  * Added Recipe for Tier Two Rocket and componets
+  * Added compression and decompression recipes for GregTech raw ores
+* Mod Additions
+  * Added Advanced Peripherals
+  * Added Better Archeology
+  * Added Cerbon's Better Becons
+* Mod Updates
+  * Ad Astra: Giselle Addon v6.8
+  * AE2 Insert Export Card v1.2.2
+  * Amendments v1.2.4
+  * Applied Energistics 2 v15.2.3
+  * Artemis' Laboratory Blocks v0.4.1r
+  * Artifacts v9.5.11
+  * Balm v7.3.4
+  * Bookshelf v20.1.11
+  * CC: Tweaked
+  * Chisel v1.7.2
+  * Collective v7.61
+  * Cooking for Blockheads v16.0.6
+  * Crafting Tweaks v18.2.4
+  * CraftTweaker v14.0.40
+  * Create Encased v1.6.0
+  * Create Low Heated v0.5.1.f-i
+  * Create: Connected v0.8.2
+  * Create: Numismatics v1.0.6
+  * Create: Quality of Life v1.1-ht2
+  * CreativeCore v2.11.30
+  * Dawn of Time Builder Edition v1.5.7
+  * Entity Culling v1.6.5
+  * Extended AE v1.1.9
+  * Fast Leaf Decay v32
+  * Framed Blocks v9.3.0
+  * Fruits Delight v1.0.10
+  * FTB Chunks v2001.3.1
+  * FTB Quests v2001.4.5
+  * FTBQuestsOptimizer v2.0.2
+  * GeckoLib v4.4.5
+  * Insane Lib v1.13.5
+  * Jade v11.9.3
+  * Journey Map v5.9.23
+  * Lootr v0.7.34.85
+  * ModernFix v5.18.0
+  * Moonlight v2.11.31
+  * Polymorph v0.49.5
+  * Productive Bees v12.5.3
+  * Productive Trees v0.2.4
+  * PuzzlesLib v8.1.20
+  * Sound Physics Remastered v1.4.2
+  * Stargate Journey v0.6.27
+  * Supplementaries v2.8.14
+  * TerraBlender v3.0.1.7
+  * Tool Belt v1.20.01
+  * Workshop for Handsome Adventurer v1.15.1
+
 ## V 0.2.1
 
 * Added some missing lang files

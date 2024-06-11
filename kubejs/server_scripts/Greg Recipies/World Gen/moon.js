@@ -4,11 +4,6 @@ GTCEuServerEvents.oreVeins(event => {
         vein.biomes("#ad_astra:is_moon")
         vein.layer("moon_stone")
     })
-    event.modify("gtceu:scheelite_vein", vein => {
-        vein.dimensions("ad_astra:moon")
-        vein.biomes("#ad_astra:is_moon")
-        vein.layer("moon_stone")
-    })
     event.modify("gtceu:bauxite_vein_end", vein => {
         vein.dimensions("ad_astra:moon")
         vein.biomes("#ad_astra:is_moon")

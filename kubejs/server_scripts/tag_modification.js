@@ -76,6 +76,7 @@ ServerEvents.tags('item', event => {
     event.add('forge:lenses/pink', 'gtceu:magneto_resonatic_lens')
     event.add('forge:lenses/purple', 'gtceu:amethyst_lens')
     event.add('forge:lenses/cyan', 'gtceu:apatite_lens')
+    event.add('forge:lenses/cyan', 'gtceu:lunite_lens')
 //Tools
     event.add('forge:tools/screwdrivers', 'tfmg:screwdriver')
     event.add('createlowheated:burner_starters', 'minecraft:torch')

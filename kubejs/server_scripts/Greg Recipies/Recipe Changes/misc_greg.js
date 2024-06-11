@@ -230,6 +230,23 @@ ServerEvents.recipes(event => {
         .duration(sec*15)
         .EUt(lv)
 //
+    const gtrawore = Ingredient.of('#forge:raw_materials').itemIds
+
+    gtrawore.forEach( (itemIds) => {
+        if(
+            itemIds != 'minecraft:raw_copper' 
+            && itemIds != 'minecraft:raw_gold' 
+            && itemIds != 'minecraft:raw_iron'
+            && itemIds != 'ad_astra:raw_desh'
+            && itemIds != 'ad_astra:raw_ostrum'
+            && itemIds != 'ad_astra:raw_calorite'
+            && itemIds != 'create:raw_zinc'
+        ) {
+            event.shapeless((Item.of('gtceu:raw_' + itemIds.slice(10) + '_block')), ['9x ' + itemIds])
+            event.shapeless((Item.of('9x ' + itemIds)), ['gtceu:raw_' + itemIds.slice(10) + '_block'])
+        }
+    })
+//
     smelting('gtceu:raw_zircon', 'gtceu:zirconium_ingot')
     smelting('gtceu:endstone_zircon_ore', '2x gtceu:zirconium_ingot')
     smelting('gtceu:netherrack_zircon_ore', '2x gtceu:zirconium_ingot')
