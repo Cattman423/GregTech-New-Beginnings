@@ -19,6 +19,7 @@
 	quests: [
 		{
 			dependencies: ["6A91810EF77054CF"]
+			description: ["These are the wires of the clockwork age, you best stock up."]
 			id: "7B3581FCBF20F163"
 			rewards: [
 				{
@@ -81,6 +82,11 @@
 		}
 		{
 			dependencies: ["4AEB55A92229EA6F"]
+			description: [
+				"These bad boys will move items, entities, and Rotational Force around your base."
+				""
+				"Pretty neat if you ask me!"
+			]
 			id: "41B8910A54BA4210"
 			optional: true
 			rewards: [
@@ -149,6 +155,7 @@
 		}
 		{
 			dependencies: ["6A91810EF77054CF"]
+			description: ["Man, this is exhausting, but sometimes you only need a little crank to get going."]
 			icon: "create:hand_crank"
 			id: "10662D01B89030A9"
 			optional: true
@@ -209,7 +216,7 @@
 					type: "item"
 				}
 				{
-					count: 32L
+					count: 16L
 					id: "34E723F4878CD82B"
 					item: "gtceu:wood_gear"
 					type: "item"
@@ -302,6 +309,7 @@
 		}
 		{
 			dependencies: ["365710CA452DFB41"]
+			description: ["This fan can push you and other entities around. It'll also double as a crafting machine when blowing air through water, lava, fire, and soulfire."]
 			hide_dependent_lines: true
 			icon: "create:encased_fan"
 			id: "25563EB0D3B172D1"
@@ -447,6 +455,7 @@
 		}
 		{
 			dependencies: ["6A91810EF77054CF"]
+			description: ["Like a belt, but for fluids"]
 			hide_dependency_lines: true
 			id: "72A7E79D2BF58883"
 			rewards: [
@@ -475,6 +484,7 @@
 				"72A7E79D2BF58883"
 				"4AEB55A92229EA6F"
 			]
+			description: ["Until you unlock electricity, this is how you'll get fluids moving from one tank to another."]
 			id: "39913C4EB821EEAF"
 			rewards: [
 				{
@@ -499,6 +509,7 @@
 		}
 		{
 			dependencies: ["6010D47FC93874BE"]
+			description: ["Here's your basic fluid I/O for buckets."]
 			id: "2BCE33B1C25758FC"
 			rewards: [
 				{
@@ -535,6 +546,7 @@
 				"3BB723ACE6619C1E"
 				"0F6B6479A8529BD2"
 			]
+			description: ["This is your first \"circuit\". You will be making a few of these, fortunantly the recipe gets easier soon."]
 			id: "4E68C8330998DB20"
 			rewards: [
 				{
@@ -1067,6 +1079,7 @@
 		}
 		{
 			dependencies: ["72A7E79D2BF58883"]
+			description: ["Early bulk fluid storage. Unfortunantly, you can't dirrectly right click this with buckets for I/O."]
 			id: "6010D47FC93874BE"
 			rewards: [
 				{
@@ -1287,6 +1300,7 @@
 		}
 		{
 			dependencies: ["4E68C8330998DB20"]
+			description: ["Now that you have a deployer, you have a better recipe for your electron tubes. You can also start doing some real sequenced assembly projects."]
 			id: "491F667B940BC625"
 			rewards: [
 				{
@@ -1439,6 +1453,25 @@
 			x: 13.0d
 			y: 7.5d
 		}
+		{
+			dependencies: ["7B3581FCBF20F163"]
+			id: "390405B76CD67620"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C08179A7DB50EEE"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			subtitle: "You spin me right round baby, right round"
+			tasks: [{
+				id: "013800BA62CFB56C"
+				item: "create:turntable"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
 	]
-	title: "Create Age"
+	title: "Clockwork Age"
 }

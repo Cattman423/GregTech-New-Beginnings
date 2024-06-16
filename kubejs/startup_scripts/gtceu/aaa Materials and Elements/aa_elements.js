@@ -16,4 +16,8 @@ GTCEuStartupEvents.registry('gtceu:element', event => {
     event.create('desh', 32, 182, -1, null, 'De', false)
     event.create('ostrum', 33, 183, -1, null, 'Os', false)
     event.create('calorite', 34, 184, -1, null, 'Ct', false)
+    event.create('draconium', 35, 185, -1, null, 'Dc', false)
+    event.create('awakened_draconium', 36, 186, -1, null, 'Aw', false)
+    event.create('radiance', 37, 187, -1, null, 'Ra', false)
+    event.create('shadow_steel', 38, 188, -1, null, 'Sh', false)
 })

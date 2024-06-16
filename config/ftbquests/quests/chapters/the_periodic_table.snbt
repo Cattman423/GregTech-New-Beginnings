@@ -1550,6 +1550,50 @@
 			x: -4.5d
 			y: 2.5d
 		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "06E246F30190224D"
+			tasks: [{
+				id: "5B4183DE6F896B8F"
+				item: "draconicevolution:draconium_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "3D30AE47FFC39BF6"
+			tasks: [{
+				id: "5566111CEB9DA62E"
+				item: "draconicevolution:awakened_draconium_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "3B20ED34D6713D9D"
+			tasks: [{
+				id: "5A031B45E8990592"
+				item: "gtceu:radiance_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "1850698F8CD3850D"
+			tasks: [{
+				id: "6304D4F36CA563EE"
+				item: "gtceu:shadow_steel_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
 	]
 	title: "The Periodic Table"
 }

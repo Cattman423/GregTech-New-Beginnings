@@ -1728,6 +1728,31 @@
 			x: 3.25d
 			y: -1.0d
 		}
+		{
+			dependencies: ["72F3F36CD583B9FA"]
+			id: "3879A6415D7D7E7B"
+			tasks: [{
+				id: "089586AA42AE2C6F"
+				item: "draconicevolution:awakened_draconium_ingot"
+				type: "item"
+			}]
+			x: 3.75d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7B600C2630EDEA69"
+				"3879A6415D7D7E7B"
+			]
+			id: "35C8ACF6D1E66814"
+			tasks: [{
+				id: "3616C935F73ADB2A"
+				item: "kubejs:awakened_draconium_coil_block"
+				type: "item"
+			}]
+			x: 3.75d
+			y: -0.5d
+		}
 	]
 	title: "GregTech Progression"
 }

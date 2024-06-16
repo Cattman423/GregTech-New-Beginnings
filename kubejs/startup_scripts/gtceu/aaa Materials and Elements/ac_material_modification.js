@@ -20,6 +20,16 @@ GTCEuStartupEvents.materialModification(/*'gtceu:material',*/ event => {
         () => Item.getItem('ad_astra:ostrum_ingot'))
     TagPrefix.ingot['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('calorite'), 
         () => Item.getItem('ad_astra:calorite_ingot'))
+    TagPrefix.ingot['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('draconium'), 
+        () => Item.getItem('draconicevolution:draconium_ingot'))
+    TagPrefix.ingot['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('awakened_draconium'), 
+        () => Item.getItem('draconicevolution:awakened_draconium_ingot'))
+    TagPrefix.ingot['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('refined_radiance'), 
+        () => Item.getItem('create:refined_radiance'))
+    TagPrefix.ingot['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('shadow_steel'), 
+        () => Item.getItem('create:shadow_steel'))
+    TagPrefix.ingot['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('shadow_radiance'), 
+        () => Item.getItem('createqol:shadow_radiance'))
 
 //Blocks
     TagPrefix.block['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('netherite_alloy'), 
@@ -32,6 +42,10 @@ GTCEuStartupEvents.materialModification(/*'gtceu:material',*/ event => {
         () => Item.getItem('ad_astra:ostrum_block'))
     TagPrefix.block['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('calorite'), 
         () => Item.getItem('ad_astra:calorite_block'))
+    TagPrefix.block['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('draconium'), 
+        () => Item.getItem('draconicevolution:draconium_block'))
+    TagPrefix.block['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('awakened_draconium'), 
+        () => Item.getItem('draconicevolution:awakened_draconium_block'))
 
 //Nuggets
     TagPrefix.nugget['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('desh'), 
@@ -40,6 +54,10 @@ GTCEuStartupEvents.materialModification(/*'gtceu:material',*/ event => {
         () => Item.getItem('ad_astra:ostrum_nugget'))
     TagPrefix.nugget['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('calorite'), 
         () => Item.getItem('ad_astra:calorite_nugget'))
+    TagPrefix.nugget['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('draconium'), 
+        () => Item.getItem('draconicevolution:draconium_nugget'))
+    TagPrefix.nugget['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('awakened_draconium'), 
+        () => Item.getItem('draconicevolution:awakened_draconium_nugget'))
 
 //Plates
     TagPrefix.plate['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('desh'), 
@@ -49,7 +67,17 @@ GTCEuStartupEvents.materialModification(/*'gtceu:material',*/ event => {
     TagPrefix.plate['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('calorite'), 
         () => Item.getItem('ad_astra:calorite_plate'))
 
+//Dusts
+    TagPrefix.dust['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('draconium'), 
+        () => Item.getItem('draconicevolution:draconium_dust'))
+    TagPrefix.dust['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('awakened_draconium'), 
+        () => Item.getItem('draconicevolution:awakened_draconium_dust'))
+
+//Gems
+    TagPrefix.gem['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('rose_quartz'), 
+    () => Item.getItem('create:rose_quartz'))
+
 //Hazards
-    GTMaterials.Andesite.properties.removeProperty(PropertyKey.HAZARD)
-    GTMaterials.get('andesite_alloy').properties.removeProperty(PropertyKey.HAZARD)
+    /*GTMaterials.Andesite.properties.removeProperty(PropertyKey.HAZARD)
+    GTMaterials.get('andesite_alloy').properties.removeProperty(PropertyKey.HAZARD)*/
 })

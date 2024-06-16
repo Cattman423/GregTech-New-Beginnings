@@ -85,6 +85,8 @@ ServerEvents.tags('item', event => {
     event.add('forge:bakelite', 'gtceu:wood_gear')
     event.add('forge:small_bakelite', 'gtceu:small_bakelite_gear')
     event.add('forge:bakelite', 'gtceu:bakelite_gear')
+//Curving Press
+    event.add('vintageimprovements:curving_heads', 'gtceu:brick_wooden_form')
 })
 
 ServerEvents.tags('block', event => {

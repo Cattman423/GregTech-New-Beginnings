@@ -234,11 +234,6 @@ const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
         .flags(lens)
         .ore(2, 1)
 
-    event.create('formaldehyde')
-        .gas()
-        .components('carbon', '2x hydrogen', 'oxygen')
-        .color(0xffffff)
-
     event.create('bakelite')
         .polymer()
         .components('phenol', 'formaldehyde')
@@ -331,6 +326,51 @@ const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
         .color(0xC47F71).secondaryColor(0x4F0663)
         .components('3x ostrum', '2x tantalite', '3x wustite', '4x magnesia')
         .iconSet(METALLIC)
+    
+    event.create('draconium')
+        .ingot()
+        .color(0x7A42AE)
+        .element('draconium')
+        .iconSet(DULL)
+    
+    event.create('awakened_draconium')
+        .ingot()
+        .color(0xFF6A00)
+        .element('awakened_draconium')
+        .iconSet(DULL)
+
+    event.create('radiance')
+        .gas()
+        .color(0x000000)
+        .element('radiance')
+
+    event.create('refined_radiance')
+        .ingot()
+        .color(0xF5FAE1)
+        .element('radiance')
+        .blastTemp(13000, 'higher', 1966080, 2400)
+        .iconSet(DULL)
+
+    event.create('shadow_steel')
+        .ingot()
+        .color(0x575366)
+        .element('shadow_steel')
+        .blastTemp(13000, 'higher', 1966080, 2400)
+        .iconSet(DULL)
+
+    event.create('ether')
+        .gas()
+        .color(0x9D50AA)
+        .components('2x radiance', '3x protonium')
+        .flags(no_decomp)
+
+    event.create('shadow_radiance')
+        .ingot()
+        .color(0x575366).secondaryColor(0xF5FAE1)
+        .components('shadow_steel', 'refined_radiance')
+        .blastTemp(13000, 'higher', 1966080, 2400)
+        .iconSet(DULL)
+        .flags(no_decomp)
 
 //Regoliths
     event.create('moon_stone')
@@ -410,7 +450,31 @@ const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
         //.components('91x carbon_dioxide', '4x nitrogen', '2x sulfur_dioxide', 'argon')
         .color(0xB88143)
         .flags(no_decomp)
+
 //Mantles
+    event.create('molten_moon_mantle')
+        ['fluid(com.gregtechceu.gtceu.api.fluids.store.FluidStorageKey,com.gregtechceu.gtceu.api.fluids.FluidBuilder)']
+        (GTFluidStorageKeys.LIQUID, new GTFluidBuilder().temperature(1500))
+        //.components('49x hydrogen', '26x neon', '20x argon', '3x ammonia', 'neon')
+        .color(0x4A5253)
+
+    event.create('molten_mars_mantle')
+        ['fluid(com.gregtechceu.gtceu.api.fluids.store.FluidStorageKey,com.gregtechceu.gtceu.api.fluids.FluidBuilder)']
+        (GTFluidStorageKeys.LIQUID, new GTFluidBuilder().temperature(1500))
+        //.components('92x carbon_dioxide', '3x nitrogen', '2x argon', 'krypton', 'xenon')
+        .color(0xC17A51)
+        
+    event.create('molten_mercury_mantle')
+        ['fluid(com.gregtechceu.gtceu.api.fluids.store.FluidStorageKey,com.gregtechceu.gtceu.api.fluids.FluidBuilder)']
+        (GTFluidStorageKeys.LIQUID, new GTFluidBuilder().temperature(1500))
+        //.components('51x hydrogen', '12x helium', '19x oxygen', '10x sodium', '6x magneseium', '2x potassium')
+        .color(0x55313F)
+
+    event.create('molten_venus_mantle')
+        ['fluid(com.gregtechceu.gtceu.api.fluids.store.FluidStorageKey,com.gregtechceu.gtceu.api.fluids.FluidBuilder)']
+        (GTFluidStorageKeys.LIQUID, new GTFluidBuilder().temperature(1500))
+        //.components('91x carbon_dioxide', '4x nitrogen', '2x sulfur_dioxide', 'argon')
+        .color(0xB88143)
 
 //Modifications
     //GTMaterials.get('andesite_alloy').addFlags(plates, gear, small_gear, bolt_and_screw, rotor);

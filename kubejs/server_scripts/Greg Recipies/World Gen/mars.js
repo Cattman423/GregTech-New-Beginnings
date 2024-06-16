@@ -1,22 +1,18 @@
 GTCEuServerEvents.oreVeins(event => {
     event.modify("gtceu:naquadah_vein", vein => {
         vein.dimensions("ad_astra:mars")
-        vein.biomes("#ad_astra:is_mars")
         vein.layer("mars_stone")
     })
     event.modify("gtceu:sheldonite_vein", vein => {
         vein.dimensions("ad_astra:mars")
-        vein.biomes("#ad_astra:is_mars")
         vein.layer("mars_stone")
     })
     event.modify("gtceu:pitchblende_vein_end", vein => {
         vein.dimensions("ad_astra:mars")
-        vein.biomes("#ad_astra:is_mars")
         vein.layer("mars_stone")
     })
     event.modify("gtceu:scheelite_vein", vein => {
         vein.dimensions("ad_astra:mars")
-        vein.biomes("#ad_astra:is_mars")
         vein.layer("mars_stone")
     })
 //Ostrum
@@ -29,7 +25,6 @@ GTCEuServerEvents.oreVeins(event => {
     // Define where the vein can generate
         vein.layer("mars_stone")
         vein.dimensions("ad_astra:mars")
-        vein.biomes("#ad_astra:is_mars")
     // Define a height range:
         vein.heightRangeTriangle(20, 60)
     // Define the vein's generator:

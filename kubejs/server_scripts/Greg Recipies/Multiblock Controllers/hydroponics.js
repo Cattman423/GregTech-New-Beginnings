@@ -13,14 +13,25 @@ ServerEvents.recipes(event => {
         .duration(min*5)
         .EUt(ev)
 
-    function farming (id, cid, input, fluid, output){
-        event.recipes.gtceu.hydroponic_farm(id)
-            .circuit(cid)
-            .notConsumable(input)
-            .inputFluids(fluid)
-            .itemOutputs(output)
-            .duration(min)
-            .EUt(iv)
+    function farming (id, cid, input, fluid, output, fert, boosted){
+        if (boosted) {
+            event.recipes.gtceu.hydroponic_farm(id)
+                .circuit(cid)
+                .notConsumable(input)
+                .inputFluids(fluid)
+                .inputFluids(fert)
+                .itemOutputs(output)
+                .duration(min*2.5)
+                .EUt(iv)
+        } else {
+            event.recipes.gtceu.hydroponic_farm(id)
+                .circuit(cid)
+                .notConsumable(input)
+                .inputFluids(fluid)
+                .itemOutputs(output)
+                .duration(min*5)
+                .EUt(iv)
+        }
     }
 
     const mccrops = ['carrot', 'potato', 'cocoa_beans']
@@ -40,27 +51,36 @@ ServerEvents.recipes(event => {
             let input = 64*i.toString() + 'x ' + 'minecraft:' + base
             let output = 128*i.toString() + 'x ' + 'minecraft:' + base
             let water = 'minecraft:water ' + 1000*i.toString()
+            let boostout = 256*i.toString() + 'x ' + 'minecraft:' + base
+            let fert = 'sliceanddice:fertilizer ' + 1000*i.toString()
             let cid = i
 
-            farming(id, cid, input, water, output)
+            farming(id, cid, input, water, output, 'minecraft:air', false)
+            farming(id + '_boosted', cid, input, water, boostout, fert, true)
         })
         mcseed.forEach( (base) => {
             let id = 'kubejs:gtceu/hydroponic_farm/mc_' + base + '_' + i.toString()
             let input = 64*i.toString() + 'x ' + 'minecraft:' + base + '_seeds'
             let output = 64*i.toString() + 'x ' + 'minecraft:' + base
             let water = 'minecraft:water ' + 1000*i.toString()
+            let boostout = 128*i.toString() + 'x ' + 'minecraft:' + base
+            let fert = 'sliceanddice:fertilizer ' + 1000*i.toString()
             let cid = i
 
-            farming(id, cid, input, water, output)
+            farming(id, cid, input, water, output, 'minecraft:air', false)
+            farming(id + '_boosted', cid, input, water, boostout, fert, true)
         })
         pamscrops.forEach( (base) => {
             let id = 'kubejs:gtceu/hydroponic_farm/pamhc2_' + base + '_' + i.toString()
             let input = 64*i.toString() + 'x ' + 'pamhc2crops:' + base + 'seeditem'
             let output = 64*i.toString() + 'x ' + 'pamhc2crops:' + base + 'item'
             let water = 'minecraft:water ' + 1000*i.toString()
+            let boostout = 128*i.toString() + 'x ' + 'pamhc2crops:' + base + 'item'
+            let fert = 'sliceanddice:fertilizer ' + 1000*i.toString()
             let cid = i
 
-            farming(id, cid, input, water, output)
+            farming(id, cid, input, water, output, 'minecraft:air', false)
+            farming(id + '_boosted', cid, input, water, boostout, fert, true)
         })
         /*farming(
             'kubejs:gtceu/hydroponic_farm/fd_brown_mushroom_colony_' + i.toString(), 

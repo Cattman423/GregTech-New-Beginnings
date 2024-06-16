@@ -1,12 +1,10 @@
 GTCEuServerEvents.oreVeins(event => {
     event.modify("gtceu:magnetite_vein_end", vein => {
         vein.dimensions("ad_astra:moon")
-        vein.biomes("#ad_astra:is_moon")
         vein.layer("moon_stone")
     })
     event.modify("gtceu:bauxite_vein_end", vein => {
         vein.dimensions("ad_astra:moon")
-        vein.biomes("#ad_astra:is_moon")
         vein.layer("moon_stone")
     })
 //Desh
@@ -19,7 +17,6 @@ GTCEuServerEvents.oreVeins(event => {
     // Define where the vein can generate
         vein.layer("moon_stone")
         vein.dimensions("ad_astra:moon")
-        vein.biomes("#ad_astra:is_moon")
     // Define a height range:
         vein.heightRangeTriangle(20, 60)
     // Define the vein's generator:
@@ -48,7 +45,6 @@ GTCEuServerEvents.oreVeins(event => {
     // Define where the vein can generate
         vein.layer("moon_stone")
         vein.dimensions("ad_astra:moon")
-        vein.biomes("#ad_astra:is_moon")
     // Define a height range:
         vein.heightRangeTriangle(20, 60)
     // Define the vein's generator:

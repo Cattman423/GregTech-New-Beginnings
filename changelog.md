@@ -2,8 +2,17 @@
 
 ## V 0.3.0
 
+### Forge Updated to v47.3.1
+
+* Make A backup of your world before updating the pack! You will lose some items in this update, mainly your stockpiles of rose quartz gems, please turn it into dust or polish them before updating!!!
+
+* Misc
+  * Disabled Compass
 * Quests
   * Cleanroom quest no longer depends on Microprocessor Assembly quest, now only requires Advanced Integrated Circuits quest.
+  * Added 'lore' to Start Here questline
+  * Renamed Create Age to Clockwork Age
+  * Reduced required wooden gears from 32 to 16 in the 'Some Key Things' quest in the Clockwork Age
 * Textures
   * Added textures for Advanced Command Pod and Advanced Command Pod II
   * Added textures for Advanced Life Support System
@@ -19,6 +28,13 @@
   * Added Moon Deepslate Dust
   * Added Lunite
   * Added Ostrite
+  * Added Draconium
+  * Added Awakened Draconium
+  * Added Radiance
+  * Added Refined Radiance
+  * Added Shadow Steel
+  * Added Ether
+  * Added Shadow Radiance
   * Removed Lead Styphnate
   * Removed Barium Nitride
 * Items
@@ -37,6 +53,8 @@
   * Added Advanced Peripherals
   * Added Better Archeology
   * Added Cerbon's Better Becons
+  * Added Draconic Evolution
+  * Reactivated Create:Vintage Improvements
 * Mod Updates
   * Ad Astra: Giselle Addon v6.8
   * AE2 Insert Export Card v1.2.2
@@ -48,6 +66,7 @@
   * Bookshelf v20.1.11
   * CC: Tweaked
   * Chisel v1.7.2
+  * Colorful Hearts v4.1.8
   * Collective v7.61
   * Cooking for Blockheads v16.0.6
   * Crafting Tweaks v18.2.4
@@ -59,19 +78,22 @@
   * Create: Quality of Life v1.1-ht2
   * CreativeCore v2.11.30
   * Dawn of Time Builder Edition v1.5.7
-  * Entity Culling v1.6.5
-  * Extended AE v1.1.9
+  * Entity Culling v1.6.6
+  * Extended AE v1.1.10
   * Fast Leaf Decay v32
   * Framed Blocks v9.3.0
   * Fruits Delight v1.0.10
   * FTB Chunks v2001.3.1
-  * FTB Quests v2001.4.5
+  * FTB Quests v2001.4.6
   * FTBQuestsOptimizer v2.0.2
-  * GeckoLib v4.4.5
+  * GeckoLib v4.4.6
+  * GregTechCEu Modern v1.3.0
+  * Guard Villagers v1.6.6
   * Insane Lib v1.13.5
   * Jade v11.9.3
   * Journey Map v5.9.23
-  * Lootr v0.7.34.85
+  * Just Zoom v2.0.0
+  * Lootr v0.7.34.86
   * ModernFix v5.18.0
   * Moonlight v2.11.31
   * Polymorph v0.49.5
@@ -80,8 +102,9 @@
   * PuzzlesLib v8.1.20
   * Sound Physics Remastered v1.4.2
   * Stargate Journey v0.6.27
-  * Supplementaries v2.8.14
+  * Supplementaries v2.8.15
   * TerraBlender v3.0.1.7
+  * Tom's Simple Storage Mod v1.6.7
   * Tool Belt v1.20.01
   * Workshop for Handsome Adventurer v1.15.1
 

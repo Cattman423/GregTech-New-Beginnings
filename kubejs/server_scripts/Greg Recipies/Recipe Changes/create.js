@@ -70,7 +70,7 @@ ServerEvents.recipes(event => {
         'gtceu:rose_quartz'
         )
     event.recipes.create.mixing(
-        ['gtceu:rose_quartz_gem'], 
+        ['create:rose_quartz'], 
         ['8x minecraft:redstone', '3x gtceu:quartz_sand_dust']
     ).heatRequirement('lowheated')
 //Greg wrought iron
@@ -86,10 +86,6 @@ ServerEvents.recipes(event => {
         event.recipes.createPressing(kjswi, [kjswi])
 	    ]).transitionalItem(kjswi).loops(1) // set the transitional item and the number of loops
 //Greg bricks
-    event.recipes.create.compacting(
-        ['gtceu:compressed_clay', 'gtceu:brick_wooden_form'], 
-        ['minecraft:clay_ball', 'gtceu:brick_wooden_form']
-    )
     event.recipes.create.compacting(
         ['2x gtceu:compressed_coke_clay'], 
         ['2x minecraft:clay_ball', '4x #minecraft:sand']
@@ -597,7 +593,7 @@ ServerEvents.recipes(event => {
             //E: 'create:electron_tube'
         }
         )
-    /*event.recipes.create.mechanical_crafting(
+    event.recipes.create.mechanical_crafting(
         'vintageimprovements:helve_hammer', 
         [ 
             ' B SS',
@@ -611,7 +607,7 @@ ServerEvents.recipes(event => {
             s: 'create:shaft',
             C: 'create:andesite_casing'
         }
-        )*/
+        )
 //Create kinetic generators
     event.shaped(
         Item.of('create:windmill_bearing',),
@@ -764,6 +760,6 @@ ServerEvents.recipes(event => {
     mechcreate('createqol:loom_saw', 'chipped:loom_table', 'create:shaft')
     mechcreate('createqol:mason_saw', 'chipped:mason_table', 'create:shaft')
     mechcreate('createqol:tinkering_saw', 'chipped:tinkering_table', 'create:shaft')
-    //mechcreate('vintageimprovements:belt_grinder', 'vintageimprovements:grinder_belt', 'create:shaft')
-    //mechcreate('vintageimprovements:spring_coiling_machine', 'vintageimprovements:spring_coiling_machine_wheel', 'create:shaft')
+    mechcreate('vintageimprovements:belt_grinder', 'vintageimprovements:grinder_belt', 'create:shaft')
+    mechcreate('vintageimprovements:spring_coiling_machine', 'vintageimprovements:spring_coiling_machine_wheel', 'create:shaft')
 })

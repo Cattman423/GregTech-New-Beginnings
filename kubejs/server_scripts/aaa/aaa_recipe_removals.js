@@ -385,22 +385,26 @@ ServerEvents.recipes(event => {
     event.remove({id:'ad_astra:raw_desh'})
     event.remove({id:'ad_astra:raw_ostrum'})
     event.remove({id:'ad_astra:raw_calorite'})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
+    event.remove({id:'draconicevolution:decompress/draconium_nugget'})
+    event.remove({id:'draconicevolution:compress/draconium_ingot'})
+    event.remove({id:'draconicevolution:decompress/draconium_ingot'})
+    event.remove({id:'draconicevolution:compress/draconium_block'})
+    event.remove({id:'draconicevolution:decompress/awakened_draconium_nugget'})
+    event.remove({id:'draconicevolution:compress/awakened_draconium_ingot'})
+    event.remove({id:'draconicevolution:decompress/awakened_draconium_ingot'})
+    event.remove({id:'draconicevolution:compress/awakened_draconium_block'})
+    event.remove({id:'vintageimprovements:pressurizing/sulfuric_acid'})
+    event.remove({id:'vintageimprovements:pressurizing/copper_sulfate'})
+    event.remove({id:'vintageimprovements:pressurizing/sulfur_dioxide'})
+    event.remove({id:'vintageimprovements:pressurizing/sulfur_trioxide_alt'})
+    event.remove({id:'vintageimprovements:pressurizing/sulfur_trioxide'})
+    event.remove({id:'minecraft:copper_ingot'})
+    event.remove({id:'create:crafting/materials/brass_ingot_from_decompacting'})
+    event.remove({id:'ad_astra:steel_ingot_from_steel_block'})
+    event.remove({id:'create:crafting/materials/zinc_ingot_from_decompacting'})
+    event.remove({id:'vintageimprovements:curving/diamond'})
+    event.remove({id:'vintageimprovements:hammering/netherite_ingot'})
+    event.remove({id:'vintageimprovements:coiling/blaze_rod'})
     event.remove({id:''})
     event.remove({id:''})
     event.remove({id:''})
@@ -532,6 +536,11 @@ ServerEvents.recipes(event => {
     'ae2/honeycomb_spacial', 'gtceu/honeycomb_pyrolusite', 'honeycomb_magmatic', 'gtceu/honeycomb_molybdenum', 'gtceu/honeycomb_tungstate', 'honeycomb_silky', 
     'gtceu/honeycomb_electrotine', 'honeycomb_flux']
 
+    const createcoiling = ['silver', 'vanadium', 'rose_gold', 'cobalt', 'platinum', 'uranium', 'palladium', 'invar', 'osmium', 'aluminum', 'zinc', 'lead', 'tin', 'rhodium', 
+    'netherite', 'cast_iron', 'nickel', 'bronze', 'electrum', 'andesite', 'shadow_steel', 'refined_radiance', ]
+
+    //['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ]
+
     function removals(output){
         event.remove({id: output})
     }
@@ -574,5 +583,11 @@ ServerEvents.recipes(event => {
     beemixer.forEach( (base) => {
         let id = 'productivebees:create/mixing/' + base
         removals(id)
+    })
+    createcoiling.forEach( (base) => {
+        let id = 'vintageimprovements:coiling/' + base + '_rod'
+        let ida = 'vintageimprovements:coiling/' + base + '_wire'
+        removals(id)
+        removals(ida)
     })
 })
