@@ -29,6 +29,7 @@ const CERTUS = GTMaterialIconSet.CERTUS;
 const LAPIS = GTMaterialIconSet.LAPIS;
 const FLUID = GTMaterialIconSet.FLUID;
 const RADIOACTIVE = GTMaterialIconSet.RADIOACTIVE;
+const INFINITY = GTMaterialIconSet.getByName('infinity')
 
 // Flags
 // Generic flags
@@ -371,6 +372,31 @@ const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
         .blastTemp(13000, 'higher', 1966080, 2400)
         .iconSet(DULL)
         .flags(no_decomp)
+
+    event.create('void')
+        .plasma()
+        .color(0x1E1333)
+        .element('void')
+
+    event.create('void_steel')
+        .ingot()
+        .color(0x282249)
+        .components('3x void', '5x neutronium', '9x radiance')
+        .iconSet(METALLIC)
+        .flags(no_decomp)
+
+    event.create('stellar_matter')
+        .ingot()
+        .plasma()
+        .color(0xFFA963)
+        .element('stellar_matter')
+
+    event.create('infinity')
+        .ingot()
+        //.color(0xFFFFFF)
+        .element('infinity')
+        .iconSet(INFINITY)
+        .flags(plates)
 
 //Regoliths
     event.create('moon_stone')

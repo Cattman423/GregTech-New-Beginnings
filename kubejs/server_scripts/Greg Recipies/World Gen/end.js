@@ -1,7 +1,8 @@
-GTCEuServerEvents.oreVeins(event => {
+GTCEuServerEvents.fluidVeins(event => {
 
-    event.add('kjs:ether', vein => {
-        vein.addSpawnDimension('minecraft:end')
+    event.add('gtceu:ether', vein => {
+        //vein.addSpawnDimension('minecraft:end')
+        vein.dimensions('minecraft:end')
         vein.fluid(() => Fluid.of('gtceu:ether').fluid)
         vein.weight(600)
         vein.minimumYield(120)

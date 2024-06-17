@@ -1753,6 +1753,56 @@
 			x: 3.75d
 			y: -0.5d
 		}
+		{
+			dependencies: ["72F3F36CD583B9FA"]
+			id: "55FEDC722DAF6AC9"
+			tasks: [{
+				id: "79E17993E3BFF78F"
+				item: "avaritia:infinity_ingot"
+				type: "item"
+			}]
+			x: 4.75d
+			y: -1.0d
+		}
+		{
+			dependencies: ["72F3F36CD583B9FA"]
+			id: "57D376C458534A08"
+			tasks: [{
+				id: "129D87B8BE63A729"
+				item: "gtceu:stellar_matter_ingot"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"35C8ACF6D1E66814"
+				"57D376C458534A08"
+			]
+			id: "093FC6092AE9E745"
+			tasks: [{
+				id: "223CE7FC0776FF9A"
+				item: "kubejs:stellar_matter_coil_block"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"093FC6092AE9E745"
+				"55FEDC722DAF6AC9"
+			]
+			id: "48D52A012498A47E"
+			tasks: [{
+				id: "33C825963D15FDCA"
+				item: "kubejs:infinity_coil_block"
+				type: "item"
+			}]
+			x: 4.75d
+			y: -0.5d
+		}
 	]
 	title: "GregTech Progression"
 }

@@ -73,18 +73,6 @@ ServerEvents.recipes(event => {
         ['create:rose_quartz'], 
         ['8x minecraft:redstone', '3x gtceu:quartz_sand_dust']
     ).heatRequirement('lowheated')
-//Greg wrought iron
-    let kjswi = 'kubejs:incomplete_wrought_iron' // making a variable to store the transitional item makes the code more readable
-	    event.recipes.create.sequenced_assembly([
-		    Item.of('gtceu:wrought_iron_ingot').withChance(99.0), // this is the item that will appear in JEI as the result
-            Item.of('gtceu:wrought_iron_nugget').withChance(1.0)
-  	    ], 'minecraft:iron_ingot', [ // 'minecraft:iron_ingot' is the input
-	  	    // the transitional item set by `transitionalItem(kjswi)` is the item used during the intermediate stages of the assembly
-	  	event.recipes.createFilling(kjswi, [kjswi, Fluid.lava(10)]),
-	  	    // like a normal recipe function, is used as a sequence step in this array. Input and output have the transitional item
-	  	event.recipes.createPressing(kjswi, [kjswi]),
-        event.recipes.createPressing(kjswi, [kjswi])
-	    ]).transitionalItem(kjswi).loops(1) // set the transitional item and the number of loops
 //Greg bricks
     event.recipes.create.compacting(
         ['2x gtceu:compressed_coke_clay'], 
@@ -437,16 +425,6 @@ ServerEvents.recipes(event => {
             E: 'gtceu:andesite_alloy_screw'
         }
     )
-    let kjset = 'kubejs:incomplete_electron_tube'
-    event.recipes.create.sequenced_assembly([
-        Item.of('3x create:electron_tube').withChance(95.0),
-        Item.of('2x gtceu:wrought_iron_nugget').withChance(5.0)
-    ], 'gtceu:wrought_iron_bolt', [
-    event.recipes.createDeploying(kjset, [kjset, 'create:polished_rose_quartz']),
-    event.recipes.createCutting(kjset, [kjset]),
-    event.recipes.createFilling(kjset, [kjset, Fluid.of(('gtceu:rose_quartz'), 144)]),
-    event.recipes.createDeploying(kjset, [kjset, 'create:polished_rose_quartz'])
-    ]).transitionalItem(kjset).loops(1)
     
     event.recipes.gtceu.circuit_assembler('electron_tube')
         .itemInputs('gtceu:wrought_iron_bolt', 'create:polished_rose_quartz')
@@ -454,20 +432,6 @@ ServerEvents.recipes(event => {
         .itemOutputs('2x create:electron_tube')
         .duration(200)
         .EUt(16)
-
-    let kjscm = 'kubejs:incomplete_clockwork_mechanism'
-    event.recipes.create.sequenced_assembly([
-        Item.of('kubejs:clockwork_mechanism').withChance(95.0),
-        Item.of('2x gtceu:brass_nugget').withChance(3.0),
-        Item.of('2x gtceu:small_rose_quartz_dust').withChance(2.0)
-    ], 'gtceu:brass_plate', [
-    event.recipes.createDeploying(kjscm, [kjscm, 'create:cogwheel']),
-    event.recipes.createDeploying(kjscm, [kjscm, 'gtceu:small_bronze_gear']),
-    event.recipes.createDeploying(kjscm, [kjscm, 'gtceu:brass_nugget']),
-    event.recipes.createPressing(kjscm, [kjscm]),
-    event.recipes.createDeploying(kjscm, [kjscm, 'create:electron_tube']),
-    event.recipes.createPressing(kjscm, [kjscm])
-    ]).transitionalItem(kjscm).loops(2)
 
     event.replaceInput(
         { input: 'create:precision_mechanism' },
@@ -489,22 +453,7 @@ ServerEvents.recipes(event => {
             D: 'gtceu:iron_plate',
             E: 'create:electron_tube'
         }
-    )    
-    let kjsbb = 'kubejs:incomplete_blaze_burner'
-    event.recipes.create.sequenced_assembly([
-        Item.of('create:blaze_burner').withChance(95.0),
-        Item.of('2x gtceu:iron_nugget').withChance(3.0),
-        Item.of('2x gtceu:small_netherrack_dust').withChance(2.0)
-    ], 'create:empty_blaze_burner', [
-    event.recipes.createDeploying(kjsbb, [kjsbb, 'create:cogwheel']),
-    event.recipes.createDeploying(kjsbb, [kjsbb, 'kubejs:clockwork_mechanism']),
-    event.recipes.createFilling(kjsbb, [kjsbb, Fluid.lava(100)]),
-    event.recipes.createPressing(kjsbb, [kjsbb]),
-    event.recipes.createDeploying(kjsbb, [kjsbb, 'gtceu:brass_plate']),
-    event.recipes.createDeploying(kjsbb, [kjsbb, 'gtceu:brass_plate']),
-    event.recipes.createDeploying(kjsbb, [kjsbb, 'create:electron_tube']),
-    event.recipes.createPressing(kjsbb, [kjsbb])
-    ]).transitionalItem(kjsbb).loops(2)
+    )
 //Create mechanical devices
     event.shaped(
         Item.of('create:basin',),
@@ -537,21 +486,6 @@ ServerEvents.recipes(event => {
             }
             )
     }
-
-    let kjsgc = 'kubejs:incomplete_generator_coil'
-    event.recipes.create.sequenced_assembly([
-        Item.of('create_new_age:generator_coil').withChance(84.0),
-        Item.of('gtceu:andesite_alloy_nugget').withChance(8.0),
-        Item.of('6x gtceu:copper_nugget').withChance(8.0)
-    ], 'create:shaft', [
-    event.recipes.createDeploying(kjsgc, [kjsgc, 'gtceu:andesite_alloy_rod']),
-    event.recipes.createPressing(kjsgc, [kjsgc]),
-    event.recipes.createDeploying(kjsgc, [kjsgc, 'gtceu:fine_copper_wire']),
-    event.recipes.createDeploying(kjsgc, [kjsgc, 'gtceu:fine_copper_wire']),
-    event.recipes.createDeploying(kjsgc, [kjsgc, 'gtceu:fine_copper_wire']),
-    event.recipes.createDeploying(kjsgc, [kjsgc, 'gtceu:fine_copper_wire']),
-    event.recipes.createPressing(kjsgc, [kjsgc])
-    ]).transitionalItem(kjsgc).loops(8)
 
     event.recipes.gtceu.assembler('generator_coil_copper')
         .itemInputs('create:shaft', '32x gtceu:fine_copper_wire')

@@ -42,6 +42,10 @@
     "material.gtceu.shadow_steel": "Shadow Steel",
     "material.gtceu.ether": "Ether",
     "material.gtceu.shadow_radiance": "Shadow Radiance",
+    "material.gtceu.void": "Void",
+    "material.gtceu.void_steel": "Void Steel",
+    "material.gtceu.stellar_matter": "Stellar Matter",
+    "material.gtceu.infinity": "Infinity",
 
     "material.gtceu.moon_stone": "Moon Stone",
     "material.gtceu.moon_deepslate": "Moon Deepslate",

@@ -1594,6 +1594,39 @@
 			x: 4.5d
 			y: 6.0d
 		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "204ECC7868F992D1"
+			tasks: [{
+				id: "117556464A6A7ECF"
+				item: "gtceu:void_plasma_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "4461EC361879F2C6"
+			tasks: [{
+				id: "0B9BED51B8139E5D"
+				item: "gtceu:stellar_matter_plasma_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "383E15D25B1B7D80"
+			tasks: [{
+				id: "20F7001F964CCA28"
+				item: "avaritia:infinity_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
 	]
 	title: "The Periodic Table"
 }

@@ -22,6 +22,8 @@
 * Progression
   * Moved Scheelite ore veins to Mars
   * Added Ostrum veins to Mars
+* Multiblocks
+  * Removed Kinetic Assembler
 * Materials
   * Added Impure Netherite Slurry
   * Added Pure Netherite Slurry
@@ -35,6 +37,10 @@
   * Added Shadow Steel
   * Added Ether
   * Added Shadow Radiance
+  * Added Void
+  * Added Void Steel
+  * Added Stellar Matter
+  * Added Infinity
   * Removed Lead Styphnate
   * Removed Barium Nitride
 * Items
@@ -49,6 +55,7 @@
   * Added maceration recipes for planetary stone/cobblestone/sand to respective stone dusts
   * Added Recipe for Tier Two Rocket and componets
   * Added compression and decompression recipes for GregTech raw ores
+  * Vaccum Tubes, Resistors, Basic/Good Electronic Circuits, and Resin Printed Circuit Boards are now crafted via sequenced assembly instead of in the Kinetic Assembler
 * Mod Additions
   * Added Advanced Peripherals
   * Added Better Archeology
@@ -59,16 +66,19 @@
   * Ad Astra: Giselle Addon v6.8
   * AE2 Insert Export Card v1.2.2
   * Amendments v1.2.4
+  * Antiblocks Rechiseld v0.4.3
   * Applied Energistics 2 v15.2.3
   * Artemis' Laboratory Blocks v0.4.1r
   * Artifacts v9.5.11
   * Balm v7.3.4
-  * Bookshelf v20.1.11
+  * Bookshelf v20.1.13
   * CC: Tweaked
   * Chisel v1.7.2
+  * ChoiceTheorem's Overhauled Village v3.4.4
   * Colorful Hearts v4.1.8
   * Collective v7.61
   * Cooking for Blockheads v16.0.6
+  * CorgiLib v4.0.1.3
   * Crafting Tweaks v18.2.4
   * CraftTweaker v14.0.40
   * Create Encased v1.6.0
@@ -78,7 +88,10 @@
   * Create: Quality of Life v1.1-ht2
   * CreativeCore v2.11.30
   * Dawn of Time Builder Edition v1.5.7
+  * Embeddium v0.3.20
+  * Embeddium++ v1.2.13
   * Entity Culling v1.6.6
+  * Entity Texture Features v6.1.1
   * Extended AE v1.1.10
   * Fast Leaf Decay v32
   * Framed Blocks v9.3.0
@@ -86,16 +99,23 @@
   * FTB Chunks v2001.3.1
   * FTB Quests v2001.4.6
   * FTBQuestsOptimizer v2.0.2
+  * Gateways to Eternity v4.2.5
   * GeckoLib v4.4.6
   * GregTechCEu Modern v1.3.0
   * Guard Villagers v1.6.6
+  * GunpowderLib v2.2.2
   * Insane Lib v1.13.5
   * Jade v11.9.3
+  * JEI v15.3.0.7
   * Journey Map v5.9.23
   * Just Zoom v2.0.0
+  * Kotlin for Forge v4.11.0
+  * Lithostitched v1.1.6
+  * LootJS v2.12.0
   * Lootr v0.7.34.86
-  * ModernFix v5.18.0
-  * Moonlight v2.11.31
+  * ModernFix v5.18.1
+  * Moonlight v2.11.41
+  * Placebo v8.6.2
   * Polymorph v0.49.5
   * Productive Bees v12.5.3
   * Productive Trees v0.2.4
