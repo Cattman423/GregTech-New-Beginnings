@@ -29,7 +29,7 @@ GTCEuServerEvents.oreVeins(event => {
             .radius(5)
         ) 
     })
-//Lignite DO NOT ENABLE THIS IT WILL CRASH YOUR GAME
+//Lignite
     event.add("kubejs:lignite_vein_ow", vein => {
     // Basic vein generation properties
         vein.weight(90)
@@ -46,7 +46,7 @@ GTCEuServerEvents.oreVeins(event => {
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
                 .layer(l => l.weight(3).mat(GTMaterials.get('lignite')).size(8, 16))
-                .layer(l => l.weight(1).mat(GTMaterials.get('lignite')).size(1, 4))
+                .layer(l => l.weight(3).mat(GTMaterials.get('lignite')).size(8, 16))
             )
         )
     // Add one or more type of surface indicator to the vein:

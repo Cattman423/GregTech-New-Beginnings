@@ -127,6 +127,7 @@
 		}
 		{
 			dependencies: ["179BE55EAA6BA680"]
+			description: ["The first of many vacuum tubes, these double as a Ulv circuit, but you won't be needing many of those."]
 			id: "62C5473238B33512"
 			rewards: [
 				{
@@ -153,6 +154,17 @@
 		}
 		{
 			dependencies: ["62C5473238B33512"]
+			description: [
+				"You will need plenty of these, fortunantly, the componets are about to get less expensive!"
+				""
+				"The first machines I would reccomend are these ones:"
+				"{ \"text\": \"Wiremill,\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2769AA51C73E747C\" } } "
+				"{ \"text\": \"Polarizer,\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2F5C10FAF4ACFE23\" } } "
+				"{ \"text\": \"Lathe,\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5DEA6FF28D84EE4C\" } } "
+				"{ \"text\": \"Bender.\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51F82C887E303025\" } }"
+				""
+				"You can make these machines in any order that you want to."
+			]
 			hide_dependent_lines: true
 			id: "684E9CD189ACC2D0"
 			rewards: [
@@ -312,6 +324,7 @@
 				"684E9CD189ACC2D0"
 				"7ECACB03A401C050"
 			]
+			description: ["Finally, a 1:1 ratio for plate crafting!"]
 			id: "51F82C887E303025"
 			rewards: [
 				{
@@ -340,6 +353,11 @@
 				"684E9CD189ACC2D0"
 				"7ECACB03A401C050"
 			]
+			description: [
+				"You can now turn ingots into wire and fine wire with no material loss!"
+				""
+				"And if you need a certain size wire, you can now dirrectly craft those to. No need to make eight 1x wire to make a single 8x wire, just throw four ingots and set the circuit right, and away you go!"
+			]
 			id: "2769AA51C73E747C"
 			rewards: [
 				{
@@ -365,6 +383,11 @@
 		}
 		{
 			dependencies: ["684E9CD189ACC2D0"]
+			description: [
+				"This uses electricity to turn ingots into rods, with two small dusts as a byproduct."
+				""
+				"You can also turn bolts into screws with this machine."
+			]
 			id: "5DEA6FF28D84EE4C"
 			rewards: [
 				{
@@ -390,6 +413,7 @@
 		}
 		{
 			dependencies: ["684E9CD189ACC2D0"]
+			description: ["At last you can save on redstone for motor crafting."]
 			id: "2F5C10FAF4ACFE23"
 			rewards: [
 				{
@@ -415,6 +439,13 @@
 		}
 		{
 			dependencies: ["684E9CD189ACC2D0"]
+			description: [
+				"Some machines require a so called \"circuit condition\" in order to process. This is due to the sheer number of recipes that this pack has to offer, some of which would over-write each other with out this feature."
+				""
+				"Fortunatly, you don't need to craft a bunch of these circuits and configure them. Almost every electronic machine, and every item input bus has a circuit settings box in the &clower left corner&r of the machine GUI."
+				"{@pagebreak}"
+				"I would reccomend that you make multiple machines for the different circuit settings, the ones in particular being the &eAssembler&r, the &eMixer&r, and the &eChemical Reactor&r"
+			]
 			hide_dependent_lines: true
 			icon: {
 				Count: 1
@@ -448,6 +479,7 @@
 		}
 		{
 			dependencies: ["684E9CD189ACC2D0"]
+			description: ["Unfortunantly this won't can your fruits and veggies, but it will fill your spray cans and batteries."]
 			id: "21E9795815B94CEB"
 			rewards: [
 				{
@@ -476,6 +508,7 @@
 				"684E9CD189ACC2D0"
 				"7ECACB03A401C050"
 			]
+			description: ["This machine should also be a high priority, as you need lots of rubber and this is the most efficient way to make it. Unfortunantly it makes liquid rubber, but fortunantly we can solve that with another machine."]
 			id: "732C44845A4CE3F2"
 			rewards: [
 				{
@@ -501,6 +534,7 @@
 		}
 		{
 			dependencies: ["684E9CD189ACC2D0"]
+			description: ["The chemical colours used to fill your spray can can also dye things like glass, wool, and terrecotta in this here chemical bath."]
 			id: "2DCF87366CE12386"
 			rewards: [
 				{
@@ -527,10 +561,10 @@
 		{
 			dependencies: [
 				"21E9795815B94CEB"
-				"2DCF87366CE12386"
 				"5D8BC6AE461C7502"
 				"0A30CCFFB2BFB567"
 			]
+			description: ["Fill this with the dye of your choosing to paint your machines, pipes, and cables. This can be really useful for telling at a glance what voltage or liquid is in that cable or pipe."]
 			id: "47786C2F8F571375"
 			rewards: [
 				{
@@ -556,6 +590,11 @@
 		}
 		{
 			dependencies: ["51F82C887E303025"]
+			description: [
+				"These empty fluid cells allow you to store 64 buckets worth of a fluid in a single inventory stack."
+				""
+				"The universal cells allow you to also hold amounts of fluid that aren't in multiples of 1000mb."
+			]
 			id: "5D8BC6AE461C7502"
 			rewards: [
 				{
@@ -588,6 +627,11 @@
 		}
 		{
 			dependencies: ["2F5C10FAF4ACFE23"]
+			description: [
+				"Once charged and activated, this magnet will attract items on the ground near you and try to put them in your inventory."
+				""
+				"It even comes with a curios slot!"
+			]
 			id: "4C75C546699E29AB"
 			optional: true
 			rewards: [
@@ -617,6 +661,7 @@
 				"5740796B7A429F7B"
 				"21E9795815B94CEB"
 			]
+			description: ["Portable power! You have three choices of what to put in these bad boys, &esodium&r, &ecadmium&r, and &elithium&r. Lithium is by far the best choice, even if it's hard to currently get."]
 			id: "0A3F99A1EF229CCE"
 			rewards: [
 				{
@@ -643,6 +688,7 @@
 		}
 		{
 			dependencies: ["179BE55EAA6BA680"]
+			description: ["This metal is really only good at one thing, making batteries."]
 			hide_dependency_lines: true
 			id: "5740796B7A429F7B"
 			rewards: [
@@ -669,6 +715,11 @@
 		}
 		{
 			dependencies: ["0A3F99A1EF229CCE"]
+			description: [
+				"Battery buffers are very important early on, if your power plant shuts down, these will give you some time to fix it. They will also refresh the cable loss by acting as a power source themselves."
+				""
+				"Be warned, they accept twice the number of amps as they provide, at one amp output per battery."
+			]
 			id: "2839354159524FE2"
 			rewards: [
 				{
@@ -684,6 +735,7 @@
 				}
 			]
 			size: 0.75d
+			subtitle: "Reserve Power: Online"
 			tasks: [{
 				id: "70A7722D72D597E4"
 				item: "gtceu:lv_battery_buffer_4x"
@@ -751,12 +803,18 @@
 					item: "gtceu:lv_muffler_hatch"
 					type: "item"
 				}
+				{
+					id: "3A91F2ACAB8CB44D"
+					item: "gtceu:maintenance_hatch"
+					type: "item"
+				}
 			]
 			x: 6.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["0A30CCFFB2BFB567"]
+			description: ["Sure, you dont &ohave to&r make these in an assembler, but it will save your tools duribility if you do."]
 			id: "387401416C6A5686"
 			rewards: [
 				{
@@ -838,6 +896,11 @@
 		}
 		{
 			dependencies: ["684E9CD189ACC2D0"]
+			description: [
+				"The electric extractor does the smae thing as the steam extractor, but now, you can handle fluids as well."
+				""
+				"The main use foe this is melting down metals to be re-cast into other shapes."
+			]
 			id: "46A5DB7DB55A9BC1"
 			rewards: [
 				{
@@ -1399,6 +1462,7 @@
 		}
 		{
 			dependencies: ["732C44845A4CE3F2"]
+			description: ["With your fancy Chemical reactor, make up some rubber"]
 			id: "2D83E5323B029311"
 			rewards: [
 				{
@@ -1424,6 +1488,7 @@
 		}
 		{
 			dependencies: ["684E9CD189ACC2D0"]
+			description: ["With some casting molds, you can now turn liquid/molten metals, plastics, and rubbers into different shapes."]
 			id: "236DAC107E3339B1"
 			rewards: [
 				{
@@ -1452,6 +1517,8 @@
 				"2D83E5323B029311"
 				"236DAC107E3339B1"
 			]
+			description: ["Throw your liquid rubber and a plate casting mold into your fluid solidifier and make some rubber sheets."]
+			icon: "gtceu:rubber_plate"
 			id: "003E3A35D16F840F"
 			rewards: [
 				{
@@ -1467,11 +1534,18 @@
 				}
 			]
 			size: 0.75d
-			tasks: [{
-				id: "7C25B4F770B424A3"
-				item: "gtceu:rubber_plate"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7C25B4F770B424A3"
+					item: "gtceu:rubber_plate"
+					type: "item"
+				}
+				{
+					id: "03A80A88FAC51BFD"
+					item: "gtceu:plate_casting_mold"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: 4.0d
 		}
@@ -1508,6 +1582,7 @@
 				"684E9CD189ACC2D0"
 				"7ECACB03A401C050"
 			]
+			description: ["I hate hand mixing materials, this machine does it automatically, and will do it better than either you or I."]
 			id: "455702BF8CBCEF89"
 			rewards: [
 				{
@@ -1533,6 +1608,11 @@
 		}
 		{
 			dependencies: ["684E9CD189ACC2D0"]
+			description: [
+				"The centrifuge is a machine that seperates materials, but in a physical process unlike the electrolyzer."
+				""
+				"Right now you'll be using it to get glue from sticky resin, and oxygen from air."
+			]
 			id: "788A8219CFF02CA5"
 			rewards: [
 				{
@@ -1548,6 +1628,7 @@
 				}
 			]
 			size: 0.75d
+			subtitle: "You spin me right round baby, right round"
 			tasks: [{
 				id: "4C035DF6B2D7954D"
 				item: "gtceu:lv_centrifuge"
@@ -1583,6 +1664,7 @@
 		}
 		{
 			dependencies: ["236DAC107E3339B1"]
+			description: ["I hate crafting roters, so I assume you do as well, fortunantly there is a cheaper way to make them! Melt down four ingots worth of a metla, and cast it with this mold to make a rotor."]
 			id: "6B1D380868501723"
 			optional: true
 			rewards: [

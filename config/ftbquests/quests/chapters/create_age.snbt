@@ -816,6 +816,7 @@
 		}
 		{
 			dependencies: ["576E2F40DEF76344"]
+			icon: "gtceu:compressed_clay"
 			id: "606DA6A53D1E2C79"
 			optional: true
 			rewards: [
@@ -831,11 +832,23 @@
 					xp: 100
 				}
 			]
-			tasks: [{
-				id: "27C876B3DD144262"
-				item: "gtceu:compressed_clay"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "27C876B3DD144262"
+					item: "gtceu:compressed_clay"
+					type: "item"
+				}
+				{
+					id: "7CE694B0001A4FBA"
+					item: "vintageimprovements:curving_press"
+					type: "item"
+				}
+				{
+					id: "23D76DE4619444D0"
+					item: "gtceu:brick_wooden_form"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: 1.0d
 		}
@@ -1452,25 +1465,6 @@
 			}]
 			x: 13.0d
 			y: 7.5d
-		}
-		{
-			dependencies: ["7B3581FCBF20F163"]
-			id: "390405B76CD67620"
-			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4C08179A7DB50EEE"
-				table_id: 1979144794260430301L
-				type: "random"
-			}]
-			subtitle: "You spin me right round baby, right round"
-			tasks: [{
-				id: "013800BA62CFB56C"
-				item: "create:turntable"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 2.0d
 		}
 	]
 	title: "Clockwork Age"

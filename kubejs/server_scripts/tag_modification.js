@@ -110,4 +110,7 @@ ServerEvents.tags('block', event => {
     event.add('minecraft:needs_iron_tool', '#forge:ores_in_ground/glacio_stone')
     event.add('minecraft:mineable/pickaxe', '#forge:ores_in_ground/permafrost')
     event.add('minecraft:needs_iron_tool', '#forge:ores_in_ground/permafrost')
+
+    event.add('ad_astra:moon_stone_replaceables', 'minecraft:soul_soil')
+    event.add('minecraft:nether_carver_replaceables', 'minecraft:soul_soil')
 })

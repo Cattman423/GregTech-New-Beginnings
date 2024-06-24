@@ -376,6 +376,10 @@ gameplay:
   # Default: true
   environmentalHazards: true
 
+  # How much environmental hazards decay per chunk, per tick.
+  # Default: 0.001
+  environmentalHazardDecayRate: 0.001
+
   # Whether the GTCEu's ingame guidebook, 'Compass', be enabled.
   # WARNING: INCOMPLETE
   # Default: false

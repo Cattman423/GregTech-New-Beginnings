@@ -668,6 +668,19 @@
 			x: 8.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["159907ED3340162A"]
+			description: ["This machine requires Iv power, and only accepts two hatches, so you couldn't use it until now."]
+			id: "042C7FEEC8536B01"
+			optional: true
+			tasks: [{
+				id: "39B545346E34A6EC"
+				item: "gtceu:hydroponic_farm"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
 	]
 	title: "Ev Age [WIP]"
 }

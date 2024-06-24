@@ -207,6 +207,30 @@ ServerEvents.recipes(event => {
         .itemOutputs('jumbofurnace:jumbo_furnace')
         .duration(min*5)
         .EUt(ulv)
+    event.shaped(
+        Item.of('3x minecraft:torch'),
+        [
+            ' A ',
+            ' B ',
+            '   '
+        ],
+        {
+            A: 'gtceu:lignite_gem',
+            B: '#forge:rods/wooden'
+        }
+        )
+    event.shaped(
+        Item.of('3x minecraft:torch'),
+        [
+            ' A ',
+            ' B ',
+            '   '
+        ],
+        {
+            A: 'gtceu:lignite_dust',
+            B: '#forge:rods/wooden'
+        }
+        )
 //Nuggets
     let anuggets = Ingredient.of("#forge:nuggets").itemIds
 

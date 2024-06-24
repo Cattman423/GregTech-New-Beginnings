@@ -44,6 +44,8 @@ ServerEvents.recipes(event => {
     'whitemushroom', 'wintersquash', 'zucchini', 'alfalfa', 'aloe', 'barrelcactus', 'canola', 'cattail', 'chia', 'cloudberry', 'lotus', 'nettles', 'nopales', 'sorghum', 'truffle', 
     'wolfberry', 'yucca', 'bokchoy', 'calabash', 'guarana', 'papyrus', 'sunchoke']
     const fdcrops = []
+    const flowers = Ingredient.of("#minecraft:flowers").itemIds
+    const mushrooms = Ingredient.of("#forge:mushrooms").itemIds
 
     for (let i = 1; i < 9; i++) {
         mccrops.forEach( (base) => {
@@ -81,6 +83,35 @@ ServerEvents.recipes(event => {
 
             farming(id, cid, input, water, output, 'minecraft:air', false)
             farming(id + '_boosted', cid, input, water, boostout, fert, true)
+        })
+        flowers.forEach( (base) => {
+            let id = 'kubejs:gtceu/hydroponic_farm/' + base.split(':')[1] + '_' + i.toString()
+            let input = 64*i.toString() + 'x ' + base
+            let output = 64*i.toString() + 'x ' + base
+            let water = 'minecraft:water ' + 1000*i.toString()
+            let boostout = 128*i.toString() + 'x ' + base
+            let fert = 'sliceanddice:fertilizer ' + 1000*i.toString()
+            let cid = i
+
+            farming(id, cid, input, water, output, 'minecraft:air', false)
+            farming(id + '_boosted', cid, input, water, boostout, fert, true)
+        })
+        mushrooms.forEach( (base) => {
+            if(
+                base != 'pamhc2crops:whitemushroomitem'
+                && base != 'pamhc2crops:truffleitem'
+            ){
+                let id = 'kubejs:gtceu/hydroponic_farm/' + base.split(':')[1] + '_' + i.toString()
+                let input = 64*i.toString() + 'x ' + base
+                let output = 64*i.toString() + 'x ' + base
+                let water = 'minecraft:water ' + 1000*i.toString()
+                let boostout = 128*i.toString() + 'x ' + base
+                let fert = 'sliceanddice:fertilizer ' + 1000*i.toString()
+                let cid = i
+
+                farming(id, cid, input, water, output, 'minecraft:air', false)
+                farming(id + '_boosted', cid, input, water, boostout, fert, true)
+            }
         })
         /*farming(
             'kubejs:gtceu/hydroponic_farm/fd_brown_mushroom_colony_' + i.toString(), 

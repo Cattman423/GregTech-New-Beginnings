@@ -46,6 +46,15 @@
     "material.gtceu.void_steel": "Void Steel",
     "material.gtceu.stellar_matter": "Stellar Matter",
     "material.gtceu.infinity": "Infinity",
+    "material.gtceu.uranium_oxide": "Uranium(IV) Oxide",
+    "material.gtceu.zirconium_oxide": "Zirconium(IV) Oxide",
+    "material.gtceu.hafnium_oxide": "Hafnium(IV) Oxide",
+    "material.gtceu.cerium_oxide": "Cerium(IV) Oxide",
+    "material.gtceu.gunmetal": "Gunmetal",
+    "material.gtceu.molten_moon_mantle": "Molten Lunar Mantle",
+    "material.gtceu.molten_mars_mantle": "Molten Mars Mantle",
+    "material.gtceu.molten_mercury_mantle": "Molten Mercury Mantle",
+    "material.gtceu.molten_venus_mantle": "Molten Venus Mantle",
 
     "material.gtceu.moon_stone": "Moon Stone",
     "material.gtceu.moon_deepslate": "Moon Deepslate",
@@ -74,11 +83,26 @@
     "gtceu.kinetic_assembler": "Kinetic Assembler",
     "gtceu.hydroponic_farm": "Hydroponic Farm",
 
-    "gtceu.jei.ore_vein.desh_vein_mn": "Desh Vein",
-    "gtceu.jei.ore_vein.iron_vein_mn": "Iron Vein",
+
     "gtceu.jei.ore_vein.zinc_vein_ow": "Zinc Vein",
     "gtceu.jei.ore_vein.lignite_vein_ow": "Lignite Vein",
     "gtceu.jei.ore_vein.copper_vein_ow": "Copper Vein",
+
+    "gtceu.jei.ore_vein.desh_vein_mn": "Desh Vein",
+    "gtceu.jei.ore_vein.iron_vein_mn": "Iron Vein",
+    "gtceu.jei.ore_vein.zircon_vein_mn": "Zircon Vein",
+    "gtceu.jei.ore_vein.zirconium_oxide_vein_mn": "Zirconium Vein",
+    "gtceu.jei.ore_vein.lunite_vein_mn": "Lunite Vein",
+
+    "gtceu.jei.ore_vein.ostrum_vein_ma": "Ostrum Vein",
+
+    "gtceu.jei.bedrock_fluid.ether": "Ether Deposit",
+    "gtceu.jei.bedrock_fluid.moon_mantle": "Moon Mantle Deposit",
+    "gtceu.jei.bedrock_fluid.mars_mantle": "Mars Mantle Deposit",
+    "gtceu.jei.bedrock_fluid.mercury_mantle": "Mercury Mantle Deposit",
+    "gtceu.jei.bedrock_fluid.venus_mantle": "Venus Mantle Deposit",
+    "gtceu.jei.bedrock_fluid.mercury": "Mercury Deposit",
+
 
     "block.gtceu.lv_kinetic_input_box": "LV Kinetic Input Box",
     "block.gtceu.mv_kinetic_input_box": "MV Kinetic Input Box",
