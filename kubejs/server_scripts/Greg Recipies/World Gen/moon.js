@@ -34,7 +34,7 @@ GTCEuServerEvents.oreVeins(event => {
         vein.dimensions("ad_astra:moon")
         vein.biomes("ad_astra:lunar_wastelands")
     // Define a height range:
-        vein.heightRangeTriangle(20, 60)
+        vein.heightRangeUniform(20, 60)
     // Define the vein's generator:
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -63,7 +63,7 @@ GTCEuServerEvents.oreVeins(event => {
         vein.dimensions("ad_astra:moon")
         vein.biomes("ad_astra:lunar_wastelands")
     // Define a height range:
-        vein.heightRangeTriangle(20, 60)
+        vein.heightRangeUniform(20, 60)
     // Define the vein's generator:
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -94,7 +94,7 @@ GTCEuServerEvents.oreVeins(event => {
         vein.dimensions("ad_astra:moon")
         vein.biomes("ad_astra:lunar_wastelands")
     // Define a height range:
-        vein.heightRangeTriangle(-10, 40)
+        vein.heightRangeUniform(-10, 40)
     // Define the vein's generator:
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -123,7 +123,7 @@ GTCEuServerEvents.oreVeins(event => {
         vein.dimensions("ad_astra:moon")
         vein.biomes("ad_astra:lunar_wastelands")
     // Define a height range:
-        vein.heightRangeTriangle(-50, 20)
+        vein.heightRangeUniform(-50, 20)
     // Define the vein's generator:
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -154,7 +154,7 @@ GTCEuServerEvents.oreVeins(event => {
         vein.dimensions("ad_astra:moon")
         vein.biomes("ad_astra:lunar_wastelands")
     // Define a height range:
-        vein.heightRangeTriangle(-60, 0)
+        vein.heightRangeUniform(-60, 0)
     // Define the vein's generator:
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern

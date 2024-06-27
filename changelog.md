@@ -58,6 +58,7 @@
   * Added Lunite Ore veins to the Moon
   * Added Zircon Ore veins to the Moon
   * Added Zirconium(IV) Oxide Ore veins to the Moon
+  * Fixed Custom Ore veins not showing y-levels for vein generation in JEI vein tab
 * Items
   * Added Advanced Command Pod III
   * Renamed Extreme Commancd Pod to Advanced Command Pod II

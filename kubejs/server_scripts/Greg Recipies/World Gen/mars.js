@@ -39,7 +39,7 @@ GTCEuServerEvents.oreVeins(event => {
         vein.layer("mars_stone")
         vein.dimensions("ad_astra:mars")
     // Define a height range:
-        vein.heightRangeTriangle(20, 60)
+        vein.heightRangeUniform(20, 60)
     // Define the vein's generator:
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
