@@ -6,7 +6,7 @@
 	group: "525E608ED23BAD1F"
 	icon: "gtceu:mv_machine_hull"
 	id: "6766564C9E361F32"
-	order_index: 4
+	order_index: 3
 	quest_links: [{
 		disable_toast: true
 		id: "4682A9E3E152BDBF"

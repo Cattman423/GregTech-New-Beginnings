@@ -6,7 +6,7 @@
 	group: "525E608ED23BAD1F"
 	icon: "gtceu:ev_machine_hull"
 	id: "68BE8C9E324FEE7D"
-	order_index: 6
+	order_index: 5
 	quest_links: [
 		{
 			disable_toast: true

@@ -3,9 +3,15 @@ ServerEvents.recipes(event => {
         event.recipes.create.crushing(output, input)
     }
 
-    const rawore = Ingredient.of('#forge:raw_materials').itemIds
-    const crushedore = Ingredient.of('#forge:crushed_ores').itemIds
-    const impureore = Ingredient.of("#forge:impure_dusts").itemIds
+    const rawore = Ingredient.of('#forge:raw_materials').itemIds.filter((name) => {
+        return name.includes('gtceu') == true
+    })
+    const crushedore = Ingredient.of('#forge:crushed_ores').itemIds.filter((name) => {
+        return name.includes('gtceu') == true
+    })
+    const impureore = Ingredient.of("#forge:impure_dusts").itemIds.filter((name) => {
+        return name.includes('gtceu') == true
+    })
 
     rawore.forEach( (itemIds) => {
         if(

@@ -55,6 +55,8 @@
     "material.gtceu.molten_mars_mantle": "Molten Mars Mantle",
     "material.gtceu.molten_mercury_mantle": "Molten Mercury Mantle",
     "material.gtceu.molten_venus_mantle": "Molten Venus Mantle",
+    "material.gtceu.ardite": "Ardite",
+    "material.gtceu.manyullyn": "Manyullyn",
 
     "material.gtceu.moon_stone": "Moon Stone",
     "material.gtceu.moon_deepslate": "Moon Deepslate",
@@ -185,6 +187,8 @@
     "tetra.material.gt_vanadium_steel.prefix": "Vanadium Steel",
     "tetra.material.gt_wrought_iron": "Wrought Iron",
     "tetra.material.gt_wrought_iron.prefix": "Wrought Iron",
+    "tetra.material.gt_manyullyn": "Manyullyn",
+    "tetra.material.gt_manyullyn.prefix": "Manyullyn",
     "tetra.material.gt_rubber_wood": "Rubber Wood",
     "tetra.material.gt_rubber_wood.prefix": "Rubber Wood",
     "tetra.material.gt_treated_wood": "Treated Wood",

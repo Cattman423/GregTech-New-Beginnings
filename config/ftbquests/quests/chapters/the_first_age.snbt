@@ -670,6 +670,12 @@
 			description: ["Your first machine casing of many!"]
 			hide_details_until_startable: true
 			id: "6A91810EF77054CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CAC1CEE54229B59"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{

@@ -29,7 +29,8 @@ const CERTUS = GTMaterialIconSet.CERTUS;
 const LAPIS = GTMaterialIconSet.LAPIS;
 const FLUID = GTMaterialIconSet.FLUID;
 const RADIOACTIVE = GTMaterialIconSet.RADIOACTIVE;
-const INFINITY = GTMaterialIconSet.getByName('infinity')
+const INFINITY = GTMaterialIconSet.getByName('infinity');
+const STELLAR_MATTER = GTMaterialIconSet.getByName('stellar_matter')
 
 // Flags
 // Generic flags
@@ -180,9 +181,12 @@ const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
 
     event.create('stellar_matter')
         .ingot()
-        .plasma()
-        .color(0xFFA963)
+        ['fluid(com.gregtechceu.gtceu.api.fluids.store.FluidStorageKey,com.gregtechceu.gtceu.api.fluids.FluidBuilder)']
+        (GTFluidStorageKeys.PLASMA, new GTFluidBuilder().state(GTFluidState.PLASMA).customStill())
+        //.color(0xFFA963)
         .element('stellar_matter')
+        .iconSet(STELLAR_MATTER)
+        .flags(plates)
 
     event.create('infinity')
         .ingot()
@@ -191,12 +195,14 @@ const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
         .iconSet(INFINITY)
         .flags(plates)
 
-    event.create('gunmetal')
+    event.create('ardite')
         .ingot()
-        .color(0x575366)
-        .components('5x iron', 'copper')
+        .ore()
+        .color(0xE88317)
+        .element('ardite')
         .iconSet(METALLIC)
-        .flags(small_spring, bolt_and_screw, small_gear, plates)
+        .flags(plates)
+        .blastTemp(3500, 'mid', 480, 2400)
 
 //Netherite Line
     event.create('netherite_scrap')
@@ -308,6 +314,7 @@ const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
 
     event.create('poor_steel')
         .ingot(1)
+        .fluid()
         .components('iron')
         .color(0x808080)
         .iconSet(DULL)
@@ -439,6 +446,23 @@ const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
         .iconSet(METALLIC)
         .flags(no_decomp, plates)
 
+    event.create('gunmetal')
+        .ingot()
+        .fluid()
+        .color(0x575366)
+        .components('5x iron', 'copper')
+        .iconSet(METALLIC)
+        .flags(small_spring, bolt_and_screw, small_gear, plates)
+
+    event.create('manyullyn')
+        .ingot()
+        .color(0x9261CC)
+        .components('cobalt', 'ardite')
+        .iconSet(METALLIC)
+        .flags(no_decomp, plates)
+        .toolStats(ToolProperty.Builder.of(9.0, 7.0, 2048, 4).enchantability(14).build())
+        .blastTemp(4500, 'high', 7680, 2400)
+
 //Regoliths
     event.create('moon_stone')
         .dust()
@@ -551,11 +575,12 @@ const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
     GTMaterials.Andradite.addFlags(lens)
     GTMaterials.Apatite.addFlags(lens)
     GTMaterials.BlueTopaz.addFlags(lens)
+    GTMaterials.Brass.addFlags(small_gear)
     GTMaterials.CertusQuartz.addFlags(lens)
     GTMaterials.Cinnabar.addFlags(lens)
     GTMaterials.Coal.addFlags(lens)
     GTMaterials.Coke.addFlags(lens)
-    GTMaterials.Copper.addFlags(bolt_and_screw)
+    GTMaterials.Copper.addFlags(bolt_and_screw, small_gear)
     GTMaterials.GarnetRed.addFlags(lens)
     GTMaterials.GarnetYellow.addFlags(lens)
     GTMaterials.Germanium.addFlags(plates, foil, fine_wire)

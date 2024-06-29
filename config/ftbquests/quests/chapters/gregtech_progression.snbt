@@ -18,7 +18,7 @@
 				item: "create:andesite_casing"
 				type: "item"
 			}]
-			x: -4.25d
+			x: -4.0d
 			y: -11.0d
 		}
 		{
@@ -26,23 +26,11 @@
 			id: "72ADA3A25D569FE5"
 			size: 0.5d
 			tasks: [{
-				id: "38FD70B9A724D57A"
-				item: "create:brass_casing"
+				id: "0B15D13C90D8C5E6"
+				item: "create:copper_casing"
 				type: "item"
 			}]
-			x: -3.75d
-			y: -11.0d
-		}
-		{
-			dependencies: ["72F3F36CD583B9FA"]
-			id: "6BC3AF591099C3F0"
-			size: 0.5d
-			tasks: [{
-				id: "576AF9900A59E63F"
-				item: "gtceu:ulv_machine_hull"
-				type: "item"
-			}]
-			x: -2.25d
+			x: -3.5d
 			y: -11.0d
 		}
 		{
@@ -54,7 +42,7 @@
 				item: "gtceu:lv_machine_hull"
 				type: "item"
 			}]
-			x: -1.75d
+			x: -2.0d
 			y: -11.0d
 		}
 		{
@@ -66,7 +54,7 @@
 				item: "gtceu:mv_machine_hull"
 				type: "item"
 			}]
-			x: -1.25d
+			x: -1.5d
 			y: -11.0d
 		}
 		{
@@ -78,7 +66,7 @@
 				item: "gtceu:hv_machine_hull"
 				type: "item"
 			}]
-			x: -0.75d
+			x: -1.0d
 			y: -11.0d
 		}
 		{
@@ -90,7 +78,7 @@
 				item: "gtceu:ev_machine_hull"
 				type: "item"
 			}]
-			x: -0.25d
+			x: -0.5d
 			y: -11.0d
 		}
 		{
@@ -102,7 +90,7 @@
 				item: "gtceu:iv_machine_hull"
 				type: "item"
 			}]
-			x: 0.25d
+			x: 0.0d
 			y: -11.0d
 		}
 		{
@@ -114,7 +102,7 @@
 				item: "gtceu:luv_machine_hull"
 				type: "item"
 			}]
-			x: 0.75d
+			x: 0.5d
 			y: -11.0d
 		}
 		{
@@ -126,7 +114,7 @@
 				item: "gtceu:zpm_machine_hull"
 				type: "item"
 			}]
-			x: 1.25d
+			x: 1.0d
 			y: -11.0d
 		}
 		{
@@ -138,7 +126,7 @@
 				item: "gtceu:uv_machine_hull"
 				type: "item"
 			}]
-			x: 1.75d
+			x: 1.5d
 			y: -11.0d
 		}
 		{
@@ -150,7 +138,7 @@
 				item: "gtceu:uhv_machine_hull"
 				type: "item"
 			}]
-			x: 2.25d
+			x: 2.0d
 			y: -11.0d
 		}
 		{
@@ -162,7 +150,7 @@
 				item: "create:electron_tube"
 				type: "item"
 			}]
-			x: -3.75d
+			x: -4.0d
 			y: -10.0d
 		}
 		{
@@ -174,7 +162,7 @@
 				item: "gtceu:vacuum_tube"
 				type: "item"
 			}]
-			x: -2.25d
+			x: -2.5d
 			y: -8.5d
 		}
 		{
@@ -186,7 +174,7 @@
 				item: "gtceu:basic_electronic_circuit"
 				type: "item"
 			}]
-			x: -1.75d
+			x: -2.0d
 			y: -8.0d
 		}
 		{
@@ -198,7 +186,7 @@
 				item: "gtceu:good_electronic_circuit"
 				type: "item"
 			}]
-			x: -1.75d
+			x: -2.0d
 			y: -7.5d
 		}
 		{
@@ -210,7 +198,7 @@
 				item: "gtceu:basic_integrated_circuit"
 				type: "item"
 			}]
-			x: -1.25d
+			x: -1.5d
 			y: -8.0d
 		}
 		{
@@ -222,7 +210,7 @@
 				item: "gtceu:good_integrated_circuit"
 				type: "item"
 			}]
-			x: -1.25d
+			x: -1.5d
 			y: -7.5d
 		}
 		{
@@ -234,7 +222,7 @@
 				item: "gtceu:advanced_integrated_circuit"
 				type: "item"
 			}]
-			x: -1.25d
+			x: -1.5d
 			y: -7.0d
 		}
 		{
@@ -246,7 +234,7 @@
 				item: "gtceu:uev_machine_hull"
 				type: "item"
 			}]
-			x: 2.75d
+			x: 2.5d
 			y: -11.0d
 		}
 		{
@@ -258,7 +246,7 @@
 				item: "gtceu:uiv_machine_hull"
 				type: "item"
 			}]
-			x: 3.25d
+			x: 3.0d
 			y: -11.0d
 		}
 		{
@@ -270,7 +258,7 @@
 				item: "gtceu:uxv_machine_hull"
 				type: "item"
 			}]
-			x: 3.75d
+			x: 3.5d
 			y: -11.0d
 		}
 		{
@@ -282,7 +270,7 @@
 				item: "gtceu:opv_machine_hull"
 				type: "item"
 			}]
-			x: 4.25d
+			x: 4.0d
 			y: -11.0d
 		}
 		{
@@ -294,7 +282,7 @@
 				item: "gtceu:max_machine_hull"
 				type: "item"
 			}]
-			x: 4.75d
+			x: 4.5d
 			y: -11.0d
 		}
 		{
@@ -306,7 +294,7 @@
 				item: "kubejs:clockwork_mechanism"
 				type: "item"
 			}]
-			x: -3.25d
+			x: -3.5d
 			y: -9.5d
 		}
 		{
@@ -318,7 +306,7 @@
 				item: "kubejs:advanced_clockwork_mechanism"
 				type: "item"
 			}]
-			x: -2.75d
+			x: -3.0d
 			y: -9.0d
 		}
 		{
@@ -327,11 +315,11 @@
 			id: "6BAC837957A9DADC"
 			size: 0.5d
 			tasks: [{
-				id: "471927189E76CB5F"
-				item: "gtceu:andesite_alloy_ingot"
+				id: "2D13E5C4B7E86661"
+				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			x: -4.75d
+			x: -4.5d
 			y: -10.5d
 		}
 		{
@@ -344,8 +332,8 @@
 				item: "gtceu:brass_ingot"
 				type: "item"
 			}]
-			x: -4.75d
-			y: -10.0d
+			x: -4.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
@@ -357,7 +345,7 @@
 				item: "gtceu:wrought_iron_ingot"
 				type: "item"
 			}]
-			x: -4.75d
+			x: -4.5d
 			y: -8.5d
 		}
 		{
@@ -370,7 +358,7 @@
 				item: "gtceu:steel_ingot"
 				type: "item"
 			}]
-			x: -4.75d
+			x: -4.5d
 			y: -8.0d
 		}
 		{
@@ -383,7 +371,7 @@
 				item: "gtceu:aluminium_ingot"
 				type: "item"
 			}]
-			x: -4.75d
+			x: -4.5d
 			y: -7.5d
 		}
 		{
@@ -396,7 +384,7 @@
 				item: "gtceu:stainless_steel_ingot"
 				type: "item"
 			}]
-			x: -4.75d
+			x: -4.5d
 			y: -7.0d
 		}
 		{
@@ -409,7 +397,7 @@
 				item: "gtceu:titanium_ingot"
 				type: "item"
 			}]
-			x: -4.75d
+			x: -4.5d
 			y: -6.5d
 		}
 		{
@@ -422,7 +410,7 @@
 				item: "gtceu:tungsten_steel_ingot"
 				type: "item"
 			}]
-			x: -4.75d
+			x: -4.5d
 			y: -6.0d
 		}
 		{
@@ -435,7 +423,7 @@
 				item: "gtceu:rhodium_plated_palladium_ingot"
 				type: "item"
 			}]
-			x: -4.75d
+			x: -4.5d
 			y: -5.5d
 		}
 		{
@@ -448,7 +436,7 @@
 				item: "gtceu:naquadah_alloy_ingot"
 				type: "item"
 			}]
-			x: -4.75d
+			x: -4.5d
 			y: -5.0d
 		}
 		{
@@ -461,7 +449,7 @@
 				item: "gtceu:darmstadtium_ingot"
 				type: "item"
 			}]
-			x: -4.75d
+			x: -4.5d
 			y: -4.5d
 		}
 		{
@@ -474,7 +462,7 @@
 				item: "gtceu:neutronium_ingot"
 				type: "item"
 			}]
-			x: -4.75d
+			x: -4.5d
 			y: -4.0d
 		}
 		{
@@ -487,7 +475,7 @@
 				item: "minecraft:bedrock"
 				type: "item"
 			}]
-			x: -4.75d
+			x: -4.5d
 			y: -3.5d
 		}
 		{
@@ -500,7 +488,7 @@
 				item: "minecraft:bedrock"
 				type: "item"
 			}]
-			x: -4.75d
+			x: -4.5d
 			y: -3.0d
 		}
 		{
@@ -513,7 +501,7 @@
 				item: "minecraft:bedrock"
 				type: "item"
 			}]
-			x: -4.75d
+			x: -4.5d
 			y: -2.5d
 		}
 		{
@@ -526,7 +514,7 @@
 				item: "minecraft:bedrock"
 				type: "item"
 			}]
-			x: -4.75d
+			x: -4.5d
 			y: -2.0d
 		}
 		{
@@ -539,7 +527,7 @@
 				item: "minecraft:bedrock"
 				type: "item"
 			}]
-			x: -4.75d
+			x: -4.5d
 			y: -1.5d
 		}
 		{
@@ -551,7 +539,7 @@
 				item: "gtceu:cupronickel_coil_block"
 				type: "item"
 			}]
-			x: -1.75d
+			x: -2.0d
 			y: -0.5d
 		}
 		{
@@ -566,7 +554,7 @@
 				item: "gtceu:kanthal_coil_block"
 				type: "item"
 			}]
-			x: -1.25d
+			x: -1.5d
 			y: -0.5d
 		}
 		{
@@ -581,7 +569,7 @@
 				item: "gtceu:nichrome_coil_block"
 				type: "item"
 			}]
-			x: -0.75d
+			x: -1.0d
 			y: -0.5d
 		}
 		{
@@ -596,7 +584,7 @@
 				item: "gtceu:rtm_alloy_coil_block"
 				type: "item"
 			}]
-			x: 0.25d
+			x: 0.0d
 			y: -0.5d
 		}
 		{
@@ -611,7 +599,7 @@
 				item: "gtceu:hssg_coil_block"
 				type: "item"
 			}]
-			x: 0.75d
+			x: 0.5d
 			y: -0.5d
 		}
 		{
@@ -626,7 +614,7 @@
 				item: "gtceu:naquadah_coil_block"
 				type: "item"
 			}]
-			x: 1.25d
+			x: 1.0d
 			y: -0.5d
 		}
 		{
@@ -641,7 +629,7 @@
 				item: "gtceu:trinium_coil_block"
 				type: "item"
 			}]
-			x: 1.75d
+			x: 1.5d
 			y: -0.5d
 		}
 		{
@@ -656,7 +644,7 @@
 				item: "gtceu:tritanium_coil_block"
 				type: "item"
 			}]
-			x: 2.25d
+			x: 2.0d
 			y: -0.5d
 		}
 		{
@@ -680,7 +668,7 @@
 					type: "item"
 				}
 			]
-			x: -1.75d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -704,7 +692,7 @@
 					type: "item"
 				}
 			]
-			x: -1.25d
+			x: -1.5d
 			y: 0.0d
 		}
 		{
@@ -728,7 +716,7 @@
 					type: "item"
 				}
 			]
-			x: -0.75d
+			x: -1.0d
 			y: 0.0d
 		}
 		{
@@ -740,7 +728,7 @@
 				item: "gtceu:ev_vanadium_battery"
 				type: "item"
 			}]
-			x: -0.25d
+			x: -0.5d
 			y: 0.0d
 		}
 		{
@@ -752,7 +740,7 @@
 				item: "gtceu:iv_vanadium_battery"
 				type: "item"
 			}]
-			x: 0.25d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -764,7 +752,7 @@
 				item: "gtceu:luv_vanadium_battery"
 				type: "item"
 			}]
-			x: 0.75d
+			x: 0.5d
 			y: 0.0d
 		}
 		{
@@ -776,7 +764,7 @@
 				item: "gtceu:zpm_naquadria_battery"
 				type: "item"
 			}]
-			x: 1.25d
+			x: 1.0d
 			y: 0.0d
 		}
 		{
@@ -788,7 +776,7 @@
 				item: "gtceu:uv_naquadria_battery"
 				type: "item"
 			}]
-			x: 1.75d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -803,7 +791,7 @@
 				item: "gtceu:max_battery"
 				type: "item"
 			}]
-			x: 2.25d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -815,7 +803,7 @@
 				item: "gtceu:lapotron_crystal"
 				type: "item"
 			}]
-			x: -0.25d
+			x: -0.5d
 			y: 0.5d
 		}
 		{
@@ -827,7 +815,7 @@
 				item: "gtceu:energy_crystal"
 				type: "item"
 			}]
-			x: -0.75d
+			x: -1.0d
 			y: 0.5d
 		}
 		{
@@ -839,7 +827,7 @@
 				item: "gtceu:lapotronic_energy_orb"
 				type: "item"
 			}]
-			x: 0.25d
+			x: 0.0d
 			y: 0.5d
 		}
 		{
@@ -851,7 +839,7 @@
 				item: "gtceu:lapotronic_energy_orb_cluster"
 				type: "item"
 			}]
-			x: 0.75d
+			x: 0.5d
 			y: 0.5d
 		}
 		{
@@ -863,7 +851,7 @@
 				item: "gtceu:energy_module"
 				type: "item"
 			}]
-			x: 1.25d
+			x: 1.0d
 			y: 0.5d
 		}
 		{
@@ -875,7 +863,7 @@
 				item: "gtceu:energy_cluster"
 				type: "item"
 			}]
-			x: 1.75d
+			x: 1.5d
 			y: 0.5d
 		}
 		{
@@ -887,7 +875,7 @@
 				item: "gtceu:cupronickel_ingot"
 				type: "item"
 			}]
-			x: -1.75d
+			x: -2.0d
 			y: -1.0d
 		}
 		{
@@ -899,7 +887,7 @@
 				item: "gtceu:kanthal_ingot"
 				type: "item"
 			}]
-			x: -1.25d
+			x: -1.5d
 			y: -1.0d
 		}
 		{
@@ -911,7 +899,7 @@
 				item: "gtceu:nichrome_ingot"
 				type: "item"
 			}]
-			x: -0.75d
+			x: -1.0d
 			y: -1.0d
 		}
 		{
@@ -923,7 +911,7 @@
 				item: "gtceu:rtm_alloy_ingot"
 				type: "item"
 			}]
-			x: 0.25d
+			x: 0.0d
 			y: -1.0d
 		}
 		{
@@ -935,7 +923,7 @@
 				item: "gtceu:hssg_ingot"
 				type: "item"
 			}]
-			x: 0.75d
+			x: 0.5d
 			y: -1.0d
 		}
 		{
@@ -947,7 +935,7 @@
 				item: "gtceu:naquadah_ingot"
 				type: "item"
 			}]
-			x: 1.25d
+			x: 1.0d
 			y: -1.0d
 		}
 		{
@@ -959,7 +947,7 @@
 				item: "gtceu:trinium_ingot"
 				type: "item"
 			}]
-			x: 1.75d
+			x: 1.5d
 			y: -1.0d
 		}
 		{
@@ -971,7 +959,7 @@
 				item: "gtceu:tritanium_ingot"
 				type: "item"
 			}]
-			x: 2.25d
+			x: 2.0d
 			y: -1.0d
 		}
 		{
@@ -983,7 +971,7 @@
 				item: "gtceu:nand_chip"
 				type: "item"
 			}]
-			x: -0.75d
+			x: -1.0d
 			y: -8.5d
 		}
 		{
@@ -995,7 +983,7 @@
 				item: "gtceu:microchip_processor"
 				type: "item"
 			}]
-			x: -0.75d
+			x: -1.0d
 			y: -8.0d
 		}
 		{
@@ -1007,7 +995,7 @@
 				item: "gtceu:micro_processor"
 				type: "item"
 			}]
-			x: -0.75d
+			x: -1.0d
 			y: -7.5d
 		}
 		{
@@ -1019,7 +1007,7 @@
 				item: "gtceu:micro_processor_assembly"
 				type: "item"
 			}]
-			x: -0.75d
+			x: -1.0d
 			y: -7.0d
 		}
 		{
@@ -1031,7 +1019,7 @@
 				item: "gtceu:micro_processor_computer"
 				type: "item"
 			}]
-			x: -0.75d
+			x: -1.0d
 			y: -6.5d
 		}
 		{
@@ -1043,7 +1031,7 @@
 				item: "gtceu:micro_processor_mainframe"
 				type: "item"
 			}]
-			x: -0.25d
+			x: -0.5d
 			y: -6.0d
 		}
 		{
@@ -1055,7 +1043,7 @@
 				item: "gtceu:nano_processor"
 				type: "item"
 			}]
-			x: 0.25d
+			x: 0.0d
 			y: -7.0d
 		}
 		{
@@ -1067,7 +1055,7 @@
 				item: "gtceu:nano_processor_assembly"
 				type: "item"
 			}]
-			x: 0.25d
+			x: 0.0d
 			y: -6.5d
 		}
 		{
@@ -1079,7 +1067,7 @@
 				item: "gtceu:nano_processor_computer"
 				type: "item"
 			}]
-			x: 0.25d
+			x: 0.0d
 			y: -6.0d
 		}
 		{
@@ -1091,7 +1079,7 @@
 				item: "gtceu:nano_processor_mainframe"
 				type: "item"
 			}]
-			x: 0.25d
+			x: 0.0d
 			y: -5.5d
 		}
 		{
@@ -1104,7 +1092,7 @@
 				item: "gtceu:quantum_processor"
 				type: "item"
 			}]
-			x: 0.75d
+			x: 0.5d
 			y: -6.5d
 		}
 		{
@@ -1116,7 +1104,7 @@
 				item: "gtceu:quantum_processor_assembly"
 				type: "item"
 			}]
-			x: 0.75d
+			x: 0.5d
 			y: -6.0d
 		}
 		{
@@ -1128,7 +1116,7 @@
 				item: "gtceu:quantum_processor_computer"
 				type: "item"
 			}]
-			x: 0.75d
+			x: 0.5d
 			y: -5.5d
 		}
 		{
@@ -1140,7 +1128,7 @@
 				item: "gtceu:quantum_processor_mainframe"
 				type: "item"
 			}]
-			x: 0.75d
+			x: 0.5d
 			y: -5.0d
 		}
 		{
@@ -1152,7 +1140,7 @@
 				item: "gtceu:crystal_processor"
 				type: "item"
 			}]
-			x: 1.25d
+			x: 1.0d
 			y: -6.0d
 		}
 		{
@@ -1164,7 +1152,7 @@
 				item: "gtceu:crystal_processor_assembly"
 				type: "item"
 			}]
-			x: 1.25d
+			x: 1.0d
 			y: -5.5d
 		}
 		{
@@ -1176,7 +1164,7 @@
 				item: "gtceu:crystal_processor_computer"
 				type: "item"
 			}]
-			x: 1.25d
+			x: 1.0d
 			y: -5.0d
 		}
 		{
@@ -1188,7 +1176,7 @@
 				item: "gtceu:crystal_processor_mainframe"
 				type: "item"
 			}]
-			x: 1.25d
+			x: 1.0d
 			y: -4.5d
 		}
 		{
@@ -1200,7 +1188,7 @@
 				item: "gtceu:wetware_processor"
 				type: "item"
 			}]
-			x: 1.75d
+			x: 1.5d
 			y: -5.5d
 		}
 		{
@@ -1212,7 +1200,7 @@
 				item: "gtceu:wetware_processor_assembly"
 				type: "item"
 			}]
-			x: 1.75d
+			x: 1.5d
 			y: -5.0d
 		}
 		{
@@ -1224,7 +1212,7 @@
 				item: "gtceu:wetware_processor_computer"
 				type: "item"
 			}]
-			x: 1.75d
+			x: 1.5d
 			y: -4.5d
 		}
 		{
@@ -1236,41 +1224,20 @@
 				item: "gtceu:wetware_processor_mainframe"
 				type: "item"
 			}]
-			x: 2.25d
+			x: 2.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
-			icon: "gtceu:bronze_machine_casing"
 			id: "3429E7EF8C6B1528"
 			size: 0.5d
-			tasks: [
-				{
-					id: "091149724A1D193F"
-					item: "gtceu:bronze_machine_casing"
-					type: "item"
-				}
-				{
-					id: "108649476CA29D3C"
-					item: "gtceu:bronze_brick_casing"
-					type: "item"
-				}
-			]
-			x: -3.25d
-			y: -11.0d
-		}
-		{
-			dependencies: ["72F3F36CD583B9FA"]
-			icon: "gtceu:bronze_machine_casing"
-			id: "78E03847BD8AE7AC"
-			size: 0.5d
 			tasks: [{
-				id: "0F1CA1DFCD074C5E"
-				item: "gtceu:bronze_ingot"
+				id: "744A7F281BA13636"
+				item: "create:brass_casing"
 				type: "item"
 			}]
-			x: -4.75d
-			y: -9.5d
+			x: -3.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
@@ -1281,7 +1248,7 @@
 				item: "kubejs:optical_processor"
 				type: "item"
 			}]
-			x: 3.25d
+			x: 3.0d
 			y: -4.5d
 		}
 		{
@@ -1293,7 +1260,7 @@
 				item: "kubejs:optical_processor_assembly"
 				type: "item"
 			}]
-			x: 3.25d
+			x: 3.0d
 			y: -4.0d
 		}
 		{
@@ -1305,7 +1272,7 @@
 				item: "kubejs:optical_processor_computer"
 				type: "item"
 			}]
-			x: 3.25d
+			x: 3.0d
 			y: -3.5d
 		}
 		{
@@ -1317,7 +1284,7 @@
 				item: "kubejs:optical_processor_mainframe"
 				type: "item"
 			}]
-			x: 3.25d
+			x: 3.0d
 			y: -3.0d
 		}
 		{
@@ -1330,7 +1297,7 @@
 				item: "kubejs:fungal_processor"
 				type: "item"
 			}]
-			x: 2.75d
+			x: 2.5d
 			y: -5.0d
 		}
 		{
@@ -1342,7 +1309,7 @@
 				item: "kubejs:fungal_processor_assembly"
 				type: "item"
 			}]
-			x: 2.75d
+			x: 2.5d
 			y: -4.5d
 		}
 		{
@@ -1354,7 +1321,7 @@
 				item: "kubejs:fungal_processor_computer"
 				type: "item"
 			}]
-			x: 2.75d
+			x: 2.5d
 			y: -4.0d
 		}
 		{
@@ -1366,7 +1333,7 @@
 				item: "kubejs:fungal_processor_mainframe"
 				type: "item"
 			}]
-			x: 2.75d
+			x: 2.5d
 			y: -3.5d
 		}
 		{
@@ -1378,7 +1345,7 @@
 				item: "kubejs:deep_space_processor"
 				type: "item"
 			}]
-			x: 3.75d
+			x: 3.5d
 			y: -4.0d
 		}
 		{
@@ -1390,7 +1357,7 @@
 				item: "kubejs:deep_space_processor_assembly"
 				type: "item"
 			}]
-			x: 3.75d
+			x: 3.5d
 			y: -3.5d
 		}
 		{
@@ -1402,7 +1369,7 @@
 				item: "kubejs:deep_space_processor_computer"
 				type: "item"
 			}]
-			x: 3.75d
+			x: 3.5d
 			y: -3.0d
 		}
 		{
@@ -1414,7 +1381,7 @@
 				item: "kubejs:deep_space_processor_mainframe"
 				type: "item"
 			}]
-			x: 3.75d
+			x: 3.5d
 			y: -2.5d
 		}
 		{
@@ -1426,7 +1393,7 @@
 				item: "kubejs:singularity_processor"
 				type: "item"
 			}]
-			x: 4.25d
+			x: 4.0d
 			y: -3.5d
 		}
 		{
@@ -1438,7 +1405,7 @@
 				item: "kubejs:singularity_processor_assembly"
 				type: "item"
 			}]
-			x: 4.25d
+			x: 4.0d
 			y: -3.0d
 		}
 		{
@@ -1450,7 +1417,7 @@
 				item: "kubejs:singularity_processor_computer"
 				type: "item"
 			}]
-			x: 4.25d
+			x: 4.0d
 			y: -2.5d
 		}
 		{
@@ -1462,7 +1429,7 @@
 				item: "kubejs:singularity_processor_mainframe"
 				type: "item"
 			}]
-			x: 4.25d
+			x: 4.0d
 			y: -2.0d
 		}
 		{
@@ -1475,7 +1442,7 @@
 				item: "kubejs:4d_processor"
 				type: "item"
 			}]
-			x: 4.75d
+			x: 4.5d
 			y: -3.0d
 		}
 		{
@@ -1487,7 +1454,7 @@
 				item: "kubejs:4d_processor_assembly"
 				type: "item"
 			}]
-			x: 4.75d
+			x: 4.5d
 			y: -2.5d
 		}
 		{
@@ -1499,7 +1466,7 @@
 				item: "kubejs:4d_processor_computer"
 				type: "item"
 			}]
-			x: 4.75d
+			x: 4.5d
 			y: -2.0d
 		}
 		{
@@ -1511,50 +1478,42 @@
 				item: "kubejs:4d_processor_mainframe"
 				type: "item"
 			}]
-			x: 5.25d
+			x: 4.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
-			icon: "gtceu:steel_machine_casing"
 			id: "1828BC4B709E3FF3"
 			size: 0.5d
-			tasks: [
-				{
-					id: "5AB80A25CC3DC0CA"
-					item: "gtceu:steel_machine_casing"
-					type: "item"
-				}
-				{
-					id: "28E7D310A99A092F"
-					item: "gtceu:steel_brick_casing"
-					type: "item"
-				}
-			]
-			x: -2.75d
+			tasks: [{
+				id: "3D5A43D463694454"
+				item: "tfmg:steel_casing"
+				type: "item"
+			}]
+			x: -2.5d
 			y: -11.0d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
 			id: "38F360A9D9483ADF"
 			tasks: [{
-				id: "4D9158A5BDBCE6FD"
-				item: "create:cogwheel"
+				id: "65E8A9CF6CEED1E0"
+				item: "kubejs:rudimentary_mechanism"
 				type: "item"
 			}]
-			x: -4.25d
+			x: -4.0d
 			y: -10.5d
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
-			icon: "gtceu:steel_machine_casing"
+			icon: "tfmg:steel_casing"
 			id: "1FF8909D05CA99E4"
 			tasks: [{
 				id: "151C7C85E6A79594"
 				item: "gtceu:steel_ingot"
 				type: "item"
 			}]
-			x: -4.75d
+			x: -4.5d
 			y: -9.0d
 		}
 		{
@@ -1568,7 +1527,7 @@
 				item: "kubejs:mithril_coil_block"
 				type: "item"
 			}]
-			x: 2.75d
+			x: 2.5d
 			y: -0.5d
 		}
 		{
@@ -1579,7 +1538,7 @@
 				item: "gtceu:mithril_ingot"
 				type: "item"
 			}]
-			x: 2.75d
+			x: 2.5d
 			y: -1.0d
 		}
 		{
@@ -1590,7 +1549,7 @@
 				item: "kubejs:uev_magneto_resonance_circuit"
 				type: "item"
 			}]
-			x: 5.75d
+			x: 4.5d
 			y: -3.5d
 		}
 		{
@@ -1601,7 +1560,7 @@
 				item: "kubejs:uhv_magneto_resonance_circuit"
 				type: "item"
 			}]
-			x: 5.75d
+			x: 4.0d
 			y: -4.0d
 		}
 		{
@@ -1612,7 +1571,7 @@
 				item: "kubejs:uv_magneto_resonance_circuit"
 				type: "item"
 			}]
-			x: 5.75d
+			x: 3.5d
 			y: -4.5d
 		}
 		{
@@ -1623,7 +1582,7 @@
 				item: "kubejs:zpm_magneto_resonance_circuit"
 				type: "item"
 			}]
-			x: 5.75d
+			x: 3.0d
 			y: -5.0d
 		}
 		{
@@ -1634,7 +1593,7 @@
 				item: "kubejs:luv_magneto_resonance_circuit"
 				type: "item"
 			}]
-			x: 5.75d
+			x: 2.5d
 			y: -5.5d
 		}
 		{
@@ -1645,7 +1604,7 @@
 				item: "kubejs:iv_magneto_resonance_circuit"
 				type: "item"
 			}]
-			x: 5.75d
+			x: 2.0d
 			y: -6.0d
 		}
 		{
@@ -1656,7 +1615,7 @@
 				item: "kubejs:ev_magneto_resonance_circuit"
 				type: "item"
 			}]
-			x: 5.75d
+			x: 1.5d
 			y: -6.5d
 		}
 		{
@@ -1667,7 +1626,7 @@
 				item: "kubejs:hv_magneto_resonance_circuit"
 				type: "item"
 			}]
-			x: 5.75d
+			x: 1.0d
 			y: -7.0d
 		}
 		{
@@ -1678,7 +1637,7 @@
 				item: "kubejs:mv_magneto_resonance_circuit"
 				type: "item"
 			}]
-			x: 5.75d
+			x: 0.5d
 			y: -7.5d
 		}
 		{
@@ -1689,7 +1648,7 @@
 				item: "kubejs:lv_magneto_resonance_circuit"
 				type: "item"
 			}]
-			x: 5.75d
+			x: 0.0d
 			y: -8.0d
 		}
 		{
@@ -1700,7 +1659,7 @@
 				item: "kubejs:ulv_magneto_resonance_circuit"
 				type: "item"
 			}]
-			x: 5.75d
+			x: -0.5d
 			y: -8.5d
 		}
 		{
@@ -1714,7 +1673,7 @@
 				item: "kubejs:chadium_coil_block"
 				type: "item"
 			}]
-			x: 3.25d
+			x: 3.0d
 			y: -0.5d
 		}
 		{
@@ -1725,7 +1684,7 @@
 				item: "gtceu:chadium_ingot"
 				type: "item"
 			}]
-			x: 3.25d
+			x: 3.0d
 			y: -1.0d
 		}
 		{
@@ -1736,7 +1695,7 @@
 				item: "draconicevolution:awakened_draconium_ingot"
 				type: "item"
 			}]
-			x: 3.75d
+			x: 3.5d
 			y: -1.0d
 		}
 		{
@@ -1750,7 +1709,7 @@
 				item: "kubejs:awakened_draconium_coil_block"
 				type: "item"
 			}]
-			x: 3.75d
+			x: 3.5d
 			y: -0.5d
 		}
 		{
@@ -1761,7 +1720,7 @@
 				item: "avaritia:infinity_ingot"
 				type: "item"
 			}]
-			x: 4.75d
+			x: 4.5d
 			y: -1.0d
 		}
 		{
@@ -1772,7 +1731,7 @@
 				item: "gtceu:stellar_matter_ingot"
 				type: "item"
 			}]
-			x: 4.25d
+			x: 4.0d
 			y: -1.0d
 		}
 		{
@@ -1786,7 +1745,7 @@
 				item: "kubejs:stellar_matter_coil_block"
 				type: "item"
 			}]
-			x: 4.25d
+			x: 4.0d
 			y: -0.5d
 		}
 		{
@@ -1800,8 +1759,42 @@
 				item: "kubejs:infinity_coil_block"
 				type: "item"
 			}]
-			x: 4.75d
+			x: 4.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["72F3F36CD583B9FA"]
+			icon: "create:copper_casing"
+			id: "55A23312D215E881"
+			tasks: [{
+				id: "7B5D9A66E059651B"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["38F360A9D9483ADF"]
+			id: "00AE72E32C2D0616"
+			tasks: [{
+				id: "436188A8454F6905"
+				item: "kubejs:sealed_mechanism"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3FC77DE69BD49242"]
+			id: "414B29292D2B47E9"
+			tasks: [{
+				id: "1EC2C1D680F12E9F"
+				item: "kubejs:conductive_mechanism"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.5d
 		}
 	]
 	title: "GregTech Progression"

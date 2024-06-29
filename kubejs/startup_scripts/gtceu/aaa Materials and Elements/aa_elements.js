@@ -23,4 +23,5 @@ GTCEuStartupEvents.registry('gtceu:element', event => {
     event.create('void', 39, 189, -1, null, '🕀', false)
     event.create('stellar_matter', 40, 190, -1, null, '♁', false)
     event.create('infinity', 41, 191, -1, null, '⳩', false)
+    event.create('ardite', 42, 183, -1, null, 'Ar', false)
 })

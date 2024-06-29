@@ -1,5 +1,5 @@
 {
-	autofocus_id: "0F6B6479A8529BD2"
+	autofocus_id: "7D685353A25903BB"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create_age"
@@ -21,19 +21,12 @@
 			dependencies: ["6A91810EF77054CF"]
 			description: ["These are the wires of the clockwork age, you best stock up."]
 			id: "7B3581FCBF20F163"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0A5A76617BE0F339"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "195D46CEEBA20947"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1408A75998AF3F44"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			tasks: [{
 				count: 8L
 				id: "07CF7D88040F6F40"
@@ -50,19 +43,12 @@
 			]
 			icon: "create:cogwheel"
 			id: "4AEB55A92229EA6F"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "1D886F7120C5672C"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "409A9EADD53A4930"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05704D93A17ACD75"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			tasks: [
 				{
 					count: 4L
@@ -89,19 +75,12 @@
 			]
 			id: "41B8910A54BA4210"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5A1E421D991E07D8"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "454A5F4258DFB305"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E3CC743EC422C54"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			tasks: [{
 				count: 4L
 				id: "63373B3386A2AE9D"
@@ -122,19 +101,12 @@
 			icon: "create:windmill_bearing"
 			id: "2C85B125BAEF65A3"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3BD61E506BA82DE3"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "00C5A6AD7819AE5B"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "155332698C4B246F"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			shape: "pentagon"
 			tasks: [
 				{
@@ -160,19 +132,12 @@
 			id: "10662D01B89030A9"
 			optional: true
 			require_sequential_tasks: false
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "1B15CFC9CB81540B"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "6E832858AD1A918C"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FBAACE41B851500"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			shape: "pentagon"
 			tasks: [
 				{
@@ -195,19 +160,12 @@
 			description: ["You will need a lot of these materials going forward, and no, the recipies won't get better until the LV age, so I suggest doing some bulk crafting."]
 			icon: "gtceu:wood_gear"
 			id: "365710CA452DFB41"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "690CDDA055CFE336"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "65E92AAFBAD69EDD"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50D68CAA3D4122E2"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			tasks: [
 				{
 					count: 64L
@@ -233,10 +191,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"365710CA452DFB41"
-				"4AEB55A92229EA6F"
-			]
+			dependencies: ["3F16A7C0469D780A"]
 			description: [
 				"Your first real machines, you'll need a few of each if you want to create production lines, which I would reccomend as it'll make things easier."
 				""
@@ -244,19 +199,12 @@
 				"Due to the Create:Casing mod, you can right-click any Create machine to change it's casing with another casing type. You even get to keep the casing!"
 			]
 			id: "576E2F40DEF76344"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0D9A9FD4AB9C582B"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "541A00123F386E5F"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2890EA1B5BCC8613"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			shape: "octagon"
 			tasks: [
 				{
@@ -280,32 +228,25 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 3.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["576E2F40DEF76344"]
 			id: "5D543CB93A9280B1"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "6FEEDEA85E38111A"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "3BD96BC61CC91ADA"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0240387E57A71E2D"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2E69345E197F8392"
 				item: "gtceu:compressed_coke_clay"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["365710CA452DFB41"]
@@ -314,19 +255,12 @@
 			icon: "create:encased_fan"
 			id: "25563EB0D3B172D1"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "037B4BFD67CF89DC"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "05D74034760E5958"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7813729C2D72CD11"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			tasks: [{
 				id: "66F7D92C462934BF"
 				item: "create:encased_fan"
@@ -342,26 +276,19 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "78F515CD1306B155"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "72A2A00506EE33EC"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "206F7352BAACA8DB"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72102679F0C23018"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			tasks: [{
 				id: "503DCBB09DDFE677"
 				item: "gtceu:coke_oven_brick"
 				type: "item"
 			}]
 			x: 4.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -371,70 +298,49 @@
 			dependency_requirement: "one_completed"
 			id: "5468ECF42040C129"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3E2EEC253FC07D6C"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "010B7CE6E6BDF2FF"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CFEDF23C4294DB0"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			tasks: [{
 				id: "32EF712A9F48BD2B"
 				item: "minecraft:brick"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.0d
+			x: 3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["78F515CD1306B155"]
 			icon: "gtceu:coke_oven"
 			id: "392ACD047179A5D8"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3ED45688E8C222DF"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "16852F59734F0034"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AA8DC24C1AEFDCA"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2B5E7E9BA09084D0"
 				item: "gtceu:coke_oven"
 				type: "item"
 			}]
 			x: 5.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["392ACD047179A5D8"]
 			icon: "gtceu:coke_oven"
 			id: "6E3CD9EF8D2F90DC"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "11D266EEF95ADB41"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "682E2451C036DEAF"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1445BE13C5F990D9"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			tasks: [
 				{
 					count: 3L
@@ -451,26 +357,19 @@
 			]
 			title: "Coke Oven Upgrades"
 			x: 4.5d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6A91810EF77054CF"]
 			description: ["Like a belt, but for fluids"]
 			hide_dependency_lines: true
 			id: "72A7E79D2BF58883"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "748190376769792B"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "11BEEE739A4A5D75"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "652B8EE297369AA5"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0F852B98B1B28B8E"
 				item: "create:fluid_pipe"
@@ -486,19 +385,12 @@
 			]
 			description: ["Until you unlock electricity, this is how you'll get fluids moving from one tank to another."]
 			id: "39913C4EB821EEAF"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0F3942190C0AB8A3"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "5400CD8F4BC3BC35"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20C13ACD95D04122"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			tasks: [{
 				id: "69738412936CCB84"
 				item: "create:mechanical_pump"
@@ -508,22 +400,18 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["6010D47FC93874BE"]
+			dependencies: [
+				"6010D47FC93874BE"
+				"3F6FDBA7072BA16C"
+			]
 			description: ["Here's your basic fluid I/O for buckets."]
 			id: "2BCE33B1C25758FC"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "15B4D80DAAE743E1"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "3890A20795183198"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "348306A10ED16E88"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "080FC0EB40D193E0"
@@ -548,19 +436,12 @@
 			]
 			description: ["This is your first \"circuit\". You will be making a few of these, fortunantly the recipe gets easier soon."]
 			id: "4E68C8330998DB20"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "52B33E15FCB6DEEA"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "6AA7CC370F6789DD"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52D1818359441570"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
@@ -577,19 +458,12 @@
 				"576E2F40DEF76344"
 			]
 			id: "3BB723ACE6619C1E"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3C0D9C8B83B7836E"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "4625F102BFDDEABF"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33C4B0C2343459AE"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			tasks: [{
 				id: "0843483B4E1EE15E"
 				item: "gtceu:wrought_iron_ingot"
@@ -600,23 +474,18 @@
 		}
 		{
 			dependencies: [
-				"6D3322D2FFCBEB8C"
 				"491F667B940BC625"
+				"6A228055D07D3270"
+				"6D3322D2FFCBEB8C"
 			]
+			hide_dependent_lines: true
 			id: "1928A0F6075A46AC"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "55189602B72FA697"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "5BE88077735544F2"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "230F4F4786A135F0"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
@@ -624,7 +493,7 @@
 				item: "kubejs:clockwork_mechanism"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 7.0d
 			y: 7.0d
 		}
 		{
@@ -632,21 +501,15 @@
 				"4E68C8330998DB20"
 				"576E2F40DEF76344"
 			]
+			hide_dependent_lines: true
 			id: "35F0F173EF427B4F"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "1FF85DA02C0D8C8F"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "107E1B3110ED7DC3"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EE4331D91C5BC1D"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "6A048218C961480E"
@@ -675,19 +538,12 @@
 			]
 			id: "32868E00D20F376B"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "790B48B9953F0E56"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "1EEDEC53B4FB5BCC"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F07464BBC028D22"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "3CBFDF8BBFF0C8FF"
@@ -706,7 +562,7 @@
 				}
 			]
 			title: "Better Automation"
-			x: 5.0d
+			x: 10.0d
 			y: 5.0d
 		}
 		{
@@ -716,45 +572,31 @@
 			]
 			hide_dependency_lines: true
 			id: "7B7972A45D7832ED"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3125D1CF424E7DFD"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "791499D68747E0DF"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79B94985F90582FD"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			tasks: [{
 				id: "10A69A28D3CE95F3"
 				item: "gtceu:treated_wood_planks"
 				type: "item"
 			}]
 			x: 6.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7B7972A45D7832ED"]
 			description: ["This doesn't produce much now, but later you can upgrade it in the lv age and again in the mv age with lv and mv output hatches."]
 			icon: "gtceu:primitive_pump"
 			id: "16097A516149B5E3"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0D3700D9520FBB18"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "78945DC1F3BAFDC8"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1ADB798559D0D31B"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "1529D817E61794DC"
@@ -781,29 +623,19 @@
 			]
 			title: "Early Infinite Water"
 			x: 7.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
-			dependencies: [
-				"1928A0F6075A46AC"
-				"235E8244B5B522FF"
-			]
+			dependencies: ["1928A0F6075A46AC"]
 			description: ["You will need these if you want to make a pumpjack to get oil before the Mv Age."]
 			id: "07B9229EA02A6C1E"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "08733E446ADB4944"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "6D1268BEC9A0BD84"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44F65069ED3D7BE2"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
@@ -811,27 +643,20 @@
 				item: "kubejs:advanced_clockwork_mechanism"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 7.0d
+			x: 9.0d
+			y: 10.25d
 		}
 		{
 			dependencies: ["576E2F40DEF76344"]
 			icon: "gtceu:compressed_clay"
 			id: "606DA6A53D1E2C79"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4BE1223285216701"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "1DDCF7BFC8906F96"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B475DF0899FAAC0"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "27C876B3DD144262"
@@ -850,25 +675,18 @@
 				}
 			]
 			x: 3.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6D3322D2FFCBEB8C"]
 			description: ["Yes, you have been able to make these before now, but they weren't useful, so I didn't ask for one."]
 			id: "48DC0E7A6ADBFFCE"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "180ACD1AF8F76DCF"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "5839B08326D727C1"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "773194410132F79A"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			shape: "gear"
 			size: 1.25d
 			tasks: [{
@@ -876,47 +694,8 @@
 				item: "create:brass_casing"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 4.0d
-		}
-		{
-			dependencies: [
-				"4E5F6BF9EF55DC13"
-				"1928A0F6075A46AC"
-				"38747E7B7CB63D8D"
-				"36C838DF116F3DC6"
-			]
-			icon: "gtceu:bronze_machine_casing"
-			id: "54D5926072B165D5"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "054E3F8D47D4D356"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "57F86348224FCC56"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			shape: "gear"
-			size: 1.5d
-			tasks: [
-				{
-					id: "6B3AECE0967B849C"
-					item: "gtceu:bronze_machine_casing"
-					type: "item"
-				}
-				{
-					id: "6039EEB316AF50B6"
-					item: "gtceu:bronze_brick_casing"
-					type: "item"
-				}
-			]
-			x: 9.5d
-			y: 2.0d
+			x: 9.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -925,19 +704,12 @@
 			]
 			description: ["You can right click these with a torch to light them."]
 			id: "0F6B6479A8529BD2"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "17C2251708C16C77"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "7D900A1202E75819"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "403007467024AEBF"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			tasks: [{
 				id: "5C5A9810613F98B9"
 				item: "createlowheated:basic_burner"
@@ -949,103 +721,65 @@
 		{
 			dependencies: ["7F4D9E3845178B7B"]
 			id: "235E8244B5B522FF"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0AA8132580F043D9"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "4D7F4FF67CD12828"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F21E7D66EA72D55"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			tasks: [{
 				id: "499FBDCB3A5C20DE"
 				item: "gtceu:poor_steel_ingot"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 5.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["0F6B6479A8529BD2"]
+			dependencies: ["6A228055D07D3270"]
 			id: "6D3322D2FFCBEB8C"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "49FB23FA89C0F166"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "793B580C72B36E92"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38DF5E002F41D112"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			tasks: [{
-				id: "5052AE665D6CB435"
-				item: "gtceu:brass_dust"
+				id: "5FD5BA16CC948846"
+				item: "gtceu:brass_ingot"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["0F6B6479A8529BD2"]
-			id: "4E5F6BF9EF55DC13"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "46EBE4187B898528"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "43A674D2702CFBA9"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				id: "4579ED4ED462F453"
-				item: "gtceu:bronze_dust"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 2.0d
+			x: 9.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["48DC0E7A6ADBFFCE"]
 			id: "38747E7B7CB63D8D"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "7857F5AF3FCB8622"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "5CBB4DB458EBA3C8"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0810ADD8C49D5261"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			tasks: [{
 				id: "07A2F8204D1E941A"
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 4.0d
+			x: 9.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["5468ECF42040C129"]
+			hide_dependent_lines: true
 			id: "36C838DF116F3DC6"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "043362A8AE62B8AD"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
@@ -1053,27 +787,20 @@
 				item: "minecraft:bricks"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.0d
+			x: 3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["38747E7B7CB63D8D"]
 			description: ["It's not worth it, don't make these, the nerf is intentional."]
 			id: "72092B24E1356AA6"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "13B7148C8DBBD73E"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "476232EA7CE2B768"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EFD49582EDEC1CD"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			shape: "pentagon"
 			tasks: [
 				{
@@ -1087,26 +814,19 @@
 					type: "item"
 				}
 			]
-			x: 7.5d
-			y: 3.0d
+			x: 10.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["72A7E79D2BF58883"]
 			description: ["Early bulk fluid storage. Unfortunantly, you can't dirrectly right click this with buckets for I/O."]
 			id: "6010D47FC93874BE"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "5CABB1AD70DF22E4"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "46179F53F9B7E54B"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "341E5218D2523528"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6FDDD1D29CC1BE3B"
 				item: "create:fluid_tank"
@@ -1117,24 +837,17 @@
 		}
 		{
 			dependencies: [
-				"72A7E79D2BF58883"
 				"4E68C8330998DB20"
+				"3F6FDBA7072BA16C"
 			]
 			id: "395FE02FF61A1EAF"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "54C11FBCB594C36A"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "743DC593E38DE1F8"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "413E79656183EF3C"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			tasks: [{
 				id: "75698E9152ADF0F7"
 				item: "create:smart_fluid_pipe"
@@ -1151,12 +864,13 @@
 			optional: true
 			rewards: [
 				{
-					id: "35FBF4658C240B5B"
+					exclude_from_claim_all: true
+					id: "04C27E12A83136DB"
 					table_id: 1979144794260430301L
 					type: "random"
 				}
 				{
-					id: "5C6BAD3BB6564C8E"
+					id: "0F32E8E98AA7A8F7"
 					item: {
 						Count: 1
 						id: "gtceu:damascus_steel_mining_hammer"
@@ -1204,26 +918,19 @@
 				}
 			]
 			x: 5.5d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["25563EB0D3B172D1"]
 			description: ["You can get iron nuggets from washing gravel."]
 			id: "10C065ECA848A594"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "6EB8B4D00C37289A"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "37E1EC9537F2846A"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5FF06B25FAAFCAF1"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			tasks: [{
 				id: "1AF455FBDF1DC563"
 				item: "workshop_for_handsome_adventurer:tool_rack_framed_oak"
@@ -1243,11 +950,19 @@
 			icon: "create:goggles"
 			id: "076AB0E738B70451"
 			optional: true
-			rewards: [{
-				id: "50F6452B1ED306A6"
-				item: "create:goggles"
-				type: "item"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "181ABFA8426F8466"
+					table_id: 1979144794260430301L
+					type: "random"
+				}
+				{
+					id: "6572FB9761107F2F"
+					item: "create:goggles"
+					type: "item"
+				}
+			]
 			shape: "octagon"
 			tasks: [{
 				count: 64L
@@ -1265,100 +980,72 @@
 			]
 			id: "7D685353A25903BB"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "36853D46EE2AFD7B"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "3A66064F37B0E7CC"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "476E01A42B1E24A8"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			shape: "pentagon"
 			tasks: [{
 				id: "0B283EC57F7847B3"
 				item: "create:steam_engine"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 5.0d
+			x: 7.0d
+			y: 5.5d
 		}
 		{
-			dependencies: ["1928A0F6075A46AC"]
+			dependencies: ["491F667B940BC625"]
 			id: "7F4D9E3845178B7B"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "732073E2F19793BD"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "7C18EC33E6FCA127"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62317F7439A9EFFC"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			tasks: [{
 				id: "77D6DF251A3F63FC"
 				item: "create:blaze_burner"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 4.0d
+			x: 5.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["4E68C8330998DB20"]
 			description: ["Now that you have a deployer, you have a better recipe for your electron tubes. You can also start doing some real sequenced assembly projects."]
 			id: "491F667B940BC625"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4F54FA3AC9EBE71E"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "0039EC4DB8C40FD7"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47D34835A84205F3"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			tasks: [{
 				id: "350EAE07F9C82B53"
 				item: "create:deployer"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 5.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["6D3322D2FFCBEB8C"]
 			id: "690F1E476C947D8F"
 			optional: true
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "088E2F8C53AEBD65"
-					table_id: 1979144794260430301L
-					type: "random"
-				}
-				{
-					id: "431446DF32DD84DC"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FB57823A2C3DE64"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			tasks: [{
 				id: "185EF6B6704F0204"
 				item: "create_connected:empty_fan_catalyst"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 10.0d
 			y: 6.0d
 		}
 		{
@@ -1368,7 +1055,7 @@
 			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "11BA7692098E0FDB"
+				id: "617577748448F920"
 				table_id: 1979144794260430301L
 				type: "random"
 			}]
@@ -1391,7 +1078,7 @@
 			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "01FB6182A4F4910F"
+				id: "0BD6D894E709C1A7"
 				table_id: 1979144794260430301L
 				type: "random"
 			}]
@@ -1401,32 +1088,8 @@
 				item: { Count: 2, id: "create:crushing_wheel" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["235E8244B5B522FF"]
-			description: [
-				"The melter is how you will get fluids before you advance to the Lv Age, the heat sources are the following:"
-				""
-				"Heat sources + Heat level"
-				"Torch - 1"
-				"Soul Torch - 1"
-				"Campfire - 2"
-				"Soul Campfire - 2"
-				"Lava - 3"
-				"Blaze burner - 0 (inactive), 1 (fading), 5 (active), 8 (superheated)"
-				""
-				"You can automate this using all your usual I/O methods."
-			]
-			id: "6E3A3E6B7E2E2C95"
-			tasks: [{
-				id: "06BC99772383F030"
-				item: "melter:melter"
-				type: "item"
-			}]
-			x: 13.5d
-			y: 3.0d
+			x: 10.0d
+			y: 8.0d
 		}
 		{
 			can_repeat: true
@@ -1434,9 +1097,10 @@
 			id: "2A6D904B243EA019"
 			optional: true
 			rewards: [{
-				id: "3EEE513F6A7732BC"
-				item: "kubejs:clockwork_mechanism"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "2C8C032B58DFD504"
+				table_id: 1979144794260430301L
+				type: "random"
 			}]
 			size: 0.5d
 			tasks: [{
@@ -1444,7 +1108,7 @@
 				item: "create:precision_mechanism"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 7.5d
 			y: 7.5d
 		}
 		{
@@ -1453,9 +1117,10 @@
 			id: "06F50280030E69BD"
 			optional: true
 			rewards: [{
-				id: "640AD1C16301419F"
-				item: "kubejs:advanced_clockwork_mechanism"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "78A664CA74B0358D"
+				table_id: 1979144794260430301L
+				type: "random"
 			}]
 			size: 0.5d
 			tasks: [{
@@ -1463,8 +1128,666 @@
 				item: "tfmg:steel_mechanism"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 7.5d
+			x: 9.5d
+			y: 10.75d
+		}
+		{
+			dependencies: [
+				"235E8244B5B522FF"
+				"0F6B6479A8529BD2"
+			]
+			id: "3AB54A5E71343454"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "751C77A7E64B9380"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			tasks: [{
+				id: "604C5123E4536120"
+				item: "createmetallurgy:foundry_basin"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3AB54A5E71343454"
+				"51FAB3DA0316BBA5"
+			]
+			id: "6366046B490A9A60"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BF3C5569755DA40"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "40F1CE77AB6086DC"
+					item: "createmetallurgy:casting_basin"
+					type: "item"
+				}
+				{
+					id: "33CA665BE95341A5"
+					item: "createmetallurgy:casting_table"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3AB54A5E71343454"]
+			id: "15F9A636D73D5515"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44CD3A103F3BA44F"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			tasks: [{
+				id: "37C2FE786ACCF78C"
+				item: "createmetallurgy:foundry_lid"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6366046B490A9A60"
+				"15F9A636D73D5515"
+			]
+			id: "1FC56C660A890E5E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CA5212476E228D7"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			tasks: [{
+				id: "25F2F4674367537D"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1FC56C660A890E5E"]
+			id: "7E7EF4E386BC2B6E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "224F5D5670770787"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0A49A0EB7FA7AD12"
+				item: "createmetallurgy:glassed_foundry_lid"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7E7EF4E386BC2B6E"]
+			id: "6A228055D07D3270"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C9E7FD8D4E27E50"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			tasks: [{
+				id: "120C2E953831A0DC"
+				item: "createmetallurgy:foundry_mixer"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"38747E7B7CB63D8D"
+				"1928A0F6075A46AC"
+			]
+			id: "4B661FBF349E3871"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E0DDF54A4090A48"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4461366F5F86B3BC"
+				item: "vintageimprovements:helve_hammer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"38747E7B7CB63D8D"
+				"1928A0F6075A46AC"
+			]
+			id: "687FBBA9A8B4DE35"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "063D0C0F4CE609B2"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6BBB0949F9D9BD6E"
+				item: "vintageimprovements:lathe"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6366046B490A9A60"]
+			id: "0A9D0C64A79B2879"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21C52CA1ADDE1679"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5D9F2E475B080FAC"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["235E8244B5B522FF"]
+			hide_dependent_lines: true
+			id: "51FAB3DA0316BBA5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2380DA9F360B42B4"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4BDA26B19C8488E9"
+				item: "vintageimprovements:vacuum_chamber"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1FC56C660A890E5E"]
+			id: "0581896335A678AC"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "080A24C1F55B6E68"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "2312AA92D7DA2C76"
+				item: "fluidtank:tank_wood"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0581896335A678AC"]
+			id: "12BAC26900561FE2"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "214034B4D4F7439C"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "490F233D714364BC"
+				item: "fluidtank:tank_iron"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1FC56C660A890E5E"]
+			id: "68418E565CCFACAF"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F0F4E70E5D6CDBD"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "75A8BF00135FEFD6"
+				item: "productivebees:bee_cage"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["51FAB3DA0316BBA5"]
+			id: "2D1687EC6CEC6FD9"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "449C73AFDB7DC12F"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "4359E0C48BE5445D"
+				item: "gtceu:compressed_fireclay"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["2D1687EC6CEC6FD9"]
+			id: "47750EB4235088D4"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "640375EF2349F710"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "390F3B63F5848755"
+				item: "gtceu:firebrick"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"47750EB4235088D4"
+				"07B9229EA02A6C1E"
+			]
+			icon: "gtceu:primitive_blast_furnace"
+			id: "2326FE6A4C1C05A1"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51772F6A3D6D5C58"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					id: "3A90ADB55C02FCDA"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "19ECF056F2DEB26F"
+					item: "gtceu:firebricks"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"2326FE6A4C1C05A1"
+				"0E1FF01D42C2C792"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependent_lines: true
+			id: "71EC3043DE613FF5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56FF54728FFE6AA7"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 1.0d
+			tasks: [{
+				id: "608A2061B3043CFB"
+				item: "gtceu:steel_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["2326FE6A4C1C05A1"]
+			description: ["This is really expensive if you haven't gotten the Lv mixer to make concrete with water stone dust and clay dust, a whole lot cheaper than the manual crafting you're doing now."]
+			icon: "gtceu:primitive_blast_furnace"
+			id: "263C39E4AEADD22E"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CC563C879F68E6F"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					count: 3L
+					id: "348D72B40FCC8AD1"
+					item: { Count: 3, id: "gtceu:primitive_blast_furnace" }
+					type: "item"
+				}
+				{
+					count: 51L
+					id: "135C70494DE8FF96"
+					item: { Count: 64, id: "gtceu:firebricks" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["71EC3043DE613FF5"]
+			id: "179BE55EAA6BA680"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15CF331042DE6F61"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "19E8B1C738A5ECA9"
+				item: "gtceu:lv_machine_hull"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["71EC3043DE613FF5"]
+			id: "50D8A91854E4AD06"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10B82D4B643916CC"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "7A622B9C5856B819"
+				item: {
+					Count: 1
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["50D8A91854E4AD06"]
+			id: "27E3ED1A28B9FAC0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5609FEC2739D9855"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "40491FA51738D033"
+				type: "dimension"
+			}]
+			x: 3.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["27E3ED1A28B9FAC0"]
+			id: "7FB07584E38AAF18"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "266B8B51DBA7D675"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "25BF9637BD566D58"
+				item: "gtceu:sulfur_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"71EC3043DE613FF5"
+				"7FB07584E38AAF18"
+			]
+			id: "3207FF72AB2204F6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "596DDA9219404B7D"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "282F540D30D9F036"
+				item: "gtceu:rubber_plate"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["3207FF72AB2204F6"]
+			id: "2E5EC2A70C589B0C"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "502D8EAD8B28DAB4"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "4B17364644495862"
+				item: {
+					Count: 1
+					id: "gtceu:rubber_plunger"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: { }
+						GT.Tool: {
+							Damage: 0
+							MaxDamage: 127
+						}
+						HideFlags: 2
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["3F6FDBA7072BA16C"]
+			description: [
+				"Do you hate endlessly cutting down rubber trees for minimal sticky resin? Do you like LARPing as Plantation owner in 1920's Central Africa/Brazil? Then I have just the thing for you! We at Cattman Modding Inc have developed a new technology for you, the Tree Tap, now you too can set up massive rubber plantations to grow your empire!"
+				""
+				"To use, place the treetap on the trunk of a GT rubber tree, then right click on the tree tap with a bucket. The bigger the tree that the tap is on, the faster it operates."
+				""
+				"This tree tap is automatable, using standard I/O methods."
+			]
+			icon: "treetap:tap"
+			id: "623E05CC59C0246D"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6678DFE378A9E2BF"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [
+				{
+					id: "5512BFE200606C6A"
+					item: "treetap:tap"
+					type: "item"
+				}
+				{
+					id: "30DD552AC247ADD8"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["71EC3043DE613FF5"]
+			id: "44853FAC4AC3675E"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "140FD0A63737965F"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "73ACD7BF8AE35CAC"
+				item: {
+					Count: 1
+					id: "ironchests:iron_dolly"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["71EC3043DE613FF5"]
+			id: "1E899C9F261952B4"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3EC7FDD168F9174E"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "12AC631B598EFE7A"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["07B9229EA02A6C1E"]
+			id: "0E1FF01D42C2C792"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0376D44C5EA02FE3"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6539167F275487A5"
+				item: "tfmg:blast_furnace_output"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["71EC3043DE613FF5"]
+			id: "5DF7C837CAC6AEB2"
+			tasks: [{
+				id: "7B36C26F1F3651DD"
+				item: "tfmg:steel_casing"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"365710CA452DFB41"
+				"4AEB55A92229EA6F"
+			]
+			id: "3F16A7C0469D780A"
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "1D9DB22179130A95"
+				item: "kubejs:rudimentary_mechanism"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["72A7E79D2BF58883"]
+			id: "3F6FDBA7072BA16C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "560D9D58BD82CB30"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "56A05F9CC53FC4B5"
+				item: "kubejs:sealed_mechanism"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["07B9229EA02A6C1E"]
+			id: "7F89E529AADC4C7E"
+			tasks: [{
+				id: "3F378765D6A688C0"
+				item: "kubejs:conductive_mechanism"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 10.5d
 		}
 	]
 	title: "Clockwork Age"

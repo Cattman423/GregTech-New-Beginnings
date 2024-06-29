@@ -22,6 +22,11 @@
 * Progression
   * Moved Scheelite ore veins to Mars
   * Added Ostrum veins to Mars
+  * Removed Steam Age Chapter
+  * Reorked Clockwork Age
+    * Added Metallurgy with Create:Metallurgy
+    * Removed melter in favor of Create:Metallurgy's foundry
+    * Can now aquire steel from either GT Blast furnace or Create:TFMG Blast furnace
 * Multiblocks
   * Removed Kinetic Assembler
 * Materials
@@ -46,6 +51,8 @@
   * Added Hafnium(IV) Oxide
   * Added Cerium(IV) Oxide
   * Added Gunmetal
+  * Added Ardite
+  * Added Manyullyn
   * Removed Lead Styphnate
   * Removed Barium Nitride
 * Ores/fluid Veins
@@ -61,6 +68,9 @@
   * Fixed Custom Ore veins not showing y-levels for vein generation in JEI vein tab
 * Items
   * Added Advanced Command Pod III
+  * Added Rudimentary Mechanism
+  * Added Sealed Mechanism
+  * Added Conductive Mechanism
   * Renamed Extreme Commancd Pod to Advanced Command Pod II
   * Renamed Steel Fuel Injector to and Fuel Injector
   * Renamed Steel Engine Nozzle to Engine Nozzle
@@ -75,28 +85,44 @@
   * Re-added ways to get Gunmetal
   * Gunmetal can be used to make gun internals, with the steel recipe being buffed to give you 4x
   * You can now make torches with Lignite Coal and Lignite Dust
-* Mod Additions
+  * Clockwork Burner no longer needs brass
+  * Added casting recipes for: Red Alloy, Wrought Iron, Lead, Nickel, Bronze, Silver, Brass, Steel, Antimony, Invar, Tin, Zinc, Annealed Copper, Electrum, Iron, Copper, Gold, Battery Alloy, Poor Steel, Tin Alloy, Cupronickel, Blue Alloy, Gunmetal, Raw Rubber, Rubber ingots
+  * Added melting recipes for: Red Alloy, Wrought Iron, Lead, Nickel, Bronze, Silver, Brass, Steel, Antimony, Invar, Tin, Zinc, Annealed Copper, Electrum, Iron, Copper, Gold, Battery Alloy, Poor Steel, Tin Alloy, Cupronickel, Blue Alloy, Gunmetal, Raw Rubber, Rubber ingots and dusts
+  * Added mixer alloying recipes for: Red Alloy, Bronze, Brass, Invar, Electrum, Battery Alloy, Poor Steel, Tin Alloy, Cupronickel, Blue Alloy, Gunmetal, Rubber
+  * Glass Tubes can now be turned from glass blocks
+  * Clockwork Mechanism no longer requires bronze, only brass
+  * Bronze and Steel Machine Casings no longer need Clockwork and Advanced Clockwork Mechanisms respectivly
+  * Bronze and Steel Bricked Casings no longer made via sequential assembly
+  * Bronze and Steel Soldi/Liquid Boilers no longer made via mechanical crafting
+  * Bolts can now be made on the Create Saw at a 2:1 Ratio
+  * Rods can now be made with the Create:Vintage Improvements Lathe at a 1:1 Ratio
+  * Plates can now be made with the Create:Vintage Improvements Helve Hammer at a 3:2 Ratio
+  * Added Sequenced assembly recipes for Create Cogwheels and Large Cogwheels
+* Mod Additions/Removals
   * Added Advanced Peripherals
   * Added Better Archeology
   * Added Cerbon's Better Becons
   * Added Draconic Evolution
+  * Added Create: Metallurgy
+  * Added Armor of the Ages
   * Reactivated Create:Vintage Improvements
+  * Removed Melter Block
 * Mod Updates
-  * Ad Astra: Giselle Addon v6.8
+  * Ad Astra: Giselle Addon v6.9
   * AE2 Insert Export Card v1.2.2
-  * Amendments v1.2.6
+  * Amendments v1.2.8
   * Antiblocks Rechiseld v0.4.3
   * Applied Energistics 2 v15.2.4
   * Artemis' Laboratory Blocks v0.4.1r
   * Artifacts v9.5.11
-  * Balm v7.3.4
+  * Balm v7.3.6
   * Better Advancements v0.4.2.10
   * Bookshelf v20.1.13
   * CC: Tweaked
-  * Chisel v1.7.2
+  * Chisel v1.8.0
   * ChoiceTheorem's Overhauled Village v3.4.4
   * Colorful Hearts v4.2.11
-  * Collective v7.64
+  * Collective v7.68
   * Cooking for Blockheads v16.0.6
   * CorgiLib v4.0.1.3
   * Crafting Tweaks v18.2.4
@@ -107,11 +133,13 @@
   * Create: Numismatics v1.0.6
   * Create: Quality of Life v1.1-ht2
   * CreativeCore v2.11.30
+  * Cupboard v2.7
   * Dawn of Time Builder Edition v1.5.7
   * Delighful v3.5.6
+  * Ding v1.5.0
   * Embeddium v0.3.21
   * Embeddium++ v1.2.13
-  * End's Delight v2.0
+  * End's Delight v2.2
   * Entity Culling v1.6.6
   * Entity Texture Features v6.1.1
   * Extended AE v1.1.10
@@ -126,6 +154,7 @@
   * GregTechCEu Modern v1.3.0-a
   * Guard Villagers v1.6.6
   * GunpowderLib v2.2.2
+  * Infernal Mobs v1.20.1.3
   * Insane Lib v1.13.5
   * Inventory HUD+ v3.4.22
   * Jade v11.9.3
@@ -138,13 +167,14 @@
   * LootJS v2.12.0
   * Lootr v0.7.34.86
   * ModernFix v5.18.1
-  * Moonlight v2.12.2
+  * Moonlight v2.12.6
   * Placebo v8.6.2
-  * Point Blank v1.5.5
+  * Point Blank v1.5.8
   * Polymorph v0.49.5
+  * ProbeJS v7.0.1
   * Productive Bees v12.5.3
   * Productive Trees v0.2.4
-  * PuzzlesLib v8.1.20
+  * PuzzlesLib v8.1.21
   * Sound Physics Remastered v1.4.2
   * Stargate Journey v0.6.27
   * Supplementaries v2.8.17

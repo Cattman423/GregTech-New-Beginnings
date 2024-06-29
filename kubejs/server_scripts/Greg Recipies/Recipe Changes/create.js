@@ -34,35 +34,6 @@ ServerEvents.recipes(event => {
         'createdeco:andesite_sheet',
         'gtceu:andesite_alloy_plate'
         )
-//Poor steel
-    event.recipes.create.mixing(
-        ['3x gtceu:poor_steel_ingot'], 
-        ['2x minecraft:iron_ingot', '2x minecraft:coal']
-        ).heatRequirement('heated')
-    event.recipes.create.pressing(
-        'gtceu:wrought_iron',
-        'gtceu:poor_steel'
-    )
-    event.replaceInput(
-        { input: 'tfmg:cast_iron_ingot' },
-        'tfmg:cast_iron_ingot',
-        'gtceu:poor_steel_ingot'
-        )
-    event.replaceInput(
-        { input: 'createdeco:industrial_iron_ingot' },
-        'createdeco:industrial_iron_ingot',
-        'gtceu:poor_steel_ingot'
-        )
-    event.replaceInput(
-        { input: 'createdeco:industrial_iron_sheet' },
-        'createdeco:industrial_iron_sheet',
-        'gtceu:poor_steel_plate'
-        )
-    event.replaceInput(
-        { input: 'createdeco:zinc_sheet' },
-        'createdeco:zinc_sheet',
-        'gtceu:zinc_plate'
-        )
 //Create rose quartz
     event.replaceInput(
         { input: 'create:polished_rose_quartz' },
@@ -78,15 +49,6 @@ ServerEvents.recipes(event => {
         ['2x gtceu:compressed_coke_clay'], 
         ['2x minecraft:clay_ball', '4x #minecraft:sand']
     )
-//Greg bronze and brass
-    event.recipes.create.mixing(
-        ['3x gtceu:bronze_dust'], 
-        ['3x gtceu:copper_dust', 'gtceu:tin_dust']
-    ).heatRequirement('lowheated')
-    event.recipes.create.mixing(
-        ['3x gtceu:brass_dust'], 
-        ['3x gtceu:copper_dust', 'gtceu:zinc_dust']
-    ).heatRequirement('lowheated')
 //Greg wood plank
     event.shaped(
         Item.of('gtceu:wood_plate', 2),
@@ -318,84 +280,53 @@ ServerEvents.recipes(event => {
             )
         }
 //Create pipes
-    event.shaped(
-        Item.of('create:fluid_pipe',),
-        [
-            'B C',
-            'AAA',
-            '   '
-        ],
-        {
-            A: '#forge:plates/copper',
-            B: '#forge:tools/wrenches',
-            C: '#forge:tools/hammers'
-        }
-        )
-    event.shaped(
-        Item.of('create:mechanical_pump',),
-        [
-            'DC ',
-            'GAH',
-            ' EF'
-        ],
-        {
-            A: 'create:fluid_pipe',
-            C: 'gtceu:andesite_alloy_rotor',
-            D: 'gtceu:andesite_alloy_screw',
-            E: 'create:cogwheel',
-            F: 'create:shaft',
-            G: '#forge:tools/screwdrivers',
-            H: '#forge:tools/wrenches'
-        }
-        )
+    function createpipe(output, metal){
+        event.shaped(
+            Item.of(output),
+            ['B C', 'AAA', '   '],
+            {A: metal, B: '#forge:tools/wrenches', C: '#forge:tools/hammers'})
+    }
+    function createpump(output, pipe){
+        event.shaped(
+            Item.of(output),
+            ['DC ', 'GAH', ' EF'],
+            {A: pipe, C: 'gtceu:andesite_alloy_rotor', D: 'gtceu:andesite_alloy_screw', E: 'create:cogwheel',
+            F: 'create:shaft', G: '#forge:tools/screwdrivers', H: '#forge:tools/wrenches'})
+    }
+    function createsmartpipe(output, pipe){
+        event.shaped(
+            Item.of(output),
+            ['EFG', 'BAB', 'DCD'],
+            {A: pipe, B: 'kubejs:sealed_mechanism', C: 'create:electron_tube', D: 'gtceu:andesite_alloy_screw', 
+            E: '#forge:tools/wrenches', F: 'gtceu:brass_plate', G: '#forge:tools/screwdrivers'})
+    }
+    createpipe('create:fluid_pipe', '#forge:plates/copper')
+    createpipe('tfmg:cast_iron_pipe', 'gtceu:poor_steel_plate')
+    createpipe('tfmg:steel_pipe', 'gtceu:steel_plate')
+    createpipe('tfmg:brass_pipe', 'gtceu:brass_plate')
+    createpump('create:mechanical_pump', 'create:fluid_pipe')
+    createpump('tfmg:cast_iron_mechanical_pump', 'tfmg:cast_iron_pipe')
+    createpump('tfmg:steel_mechanical_pump', 'tfmg:steel_pipe')
+    createpump('tfmg:brass_mechanical_pump', 'tfmg:brass_pipe')
+    createsmartpipe('create:smart_fluid_pipe', 'create:fluid_pipe')
+    createsmartpipe('tfmg:cast_iron_smart_fluid_pipe', 'tfmg:cast_iron_pipe')
+    createsmartpipe('tfmg:steel_smart_fluid_pipe', 'tfmg:steel_pipe')
+    createsmartpipe('tfmg:brass_smart_fluid_pipe', 'tfmg:brass_pipe')
     event.shaped(
         Item.of('create:fluid_tank',),
-        [
-            ' C ',
-            'ABA',
-            'ABA'
-        ],
-        {
-            A: 'gtceu:copper_plate',
-            B: 'gtceu:long_copper_rod',
-            C: '#forge:tools/hammers'
-        }
-        )
+        [' C ', 'ABA', 'ABA'],
+        {A: 'gtceu:copper_plate', B: 'gtceu:long_copper_rod', C: '#forge:tools/hammers'})
     event.shaped(
         Item.of('create:spout'),
-        [
-            'CED',
-            'FAF',
-            'GBG'
-        ],
-        {
-            A: 'create:fluid_tank',
-            B: 'create:fluid_pipe',
-            C: '#forge:tools/hammers',
-            D: '#forge:tools/wrenches',
-            E: '#forge:tools/screwdrivers',
-            F: '#forge:small_bakelite',
-            G: 'gtceu:andesite_alloy_screw'
-        }
-        )
+        ['CED', 'FAF', 'GBG'],
+        {A: 'create:fluid_tank', B: 'create:fluid_pipe', C: '#forge:tools/hammers', D: '#forge:tools/wrenches',
+        E: '#forge:tools/screwdrivers', F: 'kubejs:sealed_mechanism', G: 'gtceu:andesite_alloy_screw'})
     event.shaped(
         Item.of('create:item_drain'),
-        [
-            'CBD',
-            'FAF',
-            'GEG'
-        ],
-        {
-            A: 'create:fluid_tank',
-            B: 'minecraft:iron_bars',
-            C: '#forge:tools/hammers',
-            D: '#forge:tools/wrenches',
-            E: '#forge:tools/screwdrivers',
-            F: 'gtceu:copper_plate',
-            G: 'gtceu:andesite_alloy_screw'
-        }
-        )
-//Create intermediates    
+        ['CBD', 'FAF', 'GEG'],
+        {A: 'create:fluid_tank', B: 'minecraft:iron_bars', C: '#forge:tools/hammers', D: '#forge:tools/wrenches',
+        E: '#forge:tools/screwdrivers', F: 'kubejs:sealed_mechanism', G: 'gtceu:andesite_alloy_screw'})
+//Create intermediates
     event.shaped(
         Item.of('create:whisk',),
         [
@@ -425,6 +356,21 @@ ServerEvents.recipes(event => {
             E: 'gtceu:andesite_alloy_screw'
         }
     )
+    event.shaped(
+        Item.of('create:brass_hand'),
+        [
+            ' A ',
+            'BBB',
+            ' B '
+        ],
+        {
+            A: 'create:andesite_alloy',
+            B: 'gtceu:double_copper_plate',
+            //C: '#forge:tools/wrenches',
+            //D: '#forge:tools/hammers',
+            //E: 'create:electron_tube'
+        }
+        )
     
     event.recipes.gtceu.circuit_assembler('electron_tube')
         .itemInputs('gtceu:wrought_iron_bolt', 'create:polished_rose_quartz')
@@ -479,7 +425,7 @@ ServerEvents.recipes(event => {
                 A: input,
                 B: 'create:andesite_casing',
                 C: shaft,
-                D: '#forge:small_bakelite',
+                D: 'kubejs:rudimentary_mechanism',
                 E: '#forge:tools/wrenches',
                 F: '#forge:tools/screwdrivers',
                 G: 'gtceu:andesite_alloy_screw'
@@ -530,16 +476,17 @@ ServerEvents.recipes(event => {
     event.recipes.create.mechanical_crafting(
         'vintageimprovements:helve_hammer', 
         [ 
-            ' B SS',
-            'BLLLC',
-            'BB  s'
+            ' B SS ',
+            'BLLLCD',
+            'BB  s '
         ], 
         {
             S: 'gtceu:iron_spring',
-            B: 'gtceu:double_iron_plate',
+            B: 'minecraft:iron_block',
             L: '#minecraft:logs',
             s: 'create:shaft',
-            C: 'create:andesite_casing'
+            C: 'create:andesite_casing',
+            D: 'kubejs:clockwork_mechanism'
         }
         )
 //Create kinetic generators
@@ -667,12 +614,16 @@ ServerEvents.recipes(event => {
     casingass('brass_casing_wood', '6x gtceu:brass_plate', '#forge:stripped_wood', '2x create:brass_casing')
     casingass('copper_casing_log', '6x gtceu:copper_plate', '#forge:stripped_logs', '2x create:copper_casing')
     casingass('copper_casing_wood', '6x gtceu:copper_plate', '#forge:stripped_wood', '2x create:copper_casing')
+    casingass('steel_casing_log', '6x gtceu:steel_plate', '#forge:stripped_logs', '2x tfmg:steel_casing')
+    casingass('steel_casing_wood', '6x gtceu:steel_plate', '#forge:stripped_wood', '2x tfmg:steel_casing')
     casingcraft('create:andesite_casing', 'gtceu:andesite_alloy_plate', '#forge:stripped_logs')
     casingcraft('create:andesite_casing', 'gtceu:andesite_alloy_plate', '#forge:stripped_wood')
     casingcraft('create:brass_casing', 'gtceu:brass_plate', '#forge:stripped_logs')
     casingcraft('create:brass_casing', 'gtceu:brass_plate', '#forge:stripped_wood')
     casingcraft('create:copper_casing', 'gtceu:copper_plate', '#forge:stripped_logs')
     casingcraft('create:copper_casing', 'gtceu:copper_plate', '#forge:stripped_wood')
+    casingcraft('tfmg:steel_casing', 'gtceu:steel_plate', '#forge:stripped_logs')
+    casingcraft('tfmg:steel_casing', 'gtceu:steel_plate', '#forge:stripped_wood')
     mechcreate('create:encased_fan', 'gtceu:andesite_alloy_rotor', 'create:shaft')
     mechcreate('create:mechanical_press', 'gtceu:double_iron_plate', 'create:shaft')
     mechcreate('create:mechanical_mixer', 'create:whisk', 'create:shaft')
@@ -689,8 +640,8 @@ ServerEvents.recipes(event => {
     mechcreate('create:rope_pulley', '#forge:rope', 'create:electron_tube')
     mechcreate('sliceanddice:slicer', 'create:turntable', 'create:electron_tube')
     mechcreate('rechiseledcreate:mechanical_chisel', 'rechiseled:chisel', 'create:shaft')
-    mechcreate('createqol:botanist_saw', 'chipped:botanist_table', 'create:shaft')
-    mechcreate('createqol:glassblower_saw', 'chipped:glassblower_table', 'create:shaft')
+    mechcreate('createqol:botanist_saw', 'chipped:botanist_workbench', 'create:shaft')
+    mechcreate('createqol:glassblower_saw', 'chipped:glassblower', 'create:shaft')
     mechcreate('createqol:loom_saw', 'chipped:loom_table', 'create:shaft')
     mechcreate('createqol:mason_saw', 'chipped:mason_table', 'create:shaft')
     mechcreate('createqol:tinkering_saw', 'chipped:tinkering_table', 'create:shaft')

@@ -40,7 +40,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["54D5926072B165D5"]
 			description: [
 				"You must keep your boilers stocked with water, should you add water to a heated and dry boiler, you will have a crater where your steam set up was."
 				""
@@ -404,7 +403,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["785B366763815E81"]
 			description: [
 				"&lWhy process ore?"
 				""
@@ -798,7 +796,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["672A1709AB494310"]
 			description: [
 				"You might already be familiar with EU as the Energy Unit for Electric machines - but what about Steam?"
 				""

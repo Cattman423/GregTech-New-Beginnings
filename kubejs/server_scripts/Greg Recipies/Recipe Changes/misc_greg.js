@@ -188,7 +188,7 @@ ServerEvents.recipes(event => {
         Item.of('treetap:tap'),
         [
             'ABC',
-            'DDE',
+            'DIE',
             'FGH'
         ],
         {
@@ -199,7 +199,8 @@ ServerEvents.recipes(event => {
             E: 'gtceu:copper_small_fluid_pipe',
             F: 'gtceu:copper_large_fluid_pipe',
             G: '#forge:tools/wrenches',
-            H: '#forge:tools/files'
+            H: '#forge:tools/files',
+            I: 'kubejs:sealed_mechanism'
         }
         )
     event.recipes.gtceu.compressor('jumbo_furnace')
@@ -254,7 +255,9 @@ ServerEvents.recipes(event => {
         .duration(sec*15)
         .EUt(lv)
 //
-    const gtrawore = Ingredient.of('#forge:raw_materials').itemIds
+    const gtrawore = Ingredient.of('#forge:raw_materials').itemIds.filter((name) => {
+        return name.includes('gtceu') == true
+    })
 
     gtrawore.forEach( (itemIds) => {
         if(

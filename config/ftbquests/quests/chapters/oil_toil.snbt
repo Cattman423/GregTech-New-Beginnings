@@ -637,7 +637,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["672A1709AB494310"]
 			hide_dependent_lines: true
 			id: "5A5E815CF1A6C415"
 			shape: "hexagon"
