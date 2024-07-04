@@ -124,4 +124,9 @@ StartupEvents.registry('item', event => {
     event.create('crushed_netherite_scrap')
         .displayName('Crushed Netherite Scrap')
         .texture('gtceu:item/ores/crushed_netherite_scrap')
+
+//Misc
+    event.create('round_casting_mold')
+        .displayName('Casting Mold (Round)')
+        .texture('gtceu:item/misc/round_casting_mold')
 })

@@ -151,3 +151,8 @@ ServerEvents.tags('block', event => {
     event.add('ad_astra:moon_stone_replaceables', 'minecraft:soul_soil')
     event.add('minecraft:nether_carver_replaceables', 'minecraft:soul_soil')
 })
+
+ServerEvents.tags('fluid', event => {
+    event.add('forge:oil', 'tfmg:crude_oil_fluid')
+    event.add('forge:oil', 'gtceu:oil')
+})

@@ -432,6 +432,18 @@ ServerEvents.recipes(event => {
             }
             )
     }
+    event.shaped(
+        Item.of('vintageimprovements:vacuum_chamber'),
+        ['ECF', 'DBD', 'GAG'],
+        {A: 'create:mechanical_pump', B: 'create:andesite_casing', C: 'kubejs:sealed_mechanism', D: 'kubejs:rudimentary_mechanism',
+        E: '#forge:tools/wrenches', F: '#forge:tools/screwdrivers', G: 'gtceu:andesite_alloy_screw'}
+    )
+    event.shaped(
+        Item.of('vintageimprovements:curving_press'),
+        ['ECF', 'DBD', 'G G'],
+        {/*A: 'create:mechanical_pump', */B: 'create:andesite_casing', C: 'create:shaft', D: 'kubejs:rudimentary_mechanism',
+        E: '#forge:tools/wrenches', F: '#forge:tools/screwdrivers', G: 'gtceu:andesite_alloy_screw'}
+    )
 
     event.recipes.gtceu.assembler('generator_coil_copper')
         .itemInputs('create:shaft', '32x gtceu:fine_copper_wire')
@@ -614,16 +626,20 @@ ServerEvents.recipes(event => {
     casingass('brass_casing_wood', '6x gtceu:brass_plate', '#forge:stripped_wood', '2x create:brass_casing')
     casingass('copper_casing_log', '6x gtceu:copper_plate', '#forge:stripped_logs', '2x create:copper_casing')
     casingass('copper_casing_wood', '6x gtceu:copper_plate', '#forge:stripped_wood', '2x create:copper_casing')
-    casingass('steel_casing_log', '6x gtceu:steel_plate', '#forge:stripped_logs', '2x tfmg:steel_casing')
-    casingass('steel_casing_wood', '6x gtceu:steel_plate', '#forge:stripped_wood', '2x tfmg:steel_casing')
+    casingass('steel_casing_log', '6x gtceu:steel_plate', 'kubejs:stripped_treated_wood_log', '2x tfmg:steel_casing')
+    casingass('steel_casing_wood', '6x gtceu:steel_plate', 'kubejs:stripped_treated_wood', '2x tfmg:steel_casing')
+    casingass('electrum_casing_log', '6x gtceu:electrum_plate', 'kubejs:stripped_treated_wood_log', '2x kubejs:electrum_casing')
+    casingass('electrum_casing_wood', '6x gtceu:electrum_plate', 'kubejs:stripped_treated_wood', '2x kubejs:electrum_casing')
     casingcraft('create:andesite_casing', 'gtceu:andesite_alloy_plate', '#forge:stripped_logs')
     casingcraft('create:andesite_casing', 'gtceu:andesite_alloy_plate', '#forge:stripped_wood')
     casingcraft('create:brass_casing', 'gtceu:brass_plate', '#forge:stripped_logs')
     casingcraft('create:brass_casing', 'gtceu:brass_plate', '#forge:stripped_wood')
     casingcraft('create:copper_casing', 'gtceu:copper_plate', '#forge:stripped_logs')
     casingcraft('create:copper_casing', 'gtceu:copper_plate', '#forge:stripped_wood')
-    casingcraft('tfmg:steel_casing', 'gtceu:steel_plate', '#forge:stripped_logs')
-    casingcraft('tfmg:steel_casing', 'gtceu:steel_plate', '#forge:stripped_wood')
+    casingcraft('tfmg:steel_casing', 'gtceu:steel_plate', 'kubejs:stripped_treated_wood_log')
+    casingcraft('tfmg:steel_casing', 'gtceu:steel_plate', 'kubejs:stripped_treated_wood')
+    casingcraft('kubejs:electrum_casing', 'gtceu:electrum_plate', 'kubejs:stripped_treated_wood_log')
+    casingcraft('kubejs:electrum_casing', 'gtceu:electrum_plate', 'kubejs:stripped_treated_wood')
     mechcreate('create:encased_fan', 'gtceu:andesite_alloy_rotor', 'create:shaft')
     mechcreate('create:mechanical_press', 'gtceu:double_iron_plate', 'create:shaft')
     mechcreate('create:mechanical_mixer', 'create:whisk', 'create:shaft')

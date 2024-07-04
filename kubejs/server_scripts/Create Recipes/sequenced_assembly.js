@@ -209,6 +209,7 @@ ServerEvents.recipes(event => {
         Item.of('create:cogwheel')
     ], 'create:shaft', [
         event.recipes.createDeploying(kjscg, [kjscg, '#forge:small_bakelite']),
+        event.recipes.createFilling(kjscg, [kjscg, Fluid.of(('gtceu:glue'), 50)]),
         event.recipes.createPressing(kjscg, kjscg),
     ]).transitionalItem(kjscg).loops(1)
 
@@ -217,6 +218,7 @@ ServerEvents.recipes(event => {
         Item.of('create:large_cogwheel')
     ], 'create:shaft', [
         event.recipes.createDeploying(kjslcg, [kjslcg, '#forge:bakelite']),
+        event.recipes.createFilling(kjslcg, [kjslcg, Fluid.of(('gtceu:glue'), 50)]),
         event.recipes.createPressing(kjslcg, kjslcg),
     ]).transitionalItem(kjslcg).loops(1)
 })

@@ -403,6 +403,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["31A4B48A295F5197"]
 			description: [
 				"&lWhy process ore?"
 				""
@@ -796,6 +797,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["6A228055D07D3270"]
 			description: [
 				"You might already be familiar with EU as the Energy Unit for Electric machines - but what about Steam?"
 				""
@@ -815,6 +817,7 @@
 			]
 			icon: "gtceu:steam_machine_casing"
 			id: "7FB2D6C9A3763A47"
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{

@@ -273,6 +273,44 @@ ServerEvents.recipes(event => {
             event.shapeless((Item.of('9x ' + itemIds)), ['gtceu:raw_' + itemIds.slice(10) + '_block'])
         }
     })
+//Round mold/casting
+    const gtround = Ingredient.of('#forge:rounds').itemIds
+    event.shaped(
+        Item.of('kubejs:round_casting_mold'),
+        ['A  ', '   ', '  B'],
+        {A: '#forge:tools/hammers', B: 'gtceu:empty_mold'}
+    )
+    event.recipes.gtceu.forming_press('round_casting_mold')
+        .notConsumable('kubejs:round_casting_mold')
+        .itemInputs('gtceu:empty_mold')
+        .itemOutputs('kubejs:round_casting_mold')
+        .EUt(22)
+        .duration(sec*6)
+    event.recipes.gtceu.arc_furnace('arc_round_casting_mold')
+        .itemInputs('kubejs:round_casting_mold')
+        .inputFluids('gtceu:oxygen 224')
+        .itemOutputs('4x gtceu:steel_ingot')
+        .EUt(lv)
+        .duration(sec*11.2)
+    event.recipes.gtceu.macerator('macerate_casting_mold')
+        .itemInputs('kubejs:round_casting_mold')
+        .itemOutputs('4x gtceu:steel_dust')
+        .EUt(ulv)
+        .duration(sec*11.2)
+    gtround.forEach( (base) => {
+        event.recipes.gtceu.alloy_smelter('kubejs:gtceu/alloy_smelter/misc_greg/' + base.slice(6, -1) + 'd')
+            .notConsumable('kubejs:round_casting_mold')
+            .itemInputs(base.slice(0, -5) + 'ingot')
+            .itemOutputs('9x ' + base)
+            .EUt(ulv)
+            .duration(sec*10)
+        event.recipes.gtceu.fluid_solidifier('kubejs:gtceu/fluid_solidifier/misc_greg/' + base.slice(6, -1) + 'd')
+            .notConsumable('kubejs:round_casting_mold')
+            .inputFluids(base.slice(0, -6) + ' 144')
+            .itemOutputs('9x ' + base)
+            .EUt(ulv)
+            .duration(sec*10)
+    })
 //
     smelting('gtceu:raw_zircon', 'gtceu:zirconium_ingot')
     smelting('gtceu:endstone_zircon_ore', '2x gtceu:zirconium_ingot')

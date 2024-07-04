@@ -370,7 +370,7 @@ const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
         .gem()
         .components('3x prasiolite', '4x bismuth_tellurite', 'cubic_zirconium', 'magnetic_steel')
         .color(0xD472D4)
-        .iconSet(DULL)
+        .iconSet(MAGNETIC)
         .flags(lens, magnetic, no_plate_compressor_craft)
 
     event.create('dibismuthhydroborat')
@@ -462,6 +462,20 @@ const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
         .flags(no_decomp, plates)
         .toolStats(ToolProperty.Builder.of(9.0, 7.0, 2048, 4).enchantability(14).build())
         .blastTemp(4500, 'high', 7680, 2400)
+
+    event.create('nethersteel')
+        .ingot()
+        .fluid()
+        .color(0x473136)
+        .iconSet(METALLIC)
+        .components('netherite', '4x steel')
+        .blastTemp(2000, 'mid', 480, 2400)
+
+    event.create('argent_gunmetal')
+        .ingot()
+        .color(0x683440)
+        .components('gunmetal', '3x blaze')
+        .iconSet(METALLIC)
 
 //Regoliths
     event.create('moon_stone')

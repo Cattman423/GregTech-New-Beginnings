@@ -126,6 +126,7 @@ ServerEvents.recipes(event => {
         )}
     function bookcaseass(id, input, door){
         event.recipes.gtceu.assembler(id)
+            .circuit(16)
             .itemInputs(input, 'minecraft:bookshelf')
             .itemOutputs(door)
             .duration(100)

@@ -6,13 +6,6 @@ ServerEvents.recipes(event => {
         .circuit(1)
         .duration(240)
         .EUt(30)
-//
-    event.shapeless(
-        Item.of('tfmg:steel_truss'),
-        [
-            'gtceu:steel_frame'
-        ]
-    )
 //Pumpjack
     event.recipes.gtceu.assembler('machine_input')
         .circuit(9)

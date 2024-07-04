@@ -53,6 +53,27 @@ ServerEvents.recipes(event => {
         ['gtceu:firebricks'], 
         ['6x gtceu:firebrick', '2x gtceu:gypsum_dust', Fluid.of(('gtceu:concrete'), 750)]
         ).heatRequirement('heated')
+//Misc
+    event.shapeless(
+        Item.of('3x kubejs:treated_wood'), 
+        ['4x kubejs:treated_wood_log']
+    )
+    event.shapeless(
+        Item.of('3x kubejs:stripped_treated_wood'), 
+        ['4x kubejs:stripped_treated_wood_log']
+    )
+    event.custom({
+      type: 'farmersdelight:cutting',
+      ingredients: [
+        { item: 'kubejs:treated_wood_log' }
+      ],
+      tool: { tag: 'forge:tools/axes' },
+      result: [
+        { item: 'kubejs:stripped_treated_wood' },
+        { item: 'farmersdelight:tree_bark' }
+      ]
+    })
+    event.recipes.create.deploying('kubejs:stripped_treated_wood', ['kubejs:treated_wood', '#forge:tools/axes']).keepHeldItem()
 //Functions
     const bolts = Ingredient.of('#forge:bolts').itemIds
     bolts.forEach( (base) => {
@@ -123,4 +144,5 @@ ServerEvents.recipes(event => {
     milling('gtceu:electrum_dust', 'gtceu:electrum_ingot')
     splashing('vintagedelight:oat_dough', 'vintagedelight:raw_oats')
     filling('gtceu:treated_wood_planks', [Fluid.of(('gtceu:creosote'), 100), '#minecraft:planks'])
+    filling('kubejs:treated_wood_log', [Fluid.of(('gtceu:creosote'), 100), '#minecraft:logs'])
 })

@@ -677,7 +677,7 @@
 				type: "random"
 			}]
 			shape: "gear"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "10C42A8195C559D3"
 				item: "create:andesite_casing"

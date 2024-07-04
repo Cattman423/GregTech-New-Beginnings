@@ -510,4 +510,17 @@ ServerEvents.recipes(event => {
         processingTime: 40,
         results: [{item: 'gtceu:glass_tube'}]
     })
+//Rounds
+    event.custom({
+        type: 'createmetallurgy:casting_in_table',
+        ingredients: [{item: 'kubejs:round_casting_mold'}, {fluid: 'kubejs:steel', amount: 90/9}],
+        processingTime: 40,
+        results: [{item: 'gtceu:steel_round'}]
+    })
+    event.custom({
+        type: 'createmetallurgy:casting_in_table',
+        ingredients: [{item: 'kubejs:round_casting_mold'}, {fluid: 'kubejs:lead', amount: 90/9}],
+        processingTime: 40,
+        results: [{item: 'gtceu:lead_round'}]
+    })
 })

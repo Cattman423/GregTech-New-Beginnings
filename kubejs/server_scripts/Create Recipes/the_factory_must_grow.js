@@ -25,6 +25,12 @@ ServerEvents.recipes(event => {
         'tfmg:heavy_machine_casing',
         'gtceu:solid_machine_casing'
         )
+    event.shapeless(
+        Item.of('tfmg:steel_truss'),
+        [
+            'gtceu:steel_frame'
+        ]
+    )
 //Casting Machines
     event.shaped(
         Item.of('tfmg:steel_fluid_tank',),
@@ -51,4 +57,20 @@ ServerEvents.recipes(event => {
         { input: 'tfmg:steel_mechanism' },
         'tfmg:steel_mechanism',
         'kubejs:advanced_clockwork_mechanism')
+//Pumpjack
+    event.custom({
+        type: 'vintageimprovements:turning',
+        ingredients: [{item: 'gtceu:steel_small_fluid_pipe'}],
+        results: [{item: 'tfmg:industrial_pipe'}]
+        })
+    event.recipes.create.mechanical_crafting(
+        'tfmg:pumpjack_crank', 
+        ['HAH', 'SCS', '   '], 
+        {A: 'minecraft:string', H: 'gtceu:steel_plate', S: 'gtceu:steel_rod', C: 'tfmg:steel_casing'}
+    )
+    event.recipes.create.mechanical_crafting(
+        'tfmg:pumpjack_crank', 
+        ['SSSSB', ' AT B'], 
+        {A: 'gtceu:steel_screw', T: 'gtceu:steel_frame', B: 'gtceu:steel_block', S: 'gtceu:steel_ingot'}
+    )
 })

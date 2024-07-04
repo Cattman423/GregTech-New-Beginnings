@@ -19,6 +19,7 @@
   * Added Textures for Desh/Ostrum/Calorite Stringer Tank Sections
   * Updated Mithril and Chadium Coil textures to mach their materials
   * Updated Aluminium Stringer Tank Section texture
+  * Updated Magneto Resonatic gem set textures
 * Progression
   * Moved Scheelite ore veins to Mars
   * Added Ostrum veins to Mars
@@ -53,6 +54,8 @@
   * Added Gunmetal
   * Added Ardite
   * Added Manyullyn
+  * Added Nethersteel
+  * Added Argent Gunmetal
   * Removed Lead Styphnate
   * Removed Barium Nitride
 * Ores/fluid Veins
@@ -71,6 +74,8 @@
   * Added Rudimentary Mechanism
   * Added Sealed Mechanism
   * Added Conductive Mechanism
+  * Added Electrum Casing
+  * Added Round Casting Mold
   * Renamed Extreme Commancd Pod to Advanced Command Pod II
   * Renamed Steel Fuel Injector to and Fuel Injector
   * Renamed Steel Engine Nozzle to Engine Nozzle
@@ -98,6 +103,8 @@
   * Rods can now be made with the Create:Vintage Improvements Lathe at a 1:1 Ratio
   * Plates can now be made with the Create:Vintage Improvements Helve Hammer at a 3:2 Ratio
   * Added Sequenced assembly recipes for Create Cogwheels and Large Cogwheels
+  * Steel and Lead Rounds can now be cast in a casting table
+  * Rounds can now be crafted in an Alloy Smelter or Fluid Solidifier
 * Mod Additions/Removals
   * Added Advanced Peripherals
   * Added Better Archeology
@@ -105,6 +112,9 @@
   * Added Draconic Evolution
   * Added Create: Metallurgy
   * Added Armor of the Ages
+  * Added Torchmaster
+  * Added Vic's Doom Addon Pack
+  * Added Create: Big Cannons
   * Reactivated Create:Vintage Improvements
   * Removed Melter Block
 * Mod Updates
