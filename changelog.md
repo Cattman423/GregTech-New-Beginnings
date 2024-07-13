@@ -47,15 +47,20 @@
   * Added Void Steel
   * Added Stellar Matter
   * Added Infinity
-  * Added Uranium(IV) Oxide
-  * Added Zirconium(IV) Oxide
-  * Added Hafnium(IV) Oxide
-  * Added Cerium(IV) Oxide
+  * Added Uranous Oxide
+  * Added Zirconia Oxide
+  * Added Hafnia
+  * Added Ceric Oxide
   * Added Gunmetal
   * Added Ardite
   * Added Manyullyn
   * Added Nethersteel
   * Added Argent Gunmetal
+  * Added Cupric Sulfate
+  * Added Zinc Sulfate
+  * Added Wöhler Aluminium
+  * Added Aluminium Trichloride
+  * Added Sodium Oxide
   * Removed Lead Styphnate
   * Removed Barium Nitride
 * Ores/fluid Veins
@@ -67,7 +72,7 @@
   * Added Mercury Deposits to Mercury
   * Added Lunite Ore veins to the Moon
   * Added Zircon Ore veins to the Moon
-  * Added Zirconium(IV) Oxide Ore veins to the Moon
+  * Added Zirconia Oxide Ore veins to the Moon
   * Fixed Custom Ore veins not showing y-levels for vein generation in JEI vein tab
 * Items
   * Added Advanced Command Pod III
@@ -115,6 +120,7 @@
   * Added Torchmaster
   * Added Vic's Doom Addon Pack
   * Added Create: Big Cannons
+  * Added Trumpet Skeleton - Re-Calcified
   * Reactivated Create:Vintage Improvements
   * Removed Melter Block
 * Mod Updates
@@ -122,37 +128,43 @@
   * AE2 Insert Export Card v1.2.2
   * Amendments v1.2.8
   * Antiblocks Rechiseld v0.4.3
-  * Applied Energistics 2 v15.2.4
+  * Apotheosis v7.4.0
+  * Applied Energistics 2 v15.2.8
   * Artemis' Laboratory Blocks v0.4.1r
   * Artifacts v9.5.11
   * Balm v7.3.6
   * Better Advancements v0.4.2.10
   * Bookshelf v20.1.13
+  * Botarium v2.3.4
   * CC: Tweaked
   * Chisel v1.8.0
-  * ChoiceTheorem's Overhauled Village v3.4.4
-  * Colorful Hearts v4.2.11
-  * Collective v7.68
+  * ChoiceTheorem's Overhauled Village v3.4.5
+  * Collective v7.70
+  * Colorful Hearts v4.3.13
+  * Comforts v6.4.0
+  * Connectivity v5.6
   * Cooking for Blockheads v16.0.6
   * CorgiLib v4.0.1.3
   * Crafting Tweaks v18.2.4
   * CraftTweaker v14.0.40
-  * Create Encased v1.6.1
-  * Create Low Heated v0.5.1.f-i
+  * Create: Encased v1.6.1
+  * Create: Low Heated v0.5.1.f-i
   * Create: Connected v0.8.2
   * Create: Numismatics v1.0.6
+  * Create: The Factory Must Grow v0.9.0d
   * Create: Quality of Life v1.1-ht2
   * CreativeCore v2.11.30
+  * Cucumber Library v7.0.9
   * Cupboard v2.7
   * Dawn of Time Builder Edition v1.5.7
   * Delighful v3.5.6
   * Ding v1.5.0
-  * Embeddium v0.3.21
+  * Embeddium v0.3.24
   * Embeddium++ v1.2.13
-  * End's Delight v2.2
+  * End's Delight v2.3
   * Entity Culling v1.6.6
-  * Entity Texture Features v6.1.1
-  * Extended AE v1.1.10
+  * Entity Texture Features v6.1.3
+  * Extended AE v1.1.11
   * Fast Leaf Decay v32
   * Framed Blocks v9.3.0
   * Fruits Delight v1.0.10
@@ -161,7 +173,7 @@
   * FTBQuestsOptimizer v2.0.3
   * Gateways to Eternity v4.2.5
   * GeckoLib v4.4.7
-  * GregTechCEu Modern v1.3.0-a
+  * GregTechCEu Modern v1.3.1
   * Guard Villagers v1.6.6
   * GunpowderLib v2.2.2
   * Infernal Mobs v1.20.1.3
@@ -179,18 +191,20 @@
   * ModernFix v5.18.1
   * Moonlight v2.12.6
   * Placebo v8.6.2
-  * Point Blank v1.5.8
+  * Point Blank v1.5.11
   * Polymorph v0.49.5
   * ProbeJS v7.0.1
   * Productive Bees v12.5.3
-  * Productive Trees v0.2.4
+  * Productive Trees v0.2.6
   * PuzzlesLib v8.1.21
   * Sound Physics Remastered v1.4.2
   * Stargate Journey v0.6.27
   * Supplementaries v2.8.17
   * TerraBlender v3.0.1.7
+  * Titanium v3.8.32
   * Tom's Simple Storage Mod v1.6.7
   * Tool Belt v1.20.01
+  * Waystones v14.1.4
   * Workshop for Handsome Adventurer v1.15.1
 
 ## V 0.2.1

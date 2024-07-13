@@ -35,9 +35,11 @@ GTCEuStartupEvents.materialModification(/*'gtceu:material',*/ event => {
     TagPrefix.ingot['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('gunmetal'), 
         () => Item.getItem('pointblank:gunmetal_ingot'))
     TagPrefix.ingot['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('argent_gunmetal'), 
-        () => Item.getItem('pointblank:argent_gunmetal_ingot'))
+        () => Item.getItem('pointblank:doom_argent_ingot'))
     TagPrefix.ingot['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('nethersteel'), 
         () => Item.getItem('createbigcannons:nethersteel_ingot'))
+    TagPrefix.ingot['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('wohler_aluminium'), 
+        () => Item.getItem('tfmg:aluminum_ingot'))
 
 //Blocks
     TagPrefix.block['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('netherite_alloy'), 
@@ -58,6 +60,8 @@ GTCEuStartupEvents.materialModification(/*'gtceu:material',*/ event => {
         () => Item.getItem('avaritia:infinity_block'))
     TagPrefix.block['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('nethersteel'), 
         () => Item.getItem('createbigcannons:nethersteel_block'))
+    TagPrefix.block['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('wohler_aluminium'), 
+        () => Item.getItem('tfmg:aluminum_block'))
 
 //Nuggets
     TagPrefix.nugget['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('desh'), 
@@ -93,7 +97,6 @@ GTCEuStartupEvents.materialModification(/*'gtceu:material',*/ event => {
     TagPrefix.gem['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('rose_quartz'), 
     () => Item.getItem('create:rose_quartz'))
 
-//Hazards
-    /*GTMaterials.Andesite.properties.removeProperty(PropertyKey.HAZARD)
-    GTMaterials.get('andesite_alloy').properties.removeProperty(PropertyKey.HAZARD)*/
+//Formulas
+    //GTMaterials.get('').setFormula('', true)
 })

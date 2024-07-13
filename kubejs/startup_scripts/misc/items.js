@@ -19,4 +19,8 @@ StartupEvents.registry('item', event => {
         .texture('kubejs:item/gigachad')
         .tooltip('1000 megachads')
         .tooltip('You have gone and done it')
+
+    event.create('compressed_fireclay')
+        //.displayName()
+        .texture('kubejs:item/compressed_fireclay')
 })

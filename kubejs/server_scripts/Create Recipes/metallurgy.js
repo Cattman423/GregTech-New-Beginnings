@@ -95,6 +95,13 @@ ServerEvents.recipes(event => {
             heatRequirement: 'heated'
         })
     })
+    event.custom({
+        type: 'createmetallurgy:melting',
+        ingredients: [{item: 'gtceu:potassium_dust'}],
+        processingTime: 30,
+        results: [{fluid: 'gtceu:potassium', amount: 144}],
+        heatRequirement: 'heated'
+    })
 //Melting Glue
     event.custom({
         type: 'createmetallurgy:melting',
@@ -353,6 +360,7 @@ ServerEvents.recipes(event => {
         results: [{fluid: 'kubejs:glass', amount: 90*9}],
         heatRequirement: 'lowheated'
     })
+
 //Ingots
     metalmelt.forEach( (base) => {
         event.custom({
@@ -367,36 +375,48 @@ ServerEvents.recipes(event => {
                 }
             ],
             processingTime: 80,
-            results: [
-                {
-                    item: 'gtceu:' + base + '_ingot'
-                }
-            ]
+            mold_consumed: false,
+            result: 
+            {
+                item: 'gtceu:' + base + '_ingot'
+            }
+            
         })
     })//ingot loop end
     event.custom({
         type: 'createmetallurgy:casting_in_table',
         ingredients: [{item: 'createmetallurgy:graphite_ingot_mold'}, {fluid: 'kubejs:iron', amount: 90}],
         processingTime: 80,
-        results: [{item: 'minecraft:iron_ingot'}]
+        mold_consumed: false,
+        result: {item: 'minecraft:iron_ingot'}
     })
     event.custom({
         type: 'createmetallurgy:casting_in_table',
         ingredients: [{item: 'createmetallurgy:graphite_ingot_mold'}, {fluid: 'kubejs:gold', amount: 90}],
         processingTime: 80,
-        results: [{item: 'minecraft:gold_ingot'}]
+        mold_consumed: false,
+        result: {item: 'minecraft:gold_ingot'}
     })
     event.custom({
         type: 'createmetallurgy:casting_in_table',
         ingredients: [{item: 'createmetallurgy:graphite_ingot_mold'}, {fluid: 'kubejs:copper', amount: 90}],
         processingTime: 80,
-        results: [{item: 'minecraft:copper_ingot'}]
+        mold_consumed: false,
+        result: {item: 'minecraft:copper_ingot'}
     })
     event.custom({
         type: 'createmetallurgy:casting_in_table',
         ingredients: [{item: 'createmetallurgy:graphite_ingot_mold'}, {fluid: 'kubejs:gunmetal', amount: 90}],
         processingTime: 80,
-        results: [{item: 'pointblank:gunmetal_ingot'}]
+        mold_consumed: false,
+        result: {item: 'pointblank:gunmetal_ingot'}
+    })
+    event.custom({
+        type: 'createmetallurgy:casting_in_table',
+        ingredients: [{item: 'createmetallurgy:graphite_ingot_mold'}, {fluid: 'kubejs:wohler_aluminium', amount: 90}],
+        processingTime: 80,
+        mold_consumed: false,
+        result: {item: 'tfmg:aluminum_ingot'}
     })
 //Nuggets
     metalmelt.forEach( (base) => {
@@ -412,115 +432,147 @@ ServerEvents.recipes(event => {
                 }
             ],
             processingTime: 40,
-            results: [
-                {
-                    item: 'gtceu:' + base + '_nugget'
-                }
-            ]
+            mold_consumed: false,
+            result: 
+            {
+                item: 'gtceu:' + base + '_nugget'
+            }
         })
     })//nugget loop end
     event.custom({
         type: 'createmetallurgy:casting_in_table',
         ingredients: [{item: 'createmetallurgy:graphite_nugget_mold'}, {fluid: 'kubejs:iron', amount: 90/9}],
         processingTime: 40,
-        results: [{item: 'minecraft:iron_nugget'}]
+        mold_consumed: false,
+        result: {item: 'minecraft:iron_nugget'}
     })
     event.custom({
         type: 'createmetallurgy:casting_in_table',
         ingredients: [{item: 'createmetallurgy:graphite_nugget_mold'}, {fluid: 'kubejs:gold', amount: 90/9}],
         processingTime: 40,
-        results: [{item: 'minecraft:gold_nugget'}]
+        mold_consumed: false,
+        result: {item: 'minecraft:gold_nugget'}
     })
     event.custom({
         type: 'createmetallurgy:casting_in_table',
         ingredients: [{item: 'createmetallurgy:graphite_nugget_mold'}, {fluid: 'kubejs:copper', amount: 90/9}],
         processingTime: 40,
-        results: [{item: 'gtceu:copper_nugget'}]
+        mold_consumed: false,
+        result: {item: 'gtceu:copper_nugget'}
     })
     event.custom({
         type: 'createmetallurgy:casting_in_table',
         ingredients: [{item: 'createmetallurgy:graphite_nugget_mold'}, {fluid: 'kubejs:gunmetal', amount: 90/9}],
         processingTime: 40,
-        results: [{item: 'pointblank:gunmetal_nugget'}]
+        mold_consumed: false,
+        result: {item: 'pointblank:gunmetal_nugget'}
+    })
+    event.custom({
+        type: 'createmetallurgy:casting_in_table',
+        ingredients: [{item: 'createmetallurgy:graphite_nugget_mold'}, {fluid: 'kubejs:wohler_aluminium', amount: 90/9}],
+        processingTime: 80,
+        mold_consumed: false,
+        result: {item: 'gtceu:wohler_aluminium_nugget'}
     })
 //Blocks
     metalmelt.forEach( (base) => {
-        event.custom({
-            type: 'createmetallurgy:casting_in_basin',
-            ingredients: [
-                {
-                    fluid: 'kubejs:' + base,
-                    amount: 90*9
-                }
-            ],
-            processingTime: 150,
-            results: [
+        if(
+            base != 'kubejs:raw_rubber'
+        ) {
+            event.custom({
+                type: 'createmetallurgy:casting_in_basin',
+                ingredients: [
+                    {
+                        fluid: 'kubejs:' + base,
+                        amount: 90*9
+                    }
+                ],
+                processingTime: 150,
+                mold_consumed: false,
+                result: 
                 {
                     item: 'gtceu:' + base + '_block'
                 }
-            ]
-        })
+            })
+        }
     })//block loop end
     event.custom({
         type: 'createmetallurgy:casting_in_basin',
         ingredients: [{fluid: 'kubejs:iron', amount: 90*9}],
         processingTime: 150,
-        results: [{item: 'minecraft:iron_block'}]
+        mold_consumed: false,
+        result: {item: 'minecraft:iron_block'}
     })
     event.custom({
         type: 'createmetallurgy:casting_in_basin',
         ingredients: [{fluid: 'kubejs:gold', amount: 90*9}],
         processingTime: 150,
-        results: [{item: 'minecraft:gold_block'}]
+        mold_consumed: false,
+        result: {item: 'minecraft:gold_block'}
     })
     event.custom({
         type: 'createmetallurgy:casting_in_basin',
         ingredients: [{fluid: 'kubejs:copper', amount: 90*9}],
         processingTime: 150,
-        results: [{item: 'minecraft:copper_block'}]
+        mold_consumed: false,
+        result: {item: 'minecraft:copper_block'}
     })
     event.custom({
         type: 'createmetallurgy:casting_in_basin',
         ingredients: [{fluid: 'kubejs:gunmetal', amount: 90*9}],
         processingTime: 150,
-        results: [{item: 'gtceu:gunmetal_block'}]
+        mold_consumed: false,
+        result: {item: 'gtceu:gunmetal_block'}
     })
     event.custom({
         type: 'createmetallurgy:casting_in_basin',
         ingredients: [{fluid: 'kubejs:glass', amount: 90}],
         processingTime: 150,
-        results: [{item: 'minecraft:glass'}]
+        mold_consumed: false,
+        result: {item: 'minecraft:glass'}
+    })
+    event.custom({
+        type: 'createmetallurgy:casting_in_basin',
+        ingredients: [{fluid: 'kubejs:wohler_aluminium', amount: 90*9}],
+        processingTime: 80,
+        mold_consumed: false,
+        result: {item: 'tfmg:aluminum_block'}
     })
 //Plates
     event.custom({
         type: 'createmetallurgy:casting_in_table',
         ingredients: [{item: 'gtceu:plate_casting_mold'}, {fluid: 'kubejs:rubber', amount: 90}],
         processingTime: 40,
-        results: [{item: 'gtceu:rubber_plate'}]
+        mold_consumed: false,
+        result: {item: 'gtceu:rubber_plate'}
     })
     event.custom({
         type: 'createmetallurgy:casting_in_table',
         ingredients: [{item: 'gtceu:plate_casting_mold'}, {fluid: 'kubejs:raw_rubber', amount: 90}],
         processingTime: 40,
-        results: [{item: 'gtceu:raw_rubber_plate'}]
+        mold_consumed: false,
+        result: {item: 'gtceu:raw_rubber_plate'}
     })
     event.custom({
         type: 'createmetallurgy:casting_in_table',
         ingredients: [{item: 'gtceu:ball_casting_mold'}, {fluid: 'kubejs:glass', amount: 90}],
         processingTime: 40,
-        results: [{item: 'gtceu:glass_tube'}]
+        mold_consumed: false,
+        result: {item: 'gtceu:glass_tube'}
     })
 //Rounds
     event.custom({
         type: 'createmetallurgy:casting_in_table',
         ingredients: [{item: 'kubejs:round_casting_mold'}, {fluid: 'kubejs:steel', amount: 90/9}],
         processingTime: 40,
-        results: [{item: 'gtceu:steel_round'}]
+        mold_consumed: false,
+        result: {item: 'gtceu:steel_round'}
     })
     event.custom({
         type: 'createmetallurgy:casting_in_table',
         ingredients: [{item: 'kubejs:round_casting_mold'}, {fluid: 'kubejs:lead', amount: 90/9}],
         processingTime: 40,
-        results: [{item: 'gtceu:lead_round'}]
+        mold_consumed: false,
+        result: {item: 'gtceu:lead_round'}
     })
 })

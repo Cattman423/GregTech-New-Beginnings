@@ -21,4 +21,8 @@ StartupEvents.registry('fluid', event => {
     event.create('glass')
         .thickTexture(0xFF5F32)
         .noBlock()
+    event.create('wohler_aluminium')
+        .displayName('Wöhler Aluminium')
+        .thickTexture(0xFF5F32)
+        .noBlock()
 })

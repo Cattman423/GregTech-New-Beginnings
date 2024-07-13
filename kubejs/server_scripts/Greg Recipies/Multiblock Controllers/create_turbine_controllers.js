@@ -1,5 +1,5 @@
 //Machine uses
-ServerEvents.recipes(event => {
+/*ServerEvents.recipes(event => {
     event.recipes.gtceu.basic_alternator('lv_1_amp')
         .circuit(1)
         .notConsumable('2x create_new_age:generator_coil').perTick(false)
@@ -61,4 +61,4 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtceu:extreme_alternator')
         .duration(1200)
         .EUt(1920)
-})
+})*/

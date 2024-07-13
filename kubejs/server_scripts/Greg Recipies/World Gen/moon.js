@@ -112,7 +112,7 @@ GTCEuServerEvents.oreVeins(event => {
     })
 
 //Zirconium Oxide
-    event.add("kubejs:zirconium_oxide_vein_mn", vein => {
+    event.add("kubejs:zirconia_vein_mn", vein => {
     // Basic vein generation properties
         vein.weight(60)
         vein.clusterSize(30)

@@ -106,13 +106,13 @@ ServerEvents.recipes(event => {
                 hammerBlows: 5,
                 ingredients: [
                     {
-                        item: itemIds.slice(0, -6) + '_ingot'
+                        item: itemIds.slice(0, -6) + '_ingot', count: 3
                     },
                     {
-                        item: itemIds.slice(0, -6) + '_ingot'
+                        item: itemIds.slice(0, -6) + '_ingot', count: 3
                     },
                     {
-                        item: itemIds.slice(0, -6) + '_ingot'
+                        item: itemIds.slice(0, -6) + '_ingot', count: 3
                     }
                 ],
                 results: [
@@ -188,6 +188,13 @@ ServerEvents.recipes(event => {
         results: [{item: 'gtceu:infinity_plate', count: 2}],
         processingTime: 120,
         })
+    event.custom({
+        type: 'vintageimprovements:hammering',
+        hammerBlows: 5,
+        ingredients: [{item: 'tfmg:aluminum_ingot'}, {item: 'tfmg:aluminum_ingot'}, {item: 'tfmg:aluminum_ingot'}],
+        results: [{item: 'gtceu:wohler_aluminium_plate', count: 2}],
+        processingTime: 120,
+        })
 //Lathe
     const rods = Ingredient.of('#forge:rods').itemIds.filter((name) => {
         return name.includes('gtceu') == true
@@ -261,6 +268,11 @@ ServerEvents.recipes(event => {
         ingredients: [{tag: 'forge:glass/colorless'}],
         results: [{item: 'gtceu:glass_tube'}]
         })
+    event.custom({
+        type: 'vintageimprovements:turning',
+        ingredients: [{item: 'tfmg:aluminum_ingot'}],
+        results: [{item: 'gtceu:wohler_aluminium_rod'}]
+        })
 //Vacuumizing
     event.custom({
         type: 'vintageimprovements:vacuumizing',
@@ -279,6 +291,29 @@ ServerEvents.recipes(event => {
         type: 'vintageimprovements:pressurizing',
         ingredients: [{item: 'gtceu:fireclay_dust'}],
         results: [{item: 'gtceu:compressed_fireclay'}],
+        processingTime: 600
+    })
+//Centrifuge
+    event.custom({
+        type: 'vintageimprovements:centrifugation',
+        ingredients: [
+            {tag: 'forge:dusts/ash'},
+            {tag: 'forge:dusts/ash'},
+            {tag: 'forge:dusts/ash'},
+            {tag: 'forge:dusts/ash'},
+            {tag: 'forge:dusts/ash'},
+            {tag: 'forge:dusts/ash'},
+            {tag: 'forge:dusts/ash'},
+            {tag: 'forge:dusts/ash'},
+            {tag: 'forge:dusts/ash'},
+            {tag: 'forge:dusts/ash'}
+        ],
+        results: [
+            {item: 'gtceu:quicklime_dust', count: 5},
+            {item: 'gtceu:potash_dust', count: 2},
+            {item: 'gtceu:magnesia_dust', count: 2},
+            {item: 'gtceu:hematite_dust', count: 2}
+        ],
         processingTime: 600
     })
 })

@@ -127,7 +127,7 @@ ServerEvents.recipes(event => {
     ]).transitionalItem(kjsbb).loops(2)
 
 //Generator Coil
-    let kjsgc = 'kubejs:incomplete_generator_coil'
+    /*let kjsgc = 'kubejs:incomplete_generator_coil'
     event.recipes.create.sequenced_assembly([
         Item.of('create_new_age:generator_coil').withChance(84.0),
         Item.of('gtceu:andesite_alloy_nugget').withChance(8.0),
@@ -140,7 +140,7 @@ ServerEvents.recipes(event => {
         event.recipes.createDeploying(kjsgc, [kjsgc, 'gtceu:fine_copper_wire']),
         event.recipes.createDeploying(kjsgc, [kjsgc, 'gtceu:fine_copper_wire']),
         event.recipes.createPressing(kjsgc, [kjsgc])
-    ]).transitionalItem(kjsgc).loops(8)
+    ]).transitionalItem(kjsgc).loops(8)*/
 
 //Ulv Circuit
     let kjsuv = 'kubejs:incomplete_vacuum_tube'
@@ -221,4 +221,40 @@ ServerEvents.recipes(event => {
         event.recipes.createFilling(kjslcg, [kjslcg, Fluid.of(('gtceu:glue'), 50)]),
         event.recipes.createPressing(kjslcg, kjslcg),
     ]).transitionalItem(kjslcg).loops(1)
+
+    let kjsscg = 'kubejs:incomplete_steel_cog'
+    event.recipes.create.sequenced_assembly([
+        Item.of('tfmg:steel_cogwheel')
+    ], 'create:shaft', [
+        event.recipes.createDeploying(kjsscg, [kjsscg, 'gtceu:small_steel_gear']),
+        event.recipes.createFilling(kjsscg, [kjsscg, Fluid.of(('gtceu:glue'), 50)]),
+        event.recipes.createPressing(kjsscg, kjsscg),
+    ]).transitionalItem(kjsscg).loops(1)
+
+    let kjslscg = 'kubejs:incomplete_large_steel_cog'
+    event.recipes.create.sequenced_assembly([
+        Item.of('tfmg:large_steel_cogwheel')
+    ], 'create:shaft', [
+        event.recipes.createDeploying(kjslscg, [kjslscg, 'gtceu:steel_gear']),
+        event.recipes.createFilling(kjslscg, [kjslscg, Fluid.of(('gtceu:glue'), 50)]),
+        event.recipes.createPressing(kjslscg, kjslscg),
+    ]).transitionalItem(kjslscg).loops(1)
+    
+    let kjsacg = 'kubejs:incomplete_aluminium_cog'
+    event.recipes.create.sequenced_assembly([
+        Item.of('tfmg:aluminum_cogwheel')
+    ], 'create:shaft', [
+        event.recipes.createDeploying(kjsacg, [kjsacg, 'gtceu:small_wohler_aluminium_gear']),
+        event.recipes.createFilling(kjsacg, [kjsacg, Fluid.of(('gtceu:glue'), 50)]),
+        event.recipes.createPressing(kjsacg, kjsacg),
+    ]).transitionalItem(kjsacg).loops(1)
+
+    let kjslacg = 'kubejs:incomplete_large_aluminium_cog'
+    event.recipes.create.sequenced_assembly([
+        Item.of('tfmg:large_aluminum_cogwheel')
+    ], 'create:shaft', [
+        event.recipes.createDeploying(kjslacg, [kjslacg, 'gtceu:wohler_aluminium_gear']),
+        event.recipes.createFilling(kjslacg, [kjslacg, Fluid.of(('gtceu:glue'), 50)]),
+        event.recipes.createPressing(kjslacg, kjslacg),
+    ]).transitionalItem(kjslacg).loops(1)
 })

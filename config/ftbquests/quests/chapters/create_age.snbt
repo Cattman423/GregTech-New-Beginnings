@@ -1475,6 +1475,7 @@
 				"07B9229EA02A6C1E"
 				"38747E7B7CB63D8D"
 			]
+			hide_dependent_lines: true
 			icon: "gtceu:primitive_blast_furnace"
 			id: "2326FE6A4C1C05A1"
 			optional: true
@@ -1773,6 +1774,7 @@
 				"07B9229EA02A6C1E"
 				"38747E7B7CB63D8D"
 			]
+			hide_dependent_lines: true
 			id: "0E1FF01D42C2C792"
 			optional: true
 			rewards: [{
@@ -1946,6 +1948,92 @@
 			title: "Oil Pumpjack MK1"
 			x: 3.5d
 			y: 8.0d
+		}
+		{
+			dependencies: ["6A91810EF77054CF"]
+			hide_dependency_lines: true
+			id: "3A57A29C66EA2DDC"
+			tasks: [
+				{
+					id: "550E43F44C033D25"
+					item: "gtceu:raw_bauxite"
+					type: "item"
+				}
+				{
+					id: "2D5CF8AD10890265"
+					item: "gtceu:raw_salt"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"51FAB3DA0316BBA5"
+				"3A57A29C66EA2DDC"
+			]
+			id: "3F01F2E0AF91146F"
+			tasks: [{
+				id: "077695B4BEDC402E"
+				item: "gtceu:aluminium_trichloride_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"279F524D86F5A2E0"
+				"3F01F2E0AF91146F"
+			]
+			id: "4FD5B9DF201BB738"
+			tasks: [{
+				id: "0453F624BC43A095"
+				item: "gtceu:wohler_aluminium_dust"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3F1FE25C5E4E04FE"]
+			id: "279F524D86F5A2E0"
+			tasks: [{
+				id: "20FE36444E732C33"
+				item: "gtceu:potash_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1928A0F6075A46AC"]
+			id: "3F1FE25C5E4E04FE"
+			tasks: [{
+				id: "3142A40843C0423F"
+				item: "vintageimprovements:centrifuge"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"4FD5B9DF201BB738"
+				"0E1FF01D42C2C792"
+				"2326FE6A4C1C05A1"
+			]
+			dependency_requirement: "one_completed"
+			id: "39DE7E733D65D229"
+			min_required_dependencies: 2
+			tasks: [{
+				id: "12AE60EECD5C7243"
+				item: "tfmg:aluminum_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 9.0d
 		}
 	]
 	title: "Clockwork Age"
