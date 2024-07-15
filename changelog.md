@@ -110,6 +110,8 @@
   * Added Sequenced assembly recipes for Create Cogwheels and Large Cogwheels
   * Steel and Lead Rounds can now be cast in a casting table
   * Rounds can now be crafted in an Alloy Smelter or Fluid Solidifier
+* Resource Packs
+  * Added ComputerCraft: Greg Flavored
 * Mod Additions/Removals
   * Added Advanced Peripherals
   * Added Better Archeology
@@ -126,10 +128,11 @@
 * Mod Updates
   * Ad Astra: Giselle Addon v6.9
   * AE2 Insert Export Card v1.2.2
+  * Almost Unified v0.9.4
   * Amendments v1.2.8
   * Antiblocks Rechiseld v0.4.3
   * Apotheosis v7.4.0
-  * Applied Energistics 2 v15.2.8
+  * Applied Energistics 2 v15.2.9
   * Artemis' Laboratory Blocks v0.4.1r
   * Artifacts v9.5.11
   * Balm v7.3.6
@@ -147,21 +150,22 @@
   * CorgiLib v4.0.1.3
   * Crafting Tweaks v18.2.4
   * CraftTweaker v14.0.40
+  * Create: Connected v0.8.2
   * Create: Encased v1.6.1
   * Create: Low Heated v0.5.1.f-i
-  * Create: Connected v0.8.2
   * Create: Numismatics v1.0.6
-  * Create: The Factory Must Grow v0.9.0d
   * Create: Quality of Life v1.1-ht2
-  * CreativeCore v2.11.30
+  * Create: Slice and Dice v3.2.1
+  * Create: The Factory Must Grow v0.9.0d
+  * CreativeCore v2.11.31
   * Cucumber Library v7.0.9
   * Cupboard v2.7
   * Dawn of Time Builder Edition v1.5.7
-  * Delighful v3.5.6
+  * Delighful v3.5.7
   * Ding v1.5.0
-  * Embeddium v0.3.24
+  * Embeddium v0.3.25
   * Embeddium++ v1.2.13
-  * End's Delight v2.3
+  * End's Delight v2.4
   * Entity Culling v1.6.6
   * Entity Texture Features v6.1.3
   * Extended AE v1.1.11
@@ -169,7 +173,7 @@
   * Framed Blocks v9.3.0
   * Fruits Delight v1.0.10
   * FTB Chunks v2001.3.1
-  * FTB Quests v2001.4.6
+  * FTB Quests v2001.4.7
   * FTBQuestsOptimizer v2.0.3
   * Gateways to Eternity v4.2.5
   * GeckoLib v4.4.7
@@ -188,7 +192,7 @@
   * Lithostitched v1.1.6
   * LootJS v2.12.0
   * Lootr v0.7.34.86
-  * ModernFix v5.18.1
+  * ModernFix v5.18.6
   * Moonlight v2.12.6
   * Placebo v8.6.2
   * Point Blank v1.5.11
@@ -197,10 +201,12 @@
   * Productive Bees v12.5.3
   * Productive Trees v0.2.6
   * PuzzlesLib v8.1.21
-  * Sound Physics Remastered v1.4.2
+  * Sound Physics Remastered v1.4.5
   * Stargate Journey v0.6.27
   * Supplementaries v2.8.17
   * TerraBlender v3.0.1.7
+  * Terralith v2.5.4
+  * Tips v12.1.7
   * Titanium v3.8.32
   * Tom's Simple Storage Mod v1.6.7
   * Tool Belt v1.20.01

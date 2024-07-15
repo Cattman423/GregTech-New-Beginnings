@@ -74,6 +74,22 @@ ServerEvents.recipes(event => {
       ]
     })
     event.recipes.create.deploying('kubejs:stripped_treated_wood', ['kubejs:treated_wood', '#forge:tools/axes']).keepHeldItem()
+    event.shaped(
+        Item.of('kubejs:helmet_core',),
+        [' A ', ' B ', '   '],
+        {A: '#forge:tools/knives', B: '#forge:leather'})
+    event.shaped(
+        Item.of('kubejs:chestplate_core',),
+        [' A ', 'BBB', ' B '],
+        {A: '#forge:tools/knives', B: '#forge:leather'})
+    event.shaped(
+        Item.of('kubejs:leggings_core',),
+        ['BAB', 'B B', '   '],
+        {A: '#forge:tools/knives', B: '#forge:leather'})
+    event.shaped(
+        Item.of('kubejs:boots_core',),
+        ['BAB', '   ', '   '],
+        {A: '#forge:tools/knives', B: '#forge:leather'})
 //Functions
     const bolts = Ingredient.of('#forge:bolts').itemIds
     bolts.forEach( (base) => {

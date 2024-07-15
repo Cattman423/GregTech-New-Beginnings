@@ -575,4 +575,91 @@ ServerEvents.recipes(event => {
         mold_consumed: false,
         result: {item: 'gtceu:lead_round'}
     })
+//Armour
+    event.custom({
+        type: 'createmetallurgy:casting_in_basin',
+        ingredients: [{item: 'kubejs:helmet_core'}, {fluid: 'kubejs:iron', amount: 90*5}],
+        processingTime: 40,
+        mold_consumed: true,
+        result: {item: 'minecraft:iron_helmet'}
+    })
+    event.custom({
+        type: 'createmetallurgy:casting_in_basin',
+        ingredients: [{item: 'kubejs:chestplate_core'}, {fluid: 'kubejs:iron', amount: 90*8}],
+        processingTime: 40,
+        mold_consumed: true,
+        result: {item: 'minecraft:iron_chestplate'}
+    })
+    event.custom({
+        type: 'createmetallurgy:casting_in_basin',
+        ingredients: [{item: 'kubejs:leggings_core'}, {fluid: 'kubejs:iron', amount: 90*7}],
+        processingTime: 40,
+        mold_consumed: true,
+        result: {item: 'minecraft:iron_leggings'}
+    })
+    event.custom({
+        type: 'createmetallurgy:casting_in_basin',
+        ingredients: [{item: 'kubejs:boots_core'}, {fluid: 'kubejs:iron', amount: 90*4}],
+        processingTime: 40,
+        mold_consumed: true,
+        result: {item: 'minecraft:iron_boots'}
+    })
+
+    event.custom({
+        type: 'createmetallurgy:casting_in_basin',
+        ingredients: [{item: 'kubejs:helmet_core'}, {fluid: 'kubejs:gold', amount: 90*5}],
+        processingTime: 40,
+        mold_consumed: true,
+        result: {item: 'minecraft:golden_helmet'}
+    })
+    event.custom({
+        type: 'createmetallurgy:casting_in_basin',
+        ingredients: [{item: 'kubejs:chestplate_core'}, {fluid: 'kubejs:gold', amount: 90*8}],
+        processingTime: 40,
+        mold_consumed: true,
+        result: {item: 'minecraft:golden_chestplate'}
+    })
+    event.custom({
+        type: 'createmetallurgy:casting_in_basin',
+        ingredients: [{item: 'kubejs:leggings_core'}, {fluid: 'kubejs:gold', amount: 90*7}],
+        processingTime: 40,
+        mold_consumed: true,
+        result: {item: 'minecraft:golden_leggings'}
+    })
+    event.custom({
+        type: 'createmetallurgy:casting_in_basin',
+        ingredients: [{item: 'kubejs:boots_core'}, {fluid: 'kubejs:gold', amount: 90*4}],
+        processingTime: 40,
+        mold_consumed: true,
+        result: {item: 'minecraft:golden_boots'}
+    })
+
+    event.custom({
+        type: 'createmetallurgy:casting_in_basin',
+        ingredients: [{item: 'kubejs:helmet_core'}, {fluid: 'kubejs:steel', amount: 90*5}],
+        processingTime: 40,
+        mold_consumed: true,
+        result: {item: 'tfmg:steel_helmet'}
+    })
+    event.custom({
+        type: 'createmetallurgy:casting_in_basin',
+        ingredients: [{item: 'kubejs:chestplate_core'}, {fluid: 'kubejs:steel', amount: 90*8}],
+        processingTime: 40,
+        mold_consumed: true,
+        result: {item: 'tfmg:steel_chestplate'}
+    })
+    event.custom({
+        type: 'createmetallurgy:casting_in_basin',
+        ingredients: [{item: 'kubejs:leggings_core'}, {fluid: 'kubejs:steel', amount: 90*7}],
+        processingTime: 40,
+        mold_consumed: true,
+        result: {item: 'tfmg:steel_leggings'}
+    })
+    event.custom({
+        type: 'createmetallurgy:casting_in_basin',
+        ingredients: [{item: 'kubejs:boots_core'}, {fluid: 'kubejs:steel', amount: 90*4}],
+        processingTime: 40,
+        mold_consumed: true,
+        result: {item: 'tfmg:steel_boots'}
+    })
 })

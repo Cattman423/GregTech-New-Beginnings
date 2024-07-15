@@ -20,7 +20,7 @@ GTCEuStartupEvents.registry('gtceu:element', event => {
     event.create('awakened_draconium', 36, 186, -1, null, 'לִויָתָן', false)
     event.create('radiance', 37, 187, -1, null, 'Ra', false)
     event.create('shadow_steel', 38, 188, -1, null, 'Sh', false)
-    event.create('void', 39, 189, -1, null, '🕀', false)
+    event.create('void', 39, 189, -1, null, 'χάος', false)
     event.create('stellar_matter', 999, 999, -1, null, '♁', false)
     event.create('infinity', 999, 999, -1, null, '⳩', false)
     event.create('ardite', 42, 183, -1, null, 'Ar', false)

@@ -582,7 +582,7 @@
 			]
 			title: "Better Automation"
 			x: 10.0d
-			y: 5.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -665,7 +665,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 10.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["576E2F40DEF76344"]
@@ -717,7 +717,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -775,7 +775,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["48DC0E7A6ADBFFCE"]
@@ -793,7 +793,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 8.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["5468ECF42040C129"]
@@ -842,7 +842,7 @@
 				}
 			]
 			x: 10.5d
-			y: 8.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["72A7E79D2BF58883"]
@@ -1082,7 +1082,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["4AEB55A92229EA6F"]
@@ -1127,7 +1127,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			can_repeat: true
@@ -1167,7 +1167,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 10.5d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -1255,7 +1255,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1FC56C660A890E5E"]
@@ -1273,7 +1273,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7E7EF4E386BC2B6E"]
@@ -1291,7 +1291,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -1313,7 +1313,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -1334,7 +1334,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 8.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["6366046B490A9A60"]
@@ -1390,7 +1390,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0581896335A678AC"]
@@ -1409,7 +1409,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1FC56C660A890E5E"]
@@ -1429,7 +1429,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["51FAB3DA0316BBA5"]
@@ -1448,7 +1448,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: 9.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["2D1687EC6CEC6FD9"]
@@ -1467,7 +1467,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: 9.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -1500,7 +1500,7 @@
 				}
 			]
 			x: 9.5d
-			y: 9.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -1523,7 +1523,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 9.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["2326FE6A4C1C05A1"]
@@ -1553,7 +1553,7 @@
 				}
 			]
 			x: 10.5d
-			y: 9.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["71EC3043DE613FF5"]
@@ -1580,7 +1580,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 11.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["71EC3043DE613FF5"]
@@ -1604,7 +1604,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 10.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["50D8A91854E4AD06"]
@@ -1616,13 +1616,15 @@
 				type: "random"
 			}]
 			size: 1.0d
+			subtitle: "Lasciate ogne speranza, voi ch'intrate"
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "40491FA51738D033"
 				type: "dimension"
 			}]
+			title: "Visit the Nether"
 			x: 4.5d
-			y: 10.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["27E3ED1A28B9FAC0"]
@@ -1640,7 +1642,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 11.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["7FB07584E38AAF18"]
@@ -1658,7 +1660,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 11.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["3207FF72AB2204F6"]
@@ -1689,7 +1691,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 11.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["3F6FDBA7072BA16C"]
@@ -1748,7 +1750,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 7.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["71EC3043DE613FF5"]
@@ -1767,7 +1769,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 8.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -1790,7 +1792,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 9.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["71EC3043DE613FF5"]
@@ -1803,7 +1805,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 9.0d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -1851,7 +1853,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: 10.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["3207FF72AB2204F6"]
@@ -1876,7 +1878,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 12.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["5DF7C837CAC6AEB2"]
@@ -1947,7 +1949,7 @@
 			]
 			title: "Oil Pumpjack MK1"
 			x: 3.5d
-			y: 8.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["6A91810EF77054CF"]
