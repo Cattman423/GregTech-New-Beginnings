@@ -165,6 +165,37 @@ ServerEvents.recipes(event => {
         ]).transitionalItem(kjsre).loops(1)
     })
 
+//Capacitor
+    event.custom({
+        type: 'create:sequenced_assembly',
+        ingredient: {item: 'gtceu:wohler_aluminium_foil'},
+        loops: 2,
+        results: [{item: 'gtceu:capacitor'}],
+        sequence: [
+            {
+                type: 'create:deploying',
+                ingredients: [{item: 'kubejs:incomplete_capacitor'}, {item: 'tfmg:copper_cable'}],
+                results: [{item: 'kubejs:incomplete_capacitor'}]
+            },
+            {
+                type: 'create:filling',
+                ingredients: [{item: 'kubejs:incomplete_capacitor'}, {fluid: 'kubejs:red_alloy', amount: 10}],
+                results: [{item: 'kubejs:incomplete_capacitor'}]
+            },
+            {
+                type: 'vintageimprovements:vibrating',
+                ingredients: [{item: 'kubejs:incomplete_capacitor'}],
+                results: [{item: 'kubejs:incomplete_capacitor'}]
+            },
+            {
+                type: 'create:pressing',
+                ingredients: [{item: 'kubejs:incomplete_capacitor'}],
+                results: [{item: 'kubejs:incomplete_capacitor'}]
+            },
+        ],
+        transitionalItem: {item: 'kubejs:incomplete_capacitor'}
+    })
+
 //Lv Circuit
     let kjslv = 'kubejs:incomplete_basic_electronic_circuit'
     event.recipes.create.sequenced_assembly([

@@ -649,6 +649,7 @@
 		{
 			dependencies: ["1928A0F6075A46AC"]
 			description: ["You will need these if you want to make a pumpjack to get oil before the Mv Age."]
+			hide_dependent_lines: true
 			id: "07B9229EA02A6C1E"
 			optional: true
 			rewards: [{
@@ -942,8 +943,8 @@
 				{
 					consume_items: true
 					count: 64L
-					id: "34B01ABC1BA02234"
-					item: "gtceu:coke_gem"
+					id: "511777EC351077D7"
+					item: { Count: 64, id: "tfmg:coal_coke" }
 					type: "item"
 				}
 			]
@@ -1135,15 +1136,16 @@
 			id: "2A6D904B243EA019"
 			optional: true
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "2C8C032B58DFD504"
-				table_id: 1979144794260430301L
-				type: "random"
+				id: "69960C356950866D"
+				item: "kubejs:clockwork_mechanism"
+				type: "item"
 			}]
 			size: 0.5d
 			tasks: [{
+				consume_items: true
 				id: "3110188034627420"
 				item: "create:precision_mechanism"
+				optional_task: true
 				type: "item"
 			}]
 			x: 7.5d
@@ -1155,13 +1157,13 @@
 			id: "06F50280030E69BD"
 			optional: true
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "78A664CA74B0358D"
-				table_id: 1979144794260430301L
-				type: "random"
+				id: "5D1E4707AAAC9E2B"
+				item: "kubejs:advanced_clockwork_mechanism"
+				type: "item"
 			}]
 			size: 0.5d
 			tasks: [{
+				consume_items: true
 				id: "49228725F6989157"
 				item: "tfmg:steel_mechanism"
 				type: "item"
@@ -1557,6 +1559,7 @@
 		}
 		{
 			dependencies: ["71EC3043DE613FF5"]
+			hide_dependent_lines: true
 			id: "179BE55EAA6BA680"
 			rewards: [
 				{
@@ -1845,6 +1848,12 @@
 		{
 			dependencies: ["07B9229EA02A6C1E"]
 			id: "7F89E529AADC4C7E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "038AE3FA1FFE83F3"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
@@ -1852,8 +1861,8 @@
 				item: "kubejs:conductive_mechanism"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 11.0d
+			x: 1.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["3207FF72AB2204F6"]
@@ -1952,29 +1961,7 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["6A91810EF77054CF"]
-			hide_dependency_lines: true
-			id: "3A57A29C66EA2DDC"
-			tasks: [
-				{
-					id: "550E43F44C033D25"
-					item: "gtceu:raw_bauxite"
-					type: "item"
-				}
-				{
-					id: "2D5CF8AD10890265"
-					item: "gtceu:raw_salt"
-					type: "item"
-				}
-			]
-			x: -2.5d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"51FAB3DA0316BBA5"
-				"3A57A29C66EA2DDC"
-			]
+			dependencies: ["51FAB3DA0316BBA5"]
 			id: "3F01F2E0AF91146F"
 			tasks: [{
 				id: "077695B4BEDC402E"
@@ -1982,7 +1969,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -1996,7 +1983,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 8.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["3F1FE25C5E4E04FE"]
@@ -2017,8 +2004,8 @@
 				item: "vintageimprovements:centrifuge"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 7.0d
+			x: -3.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -2035,7 +2022,150 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 9.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7F89E529AADC4C7E"]
+			id: "3D5F57B8006C2293"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "199BE09C7449465A"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6603C2F61DE58105"
+				item: "tfmg:electric_casing"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"39DE7E733D65D229"
+				"3D5F57B8006C2293"
+			]
+			id: "6FCA9CCC58E36674"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B02BE30790DD2BF"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "2B1ED198972226E6"
+					item: "tfmg:stator"
+					type: "item"
+				}
+				{
+					id: "7DFF43520FC6F1AD"
+					item: "tfmg:rotor"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"6FCA9CCC58E36674"
+				"179BE55EAA6BA680"
+				"3A5A837570183C79"
+			]
+			id: "5EFF8C3E3D06198D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "748C5633AE9B79E0"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3675B449B47BE99D"
+				item: "gtceu:lv_1a_energy_converter"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"3207FF72AB2204F6"
+				"5EFF8C3E3D06198D"
+			]
+			id: "71581138C4E6FC5C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3017496B4780ECFF"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			tasks: [{
+				id: "52B5B83C3C8F9252"
+				item: "gtceu:tin_single_cable"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7677FB46CB4CAAB9"]
+			id: "304C93DC669DB7ED"
+			rewards: [
+				{
+					id: "7DB72330C2591039"
+					table_id: 1979144794260430301L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "026468313C233D8B"
+					table_id: 1979144794260430301L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "375215F0700E01A7"
+					item: "tfmg:steel_distillation_controller"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "65B069E0836691C4"
+					item: "tfmg:steel_distillation_output"
+					type: "item"
+				}
+				{
+					count: 44L
+					id: "7D82756CE11F1619"
+					item: "tfmg:steel_fluid_tank"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3D5F57B8006C2293"]
+			description: ["This single block generator will produce 1fe for every rpm you feed it"]
+			id: "3A5A837570183C79"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11E5A557FD652AD4"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0ACFCFA4CB4DC495"
+				item: "tfmg:generator"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.5d
 		}
 	]
 	title: "Clockwork Age"

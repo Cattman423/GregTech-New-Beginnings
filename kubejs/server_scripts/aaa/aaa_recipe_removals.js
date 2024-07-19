@@ -333,8 +333,6 @@ ServerEvents.recipes(event => {
     event.remove({id:'minecraft:netherite_ingot_from_netherite_block'})
     event.remove({id:'minecraft:netherite_ingot'})
     event.remove({id:'createdeco:netherite_ingot'})
-    event.remove({id:'ad_astra:nasa_workbench/tier_3_rocket_from_nasa_workbench'})
-    event.remove({id:'ad_astra:nasa_workbench/tier_4_rocket_from_nasa_workbench'})
     event.remove({id:'create:crafting/materials/andesite_alloy_block'})
     event.remove({id:'ad_astra:desh_ingot'})
     event.remove({id:'ad_astra:desh_ingot_from_desh_block'})
@@ -478,11 +476,11 @@ ServerEvents.recipes(event => {
     event.remove({id:'tfmg:crafting/armor/steel_chestplate'})
     event.remove({id:'tfmg:crafting/armor/steel_leggings'})
     event.remove({id:'tfmg:crafting/armor/steel_boots'})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
+    event.remove({id:'tfmg:crafting/lithium_block'})
+    event.remove({id:'tfmg:crafting/coal_coke_block'})
+    event.remove({id:'tfmg:crafting/coal_coke_from_block'})
+    event.remove({id:'tfmg:crafting/electric_casing'})
+    event.remove({id:'tfmg:crafting/cable_connector'})
     event.remove({id:''})
     event.remove({id:''})
     event.remove({id:''})
@@ -614,6 +612,8 @@ ServerEvents.recipes(event => {
 
     const frames = ['steel', 'aluminum', 'cast_iron', 'lead', 'nickel', 'copper', 'zinc', 'brass']
 
+    const tfmgtool = ['steel', 'aluminum', 'lead']
+
     //['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ]
 
     function removals(output){
@@ -676,5 +676,17 @@ ServerEvents.recipes(event => {
     frames.forEach( (base) => {
         let id = 'tfmg:' + base + '_truss_from_ingots_' + base + '_stonecutting'
         removals(id)
+    })
+    tfmgtool.forEach( (base) => {
+        let ida = 'tfmg:crafting/tools/' + base + '_axe'
+        let idb = 'tfmg:crafting/tools/' + base + '_hoe'
+        let idc = 'tfmg:crafting/tools/' + base + '_shovel'
+        let idd = 'tfmg:crafting/tools/' + base + '_pickaxe'
+        let ide = 'tfmg:crafting/tools/' + base + '_sword'
+        removals(ida)
+        removals(idb)
+        removals(idc)
+        removals(idd)
+        removals(ide)
     })
 })

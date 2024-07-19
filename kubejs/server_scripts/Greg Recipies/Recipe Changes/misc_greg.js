@@ -12,6 +12,13 @@ ServerEvents.recipes(event => {
         '#forge:tools/mortars'
         ]
     )
+    event.shapeless(
+        Item.of('gtceu:magnetic_iron_ingot'),
+        [
+        '4x minecraft:redstone',
+        'minecraft:iron_ingot'
+        ]
+    )
     event.recipes.gtceu.bender('obsidian')
         .itemInputs('9x gtceu:obsidian_plate')
         .itemOutputs('gtceu:dense_obsidian_plate')

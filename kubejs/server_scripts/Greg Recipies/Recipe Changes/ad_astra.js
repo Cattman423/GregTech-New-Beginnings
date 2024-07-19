@@ -42,6 +42,20 @@ ServerEvents.recipes(event => {
         .itemOutputs('kubejs:ad_command_ii')
         .duration(min*30)
         .EUt(iv)
+
+    event.recipes.gtceu.assembler('ad_command_iii')
+        .itemInputs(
+            '2x kubejs:dsn_computer_chip', 
+            '2x kubejs:als_system', 
+            '32x kubejs:thermal_tiles', 
+            '4x kubejs:rcs_block', 
+            '64x gtceu:rhodium_plated_palladium_plate', 
+            '4x gtceu:fluid_cell',
+            '4x gtceu:lunite_plate'
+        )
+        .itemOutputs('kubejs:ad_command_iii')
+        .duration(min*30)
+        .EUt(luv)
     
     event.recipes.gtceu.large_chemical_reactor('basic_life_support')
         .itemInputs(
@@ -169,6 +183,18 @@ ServerEvents.recipes(event => {
         .duration(min*12)
         .EUt(iv)
 
+    event.recipes.gtceu.assembler('calorite_engine')
+        .itemInputs(
+            '3x kubejs:steel_fuel', 
+            '3x kubejs:steel_nozzle',
+            '3x gtceu:tungsten_steel_small_fluid_pipe',
+            '6x gtceu:ostrum_foil'
+        )
+        .inputFluids('gtceu:styrene_butadiene_rubber 576')
+        .itemOutputs('ad_astra:calorite_engine')
+        .duration(min*12)
+        .EUt(luv)
+
     event.recipes.gtceu.circuit_assembler('nesn_chip')
         .itemInputs(
             'gtceu:plastic_printed_circuit_board',
@@ -201,7 +227,8 @@ ServerEvents.recipes(event => {
 
     function extruder(id, input, mold, output, time, eu){
         event.recipes.gtceu.extruder('kubejs:gtceu/extruder/ad_astra/' + id)
-            .itemInputs(input, mold)
+            .itemInputs(input)
+            .notConsumable(mold)
             .itemOutputs(output)
             .duration(time)
             .EUt(eu)

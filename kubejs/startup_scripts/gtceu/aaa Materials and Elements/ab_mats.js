@@ -88,6 +88,7 @@ const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
     GTMaterials.Zirconium.setProperty(PropertyKey.INGOT, new $IngotProperty())
     GTMaterials.Holmium.setProperty(PropertyKey.INGOT, new $IngotProperty())
     GTMaterials.Germanium.setProperty(PropertyKey.INGOT, new $IngotProperty())
+    GTMaterials.Lithium.setProperty(PropertyKey.INGOT, new $IngotProperty())
     GTMaterials.Tellurium.setProperty(PropertyKey.DUST, new $DustProperty())
     GTMaterials.Hafnium.setProperty(PropertyKey.DUST, new $DustProperty())
     GTMaterials.Zinc.setProperty(PropertyKey.ORE, new $OreProperty())
@@ -479,12 +480,12 @@ const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
 
     event.create('copper_sulfate')
         .dust()
-        .color(0xCC831E)
+        .color(0x238BDE)
         .components('copper', 'sulfur', '4x oxygen')
 
     event.create('zinc_sulfate')
         .dust()
-        .color(0xCCB220)
+        .color(0xCACACA)
         .components('zinc', 'sulfur', '4x oxygen')
 
     event.create('wohler_aluminium')
@@ -492,7 +493,7 @@ const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
         .fluid()
         .color(0xD3D7D7)
         .components('aluminium')
-        .flags(no_decomp, no_smelt, rod, plates, frame, gear, small_gear)
+        .flags(no_decomp, no_smelt, rod, plates, foil, frame, gear, small_gear)
 
     event.create('aluminium_trichloride')
         .dust()

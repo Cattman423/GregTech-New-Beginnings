@@ -40,6 +40,16 @@ ServerEvents.recipes(event => {
         'tfmg:resistor_',
         'gtceu:resistor'
         )
+    event.replaceInput(
+        { input: 'tfmg:lithium_ingot' },
+        'tfmg:lithium_ingot',
+        'gtceu:lithium_ingot'
+        )
+    event.replaceInput(
+        { input: 'tfmg:steel_sword' },
+        'tfmg:steel_sword',
+        'gtceu:steel_sword'
+        )
 //Frames
     const frames = ['steel', 'lead', 'nickel', 'copper', 'zinc', 'brass']
     frames.forEach( (base) => {
@@ -121,6 +131,17 @@ ServerEvents.recipes(event => {
         ['ABC', 'DEB', 'FBC'],
         {A: '#forge:tools/hammers', B: 'gtceu:iron_rod', C: 'gtceu:iron_screw',
         D: 'gtceu:iron_plate', E: 'tfmg:fireproof_bricks', F: '#forge:tools/screwdrivers'})
+        
+    event.shaped(
+        Item.of('tfmg:electric_casing',),
+        ['KWK', 'ECE', 'RWR'],
+        {C: 'tfmg:heavy_machinery_casing', W: 'tfmg:copper_cable', K: 'gtceu:capacitor', 
+        R: 'gtceu:resistor', E: 'kubejs:conductive_mechanism'})
+        
+    event.shaped(
+        Item.of('4x tfmg:cable_connector',),
+        [' A ', 'BAB', 'BAB'],
+        {A: 'minecraft:copper_ingot', B: 'minecraft_brick'})
 
 //Pumpjack
     event.custom({

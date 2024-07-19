@@ -62,6 +62,8 @@ GTCEuStartupEvents.materialModification(/*'gtceu:material',*/ event => {
         () => Item.getItem('createbigcannons:nethersteel_block'))
     TagPrefix.block['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('wohler_aluminium'), 
         () => Item.getItem('tfmg:aluminum_block'))
+    TagPrefix.block['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('coke'), 
+        () => Item.getItem('tfmg:coal_coke_block'))
 
 //Nuggets
     TagPrefix.nugget['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('desh'), 
@@ -92,10 +94,18 @@ GTCEuStartupEvents.materialModification(/*'gtceu:material',*/ event => {
         () => Item.getItem('draconicevolution:draconium_dust'))
     TagPrefix.dust['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('awakened_draconium'), 
         () => Item.getItem('draconicevolution:awakened_draconium_dust'))
+    TagPrefix.dust['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('coke'), 
+        () => Item.getItem('tfmg:coal_coke_dust'))
+    TagPrefix.dust['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('zinc_sulfate'), 
+        () => Item.getItem('tfmg:zinc_sulfate'))
+    TagPrefix.dust['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('copper_sulfate'), 
+        () => Item.getItem('tfmg:copper_sulfate'))
 
 //Gems
     TagPrefix.gem['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('rose_quartz'), 
-    () => Item.getItem('create:rose_quartz'))
+        () => Item.getItem('create:rose_quartz'))
+    TagPrefix.gem['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get('coke'), 
+        () => Item.getItem('tfmg:coal_coke'))
 
 //Formulas
     //GTMaterials.get('').setFormula('', true)

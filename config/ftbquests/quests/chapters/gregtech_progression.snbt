@@ -1796,6 +1796,97 @@
 			x: -3.0d
 			y: -8.5d
 		}
+		{
+			dependencies: ["72F3F36CD583B9FA"]
+			id: "6E31CF8BBE7AE958"
+			tasks: [{
+				id: "77735ACE8238A55E"
+				item: "gtceu:overworld_marker"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["6E31CF8BBE7AE958"]
+			id: "579DD04C2BEC734B"
+			tasks: [{
+				id: "43706169FA7DE9D4"
+				item: "gtceu:the_nether_marker"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["579DD04C2BEC734B"]
+			id: "638738548B3F6737"
+			tasks: [{
+				id: "2FF9245108EBDD18"
+				item: "kubejs:ad_astra_moon_marker"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["579DD04C2BEC734B"]
+			id: "3369144E50D4C144"
+			tasks: [{
+				id: "57F59C8AEEE420DC"
+				item: "gtceu:the_end_marker"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["638738548B3F6737"]
+			id: "6CDDB7FE93A3870A"
+			tasks: [{
+				id: "336257F457E442FA"
+				item: "kubejs:ad_astra_mars_marker"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["6CDDB7FE93A3870A"]
+			id: "14797427BBBE93C8"
+			tasks: [{
+				id: "109C2EE37607AC1D"
+				item: "kubejs:ad_astra_venus_marker"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["6CDDB7FE93A3870A"]
+			id: "4737A296A5374413"
+			tasks: [{
+				id: "26BE13B2FA87B0BE"
+				item: "kubejs:ad_astra_mercury_marker"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"4737A296A5374413"
+				"14797427BBBE93C8"
+			]
+			id: "7B4B2D5330583817"
+			tasks: [{
+				id: "151505841D3DF5B9"
+				item: "kubejs:ad_astra_glacio_marker"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -11.5d
+		}
 	]
 	title: "GregTech Progression"
 }
