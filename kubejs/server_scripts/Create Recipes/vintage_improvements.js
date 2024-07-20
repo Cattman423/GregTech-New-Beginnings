@@ -297,22 +297,17 @@ ServerEvents.recipes(event => {
     event.custom({
         type: 'vintageimprovements:centrifugation',
         ingredients: [
-            {tag: 'forge:dusts/ash'},
-            {tag: 'forge:dusts/ash'},
-            {tag: 'forge:dusts/ash'},
-            {tag: 'forge:dusts/ash'},
-            {tag: 'forge:dusts/ash'},
-            {tag: 'forge:dusts/ash'},
-            {tag: 'forge:dusts/ash'},
-            {tag: 'forge:dusts/ash'},
-            {tag: 'forge:dusts/ash'},
-            {tag: 'forge:dusts/ash'}
+            {tag: 'forge:dusts/ash', count: 5},
+            {tag: 'forge:dusts/ash', count: 5},
+            {tag: 'forge:dusts/ash', count: 5},
+            {tag: 'forge:dusts/ash', count: 5},
+            {tag: 'forge:dusts/ash', count: 5}
         ],
         results: [
-            {item: 'gtceu:quicklime_dust', count: 5},
-            {item: 'gtceu:potash_dust', count: 2},
-            {item: 'gtceu:magnesia_dust', count: 2},
-            {item: 'gtceu:hematite_dust', count: 2}
+            {item: 'gtceu:quicklime_dust', count: 2},
+            {item: 'gtceu:potash_dust'},
+            {item: 'gtceu:magnesia_dust'},
+            {item: 'gtceu:hematite_dust'}
         ],
         processingTime: 600
     })

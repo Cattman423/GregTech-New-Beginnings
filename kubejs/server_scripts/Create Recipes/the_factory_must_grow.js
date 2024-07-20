@@ -180,4 +180,29 @@ ServerEvents.recipes(event => {
         results: [{item: 'gtceu:aluminium_trichloride_dust', count: 2}, {item: 'gtceu:sodium_oxide_dust', count: 3}],
         processingTime: 600
     })
+    function pbf(id, fuel, dust){
+        event.recipes.gtceu.primitive_blast_furnace(id)
+            .itemInputs('gtceu:wohler_aluminium_dust', fuel)
+            .itemOutputs('tfmg:aluminum_ingot', dust)
+            .duration(90*sec)
+    }
+    function pbfc(id, fuel){
+        event.recipes.gtceu.primitive_blast_furnace(id)
+            .itemInputs('gtceu:wohler_aluminium_dust', fuel)
+            .itemOutputs('tfmg:aluminum_ingot')
+            .chancedOutput('gtceu:ash_dust', 1100, 0)
+            .duration(75*sec)
+    }
+    pbf('alum_char_dust', '2x gtceu:charcoal_dust', '3x gtceu:tiny_dark_ash_dust')
+    pbf('alum_coal_dust', '2x gtceu:coal_dust', '3x gtceu:tiny_dark_ash_dust')
+    pbf('alum_char', '2x minecraft:charcoal', '3x gtceu:tiny_dark_ash_dust')
+    pbf('alum_coal', '2x minecraft:coal', '3x gtceu:tiny_dark_ash_dust')
+    pbfc('alum_coke_dust', '2x tfmg:coal_coke_dust')
+    pbfc('alum_coke', '2x tfmg:coal_coke')
+    event.recipes.gtceu.electric_blast_furnace('wohler_alum')
+        .itemInputs('gtceu:wohler_aluminium_dust')
+        .itemOutputs('tfmg:aluminum_ingot')
+        .blastFurnaceTemp(1000)
+        .duration(40*sec)
+        .EUt(mv)
 })

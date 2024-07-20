@@ -188,7 +188,7 @@ ServerEvents.recipes(event => {
             '3x kubejs:steel_fuel', 
             '3x kubejs:steel_nozzle',
             '3x gtceu:tungsten_steel_small_fluid_pipe',
-            '6x gtceu:ostrum_foil'
+            '6x gtceu:calorite_foil'
         )
         .inputFluids('gtceu:styrene_butadiene_rubber 576')
         .itemOutputs('ad_astra:calorite_engine')
