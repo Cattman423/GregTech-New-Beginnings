@@ -2263,11 +2263,18 @@
 				table_id: 1979144794260430301L
 				type: "random"
 			}]
-			tasks: [{
-				id: "422EE232899B9ED3"
-				item: "tfmg:cable_connector"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "422EE232899B9ED3"
+					item: "tfmg:cable_connector"
+					type: "item"
+				}
+				{
+					id: "0DEE14011D405488"
+					item: "tfmg:copper_cable"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: 9.5d
 		}

@@ -109,6 +109,16 @@ ServerEvents.recipes(event => {
         event.recipes.createDeploying(kjsacm, [kjsacm, 'kubejs:clockwork_mechanism']),
         event.recipes.createPressing(kjsacm, [kjsacm])
     ]).transitionalItem(kjsacm).loops(2)
+
+    let kjscnm = 'kubejs:incomplete_conductive_mechanism'
+    event.recipes.create.sequenced_assembly([
+        Item.of('kubejs:conductive_mechanism')
+    ], 'gtceu:electrum_plate', [
+        event.recipes.createDeploying(kjscnm, [kjscnm, 'gtceu:resistor']),
+        event.recipes.createDeploying(kjscnm, [kjscnm, 'kubejs:advanced_clockwork_mechanism']),
+        event.recipes.createDeploying(kjscnm, [kjscnm, 'gtceu:copper_single_wire']),
+        event.recipes.createPressing(kjscnm, [kjscnm])
+    ]).transitionalItem(kjscnm).loops(2)
         
 //Clockwork Burner
     let kjsbb = 'kubejs:incomplete_blaze_burner'

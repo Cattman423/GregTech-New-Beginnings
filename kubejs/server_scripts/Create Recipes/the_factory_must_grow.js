@@ -50,6 +50,11 @@ ServerEvents.recipes(event => {
         'tfmg:steel_sword',
         'gtceu:steel_sword'
         )
+    event.replaceInput(
+        { input: 'tfmg:copper_wire' },
+        'tfmg:copper_wire',
+        'gtceu:copper_single_wire'
+        )
 //Frames
     const frames = ['steel', 'lead', 'nickel', 'copper', 'zinc', 'brass']
     frames.forEach( (base) => {

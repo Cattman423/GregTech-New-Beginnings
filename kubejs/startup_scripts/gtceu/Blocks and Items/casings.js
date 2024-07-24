@@ -1,10 +1,10 @@
 StartupEvents.registry('block', event => {
-    event.create('electrum_casing', 'gtceu:renderer')
+    /*event.create('electrum_casing', 'gtceu:renderer')
         .hardness(10)
         .resistance(1)
         .lightLevel(0)
         .textureOverrideRenderer('minecraft:block/cube_all',
-            { 'all': new ResourceLocation('gtceu', 'block/casings/electrum_casing') });
+            { 'all': new ResourceLocation('gtceu', 'block/casings/electrum_casing') });*/
 
     event.create('test_casing', 'gtceu:renderer')
         .hardness(10)
@@ -20,7 +20,7 @@ StartupEvents.registry('block', event => {
         .model('gtceu:block/misc/solar_casing')
 
 //Logs
-    event.create('treated_wood_log')
+    /*event.create('treated_wood_log')
         .woodSoundType()
         .hardness(2)
         .property(BlockProperties.AXIS)
@@ -84,5 +84,5 @@ StartupEvents.registry('block', event => {
         .tagBlock('minecraft:mineable/axe')
         .tagBoth('minecraft:logs')
         .tagBoth('forge:stripped_logs')
-        .textureAll('gtceu:block/misc/stripped_treated_wood')
+        .textureAll('gtceu:block/misc/stripped_treated_wood')*/
 })
