@@ -165,26 +165,14 @@ ServerEvents.recipes(event => {
         {A: 'gtceu:steel_screw', T: 'gtceu:steel_frame', B: 'gtceu:steel_block', S: 'gtceu:steel_ingot'}
     )
 //Wöhler Aluminium
-    event.custom({
-        type: 'vintageimprovements:pressurizing',
-        ingredients: [{item: 'gtceu:aluminium_trichloride_dust', count: 2}, {item: 'gtceu:aluminium_trichloride_dust', count: 2}, {item: 'gtceu:potash_dust'}],
-        results: [{item: 'gtceu:wohler_aluminium_dust', count: 2}, {item: 'gtceu:rock_salt_dust', count: 6}],
-        processingTime: 600
-    })
-    event.custom({
-        type: 'vintageimprovements:pressurizing',
-        ingredients: [
-            {item: 'gtceu:bauxite_dust', count: 2}, 
-            {item: 'gtceu:salt_dust', count: 6}, 
-            {item: 'gtceu:salt_dust', count: 6}, 
-            {item: 'gtceu:salt_dust', count: 6}, 
-            {item: 'gtceu:salt_dust', count: 6}, 
-            {item: 'gtceu:salt_dust', count: 6}, 
-            {item: 'gtceu:salt_dust', count: 6}
-        ],
-        results: [{item: 'gtceu:aluminium_trichloride_dust', count: 2}, {item: 'gtceu:sodium_oxide_dust', count: 3}],
-        processingTime: 600
-    })
+    event.recipes.create.mixing(
+        ['2x gtceu:wohler_aluminium_dust', '6x gtceu:rock_salt_dust'], 
+        ['2x gtceu:aluminium_trichloride_dust', '2x gtceu:aluminium_trichloride_dust', 'gtceu:potash_dust']
+        ).heatRequirement('heated')
+    event.recipes.create.mixing(
+        ['2x gtceu:aluminium_trichloride_dust', '3x gtceu:sodium_oxide_dust'], 
+        ['2x gtceu:bauxite_dust', '6x gtceu:salt_dust']
+        ).heatRequirement('heated')
     function pbf(id, fuel, dust){
         event.recipes.gtceu.primitive_blast_furnace(id)
             .itemInputs('gtceu:wohler_aluminium_dust', fuel)

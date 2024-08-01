@@ -316,6 +316,14 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(FINE)
         .components('2x sodium', 'oxygen')
 
+    event.create('al_6xn')
+        .ingot(3)
+        .color(0x2c9124)
+        .iconSet(METALLIC)
+        .components('4x nickel', '3x chromium', 'molybdenum')
+        .blastTemp(3000, 'mid', 7680, 6000)
+        .flags(rod, plates, frame)
+
 //Regoliths
     event.create('moon_stone')
         .dust()

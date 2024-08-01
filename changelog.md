@@ -31,6 +31,7 @@
     * Added quests for Create: TFMG oil processing and electrification
   * Glacio now requires a tier seven rocket to reach
 * Multiblocks
+  * Added Hydroponic Farm
   * Removed Kinetic Assembler
 * Materials
   * Added Impure Netherite Slurry
@@ -63,6 +64,7 @@
   * Added Wöhler Aluminium
   * Added Aluminium Trichloride
   * Added Sodium Oxide
+  * Added AL-6XN
   * Removed Lead Styphnate
   * Removed Barium Nitride
 * Ores/fluid Veins
@@ -86,6 +88,7 @@
   * Renamed Steel Fuel Injector to and Fuel Injector
   * Renamed Steel Engine Nozzle to Engine Nozzle
   * Renamed all Create: TFMG Aluminum items to Wöhler Aluminium [item]
+  * Added Agricultral Casing
 * Recipes
   * Added Netherite Processing line
   * Gold ingots can now be macerated into gold dust in a Millstone and Crushing Wheels
