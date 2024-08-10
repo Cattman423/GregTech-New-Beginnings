@@ -46,7 +46,6 @@ ServerEvents.recipes(event => {
     casingcraft('tfmg:steel_casing', 'gtceu:steel_plate', '#forge:stripped_logs')
     casingcraft('tfmg:steel_casing', 'gtceu:steel_plate', '#forge:stripped_wood')
     casingcraft('kubejs:agri_casing', 'gtceu:al_6xn_plate', 'gtceu:al_6xn_frame')
-    casingcraft('kubejs:agri_casing', 'gtceu:al_6xn_plate', 'gtceu:al_6xn_frame')
     //casingcraft('kubejs:electrum_casing', 'gtceu:electrum_plate', 'kubejs:stripped_treated_wood_log')
     //casingcraft('kubejs:electrum_casing', 'gtceu:electrum_plate', 'kubejs:stripped_treated_wood')
 })

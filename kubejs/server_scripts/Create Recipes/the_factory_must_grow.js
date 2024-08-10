@@ -104,20 +104,31 @@ ServerEvents.recipes(event => {
         'tfmg:steel_mechanism',
         'kubejs:advanced_clockwork_mechanism')
         
-    event.custom({
-        type: 'vintageimprovements:curving',
-        itemAsHead: "gtceu:brick_wooden_form",
-        ingredients: [
-            {
-                item: 'tfmg:fireclay_ball'
-            }
-        ],
-        results: [
-            {
-                item: 'kubejs:compressed_fireclay'
-            }
-        ]
-        })
+    event.recipes.vintageimprovements.curving('kubejs:compressed_fireclay', 'tfmg:fireclay_ball').head('gtceu:brick_wooden_form')
+    event.recipes.vintageimprovements.curving('tfmg:cinderflourblock', 'create:cinder_flour').head('gtceu:brick_wooden_form')
+    event.recipes.vintageimprovements.curving('tfmg:cinderblock', 'tfmg:concrete_mixture').head('gtceu:brick_wooden_form')
+
+    event.shaped(
+        Item.of('2x tfmg:cinderflour_block'),
+        ['AAA', 'ABA', 'AAA'],
+        {A: 'tfmg:cinderflourblock', B: 'minecraft:water_bucket'}
+    )
+    event.shaped(
+        Item.of('2x tfmg:cinder_block'),
+        ['AAA', 'ABA', 'AAA'],
+        {A: 'tfmg:cinderblock', B: 'minecraft:water_bucket'}
+    )
+
+    event.recipes.gtceu.compressor('cinderblock')
+        .itemInputs('4x tfmg:cinderblock')
+        .itemOutputs('tfmg:cinder_block')
+        .duration(15*sec)
+        .EUt(2)
+    event.recipes.gtceu.compressor('cinderflourblock')
+        .itemInputs('4x tfmg:cinderflourblock')
+        .itemOutputs('tfmg:cinderflour_block')
+        .duration(15*sec)
+        .EUt(2)
     
     event.smelting('tfmg:fireproof_brick', 'kubejs:compressed_fireclay')
 
@@ -146,7 +157,7 @@ ServerEvents.recipes(event => {
     event.shaped(
         Item.of('4x tfmg:cable_connector',),
         [' A ', 'BAB', 'BAB'],
-        {A: 'minecraft:copper_ingot', B: 'minecraft_brick'})
+        {A: 'minecraft:copper_ingot', B: '#minecraft:terracotta'})
 
 //Pumpjack
     event.custom({
@@ -160,9 +171,34 @@ ServerEvents.recipes(event => {
         {A: 'minecraft:string', H: 'gtceu:steel_plate', S: 'gtceu:steel_rod', C: 'tfmg:steel_casing'}
     )
     event.recipes.create.mechanical_crafting(
-        'tfmg:pumpjack_crank', 
-        ['SSSSB', ' AT B'], 
-        {A: 'gtceu:steel_screw', T: 'gtceu:steel_frame', B: 'gtceu:steel_block', S: 'gtceu:steel_ingot'}
+        'tfmg:pumpjack_base', 
+        ['HAH', 'SCS', 'HIH'], 
+        {A: '#forge:string', C: 'tfmg:steel_casing', H: 'gtceu:steel_plate', I: 'tfmg:industrial_pipe', S: 'kubejs:advanced_clockwork_mechanism'}
+    )
+    event.recipes.create.mechanical_crafting(
+        'tfmg:pumpjack_hammer_head',
+        ['PP', 'BP', ' P'],
+        {B: 'gtceu:steel_block', P: 'gtceu:steel_plate'}
+    )
+    event.recipes.create.mechanical_crafting(
+        'tfmg:pumpjack_hammer_part',
+        ['PPP'],
+        {P: 'gtceu:double_steel_plate'}
+    )
+    event.recipes.create.mechanical_crafting(
+        'tfmg:pumpjack_hammer_connector',
+        ['PSP'],
+        {P: 'gtceu:double_steel_plate', S: 'create:shaft'}
+    )
+    event.recipes.create.mechanical_crafting(
+        'tfmg:machine_input',
+        ['PPP', 'SGS', 'PPP'],
+        {P: 'gtceu:steel_plate', S: 'create:shaft', G: 'kubejs:advanced_clockwork_mechanism'}
+    )
+    event.recipes.create.mechanical_crafting(
+        'tfmg:pumpjack_hammer',
+        ['S', 'F', 'F'],
+        {S: 'create:shaft', F: 'gtceu:steel_frame'}
     )
 //Wöhler Aluminium
     event.recipes.create.mixing(
@@ -183,7 +219,7 @@ ServerEvents.recipes(event => {
         event.recipes.gtceu.primitive_blast_furnace(id)
             .itemInputs('gtceu:wohler_aluminium_dust', fuel)
             .itemOutputs('tfmg:aluminum_ingot')
-            .chancedOutput('gtceu:ash_dust', 1100, 0)
+            .chancedOutput('gtceu:ash_dust', 1111, 0)
             .duration(75*sec)
     }
     pbf('alum_char_dust', '2x gtceu:charcoal_dust', '3x gtceu:tiny_dark_ash_dust')

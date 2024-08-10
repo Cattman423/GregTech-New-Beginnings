@@ -51,7 +51,7 @@ ServerEvents.recipes(event => {
     ).heatRequirement('lowheated')
 //Greg bricks
     event.recipes.create.compacting(
-        ['2x gtceu:compressed_coke_clay'], 
+        ['2x kubejs:coke_clay'], 
         ['2x minecraft:clay_ball', '4x #minecraft:sand']
     )
 //Greg wood plank

@@ -92,6 +92,7 @@
     "gtceu.particle_accelerator": "Particle Accelerator",
     "gtceu.kinetic_assembler": "Kinetic Assembler",
     "gtceu.hydroponic_farm": "Hydroponic Farm",
+    "gtceu.arboretum": "Arboretum",
 
 
     "gtceu.jei.ore_vein.zinc_vein_ow": "Zinc Vein",
@@ -143,6 +144,7 @@
     "block.gtceu.particle_accelerator": "Particle Accelerator",
     "block.gtceu.kinetic_assembler": "Kinetic Assembler",
     "block.gtceu.hydroponic_farm": "Hydroponic Farm",
+    "block.gtceu.arboretum": "Arboretum",
 
     "tagprefix.moon_stone": "Moon Stone %s Ore",
     "tagprefix.moon_deepslate": "Moon Deepslate %s Ore",

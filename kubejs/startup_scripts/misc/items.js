@@ -24,6 +24,10 @@ StartupEvents.registry('item', event => {
         //.displayName()
         .texture('kubejs:item/misc/compressed_fireclay')
 
+    event.create('coke_clay')
+        //.displayName()
+        .texture('kubejs:item/misc/coke_clay')
+
 //Armour cores
     event.create('helmet_core')
         //.displayName()

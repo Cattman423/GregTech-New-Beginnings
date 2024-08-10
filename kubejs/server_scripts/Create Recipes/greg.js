@@ -54,7 +54,7 @@ ServerEvents.recipes(event => {
         ['6x gtceu:firebrick', '2x gtceu:gypsum_dust', Fluid.of(('gtceu:concrete'), 750)]
         ).heatRequirement('heated')
 //Misc
-    event.shapeless(
+    /*event.shapeless(
         Item.of('3x kubejs:treated_wood'), 
         ['4x kubejs:treated_wood_log']
     )
@@ -73,7 +73,7 @@ ServerEvents.recipes(event => {
         { item: 'farmersdelight:tree_bark' }
       ]
     })
-    event.recipes.create.deploying('kubejs:stripped_treated_wood', ['kubejs:treated_wood', '#forge:tools/axes']).keepHeldItem()
+    event.recipes.create.deploying('kubejs:stripped_treated_wood', ['kubejs:treated_wood', '#forge:tools/axes']).keepHeldItem()*/
     event.shaped(
         Item.of('kubejs:helmet_core',),
         [' A ', ' B ', '   '],

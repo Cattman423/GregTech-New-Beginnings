@@ -12,7 +12,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('hydroponic_farm', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('hydroponic_farm')
-        .appearanceBlock('kubejs:agri_casing')
+        .appearanceBlock(() => Block.getBlock('kubejs:agri_casing'))
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('CCCCCCCCCCC', 'CCCCCCCCCCC', 'CGGGGGGGGCC', 'CCCCCCCCCCC')
             .aisle('EEEEEEEEEEE', 'EDDDDDDDDEE', 'G        PI', 'EGGGGGGGGEE').setRepeatable(1, 8)

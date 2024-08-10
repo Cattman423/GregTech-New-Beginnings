@@ -22,7 +22,7 @@ ServerEvents.recipes(event => {
                 .inputFluids(fert)
                 .itemOutputs(output)
                 .duration(min*2.5)
-                .EUt(iv)
+                .EUt(hv)
         } else {
             event.recipes.gtceu.hydroponic_farm(id)
                 .circuit(cid)
@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
                 .inputFluids(fluid)
                 .itemOutputs(output)
                 .duration(min*5)
-                .EUt(iv)
+                .EUt(hv)
         }
     }
 

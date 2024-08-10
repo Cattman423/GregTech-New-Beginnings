@@ -22,56 +22,17 @@ ServerEvents.recipes(event => {
         )
 
 //Curving Press
-    event.custom({
-        type: 'vintageimprovements:curving',
-        itemAsHead: "gtceu:brick_wooden_form",
-        ingredients: [
-            {
-                item: 'minecraft:clay_ball'
-            }
-        ],
-        results: [
-            {
-                item: 'gtceu:compressed_clay'
-            }
-        ]
-        })
+    event.recipes.vintageimprovements.curving('gtceu:compressed_clay', 'minecraft:clay_ball').head('gtceu:brick_wooden_form')
+    event.recipes.vintageimprovements.curving('gtceu:compressed_coke_clay', 'kubejs:coke_clay').head('gtceu:brick_wooden_form')
 
 //Coiling
     const spring = Ingredient.of('#forge:springs').itemIds
     const smallspring = Ingredient.of('#forge:small_springs').itemIds
     spring.forEach( (itemIds) => {
-        event.custom({
-            type: 'vintageimprovements:coiling',
-            ingredients: [
-                {
-                    item: 'gtceu:long_' + itemIds.slice(6, -7) + '_rod'
-                }
-            ],
-            results: [
-                {
-                    item: itemIds
-                }
-            ],
-            processingTime: 120,
-            })
+        event.recipes.vintageimprovements.coiling(itemIds, 'gtceu:long_' + itemIds.slice(6, -7) + '_rod')
     })
     smallspring.forEach( (itemIds) => {
-        event.custom({
-            type: 'vintageimprovements:coiling',
-            ingredients: [
-                {
-                    item: 'gtceu:' + itemIds.slice(12, -7) + '_rod'
-                }
-            ],
-            results: [
-                {
-                    item: itemIds,
-                    count: 2
-                }
-            ],
-            processingTime: 120,
-            })
+        event.recipes.vintageimprovements.coiling(itemIds, 'gtceu:' + itemIds.slice(12, -7) + '_rod')
     })
 
 //Helve hammering
@@ -101,100 +62,53 @@ ServerEvents.recipes(event => {
             && itemIds != 'gtceu:silicone_rubber_plate'
             && itemIds != 'gtceu:styrene_butadiene_plate'
         ) {
-            event.custom({
-                type: 'vintageimprovements:hammering',
-                hammerBlows: 5,
-                ingredients: [
-                    {
-                        item: itemIds.slice(0, -6) + '_ingot', count: 3
-                    },
-                    {
-                        item: itemIds.slice(0, -6) + '_ingot', count: 3
-                    },
-                    {
-                        item: itemIds.slice(0, -6) + '_ingot', count: 3
-                    }
-                ],
-                results: [
-                    {
-                        item: itemIds,
-                        count: 2
-                    }
-                ],
-                processingTime: 120,
-            })
+            event.recipes.vintageimprovementsHammering(
+                Item.of(itemIds, 2), 
+                [itemIds.slice(0, -6) + '_ingot', itemIds.slice(0, -6) + '_ingot', itemIds.slice(0, -6) + '_ingot'])
+                .hammerBlows(5)
         }
     })//end of plate loop
-    event.custom({
-        type: 'vintageimprovements:hammering',
-        hammerBlows: 5,
-        ingredients: [{item: 'minecraft:iron_ingot'}, {item: 'minecraft:iron_ingot'}, {item: 'minecraft:iron_ingot'}],
-        results: [{item: 'gtceu:iron_plate', count: 2}],
-        processingTime: 120,
-        })
-    event.custom({
-        type: 'vintageimprovements:hammering',
-        hammerBlows: 5,
-        ingredients: [{item: 'minecraft:copper_ingot'}, {item: 'minecraft:copper_ingot'}, {item: 'minecraft:copper_ingot'}],
-        results: [{item: 'gtceu:copper_plate', count: 2}],
-        processingTime: 120,
-        })
-    event.custom({
-        type: 'vintageimprovements:hammering',
-        hammerBlows: 5,
-        ingredients: [{item: 'minecraft:gold_ingot'}, {item: 'minecraft:gold_ingot'}, {item: 'minecraft:gold_ingot'}],
-        results: [{item: 'gtceu:gold_plate', count: 2}],
-        processingTime: 120,
-        })
-    event.custom({
-        type: 'vintageimprovements:hammering',
-        hammerBlows: 5,
-        ingredients: [{item: 'minecraft:netherite_ingot'}, {item: 'minecraft:netherite_ingot'}, {item: 'minecraft:netherite_ingot'}],
-        results: [{item: 'gtceu:netherite_alloy_plate', count: 2}],
-        processingTime: 120,
-        })
-    event.custom({
-        type: 'vintageimprovements:hammering',
-        hammerBlows: 5,
-        ingredients: [{item: 'ad_astra:desh_ingot'}, {item: 'ad_astra:desh_ingot'}, {item: 'ad_astra:desh_ingot'}],
-        results: [{item: 'ad_astra:desh_plate', count: 2}],
-        processingTime: 120,
-        })
-    event.custom({
-        type: 'vintageimprovements:hammering',
-        hammerBlows: 5,
-        ingredients: [{item: 'ad_astra:ostrum_ingot'}, {item: 'ad_astra:ostrum_ingot'}, {item: 'ad_astra:ostrum_ingot'}],
-        results: [{item: 'ad_astra:ostrum_plate', count: 2}],
-        processingTime: 120,
-        })
-    event.custom({
-        type: 'vintageimprovements:hammering',
-        hammerBlows: 5,
-        ingredients: [{item: 'ad_astra:calorite_ingot'}, {item: 'ad_astra:calorite_ingot'}, {item: 'ad_astra:calorite_ingot'}],
-        results: [{item: 'ad_astra:calorite_plate', count: 2}],
-        processingTime: 120,
-        })
-    event.custom({
-        type: 'vintageimprovements:hammering',
-        hammerBlows: 5,
-        ingredients: [{item: 'create:andesite_alloy'}, {item: 'create:andesite_alloy'}, {item: 'create:andesite_alloy'}],
-        results: [{item: 'gtceu:andesite_alloy_plate', count: 2}],
-        processingTime: 120,
-        })
-    event.custom({
-        type: 'vintageimprovements:hammering',
-        hammerBlows: 5,
-        ingredients: [{item: 'avaritia:infinity_ingot'}, {item: 'avaritia:infinity_ingot'}, {item: 'avaritia:infinity_ingot'}],
-        results: [{item: 'gtceu:infinity_plate', count: 2}],
-        processingTime: 120,
-        })
-    event.custom({
-        type: 'vintageimprovements:hammering',
-        hammerBlows: 5,
-        ingredients: [{item: 'tfmg:aluminum_ingot'}, {item: 'tfmg:aluminum_ingot'}, {item: 'tfmg:aluminum_ingot'}],
-        results: [{item: 'gtceu:wohler_aluminium_plate', count: 2}],
-        processingTime: 120,
-        })
+    event.recipes.vintageimprovementsHammering(
+        Item.of('gtceu:iron_plate', 2), 
+        ['minecraft:iron_ingot', 'minecraft:iron_ingot', 'minecraft:iron_ingot'])
+        .hammerBlows(5)
+    event.recipes.vintageimprovementsHammering(
+        Item.of('gtceu:copper_plate', 2), 
+        ['minecraft:copper_ingot', 'minecraft:copper_ingot', 'minecraft:copper_ingot'])
+        .hammerBlows(5)
+    event.recipes.vintageimprovementsHammering(
+        Item.of('gtceu:gold_plate', 2), 
+        ['minecraft:gold_ingot', 'minecraft:gold_ingot', 'minecraft:gold_ingot'])
+        .hammerBlows(5)
+    event.recipes.vintageimprovementsHammering(
+        Item.of('gtceu:netherite_alloy_plate', 2), 
+        ['minecraft:netherite_ingot', 'minecraft:netherite_ingot', 'minecraft:netherite_ingot'])
+        .hammerBlows(5)
+    event.recipes.vintageimprovementsHammering(
+        Item.of('ad_astra:desh_plate', 2), 
+        ['ad_astra:desh_ingot', 'ad_astra:desh_ingot', 'ad_astra:desh_ingot'])
+        .hammerBlows(5)
+    event.recipes.vintageimprovementsHammering(
+        Item.of('ad_astra:ostrum_plate', 2), 
+        ['ad_astra:ostrum_ingot', 'ad_astra:ostrum_ingot', 'ad_astra:ostrum_ingot'])
+        .hammerBlows(5)
+    event.recipes.vintageimprovementsHammering(
+        Item.of('ad_astra:calorite_plate', 2), 
+        ['ad_astra:calorite_ingot', 'ad_astra:calorite_ingot', 'ad_astra:calorite_ingot'])
+        .hammerBlows(5)
+    event.recipes.vintageimprovementsHammering(
+        Item.of('gtceu:infinity_plate', 2), 
+        ['avaritia:infinity_alloy', 'avaritia:infinity_alloy', 'avaritia:infinity_alloy'])
+        .hammerBlows(5)
+    event.recipes.vintageimprovementsHammering(
+        Item.of('gtceu:andesite_alloy_plate', 2), 
+        ['create:andesite_alloy', 'create:andesite_alloy', 'create:andesite_alloy'])
+        .hammerBlows(5)
+    event.recipes.vintageimprovementsHammering(
+        Item.of('gtceu:wohler_aluminium_plate', 2), 
+        ['tfmg:aluminum_alloy', 'tfmg:aluminum_alloy', 'tfmg:aluminum_alloy'])
+        .hammerBlows(5)
+
 //Lathe
     const rods = Ingredient.of('#forge:rods').itemIds.filter((name) => {
         return name.includes('gtceu') == true
@@ -203,41 +117,16 @@ ServerEvents.recipes(event => {
         if(
             itemIds != 'ad_astra:steel_rod'
         ) {
-            event.custom({
-                type: 'vintageimprovements:turning',
-                ingredients: [
-                    {
-                        item: itemIds.slice(0, -4) + '_ingot'
-                    }
-                ],
-                results: [
-                    {
-                        item: itemIds
-                    }
-                ]
-            })
+            event.recipes.vintageimprovements.turning(Item.of(itemIds), itemIds.slice(0, -4) + '_ingot').processingTime(300)
         }
     })//end of lathe loop
-    event.custom({
-        type: 'vintageimprovements:turning',
-        ingredients: [{item: 'minecraft:iron_ingot'}],
-        results: [{item: 'gtceu:iron_rod'}]
-        })
-    event.custom({
-        type: 'vintageimprovements:turning',
-        ingredients: [{item: 'minecraft:copper_ingot'}],
-        results: [{item: 'gtceu:copper_rod'}]
-        })
-    event.custom({
-        type: 'vintageimprovements:turning',
-        ingredients: [{item: 'minecraft:gold_ingot'}],
-        results: [{item: 'gtceu:gold_rod'}]
-        })
-    event.custom({
-        type: 'vintageimprovements:turning',
-        ingredients: [{item: 'minecraft:netherite_ingot'}],
-        results: [{item: 'gtceu:netherite_alloy_rod'}]
-        })/*
+    event.recipes.vintageimprovements.turning(Item.of('gtceu:iron_rod'), 'minecraft:iron_ingot').processingTime(300)
+    event.recipes.vintageimprovements.turning(Item.of('gtceu:copper_rod'), 'minecraft:copper_ingot').processingTime(300)
+    event.recipes.vintageimprovements.turning(Item.of('gtceu:gold_rod'), 'minecraft:gold_ingot').processingTime(300)
+    event.recipes.vintageimprovements.turning(Item.of('gtceu:netherite_alloy_rod'), 'minecraft:netherite_ingot').processingTime(300)
+    event.recipes.vintageimprovements.turning(Item.of('gtceu:wohler_aluminium_rod'), 'tfmg:aluminum_ingot').processingTime(300)
+    event.recipes.vintageimprovements.turning(Item.of('gtceu:glass_tube'), '#forge:glass/colorless').processingTime(300)
+    /*
     event.custom({
         type: 'vintageimprovements:turning',
         ingredients: [{item: 'ad_astra:desh_ingot'}],
@@ -263,36 +152,12 @@ ServerEvents.recipes(event => {
         ingredients: [{item: 'avaritia:infinity_ingot'}],
         results: [{item: 'gtceu:infinity_rod'}]
         })*/
-    event.custom({
-        type: 'vintageimprovements:turning',
-        ingredients: [{tag: 'forge:glass/colorless'}],
-        results: [{item: 'gtceu:glass_tube'}]
-        })
-    event.custom({
-        type: 'vintageimprovements:turning',
-        ingredients: [{item: 'tfmg:aluminum_ingot'}],
-        results: [{item: 'gtceu:wohler_aluminium_rod'}]
-        })
+
 //Vacuumizing
-    event.custom({
-        type: 'vintageimprovements:vacuumizing',
-        ingredients: [{item: 'gtceu:sticky_resin'}],
-        results: [{item: 'gtceu:raw_rubber_dust', count: 3}],
-        processingTime: 600
-    })
-    event.custom({
-        type: 'vintageimprovements:vacuumizing',
-        ingredients: [{item: 'minecraft:slime_ball'}],
-        results: [{item: 'gtceu:raw_rubber_dust', count: 2}],
-        processingTime: 600
-    })
+    event.recipes.vintageimprovements.vacuumizing('3x gtceu:raw_rubber_dust', 'gtceu:sticky_resin').processingTime(500).heated()
+    event.recipes.vintageimprovements.vacuumizing('2x gtceu:raw_rubber_dust', 'minecraft:slime_ball').processingTime(500).heated()
 //Pressurizing
-    event.custom({
-        type: 'vintageimprovements:pressurizing',
-        ingredients: [{item: 'gtceu:fireclay_dust'}],
-        results: [{item: 'gtceu:compressed_fireclay'}],
-        processingTime: 600
-    })
+    event.recipes.vintageimprovements.pressurizing(Item.of('gtceu:compressed_fireclay'), 'gtceu:fireclay_dust').heated()
 //Centrifuge
     event.custom({
         type: 'vintageimprovements:centrifugation',

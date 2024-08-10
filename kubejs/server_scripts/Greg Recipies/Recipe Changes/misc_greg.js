@@ -239,6 +239,16 @@ ServerEvents.recipes(event => {
             B: '#forge:rods/wooden'
         }
         )
+    event.shaped(
+        Item.of('2x gtceu:coke_oven_bricks'),
+        ['AAA', 'ABA', 'AAA'],
+        {A: 'gtceu:coke_oven_brick', B: 'minecraft:water_bucket'}
+    )
+    event.shaped(
+        Item.of('2x minecraft:nether_bricks'),
+        ['AAA', 'ABA', 'AAA'],
+        {A: 'minecraft:nether_brick', B: 'minecraft:water_bucket'}
+    )
 //Nuggets
     let anuggets = Ingredient.of("#forge:nuggets").itemIds
 

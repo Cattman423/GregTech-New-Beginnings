@@ -155,7 +155,7 @@
 			}]
 			title: "Manual Power"
 			x: -2.0d
-			y: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6A91810EF77054CF"]
@@ -237,7 +237,7 @@
 		}
 		{
 			dependencies: ["576E2F40DEF76344"]
-			description: ["Mash some sand and clay together to get compressed Coke Clay"]
+			description: ["Mash some sand and clay together to get Coke Clay, then smash the Coke Clay into a brick form to get Compressed Coke Clay."]
 			id: "5D543CB93A9280B1"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -801,6 +801,11 @@
 		}
 		{
 			dependencies: ["48DC0E7A6ADBFFCE"]
+			description: [
+				"These mechanical crafters can be used to automate workbench recipes."
+				""
+				"More importantly, they will allow you to make some equipment that can't be done by hand."
+			]
 			id: "38747E7B7CB63D8D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1024,8 +1029,8 @@
 				item: { Count: 64, id: "create:andesite_alloy" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.0d
+			x: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -1054,6 +1059,7 @@
 		{
 			dependencies: ["491F667B940BC625"]
 			description: ["You &ocould&r go to the Nether and capture a blaze, or you could stay in the Overworld and craft a Clockwork Burner. I would reccomend the later, as you are probably not prepared for the Nether just yet."]
+			hide_dependent_lines: true
 			id: "7F4D9E3845178B7B"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1116,8 +1122,8 @@
 		{
 			dependencies: ["4AEB55A92229EA6F"]
 			description: ["With this millstone you can put down the morter, unless you want some paper..."]
+			hide_dependent_lines: true
 			id: "4B51A58EDFDFB90C"
-			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "617577748448F920"
@@ -1484,6 +1490,7 @@
 		}
 		{
 			dependencies: ["51FAB3DA0316BBA5"]
+			description: ["Put some fireclay dust under pressure and get compressed fireclay"]
 			id: "2D1687EC6CEC6FD9"
 			optional: true
 			rewards: [{
@@ -1498,11 +1505,12 @@
 				item: "gtceu:compressed_fireclay"
 				type: "item"
 			}]
-			x: 12.5d
-			y: 9.5d
+			x: 11.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["2D1687EC6CEC6FD9"]
+			description: ["Cook the compressed fireclay into bricks"]
 			id: "47750EB4235088D4"
 			optional: true
 			rewards: [{
@@ -1525,6 +1533,13 @@
 				"47750EB4235088D4"
 				"07B9229EA02A6C1E"
 				"38747E7B7CB63D8D"
+			]
+			description: [
+				"Now to make the GT Primative Blast Furnace. This is an annoying multi to get the materieals for, such as, GT concrete. You need water, calcite, stone dust, clay dust, and quartz sand to make this."
+				""
+				"If you don't know where to get calcite, go find a Lapis vein."
+				""
+				"As for the gypsum, locate a Mineral Sands vein, there you will find &osome&r gypsum."
 			]
 			hide_dependent_lines: true
 			icon: "gtceu:primitive_blast_furnace"
@@ -1559,6 +1574,11 @@
 				"0E1FF01D42C2C792"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"Call yourself Friedrich Krupp, becuase you just got steel."
+				""
+				"This is something best made in bulk, as you will need stacks upon stacks of it to progress through the rest of the pack."
+			]
 			id: "71EC3043DE613FF5"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1636,6 +1656,7 @@
 		}
 		{
 			dependencies: ["71EC3043DE613FF5"]
+			description: ["Time to bust out the pyrotechnics with the flint and steel."]
 			id: "50D8A91854E4AD06"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1660,6 +1681,11 @@
 		}
 		{
 			dependencies: ["50D8A91854E4AD06"]
+			description: [
+				"You would be advised to aquire some armour and upgrade your weapons before entering the Nether. It's quite the formidable beast these days with tougher mobs."
+				""
+				"Be prepared, if you haven't yet, I would reccomend aquireing some firearms for some increased offense."
+			]
 			id: "27E3ED1A28B9FAC0"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1828,7 +1854,15 @@
 				"07B9229EA02A6C1E"
 				"38747E7B7CB63D8D"
 			]
+			description: [
+				"The Create: TFMG Blast furnace is about as annoying as the GT one, it also doesn't wall share like the GT one..."
+				""
+				"As for the concrete in this recipe, it's mostly water, sand, gravel, clay, and lime sand. Limesand is made by crushing or milling limestone."
+				""
+				"The firebricks can be made with fireclay, much like regular bricks. You will have to locate some fireclay deposits in the earth to collect this resource."
+			]
 			hide_dependent_lines: true
+			icon: "tfmg:blast_furnace_output"
 			id: "0E1FF01D42C2C792"
 			optional: true
 			rewards: [{
@@ -1838,11 +1872,25 @@
 				type: "random"
 			}]
 			size: 1.0d
-			tasks: [{
-				id: "6539167F275487A5"
-				item: "tfmg:blast_furnace_output"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6539167F275487A5"
+					item: "tfmg:blast_furnace_output"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "14C1C8BB868D878C"
+					item: { Count: 16, id: "tfmg:fireproof_bricks" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "41DDAA50BA0B4145"
+					item: { Count: 8, id: "tfmg:fireproof_brick_reinforcement" }
+					type: "item"
+				}
+			]
 			x: 8.5d
 			y: 9.5d
 		}
@@ -1912,8 +1960,8 @@
 				item: "kubejs:conductive_mechanism"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 10.5d
+			x: 3.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["3207FF72AB2204F6"]
@@ -2012,7 +2060,7 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["51FAB3DA0316BBA5"]
+			dependencies: ["7F4D9E3845178B7B"]
 			id: "3F01F2E0AF91146F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2025,13 +2073,18 @@
 				item: "gtceu:aluminium_trichloride_dust"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 6.5d
+			x: -1.5d
+			y: 7.5d
 		}
 		{
 			dependencies: [
 				"279F524D86F5A2E0"
 				"3F01F2E0AF91146F"
+			]
+			description: [
+				"Mix the Aluminium Trichloride with the Potash dust to get an early Aluminium."
+				""
+				"Due to the sub-par method of refinement, this Aluminium can't be used to make Mv machinery later down the line."
 			]
 			id: "4FD5B9DF201BB738"
 			rewards: [{
@@ -2045,11 +2098,16 @@
 				item: "gtceu:wohler_aluminium_dust"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 7.5d
+			x: -1.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["3F1FE25C5E4E04FE"]
+			description: [
+				"Centrifuge some ashes to get some potash and other materials. "
+				""
+				"Ashes can be obtained by lighting wood blocks on fire, or as a byproduct of steel smelting in the GT PBF."
+			]
 			id: "279F524D86F5A2E0"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2062,11 +2120,12 @@
 				item: "gtceu:potash_dust"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 7.0d
+			x: -1.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["1928A0F6075A46AC"]
+			description: ["An early centrifuge, check the ponder on how to set it up."]
 			id: "3F1FE25C5E4E04FE"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2079,8 +2138,8 @@
 				item: "vintageimprovements:centrifuge"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 6.0d
+			x: -1.5d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -2089,6 +2148,7 @@
 				"2326FE6A4C1C05A1"
 			]
 			dependency_requirement: "one_completed"
+			description: ["Just like Steel, you have two choices for how to smelt this, I would reccomend using whichever route you chose for steel."]
 			id: "39DE7E733D65D229"
 			min_required_dependencies: 2
 			rewards: [{
@@ -2102,11 +2162,14 @@
 				item: "tfmg:aluminum_ingot"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -0.5d
 			y: 8.5d
 		}
 		{
-			dependencies: ["7F89E529AADC4C7E"]
+			dependencies: [
+				"7F89E529AADC4C7E"
+				"5DF7C837CAC6AEB2"
+			]
 			id: "3D5F57B8006C2293"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2120,12 +2183,18 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 8.5d
+			y: 11.0d
 		}
 		{
 			dependencies: [
 				"39DE7E733D65D229"
 				"3D5F57B8006C2293"
+			]
+			description: [
+				"The faster you spin the rotor, the more RF it generates. Unlike the single block generator, this doesn't scale linearly."
+				""
+				"&cI would advise keeping the rpm at or below 140 to avoid any explosions due to excessive voltage!&r"
+				"At 140 rpm, you are generating 1960RF/t and using 49000 stress units."
 			]
 			id: "6FCA9CCC58E36674"
 			optional: true
@@ -2137,6 +2206,7 @@
 			}]
 			tasks: [
 				{
+					count: 8L
 					id: "2B1ED198972226E6"
 					item: "tfmg:stator"
 					type: "item"
@@ -2147,16 +2217,25 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: 8.5d
+			x: 0.5d
+			y: 11.0d
 		}
 		{
 			dependencies: [
-				"6FCA9CCC58E36674"
 				"179BE55EAA6BA680"
-				"3A5A837570183C79"
+				"2CA8583DDF2AEC3A"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"This is how you can convert that pesky RF to precious EU, and vice versa."
+				""
+				"The &cred face&r is for RF, and the &agreen faces&r are for EU."
+				""
+				"When placed, it will be converting EU -> RF, hit it with any soft mallet to invert it's function."
+				""
+				""
+				"&eDespite what the tooltip states, they are configured to run at a ration of 2 RF to 1 EU&r"
+			]
 			id: "5EFF8C3E3D06198D"
 			min_required_dependencies: 2
 			rewards: [{
@@ -2170,8 +2249,8 @@
 				item: "gtceu:lv_1a_energy_converter"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 10.5d
+			x: 1.5d
+			y: 13.0d
 		}
 		{
 			dependencies: [
@@ -2190,8 +2269,8 @@
 				item: "gtceu:tin_single_cable"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 12.0d
+			x: 4.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["7677FB46CB4CAAB9"]
@@ -2228,8 +2307,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: 7.5d
+			x: 2.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["3D5F57B8006C2293"]
@@ -2247,13 +2326,15 @@
 				item: "tfmg:generator"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 9.5d
+			x: 2.0d
+			y: 12.0d
 		}
 		{
-			dependencies: [
-				"6FCA9CCC58E36674"
-				"3A5A837570183C79"
+			dependencies: ["2CA8583DDF2AEC3A"]
+			description: [
+				"These will be familiar if you've ever play Immersive Engineering. The main difference however is that the cable connectors can have multiple wires connected to them, &oand&r send power to the block/machine it's placed on."
+				""
+				"These wires won't zap you, they are player safe."
 			]
 			id: "5CAD7E6B3880A43C"
 			min_required_dependencies: 1
@@ -2275,8 +2356,251 @@
 					type: "item"
 				}
 			]
-			x: -1.5d
-			y: 9.5d
+			x: 0.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"6FCA9CCC58E36674"
+				"3A5A837570183C79"
+			]
+			description: [
+				"To transmit the newly made power you have three options:"
+				""
+				"1, Cable Tubes"
+				"2, Cable Wires"
+				"3, Convert to GT's EU and Cables"
+				""
+				"&cWARNING!! If you try and send to much voltage through a Create: TFMG cable/wire, it will explode!!"
+			]
+			id: "2CA8583DDF2AEC3A"
+			tasks: [{
+				id: "60A5683E1C50E934"
+				title: "Moving Power"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2CA8583DDF2AEC3A"]
+			description: [
+				"These Cables transmit power through the block they are placed on, dirrection matters with these fellows. "
+				""
+				"Fortunatly the devs included a diagonal cable to turn a corner, as well as, multiple options for 'cable hubs' which transmit power in all 6 directions."
+			]
+			id: "1A86406CABE5362C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "30E9F9FE1550686F"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "6D743600336F17F4"
+					item: "tfmg:cable_tube"
+					type: "item"
+				}
+				{
+					id: "13E469806D89CDDE"
+					item: "tfmg:diagonal_cable_block"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"304C93DC669DB7ED"
+				"39DE7E733D65D229"
+			]
+			description: ["The LPG Engine runs off of LPG, like all multipart Create: TFMG engines, it requires an exhaust stack."]
+			icon: "tfmg:lpg_engine"
+			id: "40BAA6C27B13EFF5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73B93F14E696144C"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "451498BBEDAF8DD0"
+					item: "tfmg:lpg_engine"
+					type: "item"
+				}
+				{
+					id: "6EB70493FC108ED9"
+					item: "tfmg:lpg_engine_back"
+					type: "item"
+				}
+				{
+					id: "723C45CFDAFDF8AC"
+					item: "tfmg:lpg_bucket"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"304C93DC669DB7ED"
+				"39DE7E733D65D229"
+			]
+			description: ["The Gasoline Engine runs off of gasoline, like all multipart Create: TFMG engines, it requires an exhaust stack."]
+			icon: "tfmg:gasoline_engine"
+			id: "2C688C3D6A6F0E52"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "722201343354D021"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "20D76AE7E61A2FF9"
+					item: "tfmg:gasoline_engine"
+					type: "item"
+				}
+				{
+					id: "4FEC09313D57816A"
+					item: "tfmg:gasoline_engine_back"
+					type: "item"
+				}
+				{
+					id: "75491AD497B0EC08"
+					item: "tfmg:gasoline_bucket"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"304C93DC669DB7ED"
+				"39DE7E733D65D229"
+			]
+			description: ["The Large Radial Engine runs off of kerosene and doesn't require an exahust."]
+			icon: "tfmg:large_radial_engine"
+			id: "20252558FE6FA288"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FD7DACF040A3BB9"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "43EADA6535F8253A"
+					item: "tfmg:large_radial_engine"
+					type: "item"
+				}
+				{
+					id: "3122FA15ED1DEDD8"
+					item: "tfmg:kerosene_bucket"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"304C93DC669DB7ED"
+				"39DE7E733D65D229"
+			]
+			description: ["The Diesel Engine is a multipart engine, like all multipart Create: TFMG engines, it requires an exhaust stack. Unlike the other engines, the Diesel Engine also requires an air intake."]
+			icon: "tfmg:diesel_engine"
+			id: "1A67F2EA21B47171"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A3D465F69C22C90"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "72A1E7D942290C93"
+					item: "tfmg:diesel_engine"
+					type: "item"
+				}
+				{
+					id: "116DD6E29122AC0F"
+					item: "tfmg:diesel_engine_expansion"
+					type: "item"
+				}
+				{
+					id: "34E73B362AE6A893"
+					item: "tfmg:air_intake"
+					type: "item"
+				}
+				{
+					id: "05AC2CF99654DD14"
+					item: "tfmg:diesel_bucket"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"304C93DC669DB7ED"
+				"39DE7E733D65D229"
+			]
+			description: ["The Radial Engine runs off of gasoline and doesn't require an exahust."]
+			id: "4B74AB30F1991CA0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F8F8FD46DF7A18E"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			tasks: [{
+				id: "612F1BC07ECDF8B1"
+				item: "tfmg:radial_engine"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"304C93DC669DB7ED"
+				"39DE7E733D65D229"
+			]
+			description: ["The Turbine engine runs on kerosene, like all multipart Create: TFMG engines, it requires an exhaust stack."]
+			icon: "tfmg:turbine_engine"
+			id: "0B93EC3CEB969DB0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66238F17CCA014B5"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "2CF0DAC5B7B0E686"
+					item: "tfmg:turbine_engine"
+					type: "item"
+				}
+				{
+					id: "76E39A2460EF12F4"
+					item: "tfmg:turbine_engine_back"
+					type: "item"
+				}
+				{
+					id: "267991C9BFDE7357"
+					item: "tfmg:kerosene_bucket"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 8.0d
 		}
 	]
 	title: "Clockwork Age"

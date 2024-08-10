@@ -21,7 +21,7 @@
 			type: "xp_levels"
 			xp_levels: 1
 		}
-		{ count: 4, item: "storagedrawers:oak_full_drawers_1" }
+		{ count: 4, item: "functionalstorage:oak_1" }
 		{ item: "supplementaries:antique_ink" }
 	]
 	title: "Mv Loot"
