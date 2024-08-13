@@ -13,6 +13,7 @@
   * Added 'lore' to Start Here questline
   * Renamed Create Age to Clockwork Age
   * Reduced required wooden gears from 32 to 16 in the 'Some Key Things' quest in the Clockwork Age
+  * Added quest tree for Vic's Point Blank
 * Textures
   * Added textures for Advanced Command Pod and Advanced Command Pod II
   * Added textures for Advanced Life Support System
@@ -119,6 +120,7 @@
   * Added Sequenced assembly recipes for Create Cogwheels and Large Cogwheels
   * Steel and Lead Rounds can now be cast in a casting table
   * Rounds can now be crafted in an Alloy Smelter or Fluid Solidifier
+  * Gregified Advanced Beehive and Expansion Box recipes
 * Resource Packs
   * Additions
     * ComputerCraft: Greg Flavored
@@ -141,8 +143,9 @@
     * Reactivated Create:Vintage Improvements
   * Mod Removals
     * Removed Melter Block
+    * Removed Storage Drawers
   * Mod Updates
-    * Ad Astra: Giselle Addon v6.13
+    * Ad Astra: Giselle Addon v6.14
     * AE2 Insert Export Card v1.3.0
     * Almost Unified v0.9.4
     * Amendments v1.2.8
@@ -150,7 +153,7 @@
     * Apotheosis v7.4.0
     * Apothic Attributes v1.3.6
     * Applied Energistics 2 v15.2.11
-    * Artemis' Laboratory Blocks v0.4.1r
+    * Artemis' Laboratory Blocks v0.5r
     * Artifacts v9.5.11
     * Balm v7.3.6
     * Better Advancements v0.4.2.10
@@ -160,9 +163,9 @@
     * Chisel v1.8.0
     * ChoiceTheorem's Overhauled Village v3.4.5
     * Citadel v2.5.6
-    * Cognition v2.2.2
-    * Collective v7.80
-    * Colorful Hearts v4.3.13
+    * Cognition v2.2.4
+    * Collective v7.81
+    * Colorful Hearts v4.3.14
     * Comforts v6.4.0
     * Connectivity v5.6
     * Cooking for Blockheads v16.0.6
@@ -176,7 +179,7 @@
     * Create: Quality of Life v1.1-ht2
     * Create: Slice and Dice v3.2.1
     * Create: The Factory Must Grow v0.9.0d
-    * Create: Vintage Improvements v0.2.0.1
+    * Create: Vintage Improvements v0.2.0.2
     * CreativeCore v2.11.33
     * Cucumber Library v7.0.11
     * Cupboard v2.7
@@ -185,23 +188,24 @@
     * Delighful v3.5.9
     * Ding v1.5.0
     * Double Doors v5.9
+    * Dummmmmmy v1.8.19
     * Embeddium v0.3.28
     * Embeddium++ v1.2.13
     * End's Delight v2.4
     * Entity Culling v1.6.6
-    * Entity Texture Features v6.1.3
+    * Entity Texture Features v6.1.4
     * Extended AE v1.1.12
     * Fast Leaf Decay v32
     * Framed Blocks v9.3.0
-    * Fruits Delight v1.0.10
+    * Fruits Delight v1.0.11
     * FTB Chunks v2001.3.1
     * FTB Library v2001.2.4
     * FTB Quests v2001.4.8
-    * FTBQuestsOptimizer v2.0.3
+    * FTBQuestsOptimizer v2.0.4
     * Gateways to Eternity v4.2.5
     * GeckoLib v4.4.7
     * GregTechCEu Modern v1.3.1
-    * Guard Villagers v1.6.6
+    * Guard Villagers v1.6.7
     * GunpowderLib v2.2.2
     * Infernal Mobs v1.20.1.3
     * Insane Lib v1.13.5
@@ -215,7 +219,7 @@
     * KubeJS v2001.6.5-build.14
     * Lithostitched v1.1.8
     * LootJS v2.12.0
-    * Lootr v0.7.34.86
+    * Lootr v0.7.34.87
     * ModernFix v5.19.0
     * Moonlight v2.12.9
     * Placebo v8.6.2
@@ -236,6 +240,7 @@
     * Titanium v3.8.32
     * Tom's Simple Storage Mod v1.6.8
     * Tool Belt v1.20.01
+    * Tree Tap v0.4.0
     * Waystones v14.1.4
     * Workshop for Handsome Adventurer v1.15.1
     * Xtones Reworked v1.0.3-F

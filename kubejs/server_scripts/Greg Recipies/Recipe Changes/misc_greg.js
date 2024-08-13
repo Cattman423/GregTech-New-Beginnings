@@ -249,6 +249,12 @@ ServerEvents.recipes(event => {
         ['AAA', 'ABA', 'AAA'],
         {A: 'minecraft:nether_brick', B: 'minecraft:water_bucket'}
     )
+
+    event.shaped(
+        Item.of('gtceu:primitive_blast_furnace',),
+        ['ABC', 'DEB', 'FBC'],
+        {A: '#forge:tools/hammers', B: 'gtceu:iron_rod', C: 'gtceu:iron_screw',
+        D: 'kubejs:advanced_clockwork_mechanism', E: 'gtceu:firebricks', F: '#forge:tools/screwdrivers'})
 //Nuggets
     let anuggets = Ingredient.of("#forge:nuggets").itemIds
 

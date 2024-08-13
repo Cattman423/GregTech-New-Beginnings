@@ -3,23 +3,3371 @@
 	default_quest_shape: ""
 	filename: "firearms"
 	group: "41910268CB9EDE34"
-	icon: {
-		Count: 1
-		ForgeCaps: {
-			"pointblank:reload_cooldown": {
-				ammoCount: 0
-				correlationId: 0
-				fireState: 0
-				lastShotFiredTime: 0L
-				lastSyncTime: 0L
-				totalUninterruptedFireTime: 0
-			}
-		}
-		id: "pointblank:m1911a1"
-	}
+	icon: "pointblank:m1911a1"
 	id: "6AEE686DF95715BE"
-	order_index: 3
-	quest_links: [ ]
-	quests: [ ]
-	title: "Firearms [NYI]"
+	order_index: 2
+	quest_links: [{
+		id: "34E50C6D7B5E3CCA"
+		linked_quest: "3B53B598B6D6EDC0"
+		shape: "hexagon"
+		size: 2.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["3B53B598B6D6EDC0"]
+			id: "004C00677D6FA2C0"
+			tasks: [{
+				id: "32E3346B64D7FB42"
+				title: "Handguns"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3B53B598B6D6EDC0"]
+			id: "4A959F4C62501857"
+			tasks: [{
+				id: "05CB361CE7AB80EA"
+				title: "Rifles"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3B53B598B6D6EDC0"]
+			id: "2599B3156A7A190C"
+			tasks: [{
+				id: "568A2362F465ABC6"
+				title: "Shotguns"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"004C00677D6FA2C0"
+				"0754F97C5C3DDC56"
+			]
+			id: "3702C642AA9B672B"
+			optional: true
+			tasks: [{
+				id: "2BD17F445D16CEEA"
+				item: "pointblank:ammo9mm"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"004C00677D6FA2C0"
+				"0754F97C5C3DDC56"
+			]
+			id: "0E48FEEAAA407CDC"
+			optional: true
+			tasks: [{
+				id: "17B79F8F7A055A6C"
+				item: "pointblank:ammo45acp"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0754F97C5C3DDC56"]
+			id: "6C1ADDA036444322"
+			optional: true
+			tasks: [{
+				id: "5B583063AE4C054B"
+				item: "pointblank:ammo57"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["004C00677D6FA2C0"]
+			id: "1F183909B69A12A4"
+			optional: true
+			tasks: [{
+				id: "7F090463EFDC39CC"
+				item: "pointblank:ammo357"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3B53B598B6D6EDC0"]
+			id: "0754F97C5C3DDC56"
+			tasks: [{
+				id: "58544FB93E3CC014"
+				title: "PDW's"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["004C00677D6FA2C0"]
+			id: "0E7BA3BC7CE5745A"
+			optional: true
+			tasks: [{
+				id: "703FBDFE6060A559"
+				item: "pointblank:ammo50ae"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0754F97C5C3DDC56"]
+			id: "15C3E60D131F5BBC"
+			optional: true
+			tasks: [{
+				id: "192FD3A944FF469C"
+				item: "pointblank:ammo46"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4A959F4C62501857"]
+			id: "3F58F7750EDFF9E5"
+			optional: true
+			tasks: [{
+				id: "295E19858F3FD361"
+				item: "pointblank:ammo545"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4A959F4C62501857"]
+			id: "144BBEAC496F8CFA"
+			optional: true
+			tasks: [{
+				id: "13A94E78DBDB4F2F"
+				item: "pointblank:ammo556"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4A959F4C62501857"]
+			id: "612A26D13C3D4792"
+			optional: true
+			tasks: [{
+				id: "45BD2AB107C6C134"
+				item: "pointblank:ammo68"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4A959F4C62501857"]
+			id: "5F9CE10BA88870E7"
+			optional: true
+			tasks: [{
+				id: "334BCA51F7586E87"
+				item: "pointblank:ammo762"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4A959F4C62501857"]
+			id: "497E636A9BF49089"
+			optional: true
+			tasks: [{
+				id: "6FA7E5B6804C6C3C"
+				item: "pointblank:ammo762x51"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4A959F4C62501857"]
+			id: "483A8682CFDAD73C"
+			optional: true
+			tasks: [{
+				id: "5F4FD4CC22D54975"
+				item: "pointblank:ammo338lapua"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4A959F4C62501857"]
+			id: "5A92C2B04CD32BD2"
+			optional: true
+			tasks: [{
+				id: "4CFA2C5E089433E6"
+				item: "pointblank:ammo50bmg"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2599B3156A7A190C"]
+			id: "5035C594E6BAE83F"
+			optional: true
+			tasks: [{
+				id: "095590D051E7F4E7"
+				item: "pointblank:ammo12gauge"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1F183909B69A12A4"]
+			id: "7A685A1567CA9ADE"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "1B8CC8B1899230EE"
+				item: {
+					Count: 1
+					id: "pointblank:rhino"
+					tag: {
+						GeckoLibID: 103L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							-1925260781
+							1604924941
+							-2011785660
+							379136507
+						]
+						lid: -6892216234617772942L
+						mid: -7302754052394892655L
+						sa: {
+							scope: "/"
+						}
+						seed: 1199635359255812190L
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["0E7BA3BC7CE5745A"]
+			id: "10317C21813E4B89"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "5083E448E2E8BF1F"
+				item: {
+					Count: 1
+					id: "pointblank:deserteagle"
+					tag: {
+						GeckoLibID: 104L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							-520846650
+							310392400
+							-1831547144
+							686187342
+						]
+						lid: -6701377945803505733L
+						mid: -8238280467736608686L
+						sa: {
+							scope: "/"
+						}
+						seed: -8667848564905957018L
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["3702C642AA9B672B"]
+			id: "1FFC263EC14819A6"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "5333DA8466312BE4"
+				item: {
+					Count: 1
+					id: "pointblank:glock17"
+					tag: {
+						GeckoLibID: 105L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							1926218692
+							1489056917
+							-1937917412
+							57892429
+						]
+						lid: -8143013495875566518L
+						mid: 7926353436026687215L
+						sa: {
+							scope: "/"
+						}
+						seed: 6774744383349219738L
+					}
+				}
+				type: "item"
+			}]
+			x: -6.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["3702C642AA9B672B"]
+			id: "1DB6050612C2F593"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "2FC26807AACED8BF"
+				item: {
+					Count: 1
+					id: "pointblank:glock18"
+					tag: {
+						GeckoLibID: 106L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							-1603600574
+							-799328252
+							-1688926956
+							1885177865
+						]
+						lid: -7841997520994412444L
+						mid: 9175022892831624134L
+						sa: {
+							scope: "/"
+						}
+						seed: 5725877001139891826L
+					}
+				}
+				type: "item"
+			}]
+			x: -6.75d
+			y: 4.25d
+		}
+		{
+			dependencies: ["3702C642AA9B672B"]
+			id: "6EA3DA4AB4E32EFB"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "77D2D6407FA2A43E"
+				item: {
+					Count: 1
+					id: "pointblank:m9"
+					tag: {
+						GeckoLibID: 107L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							2024040644
+							790376639
+							-1901301172
+							-347176430
+						]
+						lid: -7051284296096855695L
+						mid: 8258699344435040069L
+						sa: {
+							scope: "/"
+						}
+						seed: 5705295715036108539L
+					}
+				}
+				type: "item"
+			}]
+			x: -6.75d
+			y: 4.75d
+		}
+		{
+			dependencies: ["3702C642AA9B672B"]
+			id: "49766E81B531146B"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "650EAC046E923C2F"
+				item: {
+					Count: 1
+					id: "pointblank:p30l"
+					tag: {
+						GeckoLibID: 108L
+						aim: 0b
+						ammo: 15
+						ammox: { }
+						as: [{
+							id: "pointblank:p30l_compensator"
+							rmv: 1b
+						}]
+						fmid: [I;
+							-1363747875
+							-1689898968
+							-1943386793
+							100005649
+						]
+						lid: -6826205976951206315L
+						mid: 448414196443138277L
+						sa: {
+							scope: "/"
+						}
+						seed: 3770710264182453706L
+					}
+				}
+				type: "item"
+			}]
+			x: -6.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["3702C642AA9B672B"]
+			id: "5672B45D43D57824"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "2A120441251B7940"
+				item: {
+					Count: 1
+					id: "pointblank:mp5"
+					tag: {
+						GeckoLibID: 109L
+						aim: 0b
+						ammo: 30
+						ammox: { }
+						fmid: [I;
+							1212764091
+							-1102301601
+							-1169173617
+							-1550222542
+						]
+						lid: -9048609675907153673L
+						mid: -8379368120733908036L
+						sa: {
+							scope: "/"
+						}
+						seed: 7961702922341708427L
+					}
+				}
+				type: "item"
+			}]
+			x: -6.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["3702C642AA9B672B"]
+			id: "6C79FD46ED96D1CE"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "711485CA05CA2BA2"
+				item: {
+					Count: 1
+					id: "pointblank:ro635"
+					tag: {
+						GeckoLibID: 110L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							-750237153
+							787822104
+							-1468867053
+							1477996689
+						]
+						lid: -6689146399180402649L
+						mid: -3601192589861499600L
+						sa: {
+							scope: "/"
+						}
+						seed: 2746169000447390964L
+					}
+				}
+				type: "item"
+			}]
+			x: -6.25d
+			y: 4.25d
+		}
+		{
+			dependencies: ["3702C642AA9B672B"]
+			id: "15B67746690A2843"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "232CE6FAFC302681"
+				item: {
+					Count: 1
+					id: "pointblank:m950"
+					tag: {
+						GeckoLibID: 111L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							809854708
+							-1817693232
+							-1507867939
+							-119638361
+						]
+						lid: -6312842690568035693L
+						mid: -8359695648399473763L
+						sa: {
+							scope: "/"
+						}
+						seed: -4908414583680150490L
+					}
+				}
+				type: "item"
+			}]
+			x: -6.25d
+			y: 4.75d
+		}
+		{
+			dependencies: ["3702C642AA9B672B"]
+			id: "20866033C8E78F9E"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "7447CE36C64266DA"
+				item: {
+					Count: 1
+					id: "pointblank:tmp"
+					tag: {
+						GeckoLibID: 112L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							-1658230159
+							687356019
+							-1231923749
+							9132574
+						]
+						lid: -5604401041218990859L
+						mid: 8896910896560554263L
+						sa: {
+							scope: "/"
+						}
+						seed: 1850339204403957958L
+					}
+				}
+				type: "item"
+			}]
+			x: -6.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["0E48FEEAAA407CDC"]
+			id: "78FDE24BD1944C35"
+			optional: true
+			rewards: [{
+				id: "261948F74BED0213"
+				item: "kubejs:platinum_chip"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "102EB2A5837FAB7E"
+				item: {
+					Count: 1
+					id: "pointblank:m1911a1"
+					tag: {
+						GeckoLibID: 113L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							-1636272185
+							45363964
+							-1509764009
+							649528026
+						]
+						lid: -4741484219584979114L
+						mid: -9086838570487364796L
+						sa: {
+							scope: "/"
+						}
+						seed: -6615809044976794292L
+					}
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["0E48FEEAAA407CDC"]
+			id: "7FAFDDA1A108F587"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "564D734FC102FE1B"
+				item: {
+					Count: 1
+					id: "pointblank:tti_viper"
+					tag: {
+						GeckoLibID: 114L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							734644793
+							-449954714
+							-1876923305
+							1378374856
+						]
+						lid: -6552975225208106316L
+						mid: 3694293461840448592L
+						sa: {
+							scope: "/"
+						}
+						seed: -1891131443227691168L
+					}
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: 4.25d
+		}
+		{
+			dependencies: ["0E48FEEAAA407CDC"]
+			id: "4B14B3214A8A164F"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "4D4F9237C98AD3B8"
+				item: {
+					Count: 1
+					id: "pointblank:mk23"
+					tag: {
+						GeckoLibID: 115L
+						aim: 0b
+						ammo: 12
+						ammox: { }
+						as: [{
+							id: "pointblank:smg_suppressor"
+							rmv: 1b
+						}]
+						fmid: [I;
+							-1251454591
+							788348268
+							-1739643098
+							-2054413585
+						]
+						lid: -7780885333053826615L
+						mid: -5251510993208655581L
+						sa: {
+							scope: "/"
+						}
+						seed: -6217392586944043464L
+					}
+				}
+				type: "item"
+			}]
+			x: -5.75d
+			y: 4.75d
+		}
+		{
+			dependencies: ["0E48FEEAAA407CDC"]
+			id: "64D81A09290D0420"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "20C90567A1BE3EE4"
+				item: {
+					Count: 1
+					id: "pointblank:ump45"
+					tag: {
+						GeckoLibID: 116L
+						aim: 0b
+						ammo: 30
+						ammox: { }
+						as: [
+							{
+								id: "pointblank:holographic"
+								rmv: 1b
+							}
+							{
+								id: "pointblank:smg_suppressor"
+								rmv: 1b
+							}
+							{
+								id: "pointblank:foregrip"
+								rmv: 1b
+							}
+						]
+						fmid: [I;
+							1423373621
+							855323929
+							-1411413903
+							-153094063
+						]
+						lid: -4727283489742229945L
+						mid: 3001829959106513514L
+						sa: {
+							scope: "//holographic"
+						}
+						seed: 2397060319260763483L
+					}
+				}
+				type: "item"
+			}]
+			x: -5.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["0E48FEEAAA407CDC"]
+			id: "0DF294EBFFB82FA5"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "1300799F5210AC41"
+				item: {
+					Count: 1
+					id: "pointblank:vector"
+					tag: {
+						GeckoLibID: 117L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						as: [
+							{
+								id: "pointblank:holographic"
+								rmv: 1b
+							}
+							{
+								id: "pointblank:foregrip"
+								rmv: 1b
+							}
+						]
+						fmid: [I;
+							-324854389
+							-1642647428
+							-1791078908
+							-554489508
+						]
+						lid: -4732084736124770983L
+						mid: -1385546362134838710L
+						sa: {
+							scope: "//holographic"
+						}
+						seed: 8917329885241399345L
+					}
+				}
+				type: "item"
+			}]
+			x: -5.25d
+			y: 4.25d
+		}
+		{
+			dependencies: ["6C1ADDA036444322"]
+			id: "3E5315E7C128D404"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "2AF2B930AE30A95B"
+				item: {
+					Count: 1
+					id: "pointblank:p90"
+					tag: {
+						GeckoLibID: 118L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						as: [{
+							id: "pointblank:srs"
+							rmv: 1b
+						}]
+						fmid: [I;
+							1699945618
+							1147354251
+							-1094863153
+							2043323088
+						]
+						lid: -8498590597705660769L
+						mid: 1932602479965719638L
+						sa: {
+							scope: "//srs"
+						}
+						seed: -4348487563805865406L
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["15C3E60D131F5BBC"]
+			id: "6FA39982A56E1120"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "2B331EF1E380A150"
+				item: {
+					Count: 1
+					id: "pointblank:mp7"
+					tag: {
+						GeckoLibID: 119L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							-499116907
+							4274003
+							-1944911048
+							2057537121
+						]
+						lid: -5068668971815791464L
+						mid: -4710762070557308963L
+						sa: {
+							scope: "/"
+						}
+						seed: -3027867910999656161L
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["3F58F7750EDFF9E5"]
+			id: "0FDA3B12CE50722C"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "6AE6492F65E6CFF1"
+				item: {
+					Count: 1
+					id: "pointblank:ak74"
+					tag: {
+						GeckoLibID: 120L
+						aim: 0b
+						ammo: 30
+						ammox: { }
+						fmid: [I;
+							1647673404
+							1333737532
+							-2113320630
+							921054727
+						]
+						lid: -7628454611528560128L
+						mid: -7428181134886485473L
+						sa: {
+							scope: "/"
+						}
+						seed: 7103296792959942720L
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["3F58F7750EDFF9E5"]
+			id: "0F6354A1578D367F"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "08B14F1793599450"
+				item: {
+					Count: 1
+					id: "pointblank:ak12"
+					tag: {
+						GeckoLibID: 121L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						as: [{
+							id: "pointblank:operatorreflex"
+							rmv: 1b
+						}]
+						fmid: [I;
+							243649884
+							776747766
+							-2144892323
+							-1874432901
+						]
+						lid: -7211200910555854701L
+						mid: 7386675208872739267L
+						sa: {
+							scope: "//operatorreflex"
+						}
+						seed: -1606581306421181344L
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.25d
+		}
+		{
+			dependencies: ["3F58F7750EDFF9E5"]
+			id: "3611ED85E48475B2"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "7061260F3247333D"
+				item: {
+					Count: 1
+					id: "pointblank:an94"
+					tag: {
+						GeckoLibID: 122L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							1985445131
+							597769434
+							-1137608053
+							-525523953
+						]
+						lid: -7334681366057744544L
+						mid: 7692590991457601050L
+						sa: {
+							scope: "/"
+						}
+						seed: -4342085033577510117L
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.75d
+		}
+		{
+			dependencies: ["144BBEAC496F8CFA"]
+			id: "7B187E1ED6AA63DC"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "6DA11CD54F912B75"
+				item: {
+					Count: 1
+					id: "pointblank:m4a1"
+					tag: {
+						GeckoLibID: 124L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							1109749767
+							-685166449
+							-2099559525
+							908870134
+						]
+						lid: -6908315158700544788L
+						mid: 7831279538207934762L
+						sa: {
+							scope: "/"
+						}
+						seed: 6149748374182908512L
+					}
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["144BBEAC496F8CFA"]
+			id: "386AB75EC93A9CBF"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "49BE1E3E0F10B2ED"
+				item: {
+					Count: 1
+					id: "pointblank:m4a1mod1"
+					tag: {
+						GeckoLibID: 125L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						as: [
+							{
+								id: "pointblank:holographic_em"
+								rmv: 1b
+							}
+							{
+								id: "pointblank:foregrip_tan"
+								rmv: 1b
+							}
+						]
+						fmid: [I;
+							1127218512
+							-664651423
+							-1764107698
+							-1607275377
+						]
+						lid: -8549823831806124716L
+						mid: 4174197062653919388L
+						sa: {
+							scope: "//holographic_em"
+						}
+						seed: 5402340383935956054L
+					}
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["144BBEAC496F8CFA"]
+			id: "1E0DF0FAD86E61E8"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "493E508BAFB15244"
+				item: {
+					Count: 1
+					id: "pointblank:star15"
+					tag: {
+						GeckoLibID: 126L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						as: [
+							{
+								id: "pointblank:eaglescope"
+								rmv: 1b
+							}
+							{
+								id: "pointblank:ar_suppressor"
+								rmv: 1b
+							}
+						]
+						fmid: [I;
+							-1254906748
+							1221934846
+							-2031623843
+							-248764430
+						]
+						lid: -8509515846466834692L
+						mid: -7481967540598914239L
+						sa: {
+							scope: "//eaglescope"
+						}
+						seed: 23449890654767840L
+					}
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: 4.25d
+		}
+		{
+			dependencies: ["144BBEAC496F8CFA"]
+			id: "52D7D85751FBB462"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "02691BE8C0C45238"
+				item: {
+					Count: 1
+					id: "pointblank:m4sopmodii"
+					tag: {
+						GeckoLibID: 127L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						as: [{
+							id: "pointblank:holographic"
+							rmv: 1b
+						}]
+						fmid: [I;
+							-1701463822
+							1341931371
+							-1838848875
+							803100096
+						]
+						lid: -9058623404411241296L
+						mid: 5143520923571209314L
+						sa: {
+							scope: "//holographic"
+						}
+						seed: -3380350332568517627L
+					}
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: 4.25d
+		}
+		{
+			dependencies: ["144BBEAC496F8CFA"]
+			id: "031EB5774B09EF70"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "61266D5D261F492F"
+				item: {
+					Count: 1
+					id: "pointblank:hk416"
+					tag: {
+						GeckoLibID: 129L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						as: [
+							{
+								id: "pointblank:holographic_em"
+								rmv: 1b
+							}
+							{
+								id: "pointblank:ar_suppressor_tan"
+								rmv: 1b
+							}
+							{
+								id: "pointblank:stubbygriptan"
+								rmv: 1b
+							}
+						]
+						fmid: [I;
+							887459314
+							-1109902053
+							-1933170752
+							1340284040
+						]
+						lid: -8393238817462436818L
+						mid: 7816684989300359384L
+						sa: {
+							scope: "//holographic_em"
+						}
+						seed: -6299429760201455005L
+					}
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: 4.75d
+		}
+		{
+			dependencies: ["144BBEAC496F8CFA"]
+			id: "720E41BA46E745E4"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "6644942839492902"
+				item: {
+					Count: 1
+					id: "pointblank:m16a1"
+					tag: {
+						GeckoLibID: 128L
+						aim: 0b
+						ammo: 30
+						ammox: { }
+						fmid: [I;
+							1352509566
+							740964786
+							-1277262513
+							1261716313
+						]
+						lid: -7768837446247047674L
+						mid: 3393430442531179520L
+						sa: {
+							scope: "/"
+						}
+						seed: -5399662669300186278L
+					}
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: 4.75d
+		}
+		{
+			dependencies: ["144BBEAC496F8CFA"]
+			id: "13D63C80C5D0210C"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "4443BAFAFFF1450C"
+				item: {
+					Count: 1
+					id: "pointblank:scarl"
+					tag: {
+						GeckoLibID: 130L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						as: [
+							{
+								id: "pointblank:holographic558"
+								rmv: 1b
+							}
+							{
+								id: "pointblank:scarl_iss"
+								rmv: 1b
+							}
+						]
+						fmid: [I;
+							-1248131646
+							-14009528
+							-1404011264
+							2025314361
+						]
+						lid: -7486402231984987465L
+						mid: 910308667437894371L
+						sa: {
+							scope: "//holographic558"
+						}
+						seed: 6495743073779501177L
+					}
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["144BBEAC496F8CFA"]
+			id: "3241C102D315F326"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "09E4F24D5FB19921"
+				item: {
+					Count: 1
+					id: "pointblank:g36c"
+					tag: {
+						GeckoLibID: 131L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							750053067
+							-134467338
+							-1629129376
+							-519263583
+						]
+						lid: -8998117876097256216L
+						mid: 2022511523834513236L
+						sa: {
+							scope: "/"
+						}
+						seed: -8836729547084193212L
+					}
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["144BBEAC496F8CFA"]
+			id: "0953B64C0335AA09"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "5BDD034FE7A34651"
+				item: {
+					Count: 1
+					id: "pointblank:g36k"
+					tag: {
+						GeckoLibID: 132L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						as: [
+							{
+								id: "pointblank:ar_suppressor"
+								rmv: 1b
+							}
+							{
+								id: "pointblank:aimpoint"
+								rmv: 1b
+							}
+							{
+								id: "pointblank:shortgrip"
+								rmv: 1b
+							}
+						]
+						fmid: [I;
+							-425183936
+							-1714211851
+							-1521199825
+							391086763
+						]
+						lid: -7243501155199617752L
+						mid: 9109874888142963736L
+						sa: {
+							scope: "//aimpoint"
+						}
+						seed: 3827091359731405824L
+					}
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: 5.75d
+		}
+		{
+			dependencies: ["144BBEAC496F8CFA"]
+			id: "0DA21DD24E9982B9"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "76A97EB92C79A0EC"
+				item: {
+					Count: 1
+					id: "pointblank:aug"
+					tag: {
+						GeckoLibID: 133L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							318941415
+							365637908
+							-1914170348
+							-66794416
+						]
+						lid: -7088588966609913754L
+						mid: -350302853823184390L
+						sa: {
+							scope: "/"
+						}
+						seed: 6562094740440360745L
+					}
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: 5.75d
+		}
+		{
+			dependencies: ["144BBEAC496F8CFA"]
+			id: "1A36F6AF6E7C3AE5"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "39EC3832A6B47D8D"
+				item: {
+					Count: 1
+					id: "pointblank:g41"
+					tag: {
+						GeckoLibID: 134L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							-758491110
+							-773047590
+							-1614729307
+							1559008016
+						]
+						lid: -8729850814267664298L
+						mid: 8291914202604063120L
+						sa: {
+							scope: "/"
+						}
+						seed: 1390351321373227843L
+					}
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: 6.25d
+		}
+		{
+			dependencies: ["144BBEAC496F8CFA"]
+			id: "373744856DED1AE7"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "205316260F3BCB1D"
+				item: {
+					Count: 1
+					id: "pointblank:xm29"
+					tag: {
+						GeckoLibID: 135L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							-1667734023
+							-1035780397
+							-1786302266
+							-680188083
+						]
+						lid: -7081503400755623632L
+						mid: 5738007935859704687L
+						sa: {
+							scope: "/"
+						}
+						seed: 4136842208409672405L
+					}
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: 6.25d
+		}
+		{
+			dependencies: ["144BBEAC496F8CFA"]
+			id: "6114299EE8646F14"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "40B01371BFE6983E"
+				item: {
+					Count: 1
+					id: "pointblank:sl8"
+					tag: {
+						GeckoLibID: 136L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						as: [{
+							id: "pointblank:drake_scope"
+							rmv: 1b
+						}]
+						fmid: [I;
+							737903880
+							-295881568
+							-1473448674
+							1699023019
+						]
+						lid: -8143900792781425321L
+						mid: 9139290876140275808L
+						sa: {
+							scope: "//drake_scope"
+						}
+						seed: -216412184396721960L
+					}
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["144BBEAC496F8CFA"]
+			id: "35B0FF563115C255"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "229CEE957A5CDD27"
+				item: {
+					Count: 1
+					id: "pointblank:aughbar"
+					tag: {
+						GeckoLibID: 137L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							-1447364746
+							491993216
+							-1103173447
+							56167183
+						]
+						lid: -6477506319912721240L
+						mid: -1212098351522167047L
+						sa: {
+							scope: "/"
+						}
+						seed: 5519638748032188449L
+					}
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: 6.75d
+		}
+		{
+			dependencies: ["144BBEAC496F8CFA"]
+			id: "442810B55092ADF6"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "296127950C6573E9"
+				item: {
+					Count: 1
+					id: "pointblank:lamg"
+					tag: {
+						GeckoLibID: 138L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							504131756
+							1341535576
+							-1629574608
+							-1200372863
+						]
+						lid: -6494430751739252436L
+						mid: -2417596899453221450L
+						sa: {
+							scope: "/"
+						}
+						seed: -889882049233195633L
+					}
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: 7.25d
+		}
+		{
+			dependencies: ["144BBEAC496F8CFA"]
+			id: "55B224A073D5AD43"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "2A94FBA2BF19DD6A"
+				item: {
+					Count: 1
+					id: "pointblank:m249"
+					tag: {
+						GeckoLibID: 139L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						as: [
+							{
+								id: "pointblank:acog"
+								rmv: 1b
+							}
+							{
+								id: "pointblank:foregrip"
+								rmv: 1b
+							}
+						]
+						fmid: [I;
+							-1035269231
+							-1050988176
+							-1692405250
+							-822147727
+						]
+						lid: -5190406897603408760L
+						mid: -4572965284326847311L
+						sa: {
+							scope: "//acog"
+						}
+						seed: -537808863898235124L
+					}
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: 7.25d
+		}
+		{
+			dependencies: ["612A26D13C3D4792"]
+			id: "62ACFAB0EC9ECF3E"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "2835BB60E2A093A4"
+				item: {
+					Count: 1
+					id: "pointblank:xm7"
+					tag: {
+						GeckoLibID: 140L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						as: [
+							{
+								id: "pointblank:spear"
+								rmv: 1b
+							}
+							{
+								id: "pointblank:xm7_suppressor"
+								rmv: 1b
+							}
+						]
+						fmid: [I;
+							1860730411
+							-1603978823
+							-1896819705
+							628792342
+						]
+						lid: -6069983682461834682L
+						mid: -432164762680606646L
+						sa: {
+							scope: "//spear"
+						}
+						seed: -8891840950875237218L
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["5F9CE10BA88870E7"]
+			id: "14B32122E98B476D"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "4EE9154B9AD73681"
+				item: {
+					Count: 1
+					id: "pointblank:ak47"
+					tag: {
+						GeckoLibID: 141L
+						aim: 0b
+						ammo: 9
+						ammox: { }
+						fmid: [I;
+							-1715201077
+							884686046
+							-1746174375
+							857311309
+						]
+						lid: -6435225602421081873L
+						mid: 365018715221411532L
+						sa: {
+							scope: "/"
+						}
+						seed: 5967294370563118614L
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["497E636A9BF49089"]
+			id: "0E963C0D3E95AE8C"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "2FB59555A3CDC58C"
+				item: {
+					Count: 1
+					id: "pointblank:mk14ebr"
+					tag: {
+						GeckoLibID: 142L
+						aim: 0b
+						ammo: 15
+						ammox: { }
+						as: [{
+							id: "pointblank:foregrip"
+							rmv: 1b
+						}]
+						fmid: [I;
+							-2143582260
+							612580706
+							-1211090114
+							1073202582
+						]
+						lid: -6325738636096322802L
+						mid: -9007628604405562215L
+						sa: {
+							scope: "/"
+						}
+						seed: -1495362601718347124L
+					}
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["497E636A9BF49089"]
+			id: "6064A2FC0B2A2439"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "6B229FB0F91B4431"
+				item: {
+					Count: 1
+					id: "pointblank:uar10"
+					tag: {
+						GeckoLibID: 143L
+						aim: 0b
+						ammo: 11
+						ammox: { }
+						as: [{
+							id: "pointblank:drake_scope"
+							rmv: 1b
+						}]
+						fmid: [I;
+							-1097953779
+							512702646
+							-1788621929
+							71762412
+						]
+						lid: -8982382480310681605L
+						mid: 8939951431341198598L
+						sa: {
+							scope: "//drake_scope"
+						}
+						seed: -7638266028908500699L
+					}
+				}
+				type: "item"
+			}]
+			x: 1.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["497E636A9BF49089"]
+			id: "0CF067020396E074"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "6C9448CD75F507B2"
+				item: {
+					Count: 1
+					id: "pointblank:wa2000"
+					tag: {
+						GeckoLibID: 144L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							-1323233726
+							1882406530
+							-1925899165
+							1147322812
+						]
+						lid: -4850496695130310670L
+						mid: -3172774937652670925L
+						sa: {
+							scope: "/"
+						}
+						seed: 6122425648304619642L
+					}
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: 4.25d
+		}
+		{
+			dependencies: ["497E636A9BF49089"]
+			id: "249D77C9ACAC79BF"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "4FA0EEE1950F59A6"
+				item: {
+					Count: 1
+					id: "pointblank:xm3"
+					tag: {
+						GeckoLibID: 145L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						as: [{
+							id: "pointblank:drake_scope"
+							rmv: 1b
+						}]
+						fmid: [I;
+							-1321429357
+							-1078120412
+							-1148799577
+							-1308561416
+						]
+						lid: -7386774774139237560L
+						mid: 6010697446395367141L
+						sa: {
+							scope: "//drake_scope"
+						}
+						seed: -6020454883657629336L
+					}
+				}
+				type: "item"
+			}]
+			x: 1.75d
+			y: 4.25d
+		}
+		{
+			dependencies: ["497E636A9BF49089"]
+			id: "6E11E2F6DB28D412"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "5B8E5F21A2AE7860"
+				item: {
+					Count: 1
+					id: "pointblank:mk48"
+					tag: {
+						GeckoLibID: 146L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							1886943822
+							-1616497906
+							-1571578809
+							577019997
+						]
+						lid: -5037995753473543326L
+						mid: -1112956156570549868L
+						sa: {
+							scope: "/"
+						}
+						seed: -79398868802910014L
+					}
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: 4.75d
+		}
+		{
+			dependencies: ["483A8682CFDAD73C"]
+			id: "24F1C847356F75EE"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "09D0F1AABEEBF21C"
+				item: {
+					Count: 1
+					id: "pointblank:c14"
+					tag: {
+						GeckoLibID: 147L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						as: [
+							{
+								id: "pointblank:wolf_scope"
+								rmv: 1b
+							}
+							{
+								id: "pointblank:rf_suppressor"
+								rmv: 1b
+							}
+						]
+						fmid: [I;
+							348640409
+							-502121583
+							-1640714493
+							315415634
+						]
+						lid: -6532694187896348419L
+						mid: 2891521530684589819L
+						sa: {
+							scope: "//wolf_scope"
+						}
+						seed: -4962227700634094629L
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["483A8682CFDAD73C"]
+			id: "18A2F6BFFA4B0EC6"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "783F3E1D22392A47"
+				item: {
+					Count: 1
+					id: "pointblank:l96a1"
+					tag: {
+						GeckoLibID: 148L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						as: [{
+							id: "pointblank:hawk_scope"
+							rmv: 1b
+						}]
+						fmid: [I;
+							573397678
+							1834630192
+							-1285657842
+							-1809198908
+						]
+						lid: -8028735525839433600L
+						mid: 8398748806681217389L
+						sa: {
+							scope: "//hawk_scope"
+						}
+						seed: 8303234064228268745L
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.25d
+		}
+		{
+			dependencies: ["483A8682CFDAD73C"]
+			id: "09903AED08441FA5"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "70C86D27AC5FFED2"
+				item: {
+					Count: 1
+					id: "pointblank:ballista"
+					tag: {
+						GeckoLibID: 149L
+						aim: 0b
+						ammo: 10
+						ammox: { }
+						as: [{
+							id: "pointblank:drake_scope"
+							rmv: 1b
+						}]
+						fmid: [I;
+							-1222080635
+							1363293941
+							-2061957154
+							-75371157
+						]
+						lid: -7102565837212542989L
+						mid: 641228764095465634L
+						sa: {
+							scope: "//drake_scope"
+						}
+						seed: -961177205624651612L
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.75d
+		}
+		{
+			dependencies: ["5A92C2B04CD32BD2"]
+			id: "6C04F795B06F9410"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "4F9A45ACAFCC3C26"
+				item: {
+					Count: 1
+					id: "pointblank:gm6lynx"
+					tag: {
+						GeckoLibID: 150L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						as: [{
+							id: "pointblank:precision_scope"
+							rmv: 1b
+						}]
+						fmid: [I;
+							-989468183
+							715404122
+							-1648162662
+							1502405965
+						]
+						lid: -5096684681567536605L
+						mid: 2268940029265661227L
+						sa: {
+							scope: "//precision_scope"
+						}
+						seed: 2313074303827787600L
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["5035C594E6BAE83F"]
+			id: "1DC9345018CA219D"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "526AFD57560D1807"
+				item: {
+					Count: 1
+					id: "pointblank:m590"
+					tag: {
+						GeckoLibID: 151L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						as: [
+							{
+								id: "pointblank:rspec"
+								rmv: 1b
+							}
+							{
+								id: "pointblank:stubbygrip"
+								rmv: 1b
+							}
+						]
+						fmid: [I;
+							-49423098
+							-1572389048
+							-2111146623
+							1838060782
+						]
+						lid: -7098003855265772037L
+						mid: -8075427835862367394L
+						sa: {
+							scope: "//rspec"
+						}
+						seed: -5407242608392469446L
+					}
+				}
+				type: "item"
+			}]
+			x: 4.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["5035C594E6BAE83F"]
+			id: "2E4BF262359AA7A7"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "7B60052AF42B6343"
+				item: {
+					Count: 1
+					id: "pointblank:m870"
+					tag: {
+						GeckoLibID: 152L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							775637060
+							104477587
+							-2041784887
+							1778619018
+						]
+						lid: -6870239096074056579L
+						mid: -7331737960089827018L
+						sa: {
+							scope: "/"
+						}
+						seed: 4814088412563588744L
+					}
+				}
+				type: "item"
+			}]
+			x: 4.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["5035C594E6BAE83F"]
+			id: "61C53E2A064EA05A"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "09B7E97D8157DDBC"
+				item: {
+					Count: 1
+					id: "pointblank:spas12"
+					tag: {
+						GeckoLibID: 153L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							1187609750
+							-1596638245
+							-1850892805
+							962291126
+						]
+						lid: -6433731768317314617L
+						mid: -2279060712939371449L
+						sa: {
+							scope: "/"
+						}
+						seed: 3214536648023655127L
+					}
+				}
+				type: "item"
+			}]
+			x: 4.25d
+			y: 4.25d
+		}
+		{
+			dependencies: ["5035C594E6BAE83F"]
+			id: "70E12F417055FF87"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "25F8AD2C5068A40A"
+				item: {
+					Count: 1
+					id: "pointblank:m1014"
+					tag: {
+						GeckoLibID: 154L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							1624811808
+							1505636868
+							-1387165223
+							-541116371
+						]
+						lid: -7483535166490340804L
+						mid: 9032966668886230719L
+						sa: {
+							scope: "/"
+						}
+						seed: 1537698736629199645L
+					}
+				}
+				type: "item"
+			}]
+			x: 4.75d
+			y: 4.25d
+		}
+		{
+			dependencies: ["5035C594E6BAE83F"]
+			id: "08135A725D89A487"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "7FD05CDAEE82C0F0"
+				item: {
+					Count: 1
+					id: "pointblank:aa12"
+					tag: {
+						GeckoLibID: 155L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						as: [{
+							id: "pointblank:operatorreflex"
+							rmv: 1b
+						}]
+						fmid: [I;
+							-1868003743
+							1188639586
+							-1540567645
+							1734485758
+						]
+						lid: -8101276839632551045L
+						mid: 1009679840698778477L
+						sa: {
+							scope: "//operatorreflex"
+						}
+						seed: 4246649181674778735L
+					}
+				}
+				type: "item"
+			}]
+			x: 4.25d
+			y: 4.75d
+		}
+		{
+			dependencies: ["5035C594E6BAE83F"]
+			id: "3681C446C2B8382E"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "75A6809B69A84834"
+				item: {
+					Count: 1
+					id: "pointblank:citoricxs"
+					tag: {
+						GeckoLibID: 156L
+						aim: 0b
+						ammo: 2
+						ammox: { }
+						fmid: [I;
+							-1480658218
+							1929461599
+							-1585120896
+							-36721259
+						]
+						lid: -8178093722838979858L
+						mid: 3119711438930595371L
+						sa: {
+							scope: "/"
+						}
+						seed: -380004601636391507L
+					}
+				}
+				type: "item"
+			}]
+			x: 4.75d
+			y: 4.75d
+		}
+		{
+			dependencies: ["5035C594E6BAE83F"]
+			id: "448BDC988FD2C286"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "10804BA8FC8D0371"
+				item: {
+					Count: 1
+					id: "pointblank:hs12"
+					tag: {
+						GeckoLibID: 157L
+						aim: 0b
+						ammo: 2
+						ammox: { }
+						as: [{
+							id: "pointblank:rspec"
+							rmv: 1b
+						}]
+						fmid: [I;
+							-1058468214
+							-193644134
+							-1881690684
+							-631942689
+						]
+						lid: -7788529372446867187L
+						mid: 2454254320829415931L
+						sa: {
+							scope: "//rspec"
+						}
+						seed: -7757456733951777427L
+					}
+				}
+				type: "item"
+			}]
+			x: 4.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["3B53B598B6D6EDC0"]
+			id: "31C9D3CC993CFB89"
+			tasks: [{
+				id: "42BAB59C36BC7E0A"
+				title: "Optics"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B53B598B6D6EDC0"]
+			id: "3AED67C70DEC9BB0"
+			tasks: [{
+				id: "26E630D727E6D1A0"
+				title: "Muzzle Devices"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B53B598B6D6EDC0"]
+			id: "62ECDC3D6D49EF08"
+			tasks: [{
+				id: "682AA0FC7B7C0967"
+				title: "Misc Attachments"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["31C9D3CC993CFB89"]
+			id: "72E8CFA38C0288F4"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "00D9637BFAE06520"
+				item: {
+					Count: 1
+					id: "pointblank:moa"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: -2.75d
+		}
+		{
+			dependencies: ["31C9D3CC993CFB89"]
+			id: "5547EA47476037D9"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "018398D5B891EDF5"
+				item: {
+					Count: 1
+					id: "pointblank:delta"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: -3.25d
+		}
+		{
+			dependencies: ["31C9D3CC993CFB89"]
+			id: "29A3C8F5145D3406"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "35C426586F98323F"
+				item: {
+					Count: 1
+					id: "pointblank:moa_hg"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: -3.75d
+		}
+		{
+			dependencies: ["31C9D3CC993CFB89"]
+			id: "5E9A3A47832D3A07"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "46E24D9E833BF703"
+				item: {
+					Count: 1
+					id: "pointblank:operatorreflex"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: -4.25d
+		}
+		{
+			dependencies: ["31C9D3CC993CFB89"]
+			id: "3A4B01EDA89F9E1D"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "4CACA31E011C10F1"
+				item: {
+					Count: 1
+					id: "pointblank:holographic"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: -4.75d
+		}
+		{
+			dependencies: ["31C9D3CC993CFB89"]
+			id: "0B1A3D509471D9C0"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "54C7C8D328C7BC35"
+				item: {
+					Count: 1
+					id: "pointblank:holographic_em"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: -5.25d
+		}
+		{
+			dependencies: ["31C9D3CC993CFB89"]
+			id: "141F592D00906F34"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "2200BD0506A0C1AA"
+				item: {
+					Count: 1
+					id: "pointblank:holographic558"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: -5.75d
+		}
+		{
+			dependencies: ["31C9D3CC993CFB89"]
+			id: "79282DAD2BF2E14A"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "2865E7DE02D05F64"
+				item: {
+					Count: 1
+					id: "pointblank:aimpoint"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: -6.25d
+		}
+		{
+			dependencies: ["31C9D3CC993CFB89"]
+			id: "538E443CE5F3C756"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "5DBDDF0EB4469686"
+				item: {
+					Count: 1
+					id: "pointblank:aimpoint_t2"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: -6.75d
+		}
+		{
+			dependencies: ["31C9D3CC993CFB89"]
+			id: "070731DFDDA19879"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "5906C1B2A915133B"
+				item: {
+					Count: 1
+					id: "pointblank:srs"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: -7.25d
+		}
+		{
+			dependencies: ["31C9D3CC993CFB89"]
+			id: "4B46E2CBE1D3E00E"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "4115BDA237654D6A"
+				item: {
+					Count: 1
+					id: "pointblank:rspec"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.75d
+			y: -7.75d
+		}
+		{
+			dependencies: ["31C9D3CC993CFB89"]
+			id: "575FD7D4BE9E95D5"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "562076081BBDEEB0"
+				item: {
+					Count: 1
+					id: "pointblank:acog"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.25d
+			y: -2.75d
+		}
+		{
+			dependencies: ["31C9D3CC993CFB89"]
+			id: "3028C67C87FF0981"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "34EBF98461BFDB71"
+				item: {
+					Count: 1
+					id: "pointblank:specter"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.25d
+			y: -3.25d
+		}
+		{
+			dependencies: ["31C9D3CC993CFB89"]
+			id: "247D9DF5A6334633"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "6B01AE29C43C1575"
+				item: {
+					Count: 1
+					id: "pointblank:hamr"
+					tag: {
+						as: [{
+							id: "pointblank:delta"
+							rmv: 1b
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: -0.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["31C9D3CC993CFB89"]
+			id: "27BF266C7553C242"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "69F5FA1EE912218B"
+				item: {
+					Count: 1
+					id: "pointblank:eaglescope"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.25d
+			y: -4.25d
+		}
+		{
+			dependencies: ["31C9D3CC993CFB89"]
+			id: "28F04FB76FAEE8D5"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "0D16953152A4AA84"
+				item: {
+					Count: 1
+					id: "pointblank:spear"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.25d
+			y: -4.75d
+		}
+		{
+			dependencies: ["31C9D3CC993CFB89"]
+			id: "1314F3B3FD00C4C5"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "50F861FEBDB4ED03"
+				item: {
+					Count: 1
+					id: "pointblank:hawk_scope"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.25d
+			y: -5.25d
+		}
+		{
+			dependencies: ["31C9D3CC993CFB89"]
+			id: "11861BA771A98C48"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "4E8CC5392EC39144"
+				item: {
+					Count: 1
+					id: "pointblank:wolf_scope"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.25d
+			y: -5.75d
+		}
+		{
+			dependencies: ["31C9D3CC993CFB89"]
+			id: "33D37D6F01CA6B2F"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "4AEA84A2ED8AD423"
+				item: {
+					Count: 1
+					id: "pointblank:drake_scope"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.25d
+			y: -6.25d
+		}
+		{
+			dependencies: ["31C9D3CC993CFB89"]
+			id: "1E37C9F5DFC52DCC"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "7F63D09B51A34ABD"
+				item: {
+					Count: 1
+					id: "pointblank:precision_scope"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.25d
+			y: -6.75d
+		}
+		{
+			dependencies: ["3AED67C70DEC9BB0"]
+			id: "50F952BF480C8E24"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "0C0EB088BEC73797"
+				item: {
+					Count: 1
+					id: "pointblank:ar_muzzlebrake"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: -2.75d
+		}
+		{
+			dependencies: ["3AED67C70DEC9BB0"]
+			id: "4AA7D04CDF1B1734"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "703F068D01FA746E"
+				item: {
+					Count: 1
+					id: "pointblank:smg_muzzlebrake"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: -3.25d
+		}
+		{
+			dependencies: ["3AED67C70DEC9BB0"]
+			id: "7783AC332E747626"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "5A0FBB8265689895"
+				item: {
+					Count: 1
+					id: "pointblank:p30l_compensator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: -3.75d
+		}
+		{
+			dependencies: ["3AED67C70DEC9BB0"]
+			id: "5334B7671258540F"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "0F9FD07550E79011"
+				item: {
+					Count: 1
+					id: "pointblank:ar_suppressor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: -2.75d
+		}
+		{
+			dependencies: ["3AED67C70DEC9BB0"]
+			id: "36EF7AC351F24495"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "37B4175A8F2AB8EC"
+				item: {
+					Count: 1
+					id: "pointblank:ar_suppressor_tan"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: -3.25d
+		}
+		{
+			dependencies: ["3AED67C70DEC9BB0"]
+			id: "2ED77AACF72F3562"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "5B68248A7A94A390"
+				item: {
+					Count: 1
+					id: "pointblank:xm7_suppressor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["3AED67C70DEC9BB0"]
+			id: "4586FA4266876779"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "61FD62E2DE9AAC82"
+				item: {
+					Count: 1
+					id: "pointblank:ak_suppressor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: -4.25d
+		}
+		{
+			dependencies: ["3AED67C70DEC9BB0"]
+			id: "4D3F409C11C0BC7A"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "54696A117C7AB531"
+				item: {
+					Count: 1
+					id: "pointblank:smg_suppressor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: -4.75d
+		}
+		{
+			dependencies: ["3AED67C70DEC9BB0"]
+			id: "2361C600C24A3F58"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "25A4CAF9D04B4BE9"
+				item: {
+					Count: 1
+					id: "pointblank:rf_suppressor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: -5.25d
+		}
+		{
+			dependencies: ["3AED67C70DEC9BB0"]
+			id: "0D0143D145322F4F"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "08885C7ACAD8BFF8"
+				item: {
+					Count: 1
+					id: "pointblank:hp_suppressor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: -5.75d
+		}
+		{
+			dependencies: ["3AED67C70DEC9BB0"]
+			id: "36EC6FBC510A2CBB"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "357A01D555547F50"
+				item: {
+					Count: 1
+					id: "pointblank:sg_suppressor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: -6.25d
+		}
+		{
+			dependencies: ["3AED67C70DEC9BB0"]
+			id: "7036930AD82BBAF7"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "6DBBE0DD4D8A4BDE"
+				item: {
+					Count: 1
+					id: "pointblank:scarl_iss"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.25d
+			y: -6.75d
+		}
+		{
+			dependencies: ["62ECDC3D6D49EF08"]
+			id: "14EB889E6F9696D4"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "24B63B749EF1C0CE"
+				item: {
+					Count: 1
+					id: "pointblank:cantedrail"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.75d
+		}
+		{
+			dependencies: ["62ECDC3D6D49EF08"]
+			id: "403D7E805F4D473C"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "059F97C76CF9193E"
+				item: {
+					Count: 1
+					id: "pointblank:foregrip"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.25d
+		}
+		{
+			dependencies: ["62ECDC3D6D49EF08"]
+			id: "33C91F651F1980AB"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "36A182E1649A7694"
+				item: {
+					Count: 1
+					id: "pointblank:foregrip_tan"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["62ECDC3D6D49EF08"]
+			id: "69A2A48720B00E1B"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "0958B5DDEB31B4CF"
+				item: {
+					Count: 1
+					id: "pointblank:shortgrip"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.25d
+		}
+		{
+			dependencies: ["62ECDC3D6D49EF08"]
+			id: "5265B44FFAC8CB76"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "492D456690138CD5"
+				item: {
+					Count: 1
+					id: "pointblank:stubbygriptan"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.75d
+		}
+		{
+			dependencies: ["62ECDC3D6D49EF08"]
+			id: "243BBF0241D4A40F"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "1770D2D225EBD13C"
+				item: {
+					Count: 1
+					id: "pointblank:stubbygrip"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.25d
+		}
+		{
+			dependencies: ["62ECDC3D6D49EF08"]
+			id: "375B65C4BD90B23E"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "74F1DD4E4E785930"
+				item: {
+					Count: 1
+					id: "pointblank:ak_romgrip"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.75d
+		}
+		{
+			dependencies: ["62ECDC3D6D49EF08"]
+			id: "19187FC6271BDB04"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "523DC965DF1D9ED3"
+				item: {
+					Count: 1
+					id: "pointblank:m9_stock"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.25d
+		}
+		{
+			dependencies: ["62ECDC3D6D49EF08"]
+			id: "104C84C194293FC0"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "3D5DD7FE9C95418F"
+				item: {
+					Count: 1
+					id: "pointblank:m16a3kit"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["5E2F6099C05AAE4D"]
+			id: "7B781182ED61F588"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "30C4236A5092C604"
+				item: {
+					Count: 1
+					id: "pointblank:m203launcher"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.75d
+			y: 4.25d
+		}
+		{
+			dependencies: ["5E2F6099C05AAE4D"]
+			id: "4AF36ABE34817D1D"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "6DB62B9385A5C8CF"
+				item: {
+					Count: 1
+					id: "pointblank:gp25"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["7925AA8017D2BF01"]
+			id: "5E2F6099C05AAE4D"
+			optional: true
+			tasks: [{
+				id: "5B07FDC25C519D4E"
+				item: "pointblank:grenade40mm"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3B53B598B6D6EDC0"]
+			id: "7925AA8017D2BF01"
+			tasks: [{
+				id: "6728E55279D39CC0"
+				title: "Grenade Launchers"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3B53B598B6D6EDC0"]
+			id: "35BF75986E146304"
+			tasks: [{
+				id: "42C77B8DDCDC070E"
+				title: "Rocket Launchers"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["35BF75986E146304"]
+			id: "14634C81CB56C5E3"
+			optional: true
+			tasks: [{
+				id: "09F1676499E81BCD"
+				item: "pointblank:smaw_rocket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["35BF75986E146304"]
+			id: "6A2C66C0B4BC47CB"
+			optional: true
+			tasks: [{
+				id: "39315BD8ECF8C065"
+				item: "pointblank:at4_rocket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["35BF75986E146304"]
+			id: "4899EEED41FFA23C"
+			optional: true
+			tasks: [{
+				id: "738CEEA0F5540CEB"
+				item: "pointblank:javelin_rocket"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5E2F6099C05AAE4D"]
+			id: "1DF2607B99112961"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "79C2D07A963909B0"
+				item: {
+					Count: 1
+					id: "pointblank:m32mgl"
+					tag: {
+						GeckoLibID: 162L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							551587097
+							-687391465
+							-1249404445
+							-456517676
+						]
+						lid: -4627052528148302076L
+						mid: -4352341099448808454L
+						seed: 5912754227337585988L
+					}
+				}
+				type: "item"
+			}]
+			x: 8.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["14634C81CB56C5E3"]
+			id: "33261042BAC0DBD6"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "0273A74E66D50637"
+				item: {
+					Count: 1
+					id: "pointblank:smaw"
+					tag: {
+						GeckoLibID: 163L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							-754336301
+							-1790823802
+							-2116890247
+							-1082460473
+						]
+						lid: -6263693982322706375L
+						mid: 5699100997914872919L
+						seed: 2175739038072148158L
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["6A2C66C0B4BC47CB"]
+			id: "218269FE5D4CDBE8"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "70D5652256FD99F9"
+				item: {
+					Count: 1
+					id: "pointblank:at4"
+					tag: {
+						GeckoLibID: 164L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							-1044124740
+							-1309328913
+							-1888770758
+							1447016296
+						]
+						lid: -5013181550634609323L
+						mid: -3803316460822507567L
+						seed: -2032108999933216621L
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["4899EEED41FFA23C"]
+			id: "6D9F68E552048EBD"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "7379DEC804E02052"
+				item: {
+					Count: 1
+					id: "pointblank:javelin"
+					tag: {
+						GeckoLibID: 165L
+						aim: 0b
+						ammo: 0
+						ammox: { }
+						fmid: [I;
+							-706553532
+							-1821232495
+							-1382373795
+							394015209
+						]
+						lid: -7807443071360824780L
+						mid: -6878778595097623736L
+						seed: -2311760125153120469L
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["144BBEAC496F8CFA"]
+			id: "7CCD1EB41B3578AB"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "238FC8AC5EB38D09"
+				item: {
+					Count: 1
+					id: "pointblank:m134minigun"
+					tag: {
+						GeckoLibID: 166L
+						aim: 0b
+						ammo: 200
+						ammox: { }
+						fmid: [I;
+							469850242
+							-9227239
+							-1399721963
+							1545922983
+						]
+						lid: -8419694421402017259L
+						mid: -77789376611205056L
+						seed: -7313395216980378710L
+					}
+				}
+				type: "item"
+			}]
+			x: -1.75d
+			y: 7.75d
+		}
+		{
+			dependencies: ["5035C594E6BAE83F"]
+			id: "38DAD51003C4F911"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "3E9A5A554948D462"
+				item: {
+					Count: 1
+					id: "pointblank:doom_shotgun"
+					tag: {
+						GeckoLibID: 168L
+						aim: 0b
+						ammo: 6
+						ammox: { }
+						fmid: [I;
+							-1554927304
+							1055405703
+							-1393550836
+							717351153
+						]
+						lid: -5894480949557420126L
+						mid: -1979041222965507522L
+						seed: -3589375273028883800L
+					}
+				}
+				type: "item"
+			}]
+			x: 4.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["5035C594E6BAE83F"]
+			id: "445D6AFC5E3BF69B"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "5F128290E5133485"
+				item: {
+					Count: 1
+					id: "pointblank:doom_supershotgun"
+					tag: {
+						GeckoLibID: 169L
+						aim: 0b
+						ammo: 1
+						ammox: { }
+						fmid: [I;
+							-1014005577
+							1415655704
+							-2058484550
+							-777084452
+						]
+						lid: -4814697978393501223L
+						mid: -2837310665681908784L
+						seed: -3023541186466234002L
+					}
+				}
+				type: "item"
+			}]
+			x: 4.25d
+			y: 5.75d
+		}
+		{
+			id: "55C44E9EF2B7DBE1"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "469D0FD198BC75F9"
+				item: {
+					Count: 1
+					id: "pointblank:doom_heavycannon"
+					tag: {
+						GeckoLibID: 170L
+						aim: 0b
+						ammo: 67
+						ammox: { }
+						fmid: [I;
+							-745418456
+							579287357
+							-1872234143
+							-678303590
+						]
+						lid: -5340195725940707216L
+						mid: 2756990732946919423L
+						seed: -7246910680342051558L
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.25d
+		}
+		{
+			id: "3BE41CB8E6F860E1"
+			optional: true
+			size: 0.5d
+			tasks: [{
+				id: "78D2B088C56FBAD1"
+				item: {
+					Count: 1
+					id: "pointblank:doom_combatshotgun"
+					tag: {
+						GeckoLibID: 171L
+						aim: 0b
+						ammo: 6
+						ammox: { }
+						fmid: [I;
+							-1031537130
+							-1593689758
+							-1077945833
+							-1112731113
+						]
+						lid: -5982865039512831547L
+						mid: 6200172670206821823L
+						seed: -632317477510698545L
+					}
+				}
+				type: "item"
+			}]
+			x: 4.75d
+			y: 5.75d
+		}
+	]
+	title: "Firearms [WIP]"
 }

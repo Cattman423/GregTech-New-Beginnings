@@ -146,7 +146,7 @@ ServerEvents.recipes(event => {
         Item.of('tfmg:blast_furnace_output',),
         ['ABC', 'DEB', 'FBC'],
         {A: '#forge:tools/hammers', B: 'gtceu:iron_rod', C: 'gtceu:iron_screw',
-        D: 'gtceu:iron_plate', E: 'tfmg:fireproof_bricks', F: '#forge:tools/screwdrivers'})
+        D: 'kubejs:advanced_clockwork_mechanism', E: 'tfmg:fireproof_bricks', F: '#forge:tools/screwdrivers'})
         
     event.shaped(
         Item.of('tfmg:electric_casing',),

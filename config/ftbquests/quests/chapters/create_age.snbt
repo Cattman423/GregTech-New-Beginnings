@@ -305,8 +305,13 @@
 				"606DA6A53D1E2C79"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"Compressed clay isn't very useful, but if you apply some heat, you get a nice brick."
+				""
+				"What's even better is you can throw these around."
+			]
+			hide_dependent_lines: true
 			id: "5468ECF42040C129"
-			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3CFEDF23C4294DB0"
@@ -691,7 +696,6 @@
 			description: ["The curving press accepts many different heads, but right now, we're going to use the brick form to make some bricks."]
 			icon: "gtceu:compressed_clay"
 			id: "606DA6A53D1E2C79"
-			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "1B475DF0899FAAC0"
@@ -824,6 +828,7 @@
 		}
 		{
 			dependencies: ["5468ECF42040C129"]
+			description: ["What's better than a stack of bricks? A stack of Brick Blocks, now we can start cooking in a nice kitchen."]
 			hide_dependent_lines: true
 			id: "36C838DF116F3DC6"
 			optional: true
@@ -1470,14 +1475,23 @@
 		}
 		{
 			dependencies: ["1FC56C660A890E5E"]
+			description: ["If you want to start Bee Breeding, you must capture a few first, craft up some of these disposable bee cages to get started."]
 			id: "68418E565CCFACAF"
 			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6F0F4E70E5D6CDBD"
-				table_id: 1979144794260430301L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6F0F4E70E5D6CDBD"
+					table_id: 1979144794260430301L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "747D6D7D16A16E39"
+					item: "productivebees:bee_cage"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
@@ -1489,7 +1503,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["51FAB3DA0316BBA5"]
+			dependencies: [
+				"51FAB3DA0316BBA5"
+				"5468ECF42040C129"
+			]
 			description: ["Put some fireclay dust under pressure and get compressed fireclay"]
 			id: "2D1687EC6CEC6FD9"
 			optional: true
@@ -1545,12 +1562,20 @@
 			icon: "gtceu:primitive_blast_furnace"
 			id: "2326FE6A4C1C05A1"
 			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "51772F6A3D6D5C58"
-				table_id: 1979144794260430301L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "51772F6A3D6D5C58"
+					table_id: 1979144794260430301L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "751747E81986A861"
+					item: "tfmg:coal_coke"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			tasks: [
 				{
@@ -1706,6 +1731,7 @@
 		}
 		{
 			dependencies: ["27E3ED1A28B9FAC0"]
+			description: ["If you want quality rubber, it will need to be vulcanized. In order to do that, you'll need some sulfur, which can be found in the Nether."]
 			id: "7FB07584E38AAF18"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1724,6 +1750,7 @@
 		}
 		{
 			dependencies: ["7FB07584E38AAF18"]
+			description: ["Use some of that steel to make a plate mold, then you can cast rubber plates out of your foundry."]
 			id: "3207FF72AB2204F6"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1742,6 +1769,11 @@
 		}
 		{
 			dependencies: ["3207FF72AB2204F6"]
+			description: [
+				"Once you start playing with chemicals and fluids in the Lv Age, you will inevitably have just a few millibuckets of fluid left in a machine, jamming up your setups."
+				""
+				"With this plunger, you can right click a fluid tank inside a machine's gui to void ALL fluids from that tank slot."
+			]
 			id: "2E5EC2A70C589B0C"
 			optional: true
 			rewards: [{
@@ -1865,12 +1897,20 @@
 			icon: "tfmg:blast_furnace_output"
 			id: "0E1FF01D42C2C792"
 			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0376D44C5EA02FE3"
-				table_id: 1979144794260430301L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0376D44C5EA02FE3"
+					table_id: 1979144794260430301L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "6C031D5C361D936E"
+					item: "tfmg:coal_coke_dust"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			tasks: [
 				{
@@ -1891,12 +1931,24 @@
 					type: "item"
 				}
 			]
+			title: "Blast Furnace"
 			x: 8.5d
 			y: 9.5d
 		}
 		{
 			dependencies: ["71EC3043DE613FF5"]
+			description: [
+				"These Steel Casings will be useful for some heavier machinery."
+				""
+				"Some machines require a Heavy Casing, which is just a Steel Casing with an extra steel plate added on to it."
+			]
 			id: "5DF7C837CAC6AEB2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63DB3D20ABB1B6C4"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -1946,6 +1998,11 @@
 		}
 		{
 			dependencies: ["07B9229EA02A6C1E"]
+			description: [
+				"The final mechanism, after this point you'll be crafting up circuits instead of these bad boys."
+				""
+				"Fun fact, the Conductive Mechanism counts as a Ulv tier circuit, use this to your advantage."
+			]
 			id: "7F89E529AADC4C7E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1965,6 +2022,11 @@
 		}
 		{
 			dependencies: ["3207FF72AB2204F6"]
+			description: [
+				"Tired of getting sick from picking up strange rocks? Is crafting ammo making you sick? Is mining ore a pain?"
+				""
+				"If you have answered yes to any of these, then I have just the item for you! Craft up some Rubber Gloves and no longer suffer the effects of hazerdous materials that are dangerous to touch."
+			]
 			id: "27D36E0424A6BE56"
 			optional: true
 			rewards: [{
@@ -1990,6 +2052,13 @@
 		}
 		{
 			dependencies: ["5DF7C837CAC6AEB2"]
+			description: [
+				"Check the ponder on how to construct the oil pump."
+				""
+				"Oil will basically be required for progress going forward, so I suggest getting a supply of it going sooner rather than later. Create: TFMG oild deposits are infinite, but at the cost of being located in bedrock."
+				""
+				"I have included a surface scanner as you did spend all the effort to make the oil pump parts."
+			]
 			icon: "tfmg:pumpjack_crank"
 			id: "7677FB46CB4CAAB9"
 			rewards: [
@@ -2057,10 +2126,11 @@
 			]
 			title: "Oil Pumpjack MK1"
 			x: 3.5d
-			y: 7.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["7F4D9E3845178B7B"]
+			description: ["A mixture of regular salt and bauxite dust will net you some aluminium trichloride and some natrium oxide as a byproduct."]
 			id: "3F01F2E0AF91146F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2073,7 +2143,7 @@
 				item: "gtceu:aluminium_trichloride_dust"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: 7.5d
 		}
 		{
@@ -2098,7 +2168,7 @@
 				item: "gtceu:wohler_aluminium_dust"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: 8.5d
 		}
 		{
@@ -2120,7 +2190,7 @@
 				item: "gtceu:potash_dust"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: 9.5d
 		}
 		{
@@ -2138,7 +2208,7 @@
 				item: "vintageimprovements:centrifuge"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: 10.5d
 		}
 		{
@@ -2162,7 +2232,7 @@
 				item: "tfmg:aluminum_ingot"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 8.5d
 		}
 		{
@@ -2170,6 +2240,7 @@
 				"7F89E529AADC4C7E"
 				"5DF7C837CAC6AEB2"
 			]
+			description: ["If you want to generate some electricity, you'll need these electric casings."]
 			id: "3D5F57B8006C2293"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -2177,13 +2248,15 @@
 				table_id: 1979144794260430301L
 				type: "random"
 			}]
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "6603C2F61DE58105"
 				item: "tfmg:electric_casing"
 				type: "item"
 			}]
 			x: 1.5d
-			y: 11.0d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -2217,7 +2290,7 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 0.0d
 			y: 11.0d
 		}
 		{
@@ -2249,13 +2322,18 @@
 				item: "gtceu:lv_1a_energy_converter"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: 13.0d
 		}
 		{
 			dependencies: [
 				"3207FF72AB2204F6"
 				"5EFF8C3E3D06198D"
+			]
+			description: [
+				"This is the most basic cable for moving GT energy around. "
+				""
+				"{ \"text\": \"Read this quest in the Tips And Tricks chapter to learn about how GT cables work.\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0F2A7F519B3C67FB\" } }"
 			]
 			id: "71581138C4E6FC5C"
 			rewards: [{
@@ -2307,7 +2385,7 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 2.0d
 			y: 8.5d
 		}
 		{
@@ -2326,7 +2404,7 @@
 				item: "tfmg:generator"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 12.0d
 		}
 		{
@@ -2356,7 +2434,7 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 0.0d
 			y: 13.0d
 		}
 		{
@@ -2379,7 +2457,7 @@
 				title: "Moving Power"
 				type: "checkmark"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: 12.0d
 		}
 		{
@@ -2408,7 +2486,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: -0.5d
 			y: 12.0d
 		}
 		{
@@ -2419,6 +2497,7 @@
 			description: ["The LPG Engine runs off of LPG, like all multipart Create: TFMG engines, it requires an exhaust stack."]
 			icon: "tfmg:lpg_engine"
 			id: "40BAA6C27B13EFF5"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "73B93F14E696144C"
@@ -2442,7 +2521,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 0.5d
 			y: 10.0d
 		}
 		{
@@ -2453,6 +2532,7 @@
 			description: ["The Gasoline Engine runs off of gasoline, like all multipart Create: TFMG engines, it requires an exhaust stack."]
 			icon: "tfmg:gasoline_engine"
 			id: "2C688C3D6A6F0E52"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "722201343354D021"
@@ -2476,7 +2556,7 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 0.0d
 			y: 9.0d
 		}
 		{
@@ -2487,6 +2567,7 @@
 			description: ["The Large Radial Engine runs off of kerosene and doesn't require an exahust."]
 			icon: "tfmg:large_radial_engine"
 			id: "20252558FE6FA288"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "0FD7DACF040A3BB9"
@@ -2505,7 +2586,7 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 1.0d
 			y: 8.0d
 		}
 		{
@@ -2516,6 +2597,7 @@
 			description: ["The Diesel Engine is a multipart engine, like all multipart Create: TFMG engines, it requires an exhaust stack. Unlike the other engines, the Diesel Engine also requires an air intake."]
 			icon: "tfmg:diesel_engine"
 			id: "1A67F2EA21B47171"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "6A3D465F69C22C90"
@@ -2544,7 +2626,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 0.5d
 			y: 7.0d
 		}
 		{
@@ -2554,6 +2636,7 @@
 			]
 			description: ["The Radial Engine runs off of gasoline and doesn't require an exahust."]
 			id: "4B74AB30F1991CA0"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "3F8F8FD46DF7A18E"
@@ -2565,7 +2648,7 @@
 				item: "tfmg:radial_engine"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: 9.0d
 		}
 		{
@@ -2576,6 +2659,7 @@
 			description: ["The Turbine engine runs on kerosene, like all multipart Create: TFMG engines, it requires an exhaust stack."]
 			icon: "tfmg:turbine_engine"
 			id: "0B93EC3CEB969DB0"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "66238F17CCA014B5"
@@ -2599,8 +2683,27 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 0.0d
 			y: 8.0d
+		}
+		{
+			dependencies: ["1FC56C660A890E5E"]
+			description: ["Now that you have some glass, you can craft the weapon printer, this will allow you to start crafting guns and ammo."]
+			id: "3B53B598B6D6EDC0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49F70901A82C9B33"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7FD8FFF164647AE4"
+				item: "pointblank:printer"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
 		}
 	]
 	title: "Clockwork Age"
