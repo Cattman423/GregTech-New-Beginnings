@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "gtceu:block/misc/stripped_treated_wood_top",
+        "side": "gtceu:block/misc/stripped_treated_wood"
+    }
+}

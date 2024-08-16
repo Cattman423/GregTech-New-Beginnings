@@ -15,4 +15,11 @@ GTCEuStartupEvents.registry('gtceu:tag_prefix', event => {
             .generationCondition(ItemGenerationCondition.hasOreProperty)
             //.requiresTool('#minecraft:mineable/pickaxe')
     })
+
+    event.create('soul_soil', 'ore')
+        .stateSupplier(() => Block.getBlock('minecraft:soul_soil').defaultBlockState())
+        .baseModelLocation('minecraft:block/soul_soil')
+        .unificationEnabled(true)
+        .materialIconType(GTMaterialIconType.ore)
+        .generationCondition(ItemGenerationCondition.hasOreProperty)
 })

@@ -5,7 +5,7 @@
 	group: "525E608ED23BAD1F"
 	icon: "gtceu:zpm_machine_hull"
 	id: "758204673DED5B03"
-	order_index: 9
+	order_index: 8
 	quest_links: [{
 		disable_toast: true
 		id: "74C08D18B5F07862"

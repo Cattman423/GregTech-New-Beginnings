@@ -12,21 +12,15 @@
 	}
 	id: "05D6B994FA7C65C3"
 	order_index: 2
-	quest_links: [ ]
+	quest_links: [{
+		id: "67E4B477AF9C16E2"
+		linked_quest: "68418E565CCFACAF"
+		shape: "hexagon"
+		size: 2.0d
+		x: 0.0d
+		y: 0.0d
+	}]
 	quests: [
-		{
-			dependencies: ["23E74436B4CC52EC"]
-			id: "784B3D3721A36A42"
-			shape: "hexagon"
-			size: 2.0d
-			tasks: [{
-				id: "22808F109A9A5422"
-				item: "productivebees:bee_cage"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
 		{
 			dependencies: ["1FE7A3DC2813ED45"]
 			id: "2A7DA0C5C6656970"
@@ -39,7 +33,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["784B3D3721A36A42"]
+			dependencies: ["68418E565CCFACAF"]
 			id: "1FE7A3DC2813ED45"
 			tasks: [{
 				id: "34534EFE70F73292"

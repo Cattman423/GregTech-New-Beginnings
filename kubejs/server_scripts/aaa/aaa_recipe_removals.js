@@ -38,7 +38,6 @@ ServerEvents.recipes(event => {
     event.remove({mod: 'createcasing', output: 'createcasing:copper_mixer'})
     event.remove({mod: 'createcasing', output: 'createcasing:railway_mixer'})
     event.remove({mod: 'createcasing', output: 'createcasing:creative_mixer'})
-    event.remove({mod: 'create_new_age', output: 'create_new_age:generator_coil'})
     event.remove({mod: 'tfmg', output: 'tfmg:cast_iron_ingot'})
     event.remove({mod: 'createdeco', output: 'createdeco:industrial_iron_ingot'})
     event.remove({mod: 'create', output: 'create:andesite_alloy'})
@@ -46,10 +45,8 @@ ServerEvents.recipes(event => {
     event.remove({mod: 'tfmg', output: 'tfmg:screwdriver'})
     event.remove({mod: 'tfmg', output: 'tfmg:coke_oven'})
     event.remove({mod: 'tfmg', output: 'tfmg:molten_steel'})
-    event.remove({mod: 'tfmg', output: 'tfmg:slag'})
     event.remove({mod: 'tfmg', output: 'tfmg:industrial_pipe'})
     event.remove({mod: 'tfmg', output: 'tfmg:steel_frame'})
-    event.remove({mod: 'tfmg', output: 'tfmg:steel_truss'})
     event.remove({mod: 'tfmg', output: 'tfmg:heavy_machine_casing'})
     event.remove({mod: 'tfmg', output: 'tfmg:pumpjack_hammer_head'})
     event.remove({mod: 'tfmg', output: 'tfmg:pumpjack_hammer_part'})
@@ -175,15 +172,7 @@ ServerEvents.recipes(event => {
     event.remove({id:'vintageimprovements:crushing/scoria_recycling'})
     event.remove({id:'vintageimprovements:crushing/scoria'})
     event.remove({id:'gtceu:shaped/rechiseledcreate/mechanical_chisel'})
-    event.remove({id:'gtceu:shaped/steel_bricks_hull'})
-    event.remove({id:'gtceu:shaped/steel_hull'})
-    event.remove({id:'gtceu:shaped/bronze_bricks_hull'})
-    event.remove({id:'gtceu:shaped/bronze_hull'})
-    event.remove({id:'gtceu:shaped/steam_boiler_coal_bronze'})
-    event.remove({id:'gtceu:shaped/steam_boiler_lava_bronze'})
     event.remove({id:'gtceu:shaped/steam_boiler_solar_bronze'})
-    event.remove({id:'gtceu:shaped/steam_boiler_coal_steel'})
-    event.remove({id:'gtceu:shaped/steam_boiler_lava_steel'})
     event.remove({id:'gtceu:shaped/steam_boiler_solar_steel'})
     event.remove({id:'create:mixing/brass_ingot'})
     event.remove({id:'create:crafting/kinetics/rope_pulley'})
@@ -344,9 +333,6 @@ ServerEvents.recipes(event => {
     event.remove({id:'minecraft:netherite_ingot_from_netherite_block'})
     event.remove({id:'minecraft:netherite_ingot'})
     event.remove({id:'createdeco:netherite_ingot'})
-    event.remove({id:'ad_astra:nasa_workbench/tier_2_rocket_from_nasa_workbench'})
-    event.remove({id:'ad_astra:nasa_workbench/tier_3_rocket_from_nasa_workbench'})
-    event.remove({id:'ad_astra:nasa_workbench/tier_4_rocket_from_nasa_workbench'})
     event.remove({id:'create:crafting/materials/andesite_alloy_block'})
     event.remove({id:'ad_astra:desh_ingot'})
     event.remove({id:'ad_astra:desh_ingot_from_desh_block'})
@@ -376,50 +362,135 @@ ServerEvents.recipes(event => {
     event.remove({id:'pointblank:gunmetal_ingot_from_smelting_gunmetal_mesh'})
     event.remove({id:'pointblank:gunmetal_mesh'})
     event.remove({id:'pointblank:gunmetal_nugget'})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
-    event.remove({id:''})
+    event.remove({id:'minecraft:netherite_scrap_from_blasting'})
+    event.remove({id:'minecraft:netherite_scrap'})
+    event.remove({id:'gtceu:smelting/dust_netherite_alloy__demagnetize_from_dust'})
+    event.remove({id:'gtceu:macerator/macerate_netherite_scrap'})
+    event.remove({id:'ad_astra:raw_desh_block'})
+    event.remove({id:'ad_astra:raw_ostrum_block'})
+    event.remove({id:'ad_astra:raw_calorite_block'})
+    event.remove({id:'ad_astra:raw_desh'})
+    event.remove({id:'ad_astra:raw_ostrum'})
+    event.remove({id:'ad_astra:raw_calorite'})
+    event.remove({id:'draconicevolution:decompress/draconium_nugget'})
+    event.remove({id:'draconicevolution:compress/draconium_ingot'})
+    event.remove({id:'draconicevolution:decompress/draconium_ingot'})
+    event.remove({id:'draconicevolution:compress/draconium_block'})
+    event.remove({id:'draconicevolution:decompress/awakened_draconium_nugget'})
+    event.remove({id:'draconicevolution:compress/awakened_draconium_ingot'})
+    event.remove({id:'draconicevolution:decompress/awakened_draconium_ingot'})
+    event.remove({id:'draconicevolution:compress/awakened_draconium_block'})
+    event.remove({id:'vintageimprovements:pressurizing/sulfuric_acid'})
+    event.remove({id:'vintageimprovements:pressurizing/copper_sulfate'})
+    event.remove({id:'vintageimprovements:pressurizing/sulfur_dioxide'})
+    event.remove({id:'vintageimprovements:pressurizing/sulfur_trioxide_alt'})
+    event.remove({id:'vintageimprovements:pressurizing/sulfur_trioxide'})
+    event.remove({id:'minecraft:copper_ingot'})
+    event.remove({id:'create:crafting/materials/brass_ingot_from_decompacting'})
+    event.remove({id:'ad_astra:steel_ingot_from_steel_block'})
+    event.remove({id:'create:crafting/materials/zinc_ingot_from_decompacting'})
+    event.remove({id:'vintageimprovements:curving/diamond'})
+    event.remove({id:'vintageimprovements:hammering/netherite_ingot'})
+    event.remove({id:'vintageimprovements:coiling/blaze_rod'})
+    event.remove({id:'tfmg:crafting/steel_tank'})
+    event.remove({id:'create_connected:crafting/kinetics/fluid_vessel'})
+    event.remove({id:'tfmg:crafting/pipes/steel_pipe_horizontal'})
+    event.remove({id:'tfmg:crafting/pipes/steel_pipe_vertical'})
+    event.remove({id:'tfmg:crafting/pipes/steel_fluid_pump'})
+    event.remove({id:'tfmg:crafting/pipes/brass_fluid_pump'})
+    event.remove({id:'tfmg:crafting/pipes/plastic_pipe_vertical'})
+    event.remove({id:'tfmg:crafting/pipes/plastic_pipe_horizontal'})
+    event.remove({id:'tfmg:crafting/pipes/plastic_fluid_pump'})
+    event.remove({id:'tfmg:crafting/pipes/plastic_smart_fluid_pipe'})
+    event.remove({id:'tfmg:crafting/pipes/plastic_fluid_valve'})
+    event.remove({id:'tfmg:crafting/pipes/aluminum_fluid_pump'})
+    event.remove({id:'tfmg:crafting/pipes/aluminum_smart_fluid_pipe'})
+    event.remove({id:'tfmg:crafting/pipes/aluminum_fluid_valve'})
+    event.remove({id:'tfmg:industrial_blasting/steel'})
+    event.remove({id:'ad_astra:steel_ingot'})
+    event.remove({id:'tfmg:stonecutting/ingot_mold'})
+    event.remove({id:'gtceu:smelting/dust_obsidian__demagnetize_from_dust'})
+    event.remove({id:'tfmg:item_application/steel_casing_using_deployer'})
+    event.remove({id:'tfmg:item_application/steel_casing'})
+    event.remove({id:'create:crafting/kinetics/brass_hand'})
+    event.remove({id:'create:crafting/kinetics/smart_fluid_pipe'})
+    event.remove({id:'tfmg:crafting/pipes/steel_smart_fluid_pipe'})
+    event.remove({id:'tfmg:crafting/pipes/brass_smart_fluid_pipe'})
+    event.remove({id:'tfmg:crafting/pipes/cast_iron_smart_fluid_pipe'})
+    event.remove({id:'create:sandpaper_polishing/rose_quartz'})
+    event.remove({id:'gtceu:fluid_solidifier/solidify_stellar_matter_to_ingot'})
+    event.remove({id:'vintageimprovements:craft/vacuum_chamber'})
+    event.remove({id:'vintageimprovements:craft/curving_press'})
+    event.remove({id:'gtceu:implosion_compressor/implode_dust_magneto_resonatic__powderbarrel'})
+    event.remove({id:'gtceu:implosion_compressor/implode_dust_magneto_resonatic__itnt'})
+    event.remove({id:'gtceu:implosion_compressor/implode_dust_magneto_resonatic__dynamite'})
+    event.remove({id:'createbigcannons:compacting/iron_to_cast_iron_block'})
+    event.remove({id:'createbigcannons:cast_iron_block'})
+    event.remove({id:'createbigcannons:compacting/iron_to_cast_iron_ingot'})
+    event.remove({id:'createbigcannons:compacting/forge_cast_iron_ingot'})
+    event.remove({id:'createbigcannons:cast_iron_ingot_from_block'})
+    event.remove({id:'createbigcannons:cast_iron_ingot_from_nuggets'})
+    event.remove({id:'createbigcannons:compacting/forge_cast_iron_nugget'})
+    event.remove({id:'createbigcannons:cast_iron_nugget'})
+    event.remove({id:'createbigcannons:melting/melt_cast_iron_ingot'})
+    event.remove({id:'createbigcannons:melting/melt_cast_iron_block'})
+    event.remove({id:'createbigcannons:melting/melt_cast_iron_nugget'})
+    event.remove({id:'createbigcannons:melting/melt_bronze_ingot'})
+    event.remove({id:'createbigcannons:melting/melt_bronze_nugget'})
+    event.remove({id:'createbigcannons:melting/melt_bronze_block'})
+    event.remove({id:'createbigcannons:melting/melt_steel_block'})
+    event.remove({id:'createbigcannons:melting/melt_steel_nugget'})
+    event.remove({id:'createbigcannons:melting/melt_steel_ingot'})
+    event.remove({id:'createbigcannons:melting/melt_nethersteel_nugget'})
+    event.remove({id:'createbigcannons:melting/melt_nethersteel_block'})
+    event.remove({id:'createbigcannons:melting/melt_nethersteel_ingot'})
+    event.remove({id:'createbigcannons:compacting/forge_nethersteel_ingot'})
+    event.remove({id:'createbigcannons:compacting/forge_nethersteel_nugget'})
+    event.remove({id:'createbigcannons:compacting/forge_steel_ingot'})
+    event.remove({id:'createbigcannons:compacting/forge_bronze_ingot'})
+    event.remove({id:'tfmg:crafting/aluminum_from_block'})
+    event.remove({id:'tfmg:crafting/aluminum_block'})
+    event.remove({id:'vintageimprovements:hammering/nethersteel_ingot'})
+    event.remove({id:'createdeco:industrial_iron_block'})
+    event.remove({id:'create:industrial_iron_block_from_ingots_iron_stonecutting'})
+    event.remove({id:'create:industrial_iron_block_from_iron_ingots_stonecutting'})
+    event.remove({id:'tfmg:crafting/cast_iron_block'})
+    event.remove({id:'tfmg:crafting/steel_coghweel'})
+    event.remove({id:'tfmg:crafting/large_steel_coghweel'})
+    event.remove({id:'tfmg:crafting/aluminum_coghweel'})
+    event.remove({id:'tfmg:crafting/large_aluminum_coghweel'})
+    event.remove({id:'tfmg:smelting/fireclay_brick'})
+    event.remove({id:'tfmg:crafting/fireproof_bricks'})
+    event.remove({id:'tfmg:crafting/blast_furnace_output'})
+    event.remove({id:'tfmg:crafting/resistor_item'})
+    event.remove({id:'tfmg:crafting/capacitor_item'})
+    event.remove({id:'gtceu:shaped/iron_helmet'})
+    event.remove({id:'gtceu:shaped/iron_chestplate'})
+    event.remove({id:'gtceu:shaped/iron_leggings'})
+    event.remove({id:'gtceu:shaped/iron_boots'})
+    event.remove({id:'gtceu:shaped/golden_helmet'})
+    event.remove({id:'gtceu:shaped/golden_chestplate'})
+    event.remove({id:'gtceu:shaped/golden_leggings'})
+    event.remove({id:'gtceu:shaped/golden_boots'})
+    event.remove({id:'tfmg:crafting/armor/steel_helmet'})
+    event.remove({id:'tfmg:crafting/armor/steel_chestplate'})
+    event.remove({id:'tfmg:crafting/armor/steel_leggings'})
+    event.remove({id:'tfmg:crafting/armor/steel_boots'})
+    event.remove({id:'tfmg:crafting/lithium_block'})
+    event.remove({id:'tfmg:crafting/coal_coke_block'})
+    event.remove({id:'tfmg:crafting/coal_coke_from_block'})
+    event.remove({id:'tfmg:crafting/electric_casing'})
+    event.remove({id:'tfmg:crafting/cable_connector'})
+    event.remove({id:'vintageimprovements:coiling/nethersteel_wire'})
+    event.remove({id:'vintageimprovements:coiling/nethersteel_rod'})
+    event.remove({id:'tfmg:cinderblock_from_concrete_stonecutting'})
+    event.remove({id:'tfmg:compacting/cinderflourblock'})
+    event.remove({id:'gtceu:shaped/casing_coke_bricks'})
+    event.remove({id:'tfmg:crafting/cinder_block'})
+    event.remove({id:'tfmg:crafting/cinderflour_block'})
+    event.remove({id:'minecraft:nether_bricks'})
+    event.remove({id:'gtceu:shaped/bronze_primitive_blast_furnace'})
+    event.remove({id:'minecraft:beehive'})
     event.remove({id:''})
     event.remove({id:''})
     event.remove({id:''})
@@ -502,22 +573,10 @@ ServerEvents.recipes(event => {
     event.remove({type: 'productivebees:centrifuge'})
     event.remove({type: 'create:pressing'})
     event.remove({mod: 'antiblocksrechiseled'})
-//Productive Trees
-    const prodtreeplanks = ['alder', 'allspice', 'almond', 'apricot', 'aquilaria', 'asai_palm', 'ash', 'aspen', 'avocado', 'balsa', 'balsam_fir', 'banana', 'beech', 
-    'beliy_naliv_apple', 'blackthorn', 'black_cherry', 'black_ember', 'black_locust', 'blue_mahoe', 'boxwood', 'brazilwood', 'brazil_nut', 'breadfruit', 'brown_amber', 
-    'buddhas_hand', 'bull_pine', 'butternut', 'cacao', 'candlenut', 'carob', 'cashew', 'cave_dweller', 'cedar', 'cempedak', 'ceylon_ebony', 'cherry_plum', 'cinnamon', 
-    'citron', 'clove', 'cocobolo', 'coconut', 'coffea', 'copoazu', 'copper_beech', 'cork_oak', 'cultivated_pear', 'date_palm', 'dogwood', 'douglas_fir', 'elderberry', 'elm', 
-    'european_larch', 'finger_lime', 'firecracker', 'flickering_sun', 'flowering_crabapple', 'foggy_blast', 'ginkgo', 'golden_delicious_apple', 'grandidiers_baobab', 
-    'granny_smith_apple', 'grapefruit', 'great_sallow', 'greenheart', 'hawthorn', 'hazel', 'holly', 'hornbeam', 'ipe', 'iroko', 'jackfruit', 'juniper', 'kapok', 'key_lime', 
-    'kumquat', 'lawson_cypress', 'lemon', 'lime', 'loblolly_pine', 'logwood', 'mahogany', 'mandarin', 'mango', 'monkey_puzzle', 'moonlight_magic_crepe_myrtle', 'myrtle_ebony', 
-    'nectarine', 'night_fuchsia', 'nutmeg', 'old_fustic', 'olive', 'orange', 'osange_orange', 'padauk', 'pandanus', 'papaya', 'peach', 'pecan', 'persimmon', 'pink_ivory', 
-    'pink_ipe', 'pistachio', 'plantain', 'plum', 'pomegranate', 'pomelo', 'prairie_crabapple', 'purpleheart', 'purple_blackthorn', 'purple_crepe_myrtle', 'purple_spiral', 
-    'purple_ipe', 'rainbow_gum', 'red_banana', 'red_crepe_myrtle', 'red_delicious_apple', 'red_maple', 'rippling_willow', 'rosewood', 'rose_gum', 'rowan', 'rubber_tree', 
-    'salak', 'sandalwood', 'sand_pear', 'satsuma', 'sequoia', 'silver_fir', 'silver_lime', 'slimy_delight', 'socotra_dragon', 'soul_tree', 'soursop', 'sour_cherry', 
-    'sparkle_cherry', 'star_anise', 'star_fruit', 'sugar_apple', 'sugar_maple', 'swamp_gum', 'sweetgum', 'sweet_chestnut', 'sweet_crabapple', 'sycamore_fig', 'tangerine', 
-    'teak', 'thunder_bolt', 'time_traveller', 'tuscarora_crepe_myrtle', 'blue_yonder', 'walnut', 'water_wonder', 'wenge', 'western_hemlock', 'whitebeam', 'white_poplar', 
-    'white_ipe', 'white_willow', 'wild_cherry', 'yellow_meranti', 'yew', 'zebrano']
+    event.remove({mod: 'createmetallurgy'})
+    event.remove({input: 'create:crushed_raw_aluminum'})
 
+//Productive Trees
     const shaft = ['oak', 'spruce', 'birch', 'jungle', 'acacia', 'dark_oak', 'mangrove', 'cherry', 'crimson', 'warped', 'glass', 'bamboo']
 
     const beemixer = ['honeycomb_experience', 'honeycomb_neutronium', 'honeycomb_slimy', 'honeycomb_sticky_resin_gtceu', 'ae2/honeycomb_silicon', 'gtceu/honeycomb_tetrahedrite', 
@@ -533,41 +592,18 @@ ServerEvents.recipes(event => {
     'ae2/honeycomb_spacial', 'gtceu/honeycomb_pyrolusite', 'honeycomb_magmatic', 'gtceu/honeycomb_molybdenum', 'gtceu/honeycomb_tungstate', 'honeycomb_silky', 
     'gtceu/honeycomb_electrotine', 'honeycomb_flux']
 
+    const createcoiling = ['silver', 'vanadium', 'rose_gold', 'cobalt', 'platinum', 'uranium', 'palladium', 'invar', 'osmium', 'aluminum', 'zinc', 'lead', 'tin', 'rhodium', 
+    'netherite', 'cast_iron', 'nickel', 'bronze', 'electrum', 'andesite', 'shadow_steel', 'refined_radiance', ]
+
+    const frames = ['steel', 'aluminum', 'cast_iron', 'lead', 'nickel', 'copper', 'zinc', 'brass']
+
+    const tfmgtool = ['steel', 'aluminum', 'lead']
+
+    //['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ]
+
     function removals(output){
         event.remove({id: output})
     }
-    prodtreeplanks.forEach( (base) => {
-        let id = 'productivetrees:planks/' + base + '_planks'
-        removals(id)
-    })
-    prodtreeplanks.forEach( (base) => {
-        let id = 'productivetrees:sawmill/' + base + '_planks_from_log'
-        removals(id)
-    })
-    prodtreeplanks.forEach( (base) => {
-        let id = 'productivetrees:fence/' + base + '_fence'
-        removals(id)
-    })
-    prodtreeplanks.forEach( (base) => {
-        let id = 'productivetrees:fence_gate/' + base + '_fence_gate'
-        removals(id)
-    })
-    prodtreeplanks.forEach( (base) => {
-        let id = 'productivetrees:pressure_plate/' + base + '_pressure_plate'
-        removals(id)
-    })
-    prodtreeplanks.forEach( (base) => {
-        let id = 'productivetrees:button/' + base + '_button'
-        removals(id)
-    })
-    prodtreeplanks.forEach( (base) => {
-        let id = 'productivetrees:door/' + base + '_door'
-        removals(id)
-    })
-    prodtreeplanks.forEach( (base) => {
-        let id = 'productivetrees:trapdoor/' + base + '_trapdoor'
-        removals(id)
-    })
     shaft.forEach( (base) => {
         let id = 'createcasing:crafting/shafts/' + base + '_shaft'
         removals(id)
@@ -575,5 +611,31 @@ ServerEvents.recipes(event => {
     beemixer.forEach( (base) => {
         let id = 'productivebees:create/mixing/' + base
         removals(id)
+    })
+    createcoiling.forEach( (base) => {
+        let id = 'vintageimprovements:coiling/' + base + '_rod'
+        let ida = 'vintageimprovements:coiling/' + base + '_wire'
+        removals(id)
+        removals(ida)
+    })
+    frames.forEach( (base) => {
+        let id = 'tfmg:stonecutting/' + base + '_truss'
+        removals(id)
+    })
+    frames.forEach( (base) => {
+        let id = 'tfmg:' + base + '_truss_from_ingots_' + base + '_stonecutting'
+        removals(id)
+    })
+    tfmgtool.forEach( (base) => {
+        let ida = 'tfmg:crafting/tools/' + base + '_axe'
+        let idb = 'tfmg:crafting/tools/' + base + '_hoe'
+        let idc = 'tfmg:crafting/tools/' + base + '_shovel'
+        let idd = 'tfmg:crafting/tools/' + base + '_pickaxe'
+        let ide = 'tfmg:crafting/tools/' + base + '_sword'
+        removals(ida)
+        removals(idb)
+        removals(idc)
+        removals(idd)
+        removals(ide)
     })
 })

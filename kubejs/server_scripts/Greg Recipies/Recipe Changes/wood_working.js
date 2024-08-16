@@ -126,6 +126,7 @@ ServerEvents.recipes(event => {
         )}
     function bookcaseass(id, input, door){
         event.recipes.gtceu.assembler(id)
+            .circuit(16)
             .itemInputs(input, 'minecraft:bookshelf')
             .itemOutputs(door)
             .duration(100)
@@ -383,4 +384,71 @@ ServerEvents.recipes(event => {
     sawcraft('4x ad_astra:aeronos_planks', '#ad_astra:aeronos_caps')
     sawcraft('4x ad_astra:strophar_planks', '#ad_astra:strophar_caps')
     sawcraft('4x ad_astra:glacian_planks', '#ad_astra:glacian_logs')
+
+//Removals
+    function removals(output){
+        event.remove({id: output})
+    }
+    prodtreeplanks.forEach( (base) => {
+        let id = 'productivetrees:planks/' + base + '_planks'
+        removals(id)
+    })
+    prodtreeplanks.forEach( (base) => {
+        let id = 'productivetrees:sawmill/' + base + '_planks_from_log'
+        removals(id)
+    })
+    prodtreeplanks.forEach( (base) => {
+        let id = 'productivetrees:fence/' + base + '_fence'
+        removals(id)
+    })
+    prodtreeplanks.forEach( (base) => {
+        let id = 'productivetrees:fence_gate/' + base + '_fence_gate'
+        removals(id)
+    })
+    prodtreeplanks.forEach( (base) => {
+        let id = 'productivetrees:pressure_plate/' + base + '_pressure_plate'
+        removals(id)
+    })
+    prodtreeplanks.forEach( (base) => {
+        let id = 'productivetrees:button/' + base + '_button'
+        removals(id)
+    })
+    prodtreeplanks.forEach( (base) => {
+        let id = 'productivetrees:door/' + base + '_door'
+        removals(id)
+    })
+    prodtreeplanks.forEach( (base) => {
+        let id = 'productivetrees:trapdoor/' + base + '_trapdoor'
+        removals(id)
+    })
+    prodtreeplanks.forEach( (base) => {
+        let id = 'productivetrees:bookshelves/' + base + '_bookshelf'
+        removals(id)
+    })
+
+//Bee removal stuff
+    mcplanks.forEach( (base) => {
+        let id = 'productivebees:hives/advanced_' + base + '_beehive'
+        removals(id)
+    })
+    mcplanks.forEach( (base) => {
+        let id = 'productivebees:expansion_boxes/expansion_box_' + base
+        removals(id)
+    })
+    bopplanks.forEach( (base) => {
+        let id = 'productivebees:hives/advanced_biomesoplenty_' + base + '_beehive'
+        removals(id)
+    })
+    bopplanks.forEach( (base) => {
+        let id = 'productivebees:expansion_boxes/expansion_box_biomesoplenty_' + base
+        removals(id)
+    })
+    prodtreeplanks.forEach( (base) => {
+        let id = 'productivetrees:hives/' + base + '_beehive'
+        removals(id)
+    })
+    prodtreeplanks.forEach( (base) => {
+        let id = 'productivetrees:expansion_boxes/expansion_box_' + base
+        removals(id)
+    })
 })

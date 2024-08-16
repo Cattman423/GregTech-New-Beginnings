@@ -124,7 +124,6 @@
 			}
 			weight: 0.5f
 		}
-		{ count: 64, item: "blockofsky:sky_block" }
 		{ count: 64, item: "minecraft:oak_log" }
 		{ count: 16, item: "minecraft:candle" }
 		{ item: "gtceu:damascus_steel_ingot", weight: 0.5f }

@@ -14,6 +14,48 @@ ServerEvents.recipes(event => {
         .itemOutputs('ad_astra:rocket_nose_cone')
         .duration(min*30)
         .EUt(hv)
+
+    event.recipes.gtceu.assembler('ad_command')
+        .itemInputs(
+            'kubejs:dsn_computer_chip', 
+            '2x kubejs:bls_system', 
+            '32x kubejs:thermal_tiles', 
+            '4x kubejs:rcs_block', 
+            '64x gtceu:titanium_plate', 
+            '4x gtceu:fluid_cell',
+            '4x gtceu:lunite_plate'
+        )
+        .itemOutputs('kubejs:ad_command')
+        .duration(min*30)
+        .EUt(ev)
+
+    event.recipes.gtceu.assembler('ad_command_ii')
+        .itemInputs(
+            '2x kubejs:dsn_computer_chip', 
+            'kubejs:als_system', 
+            '32x kubejs:thermal_tiles', 
+            '4x kubejs:rcs_block', 
+            '64x gtceu:tungsten_steel_plate', 
+            '4x gtceu:fluid_cell',
+            '4x gtceu:lunite_plate'
+        )
+        .itemOutputs('kubejs:ad_command_ii')
+        .duration(min*30)
+        .EUt(iv)
+
+    event.recipes.gtceu.assembler('ad_command_iii')
+        .itemInputs(
+            '2x kubejs:dsn_computer_chip', 
+            '2x kubejs:als_system', 
+            '32x kubejs:thermal_tiles', 
+            '4x kubejs:rcs_block', 
+            '64x gtceu:rhodium_plated_palladium_plate', 
+            '4x gtceu:fluid_cell',
+            '4x gtceu:lunite_plate'
+        )
+        .itemOutputs('kubejs:ad_command_iii')
+        .duration(min*30)
+        .EUt(luv)
     
     event.recipes.gtceu.large_chemical_reactor('basic_life_support')
         .itemInputs(
@@ -29,6 +71,21 @@ ServerEvents.recipes(event => {
         .cleanroom(CleanroomType.CLEANROOM)
         .duration(min*12)
         .EUt(hv)
+    
+    event.recipes.gtceu.large_chemical_reactor('advanced_life_support')
+        .itemInputs(
+            '16x gtceu:carbon_dust',
+            '16x gtceu:fluid_cell',
+            '2x #gtceu:circuits/luv'
+        )
+        .inputFluids(
+            'gtceu:oxygen 24000',
+            'gtceu:nitrogen 16000'
+        )
+        .itemOutputs('kubejs:als_system')
+        .cleanroom(CleanroomType.CLEANROOM)
+        .duration(min*12)
+        .EUt(iv)
     
     event.recipes.gtceu.alloy_smelter('thermal_tiles')
         .itemInputs(
@@ -94,14 +151,51 @@ ServerEvents.recipes(event => {
         .itemInputs(
             'kubejs:steel_fuel', 
             'kubejs:steel_nozzle',
-            '3x gtceu:aluminium_small_fluid_pipe'
+            '3x gtceu:aluminium_small_fluid_pipe',
+            'gtceu:steel_foil'
         )
         .inputFluids('gtceu:styrene_butadiene_rubber 576')
         .itemOutputs('ad_astra:steel_engine')
         .duration(min*12)
         .EUt(hv)
 
-    event.recipes.gtceu.circuit_assembler('nen_chip')
+    event.recipes.gtceu.assembler('desh_engine')
+        .itemInputs(
+            'kubejs:steel_fuel', 
+            'kubejs:steel_nozzle',
+            '3x gtceu:titanium_small_fluid_pipe',
+            '2x gtceu:desh_foil'
+        )
+        .inputFluids('gtceu:styrene_butadiene_rubber 576')
+        .itemOutputs('ad_astra:desh_engine')
+        .duration(min*12)
+        .EUt(ev)
+
+    event.recipes.gtceu.assembler('ostrum_engine')
+        .itemInputs(
+            '3x kubejs:steel_fuel', 
+            '3x kubejs:steel_nozzle',
+            '3x gtceu:tungsten_steel_small_fluid_pipe',
+            '6x gtceu:ostrum_foil'
+        )
+        .inputFluids('gtceu:styrene_butadiene_rubber 576')
+        .itemOutputs('ad_astra:ostrum_engine')
+        .duration(min*12)
+        .EUt(iv)
+
+    event.recipes.gtceu.assembler('calorite_engine')
+        .itemInputs(
+            '3x kubejs:steel_fuel', 
+            '3x kubejs:steel_nozzle',
+            '3x gtceu:tungsten_steel_small_fluid_pipe',
+            '6x gtceu:calorite_foil'
+        )
+        .inputFluids('gtceu:styrene_butadiene_rubber 576')
+        .itemOutputs('ad_astra:calorite_engine')
+        .duration(min*12)
+        .EUt(luv)
+
+    event.recipes.gtceu.circuit_assembler('nesn_chip')
         .itemInputs(
             'gtceu:plastic_printed_circuit_board',
             '2x #gtceu:circuits/mv',
@@ -116,9 +210,25 @@ ServerEvents.recipes(event => {
         .duration(min*2)
         .EUt(mv)
 
+    event.recipes.gtceu.circuit_assembler('dsn_chip')
+        .itemInputs(
+            '2x gtceu:plastic_printed_circuit_board',
+            '2x #gtceu:circuits/ev',
+            'kubejs:advanced_smd_inductor_wrap',
+            'kubejs:advanced_smd_transistor_wrap',
+            '2x kubejs:ram_chip_wrap',
+            '8x gtceu:fine_electrum_wire'
+        )
+        .inputFluids('gtceu:soldering_alloy 288')
+        .itemOutputs('kubejs:dsn_computer_chip')
+        .cleanroom(CleanroomType.CLEANROOM)
+        .duration(min*2)
+        .EUt(ev)
+
     function extruder(id, input, mold, output, time, eu){
         event.recipes.gtceu.extruder('kubejs:gtceu/extruder/ad_astra/' + id)
-            .itemInputs(input, mold)
+            .itemInputs(input)
+            .notConsumable(mold)
             .itemOutputs(output)
             .duration(time)
             .EUt(eu)

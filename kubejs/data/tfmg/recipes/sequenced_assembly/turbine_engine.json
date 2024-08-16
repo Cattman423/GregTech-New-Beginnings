@@ -1,0 +1,101 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "tfmg:engine_base"
+  },
+  "loops": 6,
+  "results": [
+    {
+      "chance": 120.0,
+      "count": 2,
+      "item": "tfmg:turbine_engine"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_turbine_engine"
+        },
+        {
+          "item": "gtceu:andesite_alloy_rotor"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfmg:unfinished_turbine_engine"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_turbine_engine"
+        },
+        {
+          "item": "gtceu:poor_steel_screw"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfmg:unfinished_turbine_engine"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_turbine_engine"
+        },
+        {
+          "tag": "forge:tools/screwdrivers"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfmg:unfinished_turbine_engine"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_turbine_engine"
+        },
+        {
+          "amount": 1000,
+          "fluid": "tfmg:lubrication_oil",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "tfmg:unfinished_turbine_engine"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_turbine_engine"
+        },
+        {
+          "item": "kubejs:advanced_clockwork_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfmg:unfinished_turbine_engine"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "tfmg:unfinished_turbine_engine"
+  }
+}

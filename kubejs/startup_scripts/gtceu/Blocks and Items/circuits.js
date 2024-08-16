@@ -232,15 +232,6 @@ StartupEvents.registry('item', event => {
         .texture('gtceu:item/ae_2/logic_wafer')
         .tooltip('Raw Logic Processor')
 
-//Clockwork Mechanism
-    event.create('clockwork_mechanism')
-        .displayName('Clockwork Mechanism')
-        .texture('gtceu:item/mechanisms/clockwork_mechanism')
-
-    event.create('advanced_clockwork_mechanism')
-        .displayName('Advanced Clockwork Mechanism')
-        .texture('gtceu:item/mechanisms/advanced_clockwork_mechanism')
-
 //Magneto Resonance Circuits
     event.create('ulv_magneto_resonance_circuit')
         .displayName('Ulv Magneto Resonance Circuit')

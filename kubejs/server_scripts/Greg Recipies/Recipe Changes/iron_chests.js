@@ -101,12 +101,14 @@ ServerEvents.recipes(event => {
 // Add Assembly Recipes
 // - Chest
     event.recipes.gtceu.assembler(material + 'chest')
+        .circuit(2)
         .itemInputs('minecraft:chest', '2x ' + usePlate)
         .itemOutputs('ironchests:' + material + '_chest')
         .duration(duration)
         .EUt(EUt)
     if (previous) {
         event.recipes.gtceu.assembler(material + 'chestimprove')
+            .circuit(2)
             .itemInputs(useBase + 'chest', usePlate)
             .itemOutputs('ironchests:' + material + '_chest')
             .duration(duration)
@@ -114,12 +116,14 @@ ServerEvents.recipes(event => {
     }
 // - Barrel
     event.recipes.gtceu.assembler(material + 'barrel')
+        .circuit(2)
         .itemInputs('minecraft:barrel', '2x ' + usePlate)
         .itemOutputs('ironchests:' + material + '_barrel')
         .duration(duration)
         .EUt(EUt)
     if (previous) {
         event.recipes.gtceu.assembler(material + 'barrelimprove')
+            .circuit(2)
             .itemInputs(useBase + 'barrel', usePlate)
             .itemOutputs('ironchests:' + material + '_barrel')
             .duration(duration)

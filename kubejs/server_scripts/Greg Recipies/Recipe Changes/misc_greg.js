@@ -12,6 +12,13 @@ ServerEvents.recipes(event => {
         '#forge:tools/mortars'
         ]
     )
+    event.shapeless(
+        Item.of('gtceu:magnetic_iron_ingot'),
+        [
+        '4x minecraft:redstone',
+        'minecraft:iron_ingot'
+        ]
+    )
     event.recipes.gtceu.bender('obsidian')
         .itemInputs('9x gtceu:obsidian_plate')
         .itemOutputs('gtceu:dense_obsidian_plate')
@@ -188,7 +195,7 @@ ServerEvents.recipes(event => {
         Item.of('treetap:tap'),
         [
             'ABC',
-            'DDE',
+            'DIE',
             'FGH'
         ],
         {
@@ -199,7 +206,8 @@ ServerEvents.recipes(event => {
             E: 'gtceu:copper_small_fluid_pipe',
             F: 'gtceu:copper_large_fluid_pipe',
             G: '#forge:tools/wrenches',
-            H: '#forge:tools/files'
+            H: '#forge:tools/files',
+            I: 'kubejs:sealed_mechanism'
         }
         )
     event.recipes.gtceu.compressor('jumbo_furnace')
@@ -207,6 +215,46 @@ ServerEvents.recipes(event => {
         .itemOutputs('jumbofurnace:jumbo_furnace')
         .duration(min*5)
         .EUt(ulv)
+    event.shaped(
+        Item.of('3x minecraft:torch'),
+        [
+            ' A ',
+            ' B ',
+            '   '
+        ],
+        {
+            A: 'gtceu:lignite_gem',
+            B: '#forge:rods/wooden'
+        }
+        )
+    event.shaped(
+        Item.of('3x minecraft:torch'),
+        [
+            ' A ',
+            ' B ',
+            '   '
+        ],
+        {
+            A: 'gtceu:lignite_dust',
+            B: '#forge:rods/wooden'
+        }
+        )
+    event.shaped(
+        Item.of('2x gtceu:coke_oven_bricks'),
+        ['AAA', 'ABA', 'AAA'],
+        {A: 'gtceu:coke_oven_brick', B: 'minecraft:water_bucket'}
+    )
+    event.shaped(
+        Item.of('2x minecraft:nether_bricks'),
+        ['AAA', 'ABA', 'AAA'],
+        {A: 'minecraft:nether_brick', B: 'minecraft:water_bucket'}
+    )
+
+    event.shaped(
+        Item.of('gtceu:primitive_blast_furnace',),
+        ['ABC', 'DEB', 'FBC'],
+        {A: '#forge:tools/hammers', B: 'gtceu:iron_rod', C: 'gtceu:iron_screw',
+        D: 'kubejs:advanced_clockwork_mechanism', E: 'gtceu:firebricks', F: '#forge:tools/screwdrivers'})
 //Nuggets
     let anuggets = Ingredient.of("#forge:nuggets").itemIds
 
@@ -229,6 +277,63 @@ ServerEvents.recipes(event => {
         .outputFluids('gtceu:formaldehyde 4000')
         .duration(sec*15)
         .EUt(lv)
+//
+    const gtrawore = Ingredient.of('#forge:raw_materials').itemIds.filter((name) => {
+        return name.includes('gtceu') == true
+    })
+
+    gtrawore.forEach( (itemIds) => {
+        if(
+            itemIds != 'minecraft:raw_copper' 
+            && itemIds != 'minecraft:raw_gold' 
+            && itemIds != 'minecraft:raw_iron'
+            && itemIds != 'ad_astra:raw_desh'
+            && itemIds != 'ad_astra:raw_ostrum'
+            && itemIds != 'ad_astra:raw_calorite'
+            && itemIds != 'create:raw_zinc'
+        ) {
+            event.shapeless((Item.of('gtceu:raw_' + itemIds.slice(10) + '_block')), ['9x ' + itemIds])
+            event.shapeless((Item.of('9x ' + itemIds)), ['gtceu:raw_' + itemIds.slice(10) + '_block'])
+        }
+    })
+//Round mold/casting
+    const gtround = Ingredient.of('#forge:rounds').itemIds
+    event.shaped(
+        Item.of('kubejs:round_casting_mold'),
+        ['A  ', '   ', '  B'],
+        {A: '#forge:tools/hammers', B: 'gtceu:empty_mold'}
+    )
+    event.recipes.gtceu.forming_press('round_casting_mold')
+        .notConsumable('kubejs:round_casting_mold')
+        .itemInputs('gtceu:empty_mold')
+        .itemOutputs('kubejs:round_casting_mold')
+        .EUt(22)
+        .duration(sec*6)
+    event.recipes.gtceu.arc_furnace('arc_round_casting_mold')
+        .itemInputs('kubejs:round_casting_mold')
+        .inputFluids('gtceu:oxygen 224')
+        .itemOutputs('4x gtceu:steel_ingot')
+        .EUt(lv)
+        .duration(sec*11.2)
+    event.recipes.gtceu.macerator('macerate_casting_mold')
+        .itemInputs('kubejs:round_casting_mold')
+        .itemOutputs('4x gtceu:steel_dust')
+        .EUt(ulv)
+        .duration(sec*11.2)
+    gtround.forEach( (base) => {
+        event.recipes.gtceu.alloy_smelter('kubejs:gtceu/alloy_smelter/misc_greg/' + base.slice(6, -1) + 'd')
+            .notConsumable('kubejs:round_casting_mold')
+            .itemInputs(base.slice(0, -5) + 'ingot')
+            .itemOutputs('9x ' + base)
+            .EUt(ulv)
+            .duration(sec*10)
+        event.recipes.gtceu.fluid_solidifier('kubejs:gtceu/fluid_solidifier/misc_greg/' + base.slice(6, -1) + 'd')
+            .notConsumable('kubejs:round_casting_mold')
+            .inputFluids(base.slice(0, -6) + ' 144')
+            .itemOutputs('9x ' + base)
+            .EUt(ulv)
+            .duration(sec*10)
+    })
 //
     smelting('gtceu:raw_zircon', 'gtceu:zirconium_ingot')
     smelting('gtceu:endstone_zircon_ore', '2x gtceu:zirconium_ingot')

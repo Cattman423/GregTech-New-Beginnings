@@ -32,7 +32,7 @@ explosionDestroyBlocksEnabled = true
 #Range: 0.0 ~ 1.0
 itemDropChance = 0.35
 #Sets the max count of items to be dropped by a monster mob.
-#Range: 1 ~ 64
+#Range: 2 ~ 64
 maxItemDropCount = 7
 #Sets pip scope red color balance. This options works for shaders only.
 #Range: 0 ~ 255
@@ -43,4 +43,9 @@ pipScopeColorBalanceGreen = 105
 #Sets pip scope blue color balance. This options works for shaders only.
 #Range: 0 ~ 255
 pipScopeColorBalanceBlue = 110
+#Enables bullets breaking glass
+bulletsBreakGlassEnabled = true
+#Modifier to adjust damage dealt by hitscan weapons
+#Range: 0.1 ~ 10.0
+hitscanDamageModifier = 1.0
 
