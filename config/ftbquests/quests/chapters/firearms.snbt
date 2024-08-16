@@ -3,17 +3,39 @@
 	default_quest_shape: ""
 	filename: "firearms"
 	group: "41910268CB9EDE34"
-	icon: "pointblank:m1911a1"
+	icon: {
+		Count: 1
+		id: "minecraft:shield"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "6AEE686DF95715BE"
-	order_index: 2
-	quest_links: [{
-		id: "34E50C6D7B5E3CCA"
-		linked_quest: "3B53B598B6D6EDC0"
-		shape: "hexagon"
-		size: 2.0d
-		x: 0.0d
-		y: 0.0d
-	}]
+	order_index: 0
+	quest_links: [
+		{
+			id: "34E50C6D7B5E3CCA"
+			linked_quest: "3B53B598B6D6EDC0"
+			shape: "hexagon"
+			size: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5ECC9A123A1CFF04"
+			linked_quest: "37686CA6FACFAE23"
+			shape: "hexagon"
+			size: 2.0d
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			id: "637379989ED375C4"
+			linked_quest: "6366046B490A9A60"
+			x: -7.0d
+			y: -1.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["3B53B598B6D6EDC0"]
@@ -237,6 +259,12 @@
 			dependencies: ["1F183909B69A12A4"]
 			id: "7A685A1567CA9ADE"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "77D5CC3A1FF229D2"
+				item: "pointblank:ammo357"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "1B8CC8B1899230EE"
@@ -271,6 +299,12 @@
 			dependencies: ["0E7BA3BC7CE5745A"]
 			id: "10317C21813E4B89"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "01311088B49B39BD"
+				item: "pointblank:ammo50ae"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "5083E448E2E8BF1F"
@@ -305,6 +339,12 @@
 			dependencies: ["3702C642AA9B672B"]
 			id: "1FFC263EC14819A6"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "131B75A969D1735F"
+				item: "pointblank:ammo9mm"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "5333DA8466312BE4"
@@ -339,6 +379,12 @@
 			dependencies: ["3702C642AA9B672B"]
 			id: "1DB6050612C2F593"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "6F7F7B3B58786C4E"
+				item: "pointblank:ammo9mm"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "2FC26807AACED8BF"
@@ -373,6 +419,12 @@
 			dependencies: ["3702C642AA9B672B"]
 			id: "6EA3DA4AB4E32EFB"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "5B2D71191EECB123"
+				item: "pointblank:ammo9mm"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "77D2D6407FA2A43E"
@@ -407,6 +459,12 @@
 			dependencies: ["3702C642AA9B672B"]
 			id: "49766E81B531146B"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "06FE931A845D2785"
+				item: "pointblank:ammo9mm"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "650EAC046E923C2F"
@@ -445,6 +503,12 @@
 			dependencies: ["3702C642AA9B672B"]
 			id: "5672B45D43D57824"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "112807B68180BCC1"
+				item: "pointblank:ammo9mm"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "2A120441251B7940"
@@ -479,6 +543,12 @@
 			dependencies: ["3702C642AA9B672B"]
 			id: "6C79FD46ED96D1CE"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "7F5C233143C3CC1E"
+				item: "pointblank:ammo9mm"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "711485CA05CA2BA2"
@@ -513,6 +583,12 @@
 			dependencies: ["3702C642AA9B672B"]
 			id: "15B67746690A2843"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "6CA23B82D63C75E7"
+				item: "pointblank:ammo9mm"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "232CE6FAFC302681"
@@ -547,6 +623,12 @@
 			dependencies: ["3702C642AA9B672B"]
 			id: "20866033C8E78F9E"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "32350815E4597D65"
+				item: "pointblank:ammo9mm"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "7447CE36C64266DA"
@@ -581,11 +663,19 @@
 			dependencies: ["0E48FEEAAA407CDC"]
 			id: "78FDE24BD1944C35"
 			optional: true
-			rewards: [{
-				id: "261948F74BED0213"
-				item: "kubejs:platinum_chip"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "261948F74BED0213"
+					item: "kubejs:platinum_chip"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "16D632DC0170B288"
+					item: "pointblank:ammo45acp"
+					type: "item"
+				}
+			]
 			size: 0.5d
 			tasks: [{
 				id: "102EB2A5837FAB7E"
@@ -620,6 +710,12 @@
 			dependencies: ["0E48FEEAAA407CDC"]
 			id: "7FAFDDA1A108F587"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "12D4ECC7620B53BB"
+				item: "pointblank:ammo45acp"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "564D734FC102FE1B"
@@ -654,6 +750,12 @@
 			dependencies: ["0E48FEEAAA407CDC"]
 			id: "4B14B3214A8A164F"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "4896D4DD9ABC22FD"
+				item: "pointblank:ammo45acp"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "4D4F9237C98AD3B8"
@@ -692,6 +794,12 @@
 			dependencies: ["0E48FEEAAA407CDC"]
 			id: "64D81A09290D0420"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "3E5107BCA5A635A1"
+				item: "pointblank:ammo45acp"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "20C90567A1BE3EE4"
@@ -740,6 +848,12 @@
 			dependencies: ["0E48FEEAAA407CDC"]
 			id: "0DF294EBFFB82FA5"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "2FD7C53DC2A6ED0A"
+				item: "pointblank:ammo45acp"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "1300799F5210AC41"
@@ -784,6 +898,12 @@
 			dependencies: ["6C1ADDA036444322"]
 			id: "3E5315E7C128D404"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "07A6CD54DF4EA1A1"
+				item: "pointblank:ammo57"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "2AF2B930AE30A95B"
@@ -822,6 +942,12 @@
 			dependencies: ["15C3E60D131F5BBC"]
 			id: "6FA39982A56E1120"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "1FF1960960FF4F5B"
+				item: "pointblank:ammo46"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "2B331EF1E380A150"
@@ -856,6 +982,12 @@
 			dependencies: ["3F58F7750EDFF9E5"]
 			id: "0FDA3B12CE50722C"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "1692C24729355AF4"
+				item: "pointblank:ammo545"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "6AE6492F65E6CFF1"
@@ -890,6 +1022,12 @@
 			dependencies: ["3F58F7750EDFF9E5"]
 			id: "0F6354A1578D367F"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "0AD97DBC4C4DF244"
+				item: "pointblank:ammo545"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "08B14F1793599450"
@@ -928,6 +1066,12 @@
 			dependencies: ["3F58F7750EDFF9E5"]
 			id: "3611ED85E48475B2"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "112790593D43DB86"
+				item: "pointblank:ammo545"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "7061260F3247333D"
@@ -962,6 +1106,12 @@
 			dependencies: ["144BBEAC496F8CFA"]
 			id: "7B187E1ED6AA63DC"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "3EC34690ACE531F6"
+				item: "pointblank:ammo556"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "6DA11CD54F912B75"
@@ -996,6 +1146,12 @@
 			dependencies: ["144BBEAC496F8CFA"]
 			id: "386AB75EC93A9CBF"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "2673AC3E5ADE3BDA"
+				item: "pointblank:ammo556"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "49BE1E3E0F10B2ED"
@@ -1040,6 +1196,12 @@
 			dependencies: ["144BBEAC496F8CFA"]
 			id: "1E0DF0FAD86E61E8"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "58A8B8713CF080CC"
+				item: "pointblank:ammo556"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "493E508BAFB15244"
@@ -1084,6 +1246,12 @@
 			dependencies: ["144BBEAC496F8CFA"]
 			id: "52D7D85751FBB462"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "1CCCE28FEC47F67C"
+				item: "pointblank:ammo556"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "02691BE8C0C45238"
@@ -1122,6 +1290,12 @@
 			dependencies: ["144BBEAC496F8CFA"]
 			id: "031EB5774B09EF70"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "19B651249E1D2999"
+				item: "pointblank:ammo556"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "61266D5D261F492F"
@@ -1170,6 +1344,12 @@
 			dependencies: ["144BBEAC496F8CFA"]
 			id: "720E41BA46E745E4"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "36038B586F2EAC02"
+				item: "pointblank:ammo556"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "6644942839492902"
@@ -1204,6 +1384,12 @@
 			dependencies: ["144BBEAC496F8CFA"]
 			id: "13D63C80C5D0210C"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "268BE023338A6611"
+				item: "pointblank:ammo556"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "4443BAFAFFF1450C"
@@ -1248,6 +1434,12 @@
 			dependencies: ["144BBEAC496F8CFA"]
 			id: "3241C102D315F326"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "27AEFFAFB1CC2328"
+				item: "pointblank:ammo556"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "09E4F24D5FB19921"
@@ -1282,6 +1474,12 @@
 			dependencies: ["144BBEAC496F8CFA"]
 			id: "0953B64C0335AA09"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "71D9BC61CA492320"
+				item: "pointblank:ammo556"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "5BDD034FE7A34651"
@@ -1330,6 +1528,12 @@
 			dependencies: ["144BBEAC496F8CFA"]
 			id: "0DA21DD24E9982B9"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "041ADE1584EE3D85"
+				item: "pointblank:ammo556"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "76A97EB92C79A0EC"
@@ -1364,6 +1568,12 @@
 			dependencies: ["144BBEAC496F8CFA"]
 			id: "1A36F6AF6E7C3AE5"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "25A4BCF731FCE7E0"
+				item: "pointblank:ammo556"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "39EC3832A6B47D8D"
@@ -1398,6 +1608,12 @@
 			dependencies: ["144BBEAC496F8CFA"]
 			id: "373744856DED1AE7"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "7F46570114F69A62"
+				item: "pointblank:ammo556"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "205316260F3BCB1D"
@@ -1432,6 +1648,12 @@
 			dependencies: ["144BBEAC496F8CFA"]
 			id: "6114299EE8646F14"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "67CD60467380D699"
+				item: "pointblank:ammo556"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "40B01371BFE6983E"
@@ -1470,6 +1692,12 @@
 			dependencies: ["144BBEAC496F8CFA"]
 			id: "35B0FF563115C255"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "2097EC2217C46BD7"
+				item: "pointblank:ammo556"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "229CEE957A5CDD27"
@@ -1504,6 +1732,12 @@
 			dependencies: ["144BBEAC496F8CFA"]
 			id: "442810B55092ADF6"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "6F8657051AECD141"
+				item: "pointblank:ammo556"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "296127950C6573E9"
@@ -1538,6 +1772,12 @@
 			dependencies: ["144BBEAC496F8CFA"]
 			id: "55B224A073D5AD43"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "520A7C06E25176B3"
+				item: "pointblank:ammo556"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "2A94FBA2BF19DD6A"
@@ -1582,6 +1822,12 @@
 			dependencies: ["612A26D13C3D4792"]
 			id: "62ACFAB0EC9ECF3E"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "204BB74AD283951A"
+				item: "pointblank:ammo68"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "2835BB60E2A093A4"
@@ -1626,6 +1872,12 @@
 			dependencies: ["5F9CE10BA88870E7"]
 			id: "14B32122E98B476D"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "5E3A65DCB1C52BA8"
+				item: "pointblank:ammo762"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "4EE9154B9AD73681"
@@ -1660,6 +1912,12 @@
 			dependencies: ["497E636A9BF49089"]
 			id: "0E963C0D3E95AE8C"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "50915E3A88422693"
+				item: "pointblank:ammo762x51"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "2FB59555A3CDC58C"
@@ -1698,6 +1956,12 @@
 			dependencies: ["497E636A9BF49089"]
 			id: "6064A2FC0B2A2439"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "5B20FD163AA5F150"
+				item: "pointblank:ammo762x51"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "6B229FB0F91B4431"
@@ -1736,6 +2000,12 @@
 			dependencies: ["497E636A9BF49089"]
 			id: "0CF067020396E074"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "70B5B4D384420C76"
+				item: "pointblank:ammo762x51"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "6C9448CD75F507B2"
@@ -1770,6 +2040,12 @@
 			dependencies: ["497E636A9BF49089"]
 			id: "249D77C9ACAC79BF"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "1E1C6C79F24BCE2C"
+				item: "pointblank:ammo762x51"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "4FA0EEE1950F59A6"
@@ -1808,6 +2084,12 @@
 			dependencies: ["497E636A9BF49089"]
 			id: "6E11E2F6DB28D412"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "30060A43FA5BF575"
+				item: "pointblank:ammo762x51"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "5B8E5F21A2AE7860"
@@ -1842,6 +2124,12 @@
 			dependencies: ["483A8682CFDAD73C"]
 			id: "24F1C847356F75EE"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "5127827944FFEE8C"
+				item: "pointblank:ammo338lapua"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "09D0F1AABEEBF21C"
@@ -1886,6 +2174,12 @@
 			dependencies: ["483A8682CFDAD73C"]
 			id: "18A2F6BFFA4B0EC6"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "2AA111605E60A374"
+				item: "pointblank:ammo338lapua"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "783F3E1D22392A47"
@@ -1924,6 +2218,12 @@
 			dependencies: ["483A8682CFDAD73C"]
 			id: "09903AED08441FA5"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "3542B30E29B02BE6"
+				item: "pointblank:ammo338lapua"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "70C86D27AC5FFED2"
@@ -1962,6 +2262,12 @@
 			dependencies: ["5A92C2B04CD32BD2"]
 			id: "6C04F795B06F9410"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "075839AFA25A88D2"
+				item: "pointblank:ammo50bmg"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "4F9A45ACAFCC3C26"
@@ -2000,6 +2306,12 @@
 			dependencies: ["5035C594E6BAE83F"]
 			id: "1DC9345018CA219D"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "1E402C424D0AB7F3"
+				item: "pointblank:ammo12gauge"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "526AFD57560D1807"
@@ -2044,6 +2356,12 @@
 			dependencies: ["5035C594E6BAE83F"]
 			id: "2E4BF262359AA7A7"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "7F6B1FE08193551F"
+				item: "pointblank:ammo12gauge"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "7B60052AF42B6343"
@@ -2078,6 +2396,12 @@
 			dependencies: ["5035C594E6BAE83F"]
 			id: "61C53E2A064EA05A"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "5766A9B9606F46A1"
+				item: "pointblank:ammo12gauge"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "09B7E97D8157DDBC"
@@ -2112,6 +2436,12 @@
 			dependencies: ["5035C594E6BAE83F"]
 			id: "70E12F417055FF87"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "69E1CD23C4C51B9C"
+				item: "pointblank:ammo12gauge"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "25F8AD2C5068A40A"
@@ -2146,6 +2476,12 @@
 			dependencies: ["5035C594E6BAE83F"]
 			id: "08135A725D89A487"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "03006A9301966803"
+				item: "pointblank:ammo12gauge"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "7FD05CDAEE82C0F0"
@@ -2184,6 +2520,12 @@
 			dependencies: ["5035C594E6BAE83F"]
 			id: "3681C446C2B8382E"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "0CEBE833A9FF9FA0"
+				item: "pointblank:ammo12gauge"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "75A6809B69A84834"
@@ -2218,6 +2560,12 @@
 			dependencies: ["5035C594E6BAE83F"]
 			id: "448BDC988FD2C286"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "34ABA957E013344D"
+				item: "pointblank:ammo12gauge"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "10804BA8FC8D0371"
@@ -2299,7 +2647,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.75d
+			x: -0.25d
 			y: -2.75d
 		}
 		{
@@ -2316,7 +2664,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.75d
+			x: -0.25d
 			y: -3.25d
 		}
 		{
@@ -2333,7 +2681,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.75d
+			x: -0.25d
 			y: -3.75d
 		}
 		{
@@ -2350,7 +2698,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.75d
+			x: -0.25d
 			y: -4.25d
 		}
 		{
@@ -2367,7 +2715,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.75d
+			x: -0.25d
 			y: -4.75d
 		}
 		{
@@ -2384,7 +2732,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.75d
+			x: -0.25d
 			y: -5.25d
 		}
 		{
@@ -2401,7 +2749,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.75d
+			x: -0.25d
 			y: -5.75d
 		}
 		{
@@ -2418,7 +2766,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.75d
+			x: -0.25d
 			y: -6.25d
 		}
 		{
@@ -2435,7 +2783,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.75d
+			x: -0.25d
 			y: -6.75d
 		}
 		{
@@ -2452,7 +2800,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.75d
+			x: -0.25d
 			y: -7.25d
 		}
 		{
@@ -2469,7 +2817,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.75d
+			x: -0.25d
 			y: -7.75d
 		}
 		{
@@ -2486,7 +2834,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.25d
+			x: 0.25d
 			y: -2.75d
 		}
 		{
@@ -2503,7 +2851,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.25d
+			x: 0.25d
 			y: -3.25d
 		}
 		{
@@ -2525,7 +2873,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.25d
+			x: 0.25d
 			y: -3.75d
 		}
 		{
@@ -2542,7 +2890,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.25d
+			x: 0.25d
 			y: -4.25d
 		}
 		{
@@ -2559,7 +2907,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.25d
+			x: 0.25d
 			y: -4.75d
 		}
 		{
@@ -2576,7 +2924,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.25d
+			x: 0.25d
 			y: -5.25d
 		}
 		{
@@ -2593,7 +2941,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.25d
+			x: 0.25d
 			y: -5.75d
 		}
 		{
@@ -2610,7 +2958,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.25d
+			x: 0.25d
 			y: -6.25d
 		}
 		{
@@ -2627,7 +2975,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.25d
+			x: 0.25d
 			y: -6.75d
 		}
 		{
@@ -2644,7 +2992,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.75d
+			x: -1.25d
 			y: -2.75d
 		}
 		{
@@ -2661,7 +3009,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.75d
+			x: -1.25d
 			y: -3.25d
 		}
 		{
@@ -2678,7 +3026,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.75d
+			x: -1.25d
 			y: -3.75d
 		}
 		{
@@ -2695,7 +3043,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.25d
+			x: -0.75d
 			y: -2.75d
 		}
 		{
@@ -2712,7 +3060,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.25d
+			x: -0.75d
 			y: -3.25d
 		}
 		{
@@ -2729,7 +3077,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.25d
+			x: -0.75d
 			y: -3.75d
 		}
 		{
@@ -2746,7 +3094,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.25d
+			x: -0.75d
 			y: -4.25d
 		}
 		{
@@ -2763,7 +3111,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.25d
+			x: -0.75d
 			y: -4.75d
 		}
 		{
@@ -2780,7 +3128,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.25d
+			x: -0.75d
 			y: -5.25d
 		}
 		{
@@ -2797,7 +3145,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.25d
+			x: -0.75d
 			y: -5.75d
 		}
 		{
@@ -2814,7 +3162,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.25d
+			x: -0.75d
 			y: -6.25d
 		}
 		{
@@ -2831,7 +3179,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.25d
+			x: -0.75d
 			y: -6.75d
 		}
 		{
@@ -3219,6 +3567,12 @@
 			dependencies: ["144BBEAC496F8CFA"]
 			id: "7CCD1EB41B3578AB"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "3EB819A60A3085F4"
+				item: "pointblank:ammo556"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "238FC8AC5EB38D09"
@@ -3250,6 +3604,12 @@
 			dependencies: ["5035C594E6BAE83F"]
 			id: "38DAD51003C4F911"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "7E4C29C2050395E3"
+				item: "pointblank:ammo12gauge"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "3E9A5A554948D462"
@@ -3281,6 +3641,12 @@
 			dependencies: ["5035C594E6BAE83F"]
 			id: "445D6AFC5E3BF69B"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "3B2327C5FDD08610"
+				item: "pointblank:ammo12gauge"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "5F128290E5133485"
@@ -3309,8 +3675,15 @@
 			y: 5.75d
 		}
 		{
+			dependencies: ["5A92C2B04CD32BD2"]
 			id: "55C44E9EF2B7DBE1"
 			optional: true
+			rewards: [{
+				count: 10
+				id: "0C9C62A1F7EFE817"
+				item: "pointblank:ammo50bmg"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "469D0FD198BC75F9"
@@ -3339,8 +3712,15 @@
 			y: 4.25d
 		}
 		{
+			dependencies: ["5035C594E6BAE83F"]
 			id: "3BE41CB8E6F860E1"
 			optional: true
+			rewards: [{
+				count: 12
+				id: "6D329390824B1261"
+				item: "pointblank:ammo12gauge"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "78D2B088C56FBAD1"
@@ -3368,6 +3748,685 @@
 			x: 4.75d
 			y: 5.75d
 		}
+		{
+			dependencies: ["37686CA6FACFAE23"]
+			id: "4A8753E29AE77866"
+			tasks: [{
+				id: "21B50E449D7AC7D4"
+				item: "tetra:rack"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["37686CA6FACFAE23"]
+			id: "328BCC9B213E8BE4"
+			tasks: [{
+				advancement: "tetra:upgrades/toolbelt"
+				criterion: ""
+				id: "3F2800C5AC894B60"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["37686CA6FACFAE23"]
+			id: "581F2F068EC74C8F"
+			tasks: [{
+				id: "53368B396E848A54"
+				item: "tetra:geode"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["37686CA6FACFAE23"]
+			id: "0073D0D1F92268DC"
+			tasks: [{
+				advancement: "tetra:story/more_upgrades"
+				criterion: ""
+				id: "20D3DA9E8698CA35"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0073D0D1F92268DC"]
+			id: "73BAA75A82FC9046"
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_2"
+				criterion: ""
+				id: "5074D4E3EFD92D11"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["73BAA75A82FC9046"]
+			id: "102CEB98834CABCC"
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_3"
+				criterion: ""
+				id: "78458C83DE7E4429"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["102CEB98834CABCC"]
+			id: "6075378568C6CFC7"
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_4"
+				criterion: ""
+				id: "0FA544A885A17A10"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6075378568C6CFC7"]
+			id: "08E7F7BE88E95A4A"
+			rewards: [{
+				id: "7E1F0D96DF85222E"
+				item: {
+					Count: 1
+					id: "tetra:thermal_cell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_5"
+				criterion: ""
+				id: "601DDC968254BF9E"
+				type: "advancement"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08E7F7BE88E95A4A"]
+			id: "25B5B687E0F0629B"
+			rewards: [{
+				id: "7F6AAB2B4BFDE8FC"
+				item: {
+					Count: 1
+					id: "tetra:thermal_cell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_6"
+				criterion: ""
+				id: "1447F1A936B51C6E"
+				type: "advancement"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7CB8F4196C533EE2"]
+			id: "28F42492A3685DEA"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "37284C35F3B3190F"
+				title: "Armor Crafting"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["28F42492A3685DEA"]
+			description: ["Cheap, and doesn't provide much protection, but some is better than none..."]
+			id: "36627509FC5835C2"
+			optional: true
+			tasks: [
+				{
+					id: "063537D4037BBE27"
+					item: {
+						Count: 1
+						id: "minecraft:leather_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AD3DF9AC5C77420"
+					item: {
+						Count: 1
+						id: "minecraft:leather_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D918AAB65C9CD06"
+					item: {
+						Count: 1
+						id: "minecraft:leather_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06BFF66389195BF3"
+					item: {
+						Count: 1
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["28F42492A3685DEA"]
+			description: ["A bit more expensive than leather armor, but provides more protection."]
+			id: "6E8E7EA14E766EA7"
+			optional: true
+			tasks: [
+				{
+					id: "7A3AA9ABF00E72D1"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E90DE8F242FD74F"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FB5DE8E45B54D8B"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AAC9C54FDABCC36"
+					item: {
+						Count: 1
+						id: "minecraft:chainmail_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["28F42492A3685DEA"]
+			description: ["Iron, Gold, and Steel armor can no longer be dirrectly crafted, instead you need to make a core for it, then pur the molten metal over top."]
+			id: "333B16F37D1756E3"
+			optional: true
+			tasks: [
+				{
+					id: "581A06A827C2BD2E"
+					item: "kubejs:helmet_core"
+					type: "item"
+				}
+				{
+					id: "33CB1396BC5568A9"
+					item: "kubejs:chestplate_core"
+					type: "item"
+				}
+				{
+					id: "179A38CEDA4711B1"
+					item: "kubejs:leggings_core"
+					type: "item"
+				}
+				{
+					id: "13004BADBEC12F24"
+					item: "kubejs:boots_core"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"333B16F37D1756E3"
+				"6366046B490A9A60"
+			]
+			id: "5692FF2F404B348A"
+			optional: true
+			tasks: [
+				{
+					id: "31B4C0EA16359401"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2533C98F1E9BCCF3"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F84BA376C7C24B9"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "167039FB70EEB5A4"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"333B16F37D1756E3"
+				"6366046B490A9A60"
+			]
+			id: "3F12DC734176C3F6"
+			optional: true
+			tasks: [
+				{
+					id: "050C1AF08F61243F"
+					item: {
+						Count: 1
+						id: "minecraft:golden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CE68E792BAEB996"
+					item: {
+						Count: 1
+						id: "minecraft:golden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3AE2C59DB8479399"
+					item: {
+						Count: 1
+						id: "minecraft:golden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38E3043B5CB06CA3"
+					item: {
+						Count: 1
+						id: "minecraft:golden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"333B16F37D1756E3"
+				"6366046B490A9A60"
+			]
+			id: "1EF0E596FE14408C"
+			optional: true
+			tasks: [
+				{
+					id: "5E8B75D99EEF0AE4"
+					item: {
+						Count: 1
+						id: "tfmg:steel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "290868211F2BECA0"
+					item: {
+						Count: 1
+						id: "tfmg:steel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D5952529DB9EE36"
+					item: {
+						Count: 1
+						id: "tfmg:steel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C3740CF3782EFE4"
+					item: {
+						Count: 1
+						id: "tfmg:steel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"28F42492A3685DEA"
+				"7502764D580782F8"
+			]
+			id: "40CF2E086B079050"
+			optional: true
+			tasks: [
+				{
+					id: "12C3546F72191401"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E724351728C5609"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "213FAE25BBEF8C8B"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2685C994B0F8E137"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["40CF2E086B079050"]
+			id: "18229D26580A5F66"
+			optional: true
+			tasks: [
+				{
+					id: "14CF57243024AC05"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31A33930A9E22667"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A906E0362610921"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09D6266BBF6934A3"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["37686CA6FACFAE23"]
+			id: "7A065793B770B367"
+			tasks: [{
+				advancement: "tetra:upgrades/tool_upgrade"
+				criterion: ""
+				id: "61790C1F9E3FC979"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["37686CA6FACFAE23"]
+			id: "70D96B1F6716145D"
+			tasks: [{
+				advancement: "tetra:upgrades/sword_upgrade"
+				criterion: ""
+				id: "5489B7EDE5BB6B96"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["37686CA6FACFAE23"]
+			id: "7CF7CFCF70EAFAEE"
+			tasks: [{
+				advancement: "tetra:upgrades/shield_upgrade"
+				criterion: ""
+				id: "15E6E13E05AC708B"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["37686CA6FACFAE23"]
+			id: "7B3CA2A547AF4E1E"
+			tasks: [{
+				advancement: "tetra:upgrades/bow_upgrade"
+				criterion: ""
+				id: "60E87DC447841F01"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["28F42492A3685DEA"]
+			id: "167B46DF5DACBC12"
+			optional: true
+			tasks: [{
+				id: "20299392D2B8FA12"
+				item: {
+					Count: 1
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"28F42492A3685DEA"
+				"0A30CCFFB2BFB567"
+			]
+			description: ["Tired of dealing with endless polutants and toxic chemicals? Then this is just the gear you need!"]
+			id: "6AF94CEB28CFD639"
+			optional: true
+			tasks: [
+				{
+					id: "4257CCFADA82F82C"
+					item: {
+						Count: 1
+						id: "gtceu:hazmat_headpiece"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DB9C6CA31D18D03"
+					item: {
+						Count: 1
+						id: "gtceu:hazmat_chestpiece"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74333C62C9E67A9D"
+					item: {
+						Count: 1
+						id: "gtceu:hazmat_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45B36DAEDF971052"
+					item: {
+						Count: 1
+						id: "gtceu:hazmat_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 0.0d
+		}
 	]
-	title: "Firearms [WIP]"
+	title: "Armory [WIP]"
 }

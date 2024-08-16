@@ -1966,6 +1966,12 @@
 			]
 			description: ["This is your first \"circuit\". You will be making a few of these, fortunantly the recipe gets easier soon."]
 			id: "3F16A7C0469D780A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "794AD37C3F9895C4"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			shape: "diamond"
 			size: 1.25d
 			tasks: [{
@@ -2143,7 +2149,7 @@
 				item: "gtceu:aluminium_trichloride_dust"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: 7.5d
 		}
 		{
@@ -2168,7 +2174,7 @@
 				item: "gtceu:wohler_aluminium_dust"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: 8.5d
 		}
 		{
@@ -2190,7 +2196,7 @@
 				item: "gtceu:potash_dust"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: 9.5d
 		}
 		{
@@ -2208,7 +2214,7 @@
 				item: "vintageimprovements:centrifuge"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -2.5d
 			y: 10.5d
 		}
 		{
@@ -2232,7 +2238,7 @@
 				item: "tfmg:aluminum_ingot"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -1.5d
 			y: 8.5d
 		}
 		{
@@ -2351,7 +2357,7 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["7677FB46CB4CAAB9"]
+			dependencies: ["0F41A9078B28A435"]
 			id: "304C93DC669DB7ED"
 			rewards: [
 				{
@@ -2385,7 +2391,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 1.5d
 			y: 8.5d
 		}
 		{
@@ -2521,7 +2527,7 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 0.0d
 			y: 10.0d
 		}
 		{
@@ -2556,7 +2562,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: -0.5d
 			y: 9.0d
 		}
 		{
@@ -2586,7 +2592,7 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
+			x: 0.5d
 			y: 8.0d
 		}
 		{
@@ -2626,7 +2632,7 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 0.0d
 			y: 7.0d
 		}
 		{
@@ -2648,7 +2654,7 @@
 				item: "tfmg:radial_engine"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: 9.0d
 		}
 		{
@@ -2683,7 +2689,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: -0.5d
 			y: 8.0d
 		}
 		{
@@ -2704,6 +2710,18 @@
 			}]
 			x: 9.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["7677FB46CB4CAAB9"]
+			id: "0F41A9078B28A435"
+			shape: "hexagon"
+			tasks: [{
+				id: "55E73E583F5D4845"
+				item: "tfmg:crude_oil_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.5d
 		}
 	]
 	title: "Clockwork Age"

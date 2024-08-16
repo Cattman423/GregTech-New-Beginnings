@@ -695,6 +695,11 @@
 			]
 			id: "37686CA6FACFAE23"
 			optional: true
+			rewards: [{
+				id: "48D8DE35908DD25A"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				icon: "tetra:basic_workbench"

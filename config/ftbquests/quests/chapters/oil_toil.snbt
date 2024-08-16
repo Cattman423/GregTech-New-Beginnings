@@ -7,23 +7,17 @@
 	icon: "gtceu:oil_bucket"
 	id: "3B9167470D1A1CD6"
 	order_index: 1
-	quest_links: [ ]
+	quest_links: [{
+		id: "74637A11139BD350"
+		linked_quest: "0F41A9078B28A435"
+		shape: "hexagon"
+		size: 2.0d
+		x: 0.0d
+		y: 0.5d
+	}]
 	quests: [
 		{
-			dependencies: ["4846E3AC3057899B"]
-			id: "74187ECA7C56B3D4"
-			shape: "hexagon"
-			size: 2.0d
-			tasks: [{
-				id: "22310F68CCF1763F"
-				item: "tfmg:crude_oil_fluid_bucket"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["74187ECA7C56B3D4"]
+			dependencies: ["0F41A9078B28A435"]
 			id: "1FCC0DAB279412B1"
 			tasks: [{
 				id: "6891D64517F022E3"

@@ -13,7 +13,9 @@
   * Added 'lore' to Start Here questline
   * Renamed Create Age to Clockwork Age
   * Reduced required wooden gears from 32 to 16 in the 'Some Key Things' quest in the Clockwork Age
-  * Added quest tree for Vic's Point Blank
+  * Renamed Tetra Quest's page to Armory
+  * Added quest tree for Vic's Point Blank in the Armory page
+  * Added quest tree for armor crafting in the Armory page
 * Textures
   * Added textures for Advanced Command Pod and Advanced Command Pod II
   * Added textures for Advanced Life Support System
