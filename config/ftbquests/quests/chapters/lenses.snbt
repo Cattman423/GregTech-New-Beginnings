@@ -704,6 +704,17 @@
 			x: 4.5d
 			y: -3.0d
 		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "50F01676FBC65157"
+			tasks: [{
+				id: "4AB4FCC6212E9523"
+				item: "gtceu:lunite_lens"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
 	]
 	title: "Lenses"
 }

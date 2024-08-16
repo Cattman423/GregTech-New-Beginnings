@@ -127,7 +127,7 @@ ServerEvents.recipes(event => {
     honeycomb('fluix', '{EntityTag: {type: "productivebees:fluix"}}', 'ae2:fluix_crystal', 2000, 50, 1200, 30)
     honeycomb('invar', '{EntityTag: {type: "productivebees:invar"}}', 'gtceu:invar_dust', 8000, 50, 1200, 30)
     honeycomb('rose_gold', '{EntityTag: {type: "productivebees:rose_gold"}}', 'gtceu:rose_gold_dust', 8000, 50, 1200, 30)
-    honeycomb('rose_quartz', '{EntityTag: {type: "productivebees:rose_quartz"}}', 'gtceu:rose_quartz_gem', 5000, 50, 1200, 30)
+    honeycomb('rose_quartz', '{EntityTag: {type: "productivebees:rose_quartz"}}', 'create:rose_quartz', 5000, 50, 1200, 30)
 //Multi Item Output
     honeycombmulti('prismarine', '{EntityTag: {type: "productivebees:prismarine"}}', 'minecraft:prismarine_shard', 2000, 50, 'minecraft:prismarine_crystals', 500, 50, 1200, 30)
     honeycombmulti('frosty', '{EntityTag: {type: "productivebees:frosty"}}', '2x minecraft:snowball', 9900, 50, 'minecraft:ice', 4000, 50, 1200, 30)
@@ -263,7 +263,7 @@ function honeycombfluidblock(id, input, output, time, eu){
     honeycombblock('fluix_block', '{EntityTag: {type: "productivebees:fluix"}}', '4x ae2:fluix_crystal', 2000, 50, 1200, 30)
     honeycombblock('invar_block', '{EntityTag: {type: "productivebees:invar"}}', '4x gtceu:invar_dust', 8000, 50, 1200, 30)
     honeycombblock('rose_gold_block', '{EntityTag: {type: "productivebees:rose_gold"}}', '4x gtceu:rose_gold_dust', 8000, 50, 1200, 30)
-    honeycombblock('rose_quartz_block', '{EntityTag: {type: "productivebees:rose_quartz"}}', '4x gtceu:rose_quartz_gem', 5000, 50, 1200, 30)
+    honeycombblock('rose_quartz_block', '{EntityTag: {type: "productivebees:rose_quartz"}}', '4x create:rose_quartz', 5000, 50, 1200, 30)
 //Multi Item Output Blocks
     honeycombmultiblock('prismarine_block', '{EntityTag: {type: "productivebees:prismarine"}}', '4x minecraft:prismarine_shard', 2000, 50, '4x minecraft:prismarine_crystals', 500, 50, 1200, 30)
     honeycombmultiblock('frosty_block', '{EntityTag: {type: "productivebees:frosty"}}', '8x minecraft:snowball', 9900, 50, '4x minecraft:ice', 4000, 50, 1200, 30)

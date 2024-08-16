@@ -1,5 +1,10 @@
 ServerEvents.recipes(event => {
     //import.
+    event.replaceInput(
+        { input: 'create:industrial_iron_block' },
+        'create:industrial_iron_block',
+        'gtceu:poor_steel_block'
+        )
 //Andesite alloy dust
     event.recipes.gtceu.mixer('andesite_alloy_dust')
         .itemInputs('8x gtceu:andesite_dust', 'gtceu:zinc_dust')
@@ -34,35 +39,6 @@ ServerEvents.recipes(event => {
         'createdeco:andesite_sheet',
         'gtceu:andesite_alloy_plate'
         )
-//Poor steel
-    event.recipes.create.mixing(
-        ['3x gtceu:poor_steel_ingot'], 
-        ['2x minecraft:iron_ingot', '2x minecraft:coal']
-        ).heatRequirement('heated')
-    event.recipes.create.pressing(
-        'gtceu:wrought_iron',
-        'gtceu:poor_steel'
-    )
-    event.replaceInput(
-        { input: 'tfmg:cast_iron_ingot' },
-        'tfmg:cast_iron_ingot',
-        'gtceu:poor_steel_ingot'
-        )
-    event.replaceInput(
-        { input: 'createdeco:industrial_iron_ingot' },
-        'createdeco:industrial_iron_ingot',
-        'gtceu:poor_steel_ingot'
-        )
-    event.replaceInput(
-        { input: 'createdeco:industrial_iron_sheet' },
-        'createdeco:industrial_iron_sheet',
-        'gtceu:poor_steel_plate'
-        )
-    event.replaceInput(
-        { input: 'createdeco:zinc_sheet' },
-        'createdeco:zinc_sheet',
-        'gtceu:zinc_plate'
-        )
 //Create rose quartz
     event.replaceInput(
         { input: 'create:polished_rose_quartz' },
@@ -70,39 +46,14 @@ ServerEvents.recipes(event => {
         'gtceu:rose_quartz'
         )
     event.recipes.create.mixing(
-        ['gtceu:rose_quartz_gem'], 
+        ['create:rose_quartz'], 
         ['8x minecraft:redstone', '3x gtceu:quartz_sand_dust']
     ).heatRequirement('lowheated')
-//Greg wrought iron
-    let kjswi = 'kubejs:incomplete_wrought_iron' // making a variable to store the transitional item makes the code more readable
-	    event.recipes.create.sequenced_assembly([
-		    Item.of('gtceu:wrought_iron_ingot').withChance(99.0), // this is the item that will appear in JEI as the result
-            Item.of('gtceu:wrought_iron_nugget').withChance(1.0)
-  	    ], 'minecraft:iron_ingot', [ // 'minecraft:iron_ingot' is the input
-	  	    // the transitional item set by `transitionalItem(kjswi)` is the item used during the intermediate stages of the assembly
-	  	event.recipes.createFilling(kjswi, [kjswi, Fluid.lava(10)]),
-	  	    // like a normal recipe function, is used as a sequence step in this array. Input and output have the transitional item
-	  	event.recipes.createPressing(kjswi, [kjswi]),
-        event.recipes.createPressing(kjswi, [kjswi])
-	    ]).transitionalItem(kjswi).loops(1) // set the transitional item and the number of loops
 //Greg bricks
     event.recipes.create.compacting(
-        ['gtceu:compressed_clay', 'gtceu:brick_wooden_form'], 
-        ['minecraft:clay_ball', 'gtceu:brick_wooden_form']
-    )
-    event.recipes.create.compacting(
-        ['2x gtceu:compressed_coke_clay'], 
+        ['2x kubejs:coke_clay'], 
         ['2x minecraft:clay_ball', '4x #minecraft:sand']
     )
-//Greg bronze and brass
-    event.recipes.create.mixing(
-        ['3x gtceu:bronze_dust'], 
-        ['3x gtceu:copper_dust', 'gtceu:tin_dust']
-    ).heatRequirement('lowheated')
-    event.recipes.create.mixing(
-        ['3x gtceu:brass_dust'], 
-        ['3x gtceu:copper_dust', 'gtceu:zinc_dust']
-    ).heatRequirement('lowheated')
 //Greg wood plank
     event.shaped(
         Item.of('gtceu:wood_plate', 2),
@@ -134,36 +85,34 @@ ServerEvents.recipes(event => {
 //Create cog replacement
     event.shaped(
         Item.of('create:cogwheel',),
-        [
-            ' BE',
-            'DAC',
-            'FB '
-        ],
-        {
-            A: '#forge:small_bakelite',
-            B: 'create:shaft',
-            C: '#forge:tools/hammers',
-            D: '#forge:tools/mallets',
-            E: '#forge:tools/screwdrivers',
-            F: 'gtceu:andesite_alloy_screw'
-        }
-        )
+        [' BE', 'DAC', 'FB '],
+        {A: '#forge:small_bakelite', B: 'create:shaft', C: '#forge:tools/hammers',
+        D: '#forge:tools/mallets', E: '#forge:tools/screwdrivers', F: 'gtceu:andesite_alloy_screw'})
     event.shaped(
         Item.of('create:large_cogwheel',),
-        [
-            ' BE',
-            'DAC',
-            'FB '
-        ],
-        {
-            A: '#forge:bakelite',
-            B: 'create:shaft',
-            C: '#forge:tools/hammers',
-            D: '#forge:tools/mallets',
-            E: '#forge:tools/screwdrivers',
-            F: 'gtceu:andesite_alloy_screw'
-        }
-        )
+        [' BE', 'DAC', 'FB '],
+        {A: '#forge:bakelite', B: 'create:shaft', C: '#forge:tools/hammers',
+        D: '#forge:tools/mallets', E: '#forge:tools/screwdrivers', F: 'gtceu:andesite_alloy_screw'})
+    event.shaped(
+        Item.of('tfmg:steel_cogwheel',),
+        [' BE', 'DAC', 'FB '],
+        {A: 'gtceu:small_steel_gear', B: 'create:shaft', C: '#forge:tools/hammers',
+        D: '#forge:tools/mallets', E: '#forge:tools/screwdrivers', F: 'gtceu:andesite_alloy_screw'})
+    event.shaped(
+        Item.of('tfmg:large_steel_cogwheel',),
+        [' BE', 'DAC', 'FB '],
+        {A: 'gtceu:steel_gear', B: 'create:shaft', C: '#forge:tools/hammers',
+        D: '#forge:tools/mallets', E: '#forge:tools/screwdrivers', F: 'gtceu:andesite_alloy_screw'})
+    event.shaped(
+        Item.of('tfmg:aluminum_cogwheel',),
+        [' BE', 'DAC', 'FB '],
+        {A: 'gtceu:small_wohler_aluminium_gear', B: 'create:shaft', C: '#forge:tools/hammers',
+        D: '#forge:tools/mallets', E: '#forge:tools/screwdrivers', F: 'gtceu:andesite_alloy_screw'})
+    event.shaped(
+        Item.of('tfmg:large_aluminum_cogwheel',),
+        [' BE', 'DAC', 'FB '],
+        {A: 'gtceu:wohler_aluminium_gear', B: 'create:shaft', C: '#forge:tools/hammers',
+        D: '#forge:tools/mallets', E: '#forge:tools/screwdrivers', F: 'gtceu:andesite_alloy_screw'})
     function cogs(id, gear, fluid, output){
         event.recipes.gtceu.assembler(id)
             .itemInputs(gear, 'create:shaft')
@@ -308,110 +257,57 @@ ServerEvents.recipes(event => {
             'gtceu:andesite_alloy_rod'
         ]
     )
-//Create casings
-    function casingass(id, plate, log, output){
-        event.recipes.gtceu.assembler(id)
-            .itemInputs(plate, log)
-            .itemOutputs(output)
-            .duration(50)
-            .EUt(16)
-            .circuit(6);
-        }
-    function casingcraft(output, plate, log){
-        event.shaped(
-            Item.of(output, 2),
-            [
-                'ACA',
-                'ABA',
-                'ADA'
-            ],
-            {
-                A: plate,
-                B: log,
-                C: '#forge:tools/hammers',
-                D: '#forge:tools/wrenches',
-            }
-            )
-        }
 //Create pipes
-    event.shaped(
-        Item.of('create:fluid_pipe',),
-        [
-            'B C',
-            'AAA',
-            '   '
-        ],
-        {
-            A: '#forge:plates/copper',
-            B: '#forge:tools/wrenches',
-            C: '#forge:tools/hammers'
-        }
-        )
-    event.shaped(
-        Item.of('create:mechanical_pump',),
-        [
-            'DC ',
-            'GAH',
-            ' EF'
-        ],
-        {
-            A: 'create:fluid_pipe',
-            C: 'gtceu:andesite_alloy_rotor',
-            D: 'gtceu:andesite_alloy_screw',
-            E: 'create:cogwheel',
-            F: 'create:shaft',
-            G: '#forge:tools/screwdrivers',
-            H: '#forge:tools/wrenches'
-        }
-        )
+    function createpipe(output, metal){
+        event.shaped(
+            Item.of(output),
+            ['B C', 'AAA', '   '],
+            {A: metal, B: '#forge:tools/wrenches', C: '#forge:tools/hammers'})
+    }
+    function createpump(output, pipe){
+        event.shaped(
+            Item.of(output),
+            ['DC ', 'GAH', ' EF'],
+            {A: pipe, C: 'gtceu:andesite_alloy_rotor', D: 'gtceu:andesite_alloy_screw', E: 'create:cogwheel',
+            F: 'create:shaft', G: '#forge:tools/screwdrivers', H: '#forge:tools/wrenches'})
+    }
+    function createsmartpipe(output, pipe){
+        event.shaped(
+            Item.of(output),
+            ['EFG', 'BAB', 'DCD'],
+            {A: pipe, B: 'kubejs:sealed_mechanism', C: 'create:electron_tube', D: 'gtceu:andesite_alloy_screw', 
+            E: '#forge:tools/wrenches', F: 'gtceu:brass_plate', G: '#forge:tools/screwdrivers'})
+    }
+    createpipe('create:fluid_pipe', '#forge:plates/copper')
+    createpipe('tfmg:cast_iron_pipe', 'gtceu:poor_steel_plate')
+    createpipe('tfmg:steel_pipe', 'gtceu:steel_plate')
+    createpipe('tfmg:brass_pipe', 'gtceu:brass_plate')
+    createpipe('tfmg:aluminum_pipe', 'gtceu:wohler_aluminium_plate')
+    createpump('create:mechanical_pump', 'create:fluid_pipe')
+    createpump('tfmg:cast_iron_mechanical_pump', 'tfmg:cast_iron_pipe')
+    createpump('tfmg:steel_mechanical_pump', 'tfmg:steel_pipe')
+    createpump('tfmg:brass_mechanical_pump', 'tfmg:brass_pipe')
+    createpump('tfmg:aluminum_mechanical_pump', 'tfmg:aluminum_pipe')
+    createsmartpipe('create:smart_fluid_pipe', 'create:fluid_pipe')
+    createsmartpipe('tfmg:cast_iron_smart_fluid_pipe', 'tfmg:cast_iron_pipe')
+    createsmartpipe('tfmg:steel_smart_fluid_pipe', 'tfmg:steel_pipe')
+    createsmartpipe('tfmg:brass_smart_fluid_pipe', 'tfmg:brass_pipe')
+    createsmartpipe('tfmg:aluminum_smart_fluid_pipe', 'tfmg:aluminum_pipe')
     event.shaped(
         Item.of('create:fluid_tank',),
-        [
-            ' C ',
-            'ABA',
-            'ABA'
-        ],
-        {
-            A: 'gtceu:copper_plate',
-            B: 'gtceu:long_copper_rod',
-            C: '#forge:tools/hammers'
-        }
-        )
+        [' C ', 'ABA', 'ABA'],
+        {A: 'gtceu:copper_plate', B: 'gtceu:long_copper_rod', C: '#forge:tools/hammers'})
     event.shaped(
         Item.of('create:spout'),
-        [
-            'CED',
-            'FAF',
-            'GBG'
-        ],
-        {
-            A: 'create:fluid_tank',
-            B: 'create:fluid_pipe',
-            C: '#forge:tools/hammers',
-            D: '#forge:tools/wrenches',
-            E: '#forge:tools/screwdrivers',
-            F: '#forge:small_bakelite',
-            G: 'gtceu:andesite_alloy_screw'
-        }
-        )
+        ['CED', 'FAF', 'GBG'],
+        {A: 'create:fluid_tank', B: 'create:fluid_pipe', C: '#forge:tools/hammers', D: '#forge:tools/wrenches',
+        E: '#forge:tools/screwdrivers', F: 'kubejs:sealed_mechanism', G: 'gtceu:andesite_alloy_screw'})
     event.shaped(
         Item.of('create:item_drain'),
-        [
-            'CBD',
-            'FAF',
-            'GEG'
-        ],
-        {
-            A: 'create:fluid_tank',
-            B: 'minecraft:iron_bars',
-            C: '#forge:tools/hammers',
-            D: '#forge:tools/wrenches',
-            E: '#forge:tools/screwdrivers',
-            F: 'gtceu:copper_plate',
-            G: 'gtceu:andesite_alloy_screw'
-        }
-        )
-//Create intermediates    
+        ['CBD', 'FAF', 'GEG'],
+        {A: 'create:fluid_tank', B: 'minecraft:iron_bars', C: '#forge:tools/hammers', D: '#forge:tools/wrenches',
+        E: '#forge:tools/screwdrivers', F: 'kubejs:sealed_mechanism', G: 'gtceu:andesite_alloy_screw'})
+//Create intermediates
     event.shaped(
         Item.of('create:whisk',),
         [
@@ -441,16 +337,21 @@ ServerEvents.recipes(event => {
             E: 'gtceu:andesite_alloy_screw'
         }
     )
-    let kjset = 'kubejs:incomplete_electron_tube'
-    event.recipes.create.sequenced_assembly([
-        Item.of('3x create:electron_tube').withChance(95.0),
-        Item.of('2x gtceu:wrought_iron_nugget').withChance(5.0)
-    ], 'gtceu:wrought_iron_bolt', [
-    event.recipes.createDeploying(kjset, [kjset, 'create:polished_rose_quartz']),
-    event.recipes.createCutting(kjset, [kjset]),
-    event.recipes.createFilling(kjset, [kjset, Fluid.of(('gtceu:rose_quartz'), 144)]),
-    event.recipes.createDeploying(kjset, [kjset, 'create:polished_rose_quartz'])
-    ]).transitionalItem(kjset).loops(1)
+    event.shaped(
+        Item.of('create:brass_hand'),
+        [
+            ' A ',
+            'BBB',
+            ' B '
+        ],
+        {
+            A: 'create:andesite_alloy',
+            B: 'gtceu:double_copper_plate',
+            //C: '#forge:tools/wrenches',
+            //D: '#forge:tools/hammers',
+            //E: 'create:electron_tube'
+        }
+        )
     
     event.recipes.gtceu.circuit_assembler('electron_tube')
         .itemInputs('gtceu:wrought_iron_bolt', 'create:polished_rose_quartz')
@@ -458,20 +359,6 @@ ServerEvents.recipes(event => {
         .itemOutputs('2x create:electron_tube')
         .duration(200)
         .EUt(16)
-
-    let kjscm = 'kubejs:incomplete_clockwork_mechanism'
-    event.recipes.create.sequenced_assembly([
-        Item.of('kubejs:clockwork_mechanism').withChance(95.0),
-        Item.of('2x gtceu:brass_nugget').withChance(3.0),
-        Item.of('2x gtceu:small_rose_quartz_dust').withChance(2.0)
-    ], 'gtceu:brass_plate', [
-    event.recipes.createDeploying(kjscm, [kjscm, 'create:cogwheel']),
-    event.recipes.createDeploying(kjscm, [kjscm, 'gtceu:small_bronze_gear']),
-    event.recipes.createDeploying(kjscm, [kjscm, 'gtceu:brass_nugget']),
-    event.recipes.createPressing(kjscm, [kjscm]),
-    event.recipes.createDeploying(kjscm, [kjscm, 'create:electron_tube']),
-    event.recipes.createPressing(kjscm, [kjscm])
-    ]).transitionalItem(kjscm).loops(2)
 
     event.replaceInput(
         { input: 'create:precision_mechanism' },
@@ -493,22 +380,7 @@ ServerEvents.recipes(event => {
             D: 'gtceu:iron_plate',
             E: 'create:electron_tube'
         }
-    )    
-    let kjsbb = 'kubejs:incomplete_blaze_burner'
-    event.recipes.create.sequenced_assembly([
-        Item.of('create:blaze_burner').withChance(95.0),
-        Item.of('2x gtceu:iron_nugget').withChance(3.0),
-        Item.of('2x gtceu:small_netherrack_dust').withChance(2.0)
-    ], 'create:empty_blaze_burner', [
-    event.recipes.createDeploying(kjsbb, [kjsbb, 'create:cogwheel']),
-    event.recipes.createDeploying(kjsbb, [kjsbb, 'kubejs:clockwork_mechanism']),
-    event.recipes.createFilling(kjsbb, [kjsbb, Fluid.lava(100)]),
-    event.recipes.createPressing(kjsbb, [kjsbb]),
-    event.recipes.createDeploying(kjsbb, [kjsbb, 'gtceu:brass_plate']),
-    event.recipes.createDeploying(kjsbb, [kjsbb, 'gtceu:brass_plate']),
-    event.recipes.createDeploying(kjsbb, [kjsbb, 'create:electron_tube']),
-    event.recipes.createPressing(kjsbb, [kjsbb])
-    ]).transitionalItem(kjsbb).loops(2)
+    )
 //Create mechanical devices
     event.shaped(
         Item.of('create:basin',),
@@ -534,30 +406,27 @@ ServerEvents.recipes(event => {
                 A: input,
                 B: 'create:andesite_casing',
                 C: shaft,
-                D: '#forge:small_bakelite',
+                D: 'kubejs:rudimentary_mechanism',
                 E: '#forge:tools/wrenches',
                 F: '#forge:tools/screwdrivers',
                 G: 'gtceu:andesite_alloy_screw'
             }
             )
     }
+    event.shaped(
+        Item.of('vintageimprovements:vacuum_chamber'),
+        ['ECF', 'DBD', 'GAG'],
+        {A: 'create:mechanical_pump', B: 'create:andesite_casing', C: 'kubejs:sealed_mechanism', D: 'kubejs:rudimentary_mechanism',
+        E: '#forge:tools/wrenches', F: '#forge:tools/screwdrivers', G: 'gtceu:andesite_alloy_screw'}
+    )
+    event.shaped(
+        Item.of('vintageimprovements:curving_press'),
+        ['ECF', 'DBD', 'G G'],
+        {/*A: 'create:mechanical_pump', */B: 'create:andesite_casing', C: 'create:shaft', D: 'kubejs:rudimentary_mechanism',
+        E: '#forge:tools/wrenches', F: '#forge:tools/screwdrivers', G: 'gtceu:andesite_alloy_screw'}
+    )
 
-    let kjsgc = 'kubejs:incomplete_generator_coil'
-    event.recipes.create.sequenced_assembly([
-        Item.of('create_new_age:generator_coil').withChance(84.0),
-        Item.of('gtceu:andesite_alloy_nugget').withChance(8.0),
-        Item.of('6x gtceu:copper_nugget').withChance(8.0)
-    ], 'create:shaft', [
-    event.recipes.createDeploying(kjsgc, [kjsgc, 'gtceu:andesite_alloy_rod']),
-    event.recipes.createPressing(kjsgc, [kjsgc]),
-    event.recipes.createDeploying(kjsgc, [kjsgc, 'gtceu:fine_copper_wire']),
-    event.recipes.createDeploying(kjsgc, [kjsgc, 'gtceu:fine_copper_wire']),
-    event.recipes.createDeploying(kjsgc, [kjsgc, 'gtceu:fine_copper_wire']),
-    event.recipes.createDeploying(kjsgc, [kjsgc, 'gtceu:fine_copper_wire']),
-    event.recipes.createPressing(kjsgc, [kjsgc])
-    ]).transitionalItem(kjsgc).loops(8)
-
-    event.recipes.gtceu.assembler('generator_coil_copper')
+    /*event.recipes.gtceu.assembler('generator_coil_copper')
         .itemInputs('create:shaft', '32x gtceu:fine_copper_wire')
         .itemOutputs('create_new_age:generator_coil')
         .duration(600)
@@ -566,7 +435,7 @@ ServerEvents.recipes(event => {
         .itemInputs('create:shaft', '24x gtceu:fine_annealed_copper_wire')
         .itemOutputs('create_new_age:generator_coil')
         .duration(600)
-        .EUt(48)
+        .EUt(48)*/
     event.shaped(
         Item.of('create:mechanical_crafter', 2),
         [
@@ -597,21 +466,22 @@ ServerEvents.recipes(event => {
             //E: 'create:electron_tube'
         }
         )
-    /*event.recipes.create.mechanical_crafting(
+    event.recipes.create.mechanical_crafting(
         'vintageimprovements:helve_hammer', 
         [ 
-            ' B SS',
-            'BLLLC',
-            'BB  s'
+            ' B SS ',
+            'BLLLCD',
+            'BB  s '
         ], 
         {
             S: 'gtceu:iron_spring',
-            B: 'gtceu:double_iron_plate',
+            B: 'minecraft:iron_block',
             L: '#minecraft:logs',
             s: 'create:shaft',
-            C: 'create:andesite_casing'
+            C: 'create:andesite_casing',
+            D: 'kubejs:clockwork_mechanism'
         }
-        )*/
+        )
 //Create kinetic generators
     event.shaped(
         Item.of('create:windmill_bearing',),
@@ -721,28 +591,33 @@ ServerEvents.recipes(event => {
 
     chute('2x create:chute', 'gtceu:andesite_alloy_plate', 'gtceu:small_andesite_alloy_gear')
     chute('2x create:smart_chute', 'gtceu:brass_plate', 'create:electron_tube')
+
     cogs('plastic_cog', '#forge:small_bakelite', 'gtceu:polyethylene 144', 'create:cogwheel')
     cogs('ptfe_cog', '#forge:small_bakelite', 'gtceu:polytetrafluoroethylene 72', 'create:cogwheel')
     cogs('pbi_cog', '#forge:small_bakelite', 'gtceu:polybenzimidazole 36', 'create:cogwheel')
     cogs('plastic_large_cog', '#forge:bakelite', 'gtceu:polyethylene 144', 'create:large_cogwheel')
     cogs('ptfe_large_cog', '#forge:bakelite', 'gtceu:polytetrafluoroethylene 72', 'create:large_cogwheel')
     cogs('pbi_large_cog', '#forge:bakelite', 'gtceu:polybenzimidazole 36', 'create:large_cogwheel')
+
+    cogs('plastic_steel_cog', 'gtceu:small_steel_gear', 'gtceu:polyethylene 144', 'tfmg:steel_cogwheel')
+    cogs('ptfe_steel_cog', 'gtceu:small_steel_gear', 'gtceu:polytetrafluoroethylene 72', 'tfmg:steel_cogwheel')
+    cogs('pbi_steel_cog', 'gtceu:small_steel_gear', 'gtceu:polybenzimidazole 36', 'tfmg:steel_cogwheel')
+    cogs('plastic_large_steel_cog', 'gtceu:steel_gear', 'gtceu:polyethylene 144', 'tfmg:large_steel_cogwheel')
+    cogs('ptfe_large_steel_cog', 'gtceu:steel_gear', 'gtceu:polytetrafluoroethylene 72', 'tfmg:large_steel_cogwheel')
+    cogs('pbi_large_steel_cog', 'gtceu:steel_gear', 'gtceu:polybenzimidazole 36', 'tfmg:large_steel_cogwheel')
+    
+    cogs('plastic_alum_cog', 'gtceu:small_wohler_aluminium_gear', 'gtceu:polyethylene 144', 'tfmg:aluminum_cogwheel')
+    cogs('ptfe_alum_cog', 'gtceu:small_wohler_aluminium_gear', 'gtceu:polytetrafluoroethylene 72', 'tfmg:aluminum_cogwheel')
+    cogs('pbi_alum_cog', 'gtceu:small_wohler_aluminium_gear', 'gtceu:polybenzimidazole 36', 'tfmg:aluminum_cogwheel')
+    cogs('plastic_large_alum_cog', 'gtceu:wohler_aluminium_gear', 'gtceu:polyethylene 144', 'tfmg:large_aluminum_cogwheel')
+    cogs('ptfe_large_alum_cog', 'gtceu:wohler_aluminium_gear', 'gtceu:polytetrafluoroethylene 72', 'tfmg:large_aluminum_cogwheel')
+    cogs('pbi_large_alum_cog', 'gtceu:wohler_aluminium_gear', 'gtceu:polybenzimidazole 36', 'tfmg:large_aluminum_cogwheel')
+
     funnel('2x create:andesite_funnel', 'gtceu:andesite_alloy_plate', 'gtceu:small_andesite_alloy_gear', 'minecraft:dried_kelp')
     funnel('2x create:brass_funnel', 'gtceu:brass_plate', 'create:electron_tube', 'minecraft:dried_kelp')
     funnel('2x create:andesite_tunnel', 'gtceu:andesite_alloy_plate', 'gtceu:small_andesite_alloy_gear', 'create:belt_connector')
     funnel('2x create:brass_tunnel', 'gtceu:brass_plate', 'create:electron_tube', 'create:belt_connector')
-    casingass('andesite_casing_log', '6x gtceu:andesite_alloy_plate', '#forge:stripped_logs', '2x create:andesite_casing')
-    casingass('andesite_casing_wood', '6x gtceu:andesite_alloy_plate', '#forge:stripped_wood', '2x create:andesite_casing')
-    casingass('brass_casing_log', '6x gtceu:brass_plate', '#forge:stripped_logs', '2x create:brass_casing')
-    casingass('brass_casing_wood', '6x gtceu:brass_plate', '#forge:stripped_wood', '2x create:brass_casing')
-    casingass('copper_casing_log', '6x gtceu:copper_plate', '#forge:stripped_logs', '2x create:copper_casing')
-    casingass('copper_casing_wood', '6x gtceu:copper_plate', '#forge:stripped_wood', '2x create:copper_casing')
-    casingcraft('create:andesite_casing', 'gtceu:andesite_alloy_plate', '#forge:stripped_logs')
-    casingcraft('create:andesite_casing', 'gtceu:andesite_alloy_plate', '#forge:stripped_wood')
-    casingcraft('create:brass_casing', 'gtceu:brass_plate', '#forge:stripped_logs')
-    casingcraft('create:brass_casing', 'gtceu:brass_plate', '#forge:stripped_wood')
-    casingcraft('create:copper_casing', 'gtceu:copper_plate', '#forge:stripped_logs')
-    casingcraft('create:copper_casing', 'gtceu:copper_plate', '#forge:stripped_wood')
+
     mechcreate('create:encased_fan', 'gtceu:andesite_alloy_rotor', 'create:shaft')
     mechcreate('create:mechanical_press', 'gtceu:double_iron_plate', 'create:shaft')
     mechcreate('create:mechanical_mixer', 'create:whisk', 'create:shaft')
@@ -759,11 +634,11 @@ ServerEvents.recipes(event => {
     mechcreate('create:rope_pulley', '#forge:rope', 'create:electron_tube')
     mechcreate('sliceanddice:slicer', 'create:turntable', 'create:electron_tube')
     mechcreate('rechiseledcreate:mechanical_chisel', 'rechiseled:chisel', 'create:shaft')
-    mechcreate('createqol:botanist_saw', 'chipped:botanist_table', 'create:shaft')
-    mechcreate('createqol:glassblower_saw', 'chipped:glassblower_table', 'create:shaft')
+    mechcreate('createqol:botanist_saw', 'chipped:botanist_workbench', 'create:shaft')
+    mechcreate('createqol:glassblower_saw', 'chipped:glassblower', 'create:shaft')
     mechcreate('createqol:loom_saw', 'chipped:loom_table', 'create:shaft')
     mechcreate('createqol:mason_saw', 'chipped:mason_table', 'create:shaft')
     mechcreate('createqol:tinkering_saw', 'chipped:tinkering_table', 'create:shaft')
-    //mechcreate('vintageimprovements:belt_grinder', 'vintageimprovements:grinder_belt', 'create:shaft')
-    //mechcreate('vintageimprovements:spring_coiling_machine', 'vintageimprovements:spring_coiling_machine_wheel', 'create:shaft')
+    mechcreate('vintageimprovements:belt_grinder', 'vintageimprovements:grinder_belt', 'create:shaft')
+    mechcreate('vintageimprovements:spring_coiling_machine', 'vintageimprovements:spring_coiling_machine_wheel', 'create:shaft')
 })

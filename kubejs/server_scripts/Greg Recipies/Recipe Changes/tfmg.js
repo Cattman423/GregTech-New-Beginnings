@@ -6,57 +6,6 @@ ServerEvents.recipes(event => {
         .circuit(1)
         .duration(240)
         .EUt(30)
-//Recipe Replacements
-    event.replaceInput(
-        { input: 'tfmg:screw' },
-        'tfmg:screw',
-        'gtceu:poor_steel_screw'
-        )
-    event.replaceInput(
-        { input: 'tfmg:screwdriver' },
-        'tfmg:screwdriver',
-        '#forge:tools/screwdrivers'
-        )
-    event.replaceInput(
-        { input: 'tfmg:turbine_blade' },
-        'tfmg:turbine_blade',
-        'gtceu:andesite_alloy_rotor'
-        )
-    event.replaceInput(
-        { input: 'tfmg:rebar' },
-        'tfmg:rebar',
-        'gtceu:steel_rod'
-        )
-    event.replaceInput(
-        { input: 'tfmg:heavy_machine_casing' },
-        'tfmg:heavy_machine_casing',
-        'gtceu:solid_machine_casing'
-        )
-//
-    event.shapeless(
-        Item.of('tfmg:steel_truss'),
-        [
-            'gtceu:steel_frame'
-        ]
-    )
-//Intermediates
-    let kjsacm = 'kubejs:incomplete_advanced_clockwork_mechanism'
-    event.recipes.create.sequenced_assembly([
-        Item.of('kubejs:advanced_clockwork_mechanism').withChance(95.0),
-        Item.of('2x gtceu:poor_steel_nugget').withChance(3.0),
-        Item.of('2x gtceu:small_rose_quartz_dust').withChance(2.0)
-    ], 'gtceu:poor_steel_plate', [
-    event.recipes.createDeploying(kjsacm, [kjsacm, 'create:electron_tube']),
-    event.recipes.createDeploying(kjsacm, [kjsacm, 'gtceu:poor_steel_gear']),
-    event.recipes.createPressing(kjsacm, [kjsacm]),
-    event.recipes.createDeploying(kjsacm, [kjsacm, 'kubejs:clockwork_mechanism']),
-    event.recipes.createPressing(kjsacm, [kjsacm])
-    ]).transitionalItem(kjsacm).loops(2)
-
-    event.replaceInput(
-        { input: 'tfmg:steel_mechanism' },
-        'tfmg:steel_mechanism',
-        'kubejs:advanced_clockwork_mechanism')
 //Pumpjack
     event.recipes.gtceu.assembler('machine_input')
         .circuit(9)
@@ -115,79 +64,6 @@ ServerEvents.recipes(event => {
         .itemOutputs('tfmg:pumpjack_hammer_connector')
         .duration(200)
         .EUt(16)
-//Casting
-    event.shaped(
-        Item.of('tfmg:cast_iron_pipe',),
-        [
-            'B C',
-            'AAA',
-            '   '
-        ],
-        {
-            A: 'gtceu:poor_steel_plate',
-            B: '#forge:tools/wrenches',
-            C: '#forge:tools/hammers'
-        }
-        )
-    event.shaped(
-        Item.of('tfmg:steel_fluid_tank',),
-        [
-            ' C ',
-            'ABA',
-            'ABA'
-        ],
-        {
-            A: 'gtceu:poor_steel_plate',
-            B: 'gtceu:long_poor_steel_rod',
-            C: '#forge:tools/hammers'
-        }
-        )
-    event.shaped(
-        Item.of('tfmg:casting_spout'),
-        [
-            'CED',
-            'FAF',
-            'GBG'
-        ],
-        {
-            A: 'tfmg:steel_fluid_tank',
-            B: 'tfmg:cast_iron_pipe',
-            C: '#forge:tools/hammers',
-            D: '#forge:tools/wrenches',
-            E: '#forge:tools/screwdrivers',
-            F: 'gtceu:small_bronze_gear',
-            G: 'gtceu:iron_screw'
-        }
-        )
-    event.shaped(
-        Item.of('tfmg:cast_iron_mechanical_pump',),
-        [
-            'DC ',
-            'GAH',
-            ' EF'
-        ],
-        {
-            A: 'tfmg:cast_iron_pipe',
-            C: 'gtceu:iron_rotor',
-            D: 'gtceu:iron_screw',
-            E: 'create:cogwheel',
-            F: 'create:shaft',
-            G: '#forge:tools/screwdrivers',
-            H: '#forge:tools/wrenches'
-        }
-        )
-    event.shaped(
-        Item.of('tfmg:casting_basin',),
-        [
-            '   ',
-            'ABA',
-            'AAA'
-        ],
-        {
-            A: 'gtceu:poor_steel_plate',
-            B: '#forge:tools/hammers'
-        }
-    )
 //Industrial Pipe Wiremill
     event.recipes.gtceu.wiremill('tsipw')
         .itemInputs('gtceu:steel_tiny_fluid_pipe')
@@ -291,8 +167,4 @@ ServerEvents.recipes(event => {
         .EUt(120)
     event.recipes.create.crushing(['gtceu:raw_lignite', Item.of('gtceu:raw_lignite').withChance(0.005)], 'tfmg:lignite')
     event.recipes.create.milling([Item.of('gtceu:raw_lignite').withChance(0.95)], 'tfmg:lignite')
-    function casting(output, input){
-        event.recipes.create.filling(output, input)
-    }
-    casting('create:framed_glass', [Fluid.of('gtceu:glass 144'), 'tfmg:block_mold'])
 })

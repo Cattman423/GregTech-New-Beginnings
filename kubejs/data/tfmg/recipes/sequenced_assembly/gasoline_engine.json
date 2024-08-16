@@ -1,0 +1,85 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "tfmg:engine_base"
+  },
+  "loops": 8,
+  "results": [
+    {
+      "chance": 120.0,
+      "count": 2,
+      "item": "tfmg:gasoline_engine"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_gasoline_engine"
+        },
+        {
+          "amount": 1000,
+          "fluid": "tfmg:lubrication_oil",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "tfmg:unfinished_gasoline_engine"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_gasoline_engine"
+        },
+        {
+          "item": "tfmg:engine_chamber"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfmg:unfinished_gasoline_engine"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_gasoline_engine"
+        },
+        {
+          "item": "gtceu:poor_steel_screw"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfmg:unfinished_gasoline_engine"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "tfmg:unfinished_gasoline_engine"
+        },
+        {
+          "tag": "forge:tools/screwdrivers"
+        }
+      ],
+      "results": [
+        {
+          "item": "tfmg:unfinished_gasoline_engine"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "tfmg:unfinished_gasoline_engine"
+  }
+}

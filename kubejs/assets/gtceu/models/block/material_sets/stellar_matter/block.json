@@ -1,0 +1,10 @@
+{
+    "parent": "gtceu:block/tinted_cube_all_0",
+    "textures": {
+        "all": "gtceu:block/material_sets/stellar_matter/block"
+    },
+    "animation": {
+        "interpolate": true,
+        "frametime": 15
+    }
+}

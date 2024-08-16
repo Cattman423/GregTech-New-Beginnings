@@ -217,7 +217,7 @@
 #Notification settings
 [notification]
 	#Last notified mod version
-	lastNotifiedVersion = "1.5.3+forge-mc1.20.1"
+	lastNotifiedVersion = "3.4.24"
 	#Notify more than once
 	keepNotifying = true
 

@@ -5,7 +5,7 @@
 	group: "525E608ED23BAD1F"
 	icon: "gtceu:uhv_machine_hull"
 	id: "04747AE8CC8A449E"
-	order_index: 11
+	order_index: 10
 	quest_links: [{
 		disable_toast: true
 		id: "36F10B354829A42C"

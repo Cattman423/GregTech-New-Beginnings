@@ -42,6 +42,8 @@
 		#Non Vanilla gamerule: 'neutroniumCompressorAmount'
 		#Range: > 0
 		neutronium_compressor_amount = 200
+		#Non Vanilla gamerule: 'brandonscore:allowSignEditing'
+		"brandonscore:allow_sign_editing" = false
 
 	[gamerules.player]
 		#Whether the server should skip checking player speed when the player is wearing elytra. Often helps with jittering due to lag in multiplayer.

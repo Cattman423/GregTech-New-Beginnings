@@ -583,13 +583,12 @@
 		{
 			dependencies: ["2AF48E6902C16848"]
 			id: "4535625DF9ABBC2F"
-			optional: true
 			tasks: [{
-				id: "7C6BA8447BDDC474"
-				item: "minecraft:bedrock"
+				id: "4B55093C238BB692"
+				item: "gtceu:iodine_dust"
 				type: "item"
 			}]
-			title: "Iodine [NYI]"
+			title: "Iodine"
 			x: 7.5d
 			y: -1.0d
 		}
@@ -640,13 +639,12 @@
 		{
 			dependencies: ["2AF48E6902C16848"]
 			id: "4C98837602566588"
-			optional: true
 			tasks: [{
-				id: "75AEC5A78A38BC74"
-				item: "minecraft:bedrock"
+				id: "427667F010DB809A"
+				item: "gtceu:hafnium_dust"
 				type: "item"
 			}]
-			title: "Hafnium [NYI]"
+			title: "Hafnium"
 			x: -5.5d
 			y: 0.0d
 		}
@@ -1181,13 +1179,12 @@
 		{
 			dependencies: ["2AF48E6902C16848"]
 			id: "4263D69259709BE6"
-			optional: true
 			tasks: [{
-				id: "287B503443DE64D4"
-				item: "minecraft:bedrock"
+				id: "40E0DEFE0FF10EBD"
+				item: "gtceu:lutetium_dust"
 				type: "item"
 			}]
-			title: "Lutetium [NYI]"
+			title: "Lutetium"
 			x: 7.5d
 			y: 2.5d
 		}
@@ -1266,7 +1263,7 @@
 			id: "28D23AB4922BA188"
 			optional: true
 			tasks: [{
-				id: "18CEDC65FEA3734D"
+				id: "07BAD715D08D4D3E"
 				item: "minecraft:bedrock"
 				type: "item"
 			}]
@@ -1514,13 +1511,12 @@
 		{
 			dependencies: ["2AF48E6902C16848"]
 			id: "55A8D5E98A14C9A4"
-			optional: true
 			tasks: [{
-				id: "13628B1294BD1CD0"
-				item: "minecraft:bedrock"
+				id: "5E2DDC7FE0AF5017"
+				item: "gtceu:bromine_bucket"
 				type: "item"
 			}]
-			title: "Bromine [NYI]"
+			title: "Bromine"
 			x: 7.5d
 			y: -2.0d
 		}
@@ -1549,6 +1545,83 @@
 			title: "Praseodymium"
 			x: -4.5d
 			y: 2.5d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "06E246F30190224D"
+			tasks: [{
+				id: "5B4183DE6F896B8F"
+				item: "draconicevolution:draconium_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "3D30AE47FFC39BF6"
+			tasks: [{
+				id: "5566111CEB9DA62E"
+				item: "draconicevolution:awakened_draconium_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "3B20ED34D6713D9D"
+			tasks: [{
+				id: "5A031B45E8990592"
+				item: "gtceu:radiance_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "1850698F8CD3850D"
+			tasks: [{
+				id: "6304D4F36CA563EE"
+				item: "gtceu:shadow_steel_dust"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "204ECC7868F992D1"
+			tasks: [{
+				id: "117556464A6A7ECF"
+				item: "gtceu:void_plasma_bucket"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "4461EC361879F2C6"
+			tasks: [{
+				id: "0B9BED51B8139E5D"
+				item: "gtceu:stellar_matter_plasma_bucket"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "383E15D25B1B7D80"
+			tasks: [{
+				id: "028C525415735E15"
+				item: "gtceu:infinity_dust"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
 		}
 	]
 	title: "The Periodic Table"

@@ -29,6 +29,7 @@
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
+			description: ["You want to make some tools and a crafting table? Then go grab some logs, any will do for this quest."]
 			id: "5CBD0FD78BF0ACEA"
 			rewards: [{
 				id: "063F6D98BD8626D4"
@@ -37,14 +38,15 @@
 			}]
 			tasks: [{
 				count: 8L
-				id: "73355E8B4DF8741A"
+				id: "0F885FC5C14CBA28"
 				item: {
 					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						"ftbfiltersystem:filter": "item_tag(minecraft:logs)"
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)"
 					}
 				}
+				title: "Any #minecraft:logs"
 				type: "item"
 			}]
 			title: "Logs"
@@ -53,6 +55,7 @@
 		}
 		{
 			dependencies: ["5CBD0FD78BF0ACEA"]
+			description: ["Now you can make a workbench and some planks. And yes you saw the recipe right, its 2 planks for every log for the time being."]
 			icon: "minecraft:crafting_table"
 			id: "7CB8F4196C533EE2"
 			rewards: [{
@@ -62,6 +65,7 @@
 			}]
 			shape: "gear"
 			size: 1.5d
+			subtitle: "3x3 crafting"
 			tasks: [
 				{
 					id: "1910F3756E22B3A4"
@@ -70,14 +74,15 @@
 				}
 				{
 					count: 4L
-					id: "2B2D7C1A3BE8A840"
+					id: "65413EAE2EB2BD79"
 					item: {
 						Count: 1
 						id: "ftbfiltersystem:smart_filter"
 						tag: {
-							"ftbfiltersystem:filter": "item_tag(minecraft:planks)"
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:planks)"
 						}
 					}
+					title: "Any #minecraft:planks"
 					type: "item"
 				}
 			]
@@ -86,6 +91,11 @@
 		}
 		{
 			dependencies: ["72F3F36CD583B9FA"]
+			description: [
+				"A good place to start would be gathering some gravel."
+				""
+				"Let's start with a half-stack, you'll need more eventually, but this should be good for now."
+			]
 			id: "6E92FAF32B9F2EA5"
 			rewards: [{
 				id: "22887117902F7578"
@@ -103,6 +113,7 @@
 		}
 		{
 			dependencies: ["6E92FAF32B9F2EA5"]
+			description: ["Time to make some flint, if the gravel didn't drop any, you can craft some at a 3 gravel to 1 flint ratio."]
 			id: "2938241529596ACD"
 			rewards: [{
 				id: "55300658216182FB"
@@ -258,6 +269,7 @@
 		}
 		{
 			dependencies: ["7CB8F4196C533EE2"]
+			description: ["You're probably starting to stockpile some items by now. Why don't you make a chest or two to free up some inventory?"]
 			id: "72E9D259D08BC2C7"
 			rewards: [{
 				id: "327D4B75C6C21304"
@@ -274,12 +286,14 @@
 		}
 		{
 			dependencies: ["3C67E0A05BA200FF"]
+			description: ["Ahh, finally time to enter the Stone Age."]
 			id: "77850E91E8C022E0"
 			rewards: [{
 				id: "2E434902B272D23D"
 				type: "xp"
 				xp: 10
 			}]
+			subtitle: "Unga Bunga"
 			tasks: [{
 				count: 32L
 				id: "61550F2935A97C18"
@@ -294,6 +308,7 @@
 				"2938241529596ACD"
 				"78C6C273A4789425"
 			]
+			description: ["Smelt up some cobblestone and craft a flint morter. This will allow you to get cheaper flint, as well as progress towards some Andesite Alloy."]
 			id: "33AD0F7AF4822787"
 			rewards: [{
 				id: "188C91048CE2F6E1"
@@ -322,6 +337,10 @@
 		}
 		{
 			dependencies: ["78C6C273A4789425"]
+			description: [
+				"Basic metalurgy is done in a vanilla furnace, so for now get some of the basics. "
+				"With this out of the way, iron would be the best tool material that you have."
+			]
 			id: "0675E5069FBF9C1A"
 			rewards: [{
 				id: "0592648891A096A3"
@@ -330,6 +349,7 @@
 			}]
 			shape: "gear"
 			size: 1.25d
+			subtitle: "Basic metalurgy"
 			tasks: [
 				{
 					count: 16L
@@ -374,6 +394,7 @@
 			}]
 			shape: "gear"
 			size: 1.25d
+			subtitle: "Stop! Hammer Time"
 			tasks: [{
 				id: "01E48B37BD1DA498"
 				item: {
@@ -399,6 +420,11 @@
 		}
 		{
 			dependencies: ["5AA5DB2447E377F8"]
+			description: [
+				"These tools aren't required for anything, but certainly make life a lot easier."
+				""
+				"The Spade and Mining Hammer mine a 3x3 area. The Lumber Axe will cut down entire trees. And lastly the Scythe will harvest a 5x5 area of crops with a right-click."
+			]
 			id: "7567D4267276DF13"
 			optional: true
 			rewards: [{
@@ -557,6 +583,7 @@
 		}
 		{
 			dependencies: ["18BE55716A68B0F8"]
+			description: ["Chuck the dust into a furnace to make your first alloy of many."]
 			id: "5EB51E8078212F2F"
 			rewards: [{
 				id: "0525260C65EFE394"
@@ -577,6 +604,7 @@
 				"33AD0F7AF4822787"
 				"6CFF94C849C5A9F7"
 			]
+			description: ["I'm not sure how some flint is going to grind up this andesite into dust, but somehow this works..."]
 			id: "1FD241BBCC48FFD1"
 			rewards: [{
 				id: "3844E0C2D0F9B3E3"
@@ -596,6 +624,11 @@
 			dependencies: [
 				"33AD0F7AF4822787"
 				"0675E5069FBF9C1A"
+			]
+			description: [
+				"Take some of your precious zinc and your morter and grind it up to make zinc dust."
+				""
+				"You can then decompress the zinc dust into small piles."
 			]
 			id: "34D1D229B842E238"
 			rewards: [{
@@ -617,6 +650,7 @@
 				"5AA5DB2447E377F8"
 				"5EB51E8078212F2F"
 			]
+			description: ["Time to do some metal working and craft some andesite alloy plates. The recipe improves later on..."]
 			id: "2F7CFB679D7A9350"
 			rewards: [{
 				id: "7381E91B2FEA0F4F"
@@ -633,10 +667,17 @@
 		}
 		{
 			dependencies: ["2F7CFB679D7A9350"]
+			description: ["Your first machine casing of many!"]
 			hide_details_until_startable: true
 			id: "6A91810EF77054CF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CAC1CEE54229B59"
+				table_id: 1979144794260430301L
+				type: "random"
+			}]
 			shape: "gear"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "10C42A8195C559D3"
 				item: "create:andesite_casing"
@@ -647,8 +688,18 @@
 		}
 		{
 			dependencies: ["7CB8F4196C533EE2"]
+			description: [
+				"Make a Tetra hammer and hit a vanilla crafting table to start working on Tetra."
+				""
+				"We don't have Tinker's or Silent Gear, so this will be your source for decent tools."
+			]
 			id: "37686CA6FACFAE23"
 			optional: true
+			rewards: [{
+				id: "48D8DE35908DD25A"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				icon: "tetra:basic_workbench"
@@ -792,6 +843,7 @@
 		}
 		{
 			dependencies: ["7CB8F4196C533EE2"]
+			description: ["Remember the old Crafting Station? Well this is the replacement for that."]
 			id: "5C3FF4F669A855F1"
 			optional: true
 			rewards: [{
@@ -816,7 +868,7 @@
 		}
 		{
 			dependencies: ["28F55F1A3D9A558F"]
-			description: ["With your new GregTech tools, you can craft up some storage drawers and save on storage space for things like cobblestone and stone dust."]
+			description: ["With your new GregTech tools, you can craft up some storage drawers. This will help you save on storage space for things like cobblestone and stone dust."]
 			id: "3978CEE3DFDF9009"
 			optional: true
 			rewards: [{
@@ -825,14 +877,15 @@
 				xp: 100
 			}]
 			tasks: [{
-				id: "5C34F1B5E9EEAEE6"
+				id: "246C89BA76B21E14"
 				item: {
 					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						"ftbfiltersystem:filter": "item_tag(functionalstorage:drawer)"
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(functionalstorage:drawer)"
 					}
 				}
+				title: "Any #functionalstorage:drawer"
 				type: "item"
 			}]
 			title: "Drawers"

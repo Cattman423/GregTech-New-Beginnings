@@ -74,17 +74,33 @@ StartupEvents.registry('item', event => {
         .displayName('Advanced Command Pod')
         .texture('gtceu:item/space_production/ad_command')
 
-    event.create('ex_command')
-        .displayName('Extreme Command Pod')
-        .texture('gtceu:item/space_production/ex_command')
+    event.create('ad_command_ii')
+        .displayName('Advanced Command Pod II')
+        .texture('gtceu:item/space_production/ad_command_ii')
+
+    event.create('ad_command_iii')
+        .displayName('Advanced Command Pod III')
+        .texture('gtceu:item/space_production/ad_command_iii')
+
+    /*event.create('el_command')
+        .displayName('Elite Command Pod')
+        .texture('gtceu:item/space_production/el_command')
+
+    event.create('el_command_ii')
+        .displayName('Elite Command Pod II')
+        .texture('gtceu:item/space_production/el_command_ii')
+
+    event.create('el_command_iii')
+        .displayName('Elite Command Pod III')
+        .texture('gtceu:item/space_production/el_command_iii')*/
 
 //Engine componets
     event.create('steel_nozzle')
-        .displayName('Steel Engine Nozzle')
+        .displayName('Engine Nozzle')
         .texture('gtceu:item/space_production/steel_nozzle')
 
     event.create('steel_fuel')
-        .displayName('Steel Fuel Injectors')
+        .displayName('Fuel Injectors')
         .texture('gtceu:item/space_production/steel_fuel')
 
 //Rocket housings
@@ -103,4 +119,14 @@ StartupEvents.registry('item', event => {
     event.create('calorite_stringer')
         .displayName('Calorite Stringer Tank Section')
         .texture('gtceu:item/space_production/calorite_stringer')
+
+//Misc Ores
+    event.create('crushed_netherite_scrap')
+        .displayName('Crushed Netherite Scrap')
+        .texture('gtceu:item/ores/crushed_netherite_scrap')
+
+//Misc
+    event.create('round_casting_mold')
+        .displayName('Casting Mold (Round)')
+        .texture('gtceu:item/misc/round_casting_mold')
 })
