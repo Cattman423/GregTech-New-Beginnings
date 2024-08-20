@@ -1,22 +1,22 @@
 //Machine uses
-/*ServerEvents.recipes(event => {
+ServerEvents.recipes(event => {
     event.recipes.gtceu.basic_alternator('lv_1_amp')
         .circuit(1)
-        .notConsumable('2x create_new_age:generator_coil').perTick(false)
+        .notConsumable('2x tfmg:rotor').perTick(false)
         .inputFluids('gtceu:lubricant 1').perTick(true)
         .rpm(64)
         .duration(9600)
         .EUt(-32)
     event.recipes.gtceu.advanced_alternator('hv_1_amp')
         .circuit(1)
-        .notConsumable('3x create_new_age:generator_coil').perTick(false)
+        .notConsumable('3x tfmg:rotor').perTick(false)
         .inputFluids('gtceu:lubricant 5').perTick(true)
         .rpm(128)
         .duration(9600)
         .EUt(-512)
     event.recipes.gtceu.extreme_alternator('iv_1_amp')
         .circuit(1)
-        .notConsumable('5x create_new_age:generator_coil').perTick(false)
+        .notConsumable('5x tfmg:rotor').perTick(false)
         .inputFluids('gtceu:lubricant 20').perTick(true)
         .rpm(256)
         .duration(9600)
@@ -30,7 +30,7 @@
             'BCB'
         ],
         {
-            A: 'create_new_age:generator_coil',
+            A: 'tfmg:rotor',
             B: 'gtceu:steam_machine_casing',
             C: 'create:large_cogwheel'
         }
@@ -61,4 +61,4 @@
         .itemOutputs('gtceu:extreme_alternator')
         .duration(1200)
         .EUt(1920)
-})*/
+})
