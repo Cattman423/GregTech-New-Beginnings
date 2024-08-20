@@ -1,5 +1,15 @@
 # Changelog
 
+## V 0.3.1
+
+* Recipes
+  * Readded recipes for alternators and their uses
+* Mods
+  * Mod Updates
+    * GregTechCEu Modern v1.4.0
+    * JEI v15.12.2.51
+    * LdLib v1.0.27.a
+
 ## V 0.3.0
 
 ### Forge Updated to v47.3.5

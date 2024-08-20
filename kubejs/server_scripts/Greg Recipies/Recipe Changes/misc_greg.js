@@ -277,25 +277,7 @@ ServerEvents.recipes(event => {
         .outputFluids('gtceu:formaldehyde 4000')
         .duration(sec*15)
         .EUt(lv)
-//
-    const gtrawore = Ingredient.of('#forge:raw_materials').itemIds.filter((name) => {
-        return name.includes('gtceu') == true
-    })
-
-    gtrawore.forEach( (itemIds) => {
-        if(
-            itemIds != 'minecraft:raw_copper' 
-            && itemIds != 'minecraft:raw_gold' 
-            && itemIds != 'minecraft:raw_iron'
-            && itemIds != 'ad_astra:raw_desh'
-            && itemIds != 'ad_astra:raw_ostrum'
-            && itemIds != 'ad_astra:raw_calorite'
-            && itemIds != 'create:raw_zinc'
-        ) {
-            event.shapeless((Item.of('gtceu:raw_' + itemIds.slice(10) + '_block')), ['9x ' + itemIds])
-            event.shapeless((Item.of('9x ' + itemIds)), ['gtceu:raw_' + itemIds.slice(10) + '_block'])
-        }
-    })
+        
 //Round mold/casting
     const gtround = Ingredient.of('#forge:rounds').itemIds
     event.shaped(
