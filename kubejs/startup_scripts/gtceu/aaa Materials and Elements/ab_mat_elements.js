@@ -27,7 +27,8 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     const RADIOACTIVE = GTMaterialIconSet.RADIOACTIVE;
     const INFINITY = GTMaterialIconSet.getByName('infinity');
     const STELLAR_MATTER = GTMaterialIconSet.getByName('stellar_matter');
-    const SUB_ATOMIC = GTMaterialIconSet.getByName('sub_atomic')
+    const SUB_ATOMIC = GTMaterialIconSet.getByName('sub_atomic');
+    const EXPERIENCE = GTMaterialIconSet.getByName('experience')
 
 // Flags
 // Generic flags
@@ -192,4 +193,23 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(METALLIC)
         .flags(plates)
         .blastTemp(3500, 'mid', 480, 2400)
+
+    event.create('experience')
+        .ingot()
+        .fluid()
+        .color(0x3ED900)
+        .element('experience')
+        .iconSet(EXPERIENCE)
+
+    event.create('hyper_experience')
+        .fluid()
+        .color(0x3E65FF)
+        .element('hyper_experience')
+        .iconSet(EXPERIENCE)
+
+    event.create('cognitive_amalgam')
+        .ingot()
+        .color(0x3B466A)
+        .element('cognitium')
+        .iconSet(EXPERIENCE)
 })

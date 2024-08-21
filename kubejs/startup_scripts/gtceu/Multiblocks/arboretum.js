@@ -1,6 +1,13 @@
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
-//Hydroponic Farm
-    event.create('arboretum')
+//Arboretum Logging
+    event.create('logging')
+        .category('multiblock')
+        .setEUIO('in')
+            .setMaxIOSize(2, 16, 2, 0) //Max Item Inputs, Max Item Outputs, Max Fluid Inputs, Max Fluid Outputs
+        //.setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
+        .setSound(GTSoundEntries.ARC)
+//Arboretum Orchard
+    event.create('orchard')
         .category('multiblock')
         .setEUIO('in')
             .setMaxIOSize(2, 16, 2, 0) //Max Item Inputs, Max Item Outputs, Max Fluid Inputs, Max Fluid Outputs
@@ -8,10 +15,10 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         .setSound(GTSoundEntries.ARC)
 })
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-//Hydroponic Farm
+//Arboretum
     event.create('arboretum', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
-        .recipeType('arboretum')
+        .recipeTypes(['gtceu:logging', 'gtceu:orchard'])
         .appearanceBlock(() => Block.getBlock('kubejs:agri_casing'))
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('CCCCCCC', 'CCCCCCC', 'CGGGGGC', 'CGGGGGC', 'CGGGGGC', 'CGGGGGC', 'CGGGGGC', 'CCCCCCC')

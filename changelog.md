@@ -1,5 +1,24 @@
 # Changelog
 
+## V 0.3.2
+
+* Quests
+  * Added quest for the curving press and brick wooden form
+  * Merged compressed clay and brick quests
+  * Merged compressed coke clay and coke oven brick quests
+* Recipes
+  * Improved Arboretum recipes for non-fruit bearing trees
+  * Fixed AL-6XN not being craftable in the Alloy Blast Smelter
+* Materials
+  * Added Experience
+  * Added Hyper Experience
+  * Added Cognitive Amalgam
+  * Added Cognitive Flux
+  * Added Cognitive Alloy
+  * Added Cognitive Crystal
+* Mods
+  * Mod Updates
+
 ## V 0.3.1
 
 * Recipes
