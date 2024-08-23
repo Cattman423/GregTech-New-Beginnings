@@ -7,7 +7,7 @@
   * Merged compressed clay and brick quests
   * Merged compressed coke clay and coke oven brick quests
 * Textures
-  * Updated Agricultral Casing to match the new GregTech Textures
+  * Updated Agricultural Casing to match the new GregTech Textures
   * Updated Mithril, Chadium, Awakened Draconium, Stellar Material, and Infinity Coils to match the new GregTech Textures
   * Added resource pack that contained the textures I made before GregTech v1.4
 * Recipes
