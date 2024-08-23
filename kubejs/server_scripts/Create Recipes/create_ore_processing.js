@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
     const crushedore = Ingredient.of('#forge:crushed_ores').itemIds.filter((name) => {
         return name.includes('gtceu') == true
     })
-    const impureore = Ingredient.of("#forge:impure_dusts").itemIds.filter((name) => {
+    const impureore = Ingredient.of('#forge:impure_dusts').itemIds.filter((name) => {
         return name.includes('gtceu') == true
     })
 

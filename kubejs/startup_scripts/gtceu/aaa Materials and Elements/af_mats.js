@@ -331,18 +331,22 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0x3B466A)
         .iconSet(EXPERIENCE)
         .components('nether_quartz', 'lapis', 'quartz_sand')
+        .flags(no_decomp)
 
     event.create('cognitive_alloy')
         .ingot()
-        .color(0x3B466A)
+        .color(0x3B466A).secondaryColor(0x202430)
         .iconSet(EXPERIENCE)
         .components('4x copper', 'cognitive_amalgam')
+        .blastTemp(1200, 'low', 120, 2400)
+        .flags(no_decomp, plates)
 
     event.create('cognitive_crystal')
         .gem()
-        .color(0x3B466A)
+        .color(0x44EE46)
         .iconSet(EXPERIENCE)
         .components('emerald', '4x cognitive_amalgam')
+        .flags(no_decomp, lens)
 
 //Regoliths
     event.create('moon_stone')

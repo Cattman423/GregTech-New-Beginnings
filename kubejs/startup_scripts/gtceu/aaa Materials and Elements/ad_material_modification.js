@@ -67,7 +67,8 @@ GTCEuStartupEvents.materialModification(/*'gtceu:material',*/ event => {
     block('wohler_aluminium', 'tfmg:aluminum_block')
     block('coke', 'tfmg:coal_coke_block')
     block('experience', 'create:experience_block')
-    block('cognitive_alloy', 'experienceobelisk:cognitive_alloy')
+    block('cognitive_alloy', 'experienceobelisk:cognitive_alloy_block')
+    block('cognitive_crystal', 'experienceobelisk:cognitive_crystal_block')
 
 //Nuggets
     nugget('desh', 'ad_astra:desh_nugget')
@@ -94,6 +95,7 @@ GTCEuStartupEvents.materialModification(/*'gtceu:material',*/ event => {
 //Gems
     gem('rose_quartz', 'create:rose_quartz')
     gem('coke', 'tfmg:coal_coke')
+    gem('cognitive_crystal', 'experienceobelisk:cognitive_crystal')
 
 //Formulas
     //GTMaterials.get('').setFormula('', true)

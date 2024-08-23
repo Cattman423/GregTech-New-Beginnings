@@ -1218,6 +1218,7 @@
 			dependencies: [
 				"235E8244B5B522FF"
 				"0F6B6479A8529BD2"
+				"51FAB3DA0316BBA5"
 			]
 			description: ["With a little bit of your poor steel, and some refractory morter, you can advance to the next stage of metallurgy."]
 			id: "3AB54A5E71343454"

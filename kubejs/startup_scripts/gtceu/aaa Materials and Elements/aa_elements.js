@@ -25,6 +25,5 @@ GTCEuStartupEvents.registry('gtceu:element', event => {
     event.create('infinity', 999, 999, -1, null, '⳩', false)
     event.create('ardite', 42, 183, -1, null, 'Ar', false)
     event.create('experience', 43, 184, -1, null, 'Χየ', false)
-    event.create('hyper_experience', 44, 185, -1, null, 'Χየ+', false)
     event.create('cognitium', 45, 186, -1, null, 'ↅ', false)
 })

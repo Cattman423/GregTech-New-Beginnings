@@ -6,18 +6,69 @@
   * Added quest for the curving press and brick wooden form
   * Merged compressed clay and brick quests
   * Merged compressed coke clay and coke oven brick quests
+* Textures
+  * Updated Agricultral Casing to match the new GregTech Textures
+  * Updated Mithril, Chadium, Awakened Draconium, Stellar Material, and Infinity Coils to match the new GregTech Textures
+  * Added resource pack that contained the textures I made before GregTech v1.4
 * Recipes
   * Improved Arboretum recipes for non-fruit bearing trees
   * Fixed AL-6XN not being craftable in the Alloy Blast Smelter
+  * Added a recipe for clay blocks in the Vintage Improvements Compressor
+  * Gave the Arboretum two recipe types, one for logging, the other for growing fruit trees
+  * Replaced water requirements for all Hydroponic and Arboretum recipes to use distilled water instead of regular water
+  * Added recipe chain to produce Asphalt
+  * Gregified recipes for Cognition Cognitive Flux, Amalgam, Alloy, and Crystal
+  * Added recipes to convert Experience from Sophisticated Backpacks and Create Enchantment Industry into Cognition, which can be stored in an Experience Obelisk
 * Materials
   * Added Experience
-  * Added Hyper Experience
   * Added Cognitive Amalgam
   * Added Cognitive Flux
   * Added Cognitive Alloy
   * Added Cognitive Crystal
+* Misc
+  * Changed running speed multiplier for Minecraft, GregTech, and Chipped Concrete to 1.5
+  * Changed running speed multiplier for Asphalt to 1.65
+* Resource Packs
+  * Additions
+    * Added Tom's Better Create Storage
+    * Added Tom's Create Storage
 * Mods
+  * Mod Additions
+    * Added Additional Placements
+    * Added Block Runner
   * Mod Updates
+    * Apotheosis v7.4.2
+    * Apothic Attributes v1.3.7
+    * Applied Energistics 2 v15.2.13
+    * Balm v7.3.9
+    * Better Archeology v1.2.0
+    * CC: Tweaked v1.113.0
+    * Citadel v2.6.0
+    * Collective v7.84
+    * Colorful Hearts v4.3.15
+    * CorgiLib v4.0.3.0
+    * Crafting Tweaks v18.2.5
+    * CraftTweaker v14.0.43
+    * Create: The Factory Must Grow v0.9.1b
+    * CreativeCore v2.11.37
+    * Dawn of Time Builder Edition v1.5.8
+    * Delighful v3.6
+    * Embeddium v0.3.30
+    * Entity Culling v1.6.7
+    * Entity Texture Features v6.2
+    * Framed Blocks v9.3.1
+    * Hostile Nural Networks v5.3.1
+    * Inventory HUD+ v3.4.26
+    * Lootr v0.7.34.89
+    * ModernFix v5.19.1
+    * Moonlight v2.12.16
+    * Productive Bees v12.6.0
+    * Rhino v2001.2.3-build.6
+    * Sophisticated Backpacks v3.20.6.1064
+    * Sophisticated Core v0.6.25.632
+    * Spice of Life Onion v1.2.8
+    * Point Blank v1.6.7
+    * Vintage Delight v0.1.1
 
 ## V 0.3.1
 

@@ -157,7 +157,8 @@ ServerEvents.recipes(event => {
     event.recipes.vintageimprovements.vacuumizing('3x gtceu:raw_rubber_dust', 'gtceu:sticky_resin').processingTime(500).heated()
     event.recipes.vintageimprovements.vacuumizing('2x gtceu:raw_rubber_dust', 'minecraft:slime_ball').processingTime(500).heated()
 //Pressurizing
-    event.recipes.vintageimprovements.pressurizing(Item.of('gtceu:compressed_fireclay'), 'gtceu:fireclay_dust').heated()
+    event.recipes.vintageimprovements.pressurizing('gtceu:compressed_fireclay', 'gtceu:fireclay_dust').heated()
+    event.recipes.vintageimprovements.pressurizing('minecraft:clay', ['minecraft:clay_ball', 'minecraft:clay_ball', 'minecraft:clay_ball', 'minecraft:clay_ball']).heated()
 //Centrifuge
     event.custom({
         type: 'vintageimprovements:centrifugation',

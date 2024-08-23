@@ -45,7 +45,10 @@ pipScopeColorBalanceGreen = 105
 pipScopeColorBalanceBlue = 110
 #Enables bullets breaking glass
 bulletsBreakGlassEnabled = true
-#Modifier to adjust damage dealt by hitscan weapons
+#Modifier to adjust damage dealt by hitscan weapons.
 #Range: 0.1 ~ 10.0
 hitscanDamageModifier = 1.0
+#Sets the crosshair type.
+#Allowed Values: DEFAULT, VANILLA, DISABLED
+crosshair = "DEFAULT"
 

@@ -196,15 +196,8 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
 
     event.create('experience')
         .ingot()
-        .fluid()
         .color(0x3ED900)
         .element('experience')
-        .iconSet(EXPERIENCE)
-
-    event.create('hyper_experience')
-        .fluid()
-        .color(0x3E65FF)
-        .element('hyper_experience')
         .iconSet(EXPERIENCE)
 
     event.create('cognitive_amalgam')

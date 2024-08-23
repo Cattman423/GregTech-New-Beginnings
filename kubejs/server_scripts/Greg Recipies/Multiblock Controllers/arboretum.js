@@ -18,7 +18,7 @@ ServerEvents.recipes(event => {
         if (boosted) {
             event.recipes.gtceu.logging(id)
                 .notConsumable(input)
-                .inputFluids('minecraft:water 1000')
+                .inputFluids('gtceu:distilled_water 1000')
                 .inputFluids('sliceanddice:fertilizer 1000')
                 .itemOutputsRanged(output, 9, 720)
                 .itemOutputsRanged(outleaf, 9, 288)
@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
         } else {
             event.recipes.gtceu.logging(id)
                 .notConsumable(input)
-                .inputFluids('minecraft:water 1000')
+                .inputFluids('gtceu:distilled_water 1000')
                 .itemOutputsRanged(output, 6, 480)
                 .itemOutputsRanged(outleaf, 6, 192)
                 .itemOutputsRanged('minecraft:stick', 6, 192)
@@ -41,7 +41,7 @@ ServerEvents.recipes(event => {
         if (boosted) {
             event.recipes.gtceu.logging(id)
                 .notConsumable(input)
-                .inputFluids('minecraft:water 1000')
+                .inputFluids('gtceu:distilled_water 1000')
                 .inputFluids('sliceanddice:fertilizer 1000')
                 .itemOutputsRanged(output, 9, 720)
                 .itemOutputsRanged(outleaf, 9, 288)
@@ -52,7 +52,7 @@ ServerEvents.recipes(event => {
         } else {
             event.recipes.gtceu.logging(id)
                 .notConsumable(input)
-                .inputFluids('minecraft:water 1000')
+                .inputFluids('gtceu:distilled_water 1000')
                 .itemOutputsRanged(output, 6, 480)
                 .itemOutputsRanged(outleaf, 6, 192)
                 .itemOutputsRanged('minecraft:stick', 6, 192)
@@ -130,7 +130,7 @@ ServerEvents.recipes(event => {
         if (boosted) {
             event.recipes.gtceu.orchard(id)
                 .notConsumable(input)
-                .inputFluids('minecraft:water 1000')
+                .inputFluids('gtceu:distilled_water 1000')
                 .inputFluids('sliceanddice:fertilizer 1000')
                 .itemOutputsRanged(fruit, 9, 720)
                 .itemOutputsRanged('gtceu:plant_ball', 0, 54)
@@ -140,7 +140,7 @@ ServerEvents.recipes(event => {
         } else {
             event.recipes.gtceu.orchard(id)
                 .notConsumable(input)
-                .inputFluids('minecraft:water 1000')
+                .inputFluids('gtceu:distilled_water 1000')
                 .itemOutputsRanged(fruit, 6, 480)
                 .itemOutputsRanged('gtceu:plant_ball', 0, 36)
                 .itemOutputsRanged('minecraft:stick', 0, 24)
@@ -161,6 +161,7 @@ ServerEvents.recipes(event => {
         'pistachio', 'plantain', 'plum', 'pomegranate', 'pomelo', 'prairie_crabapple', 'red_banana', 'rowan', 
         'sand_pear', 'satsuma', 'soursop', 'sour_cherry', 'star_anise', 'star_fruit', 'sweet_crabapple', 'tangerine', 
         'walnut', 'wild_cherry']
+    const fruitsdel = ['pear', 'hawberry', 'lychee', 'mango', 'persimmon', 'peach', 'orange', 'mangosteen', 'bayberry', 'kiwi', 'fig', 'durian']
 
     pamtrees.forEach( (base) => {
         let id = 'kubejs:gtceu/orchard/pam_' + base
@@ -225,6 +226,17 @@ ServerEvents.recipes(event => {
     orchard('kubejs:gtceu/orchard/prod_blue_yonder_boosted', '64x productivetrees:blue_yonder_sapling', 'productivetrees:planet_peach', true)
     orchard('kubejs:gtceu/orchard/prod_date_palm', '64x productivetrees:date_palm_sapling', 'productivetrees:date', false)
     orchard('kubejs:gtceu/orchard/prod_date_palm_boosted', '64x productivetrees:date_palm_sapling', 'productivetrees:date', true)
+
+    fruitsdel.forEach( (base) => {
+        let id = 'kubejs:gtceu/orchard/fruit_' + base
+        let input = '64x ' + 'fruitsdelight:' + base + '_sapling'
+        let output = 'fruitsdelight:' + base
+
+        orchard(id, input, output, false)
+        orchard(id + '_boosted', input, output, true)
+    })
+    orchard('kubejs:gtceu/orchard/fruit_apple', '64x fruitsdelight:apple_sapling', 'minecraft:apple', false)
+    orchard('kubejs:gtceu/orchard/fruit_apple_boosted', '64x fruitsdelight:apple_sapling', 'minecraft:apple', true)
 
     /*
     orchard('kubejs:gtceu/orchard/', '64x _sapling', '', false)
