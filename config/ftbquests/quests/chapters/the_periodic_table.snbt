@@ -1623,6 +1623,42 @@
 			x: 7.5d
 			y: 6.0d
 		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "4AE86464A5780B94"
+			optional: true
+			tasks: [{
+				id: "174322AA14008765"
+				item: "gtceu:experience_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "65E5EC99DEF10D8F"
+			optional: true
+			tasks: [{
+				id: "737E761B6174D05F"
+				item: "gtceu:hyper_experience_bucket"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "358B641A60E4C417"
+			optional: true
+			tasks: [{
+				id: "5166605995BA403A"
+				item: "gtceu:cognitive_amalgam_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
 	]
 	title: "The Periodic Table"
 }

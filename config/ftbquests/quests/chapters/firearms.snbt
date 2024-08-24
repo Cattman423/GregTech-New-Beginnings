@@ -45,7 +45,7 @@
 				title: "Handguns"
 				type: "checkmark"
 			}]
-			x: -7.0d
+			x: -8.0d
 			y: 2.0d
 		}
 		{
@@ -56,7 +56,7 @@
 				title: "Rifles"
 				type: "checkmark"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: 2.0d
 		}
 		{
@@ -67,7 +67,7 @@
 				title: "Shotguns"
 				type: "checkmark"
 			}]
-			x: 4.5d
+			x: 3.5d
 			y: 2.0d
 		}
 		{
@@ -82,7 +82,7 @@
 				item: "pointblank:ammo9mm"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -7.5d
 			y: 3.0d
 		}
 		{
@@ -97,7 +97,7 @@
 				item: "pointblank:ammo45acp"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -6.5d
 			y: 3.0d
 		}
 		{
@@ -109,7 +109,7 @@
 				item: "pointblank:ammo57"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.5d
 			y: 3.0d
 		}
 		{
@@ -121,7 +121,7 @@
 				item: "pointblank:ammo357"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -9.5d
 			y: 3.0d
 		}
 		{
@@ -132,7 +132,7 @@
 				title: "PDW's"
 				type: "checkmark"
 			}]
-			x: -4.0d
+			x: -5.0d
 			y: 2.0d
 		}
 		{
@@ -144,7 +144,7 @@
 				item: "pointblank:ammo50ae"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -8.5d
 			y: 3.0d
 		}
 		{
@@ -156,7 +156,7 @@
 				item: "pointblank:ammo46"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.5d
 			y: 3.0d
 		}
 		{
@@ -168,7 +168,7 @@
 				item: "pointblank:ammo545"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.5d
 			y: 3.0d
 		}
 		{
@@ -180,7 +180,7 @@
 				item: "pointblank:ammo556"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.5d
 			y: 3.0d
 		}
 		{
@@ -192,7 +192,7 @@
 				item: "pointblank:ammo68"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: 3.0d
 		}
 		{
@@ -204,7 +204,7 @@
 				item: "pointblank:ammo762"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: 3.0d
 		}
 		{
@@ -216,7 +216,7 @@
 				item: "pointblank:ammo762x51"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.5d
 			y: 3.0d
 		}
 		{
@@ -228,7 +228,7 @@
 				item: "pointblank:ammo338lapua"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: 3.0d
 		}
 		{
@@ -240,7 +240,7 @@
 				item: "pointblank:ammo50bmg"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 2.5d
 			y: 3.0d
 		}
 		{
@@ -252,7 +252,7 @@
 				item: "pointblank:ammo12gauge"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.5d
 			y: 3.0d
 		}
 		{
@@ -292,7 +292,7 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
+			x: -9.5d
 			y: 3.75d
 		}
 		{
@@ -332,7 +332,7 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
+			x: -8.5d
 			y: 3.75d
 		}
 		{
@@ -372,7 +372,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.75d
+			x: -7.75d
 			y: 3.75d
 		}
 		{
@@ -412,7 +412,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.75d
+			x: -7.75d
 			y: 4.25d
 		}
 		{
@@ -452,7 +452,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.75d
+			x: -7.75d
 			y: 4.75d
 		}
 		{
@@ -496,7 +496,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.75d
+			x: -7.75d
 			y: 5.25d
 		}
 		{
@@ -536,7 +536,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.25d
+			x: -7.25d
 			y: 3.75d
 		}
 		{
@@ -576,7 +576,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.25d
+			x: -7.25d
 			y: 4.25d
 		}
 		{
@@ -616,7 +616,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.25d
+			x: -7.25d
 			y: 4.75d
 		}
 		{
@@ -656,7 +656,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.25d
+			x: -7.25d
 			y: 5.25d
 		}
 		{
@@ -703,7 +703,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.75d
+			x: -6.75d
 			y: 3.75d
 		}
 		{
@@ -743,7 +743,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.75d
+			x: -6.75d
 			y: 4.25d
 		}
 		{
@@ -787,7 +787,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.75d
+			x: -6.75d
 			y: 4.75d
 		}
 		{
@@ -841,7 +841,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.25d
+			x: -6.25d
 			y: 3.75d
 		}
 		{
@@ -891,7 +891,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.25d
+			x: -6.25d
 			y: 4.25d
 		}
 		{
@@ -935,7 +935,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.5d
 			y: 3.75d
 		}
 		{
@@ -975,7 +975,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.5d
 			y: 3.75d
 		}
 		{
@@ -1015,7 +1015,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.5d
 			y: 3.75d
 		}
 		{
@@ -1059,7 +1059,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.5d
 			y: 4.25d
 		}
 		{
@@ -1099,7 +1099,7 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.5d
 			y: 4.75d
 		}
 		{
@@ -1139,7 +1139,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.75d
+			x: -2.75d
 			y: 3.75d
 		}
 		{
@@ -1189,7 +1189,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.25d
+			x: -2.25d
 			y: 3.75d
 		}
 		{
@@ -1239,7 +1239,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.75d
+			x: -2.75d
 			y: 4.25d
 		}
 		{
@@ -1283,7 +1283,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.25d
+			x: -2.25d
 			y: 4.25d
 		}
 		{
@@ -1337,7 +1337,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.25d
+			x: -2.25d
 			y: 4.75d
 		}
 		{
@@ -1377,7 +1377,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.75d
+			x: -2.75d
 			y: 4.75d
 		}
 		{
@@ -1427,7 +1427,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.75d
+			x: -2.75d
 			y: 5.25d
 		}
 		{
@@ -1467,7 +1467,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.25d
+			x: -2.25d
 			y: 5.25d
 		}
 		{
@@ -1521,7 +1521,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.75d
+			x: -2.75d
 			y: 5.75d
 		}
 		{
@@ -1561,7 +1561,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.25d
+			x: -2.25d
 			y: 5.75d
 		}
 		{
@@ -1601,7 +1601,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.75d
+			x: -2.75d
 			y: 6.25d
 		}
 		{
@@ -1641,7 +1641,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.25d
+			x: -2.25d
 			y: 6.25d
 		}
 		{
@@ -1685,7 +1685,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.75d
+			x: -2.75d
 			y: 6.75d
 		}
 		{
@@ -1725,7 +1725,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.25d
+			x: -2.25d
 			y: 6.75d
 		}
 		{
@@ -1765,7 +1765,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.75d
+			x: -2.75d
 			y: 7.25d
 		}
 		{
@@ -1815,7 +1815,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.25d
+			x: -2.25d
 			y: 7.25d
 		}
 		{
@@ -1865,7 +1865,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: 3.75d
 		}
 		{
@@ -1905,7 +1905,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: 3.75d
 		}
 		{
@@ -1949,7 +1949,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.25d
+			x: 0.25d
 			y: 3.75d
 		}
 		{
@@ -1993,7 +1993,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.75d
+			x: 0.75d
 			y: 3.75d
 		}
 		{
@@ -2033,7 +2033,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.25d
+			x: 0.25d
 			y: 4.25d
 		}
 		{
@@ -2077,7 +2077,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.75d
+			x: 0.75d
 			y: 4.25d
 		}
 		{
@@ -2117,7 +2117,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.25d
+			x: 0.25d
 			y: 4.75d
 		}
 		{
@@ -2167,7 +2167,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: 3.75d
 		}
 		{
@@ -2211,7 +2211,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: 4.25d
 		}
 		{
@@ -2255,7 +2255,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: 4.75d
 		}
 		{
@@ -2299,7 +2299,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
+			x: 2.5d
 			y: 3.75d
 		}
 		{
@@ -2349,7 +2349,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.25d
+			x: 3.25d
 			y: 3.75d
 		}
 		{
@@ -2389,7 +2389,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.75d
+			x: 3.75d
 			y: 3.75d
 		}
 		{
@@ -2429,7 +2429,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.25d
+			x: 3.25d
 			y: 4.25d
 		}
 		{
@@ -2469,7 +2469,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.75d
+			x: 3.75d
 			y: 4.25d
 		}
 		{
@@ -2513,7 +2513,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.25d
+			x: 3.25d
 			y: 4.75d
 		}
 		{
@@ -2553,7 +2553,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.75d
+			x: 3.75d
 			y: 4.75d
 		}
 		{
@@ -2597,7 +2597,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.25d
+			x: 3.25d
 			y: 5.25d
 		}
 		{
@@ -3196,7 +3196,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
+			x: 1.25d
 			y: -2.75d
 		}
 		{
@@ -3213,8 +3213,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -3.25d
+			x: 0.75d
+			y: -2.75d
 		}
 		{
 			dependencies: ["62ECDC3D6D49EF08"]
@@ -3230,8 +3230,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -3.75d
+			x: 0.75d
+			y: -3.25d
 		}
 		{
 			dependencies: ["62ECDC3D6D49EF08"]
@@ -3247,8 +3247,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -4.25d
+			x: 0.75d
+			y: -3.75d
 		}
 		{
 			dependencies: ["62ECDC3D6D49EF08"]
@@ -3264,8 +3264,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -4.75d
+			x: 0.75d
+			y: -4.25d
 		}
 		{
 			dependencies: ["62ECDC3D6D49EF08"]
@@ -3281,8 +3281,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -5.25d
+			x: 0.75d
+			y: -4.75d
 		}
 		{
 			dependencies: ["62ECDC3D6D49EF08"]
@@ -3298,8 +3298,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -5.75d
+			x: 0.75d
+			y: -5.25d
 		}
 		{
 			dependencies: ["62ECDC3D6D49EF08"]
@@ -3315,8 +3315,8 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -6.25d
+			x: 1.25d
+			y: -3.25d
 		}
 		{
 			dependencies: ["62ECDC3D6D49EF08"]
@@ -3332,13 +3332,19 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -6.75d
+			x: 1.25d
+			y: -4.25d
 		}
 		{
 			dependencies: ["5E2F6099C05AAE4D"]
 			id: "7B781182ED61F588"
 			optional: true
+			rewards: [{
+				count: 2
+				id: "470E0116FDD2208E"
+				item: "pointblank:grenade40mm"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "30C4236A5092C604"
@@ -3349,13 +3355,19 @@
 				}
 				type: "item"
 			}]
-			x: 8.75d
+			x: 7.75d
 			y: 4.25d
 		}
 		{
 			dependencies: ["5E2F6099C05AAE4D"]
 			id: "4AF36ABE34817D1D"
 			optional: true
+			rewards: [{
+				count: 2
+				id: "2559FF5F7E8E82B0"
+				item: "pointblank:grenade40mm"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "6DB62B9385A5C8CF"
@@ -3366,7 +3378,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.75d
+			x: 7.75d
 			y: 3.75d
 		}
 		{
@@ -3378,7 +3390,7 @@
 				item: "pointblank:grenade40mm"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 7.5d
 			y: 3.0d
 		}
 		{
@@ -3389,7 +3401,7 @@
 				title: "Grenade Launchers"
 				type: "checkmark"
 			}]
-			x: 8.5d
+			x: 8.0d
 			y: 2.0d
 		}
 		{
@@ -3400,7 +3412,7 @@
 				title: "Rocket Launchers"
 				type: "checkmark"
 			}]
-			x: 6.5d
+			x: 5.5d
 			y: 2.0d
 		}
 		{
@@ -3412,7 +3424,7 @@
 				item: "pointblank:smaw_rocket"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: 3.0d
 		}
 		{
@@ -3424,7 +3436,7 @@
 				item: "pointblank:at4_rocket"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 5.5d
 			y: 3.0d
 		}
 		{
@@ -3436,13 +3448,19 @@
 				item: "pointblank:javelin_rocket"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 6.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5E2F6099C05AAE4D"]
 			id: "1DF2607B99112961"
 			optional: true
+			rewards: [{
+				count: 2
+				id: "1935B63FF4FE2FBF"
+				item: "pointblank:grenade40mm"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "79C2D07A963909B0"
@@ -3467,13 +3485,18 @@
 				}
 				type: "item"
 			}]
-			x: 8.25d
+			x: 7.25d
 			y: 3.75d
 		}
 		{
 			dependencies: ["14634C81CB56C5E3"]
 			id: "33261042BAC0DBD6"
 			optional: true
+			rewards: [{
+				id: "57D857A44D625BAD"
+				item: "pointblank:smaw_rocket"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "0273A74E66D50637"
@@ -3498,13 +3521,18 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: 3.75d
 		}
 		{
 			dependencies: ["6A2C66C0B4BC47CB"]
 			id: "218269FE5D4CDBE8"
 			optional: true
+			rewards: [{
+				id: "7477272DF9FF3AB1"
+				item: "pointblank:at4_rocket"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "70D5652256FD99F9"
@@ -3529,13 +3557,18 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
+			x: 5.5d
 			y: 3.75d
 		}
 		{
 			dependencies: ["4899EEED41FFA23C"]
 			id: "6D9F68E552048EBD"
 			optional: true
+			rewards: [{
+				id: "61DB8593A4515D9A"
+				item: "pointblank:javelin_rocket"
+				type: "item"
+			}]
 			size: 0.5d
 			tasks: [{
 				id: "7379DEC804E02052"
@@ -3560,7 +3593,7 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
+			x: 6.5d
 			y: 3.75d
 		}
 		{
@@ -3597,7 +3630,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.75d
+			x: -2.75d
 			y: 7.75d
 		}
 		{
@@ -3634,7 +3667,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.75d
+			x: 3.75d
 			y: 5.25d
 		}
 		{
@@ -3671,7 +3704,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.25d
+			x: 3.25d
 			y: 5.75d
 		}
 		{
@@ -3708,7 +3741,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
+			x: 2.5d
 			y: 4.25d
 		}
 		{
@@ -3745,7 +3778,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.75d
+			x: 3.75d
 			y: 5.75d
 		}
 		{
@@ -4426,6 +4459,221 @@
 			]
 			x: -4.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["144BBEAC496F8CFA"]
+			id: "0EBA6609AC756214"
+			rewards: [{
+				count: 10
+				id: "62DE703808E17367"
+				item: "pointblank:ammo556"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "7FCF7C9A38C624FD"
+				item: {
+					Count: 1
+					id: "pointblank:ar57"
+					tag: {
+						GeckoLibID: 173L
+						aim: 0b
+						ammo: 38
+						ammox: { }
+						as: [
+							{
+								id: "pointblank:smg_suppressor"
+								rmv: 1b
+							}
+							{
+								id: "pointblank:heragrip"
+								rmv: 1b
+							}
+						]
+						fmid: [I;
+							2038292457
+							-65455762
+							-1982464849
+							1228010285
+						]
+						lid: -7661394619305392258L
+						mid: 2464629032025935181L
+						sa: {
+							scope: "/"
+						}
+						seed: -432957563834200768L
+					}
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: 7.75d
+		}
+		{
+			dependencies: ["497E636A9BF49089"]
+			id: "4C2E92AD278CA521"
+			rewards: [{
+				count: 10
+				id: "41F71A5DAAA395A8"
+				item: "pointblank:ammo762x51"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "1D0B2F3E09CC5D66"
+				item: {
+					Count: 1
+					id: "pointblank:g3"
+					tag: {
+						GeckoLibID: 175L
+						aim: 0b
+						ammo: 3
+						ammox: { }
+						fmid: [I;
+							-1726390479
+							1231106503
+							-1470325051
+							-1774420646
+						]
+						lid: -8731775724114552129L
+						mid: 834516052585172479L
+						sa: {
+							scope: "/"
+						}
+						seed: 5595642198451382987L
+					}
+				}
+				type: "item"
+			}]
+			x: 0.75d
+			y: 4.75d
+		}
+		{
+			dependencies: ["62ECDC3D6D49EF08"]
+			id: "314024186C0E94F9"
+			size: 0.5d
+			tasks: [{
+				id: "301FE0E11C46EF6C"
+				item: "pointblank:heragrip"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -5.75d
+		}
+		{
+			dependencies: ["3B53B598B6D6EDC0"]
+			id: "576984F6860FF205"
+			tasks: [{
+				id: "1DFC5DF1BCB1BC8D"
+				title: "Laser Weaponry"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["576984F6860FF205"]
+			id: "225E0EE00FFCB1FC"
+			tasks: [{
+				id: "5F1877C2C27B9A0E"
+				item: "pointblank:ammolasercharge"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7925AA8017D2BF01"]
+			id: "5724F41B93048243"
+			tasks: [{
+				id: "3F4C99299A95E6CA"
+				item: "pointblank:grenade20mm"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["225E0EE00FFCB1FC"]
+			id: "36AB3419B6572AF6"
+			rewards: [{
+				count: 10
+				id: "51139185913ED674"
+				item: "pointblank:ammolasercharge"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "72DC693DF408FCF5"
+				item: {
+					Count: 1
+					id: "pointblank:ulg99cannon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["62ECDC3D6D49EF08"]
+			id: "5FE64C0DD6587DA7"
+			size: 0.5d
+			tasks: [{
+				id: "3D50EBC203DABECD"
+				item: {
+					Count: 1
+					id: "pointblank:glockstock"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["5E2F6099C05AAE4D"]
+			id: "05BC5C701DB59BD4"
+			rewards: [{
+				count: 2
+				id: "3CD7F8424BD21097"
+				item: "pointblank:grenade40mm"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "00703E9DF2A14841"
+				item: {
+					Count: 1
+					id: "pointblank:fn40"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.25d
+			y: 4.25d
+		}
+		{
+			dependencies: ["5035C594E6BAE83F"]
+			id: "19A5EE2F60D48C05"
+			rewards: [{
+				count: 10
+				id: "6BF5588A05B9089D"
+				item: "pointblank:ammo12gauge"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "1A83CEA2A560F802"
+				item: {
+					Count: 1
+					id: "pointblank:m870modshotgun"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.25d
+			y: 6.25d
 		}
 	]
 	title: "Armory [WIP]"

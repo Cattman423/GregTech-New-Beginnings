@@ -27,7 +27,8 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     const RADIOACTIVE = GTMaterialIconSet.RADIOACTIVE;
     const INFINITY = GTMaterialIconSet.getByName('infinity');
     const STELLAR_MATTER = GTMaterialIconSet.getByName('stellar_matter');
-    const SUB_ATOMIC = GTMaterialIconSet.getByName('sub_atomic')
+    const SUB_ATOMIC = GTMaterialIconSet.getByName('sub_atomic');
+    const EXPERIENCE = GTMaterialIconSet.getByName('experience')
 
 // Flags
 // Generic flags
@@ -318,11 +319,34 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
 
     event.create('al_6xn')
         .ingot(3)
+        .fluid()
         .color(0x2c9124)
         .iconSet(METALLIC)
         .components('4x nickel', '3x chromium', 'molybdenum')
-        .blastTemp(3000, 'mid', 7680, 6000)
+        .blastTemp(3000, 'mid', 1920, 6000)
         .flags(rod, plates, frame)
+
+    event.create('cognitive_flux')
+        .dust()
+        .color(0x3B466A)
+        .iconSet(EXPERIENCE)
+        .components('nether_quartz', 'lapis', 'quartz_sand')
+        .flags(no_decomp)
+
+    event.create('cognitive_alloy')
+        .ingot()
+        .color(0x3B466A).secondaryColor(0x202430)
+        .iconSet(EXPERIENCE)
+        .components('4x copper', 'cognitive_amalgam')
+        .blastTemp(1200, 'low', 120, 2400)
+        .flags(no_decomp, plates)
+
+    event.create('cognitive_crystal')
+        .gem()
+        .color(0x44EE46)
+        .iconSet(EXPERIENCE)
+        .components('emerald', '4x cognitive_amalgam')
+        .flags(no_decomp, lens)
 
 //Regoliths
     event.create('moon_stone')

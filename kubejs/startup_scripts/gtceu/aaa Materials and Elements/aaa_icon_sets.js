@@ -5,4 +5,6 @@ GTCEuStartupEvents.registry('gtceu:material_icon_set', event => {
         .parent('dull')
     event.create('sub_atomic')
         .parent('metallic')
+    event.create('experience')
+        .parent('shiny')
 })

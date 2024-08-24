@@ -48,34 +48,48 @@ ServerEvents.tags('item', event => {
     event.add('forge:lenses/red', 'gtceu:realgar_lens')
     event.add('forge:lenses/red', 'gtceu:red_garnet_lens')
     event.add('forge:lenses/red', 'gtceu:rose_quartz_lens')
+
     event.add('forge:lenses/yellow', 'gtceu:andradite_lens')
     event.add('forge:lenses/yellow', 'gtceu:topaz_lens')
     event.add('forge:lenses/yellow', 'gtceu:yellow_garnet_lens')
     event.add('forge:lenses/yellow', 'gtceu:monazite_lens')
     event.add('forge:lenses/yellow', 'gtceu:prasiolite_lens')
+
     event.add('forge:lenses/light_blue', 'gtceu:blue_topaz_lens')
     event.add('forge:lenses/light_blue', 'gtceu:certus_quartz_lens')
     event.add('forge:lenses/light_blue', 'gtceu:enriched_certus_lens')
     event.add('forge:lenses/light_blue', 'gtceu:cubic_zirconium_lens')
+
     event.add('forge:lenses/black', 'gtceu:coal_lens')
+
     event.add('forge:lenses/lime', 'gtceu:green_sapphire_lens')
     event.add('forge:lenses/lime', 'gtceu:malachite_lens')
     event.add('forge:lenses/lime', 'gtceu:olivine_lens')
+
     event.add('forge:lenses/orange', 'gtceu:grossular_lens')
     event.add('forge:lenses/orange', 'gtceu:spessartine_lens')
+
     event.add('forge:lenses/blue', 'gtceu:lazurite_lens')
     event.add('forge:lenses/blue', 'gtceu:sodalite_lens')
     event.add('forge:lenses/blue', 'gtceu:lapis_lens')
+
     event.add('forge:lenses/white', 'gtceu:rock_salt_lens')
     event.add('forge:lenses/white', 'gtceu:salt_lens')
     event.add('forge:lenses/white', 'gtceu:nether_quartz_lens')
     event.add('forge:lenses/white', 'gtceu:quartzite_lens')
+
     event.add('forge:lenses/grey', 'gtceu:coke_lens')
+
     event.add('forge:lenses/brown', 'gtceu:lignite_lens')
+
     event.add('forge:lenses/green', 'gtceu:uvarovite_lens')
+    event.add('forge:lenses/green', 'gtceu:cognitive_crystal_lens')
+
     event.add('forge:lenses/pink', 'gtceu:opal_lens')
     event.add('forge:lenses/pink', 'gtceu:magneto_resonatic_lens')
+
     event.add('forge:lenses/purple', 'gtceu:amethyst_lens')
+
     event.add('forge:lenses/cyan', 'gtceu:apatite_lens')
     event.add('forge:lenses/cyan', 'gtceu:lunite_lens')
 //Glass
@@ -150,6 +164,35 @@ ServerEvents.tags('block', event => {
 
     event.add('ad_astra:moon_stone_replaceables', 'minecraft:soul_soil')
     event.add('minecraft:nether_carver_replaceables', 'minecraft:soul_soil')
+//Block speed
+    const concrete = ['gtceu:light_concrete', 'gtceu:light_concrete_cobblestone', 'gtceu:mossy_light_concrete_cobblestone', 'gtceu:polished_light_concrete', 
+        'gtceu:light_concrete_bricks', 'gtceu:cracked_light_concrete_bricks', 'gtceu:mossy_light_concrete_bricks', 'gtceu:chiseled_light_concrete', 'gtceu:light_concrete_tile', 
+        'gtceu:light_concrete_small_tile', 'gtceu:light_concrete_windmill_a', 'gtceu:light_concrete_windmill_b', 'gtceu:small_light_concrete_bricks', 
+        'gtceu:square_light_concrete_bricks', 'gtceu:dark_concrete', 'gtceu:dark_concrete_cobblestone', 'gtceu:mossy_dark_concrete_cobblestone', 'gtceu:polished_dark_concrete', 
+        'gtceu:dark_concrete_bricks', 'gtceu:cracked_dark_concrete_bricks', 'gtceu:mossy_dark_concrete_bricks', 'gtceu:chiseled_dark_concrete', 'gtceu:dark_concrete_tile', 
+        'gtceu:dark_concrete_small_tile', 'gtceu:dark_concrete_windmill_a', 'gtceu:dark_concrete_windmill_b', 'gtceu:small_dark_concrete_bricks', 'gtceu:square_dark_concrete_bricks', 
+        /*'', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''*/]
+    concrete.forEach(stone => {
+        event.add('forge:concrete', stone)
+    })
+    event.add('forge:concrete', '#chipped:white_concrete')
+    event.add('forge:concrete', '#chipped:light_concrete')
+    event.add('forge:concrete', '#chipped:gray_concrete')
+    event.add('forge:concrete', '#chipped:black_concrete')
+    event.add('forge:concrete', '#chipped:brown_concrete')
+    event.add('forge:concrete', '#chipped:red_concrete')
+    event.add('forge:concrete', '#chipped:orange_concrete')
+    event.add('forge:concrete', '#chipped:yellow_concrete')
+    event.add('forge:concrete', '#chipped:lime_concrete')
+    event.add('forge:concrete', '#chipped:green_concrete')
+    event.add('forge:concrete', '#chipped:cyan_concrete')
+    event.add('forge:concrete', '#chipped:light_blue_concrete')
+    event.add('forge:concrete', '#chipped:blue_concrete')
+    event.add('forge:concrete', '#chipped:purple_concrete')
+    event.add('forge:concrete', '#chipped:magenta_concrete')
+    event.add('forge:concrete', '#chipped:pink_concrete')
+
+    event.add('blockrunner:very_quick_blocks', '#forge:concrete')
 })
 
 ServerEvents.tags('fluid', event => {
