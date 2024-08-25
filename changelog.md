@@ -3,7 +3,7 @@
 ## V 0.3.3
 
 * Recipes
-  * Fixed Andesite alloy rods not being craftable on the Vintage Improvemt Lathe
+  * Fixed Andesite alloy rods not being craftable on the Vintage Improvement Lathe
   * Added recipes to turn bolts into screws on the Vintage Improvement Lathe
   * Added recipes to turn '#minecraft:planks' into wood planks in both the GT Cutter, and Create Saw
   * Added recipes to turn GT treated wood planks into treated wood wood planks in both the GT Cutter, and Create Saw
