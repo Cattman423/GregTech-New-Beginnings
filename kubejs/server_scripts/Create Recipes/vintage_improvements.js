@@ -124,7 +124,14 @@ ServerEvents.recipes(event => {
     event.recipes.vintageimprovements.turning(Item.of('gtceu:copper_rod'), 'minecraft:copper_ingot').processingTime(300)
     event.recipes.vintageimprovements.turning(Item.of('gtceu:gold_rod'), 'minecraft:gold_ingot').processingTime(300)
     event.recipes.vintageimprovements.turning(Item.of('gtceu:netherite_alloy_rod'), 'minecraft:netherite_ingot').processingTime(300)
+    event.recipes.vintageimprovements.turning(Item.of('gtceu:andesite_alloy_rod'), 'create:andesite_alloy').processingTime(300)
     event.recipes.vintageimprovements.turning(Item.of('gtceu:wohler_aluminium_rod'), 'tfmg:aluminum_ingot').processingTime(300)
+
+    const screws = Ingredient.of('#forge:screws').itemIds
+    screws.forEach( (itemIds) => {
+        event.recipes.vintageimprovements.turning(Item.of(itemIds), itemIds.slice(0, -6) + '_bolt').processingTime(300)
+    })
+
     event.recipes.vintageimprovements.turning(Item.of('gtceu:glass_tube'), '#forge:glass/colorless').processingTime(300)
     /*
     event.custom({

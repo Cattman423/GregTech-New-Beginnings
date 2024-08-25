@@ -208,5 +208,7 @@
     "tetra.material.gt_rubber_wood": "Rubber Wood",
     "tetra.material.gt_rubber_wood.prefix": "Rubber Wood",
     "tetra.material.gt_treated_wood": "Treated Wood",
-    "tetra.material.gt_treated_wood.prefix": "Treated Wood"
+    "tetra.material.gt_treated_wood.prefix": "Treated Wood",
+
+    "item.pamhc2trees.maplesyrupitem": "Maple Syrup"
 }
