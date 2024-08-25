@@ -57,16 +57,14 @@ ServerEvents.recipes(event => {
 //Greg wood plank
     event.shaped(
         Item.of('gtceu:wood_plate', 2),
-        [
-            ' A ',
-            ' A ',
-            ' B '
-        ],
-        {
-            A: '#minecraft:planks',
-            B: '#forge:tools/saws'
-        }
-       )
+        [' A ', ' A ', ' B '],
+        {A: '#minecraft:planks', B: '#forge:tools/saws'}
+    )
+    event.shaped(
+        Item.of('gtceu:treated_wood_plate', 2),
+        [' A ', ' A ', ' B '],
+        {A: 'gtceu:treated_wood_planks', B: '#forge:tools/saws'}
+    )
 //Goggles
     event.shaped(
         Item.of('create:goggles'),

@@ -385,6 +385,19 @@ ServerEvents.recipes(event => {
     sawcraft('4x ad_astra:strophar_planks', '#ad_astra:strophar_caps')
     sawcraft('4x ad_astra:glacian_planks', '#ad_astra:glacian_logs')
 
+    cutter('water_plank', '#minecraft:planks', 'minecraft:water 5', '2x gtceu:wood_plate', 'minecraft:air', 400)
+    cutter('dist_water_plank', '#minecraft:planks', 'gtceu:distilled_water 3', '2x gtceu:wood_plate', 'minecraft:air', 300)
+    cutter('lube_plank', '#minecraft:planks', 'gtceu:lubricant 1', '2x gtceu:wood_plate', 'minecraft:air', 200)
+    cutter('water_treated_plank', 'gtceu:treated_wood_planks', 'minecraft:water 5', '2x gtceu:treated_wood_plate', 'minecraft:air', 400)
+    cutter('dist_water_treated_plank', 'gtceu:treated_wood_planks', 'gtceu:distilled_water 3', '2x gtceu:treated_wood_plate', 'minecraft:air', 300)
+    cutter('lube_treated_plank', 'gtceu:treated_wood_planks', 'gtceu:lubricant 1', '2x gtceu:treated_wood_plate', 'minecraft:air', 200)
+
+    /*
+    cutter('water_', '', 'minecraft:water 5', '', '2x gtceu:wood_dust', 400)
+    cutter('dist_water_', '', 'gtceu:distilled_water 3', '', '2x gtceu:wood_dust', 300)
+    cutter('lube_', '', 'gtceu:lubricant 1', '', 'gtceu:wood_dust', 200)
+    */
+
 //Removals
     function removals(output){
         event.remove({id: output})

@@ -138,6 +138,8 @@ ServerEvents.tags('item', event => {
     event.add('forge:bakelite', 'gtceu:bakelite_gear')
 //Curving Press
     event.add('vintageimprovements:curving_heads', 'gtceu:brick_wooden_form')
+//Misc
+    event.remove('minecraft:planks', 'gtceu:treated_wood_planks')
 })
 
 ServerEvents.tags('block', event => {

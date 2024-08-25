@@ -1,5 +1,22 @@
 # Changelog
 
+## V 0.3.3
+
+* Recipes
+  * Fixed Andesite alloy rods not being craftable on the Vintage Improvement Lathe
+  * Added recipes to turn bolts into screws on the Vintage Improvement Lathe
+  * Added recipes to turn '#minecraft:planks' into wood planks in both the GT Cutter, and Create Saw
+  * Added recipes to turn GT treated wood planks into treated wood wood planks in both the GT Cutter, and Create Saw
+* Tags
+  * Removed the '#minecraft:planks' tag from GT treated wood planks
+* Lang
+  * Fixed missing item name for Pam's Maple Syrup
+* Mods
+  * Mod Updates
+    * ModernFix v5.19.3
+  * Mod Dowgrades
+    * Dawn of Time Builder Edition v1.5.7
+
 ## V 0.3.2
 
 * Quests
