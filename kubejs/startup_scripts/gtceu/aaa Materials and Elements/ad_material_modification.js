@@ -53,6 +53,15 @@ GTCEuStartupEvents.materialModification(/*'gtceu:material',*/ event => {
     ingot('experience', 'create:experience_nugget')
     ingot('cognitive_amalgam', 'experienceobelisk:cognitive_amalgam')
     ingot('cognitive_alloy', 'experienceobelisk:cognitive_alloy')
+    ingot('copper_alloy', 'enderio:copper_alloy_ingot')
+    ingot('energetic_alloy', 'enderio:energetic_alloy_ingot')
+    ingot('vibrant_alloy', 'enderio:vibrant_alloy_ingot')
+    ingot('redstone_alloy', 'enderio:redstone_alloy_ingot')
+    ingot('conductive_alloy', 'enderio:conductive_alloy_ingot')
+    ingot('pulsating_alloy', 'enderio:pulsating_alloy_ingot')
+    ingot('dark_steel', 'enderio:dark_steel_ingot')
+    ingot('soularium', 'enderio:soularium_ingot')
+    ingot('end_steel', 'enderio:end_steel_ingot')
 
 //Blocks
     block('netherite_alloy', 'minecraft:netherite_block')
@@ -69,6 +78,18 @@ GTCEuStartupEvents.materialModification(/*'gtceu:material',*/ event => {
     block('experience', 'create:experience_block')
     block('cognitive_alloy', 'experienceobelisk:cognitive_alloy_block')
     block('cognitive_crystal', 'experienceobelisk:cognitive_crystal_block')
+    block('certus_quartz', 'ae2:quartz_block')
+    block('fluix', 'ae2:fluix_block')
+    block('graphite', 'nuclearcraft:graphite_block')
+    block('copper_alloy', 'enderio:copper_alloy_block')
+    block('energetic_alloy', 'enderio:energetic_alloy_block')
+    block('vibrant_alloy', 'enderio:vibrant_alloy_block')
+    block('redstone_alloy', 'enderio:redstone_alloy_block')
+    block('conductive_alloy', 'enderio:conductive_alloy_block')
+    block('pulsating_alloy', 'enderio:pulsating_alloy_block')
+    block('dark_steel', 'enderio:dark_steel_block')
+    block('soularium', 'enderio:soularium_block')
+    block('end_steel', 'enderio:end_steel_block')
 
 //Nuggets
     nugget('desh', 'ad_astra:desh_nugget')
@@ -78,6 +99,15 @@ GTCEuStartupEvents.materialModification(/*'gtceu:material',*/ event => {
     nugget('awakened_draconium', 'draconicevolution:awakened_draconium_nugget')
     nugget('gunmetal', 'pointblank:gunmetal_nugget')
     nugget('nethersteel', 'createbigcannons:nethersteel_nugget')
+    nugget('copper_alloy', 'enderio:copper_alloy_nugget')
+    nugget('energetic_alloy', 'enderio:energetic_alloy_nugget')
+    nugget('vibrant_alloy', 'enderio:vibrant_alloy_nugget')
+    nugget('redstone_alloy', 'enderio:redstone_alloy_nugget')
+    nugget('conductive_alloy', 'enderio:conductive_alloy_nugget')
+    nugget('pulsating_alloy', 'enderio:pulsating_alloy_nugget')
+    nugget('dark_steel', 'enderio:dark_steel_nugget')
+    nugget('soularium', 'enderio:soularium_nugget')
+    nugget('end_steel', 'enderio:end_steel_nugget')
 
 //Plates
     plate('desh', 'ad_astra:desh_plate')
@@ -91,12 +121,19 @@ GTCEuStartupEvents.materialModification(/*'gtceu:material',*/ event => {
     dust('zinc_sulfate', 'tfmg:zinc_sulfate')
     dust('copper_sulfate', 'tfmg:copper_sulfate')
     dust('cognitive_flux', 'experienceobelisk:cognitive_flux')
+    dust('certus_quartz', 'ae2:certus_quartz_dust')
+    dust('fluix', 'ae2:fluix_dust')
+    dust('conduit_binder_composite', 'enderio:conduit_binder_composite')
 
 //Gems
     gem('rose_quartz', 'create:rose_quartz')
     gem('coke', 'tfmg:coal_coke')
     gem('cognitive_crystal', 'experienceobelisk:cognitive_crystal')
+    gem('certus_quartz', 'ae2:certus_quartz_crystal')
+    gem('enriched_certus', 'ae2:charged_certus_quartz_crystal')
+    gem('fluix', 'ae2:fluix_crystal')
 
 //Formulas
     //GTMaterials.get('').setFormula('', true)
+    GTMaterials.get('soularium').setFormula('Au?', true)
 })

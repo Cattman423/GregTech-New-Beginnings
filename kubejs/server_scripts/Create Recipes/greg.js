@@ -108,9 +108,6 @@ ServerEvents.recipes(event => {
             ],
             processingTime: 50
         })
-        event.recipes.gtceu.assembler(base.slice(0, -4) + '_rod')
-            .itemInputs(base)
-            .itemOutputs(base)
     })
     function milling(output, input){
         event.recipes.create.milling(output, input)

@@ -13,8 +13,8 @@
 			dependencies: ["27E3ED1A28B9FAC0"]
 			id: "4A839038198B57A8"
 			tasks: [{
-				id: "49A614DD6356A1CC"
-				item: "gtceu:certus_quartz_gem"
+				id: "017116399610EE1E"
+				item: "ae2:certus_quartz_crystal"
 				type: "item"
 			}]
 			x: -6.0d
@@ -38,8 +38,8 @@
 			dependencies: ["25709B2B99626687"]
 			id: "5C4A6F4514184EF4"
 			tasks: [{
-				id: "7E60145CA6DB2ABB"
-				item: "gtceu:enriched_certus_gem"
+				id: "5E829826C4ABFB07"
+				item: "ae2:charged_certus_quartz_crystal"
 				type: "item"
 			}]
 			x: -6.0d
@@ -71,8 +71,8 @@
 			dependencies: ["4A839038198B57A8"]
 			id: "7D58CD5E7E7298C9"
 			tasks: [{
-				id: "47E9C13973EB13AE"
-				item: "gtceu:certus_quartz_dust"
+				id: "03C25CE598048E3F"
+				item: "ae2:certus_quartz_dust"
 				type: "item"
 			}]
 			x: -5.0d

@@ -7,6 +7,7 @@ ServerEvents.recipes(event => {
         .cleanroom(CleanroomType.CLEANROOM)
         .duration(160)
         .EUt(6000)
+
     event.recipes.gtceu.circuit_assembler('optical_smd_resistor')
         .itemInputs('4x gtceu:fine_borosilicate_glass_wire', 'gtceu:carbon_fiber_mesh')
         .inputFluids('gtceu:polyvinyl_butyral 288')
@@ -14,6 +15,7 @@ ServerEvents.recipes(event => {
         .cleanroom(CleanroomType.CLEANROOM)
         .duration(160)
         .EUt(6000)
+
     event.recipes.gtceu.circuit_assembler('optical_smd_capacitor')
         .itemInputs('4x gtceu:fine_borosilicate_glass_wire', '2x gtceu:carbon_fiber_plate')
         .inputFluids('gtceu:polyvinyl_butyral 36')
@@ -21,6 +23,7 @@ ServerEvents.recipes(event => {
         .cleanroom(CleanroomType.CLEANROOM)
         .duration(160)
         .EUt(6000)
+
     event.recipes.gtceu.circuit_assembler('optical_smd_diode')
         .itemInputs('16x gtceu:fine_borosilicate_glass_wire', '2x gtceu:naquadah_wafer')
         .inputFluids('gtceu:polyvinyl_butyral 288')
@@ -28,6 +31,7 @@ ServerEvents.recipes(event => {
         .cleanroom(CleanroomType.CLEANROOM)
         .duration(160)
         .EUt(6000)
+
     event.recipes.gtceu.circuit_assembler('optical_smd_inductor')
         .itemInputs('4x gtceu:fine_borosilicate_glass_wire', 'gtceu:osmiridium_ring')
         .inputFluids('gtceu:polyvinyl_butyral 144')
@@ -35,6 +39,7 @@ ServerEvents.recipes(event => {
         .cleanroom(CleanroomType.CLEANROOM)
         .duration(160)
         .EUt(6000)
+
 //Base Greg Circuits
     event.recipes.gtceu.circuit_assembly_line('crystal_processor_mainframe')
         .itemInputs(
@@ -51,15 +56,7 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtceu:crystal_processor_mainframe')
         .duration(800)
         .EUt(luv)
-        //.researchRecipeEntries()
         .stationResearch(b => b.researchStack(Item.of('gtceu:crystal_processor_computer')).EUt(luv).CWUt(16))
-
-    event.recipes.gtceu.research_station('gtceu:crystal_processor_mainframe')
-        .itemInputs('gtceu:data_orb', 'gtceu:crystal_processor_computer')
-        .itemOutputs(Item.of('gtceu:data_orb', '{assembly_line_research: {research_id: "gtceu:crystal_processor_computer", research_type: "gtceu:assembly_line"}}').strongNBT())
-        .EUt(luv)
-        .CWUt(16)
-        .totalCWU(64000)
 
     event.recipes.gtceu.circuit_assembly_line('wetware_processor_computer')
         .itemInputs(
@@ -77,13 +74,6 @@ ServerEvents.recipes(event => {
         .duration(400)
         .EUt(luv)
         .stationResearch(b => b.researchStack(Item.of('gtceu:wetware_processor_assembly')).EUt(luv).CWUt(16))
-
-    event.recipes.gtceu.research_station('gtceu:wetware_processor_computer')
-        .itemInputs('gtceu:data_orb', 'gtceu:wetware_processor_assembly')
-        .itemOutputs(Item.of('gtceu:data_orb', '{assembly_line_research: {research_id: "gtceu:wetware_processor_assembly", research_type: "gtceu:assembly_line"}}').strongNBT())
-        .EUt(luv)
-        .CWUt(16)
-        .totalCWU(1024000)
         
     event.recipes.gtceu.circuit_assembly_line('wetware_processor_mainframe')
         .itemInputs(
@@ -104,11 +94,4 @@ ServerEvents.recipes(event => {
         .duration(2000)
         .EUt(300000)
         .stationResearch(b => b.researchStack(Item.of('gtceu:wetware_processor_computer')).EUt(uv).CWUt(96))
-
-    event.recipes.gtceu.research_station('gtceu:wetware_processor_mainframe')
-        .itemInputs('gtceu:data_module', 'gtceu:wetware_processor_computer')
-        .itemOutputs(Item.of('gtceu:data_module', '{assembly_line_research: {research_id: "gtceu:wetware_processor_computer", research_type: "gtceu:assembly_line"}}').strongNBT())
-        .EUt(uv)
-        .CWUt(96)
-        .totalCWU(36864000)
 })

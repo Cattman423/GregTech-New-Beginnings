@@ -414,13 +414,12 @@
 		{
 			dependencies: ["2AF48E6902C16848"]
 			id: "71F9B819C49684CE"
-			optional: true
 			tasks: [{
-				id: "1582C27EFB4A9905"
-				item: "minecraft:bedrock"
+				id: "3F018931BD5B5531"
+				item: "gtceu:strontium_dust"
 				type: "item"
 			}]
-			title: "Strontium [NYI]"
+			title: "Strontium"
 			x: -8.0d
 			y: -1.0d
 		}
@@ -741,13 +740,12 @@
 		{
 			dependencies: ["2AF48E6902C16848"]
 			id: "28C23B0DC8E90996"
-			optional: true
 			tasks: [{
-				id: "785CC460F7D12556"
-				item: "minecraft:bedrock"
+				id: "578B2C3D6A4B64B1"
+				item: "gtceu:thallium_dust"
 				type: "item"
 			}]
-			title: "Thallium [NYI]"
+			title: "Thallium"
 			x: 3.5d
 			y: 0.0d
 		}
@@ -776,13 +774,12 @@
 		{
 			dependencies: ["2AF48E6902C16848"]
 			id: "39870F079DDA7BE6"
-			optional: true
 			tasks: [{
-				id: "6FF19BAC5C3A4C20"
-				item: "minecraft:bedrock"
+				id: "666E38CE059E90CD"
+				item: "gtceu:polonium_dust"
 				type: "item"
 			}]
-			title: "Polonium [NYI]"
+			title: "Polonium"
 			x: 6.5d
 			y: 0.0d
 		}
@@ -826,13 +823,12 @@
 		{
 			dependencies: ["2AF48E6902C16848"]
 			id: "6517893D9B49A2DE"
-			optional: true
 			tasks: [{
-				id: "4913AC5AD3016DB5"
-				item: "minecraft:bedrock"
+				id: "36CB26E8350AFBA1"
+				item: "gtceu:radium_dust"
 				type: "item"
 			}]
-			title: "Radium [NYI]"
+			title: "Radium"
 			x: -8.0d
 			y: 1.0d
 		}
@@ -1054,13 +1050,12 @@
 		{
 			dependencies: ["2AF48E6902C16848"]
 			id: "007ED701AC4DA5F9"
-			optional: true
 			tasks: [{
-				id: "222E30372EBBC758"
-				item: "minecraft:bedrock"
+				id: "454FB03E17C8A74E"
+				item: "gtceu:promethium_dust"
 				type: "item"
 			}]
-			title: "Promethium [NYI]"
+			title: "Promethium"
 			x: -2.5d
 			y: 2.5d
 		}
@@ -1089,13 +1084,12 @@
 		{
 			dependencies: ["2AF48E6902C16848"]
 			id: "00FC5965C5C88443"
-			optional: true
 			tasks: [{
-				id: "2E5E212C3A1AA80D"
-				item: "minecraft:bedrock"
+				id: "44E52D41E2E2993E"
+				item: "gtceu:gadolinium_dust"
 				type: "item"
 			}]
-			title: "Gadolinium [NYI]"
+			title: "Gadolinium"
 			x: 0.5d
 			y: 2.5d
 		}
@@ -1226,13 +1220,12 @@
 		{
 			dependencies: ["2AF48E6902C16848"]
 			id: "188F0F8C6A2DD0A8"
-			optional: true
 			tasks: [{
-				id: "33E3C49BEAFDBBC5"
-				item: "minecraft:bedrock"
+				id: "6EC96DFBB3F83656"
+				item: "gtceu:neptunium_dust"
 				type: "item"
 			}]
-			title: "Neptunium [NYI]"
+			title: "Neptunium"
 			x: -2.5d
 			y: 3.5d
 		}
@@ -1261,26 +1254,24 @@
 		{
 			dependencies: ["2AF48E6902C16848"]
 			id: "28D23AB4922BA188"
-			optional: true
 			tasks: [{
-				id: "07BAD715D08D4D3E"
-				item: "minecraft:bedrock"
+				id: "6848AF3DF1984096"
+				item: "gtceu:curium_dust"
 				type: "item"
 			}]
-			title: "Curium [NYI]"
+			title: "Curium"
 			x: 0.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["2AF48E6902C16848"]
 			id: "2FAA7EEE847E9CEC"
-			optional: true
 			tasks: [{
-				id: "6CFFB0E931CE9C04"
-				item: "minecraft:bedrock"
+				id: "20819916E6EF3DB8"
+				item: "gtceu:berkelium_dust"
 				type: "item"
 			}]
-			title: "Berkelium [NYI]"
+			title: "Berkelium"
 			x: 1.5d
 			y: 3.5d
 		}
@@ -1523,13 +1514,12 @@
 		{
 			dependencies: ["2AF48E6902C16848"]
 			id: "2AE9716C9A416343"
-			optional: true
 			tasks: [{
-				id: "6716E6508396FF43"
-				item: "minecraft:bedrock"
+				id: "55F17D0C70BDC7FB"
+				item: "gtceu:californium_dust"
 				type: "item"
 			}]
-			title: "Californium [NYI]"
+			title: "Californium"
 			x: 2.5d
 			y: 3.5d
 		}
@@ -1637,18 +1627,6 @@
 		}
 		{
 			dependencies: ["2AF48E6902C16848"]
-			id: "65E5EC99DEF10D8F"
-			optional: true
-			tasks: [{
-				id: "737E761B6174D05F"
-				item: "gtceu:hyper_experience_bucket"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["2AF48E6902C16848"]
 			id: "358B641A60E4C417"
 			optional: true
 			tasks: [{
@@ -1656,7 +1634,7 @@
 				item: "gtceu:cognitive_amalgam_dust"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.5d
 			y: 7.0d
 		}
 	]

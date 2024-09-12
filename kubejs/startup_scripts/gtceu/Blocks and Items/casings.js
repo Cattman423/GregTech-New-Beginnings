@@ -6,20 +6,18 @@ StartupEvents.registry('block', event => {
         .textureOverrideRenderer('minecraft:block/cube_all',
             { 'all': new ResourceLocation('gtceu', 'block/casings/electrum_casing') });*/
 
-    event.create('test_casing', 'gtceu:renderer')
+    event.create('test_casing')//, 'gtceu:renderer'
         .hardness(10)
         .resistance(1)
         .lightLevel(0)
-        .textureOverrideRenderer('minecraft:block/cube_all',
-            { 'all': new ResourceLocation('gtceu', 'block/casings/test_casing') });
+        .textureAll('gtceu:block/casings/test_casing');
 
-    event.create('agri_casing', 'gtceu:renderer')
+    event.create('agri_casing')//, 'gtceu:renderer'
         .displayName('Agricultral Casing')
         .hardness(10)
         .resistance(1)
         .lightLevel(0)
-        .textureOverrideRenderer('minecraft:block/cube_all',
-            { 'all': new ResourceLocation('gtceu', 'block/casings/agri_casing') });
+        .textureAll('gtceu:block/casings/agri_casing');
 
     event.create('solar_casing')//, 'gtceu:renderer'
         .hardness(10)

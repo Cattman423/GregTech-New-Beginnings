@@ -85,6 +85,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
 //Element Materials
     event.create('desh')
         .ingot()
+        .fluid()
         .ore()
         .color(0xF2A057).secondaryColor(0x2E2F04)
         .element('desh')
@@ -93,6 +94,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
 
     event.create('ostrum')
         .ingot()
+        .fluid()
         .ore()
         .color(0xE5939B).secondaryColor(0x2F0425)
         .element('ostrum')
@@ -101,6 +103,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
 
     event.create('calorite')
         .ingot()
+        .fluid()
         .ore()
         .color(0xE65757).secondaryColor(0x2F0506)
         .element('calorite')
@@ -109,6 +112,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
 
     event.create('mithril')
         .ingot()
+        .fluid()
         .element('mithril')
         .color(0x95F9F1)
         //.secondaryColor(0x13414E)
@@ -119,13 +123,15 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     
     event.create('protonium')
         .ingot()
+        .fluid()
         .element('protonium')
         .color(0xFF0000)
         .secondaryColor(0xFF7F7F)
-        .iconSet(SUB_ATOMIC)
+        .iconSet(RADIOACTIVE)
 
     event.create('adamantite')
         .ingot()
+        .fluid()
         .element('adamantite')
         .color(0xAD0F0D)
         .iconSet(SHINY)
@@ -134,12 +140,14 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     
     event.create('draconium')
         .ingot()
+        .fluid()
         .color(0x7A42AE)
         .element('draconium')
         .iconSet(DULL)
     
     event.create('awakened_draconium')
         .ingot()
+        .fluid()
         .color(0xFF6A00)
         .element('awakened_draconium')
         .iconSet(DULL)
@@ -151,6 +159,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
 
     event.create('refined_radiance')
         .ingot()
+        .fluid()
         .color(0xF5FAE1)
         .element('radiance')
         .blastTemp(13000, 'higher', 1966080, 2400)
@@ -158,6 +167,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
 
     event.create('shadow_steel')
         .ingot()
+        .fluid()
         .color(0x575366)
         .element('shadow_steel')
         .blastTemp(13000, 'higher', 1966080, 2400)
@@ -171,6 +181,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
 
     event.create('stellar_matter')
         .ingot()
+        .fluid()
         ['fluid(com.gregtechceu.gtceu.api.fluids.store.FluidStorageKey,com.gregtechceu.gtceu.api.fluids.FluidBuilder)']
         (GTFluidStorageKeys.PLASMA, new GTFluidBuilder().state(GTFluidState.PLASMA).customStill())
         //.color(0xFFA963)
@@ -180,6 +191,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
 
     event.create('infinity')
         .ingot()
+        .fluid()
         //.color(0xFFFFFF)
         .element('infinity')
         .iconSet(INFINITY)
@@ -187,6 +199,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
 
     event.create('ardite')
         .ingot()
+        .fluid()
         .ore()
         .color(0xE88317)
         .element('ardite')
@@ -196,12 +209,14 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
 
     event.create('experience')
         .ingot()
+        .fluid()
         .color(0x3ED900)
         .element('experience')
         .iconSet(EXPERIENCE)
 
     event.create('cognitive_amalgam')
         .ingot()
+        .fluid()
         .color(0x3B466A)
         .element('cognitium')
         .iconSet(EXPERIENCE)

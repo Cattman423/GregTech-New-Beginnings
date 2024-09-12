@@ -3,6 +3,8 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
 const $OreProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.OreProperty');
 const $IngotProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.IngotProperty');
 const $FluidProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.FluidProperty');
+const $FluidBuilder = Java.loadClass('com.gregtechceu.gtceu.api.fluids.FluidBuilder'); 
+const $FluidStorageKeys = Java.loadClass('com.gregtechceu.gtceu.api.fluids.store.FluidStorageKeys');
 const $DustProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.DustProperty')
 
 // Icon Sets
@@ -87,14 +89,49 @@ const $DustProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.ma
     const no_abs_recipe = GTMaterialFlags.DISABLE_ALLOY_BLAST;
     const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
 
-    GTMaterials.Obsidian.setProperty(PropertyKey.INGOT, new $IngotProperty())
-    GTMaterials.Zirconium.setProperty(PropertyKey.INGOT, new $IngotProperty())
-    GTMaterials.Holmium.setProperty(PropertyKey.INGOT, new $IngotProperty())
+    GTMaterials.Berkelium.setProperty(PropertyKey.DUST, new $DustProperty())
+    GTMaterials.Boron.setProperty(PropertyKey.INGOT, new $IngotProperty())
+    GTMaterials.Calcium.setProperty(PropertyKey.INGOT, new $IngotProperty())
+    GTMaterials.Californium.setProperty(PropertyKey.DUST, new $DustProperty())
+    GTMaterials.Curium.setProperty(PropertyKey.DUST, new $DustProperty())
+    GTMaterials.Gadolinium.setProperty(PropertyKey.DUST, new $DustProperty())
     GTMaterials.Germanium.setProperty(PropertyKey.INGOT, new $IngotProperty())
+    GTMaterials.Graphite.setProperty(PropertyKey.INGOT, new $IngotProperty())
+    //GTMaterials.Hafnium.setProperty(PropertyKey.DUST, new $DustProperty())
+    GTMaterials.Hafnium.setProperty(PropertyKey.INGOT, new $IngotProperty())
+    GTMaterials.Holmium.setProperty(PropertyKey.INGOT, new $IngotProperty())
     GTMaterials.Lithium.setProperty(PropertyKey.INGOT, new $IngotProperty())
+    GTMaterials.Magnesium.setProperty(PropertyKey.INGOT, new $IngotProperty())
+    GTMaterials.Neptunium.setProperty(PropertyKey.DUST, new $DustProperty())
+    GTMaterials.Obsidian.setProperty(PropertyKey.INGOT, new $IngotProperty())
+    GTMaterials.Polonium.setProperty(PropertyKey.DUST, new $DustProperty())
+    GTMaterials.Potassium.setProperty(PropertyKey.INGOT, new $IngotProperty())
+    GTMaterials.Promethium.setProperty(PropertyKey.DUST, new $DustProperty())
+    GTMaterials.Radium.setProperty(PropertyKey.DUST, new $DustProperty())
+    GTMaterials.Sodium.setProperty(PropertyKey.INGOT, new $IngotProperty())
+    //GTMaterials.Strontium.setProperty(PropertyKey.DUST, new $DustProperty())
+    GTMaterials.Strontium.setProperty(PropertyKey.INGOT, new $IngotProperty())
     GTMaterials.Tellurium.setProperty(PropertyKey.DUST, new $DustProperty())
-    GTMaterials.Hafnium.setProperty(PropertyKey.DUST, new $DustProperty())
+    GTMaterials.Thallium.setProperty(PropertyKey.DUST, new $DustProperty())
     GTMaterials.Zinc.setProperty(PropertyKey.ORE, new $OreProperty())
+    GTMaterials.Zirconium.setProperty(PropertyKey.INGOT, new $IngotProperty())
+
+    let addFluid = (mat, key) => { 
+        let prop = new $FluidProperty(); prop.getStorage().enqueueRegistration(key, new $FluidBuilder()); mat.setProperty(PropertyKey.FLUID, prop); 
+    }
+
+    addFluid(GTMaterials.Boron, $FluidStorageKeys.LIQUID); // Can be LIQUID, GAS, PLASMA or MOLTEN addFluid(GTMaterials.Oganesson, $FluidStorageKeys.GAS); }
+    addFluid(GTMaterials.Calcium, $FluidStorageKeys.LIQUID);
+    addFluid(GTMaterials.Germanium, $FluidStorageKeys.LIQUID);
+    addFluid(GTMaterials.Graphite, $FluidStorageKeys.LIQUID);
+    addFluid(GTMaterials.Hafnium, $FluidStorageKeys.LIQUID);
+    addFluid(GTMaterials.Holmium, $FluidStorageKeys.LIQUID);
+    addFluid(GTMaterials.Obsidian, $FluidStorageKeys.LIQUID);
+    addFluid(GTMaterials.Sodium, $FluidStorageKeys.LIQUID);
+    addFluid(GTMaterials.Strontium, $FluidStorageKeys.LIQUID);
+    addFluid(GTMaterials.Zirconium, $FluidStorageKeys.LIQUID);
+    
+    //GTMaterials..setProperty(PropertyKey.DUST, new $DustProperty())
     
 //Modifications
     GTMaterials.Aluminium.addFlags(dense_plate)
@@ -113,11 +150,13 @@ const $DustProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.ma
     GTMaterials.GarnetYellow.addFlags(lens)
     GTMaterials.Germanium.addFlags(plates, foil, fine_wire)
     GTMaterials.Glass.addFlags(bolt_and_screw)
+    GTMaterials.Graphite.addFlags(plates)
     GTMaterials.GreenSapphire.addFlags(lens)
     GTMaterials.Grossular.addFlags(lens)
     GTMaterials.Lapis.addFlags(lens)
     GTMaterials.Lazurite.addFlags(lens)
     GTMaterials.Lead.addFlags(round, frame)
+    GTMaterials.Lithium.addFlags(plates)
     GTMaterials.Malachite.addFlags(lens)
     GTMaterials.Monazite.addFlags(lens)
     GTMaterials.NetherQuartz.addFlags(lens)

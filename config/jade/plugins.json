@@ -2,6 +2,9 @@
   "framedblocks": {
     "framed_item_frame": true
   },
+  "enderchests": {
+    "hud": true
+  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -52,6 +55,12 @@
     "potion_effects": true,
     "painting": true,
     "chiseled_bookshelf": true
+  },
+  "endertanks": {
+    "hud.basic": true,
+    "hud": true,
+    "hud.status": true,
+    "hud.contents": true
   },
   "gtceu": {
     "primitive_pump": true,
@@ -139,6 +148,11 @@
     "short_info": false,
     "jade_plugin": true,
     "compact_number": false
+  },
+  "shetiphiancore": {
+    "hud.rgb16": true,
+    "hud": true,
+    "hud.redstone": true
   },
   "autoleveling": {
     "level": true

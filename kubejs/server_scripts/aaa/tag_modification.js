@@ -48,12 +48,15 @@ ServerEvents.tags('item', event => {
     event.add('forge:lenses/red', 'gtceu:realgar_lens')
     event.add('forge:lenses/red', 'gtceu:red_garnet_lens')
     event.add('forge:lenses/red', 'gtceu:rose_quartz_lens')
+    event.add('forge:lenses/red', 'gtceu:villiaumite_lens')
+    event.add('forge:lenses/red', 'gtceu:rhodochrosite_lens')
 
     event.add('forge:lenses/yellow', 'gtceu:andradite_lens')
     event.add('forge:lenses/yellow', 'gtceu:topaz_lens')
     event.add('forge:lenses/yellow', 'gtceu:yellow_garnet_lens')
     event.add('forge:lenses/yellow', 'gtceu:monazite_lens')
     event.add('forge:lenses/yellow', 'gtceu:prasiolite_lens')
+    event.add('forge:lenses/yellow', 'gtceu:carobbiite_lens')
 
     event.add('forge:lenses/light_blue', 'gtceu:blue_topaz_lens')
     event.add('forge:lenses/light_blue', 'gtceu:certus_quartz_lens')
@@ -65,6 +68,8 @@ ServerEvents.tags('item', event => {
     event.add('forge:lenses/lime', 'gtceu:green_sapphire_lens')
     event.add('forge:lenses/lime', 'gtceu:malachite_lens')
     event.add('forge:lenses/lime', 'gtceu:olivine_lens')
+    event.add('forge:lenses/lime', 'gtceu:fluorite_lens')
+    event.add('forge:lenses/lime', 'gtceu:boron_nitride_lens')
 
     event.add('forge:lenses/orange', 'gtceu:grossular_lens')
     event.add('forge:lenses/orange', 'gtceu:spessartine_lens')
@@ -80,6 +85,8 @@ ServerEvents.tags('item', event => {
 
     event.add('forge:lenses/grey', 'gtceu:coke_lens')
 
+    event.add('forge:lenses/light_grey', 'gtceu:boron_arsenide_lens')
+
     event.add('forge:lenses/brown', 'gtceu:lignite_lens')
 
     event.add('forge:lenses/green', 'gtceu:uvarovite_lens')
@@ -89,6 +96,7 @@ ServerEvents.tags('item', event => {
     event.add('forge:lenses/pink', 'gtceu:magneto_resonatic_lens')
 
     event.add('forge:lenses/purple', 'gtceu:amethyst_lens')
+    event.add('forge:lenses/purple', 'gtceu:fluix_lens')
 
     event.add('forge:lenses/cyan', 'gtceu:apatite_lens')
     event.add('forge:lenses/cyan', 'gtceu:lunite_lens')
@@ -140,6 +148,43 @@ ServerEvents.tags('item', event => {
     event.add('vintageimprovements:curving_heads', 'gtceu:brick_wooden_form')
 //Misc
     event.remove('minecraft:planks', 'gtceu:treated_wood_planks')
+    event.remove('forge:gems/certus_quartz', 'ae2:charged_certus_quartz_crystal')
+    event.remove('forge:dusts/ender_pearl', 'ae2:ender_dust')
+    event.remove('forge:dusts/ender_pearl', 'enderio:powdered_ender_pearl')
+
+    /*
+    */
+    const nukeingot = ['manganese_oxide', 'niobium_tin', 'lithium', 'yttrium', 'thorium', 'palladium', 'beryllium', 'silicon_carbide', 'extreme', 'tungsten_carbide', 
+        'stainless_steel', 'magnesium', 'sodium', 'niobium_titanium', 'tough_alloy', 'potassium', 'ferroboron', 'titanium', 'aluminum', 'manganese', 'hard_carbon', 'niobium', 
+        'zirconium', 'chromium', 'calcium', 'strontium', 'lithium_manganese_dioxide', 'osmiridium', 'hsla_steel', 'nichrome', 'boron', 'magnesium_diboride', 'hafnium', 
+        'thermoconducting']
+    nukeingot.forEach( (base) => {
+        event.removeAllTagsFrom('nuclearcraft:' + base + '_ingot')
+    })
+    const nukeplate = ['tough_alloy', 'ferroboron', 'aluminum', 'manganese', 'netherite', 'lithium', 'thorium', 'hard_carbon', 'palladium', 'beryllium', 'zirconium', 'extreme', 
+        'magnesium', 'lithium_manganese_dioxide', 'hsla_steel', 'boron', 'thermoconducting']
+    nukeplate.forEach( (base) => {
+        event.removeAllTagsFrom('nuclearcraft:' + base + '_plate')
+    })
+    const nukenug = ['magnesium', 'aluminum', 'lithium', 'thorium', 'beryllium', 'zirconium', 'boron']
+    nukenug.forEach( (base) => {
+        event.removeAllTagsFrom('nuclearcraft:' + base + '_nugget')
+    })
+    const nukegem = ['boron_arsenide', 'carobbiite', 'villiaumite', 'fluorite', 'rhodochrosite', 'boron_nitride']
+    nukegem.forEach( (base) => {
+        event.removeAllTagsFrom('nuclearcraft:' + base + '_gem')
+    })
+    const nukedust = ['manganese_oxide', 'niobium_tin', 'lithium', 'yttrium', 'thorium', 'palladium', 'beryllium', 'silicon_carbide', 'extreme', 'tungsten_carbide', 
+        'stainless_steel', 'magnesium', 'sodium', 'niobium_titanium', 'tough_alloy', 'potassium', 'ferroboron', 'titanium', 'aluminum', 'manganese', 'hard_carbon', 'niobium', 
+        'zirconium', 'chromium', 'calcium', 'strontium', 'lithium_manganese_dioxide', 'osmiridium', 'hsla_steel', 'nichrome', 'boron', 'magnesium_diboride', 'hafnium', 
+        'thermoconducting', 'boron_arsenide', 'carobbiite', 'villiaumite', 'fluorite', 'rhodochrosite', 'boron_nitride', 'barium', 'germanium', 'molybdenum', 'borax', 
+        'potassium_hydroxide', 'iodine', 'neodymium', 'sodium_hydroxide', 'samarium', 'arsenic', 'potassium_iodide', 'bismuth']
+    nukedust.forEach( (base) => {
+        event.removeAllTagsFrom('nuclearcraft:' + base + '_dust')
+    })
+   
+//Moderators
+    event.add('nuclearcraft:moderators', 'gtceu:beryllium_block')
 })
 
 ServerEvents.tags('block', event => {
@@ -147,6 +192,8 @@ ServerEvents.tags('block', event => {
     event.add('minecraft:mineable/pickaxe', '#forge:ores_in_ground/sand')
     event.add('minecraft:mineable/pickaxe', '#forge:ores_in_ground/red_sand')
     event.add('minecraft:mineable/pickaxe', '#forge:ores_in_ground/gravel')
+    event.add('minecraft:mineable/pickaxe', '#forge:ores_in_ground/soul_soil')
+    event.add('minecraft:mineable/shovel', '#forge:ores_in_ground/soul_soil')
     event.add('minecraft:mineable/pickaxe', '#forge:ores_in_ground/moon_stone')
     event.add('minecraft:needs_iron_tool', '#forge:ores_in_ground/moon_stone')
     event.add('minecraft:mineable/pickaxe', '#forge:ores_in_ground/moon_deepslate')
@@ -195,6 +242,10 @@ ServerEvents.tags('block', event => {
     event.add('forge:concrete', '#chipped:pink_concrete')
 
     event.add('blockrunner:very_quick_blocks', '#forge:concrete')
+
+//Moderators
+    event.add('nuclearcraft:moderators', 'gtceu:beryllium_block')
+    event.add('nuclearcraft:reactor_inner', 'gtceu:beryllium_block')
 })
 
 ServerEvents.tags('fluid', event => {
