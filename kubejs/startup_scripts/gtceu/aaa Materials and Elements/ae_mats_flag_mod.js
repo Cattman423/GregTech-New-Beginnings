@@ -90,6 +90,7 @@ const $DustProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.ma
     const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
 
     GTMaterials.Berkelium.setProperty(PropertyKey.DUST, new $DustProperty())
+    GTMaterials.Biotite.setProperty(PropertyKey.ORE, new $OreProperty())
     GTMaterials.Boron.setProperty(PropertyKey.INGOT, new $IngotProperty())
     GTMaterials.Calcium.setProperty(PropertyKey.INGOT, new $IngotProperty())
     GTMaterials.Californium.setProperty(PropertyKey.DUST, new $DustProperty())
@@ -97,7 +98,6 @@ const $DustProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.ma
     GTMaterials.Gadolinium.setProperty(PropertyKey.DUST, new $DustProperty())
     GTMaterials.Germanium.setProperty(PropertyKey.INGOT, new $IngotProperty())
     GTMaterials.Graphite.setProperty(PropertyKey.INGOT, new $IngotProperty())
-    //GTMaterials.Hafnium.setProperty(PropertyKey.DUST, new $DustProperty())
     GTMaterials.Hafnium.setProperty(PropertyKey.INGOT, new $IngotProperty())
     GTMaterials.Holmium.setProperty(PropertyKey.INGOT, new $IngotProperty())
     GTMaterials.Lithium.setProperty(PropertyKey.INGOT, new $IngotProperty())
@@ -109,7 +109,6 @@ const $DustProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.ma
     GTMaterials.Promethium.setProperty(PropertyKey.DUST, new $DustProperty())
     GTMaterials.Radium.setProperty(PropertyKey.DUST, new $DustProperty())
     GTMaterials.Sodium.setProperty(PropertyKey.INGOT, new $IngotProperty())
-    //GTMaterials.Strontium.setProperty(PropertyKey.DUST, new $DustProperty())
     GTMaterials.Strontium.setProperty(PropertyKey.INGOT, new $IngotProperty())
     GTMaterials.Tellurium.setProperty(PropertyKey.DUST, new $DustProperty())
     GTMaterials.Thallium.setProperty(PropertyKey.DUST, new $DustProperty())
@@ -162,7 +161,7 @@ const $DustProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.ma
     GTMaterials.NetherQuartz.addFlags(lens)
     GTMaterials.Nickel.addFlags(rod, frame)
     GTMaterials.NickelZincFerrite.addFlags(plates)
-    GTMaterials.Obsidian.addFlags(bolt_and_screw)
+    GTMaterials.Obsidian.addFlags(bolt_and_screw, no_smelt)
     GTMaterials.Olivine.addFlags(lens)
     GTMaterials.Opal.addFlags(lens)
     GTMaterials.Pyrope.addFlags(lens)

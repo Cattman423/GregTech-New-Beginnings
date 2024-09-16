@@ -152,7 +152,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .flags(lens, no_plate_compressor_craft)
 
     event.create('prasiolite')
-        .dust()
+        .gem()
         .components('5x silicon', '10x oxygen', 'iron')
         .color(0xA8B278)
         .iconSet(FLINT)
@@ -419,10 +419,11 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     event.create('extreme')
         .ingot()
         .fluid()
-        .color(0x6F293C)
+        .color(0x452C55)
         .iconSet(DULL)
         .components('hard_carbon', 'tough_alloy')
-        .flags(plates)
+        .blastTemp(3800, 'mid', 1920, 2400)
+        .flags(plates, rod, frame)
 
     event.create('lithium_manganese_dioxide')
         .ingot()
@@ -445,35 +446,8 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0x73815E)
         .iconSet(SHINY)
         .components('extreme', 'boron_arsenide')
+        .blastTemp(3800, 'mid', 1920, 2400)
         .flags(plates)
-
-    event.create('carobbiite')
-        .gem()
-        .color(0xC6C791)
-        .iconSet(CERTUS)
-        .components('potassium', 'fluorine')
-        .flags(lens)
-
-    event.create('villiaumite')
-        .gem()
-        .color(0xD13351)
-        .iconSet(LAPIS)
-        .components('sodium', 'fluorine')
-        .flags(lens)
-
-    event.create('fluorite')
-        .gem()
-        .color(0x90AE99)
-        .iconSet(QUARTZ)
-        .components('calcium', '2x fluorine')
-        .flags(lens)
-
-    event.create('rhodochrosite')
-        .gem()
-        .color(0xDD4243)
-        .iconSet(EMERALD)
-        .components('manganese', 'carbon', '3x oxygen')
-        .flags(lens)
 
     event.create('boron_nitride')
         .gem()
@@ -488,12 +462,6 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0x6F6363)
         .iconSet(SHINY)
         .components('2x bismuth', '2x strontium', 'calcium', '2x copper', '8x oxygen')
-
-    event.create('energetic_blend')
-        .dust()
-        .color(0xFF7F03)
-        .iconSet(METALLIC)
-        .components('glowstone', 'redstone', 'nether_quartz', 'emerald')
 
     event.create('crystal_binder')
         .dust()
@@ -522,6 +490,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0xB87D07)
         .iconSet(METALLIC)
         .components('copper', 'silicon')
+        .blastTemp(1000, 'low', 120, 1200)
 
     event.create('energetic_alloy')
         .ingot()
@@ -529,6 +498,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0xEEB93E)
         .iconSet(METALLIC)
         .components('redstone', 'gold', 'glowstone')
+        .blastTemp(2200, 'low', 120, 1600)
 
     event.create('vibrant_alloy')
         .ingot()
@@ -536,6 +506,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0xE9FE77)
         .iconSet(METALLIC)
         .components('energetic_alloy', 'ender_pearl')
+        .blastTemp(3000, 'low', 120, 3000)
 
     event.create('redstone_alloy')
         .ingot(1)
@@ -553,6 +524,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0xC79390)
         .iconSet(METALLIC)
         .components('copper_alloy', 'iron', 'redstone')
+        .blastTemp(1200, 'low', 120, 1200)
 
     event.create('pulsating_alloy')
         .ingot()
@@ -560,6 +532,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0x70D486)
         .iconSet(METALLIC)
         .components('ender_pearl', 'iron')
+        .blastTemp(1800, 'low', 120, 1600)
 
     event.create('dark_steel')
         .ingot()
@@ -567,6 +540,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0x777777)
         .iconSet(METALLIC)
         .components('steel', 'carbon', 'obsidian')
+        .blastTemp(1800, 'low', 120, 1000)
 
     event.create('soularium')
         .ingot()
@@ -574,6 +548,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0x6D5B35)
         .iconSet(METALLIC)
         //.components()
+        .blastTemp(1000, 'mid', 120, 1000)
 
     event.create('end_steel')
         .ingot()
@@ -581,6 +556,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0xC0B969)
         .iconSet(METALLIC)
         .components('endstone', 'dark_steel', 'obsidian')
+        .blastTemp(4500, 'mid', 1920, 1200)
 
     event.create('conduit_binder_composite')
         .dust()
@@ -595,7 +571,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
 
     event.create('moon_deepslate')
         .dust()
-        .components('21x silicon_dioxide', '3x rutile', '2x magnesia', '2x biotite', '2x bauxite', 'quicklime', 'wustite')
+        .components('21x silicon_dioxide', '3x rutile', '2x magnesia', '2x biotite', '2x bauxite', 'wustite')
         .color(0x4A5253)
 
     event.create('mars_stone')

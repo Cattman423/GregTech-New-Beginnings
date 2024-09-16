@@ -1,5 +1,5 @@
 StartupEvents.registry('block', event => {
-    event.create('mithril_coil_block', 'gtceu:coil')
+    event.create('mithril_coil_block', 'gtceu:coil')//
         .temperature(12600)
         .level(16)
         .energyDiscount(16) // 
@@ -8,7 +8,6 @@ StartupEvents.registry('block', event => {
         .texture('gtceu:block/coils/machine_coil_mithril')
         .hardness(5)
         .requiresTool(true)
-        .material('metal')
         .soundType(SoundType.NETHERITE_BLOCK)
         .tagBlock('forge:mineable/wrench')
 
@@ -21,7 +20,6 @@ StartupEvents.registry('block', event => {
         .texture('gtceu:block/coils/machine_coil_chadium')
         .hardness(5)
         .requiresTool(true)
-        .material('metal')
         .soundType(SoundType.NETHERITE_BLOCK)
         .tagBlock('forge:mineable/wrench')
 
@@ -34,7 +32,6 @@ StartupEvents.registry('block', event => {
         .texture('gtceu:block/coils/machine_coil_awakened_draconium')
         .hardness(5)
         .requiresTool(true)
-        .material('metal')
         .soundType(SoundType.NETHERITE_BLOCK)
         .tagBlock('forge:mineable/wrench')
 
@@ -47,7 +44,6 @@ StartupEvents.registry('block', event => {
         .texture('gtceu:block/coils/machine_coil_stellar_matter')
         .hardness(5)
         .requiresTool(true)
-        .material('metal')
         .soundType(SoundType.NETHERITE_BLOCK)
         .tagBlock('forge:mineable/wrench')
 
@@ -60,7 +56,6 @@ StartupEvents.registry('block', event => {
         .texture('gtceu:block/coils/machine_coil_infinity')
         .hardness(5)
         .requiresTool(true)
-        .material('metal')
         .soundType(SoundType.NETHERITE_BLOCK)
         .tagBlock('forge:mineable/wrench')
 })

@@ -800,6 +800,30 @@
 			x: -2.5d
 			y: 1.0d
 		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "35A58797CB47E9B2"
+			optional: true
+			tasks: [{
+				id: "23A851A464DE8E6E"
+				item: "gtceu:titanite_lens"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "279C4E5ACD4AF1C3"
+			optional: true
+			tasks: [{
+				id: "019472C5ACFA9B5D"
+				item: "gtceu:nepheline_lens"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
 	]
 	title: "Lenses"
 }

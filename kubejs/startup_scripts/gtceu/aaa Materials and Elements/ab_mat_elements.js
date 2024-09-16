@@ -91,6 +91,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .element('desh')
         .iconSet(METALLIC)
         .flags(plates, dense_plate, foil)
+        .blastTemp(1000, null, 120, 1000)
 
     event.create('ostrum')
         .ingot()
@@ -100,6 +101,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .element('ostrum')
         .iconSet(METALLIC)
         .flags(plates, dense_plate, foil)
+        .blastTemp(2500, 'low', 480, 2000)
 
     event.create('calorite')
         .ingot()
@@ -109,6 +111,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .element('calorite')
         .iconSet(METALLIC)
         .flags(plates, dense_plate, foil)
+        .blastTemp(3500, 'mid', 1920, 3000)
 
     event.create('mithril')
         .ingot()
@@ -125,7 +128,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .ingot()
         .fluid()
         .element('protonium')
-        .color(0xFF0000)
+        .color(0xFF0000, false)
         .secondaryColor(0xFF7F7F)
         .iconSet(RADIOACTIVE)
 

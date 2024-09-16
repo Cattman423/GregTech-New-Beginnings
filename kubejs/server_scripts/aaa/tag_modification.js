@@ -84,6 +84,7 @@ ServerEvents.tags('item', event => {
     event.add('forge:lenses/white', 'gtceu:quartzite_lens')
 
     event.add('forge:lenses/grey', 'gtceu:coke_lens')
+    event.add('forge:lenses/grey', 'gtceu:nepheline_lens')
 
     event.add('forge:lenses/light_grey', 'gtceu:boron_arsenide_lens')
 
@@ -91,6 +92,7 @@ ServerEvents.tags('item', event => {
 
     event.add('forge:lenses/green', 'gtceu:uvarovite_lens')
     event.add('forge:lenses/green', 'gtceu:cognitive_crystal_lens')
+    event.add('forge:lenses/green', 'gtceu:titanite_lens')
 
     event.add('forge:lenses/pink', 'gtceu:opal_lens')
     event.add('forge:lenses/pink', 'gtceu:magneto_resonatic_lens')

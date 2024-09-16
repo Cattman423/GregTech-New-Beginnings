@@ -6,6 +6,12 @@ GTCEuStartupEvents.materialModification(/*'gtceu:material',*/ event => {
     GTMaterials.Lead.getProperty(PropertyKey.ORE).setOreByProducts(GTMaterials.Germanium)
     GTMaterials.Galena.getProperty(PropertyKey.ORE).setOreByProducts(GTMaterials.Germanium)
     GTMaterials.Copper.getProperty(PropertyKey.ORE).setOreByProducts(GTMaterials.Germanium)
+    GTMaterials.get('titanite').getProperty(PropertyKey.ORE).setOreByProducts(
+        GTMaterials.get('titanite'), GTMaterials.Iron, GTMaterials.Thorium, GTMaterials.Cerium
+    )
+    GTMaterials.get('nepheline').getProperty(PropertyKey.ORE).setOreByProducts(
+        GTMaterials.Magnetite, GTMaterials.Ilmenite, GTMaterials.Apatite, GTMaterials.get('titanite')
+    )
 
 //Functions
     function ingot (mat, item){
@@ -135,5 +141,5 @@ GTCEuStartupEvents.materialModification(/*'gtceu:material',*/ event => {
 
 //Formulas
     //GTMaterials.get('').setFormula('', true)
-    GTMaterials.get('soularium').setFormula('Au?', true)
+    GTMaterials.get('soularium').setFormula('?AuC', true)
 })

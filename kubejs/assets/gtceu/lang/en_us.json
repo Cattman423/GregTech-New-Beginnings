@@ -88,7 +88,6 @@
     "material.gtceu.rhodochrosite": "Rhodochrosite",
     "material.gtceu.boron_nitride": "Boron Nitride",
     "material.gtceu.bscco": "BSCCO",
-    "material.gtceu.energetic_blend": "Energetic Blend",
     "material.gtceu.crystal_binder": "Crystal Binder",
     "material.gtceu.dimensional_blend": "Dimensional Blend",
     "material.gtceu.cryotheum": "Cryotheum",
@@ -102,6 +101,8 @@
     "material.gtceu.soularium": "Soularium",
     "material.gtceu.end_steel": "End Steel",
     "material.gtceu.conduit_binder_composite": "Conduit Binder Composite",
+    "material.gtceu.nepheline": "Nepheline",
+    "material.gtceu.titanite": "Titanite",
 
     "material.gtceu.moon_stone": "Moon Stone",
     "material.gtceu.moon_deepslate": "Moon Deepslate",
@@ -147,6 +148,10 @@
     "gtceu.jei.ore_vein.lunite_vein_mn": "Lunite Vein",
 
     "gtceu.jei.ore_vein.ostrum_vein_ma": "Ostrum Vein",
+    "gtceu.jei.ore_vein.carobbiite_vein_ma": "Carobbiite Vein",
+    "gtceu.jei.ore_vein.nepheline_vein_ma": "Nepheline Vein",
+    "gtceu.jei.ore_vein.fluorite_vein_ma": "Fluorspar Vein",
+    "gtceu.jei.ore_vein.rhodochrosite_vein_ma": "Rhodochrosite Vein",
 
     "gtceu.jei.bedrock_fluid.ether": "Ether Deposit",
     "gtceu.jei.bedrock_fluid.moon_mantle": "Moon Mantle Deposit",
@@ -186,6 +191,9 @@
     "block.gtceu.kinetic_assembler": "Kinetic Assembler",
     "block.gtceu.hydroponic_farm": "Hydroponic Farm",
     "block.gtceu.arboretum": "Arboretum",
+    "block.gtceu.decay_hastener_multi": "Large Decay Hastener",
+    "block.gtceu.fuel_reprocessor_multi": "Large Fuel Reprocessor",
+    "block.gtceu.isotope_separator_multi": "Large Isotope Separator",
 
     "block.gtceu.hv_decay_hastener": "HV Decay Hastener",
     "block.gtceu.ev_decay_hastener": "EV Decay Hastener",
@@ -200,8 +208,6 @@
     "block.gtceu.opv_decay_hastener": "OpV Decay Hastener",
     "block.gtceu.max_decay_hastener": "MAX Decay Hastener",
 
-    "block.gtceu.lv_fuel_reprocessor": "LV Fuel Reprocessor",
-    "block.gtceu.mv_fuel_reprocessor": "MV Fuel Reprocessor",
     "block.gtceu.hv_fuel_reprocessor": "HV Fuel Reprocessor",
     "block.gtceu.ev_fuel_reprocessor": "EV Fuel Reprocessor",
     "block.gtceu.iv_fuel_reprocessor": "IV Fuel Reprocessor",

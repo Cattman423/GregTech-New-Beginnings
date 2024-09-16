@@ -8,10 +8,35 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
             .setSound(GTSoundEntries.ARC)
     })
 GTCEuStartupEvents.registry('gtceu:machine', event => {
-    event.create('fuel_reprocessor', 'simple', GTValues.LV, GTValues.MV, GTValues.HV, GTValues.EV, GTValues.IV, GTValues.LuV, GTValues.ZPM, GTValues.UV, GTValues.UHV, 
+//Singleblock
+    event.create('fuel_reprocessor', 'simple', GTValues.HV, GTValues.EV, GTValues.IV, GTValues.LuV, GTValues.ZPM, GTValues.UV, GTValues.UHV, 
             GTValues.UEV, GTValues.UIV, GTValues.UXV, GTValues.OpV, GTValues.MAX) // 
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('fuel_reprocessor', true, true)
         .tankScalingFunction(tier => tier * 3200)
         .workableTieredHullRenderer("gtceu:block/machines/fuel_reprocessor");
+
+//Multiblock
+    event.create('fuel_reprocessor_multi', 'multiblock')
+        .rotationState(RotationState.NON_Y_AXIS)
+        .recipeType('fuel_reprocessor')
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.PERFECT_OVERCLOCK)])
+        .appearanceBlock(GCyMBlocks.CASING_ATOMIC)
+        .pattern(definition => FactoryBlockPattern.start()
+            .aisle('CCCCC', 'CCCCC', 'CCCCC')
+            .aisle('CCCCC', 'CMMMC', 'CMMMC')
+            .aisle('CCCCC', 'CMMMC', 'CMMMC')
+            .aisle('CCCCC', 'CCACC', 'CCCCC')
+            .where('A', Predicates.controller(Predicates.blocks(definition.get())))
+            .where('C', Predicates.blocks(GCyMBlocks.CASING_ATOMIC.get())
+                    .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1))
+                    .or(Predicates.autoAbilities(definition.getRecipeTypes())))
+            .where('M', Predicates.blocks(GCyMBlocks.CRUSHING_WHEELS.get()))
+            .where(' ', Predicates.any())
+            .build()
+        )
+        .workableCasingRenderer(
+            'gtceu:block/casings/gcym/atomic_casing',
+            'gtceu:block/machines/fuel_reprocessor', false
+        )
 })

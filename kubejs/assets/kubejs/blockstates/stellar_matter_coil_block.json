@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "active=false": {
+            "model": "gtceu:block/coils/machine_coil_stellar_matter"
+        },
+        "active=true": {
+            "model": "gtceu:block/coils/machine_coil_stellar_matter_active"
+        }
+    }
+}
