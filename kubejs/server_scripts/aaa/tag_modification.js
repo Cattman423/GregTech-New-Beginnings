@@ -93,6 +93,7 @@ ServerEvents.tags('item', event => {
     event.add('forge:lenses/green', 'gtceu:uvarovite_lens')
     event.add('forge:lenses/green', 'gtceu:cognitive_crystal_lens')
     event.add('forge:lenses/green', 'gtceu:titanite_lens')
+    event.add('forge:lenses/green', 'gtceu:jade_lens')
 
     event.add('forge:lenses/pink', 'gtceu:opal_lens')
     event.add('forge:lenses/pink', 'gtceu:magneto_resonatic_lens')
@@ -146,6 +147,9 @@ ServerEvents.tags('item', event => {
     event.add('forge:bakelite', 'gtceu:wood_gear')
     event.add('forge:small_bakelite', 'gtceu:small_bakelite_gear')
     event.add('forge:bakelite', 'gtceu:bakelite_gear')
+//Fiberoptics
+    event.add('forge:optical_fiber', 'gtceu:fine_borosilicate_glass_wire')
+    event.add('forge:optical_fiber', 'gtceu:fine_ulexite_wire')
 //Curving Press
     event.add('vintageimprovements:curving_heads', 'gtceu:brick_wooden_form')
 //Misc

@@ -14,6 +14,7 @@ ClientEvents.lang('en_us', event => {
     event.renameItem("create:blaze_burner", "Clockwork Burner")
     event.renameItem("ad_astra:rocket_nose_cone", "Basic Command Pod")
     event.renameItem("tfmg:copper_sulfate", "Cupric Sulfate")
+    event.renameItem("gtceu:fine_ulexite_wire", "Ulexite Fibers")
 //Wöhler Aluminium
     event.renameItem("tfmg:aluminum_ingot", "Wöhler Aluminium Ingot")
     event.renameItem("tfmg:aluminum_block", "Wöhler Aluminium Block")

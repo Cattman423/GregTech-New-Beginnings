@@ -12,6 +12,9 @@ GTCEuStartupEvents.materialModification(/*'gtceu:material',*/ event => {
     GTMaterials.get('nepheline').getProperty(PropertyKey.ORE).setOreByProducts(
         GTMaterials.Magnetite, GTMaterials.Ilmenite, GTMaterials.Apatite, GTMaterials.get('titanite')
     )
+    GTMaterials.Borax.getProperty(PropertyKey.ORE).setOreByProducts(
+        GTMaterials.Borax, GTMaterials.Borax, GTMaterials.Lithium
+    )
 
 //Functions
     function ingot (mat, item){
@@ -142,4 +145,5 @@ GTCEuStartupEvents.materialModification(/*'gtceu:material',*/ event => {
 //Formulas
     //GTMaterials.get('').setFormula('', true)
     GTMaterials.get('soularium').setFormula('?AuC', true)
+    GTMaterials.get('ulexite').setFormula('NaCaB5O6(OH)6(H2O)5', true)
 })

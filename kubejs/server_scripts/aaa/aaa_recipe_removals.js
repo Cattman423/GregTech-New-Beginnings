@@ -841,6 +841,7 @@ ServerEvents.recipes(event => {
     event.remove({output: 'gtceu:manganese_phosphide_bucket_quadruple_wire'})
     event.remove({output: 'gtceu:manganese_phosphide_bucket_octal_wire'})
     event.remove({output: 'gtceu:manganese_phosphide_bucket_hex_wire'})
+    event.remove({output: 'nuclearcraft:ferroboron_ingot'})
     event.remove({type: 'framedblocks:framing_saw'})
     event.remove({type: 'productivebees:centrifuge'})
     event.remove({type: 'create:pressing'})

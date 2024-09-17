@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
 //Optical SMDs
     event.recipes.gtceu.circuit_assembler('optical_smd_transistor')
-        .itemInputs('8x gtceu:fine_borosilicate_glass_wire', 'gtceu:vanadium_gallium_foil')
+        .itemInputs('8x #forge:optical_fiber', 'gtceu:vanadium_gallium_foil')
         .inputFluids('gtceu:polyvinyl_butyral 144')
         .itemOutputs('16x kubejs:optical_smd_transistor')
         .cleanroom(CleanroomType.CLEANROOM)
@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
         .EUt(6000)
 
     event.recipes.gtceu.circuit_assembler('optical_smd_resistor')
-        .itemInputs('4x gtceu:fine_borosilicate_glass_wire', 'gtceu:carbon_fiber_mesh')
+        .itemInputs('4x #forge:optical_fiber', 'gtceu:carbon_fiber_mesh')
         .inputFluids('gtceu:polyvinyl_butyral 288')
         .itemOutputs('16x kubejs:optical_smd_resistor')
         .cleanroom(CleanroomType.CLEANROOM)
@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
         .EUt(6000)
 
     event.recipes.gtceu.circuit_assembler('optical_smd_capacitor')
-        .itemInputs('4x gtceu:fine_borosilicate_glass_wire', '2x gtceu:carbon_fiber_plate')
+        .itemInputs('4x #forge:optical_fiber', '2x gtceu:carbon_fiber_plate')
         .inputFluids('gtceu:polyvinyl_butyral 36')
         .itemOutputs('16x kubejs:optical_smd_capacitor')
         .cleanroom(CleanroomType.CLEANROOM)
@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
         .EUt(6000)
 
     event.recipes.gtceu.circuit_assembler('optical_smd_diode')
-        .itemInputs('16x gtceu:fine_borosilicate_glass_wire', '2x gtceu:naquadah_wafer')
+        .itemInputs('16x #forge:optical_fiber', '2x gtceu:naquadah_wafer')
         .inputFluids('gtceu:polyvinyl_butyral 288')
         .itemOutputs('64x kubejs:optical_smd_diode')
         .cleanroom(CleanroomType.CLEANROOM)
@@ -33,7 +33,7 @@ ServerEvents.recipes(event => {
         .EUt(6000)
 
     event.recipes.gtceu.circuit_assembler('optical_smd_inductor')
-        .itemInputs('4x gtceu:fine_borosilicate_glass_wire', 'gtceu:osmiridium_ring')
+        .itemInputs('4x #forge:optical_fiber', 'gtceu:osmiridium_ring')
         .inputFluids('gtceu:polyvinyl_butyral 144')
         .itemOutputs('16x kubejs:optical_smd_inductor')
         .cleanroom(CleanroomType.CLEANROOM)
