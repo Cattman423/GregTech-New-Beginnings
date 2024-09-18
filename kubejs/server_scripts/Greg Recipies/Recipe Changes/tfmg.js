@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
 //Oil
     event.recipes.gtceu.distillery('gtceu:oil')
-        .inputFluids('tfmg:crude_oil_fluid 1000')
+        .inputFluids('tfmg:crude_oil 1000')
         .outputFluids('gtceu:oil 1000')
         .circuit(1)
         .duration(240)

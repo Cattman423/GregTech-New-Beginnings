@@ -60,7 +60,7 @@ ServerEvents.tags('item', event => {
 
     event.add('forge:lenses/light_blue', 'gtceu:blue_topaz_lens')
     event.add('forge:lenses/light_blue', 'gtceu:certus_quartz_lens')
-    event.add('forge:lenses/light_blue', 'gtceu:enriched_certus_lens')
+    event.add('forge:lenses/light_blue', 'gtceu:charged_certus_lens')
     event.add('forge:lenses/light_blue', 'gtceu:cubic_zirconium_lens')
 
     event.add('forge:lenses/black', 'gtceu:coal_lens')
@@ -73,6 +73,8 @@ ServerEvents.tags('item', event => {
 
     event.add('forge:lenses/orange', 'gtceu:grossular_lens')
     event.add('forge:lenses/orange', 'gtceu:spessartine_lens')
+    
+    event.add('forge:lenses/magenta', 'gtceu:kunzite_lens')
 
     event.add('forge:lenses/blue', 'gtceu:lazurite_lens')
     event.add('forge:lenses/blue', 'gtceu:sodalite_lens')
@@ -97,6 +99,7 @@ ServerEvents.tags('item', event => {
 
     event.add('forge:lenses/pink', 'gtceu:opal_lens')
     event.add('forge:lenses/pink', 'gtceu:magneto_resonatic_lens')
+    event.add('forge:lenses/pink', 'gtceu:lepidolite_lens')
 
     event.add('forge:lenses/purple', 'gtceu:amethyst_lens')
     event.add('forge:lenses/purple', 'gtceu:fluix_lens')
@@ -152,6 +155,11 @@ ServerEvents.tags('item', event => {
     event.add('forge:optical_fiber', 'gtceu:fine_ulexite_wire')
 //Curving Press
     event.add('vintageimprovements:curving_heads', 'gtceu:brick_wooden_form')
+//Lv Converter
+    event.add('forge:lv_converter', 'gtceu:lv_1a_energy_converter')
+    event.add('forge:lv_converter', 'gtceu:lv_4a_energy_converter')
+    event.add('forge:lv_converter', 'gtceu:lv_8a_energy_converter')
+    event.add('forge:lv_converter', 'gtceu:lv_16a_energy_converter')
 //Misc
     event.remove('minecraft:planks', 'gtceu:treated_wood_planks')
     event.remove('forge:gems/certus_quartz', 'ae2:charged_certus_quartz_crystal')

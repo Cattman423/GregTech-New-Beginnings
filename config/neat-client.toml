@@ -24,4 +24,14 @@
 	"Show Debug Info with F3" = true
 	#Blacklist uses entity IDs, not their display names. Use F3 to see them in the Neat bar.
 	Blacklist = ["minecraft:shulker", "minecraft:armor_stand", "minecraft:cod", "minecraft:salmon", "minecraft:pufferfish", "minecraft:tropical_fish"]
+	"Max Distance Without Line of Sight" = 8
+	#Text color in hex code format
+	text_color = "FFFFFF"
+	#Whether bars on passive mobs should be shown
+	showOnPassive = true
+	#Whether bars on hostile mobs should be shown (does not include bosses)
+	showOnHostile = true
+	show_entity_name = true
+	#Disables the rendering of the vanilla name tag
+	disable_name_tag = false
 

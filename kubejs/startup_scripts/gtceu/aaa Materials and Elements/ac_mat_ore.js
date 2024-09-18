@@ -86,6 +86,24 @@ const blast_furnace_triple = GTMaterialFlags.BLAST_FURNACE_CALCITE_TRIPLE;
 const no_abs_recipe = GTMaterialFlags.DISABLE_ALLOY_BLAST;
 const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
 //Ores
+    event.create('rose_quartz')
+        .ore(2, 1)
+        .gem()
+        .fluid()
+        .components('8x redstone', '1x flint')
+        .color(0xeb4b4b)
+        .iconSet(GEM_HORIZONTAL)
+        .flags(plates, rod, lens, mortar_grind)
+
+    event.create('charged_certus')
+        .gem()
+        .ore(2, 1)
+        .components('certus_quartz')
+        .color(0x99bbff)
+        .secondaryColor(0x6dacc5)
+        .iconSet(CERTUS)
+        .flags(lens, no_plate_compressor_craft)
+
     event.create('zircon')
         .dust()
         .ore()
@@ -216,5 +234,13 @@ const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
         .color(0x256B32)
         .iconSet(GEM_VERTICAL)
         .components('sodium', 'aluminium', '2x silicon', '6x oxygen')
+        .flags(lens)
+    
+    event.create('kunzite')
+        .ore(2, 1)
+        .gem()
+        .color(0xFF10FF)
+        .iconSet(QUARTZ)
+        .components('lithium', 'aluminium', '2x silicon', '6x oxygen', 'manganese')
         .flags(lens)
 })

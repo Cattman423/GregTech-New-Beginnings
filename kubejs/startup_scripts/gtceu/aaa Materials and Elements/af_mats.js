@@ -135,22 +135,6 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(DULL)
         .flags(plates, gear, small_gear, bolt_and_screw, long_rod, frame)
 
-    event.create('rose_quartz')
-        .gem()
-        .fluid()
-        .components('8x redstone', '1x flint')
-        .color(0xeb4b4b)
-        .iconSet(GEM_HORIZONTAL)
-        .flags(plates, rod, lens, mortar_grind)
-
-    event.create('enriched_certus')
-        .gem()
-        .element('enriched_certus')
-        .color(0x99bbff)
-        .secondaryColor(0x6dacc5)
-        .iconSet(CERTUS)
-        .flags(lens, no_plate_compressor_craft)
-
     event.create('prasiolite')
         .gem()
         .components('5x silicon', '10x oxygen', 'iron')
@@ -353,7 +337,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .gem()
         .color(0x9544FF)
         .iconSet(CERTUS)
-        .components('redstone', 'nether_quartz', 'enriched_certus')
+        .components('redstone', 'nether_quartz', 'charged_certus')
         .flags(lens)
 
 //NuclearCraft

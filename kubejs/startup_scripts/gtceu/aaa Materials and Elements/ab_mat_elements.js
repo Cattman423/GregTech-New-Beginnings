@@ -129,7 +129,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .ingot()
         .fluid()
         .element('protonium')
-        .color(0xFF0000, false)
+        .color(0x232020).secondaryColor(0xFF0000)
         .secondaryColor(0xFF7F7F)
         .iconSet(RADIOACTIVE)
 

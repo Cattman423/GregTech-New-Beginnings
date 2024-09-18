@@ -10,8 +10,10 @@
   * Fixed missing lang for Soul Soil ores
 * Tags
   * Fixed missing tags for Soul Soil ores, now correctly minable with pickaxe or shovel
-* Recipes
-  * Removed the ability to use non gregified piston recipe
+* Quests
+  * Moving Power quest in Clockwork Age now only requires one prerequisite quest to be completed
+  * Lv Energy Converter quest in Clockwork Age now accepts any Lv amperage energy converter
+  * Removed quests to exchange Create Precision Mechanism and Create:TFMG Steel Mechanism with their pack counterparts
 * Machines
   * Singleblock Machines
     * Added Decay Hastener
@@ -19,6 +21,18 @@
     * Added Isotope Separator
   * Multiblock Machines
     * Added Large Decay Hastener
+* Items
+  * Additions
+    * Added Naquadah-doped Monocrystalline Certus Boule
+    * Added Neutronium-doped Monocrystalline Certus Boule
+  * Name Changes
+    * Renamed Certus-doped Monocrystalline Silicon Boule to Monocrystalline Certus Boule
+* Recipes
+  * Removed the ability to use non gregified piston recipe
+  * Fixed Wöhler Aluminium plates not being craftable in the Helve Hammer
+  * Once again fixed the Create:TFMG Crude Oil => GTCEU Oil recipe
+  * Tweaked Monocrystalline Certus Boule recipe
+  * Certus wafers can now be made from Naquadah-doped and Neutronium-doped Monocrystalline Certus Boules in addition to Monocrystalline Certus Boules
 * Materials
   * Additions
     * Added Berkelium
@@ -45,6 +59,7 @@
     * Added Gadolinium
     * Added Hard Carbon
     * Added Jade
+    * Added Kunzite
     * Added Lithium Manganese Dioxide
     * Added Manganosite
     * Added Nepheline
@@ -65,13 +80,8 @@
     * Added Vibrant Alloy
     * Added Villiaumite
     * Added Zircaloy
-  * Unifications
-    * Unified GT Certus Quartz and AE2 Certus Quartsz
-    * Unified GT Enriched Certus Quartz with AE2 Charged Certus Quartz
-    * Unified GT Redstone Alloy with Ender IO Redstone Alloy
-  * Renaming
-    * Renamed Enriched Certus Quartz to Charged Certus Quartz
   * Modifications
+    * Replaced Enriched Certus Quartz with Charged Certus Quartz
     * Added material liquid for all materials with an ingot form
     * Desh now requires an Mv EBF with Cupronickel coils
     * Ostrum now requires an Hv EBF with Kanthal Coils
@@ -85,11 +95,17 @@
     * Added ore to Chromium
     * Added ore to Draconium
     * Added ore to Enriched Naquadah
+    * Added ore to LepidoliteS
     * Added ore to Mithril
     * Added ore to Perlite
+    * Added ore to Rose Quartz
     * Added ore to Rutile
     * Added ore to Titanium
     * Added ore to Uvarovite
+  * Unifications
+    * Unified GT Certus Quartz and AE2 Certus Quartsz
+    * Unified GT Charged Certus Quartz with AE2 Charged Certus Quartz
+    * Unified GT Redstone Alloy with Ender IO Redstone Alloy
 * Ore Veins
   * Additions
     * Added Ardite (Ardite, Amethyst, Rutile) vein to Venus
@@ -114,17 +130,19 @@
     * Added Nickel (Garnierite, Nickel, Cobaltite, Pentlandite) vein to Mars and Venus
     * Added Palladium (Platinum, Chromium ,Sheldonite, Palladium) vein to Mercury
     * Added Pitchblende (Pitchblende, Uraninite) to Venus
-    * Added Quartzite (Quartzite, Barite, Certus Quartz) vein to the Moon, Mars and Venus
+    * Added Certus Quartz (Quartzite, Barite, Certus Quartz, Charged Certus Quartz) vein to the Moon, Mars and Venus
     * Added Redstone (Redstone, Ruby, Cinnabar) vein to Mars, Mercury and Venus
     * Added Rhodochrosite (Rhodochrosite, Silver) vein to Mars
     * Added Rutile (Rutile, Titanium, Bauxite, Calorite) vein to Venus
     * Added Salts (Rock Salt, Salt, Lepidolite, Spodumene) vein to Mars
+    * Added Spodumene (Spodumene, Kunzite, Lepidolite, Rose Quartz) vein to the Overworld
     * Added Sulfur (Sulfur, Pyrite, Sphalerite) vein to Mars and Venus
     * Added Tetrahedrite (Tetrahedrite, Copper, Stibnite) vein to Mars and Venus
     * Added Nepheline (Nepheline, Biotite, Titanite, Villiaumite) vein to Mars
   * Modifications
     * Fixed Naquadah, Pitchblende, Scheelite veins not spawning on Mars
     * Moved Sheldonite vein to the Moon
+    * Added Charged Certus Quartz Ore to Certus veins in the Nether
 * Bedrock Fluid Deposits
   * Added Chlorobenzene deposit to the Moon
   * Added CO2 deposit to Venus
@@ -145,7 +163,31 @@
     * Added Panda's Falling Trees
   * Mod Updates
     * Amendments v1.2.11
+    * Artifacts v9.5.13
+    * CC: Tweaked v1.113.1
+    * ChoiceTheorem's Overhauled Village v3.4.7
+    * Colorful Hearts v4.3.16
+    * CorgiLib v4.0.3.2
+    * Create v0.5.1.h
+    * Create: Big Cannons v5.5.1
+    * Create: Connected v0.9.0
+    * Create: Encased v1.6.1-fix3
+    * Create: Steam and Rails v1.6.5
+    * Create: The Factory Must Grow v0.9.2
+    * Create: Vintage Improvements v0.2.0.3
+    * Draconic Evolution v3.1.2.588
+    * Dummmmmmy v2.0.1
+    * Enhanced Celestials v5.0.1.0
+    * Entity Texture Features v6.2.4
+    * ExtendedAE v1.1.14
+    * Gateways to Eternity v4.2.6
     * GregTechCEu Modern v1.4.1+patch.2
+    * Jade v11.11.1
+    * Jade Addons v5.3.1
     * Just Enough Items v15.19.0.88
     * LDLib v1.0.27.b
+    * ME Requester v1.1.5
+    * Neat v1.20-37-FORGE
     * Supplementaries v2.8.17
+    * Waystones v14.1.5
+    * Workshop for Handsome Adventurer v1.15.2

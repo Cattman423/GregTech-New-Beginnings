@@ -139,11 +139,12 @@ GTCEuStartupEvents.materialModification(/*'gtceu:material',*/ event => {
     gem('coke', 'tfmg:coal_coke')
     gem('cognitive_crystal', 'experienceobelisk:cognitive_crystal')
     gem('certus_quartz', 'ae2:certus_quartz_crystal')
-    gem('enriched_certus', 'ae2:charged_certus_quartz_crystal')
+    gem('charged_certus', 'ae2:charged_certus_quartz_crystal')
     gem('fluix', 'ae2:fluix_crystal')
 
 //Formulas
     //GTMaterials.get('').setFormula('', true)
     GTMaterials.get('soularium').setFormula('?AuC', true)
     GTMaterials.get('ulexite').setFormula('NaCaB5O6(OH)6(H2O)5', true)
+    GTMaterials.get('charged_certus').setFormula('SiO2+', true)
 })

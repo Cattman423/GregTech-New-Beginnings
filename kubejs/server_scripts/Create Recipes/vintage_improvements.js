@@ -106,7 +106,7 @@ ServerEvents.recipes(event => {
         .hammerBlows(5)
     event.recipes.vintageimprovementsHammering(
         Item.of('gtceu:wohler_aluminium_plate', 2), 
-        ['tfmg:aluminum_alloy', 'tfmg:aluminum_alloy', 'tfmg:aluminum_alloy'])
+        ['tfmg:aluminum_ingot', 'tfmg:aluminum_ingot', 'tfmg:aluminum_ingot'])
         .hammerBlows(5)
 
 //Lathe

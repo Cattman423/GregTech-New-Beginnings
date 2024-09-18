@@ -2,6 +2,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
 
 const $OreProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.OreProperty');
 const $IngotProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.IngotProperty');
+const $GemProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.GemProperty');
 const $FluidProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.FluidProperty');
 const $FluidBuilder = Java.loadClass('com.gregtechceu.gtceu.api.fluids.FluidBuilder'); 
 const $FluidStorageKeys = Java.loadClass('com.gregtechceu.gtceu.api.fluids.store.FluidStorageKeys');
@@ -107,6 +108,7 @@ const $DustProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.ma
     GTMaterials.Holmium.setProperty(PropertyKey.INGOT, new $IngotProperty())
     GTMaterials.Iridium.setProperty(PropertyKey.ORE, new $OreProperty())
     GTMaterials.Lithium.setProperty(PropertyKey.INGOT, new $IngotProperty())
+    GTMaterials.Lepidolite.setProperty(PropertyKey.GEM, new $GemProperty())
     GTMaterials.Magnesium.setProperty(PropertyKey.INGOT, new $IngotProperty())
     GTMaterials.NaquadahEnriched.setProperty(PropertyKey.ORE, new $OreProperty())
     GTMaterials.Neptunium.setProperty(PropertyKey.DUST, new $DustProperty())
@@ -166,6 +168,7 @@ const $DustProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.ma
     GTMaterials.Lapis.addFlags(lens)
     GTMaterials.Lazurite.addFlags(lens)
     GTMaterials.Lead.addFlags(round, frame)
+    GTMaterials.Lepidolite.addFlags(lens)
     GTMaterials.Lithium.addFlags(plates)
     GTMaterials.Malachite.addFlags(lens)
     GTMaterials.Monazite.addFlags(lens)

@@ -313,8 +313,8 @@
 			id: "3A923127933944EF"
 			optional: true
 			tasks: [{
-				id: "3DE4A0DA5D7945A7"
-				item: "gtceu:enriched_certus_lens"
+				id: "1869AD5F3E9D8D94"
+				item: "gtceu:charged_certus_lens"
 				type: "item"
 			}]
 			x: -4.5d
@@ -823,6 +823,17 @@
 			}]
 			x: -0.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "7FC90C4731D72646"
+			tasks: [{
+				id: "5AE2181FEA16F71E"
+				item: "gtceu:kunzite_lens"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
 		}
 	]
 	title: "Lenses"
