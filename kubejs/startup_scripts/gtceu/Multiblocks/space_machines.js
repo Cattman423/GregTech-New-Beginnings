@@ -10,6 +10,8 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 GTCEuStartupEvents.registry('gtceu:machine', event => {
 //Steam Engine space_production
     event.create('basic_launch_facility', 'multiblock')
+        .tooltips(Component.translatable("gtceu.machine.available_recipe_map_1.tooltip",
+                Component.translatable("gtceu.basic_launch_facility")))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('basic_launch_facility')
         .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)

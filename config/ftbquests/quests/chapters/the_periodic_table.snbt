@@ -1489,13 +1489,12 @@
 		{
 			dependencies: ["2AF48E6902C16848"]
 			id: "26588F61B1C85743"
-			optional: true
 			tasks: [{
-				id: "2B1FFFE807B44658"
-				item: "minecraft:bedrock"
+				id: "1D87C2015DEFF835"
+				item: "gtceu:oganesson_bucket"
 				type: "item"
 			}]
-			title: "Oganesson [NYI]"
+			title: "Oganesson"
 			x: 8.5d
 			y: 1.0d
 		}
@@ -1595,8 +1594,8 @@
 			dependencies: ["2AF48E6902C16848"]
 			id: "4461EC361879F2C6"
 			tasks: [{
-				id: "0B9BED51B8139E5D"
-				item: "gtceu:stellar_matter_plasma_bucket"
+				id: "2A127BC7A678DD58"
+				item: "gtceu:stellar_matter_dust"
 				type: "item"
 			}]
 			x: 6.5d

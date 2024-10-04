@@ -646,4 +646,13 @@ ServerEvents.recipes(event => {
         )
         .EUt(hv)
         .duration(100)
+
+    const fuel_rep = ['hv', 'ev', 'iv', 'luv', 'zpm', 'uv', 'uhv', 'uev', 'uiv', 'uxv', 'opv']
+
+    fuel_rep.forEach( (base) => {
+        event.shaped(
+            Item.of('gtceu:' + base + '_fuel_reprocessor'), ['EBE', 'CDC', 'EAE'],
+            {A: 'gtceu:' + base + '_electric_piston', B: 'gtceu:' + base + '_electric_motor', C: '#gtceu:circuits/' + base, 
+            D: 'gtceu:' + base + '_machine_hull', E: 'nuclearcraft:plate_basic'})
+    })
 })

@@ -1,21 +1,5 @@
 GTCEuStartupEvents.materialModification(/*'gtceu:material',*/ event => {
 
-//Byproducts
-    GTMaterials.Sphalerite.getProperty(PropertyKey.ORE).setOreByProducts(GTMaterials.Germanium)
-    GTMaterials.Silver.getProperty(PropertyKey.ORE).setOreByProducts(GTMaterials.Germanium)
-    GTMaterials.Lead.getProperty(PropertyKey.ORE).setOreByProducts(GTMaterials.Germanium)
-    GTMaterials.Galena.getProperty(PropertyKey.ORE).setOreByProducts(GTMaterials.Germanium)
-    GTMaterials.Copper.getProperty(PropertyKey.ORE).setOreByProducts(GTMaterials.Germanium)
-    GTMaterials.get('titanite').getProperty(PropertyKey.ORE).setOreByProducts(
-        GTMaterials.get('titanite'), GTMaterials.Iron, GTMaterials.Thorium, GTMaterials.Cerium
-    )
-    GTMaterials.get('nepheline').getProperty(PropertyKey.ORE).setOreByProducts(
-        GTMaterials.Magnetite, GTMaterials.Ilmenite, GTMaterials.Apatite, GTMaterials.get('titanite')
-    )
-    GTMaterials.Borax.getProperty(PropertyKey.ORE).setOreByProducts(
-        GTMaterials.Borax, GTMaterials.Borax, GTMaterials.Lithium
-    )
-
 //Functions
     function ingot (mat, item){
         TagPrefix.ingot['setIgnored(com.gregtechceu.gtceu.api.data.chemical.material.Material,java.util.function.Supplier[])'](GTMaterials.get(mat), 
@@ -142,9 +126,29 @@ GTCEuStartupEvents.materialModification(/*'gtceu:material',*/ event => {
     gem('charged_certus', 'ae2:charged_certus_quartz_crystal')
     gem('fluix', 'ae2:fluix_crystal')
 
+//Byproducts
+    GTMaterials.Sphalerite.getProperty(PropertyKey.ORE).setOreByProducts(GTMaterials.Germanium)
+    GTMaterials.Silver.getProperty(PropertyKey.ORE).setOreByProducts(GTMaterials.Germanium)
+    GTMaterials.Lead.getProperty(PropertyKey.ORE).setOreByProducts(GTMaterials.Germanium)
+    GTMaterials.Galena.getProperty(PropertyKey.ORE).setOreByProducts(GTMaterials.Germanium)
+    GTMaterials.Copper.getProperty(PropertyKey.ORE).setOreByProducts(GTMaterials.Germanium)
+    GTMaterials.get('titanite').getProperty(PropertyKey.ORE).setOreByProducts(
+        GTMaterials.get('titanite'), GTMaterials.Iron, GTMaterials.Thorium, GTMaterials.Cerium
+    )
+    GTMaterials.get('nepheline').getProperty(PropertyKey.ORE).setOreByProducts(
+        GTMaterials.Magnetite, GTMaterials.Ilmenite, GTMaterials.Apatite, GTMaterials.get('titanite')
+    )
+    GTMaterials.Borax.getProperty(PropertyKey.ORE).setOreByProducts(
+        GTMaterials.Borax, GTMaterials.Borax, GTMaterials.Lithium
+    )
+
 //Formulas
     //GTMaterials.get('').setFormula('', true)
     GTMaterials.get('soularium').setFormula('?AuC', true)
     GTMaterials.get('ulexite').setFormula('NaCaB5O6(OH)6(H2O)5', true)
     GTMaterials.get('charged_certus').setFormula('SiO2+', true)
+    GTMaterials.get('stabilized_oganesson').setFormula('Og*', true)
+
+//Iconsets
+    GTMaterials.Neutronium.setMaterialIconSet(GTMaterialIconSet.RADIOACTIVE)
 })

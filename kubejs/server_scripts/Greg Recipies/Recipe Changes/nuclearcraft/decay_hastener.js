@@ -40,4 +40,41 @@ ServerEvents.recipes(event => {
     decay('americium_243', 'nuclearcraft:americium_243', 'nuclearcraft:plutonium_238')
     decay('plutonium_241', 'nuclearcraft:plutonium_241', 'nuclearcraft:neptunium_237')
     decay('plutonium_242', 'nuclearcraft:plutonium_242', 'nuclearcraft:uranium_238')
+
+    const ad_dec_hast = ['hv', 'ev']
+    const el_dec_hast = ['iv', 'luv']
+    const ul_dec_hast = ['zpm', 'uv']
+    const ep_dec_hast = ['uhv', 'uev']
+    const le_dec_hast = ['uiv', 'uxv', 'opv']
+
+    ad_dec_hast.forEach( (base) => {
+        event.shaped(
+            Item.of('gtceu:' + base + '_decay_hastener'), ['ABA', 'CDC', 'EBE'],
+            {A: 'gtceu:tempered_glass', B: 'gtceu:' + base + '_electric_motor', C: '#gtceu:circuits/' + base,
+            D: 'gtceu:' + base + '_machine_hull', E: 'nuclearcraft:plate_basic'})
+    })
+    el_dec_hast.forEach( (base) => {
+        event.shaped(
+            Item.of('gtceu:' + base + '_decay_hastener'), ['ABA', 'CDC', 'EBE'],
+            {A: 'gtceu:laminated_glass', B: 'gtceu:' + base + '_electric_motor', C: '#gtceu:circuits/' + base,
+            D: 'gtceu:' + base + '_machine_hull', E: 'nuclearcraft:plate_advanced'})
+    })
+    ul_dec_hast.forEach( (base) => {
+        event.shaped(
+            Item.of('gtceu:' + base + '_decay_hastener'), ['ABA', 'CDC', 'EBE'],
+            {A: 'gtceu:fusion_glass', B: 'gtceu:' + base + '_electric_motor', C: '#gtceu:circuits/' + base,
+            D: 'gtceu:' + base + '_machine_hull', E: 'nuclearcraft:plate_du'})
+    })
+    ep_dec_hast.forEach( (base) => {
+        event.shaped(
+            Item.of('gtceu:' + base + '_decay_hastener'), ['ABA', 'CDC', 'EBE'],
+            {A: 'gtceu:fusion_glass', B: 'gtceu:' + base + '_electric_motor', C: '#gtceu:circuits/' + base,
+            D: 'gtceu:' + base + '_machine_hull', E: 'nuclearcraft:plate_elite'})
+    })
+    le_dec_hast.forEach( (base) => {
+        event.shaped(
+            Item.of('gtceu:' + base + '_decay_hastener'), ['ABA', 'CDC', 'EBE'],
+            {A: 'gtceu:fusion_glass', B: 'gtceu:' + base + '_electric_motor', C: '#gtceu:circuits/' + base,
+            D: 'gtceu:' + base + '_machine_hull', E: 'nuclearcraft:plate_extreme'})
+    })
 })

@@ -17,6 +17,8 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 GTCEuStartupEvents.registry('gtceu:machine', event => {
 //Arboretum
     event.create('arboretum', 'multiblock')
+        .tooltips(Component.translatable("gtceu.machine.available_recipe_map_2.tooltip",
+                Component.translatable("gtceu.logging"), Component.translatable("gtceu.orchard")))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeTypes(['gtceu:logging', 'gtceu:orchard'])
         .appearanceBlock(() => Block.getBlock('kubejs:agri_casing'))

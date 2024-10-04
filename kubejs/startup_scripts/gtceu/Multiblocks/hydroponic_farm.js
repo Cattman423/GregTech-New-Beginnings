@@ -10,6 +10,8 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 GTCEuStartupEvents.registry('gtceu:machine', event => {
 //Hydroponic Farm
     event.create('hydroponic_farm', 'multiblock')
+        .tooltips(Component.translatable("gtceu.machine.available_recipe_map_1.tooltip",
+                Component.translatable("gtceu.hydroponic_farm")))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('hydroponic_farm')
         .appearanceBlock(() => Block.getBlock('kubejs:agri_casing'))

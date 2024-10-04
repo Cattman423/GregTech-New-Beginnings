@@ -171,7 +171,7 @@ ServerEvents.tags('item', event => {
     const nukeingot = ['manganese_oxide', 'niobium_tin', 'lithium', 'yttrium', 'thorium', 'palladium', 'beryllium', 'silicon_carbide', 'extreme', 'tungsten_carbide', 
         'stainless_steel', 'magnesium', 'sodium', 'niobium_titanium', 'tough_alloy', 'potassium', 'ferroboron', 'titanium', 'aluminum', 'manganese', 'hard_carbon', 'niobium', 
         'zirconium', 'chromium', 'calcium', 'strontium', 'lithium_manganese_dioxide', 'osmiridium', 'hsla_steel', 'nichrome', 'boron', 'magnesium_diboride', 'hafnium', 
-        'thermoconducting']
+        'thermoconducting', 'zircaloy']
     nukeingot.forEach( (base) => {
         event.removeAllTagsFrom('nuclearcraft:' + base + '_ingot')
     })
@@ -183,6 +183,7 @@ ServerEvents.tags('item', event => {
     const nukenug = ['magnesium', 'aluminum', 'lithium', 'thorium', 'beryllium', 'zirconium', 'boron']
     nukenug.forEach( (base) => {
         event.removeAllTagsFrom('nuclearcraft:' + base + '_nugget')
+        event.removeAllTagsFrom('nuclearcraft:' + base + '_block')
     })
     const nukegem = ['boron_arsenide', 'carobbiite', 'villiaumite', 'fluorite', 'rhodochrosite', 'boron_nitride']
     nukegem.forEach( (base) => {
@@ -192,7 +193,7 @@ ServerEvents.tags('item', event => {
         'stainless_steel', 'magnesium', 'sodium', 'niobium_titanium', 'tough_alloy', 'potassium', 'ferroboron', 'titanium', 'aluminum', 'manganese', 'hard_carbon', 'niobium', 
         'zirconium', 'chromium', 'calcium', 'strontium', 'lithium_manganese_dioxide', 'osmiridium', 'hsla_steel', 'nichrome', 'boron', 'magnesium_diboride', 'hafnium', 
         'thermoconducting', 'boron_arsenide', 'carobbiite', 'villiaumite', 'fluorite', 'rhodochrosite', 'boron_nitride', 'barium', 'germanium', 'molybdenum', 'borax', 
-        'potassium_hydroxide', 'iodine', 'neodymium', 'sodium_hydroxide', 'samarium', 'arsenic', 'potassium_iodide', 'bismuth']
+        'potassium_hydroxide', 'iodine', 'neodymium', 'sodium_hydroxide', 'samarium', 'arsenic', 'potassium_iodide', 'bismuth', 'zircaloy']
     nukedust.forEach( (base) => {
         event.removeAllTagsFrom('nuclearcraft:' + base + '_dust')
     })

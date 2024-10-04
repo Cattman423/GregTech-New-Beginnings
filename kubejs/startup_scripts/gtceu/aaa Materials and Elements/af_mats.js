@@ -1,87 +1,5 @@
 GTCEuStartupEvents.registry('gtceu:material', event => {
 
-// Icon Sets
-    const DULL = GTMaterialIconSet.DULL;
-    const METALLIC = GTMaterialIconSet.METALLIC;
-    const MAGNETIC = GTMaterialIconSet.MAGNETIC;
-    const SHINY = GTMaterialIconSet.SHINY;
-    const BRIGHT = GTMaterialIconSet.BRIGHT;
-    const DIAMOND = GTMaterialIconSet.DIAMOND;
-    const EMERALD = GTMaterialIconSet.EMERALD;
-    const GEM_HORIZONTAL = GTMaterialIconSet.GEM_HORIZONTAL;
-    const GEM_VERTICAL = GTMaterialIconSet.GEM_VERTICAL;
-    const RUBY = GTMaterialIconSet.RUBY;
-    const OPAL = GTMaterialIconSet.OPAL;
-    const GLASS = GTMaterialIconSet.GLASS;
-    const NETHERSTAR = GTMaterialIconSet.NETHERSTAR;
-    const FINE = GTMaterialIconSet.FINE;
-    const SAND = GTMaterialIconSet.SAND;
-    const WOOD = GTMaterialIconSet.WOOD;
-    const ROUGH = GTMaterialIconSet.ROUGH;
-    const FLINT = GTMaterialIconSet.FLINT;
-    const LIGNITE = GTMaterialIconSet.LIGNITE;
-    const QUARTZ = GTMaterialIconSet.QUARTZ;
-    const CERTUS = GTMaterialIconSet.CERTUS;
-    const LAPIS = GTMaterialIconSet.LAPIS;
-    const FLUID = GTMaterialIconSet.FLUID;
-    const RADIOACTIVE = GTMaterialIconSet.RADIOACTIVE;
-    const INFINITY = GTMaterialIconSet.getByName('infinity');
-    const STELLAR_MATTER = GTMaterialIconSet.getByName('stellar_matter');
-    const SUB_ATOMIC = GTMaterialIconSet.getByName('sub_atomic');
-    const EXPERIENCE = GTMaterialIconSet.getByName('experience')
-
-// Flags
-// Generic flags
-    const no_unify = GTMaterialFlags.NO_UNIFICATION;
-    const electrolyze = GTMaterialFlags.DECOMPOSITION_BY_ELECTROLYZING;
-    const centrifuge = GTMaterialFlags.DECOMPOSITION_BY_CENTRIFUGING;
-    const no_decomp = GTMaterialFlags.DISABLE_DECOMPOSITION;
-    const explosive = GTMaterialFlags.EXPLOSIVE;
-    const flammable = GTMaterialFlags.FLAMMABLE;
-    const sticky = GTMaterialFlags.STICKY;
-    const phosphorescent = GTMaterialFlags.PHOSPHORESCENT;
-// Generation Flags
-// Dust Flags
-    const plates = GTMaterialFlags.GENERATE_PLATE;
-    const dense_plate = GTMaterialFlags.GENERATE_DENSE;
-    const rod = GTMaterialFlags.GENERATE_ROD;
-    const bolt_and_screw = GTMaterialFlags.GENERATE_BOLT_SCREW;
-    const frame = GTMaterialFlags.GENERATE_FRAME;
-    const gear = GTMaterialFlags.GENERATE_GEAR;
-    const long_rod = GTMaterialFlags.GENERATE_LONG_ROD;
-    const block = GTMaterialFlags.FORCE_GENERATE_BLOCK;
-// Ingot Flags
-    const foil = GTMaterialFlags.GENERATE_FOIL;
-    const ring = GTMaterialFlags.GENERATE_RING;
-    const spring = GTMaterialFlags.GENERATE_SPRING;
-    const small_spring = GTMaterialFlags.GENERATE_SPRING_SMALL;
-    const small_gear = GTMaterialFlags.GENERATE_SMALL_GEAR;
-    const fine_wire = GTMaterialFlags.GENERATE_FINE_WIRE;
-    const rotor = GTMaterialFlags.GENERATE_ROTOR;
-    const round = GTMaterialFlags.GENERATE_ROUND;
-    const magnetic = GTMaterialFlags.IS_MAGNETIC;
-// Gem Flags
-    const crystallizable = GTMaterialFlags.CRYSTALLIZABLE;
-    const lens = GTMaterialFlags.GENERATE_LENS;
-// Fluid Flags
-    const solder_mat = GTMaterialFlags.SOLDER_MATERIAL;
-    const solder_mat_bad = GTMaterialFlags.SOLDER_MATERIAL_BAD;
-    const solder_mat_good = GTMaterialFlags.SOLDER_MATERIAL_GOOD;
-// Ore Flags
-    const more_sifter = GTMaterialFlags.HIGH_SIFTER_OUTPUT;
-// Misc
-    const no_block_craft = GTMaterialFlags.EXCLUDE_BLOCK_CRAFTING_RECIPES;
-    const no_plate_compressor_craft = GTMaterialFlags.EXCLUDE_PLATE_COMPRESSOR_RECIPE;
-    const no_hand_craft = GTMaterialFlags.EXCLUDE_BLOCK_CRAFTING_BY_HAND_RECIPES;
-    const mortar_grind = GTMaterialFlags.MORTAR_GRINDABLE;
-    const no_working = GTMaterialFlags.NO_WORKING;
-    const no_smashing = GTMaterialFlags.NO_SMASHING;
-    const no_smelt = GTMaterialFlags.NO_SMELTING;
-    const blast_furnace_double = GTMaterialFlags.BLAST_FURNACE_CALCITE_DOUBLE;
-    const blast_furnace_triple = GTMaterialFlags.BLAST_FURNACE_CALCITE_TRIPLE;
-    const no_abs_recipe = GTMaterialFlags.DISABLE_ALLOY_BLAST;
-    const not_alloy = GTMaterialFlags.DISABLE_ALLOY_PROPERTY;
-
 //Netherite Line
     event.create('netherite_scrap')
         .ingot()
@@ -215,7 +133,8 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0x5A5A5A)
         .iconSet(SHINY)
         .flags(plates)
-        .blastTemp(10800, 'highest', 1966080, 1200)
+        .blastTemp(9000, 'highest', 122880, 600)
+        .cableProperties(Uv, 6, 2, false)
 
     event.create('ether')
         .gas()
@@ -228,9 +147,9 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .fluid()
         .color(0x575366).secondaryColor(0xF5FAE1)
         .components('shadow_steel', 'refined_radiance')
-        .blastTemp(13000, 'higher', 1966080, 2400)
+        .blastTemp(10000, 'higher', AUIv, 2400)
         .iconSet(DULL)
-        .flags(no_decomp)
+        .flags(no_decomp, plates)
 
     event.create('void_steel')
         .ingot()
@@ -254,7 +173,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0x9261CC)
         .components('cobalt', 'ardite')
         .iconSet(METALLIC)
-        .flags(no_decomp, plates)
+        .flags(no_decomp, plates, foil)
         .toolStats(ToolProperty.Builder.of(9.0, 7.0, 2048, 4).enchantability(14).build())
         .blastTemp(4500, 'high', 7680, 2400)
 
@@ -264,7 +183,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0x473136)
         .iconSet(METALLIC)
         .components('netherite', '4x steel')
-        .blastTemp(2000, 'mid', 480, 2400)
+        .blastTemp(2000, 'mid', AHv, 2400)
 
     event.create('argent_gunmetal')
         .ingot()
@@ -307,7 +226,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0x2c9124)
         .iconSet(METALLIC)
         .components('4x nickel', '3x chromium', 'molybdenum')
-        .blastTemp(3000, 'mid', 1920, 6000)
+        .blastTemp(3000, 'mid', AEv, 6000)
         .flags(rod, plates, frame)
 
     event.create('cognitive_flux')
@@ -323,7 +242,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0x3B466A).secondaryColor(0x202430)
         .iconSet(EXPERIENCE)
         .components('4x copper', 'cognitive_amalgam')
-        .blastTemp(1200, 'low', 120, 2400)
+        .blastTemp(1200, 'low', AMv, 2400)
         .flags(no_decomp, plates)
 
     event.create('cognitive_crystal')
@@ -339,6 +258,14 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(CERTUS)
         .components('redstone', 'nether_quartz', 'charged_certus')
         .flags(lens)
+
+    event.create('stabilized_oganesson')
+        .ingot()
+        .fluid()
+        .color(0x443936).secondaryColor(0xff1dbd)
+        .iconSet(RADIOACTIVE)
+        .components('oganesson')
+        .flags(plates)
 
 //NuclearCraft
     event.create('manganese_oxide')
@@ -546,6 +473,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(METALLIC)
         .components('endstone', 'dark_steel', 'obsidian')
         .blastTemp(4500, 'mid', 1920, 1200)
+        .cableProperties(UEv, 2, 48, false)
 
     event.create('conduit_binder_composite')
         .dust()

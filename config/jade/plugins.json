@@ -119,6 +119,9 @@
   "waystones": {
     "waystone": true
   },
+  "gravestone": {
+    "grave": true
+  },
   "cookingforblockheads": {
     "fridge": true,
     "oven": true,
@@ -134,14 +137,6 @@
   },
   "enderchests": {
     "hud": true
-  },
-  "pneumaticcraft": {
-    "pneumatic": true,
-    "tube_module": true,
-    "entity": true,
-    "redstone": true,
-    "camo": true,
-    "semiblock": true
   },
   "gtceu": {
     "primitive_pump": true,

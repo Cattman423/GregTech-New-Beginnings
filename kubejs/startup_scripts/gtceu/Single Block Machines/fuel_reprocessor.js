@@ -10,7 +10,7 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 GTCEuStartupEvents.registry('gtceu:machine', event => {
 //Singleblock
     event.create('fuel_reprocessor', 'simple', GTValues.HV, GTValues.EV, GTValues.IV, GTValues.LuV, GTValues.ZPM, GTValues.UV, GTValues.UHV, 
-            GTValues.UEV, GTValues.UIV, GTValues.UXV, GTValues.OpV, GTValues.MAX) // 
+            GTValues.UEV, GTValues.UIV, GTValues.UXV, GTValues.OpV) // 
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('fuel_reprocessor', true, true)
         .tankScalingFunction(tier => tier * 3200)
@@ -18,6 +18,9 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 
 //Multiblock
     event.create('fuel_reprocessor_multi', 'multiblock')
+        .tooltips(Component.translatable("gtceu.multiblock.parallelizable.tooltip"))
+        .tooltips(Component.translatable("gtceu.machine.available_recipe_map_1.tooltip",
+                Component.translatable("gtceu.fuel_reprocessor")))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('fuel_reprocessor')
         .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.PERFECT_OVERCLOCK)])

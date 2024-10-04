@@ -37,4 +37,13 @@ ServerEvents.recipes(event => {
     isotope_sep('leu_233', '9x nuclearcraft:fuel_uranium_leu_233', 'nuclearcraft:uranium_233', '8x nuclearcraft:uranium_238', sec*20)
     isotope_sep('hep_241', '9x nuclearcraft:fuel_plutonium_hep_241', '3x nuclearcraft:plutonium_241', '6x nuclearcraft:plutonium_242', sec*20)
     isotope_sep('hea_242', '9x nuclearcraft:fuel_americium_hea_242', '3x nuclearcraft:americium_242', '6x nuclearcraft:americium_243', sec*20)
+
+    const iso_sep = ['hv', 'ev', 'iv', 'luv', 'zpm', 'uv', 'uhv', 'uev', 'uiv', 'uxv', 'opv']
+
+    iso_sep.forEach( (base) => {
+        event.shaped(
+            Item.of('gtceu:' + base + '_isotope_separator'), ['EBE', 'ADA', 'CBC'],
+            {A: 'gtceu:' + base + '_electric_piston', B: 'gtceu:item_filter', C: '#gtceu:circuits/' + base, 
+            D: 'gtceu:' + base + '_machine_hull', E: 'nuclearcraft:plate_basic'})
+    })
 })

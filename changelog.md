@@ -8,6 +8,7 @@
   * Reduced the detection delay for FTB Quests
 * Lang
   * Fixed missing lang for Soul Soil ores
+  * Added Tooltips to custom multiblocks that indicate if they can parallelize and what recipes they can run
 * Tags
   * Fixed missing tags for Soul Soil ores, now correctly minable with pickaxe or shovel
 * Quests
@@ -21,6 +22,18 @@
     * Added Isotope Separator
   * Multiblock Machines
     * Added Large Decay Hastener
+    * Added Large Fuel Reprocessor
+    * Added Large Isotope Separator
+    * Changed Circuit Assemmbly Line to use Sturdy HSS-E Machine Casings instead of Solid Machine Casings
+  * Machine Coils
+    * Added HSS-S Coil with a temp of 6300k
+    * Changed Mithril Coil temp to 8100k
+    * Changed Chadium Coil temp to 9900k
+    * Changed Awakened Draconium Coil temp to 11700k
+    * Changed Stellar Matter Coil temp to 12600k
+    * Changed Infinity coil temp to 13500k
+    * Reworked coil crafting recipies to use fluid from previous coil tier
+    * Added recipes for HSS-S, Mithril, Chadium, Awakened Draconium, Stellar Matter, and Infinity coils
 * Items
   * Additions
     * Added Naquadah-doped Monocrystalline Certus Boule
@@ -33,6 +46,7 @@
   * Once again fixed the Create:TFMG Crude Oil => GTCEU Oil recipe
   * Tweaked Monocrystalline Certus Boule recipe
   * Certus wafers can now be made from Naquadah-doped and Neutronium-doped Monocrystalline Certus Boules in addition to Monocrystalline Certus Boules
+  * Fixed Circuit Assembly Line recipes for Crystal Processor Mainframes, Wetware Processor Supercomputers and Wetware Processor Mainframes
 * Materials
   * Additions
     * Added Berkelium
@@ -65,6 +79,7 @@
     * Added Nepheline
     * Added Neptunium
     * Added Niobium-Tin
+    * Added Stabilized Oganesson
     * Added Polonium
     * Added Promethium
     * Added Pulsating Alloy
@@ -87,21 +102,43 @@
     * Ostrum now requires an Hv EBF with Kanthal Coils
     * Calorite now requires an Ev EBF with Nichrome Coils
     * Moon Deepslate no longer contains quicklime, can now be processed in an electrolyzer
-    * Added ore to Antimony
-    * Added ore to Arsenic
-    * Added ore to Bismuth
-    * Added ore to Biotite
-    * Added ore to Borax
-    * Added ore to Chromium
-    * Added ore to Draconium
-    * Added ore to Enriched Naquadah
-    * Added ore to LepidoliteS
-    * Added ore to Mithril
-    * Added ore to Perlite
-    * Added ore to Rose Quartz
-    * Added ore to Rutile
-    * Added ore to Titanium
-    * Added ore to Uvarovite
+    * Ores
+      * Added ore to Antimony
+      * Added ore to Arsenic
+      * Added ore to Bismuth
+      * Added ore to Biotite
+      * Added ore to Borax
+      * Added ore to Chromium
+      * Added ore to Draconium
+      * Added ore to Enriched Naquadah
+      * Added ore to LepidoliteS
+      * Added ore to Mithril
+      * Added ore to Perlite
+      * Added ore to Rose Quartz
+      * Added ore to Rutile
+      * Added ore to Titanium
+      * Added ore to Uvarovite
+    * Plates
+      * Added plates to Draconium
+      * Added plates to Awakened Draconium
+    * Wires/Cables
+      * Added UV tier cable to Chadium
+      * Added UV tier cable to Mithril
+      * Added UHV tier cable to HSS-S
+      * Added UEV tier cable to Draconium
+      * Added UIV tier superconductor to Stellar Matter
+      * Added MAX tier superconductor to Awakened Draconium
+      * Added MAX tier superconductor to Infinity
+    * Bolt/screws
+      * Added bolt/screw to Awakened Draconium
+      * Added bolt/screw to Stellar Matter
+      * Added bolt/screw to Infinity
+    * Rods
+      * Added rod to Awakened Draconium
+      * Added rod to Stellar Matter
+      * Added rod to Infinity
+    * Misc
+      * Added foil to Manyullyn
   * Unifications
     * Unified GT Certus Quartz and AE2 Certus Quartsz
     * Unified GT Charged Certus Quartz with AE2 Charged Certus Quartz
@@ -158,6 +195,7 @@
     * Added Ender Chests
     * Added Ender IO
     * Added Ender Tanks
+    * Added GraveStone Mod
     * Added KubeJS EnderIO
     * Added NuclearCraft: Neoteric
     * Added Panda's Falling Trees
@@ -178,14 +216,14 @@
     * Draconic Evolution v3.1.2.588
     * Dummmmmmy v2.0.1
     * Enhanced Celestials v5.0.1.0
-    * Entity Texture Features v6.2.4
+    * Entity Texture Features v6.2.5
     * ExtendedAE v1.1.14
     * Gateways to Eternity v4.2.6
-    * GregTechCEu Modern v1.4.1+patch.2
+    * GregTechCEu Modern v1.4.4
     * Jade v11.11.1
     * Jade Addons v5.3.1
     * Just Enough Items v15.19.0.88
-    * LDLib v1.0.27.b
+    * LDLib v1.0.28.a
     * ME Requester v1.1.5
     * Neat v1.20-37-FORGE
     * Supplementaries v2.8.17

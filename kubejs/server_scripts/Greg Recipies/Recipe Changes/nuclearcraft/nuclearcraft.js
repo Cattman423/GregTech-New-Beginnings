@@ -10,6 +10,11 @@ ServerEvents.recipes(event => {
         '#forge:dusts/energetic_blend',
         'gtceu:energetic_alloy_dust'
         )
+    event.replaceInput(
+        { input: 'nuclearcraft:bioplastic' },
+        'nuclearcraft:bioplastic',
+        'gtceu:polyethylene_plate'
+        )
     event.recipes.gtceu.alloy_smelter('basic_plate')
         .itemInputs('gtceu:graphite_dust', 'gtceu:lead_ingot')
         .itemOutputs('nuclearcraft:plate_basic')
@@ -108,5 +113,130 @@ ServerEvents.recipes(event => {
     heatsinkliquid('water', 'minecraft:water 1000')
     heatsinkliquid('liquid_helium', 'gtceu:helium 1000')
     heatsinkliquid('liquid_nitrogen', 'gtceu:nitrogen 1000')
+
+//Melter and Ingot Former
+    const isotopes = Ingredient.of('#forge:isotopes').itemIds
+
+    isotopes.forEach( (base) => {
+        event.recipes.gtceu.extractor('kubejs:gtceu/extractor/nuclearcraft/' + base.slice(13))
+            .itemInputs(base)
+            .outputFluids(base + ' 144')
+            .duration(sec*5)
+            .EUt(hv)
+        event.recipes.gtceu.fluid_solidifier('kubejs:gtceu/fluid_solidifier/nuclearcraft/' + base.slice(13))
+            .notConsumable('gtceu:ball_casting_mold')
+            .inputFluids(base + ' 144')
+            .itemOutputs(base)
+            .duration(sec)
+            .EUt(ulv)
+    })
+
+    const nukefuel = Ingredient.of('#nuclearcraft:reactor_fuel').itemIds.filter((name) => {
+        return name.includes('_tr') == false
+    })
+
+    nukefuel.forEach( (base) => {
+        event.recipes.gtceu.extractor('kubejs:gtceu/extractor/nuclearcraft/' + base.slice(13))
+            .itemInputs(base)
+            .outputFluids(base + ' 144')
+            .duration(sec*5)
+            .EUt(hv)
+        event.recipes.gtceu.fluid_solidifier('kubejs:gtceu/fluid_solidifier/nuclearcraft/' + base.slice(13))
+            .notConsumable('gtceu:ball_casting_mold')
+            .inputFluids(base + ' 144')
+            .itemOutputs(base)
+            .duration(sec)
+            .EUt(ulv)
+    })
+
+//TR type Fuel
+    const nukefueltr = Ingredient.of('#nuclearcraft:reactor_fuel').itemIds.filter((name) => {
+        return name.includes('_tr') == true
+    })
+
+    nukefueltr.forEach( (base) => {
+        event.recipes.gtceu.assembler('kubejs:gtceu/assembler/nuclearcraft/' + base.slice(13))
+            .itemInputs(
+                '9x ' + base.slice(0, -3),
+                'gtceu:pyrolytic_carbon_ingot',
+                'gtceu:graphite_dust',
+                'gtceu:silicon_carbide_ingot'
+            )
+            .circuit(16)
+            .itemOutputs('9x ' + base)
+            .duration(sec*10)
+            .EUt(hv)
+    })
+
+//Fluid Infuser
+    const isotopesza = Ingredient.of('#forge:isotopes').itemIds.filter((name) => {
+        return name.includes('_za') == true
+    })
+    const isotopesox = Ingredient.of('#forge:isotopes').itemIds.filter((name) => {
+        return name.includes('_ox') == true
+    })
+    const isotopesni = Ingredient.of('#forge:isotopes').itemIds.filter((name) => {
+        return name.includes('_ni') == true
+    })
+
+    isotopesza.forEach( (base) => {
+        event.recipes.gtceu.canner('kubejs:gtceu/canner/nuclearcraft/' + base.slice(13))
+            .itemInputs(base.slice(0, -3))
+            .inputFluids('gtceu:zircaloy 144')
+            .itemOutputs(base)
+            .duration(sec*10)
+            .EUt(hv)
+    })
+    isotopesox.forEach( (base) => {
+        event.recipes.gtceu.canner('kubejs:gtceu/canner/nuclearcraft/' + base.slice(13))
+            .itemInputs(base.slice(0, -3))
+            .inputFluids('gtceu:oxygen 100')
+            .itemOutputs(base)
+            .duration(sec*10)
+            .EUt(hv)
+    })
+    isotopesni.forEach( (base) => {
+        event.recipes.gtceu.canner('kubejs:gtceu/canner/nuclearcraft/' + base.slice(13))
+            .itemInputs(base.slice(0, -3))
+            .inputFluids('gtceu:nitrogen 100')
+            .itemOutputs(base)
+            .duration(sec*10)
+            .EUt(hv)
+    })
+
+    const nukefuelza = Ingredient.of('#nuclearcraft:reactor_fuel').itemIds.filter((name) => {
+        return name.includes('_za') == true && name.includes('depleted_') == false
+    })
+    const nukefuelox = Ingredient.of('#nuclearcraft:reactor_fuel').itemIds.filter((name) => {
+        return name.includes('_ox') == true && name.includes('depleted_') == false
+    })
+    const nukefuelni = Ingredient.of('#nuclearcraft:reactor_fuel').itemIds.filter((name) => {
+        return name.includes('_ni') == true && name.includes('depleted_') == false
+    })
+
+    nukefuelza.forEach( (base) => {
+        event.recipes.gtceu.canner('kubejs:gtceu/canner/nuclearcraft/' + base.slice(13))
+            .itemInputs(base.slice(0, -3))
+            .inputFluids('gtceu:zircaloy 1296')
+            .itemOutputs(base)
+            .duration(sec*10)
+            .EUt(hv)
+    })
+    nukefuelox.forEach( (base) => {
+        event.recipes.gtceu.canner('kubejs:gtceu/canner/nuclearcraft/' + base.slice(13))
+            .itemInputs(base.slice(0, -3))
+            .inputFluids('gtceu:oxygen 1000')
+            .itemOutputs(base)
+            .duration(sec*10)
+            .EUt(hv)
+    })
+    nukefuelni.forEach( (base) => {
+        event.recipes.gtceu.canner('kubejs:gtceu/canner/nuclearcraft/' + base.slice(13))
+            .itemInputs(base.slice(0, -3))
+            .inputFluids('gtceu:nitrogen 1000')
+            .itemOutputs(base)
+            .duration(sec*10)
+            .EUt(hv)
+    })
 
 })

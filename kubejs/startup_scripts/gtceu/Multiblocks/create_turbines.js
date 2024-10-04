@@ -27,6 +27,8 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 GTCEuStartupEvents.registry('gtceu:machine', event => {
 //Basic Alternator
     event.create('basic_alternator', 'multiblock')
+        .tooltips(Component.translatable("gtceu.machine.available_recipe_map_1.tooltip",
+                Component.translatable("gtceu.basic_alternator")))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('basic_alternator')
         .appearanceBlock(GTBlocks.CASING_BRONZE_BRICKS)
@@ -56,6 +58,8 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         )
 //Advanced Alternator
     event.create('advanced_alternator', 'multiblock')
+        .tooltips(Component.translatable("gtceu.machine.available_recipe_map_1.tooltip",
+                Component.translatable("gtceu.advanced_alternator")))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('advanced_alternator')
         .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
@@ -87,6 +91,8 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         )
 //Extreme Alternator
     event.create('extreme_alternator', 'multiblock')
+        .tooltips(Component.translatable("gtceu.machine.available_recipe_map_1.tooltip",
+                Component.translatable("gtceu.extreme_alternator")))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('extreme_alternator')
         .appearanceBlock(GTBlocks.CASING_TUNGSTENSTEEL_TURBINE)

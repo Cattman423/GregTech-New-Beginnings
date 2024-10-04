@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
             .circuit(circuit)
             .itemInputs(input)
             .itemOutputs(output)
-            .biome('ad_astra:orbit')
+            //.biome('ad_astra:orbit')
             .duration(time)
             .EUt(power)
     }

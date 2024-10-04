@@ -50,4 +50,36 @@ ServerEvents.recipes(event => {
     casingcraft('gtceu:atomic_casing', 'gtceu:extreme_plate', 'gtceu:extreme_frame')
     //casingcraft('kubejs:electrum_casing', 'gtceu:electrum_plate', 'kubejs:stripped_treated_wood_log')
     //casingcraft('kubejs:electrum_casing', 'gtceu:electrum_plate', 'kubejs:stripped_treated_wood')
+/*
+//Machine Hulls and casings
+    function machinecase(id, plate, output) {
+        event.recipes.gtceu.assembler(id)
+            .itemInputs(plate)
+            .itemOutputs(output)
+            .duration(50)
+            .EUt(16)
+            .circuit(8);
+        event.shaped(
+            Item.of(output), ['AAA', 'ABA', 'AAA'],
+            {A: plate, B: '#forge:tools/wrenches'}
+        )
+    }
+
+    machinecase('uev_machine_case', '8x gtceu:stabilized_oganesson_plate', 'gtceu:uev_machine_casing')
+    machinecase('uiv_machine_case', '8x gtceu:shadow_radiance_plate', 'gtceu:uiv_machine_casing')
+
+    function machinehull (id, mcase, cable, output, plate) {
+        event.recipes.gtceu.assembler(id)
+            .itemInputs(mcase, '2x ' + cable)
+            .inputFluids('gtceu:polybenzimidazole 288')
+            .itemOutputs(output)
+            .duration(50)
+            .EUt(16)
+        event.shaped(
+            Item.of(output), ['   ', 'ABA', 'CDC'],
+            {A: 'gtceu:polybenzimidazole_plate', B: plate, C: cable, D: mcase}
+        )
+    }
+
+    machinehull('uev_machine_hull', 'gtceu:uev_machine_casing', 'gtceu:end_steel_single_cable', 'gtceu:uev_machine_hull', 'gtceu:stabilized_oganesson_plate')*/
 })
