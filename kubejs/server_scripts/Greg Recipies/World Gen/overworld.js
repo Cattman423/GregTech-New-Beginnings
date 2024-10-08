@@ -1,10 +1,16 @@
 GTCEuServerEvents.oreVeins(event => {
+
+//Increase Density
+    event.modifyAll((id, vein) => {
+        vein.density(0.8)
+    })
+
 //Zinc
     event.add("kubejs:zinc_vein_ow", vein => {
     // Basic vein generation properties
         vein.weight(80)
         vein.clusterSize(40)
-        vein.density(0.25)
+        vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
     // Define where the vein can generate
         vein.layer("stone")
@@ -32,8 +38,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Lignite
     event.add("kubejs:lignite_vein_ow", vein => {
         vein.weight(90)
-        vein.clusterSize(20)
-        vein.density(0.5) 
+        vein.clusterSize(46)
+        vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
         vein.layer("stone")
         vein.dimensions("minecraft:overworld")
@@ -56,7 +62,7 @@ GTCEuServerEvents.oreVeins(event => {
     event.add("kubejs:copper_vein_ow", vein => {
         vein.weight(80)
         vein.clusterSize(40)
-        vein.density(0.25)
+        vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
         vein.layer("stone")
         vein.dimensions("minecraft:overworld")
@@ -80,7 +86,7 @@ GTCEuServerEvents.oreVeins(event => {
     event.add("kubejs:spodumene_vein_ow", vein => {
         vein.weight(30)
         vein.clusterSize(40)
-        vein.density(0.25)
+        vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
         vein.layer("stone")
         vein.dimensions("minecraft:overworld")

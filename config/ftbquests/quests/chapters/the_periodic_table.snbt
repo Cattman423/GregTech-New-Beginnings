@@ -12,8 +12,8 @@
 			dependencies: ["2AF48E6902C16848"]
 			id: "79B8D81A07003512"
 			tasks: [{
-				id: "41E3EC58DF1E08ED"
-				item: "ad_astra:hydrogen_bucket"
+				id: "588022CA2950246E"
+				item: "gtceu:hydrogen_bucket"
 				type: "item"
 			}]
 			x: -9.0d

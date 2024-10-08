@@ -1,4 +1,10 @@
 ServerEvents.recipes(event => {
+//Recipe Replacements
+    event.replaceInput(
+        { id: 'gtceu:assembler/optical_pipe' },
+        'gtceu:fine_borosilicate_glass_wire',
+        '#forge:optical_fiber'
+        )
 //Optical SMDs
     event.recipes.gtceu.circuit_assembler('optical_smd_transistor')
         .itemInputs('8x #forge:optical_fiber', 'gtceu:vanadium_gallium_foil')

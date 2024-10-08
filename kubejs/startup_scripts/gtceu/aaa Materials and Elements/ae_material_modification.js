@@ -148,6 +148,7 @@ GTCEuStartupEvents.materialModification(/*'gtceu:material',*/ event => {
     GTMaterials.get('ulexite').setFormula('NaCaB5O6(OH)6(H2O)5', true)
     GTMaterials.get('charged_certus').setFormula('SiO2+', true)
     GTMaterials.get('stabilized_oganesson').setFormula('Og*', true)
+    GTMaterials.get('sterile_alloy').setFormula('STe☈ILiS', true)
 
 //Iconsets
     GTMaterials.Neutronium.setMaterialIconSet(GTMaterialIconSet.RADIOACTIVE)

@@ -107,6 +107,7 @@
     "material.gtceu.jade": "Jade",
     "material.gtceu.kunzite": "Kunzite",
     "material.gtceu.stabilized_oganesson": "Stabilized Oganesson",
+    "material.gtceu.sterile_alloy": "Sterile Alloy",
 
     "material.gtceu.moon_stone": "Moon Stone",
     "material.gtceu.moon_deepslate": "Moon Deepslate",
@@ -139,6 +140,7 @@
     "gtceu.decay_hastener": "Decay Hastener",
     "gtceu.fuel_reprocessor": "Fuel Reprocessor",
     "gtceu.isotope_separator": "Isotope Separator",
+    "gtceu.sterile_lab": "Sterile Lab",
 
 
     "gtceu.jei.ore_vein.zinc_vein_ow": "Zinc Vein",
@@ -252,6 +254,7 @@
     "block.gtceu.decay_hastener_multi": "Large Decay Hastener",
     "block.gtceu.fuel_reprocessor_multi": "Large Fuel Reprocessor",
     "block.gtceu.isotope_separator_multi": "Large Isotope Separator",
+    "block.gtceu.sterile_lab": "Sterile Laboratory",
 
     "block.gtceu.hv_decay_hastener": "§6Advanced Decay Hastener II§r",
     "block.gtceu.ev_decay_hastener": "§5Advanced Decay Hastener III§r",

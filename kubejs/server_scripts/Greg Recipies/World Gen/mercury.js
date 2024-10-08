@@ -46,8 +46,8 @@ GTCEuServerEvents.oreVeins(event => {
     event.add("kubejs:molybdenum_vein_mc", vein => {
     // Basic vein generation properties
         vein.weight(5)
-        vein.clusterSize(20)
-        vein.density(0.25)
+        vein.clusterSize(27)
+        vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
     // Define where the vein can generate
         vein.layer("mercury_stone")
@@ -74,8 +74,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Diamond
     event.add("kubejs:diamond_vein_mc", vein => {
         vein.weight(40)
-        vein.clusterSize(20)
-        vein.density(0.25)
+        vein.clusterSize(34)
+        vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
         vein.layer("mercury_stone")
         vein.dimensions("ad_astra:mercury")
@@ -97,8 +97,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Draconium
     event.add("kubejs:draconium_vein_mc", vein => {
         vein.weight(40)
-        vein.clusterSize(20)
-        vein.density(0.25)
+        vein.clusterSize(22)
+        vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
         vein.layer("mercury_stone")
         vein.dimensions("ad_astra:mercury")
@@ -120,8 +120,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Redstone
     event.add("kubejs:redstone_vein_mc", vein => {
         vein.weight(60)
-        vein.clusterSize(20)
-        vein.density(0.5) 
+        vein.clusterSize(32)
+        vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
         vein.layer("mercury_stone")
         vein.dimensions("ad_astra:mercury")
@@ -143,8 +143,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Ilmenite
     event.add("kubejs:ilmenite_vein_mc", vein => {
         vein.weight(30)
-        vein.clusterSize(20)
-        vein.density(0.25)
+        vein.clusterSize(34)
+        vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
         vein.layer("mercury_stone")
         vein.dimensions("ad_astra:mercury")
@@ -167,8 +167,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Palladium
     event.add("kubejs:palladium_vein_mc", vein => {
         vein.weight(10)
-        vein.clusterSize(20)
-        vein.density(0.25)
+        vein.clusterSize(25)
+        vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
         vein.layer("mercury_stone")
         vein.dimensions("ad_astra:mercury")
@@ -192,7 +192,7 @@ GTCEuServerEvents.oreVeins(event => {
     event.add("kubejs:arsenic_vein_mc", vein => {
         vein.weight(60)
         vein.clusterSize(20)
-        vein.density(0.5) 
+        vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
         vein.layer("mercury_stone")
         vein.dimensions("ad_astra:mercury")
@@ -214,8 +214,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Bauxite
     event.add("kubejs:bauxite_vein_mc", vein => {
         vein.weight(80)
-        vein.clusterSize(20)
-        vein.density(0.5) 
+        vein.clusterSize(34)
+        vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
         vein.layer("mercury_stone")
         vein.dimensions("ad_astra:mercury")
@@ -237,8 +237,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Iron
     event.add("kubejs:iron_vein_mc", vein => {
         vein.weight(160)
-        vein.clusterSize(20)
-        vein.density(0.5) 
+        vein.clusterSize(44)
+        vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
         vein.layer("mercury_stone")
         vein.dimensions("ad_astra:mercury")
@@ -261,8 +261,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Iridium
     event.add("kubejs:iridium_vein_mc", vein => {
         vein.weight(30)
-        vein.clusterSize(20)
-        vein.density(0.5) 
+        vein.clusterSize(26)
+        vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
         vein.layer("mercury_stone")
         vein.dimensions("ad_astra:mercury")
@@ -284,8 +284,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Naquadah
     event.add("kubejs:naquadah_vein_mc", vein => {
         vein.weight(30)
-        vein.clusterSize(20)
-        vein.density(0.25)
+        vein.clusterSize(40)
+        vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
         vein.layer("mercury_stone")
         vein.dimensions("ad_astra:mercury")

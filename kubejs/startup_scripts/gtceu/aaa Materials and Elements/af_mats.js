@@ -267,6 +267,15 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .components('oganesson')
         .flags(plates)
 
+    event.create('sterile_alloy')
+        .ingot()
+        .fluid()
+        .color(0x443936)
+        .iconSet(SHINY)
+        .components('2x sulfur', 'tellurium', 'refined_radiance', 'iodine', 'lithium')
+        .blastTemp(9750, 'higher', AUHv, 2400)
+        .flags(plates, frame)
+
 //NuclearCraft
     event.create('manganese_oxide')
         .ingot()

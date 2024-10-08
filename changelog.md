@@ -15,6 +15,7 @@
   * Moving Power quest in Clockwork Age now only requires one prerequisite quest to be completed
   * Lv Energy Converter quest in Clockwork Age now accepts any Lv amperage energy converter
   * Removed quests to exchange Create Precision Mechanism and Create:TFMG Steel Mechanism with their pack counterparts
+  * Fixed Hydrogen Quest on the Periodic Table requiring an the wrong type of Hydrogen, now correctly requires GT Hydrogen
 * Machines
   * Singleblock Machines
     * Added Decay Hastener
@@ -24,6 +25,7 @@
     * Added Large Decay Hastener
     * Added Large Fuel Reprocessor
     * Added Large Isotope Separator
+    * Added Sterile Laboratory
     * Changed Circuit Assemmbly Line to use Sturdy HSS-E Machine Casings instead of Solid Machine Casings
   * Machine Coils
     * Added HSS-S Coil with a temp of 6300k
@@ -40,6 +42,11 @@
     * Added Neutronium-doped Monocrystalline Certus Boule
   * Name Changes
     * Renamed Certus-doped Monocrystalline Silicon Boule to Monocrystalline Certus Boule
+  * Tags
+    * Added `'#forge:optical_fiber'` to Borosilicate Glass Fibers
+* Blocks
+  * Additions
+    * Added Sterilized Machine Casing
 * Recipes
   * Removed the ability to use non gregified piston recipe
   * Fixed Wöhler Aluminium plates not being craftable in the Helve Hammer
@@ -47,6 +54,7 @@
   * Tweaked Monocrystalline Certus Boule recipe
   * Certus wafers can now be made from Naquadah-doped and Neutronium-doped Monocrystalline Certus Boules in addition to Monocrystalline Certus Boules
   * Fixed Circuit Assembly Line recipes for Crystal Processor Mainframes, Wetware Processor Supercomputers and Wetware Processor Mainframes
+  * Changed recipe for Optical Fiber Cables to accept accept items tagged `'#forge:optical_fiber'` instead of just Borosilicate Glass Fibers
 * Materials
   * Additions
     * Added Berkelium
@@ -180,6 +188,7 @@
     * Fixed Naquadah, Pitchblende, Scheelite veins not spawning on Mars
     * Moved Sheldonite vein to the Moon
     * Added Charged Certus Quartz Ore to Certus veins in the Nether
+    * Increased density of *all* veins
 * Bedrock Fluid Deposits
   * Added Chlorobenzene deposit to the Moon
   * Added CO2 deposit to Venus
@@ -190,32 +199,44 @@
 * Resource Packs
   * Additions
     * Added Better GUI for Sophisticated Backpacks
+    * Added Loading Screens custom resource pack, images for this are sourced from the Discord and are also shared to the Screenshots page on CurseForge
+    * Added custom splash texts
 * Mods
   * Mod Additions
+    * Added EMI
     * Added Ender Chests
     * Added Ender IO
     * Added Ender Tanks
     * Added GraveStone Mod
     * Added KubeJS EnderIO
+    * Added Loading Backgrounds
     * Added NuclearCraft: Neoteric
     * Added Panda's Falling Trees
   * Mod Updates
+    * Ad Astra Giselle Addon v6.15
+    * Advancement Plaques v1.6.7
     * Amendments v1.2.11
+    * Apotheosis v7.4.3
     * Artifacts v9.5.13
+    * Better Archeology v1.2.1
     * CC: Tweaked v1.113.1
-    * ChoiceTheorem's Overhauled Village v3.4.7
+    * ChoiceTheorem's Overhauled Village v3.4.9b
+    * Cognition v2.2.5
     * Colorful Hearts v4.3.16
     * CorgiLib v4.0.3.2
     * Create v0.5.1.h
     * Create: Big Cannons v5.5.1
-    * Create: Connected v0.9.0
+    * Create: Connected v0.9.1
     * Create: Encased v1.6.1-fix3
     * Create: Steam and Rails v1.6.5
     * Create: The Factory Must Grow v0.9.2
     * Create: Vintage Improvements v0.2.0.3
+    * Cucumber Library v7.0.12
     * Draconic Evolution v3.1.2.588
     * Dummmmmmy v2.0.1
+    * Embeddium v0.3.31
     * Enhanced Celestials v5.0.1.0
+    * Entity Culling v1.7.0
     * Entity Texture Features v6.2.5
     * ExtendedAE v1.1.14
     * Gateways to Eternity v4.2.6
@@ -225,7 +246,17 @@
     * Just Enough Items v15.19.0.88
     * LDLib v1.0.28.a
     * ME Requester v1.1.5
+    * MmmMmmMmmMmm (Target Dummy) v2.0.2
+    * ModernFix v5.19.4
     * Neat v1.20-37-FORGE
+    * Spice of Life Onion v1.2.11
+    * Sophisticated Backpacks v3.20.10.1109
+    * Sophisticated Core v0.6.33.711
+    * Stargate Journey v0.6.31
     * Supplementaries v2.8.17
+    * Torchmaster v20.1.8
+    * Vic's Point Blank v1.7.6
+    * Vintage Delight v0.1.4
     * Waystones v14.1.5
     * Workshop for Handsome Adventurer v1.15.2
+    * YUNG's API v4.0.6

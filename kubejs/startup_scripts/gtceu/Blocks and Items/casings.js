@@ -19,6 +19,13 @@ StartupEvents.registry('block', event => {
         .lightLevel(0)
         .textureAll('gtceu:block/casings/agri_casing');
 
+    event.create('sterile_casing')//, 'gtceu:renderer'
+        .displayName('Sterilized Machine Casing')
+        .hardness(10)
+        .resistance(1)
+        .lightLevel(0)
+        .textureAll('gtceu:block/casings/sterile_casing');
+
     event.create('solar_casing')//, 'gtceu:renderer'
         .hardness(10)
         .resistance(1)

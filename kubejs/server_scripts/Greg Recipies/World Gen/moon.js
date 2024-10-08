@@ -42,7 +42,7 @@ GTCEuServerEvents.oreVeins(event => {
     // Basic vein generation properties
         vein.weight(80)
         vein.clusterSize(30)
-        vein.density(0.10)
+        vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
     // Define where the vein can generate
         vein.layer("moon_stone")
@@ -69,8 +69,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Iron
     event.add("kubejs:iron_vein_mn", vein => {
         vein.weight(80)
-        vein.clusterSize(30)
-        vein.density(0.10)
+        vein.clusterSize(44)
+        vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
         vein.layer("moon_stone")
         vein.dimensions("ad_astra:moon")
@@ -95,8 +95,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Zircon
     event.add("kubejs:zircon_vein_mn", vein => {
         vein.weight(70)
-        vein.clusterSize(20)
-        vein.density(0.10)
+        vein.clusterSize(38)
+        vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
         vein.layer("moon_stone")
         vein.dimensions("ad_astra:moon")
@@ -120,7 +120,7 @@ GTCEuServerEvents.oreVeins(event => {
     event.add("kubejs:zirconia_vein_mn", vein => {
         vein.weight(60)
         vein.clusterSize(30)
-        vein.density(0.10)
+        vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
         vein.layer("moon_stone")
         vein.dimensions("ad_astra:moon")
@@ -145,8 +145,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Lunite
     event.add("kubejs:lunite_vein_mn", vein => {
         vein.weight(10)
-        vein.clusterSize(20)
-        vein.density(0.10)
+        vein.clusterSize(26)
+        vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
         vein.layer("moon_stone")
         vein.dimensions("ad_astra:moon")
@@ -170,8 +170,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Borax
     event.add("kubejs:borax_vein_mn", vein => {
         vein.weight(55)
-        vein.clusterSize(20)
-        vein.density(0.35)
+        vein.clusterSize(32)
+        vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
         vein.layer("moon_stone")
         vein.dimensions("ad_astra:moon")
@@ -194,8 +194,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Molybdenum
     event.add("kubejs:molybdenum_vein_mn", vein => {
         vein.weight(5)
-        vein.clusterSize(20)
-        vein.density(0.25)
+        vein.clusterSize(27)
+        vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
         vein.layer("moon_stone")
         vein.dimensions("ad_astra:moon")
@@ -220,8 +220,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Quartzite
     event.add("kubejs:quartz_vein_mn", vein => {
         vein.weight(20)
-        vein.clusterSize(20)
-        vein.density(0.25)
+        vein.clusterSize(29)
+        vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
         vein.layer("moon_stone")
         vein.dimensions("ad_astra:moon")
@@ -246,8 +246,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Monazite
     event.add("kubejs:monazite_vein_mn", vein => {
         vein.weight(30)
-        vein.clusterSize(20)
-        vein.density(0.25)
+        vein.clusterSize(36)
+        vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
         vein.layer("moon_stone")
         vein.dimensions("ad_astra:moon")
@@ -271,8 +271,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Ilmenite
     event.add("kubejs:ilmenite_vein_mn", vein => {
         vein.weight(30)
-        vein.clusterSize(20)
-        vein.density(0.25)
+        vein.clusterSize(34)
+        vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
         vein.layer("moon_stone")
         vein.dimensions("ad_astra:moon")
@@ -297,8 +297,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Copper
     event.add("kubejs:copper_vein_mn", vein => {
         vein.weight(80)
-        vein.clusterSize(20)
-        vein.density(0.25)
+        vein.clusterSize(40)
+        vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
         vein.layer("moon_stone")
         vein.dimensions("ad_astra:moon")
@@ -323,8 +323,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Galena
     event.add("kubejs:galena_vein_mn", vein => {
         vein.weight(40)
-        vein.clusterSize(20)
-        vein.density(0.25)
+        vein.clusterSize(36)
+        vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
         vein.layer("moon_stone")
         vein.dimensions("ad_astra:moon")
@@ -348,8 +348,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Cassiterite
     event.add("kubejs:cassiterite_vein_mn", vein => {
         vein.weight(50)
-        vein.clusterSize(20)
-        vein.density(0.25)
+        vein.clusterSize(44)
+        vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
         vein.layer("moon_stone")
         vein.dimensions("ad_astra:moon")

@@ -45,8 +45,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Sulfur
     event.add("kubejs:sulfur_vein_va", vein => {
         vein.weight(100)
-        vein.clusterSize(20)
-        vein.density(0.5) 
+        vein.clusterSize(32)
+        vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
         vein.layer("venus_stone")
         vein.dimensions("ad_astra:venus")
@@ -68,8 +68,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Pitchblende
     event.add("kubejs:pitchblende_vein_va", vein => {
         vein.weight(40)
-        vein.clusterSize(20)
-        vein.density(0.5) 
+        vein.clusterSize(32)
+        vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
         vein.layer("venus_stone")
         vein.dimensions("ad_astra:venus")
@@ -90,8 +90,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Quartzite
     event.add("kubejs:quartz_vein_va", vein => {
         vein.weight(20)
-        vein.clusterSize(20)
-        vein.density(0.25)
+        vein.clusterSize(29)
+        vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
         vein.layer("venus_stone")
         vein.dimensions("ad_astra:venus")
@@ -114,8 +114,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Redstone
     event.add("kubejs:redstone_vein_va", vein => {
         vein.weight(60)
-        vein.clusterSize(20)
-        vein.density(0.5) 
+        vein.clusterSize(32)
+        vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
         vein.layer("venus_stone")
         vein.dimensions("ad_astra:venus")
@@ -137,8 +137,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Monazite
     event.add("kubejs:monazite_vein_va", vein => {
         vein.weight(30)
-        vein.clusterSize(20)
-        vein.density(0.25)
+        vein.clusterSize(36)
+        vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
         vein.layer("venus_stone")
         vein.dimensions("ad_astra:venus")
@@ -160,8 +160,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Nickel
     event.add("kubejs:nickel_vein_va", vein => {
         vein.weight(40)
-        vein.clusterSize(20)
-        vein.density(0.5) 
+        vein.clusterSize(34)
+        vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
         vein.layer("venus_stone")
         vein.dimensions("ad_astra:venus")
@@ -184,8 +184,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Beryllium
     event.add("kubejs:beryllium_vein_va", vein => {
         vein.weight(30)
-        vein.clusterSize(20)
-        vein.density(0.5) 
+        vein.clusterSize(50)
+        vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
         vein.layer("venus_stone")
         vein.dimensions("ad_astra:venus")
@@ -207,8 +207,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Tetrahedrite
     event.add("kubejs:tetrahedrite_vein_va", vein => {
         vein.weight(70)
-        vein.clusterSize(20)
-        vein.density(0.5) 
+        vein.clusterSize(46)
+        vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
         vein.layer("venus_stone")
         vein.dimensions("ad_astra:venus")
@@ -230,8 +230,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Galena
     event.add("kubejs:galena_vein_va", vein => {
         vein.weight(40)
-        vein.clusterSize(20)
-        vein.density(0.25)
+        vein.clusterSize(36)
+        vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
         vein.layer("venus_stone")
         vein.dimensions("ad_astra:venus")
@@ -253,8 +253,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Iridium
     event.add("kubejs:iridium_vein_va", vein => {
         vein.weight(30)
-        vein.clusterSize(20)
-        vein.density(0.5) 
+        vein.clusterSize(26)
+        vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
         vein.layer("venus_stone")
         vein.dimensions("ad_astra:venus")
@@ -276,8 +276,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Cassiterite
     event.add("kubejs:cassiterite_vein_va", vein => {
         vein.weight(50)
-        vein.clusterSize(20)
-        vein.density(0.25)
+        vein.clusterSize(44)
+        vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
         vein.layer("venus_stone")
         vein.dimensions("ad_astra:venus")
@@ -298,8 +298,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Naquadah
     event.add("kubejs:naquadah_vein_va", vein => {
         vein.weight(30)
-        vein.clusterSize(20)
-        vein.density(0.25)
+        vein.clusterSize(40)
+        vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
         vein.layer("venus_stone")
         vein.dimensions("ad_astra:venus")
@@ -320,8 +320,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Rutile
     event.add("kubejs:rutile_vein_va", vein => {
         vein.weight(8)
-        vein.clusterSize(20)
-        vein.density(0.25)
+        vein.clusterSize(34)
+        vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
         vein.layer("venus_stone")
         vein.dimensions("ad_astra:venus")
@@ -344,8 +344,8 @@ GTCEuServerEvents.oreVeins(event => {
 //Ardite
     event.add("kubejs:ardite_vein_va", vein => {
         vein.weight(30)
-        vein.clusterSize(20)
-        vein.density(0.25)
+        vein.clusterSize(28)
+        vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
         vein.layer("venus_stone")
         vein.dimensions("ad_astra:venus")
