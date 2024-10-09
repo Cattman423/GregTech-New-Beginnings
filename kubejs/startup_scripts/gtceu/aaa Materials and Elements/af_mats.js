@@ -276,6 +276,23 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .blastTemp(9750, 'higher', AUHv, 2400)
         .flags(plates, frame)
 
+    event.create('polysilicon')
+        .ingot()
+        .fluid()
+        .color(0x707078).secondaryColor(0x10293b)
+        .iconSet(METALLIC)
+        .components('silicon')
+        .blastTemp(2273, null, AMv, 2400)
+        .flags(foil)
+
+    event.create('tetrachlorosilane')
+        .fluid()
+        .components('silicon', '4x chlorine')
+
+    event.create('trichlorosilane')
+        .fluid()
+        .components('hydrogen', '3x chlorine', 'silicon')
+
 //NuclearCraft
     event.create('manganese_oxide')
         .ingot()
