@@ -145,6 +145,11 @@
       * Added rod to Awakened Draconium
       * Added rod to Stellar Matter
       * Added rod to Infinity
+    * Renaming
+      * Renamed Ceric Oxide to Ceria
+      * Renamed Uranous Oxide to Urania
+      * Renamed Zinc Sulfate to Goslarite
+      * Renamed Zirconia Oxide to Zirconia
     * Misc
       * Added foil to Manyullyn
   * Unifications
