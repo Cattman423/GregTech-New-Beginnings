@@ -9,3 +9,5 @@ More quests and progression through the end of the MAX tier so you can build the
 Join the Discord [here](https://discord.gg/uRfcbsK6NF)
 
 **Please note that there are no official server packs or files at this time, I apologize for the inconvenience.**
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P014J7SN)
