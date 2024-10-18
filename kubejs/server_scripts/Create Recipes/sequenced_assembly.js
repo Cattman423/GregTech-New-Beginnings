@@ -159,7 +159,7 @@ ServerEvents.recipes(event => {
     ], 'gtceu:glass_tube', [
         event.recipes.createDeploying(kjsuv, [kjsuv, 'gtceu:steel_bolt']),
         event.recipes.createDeploying(kjsuv, [kjsuv, 'gtceu:copper_single_wire']),
-        event.recipes.createFilling(kjsuv, [kjsuv, Fluid.of(('kubejs:red_alloy'), 10)]),
+        event.recipes.createFilling(kjsuv, [kjsuv, Fluid.of(('gtceu:red_alloy'), 10)]),
     ]).transitionalItem(kjsuv).loops(2)
 
 //Resistors
@@ -189,7 +189,7 @@ ServerEvents.recipes(event => {
             },
             {
                 type: 'create:filling',
-                ingredients: [{item: 'kubejs:incomplete_capacitor'}, {fluid: 'kubejs:red_alloy', amount: 10}],
+                ingredients: [{item: 'kubejs:incomplete_capacitor'}, {fluid: 'gtceu:red_alloy', amount: 10}],
                 results: [{item: 'kubejs:incomplete_capacitor'}]
             },
             {
@@ -217,7 +217,7 @@ ServerEvents.recipes(event => {
         event.recipes.createDeploying(kjslv, [kjslv, 'gtceu:resistor']),
         event.recipes.createDeploying(kjslv, [kjslv, 'gtceu:vacuum_tube']),
         event.recipes.createDeploying(kjslv, [kjslv, 'gtceu:red_alloy_single_cable']),
-        event.recipes.createFilling(kjslv, [kjslv, Fluid.of(('kubejs:red_alloy'), 20)]),
+        event.recipes.createFilling(kjslv, [kjslv, Fluid.of(('gtceu:red_alloy'), 20)]),
         event.recipes.createDeploying(kjslv, [kjslv, 'gtceu:steel_plate']),
     ]).transitionalItem(kjslv).loops(1)
 
@@ -229,7 +229,7 @@ ServerEvents.recipes(event => {
         event.recipes.createDeploying(kjsmv, [kjsmv, 'gtceu:diode']),
         event.recipes.createDeploying(kjsmv, [kjsmv, 'gtceu:copper_single_wire']),
         event.recipes.createDeploying(kjsmv, [kjsmv, 'gtceu:basic_electronic_circuit']),
-        event.recipes.createFilling(kjsmv, [kjsmv, Fluid.of(('kubejs:red_alloy'), 8)]),
+        event.recipes.createFilling(kjsmv, [kjsmv, Fluid.of(('gtceu:red_alloy'), 8)]),
     ]).transitionalItem(kjsmv).loops(3)
 
 //Lv Circuit

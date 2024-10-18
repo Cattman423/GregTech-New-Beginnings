@@ -1,36 +1,40 @@
 StartupEvents.registry('block', event => {
-    /*event.create('electrum_casing', 'gtceu:renderer')
-        .hardness(10)
-        .resistance(1)
-        .lightLevel(0)
-        .textureOverrideRenderer('minecraft:block/cube_all',
-            { 'all': new ResourceLocation('gtceu', 'block/casings/electrum_casing') });*/
-
-    event.create('test_casing')//, 'gtceu:renderer'
+//Casings
+    event.create('test_casing')
         .hardness(10)
         .resistance(1)
         .lightLevel(0)
         .textureAll('gtceu:block/casings/test_casing');
 
-    event.create('agri_casing')//, 'gtceu:renderer'
+    event.create('agri_casing')
         .displayName('Agricultral Casing')
         .hardness(10)
         .resistance(1)
         .lightLevel(0)
         .textureAll('gtceu:block/casings/agri_casing');
 
-    event.create('sterile_casing')//, 'gtceu:renderer'
+    event.create('sterile_casing')
         .displayName('Sterilized Machine Casing')
         .hardness(10)
         .resistance(1)
         .lightLevel(0)
         .textureAll('gtceu:block/casings/sterile_casing');
 
-    event.create('solar_casing')//, 'gtceu:renderer'
+    event.create('solar_casing')
         .hardness(10)
         .resistance(1)
         .lightLevel(0)
         .model('gtceu:block/misc/solar_casing')
+
+    event.create('alon_glass')
+        .hardness(10)
+        .resistance(1)
+        .lightLevel(0)
+        .textureAll('gtceu:block/misc/alon_glass')
+        .glassSoundType()
+        .notSolid()
+        .opaque(false)
+
 
 //Logs
     /*event.create('treated_wood_log')

@@ -655,4 +655,8 @@ ServerEvents.recipes(event => {
             {A: 'gtceu:' + base + '_electric_piston', B: 'gtceu:' + base + '_electric_motor', C: '#gtceu:circuits/' + base, 
             D: 'gtceu:' + base + '_machine_hull', E: 'nuclearcraft:plate_basic'})
     })
+    event.shaped(
+        Item.of('gtceu:fuel_reprocessor_multi'), ['EBE', 'CDC', 'EAE'],
+        {A: 'gtceu:iv_electric_piston', B: 'gtceu:iv_electric_motor', C: '#gtceu:circuits/iv', 
+        D: 'gtceu:iv_fuel_reprocessor', E: 'nuclearcraft:plate_basic'})
 })

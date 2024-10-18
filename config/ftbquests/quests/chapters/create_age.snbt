@@ -2271,7 +2271,7 @@
 			description: [
 				"This is how you can convert that pesky RF to precious EU, and vice versa."
 				""
-				"The &cred face&r is for RF, and the &agreen faces&r are for EU."
+				"The &cred face&r is the output, and the &agreen faces&r are the inputs."
 				""
 				"When placed, it will be converting EU -> RF, hit it with any soft mallet to invert it's function."
 				""

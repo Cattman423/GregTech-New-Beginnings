@@ -68,13 +68,17 @@ ServerEvents.recipes(event => {
     ep_dec_hast.forEach( (base) => {
         event.shaped(
             Item.of('gtceu:' + base + '_decay_hastener'), ['ABA', 'CDC', 'EBE'],
-            {A: 'gtceu:fusion_glass', B: 'gtceu:' + base + '_electric_motor', C: '#gtceu:circuits/' + base,
+            {A: 'kubejs:alon_glass', B: 'gtceu:' + base + '_electric_motor', C: '#gtceu:circuits/' + base,
             D: 'gtceu:' + base + '_machine_hull', E: 'nuclearcraft:plate_elite'})
     })
     le_dec_hast.forEach( (base) => {
         event.shaped(
             Item.of('gtceu:' + base + '_decay_hastener'), ['ABA', 'CDC', 'EBE'],
-            {A: 'gtceu:fusion_glass', B: 'gtceu:' + base + '_electric_motor', C: '#gtceu:circuits/' + base,
+            {A: 'kubejs:alon_glass', B: 'gtceu:' + base + '_electric_motor', C: '#gtceu:circuits/' + base,
             D: 'gtceu:' + base + '_machine_hull', E: 'nuclearcraft:plate_extreme'})
     })
+    event.shaped(
+        Item.of('gtceu:decay_hastener_multi'), ['ABA', 'CDC', 'EBE'],
+        {A: 'gtceu:fusion_glass', B: 'gtceu:iv_electric_motor', C: '#gtceu:circuits/iv',
+        D: 'gtceu:iv_decay_hastener', E: 'nuclearcraft:plate_extreme'})
 })

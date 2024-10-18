@@ -40,6 +40,9 @@
   * Additions
     * Added Naquadah-doped Monocrystalline Certus Boule
     * Added Neutronium-doped Monocrystalline Certus Boule
+    * Added Graphite Small Gear Mold
+    * Added Graphite Round Mold
+    * Added Graphite Gem Mold
   * Name Changes
     * Renamed Certus-doped Monocrystalline Silicon Boule to Monocrystalline Certus Boule
   * Tags
@@ -55,8 +58,12 @@
   * Certus wafers can now be made from Naquadah-doped and Neutronium-doped Monocrystalline Certus Boules in addition to Monocrystalline Certus Boules
   * Fixed Circuit Assembly Line recipes for Crystal Processor Mainframes, Wetware Processor Supercomputers and Wetware Processor Mainframes
   * Changed recipe for Optical Fiber Cables to accept accept items tagged `'#forge:optical_fiber'` instead of just Borosilicate Glass Fibers
+  * Added Casting recipes for Large and Small gears for the Casting Table
+  * Added Casting recipe for Rose Quartz in the Casting Table and Casting Basin
+  * Moved armour casting from Casting Basin to Casting Table
 * Materials
   * Additions
+    * Added Aluminium Oxynitride
     * Added Berkelium
     * Added Boron Arsenide
     * Added Boron Nitride
@@ -94,14 +101,18 @@
     * Added Pyrolytic Carbon
     * Added Radium
     * Added Rhodochrosite
+    * Added Silane
     * Added Soularium
-    * Added Titanite
+    * Added Tetrachlorosilane
     * Added Thallium
     * Added Thermoconducting Alloy
+    * Added Titanite
     * Added Tough Alloy
+    * Added Trichlorosilane
     * Added Ulexite
     * Added Vibrant Alloy
     * Added Villiaumite
+    * Added Zinc Chloride
     * Added Zircaloy
   * Modifications
     * Replaced Enriched Certus Quartz with Charged Certus Quartz
@@ -147,6 +158,7 @@
       * Added rod to Infinity
     * Renaming
       * Renamed Ceric Oxide to Ceria
+      * Renamed Phosphorus Pentoxide to Phosphoric Anhydride
       * Renamed Uranous Oxide to Urania
       * Renamed Zinc Sulfate to Goslarite
       * Renamed Zirconia Oxide to Zirconia
@@ -233,6 +245,7 @@
     * Create: Big Cannons v5.5.1
     * Create: Connected v0.9.1
     * Create: Encased v1.6.1-fix3
+    * Create: Metallurgy v0.0.6
     * Create: Steam and Rails v1.6.5
     * Create: The Factory Must Grow v0.9.2
     * Create: Vintage Improvements v0.2.0.3
@@ -245,7 +258,7 @@
     * Entity Texture Features v6.2.5
     * ExtendedAE v1.1.14
     * Gateways to Eternity v4.2.6
-    * GregTechCEu Modern v1.4.4
+    * GregTechCEu Modern v1.4.5
     * Jade v11.11.1
     * Jade Addons v5.3.1
     * Just Enough Items v15.19.0.88

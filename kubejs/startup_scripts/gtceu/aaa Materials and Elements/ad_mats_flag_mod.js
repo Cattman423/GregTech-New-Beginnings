@@ -112,7 +112,6 @@ const $WireProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.ma
     GTMaterials.Opal.addFlags(lens)
     GTMaterials.Pyrope.addFlags(lens)
     GTMaterials.Quartzite.addFlags(lens)
-    GTMaterials.RawRubber.addFlags(ring, plates)
     GTMaterials.Realgar.addFlags(lens)
     GTMaterials.RockSalt.addFlags(lens)
     GTMaterials.Rutile.addFlags(lens)

@@ -45,7 +45,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(METALLIC)
         .flags(plates)
         .blastTemp(7200, 'highest', 61440, 600)
-        .cableProperties(Uv, 4, 4, false)
+        .cableProperties(GTValues.V[GTValues.UV], 4, 4, false)
     
     event.create('protonium')
         .ingot()
@@ -73,7 +73,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(METALLIC)
         .flags(plates, rod, bolt_and_screw)
         .blastTemp(7200, 'highest', ALUv, 2000)
-        .cableProperties(UEv, 8, 4, false)
+        .cableProperties(GTValues.V[GTValues.UEV], 8, 4, false)
     
     event.create('awakened_draconium')
         .ingot()
@@ -83,7 +83,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(METALLIC)
         .flags(plates, rod, bolt_and_screw)
         .blastTemp(10800, 'highest', AUHv, 25000)
-        .cableProperties(MAx, 8192, 0, true)
+        .cableProperties(GTValues.V[GTValues.MAX], 8192, 0, true)
 
     event.create('radiance')
         .gas()
@@ -123,7 +123,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(STELLAR_MATTER)
         .flags(plates, rod, bolt_and_screw)
         .blastTemp(11530, null, AZPm/2, 14000)
-        .cableProperties(UIv, 16, 0, true)
+        .cableProperties(GTValues.V[GTValues.UIV], 16, 0, true)
 
     event.create('infinity')
         .ingot()
@@ -132,7 +132,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .element('infinity')
         .iconSet(INFINITY)
         .flags(plates, rod, bolt_and_screw)
-        .cableProperties(MAx, 1000000, 0, true)
+        .cableProperties(GTValues.V[GTValues.MAX], 1000000, 0, true)
 
     event.create('ardite')
         .ingot()

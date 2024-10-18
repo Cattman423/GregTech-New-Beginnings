@@ -88,7 +88,7 @@ ServerEvents.recipes(event => {
         .EUt(iv)
 
     event.recipes.gtceu.chemical_reactor('ae2_silicon')
-        .itemInputs('6x gtceu:electrum_foil', 'gtceu:silicon_plate')
+        .itemInputs('6x gtceu:electrum_foil', 'gtceu:polysilicon_plate')
         .inputFluids('gtceu:iron_iii_chloride 500')
         .itemOutputs('ae2:printed_silicon')
         .cleanroom(CleanroomType.CLEANROOM)
@@ -236,7 +236,7 @@ ServerEvents.recipes(event => {
 
 //Certus Enrichment
     event.recipes.gtceu.chemical_reactor('certus_enrich')
-        .itemInputs('4x gtceu:certus_quartz_gem', 'gtceu:carbon_dust')
+        .itemInputs('4x ae2:certus_quartz_crystal', 'gtceu:carbon_dust')
         .inputFluids('gtceu:redstone 576')
         .itemOutputs('gtceu:charged_certus_dust')
         .chancedOutput('gtceu:charged_certus_dust', 5000, 500)
@@ -247,22 +247,7 @@ ServerEvents.recipes(event => {
     event.recipes.gtceu.autoclave('certus_enrich_2')
         .itemInputs('gtceu:charged_certus_dust')
         .inputFluids('gtceu:polyethylene 36')
-        .chancedOutput('gtceu:charged_certus_gem', 8000, 50)
+        .chancedOutput('ae2:charged_certus_crystal', 8000, 50)
         .duration(400)
         .EUt(mv)
-
-//Fluix
-    event.recipes.gtceu.chemical_reactor('fluix_gem')
-        .itemInputs('gtceu:charged_certus_gem', 'minecraft:quartz')
-        .inputFluids('gtceu:redstone 144')
-        .itemOutputs('2x ae2:fluix_crystal')
-        .duration(400)
-        .EUt(mv)
-
-    event.recipes.gtceu.macerator('fluix_dust')
-        .itemInputs('ae2:fluix_crystal')
-        .itemOutputs('ae2:fluix_dust')
-        .chancedOutput('ae2:fluix_dust', 500, 5)
-        .duration(400)
-        .EUt(lv)
 })

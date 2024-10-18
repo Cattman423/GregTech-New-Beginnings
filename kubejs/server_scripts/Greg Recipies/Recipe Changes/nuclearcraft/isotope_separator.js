@@ -46,4 +46,8 @@ ServerEvents.recipes(event => {
             {A: 'gtceu:' + base + '_electric_piston', B: 'gtceu:item_filter', C: '#gtceu:circuits/' + base, 
             D: 'gtceu:' + base + '_machine_hull', E: 'nuclearcraft:plate_basic'})
     })
+    event.shaped(
+        Item.of('gtceu:isotope_separator_multi'), ['EBE', 'ADA', 'CBC'],
+        {A: 'gtceu:iv_electric_piston', B: 'gtceu:item_filter', C: '#gtceu:circuits/iv', 
+        D: 'gtceu:iv_isotope_separator', E: 'nuclearcraft:plate_basic'})
 })

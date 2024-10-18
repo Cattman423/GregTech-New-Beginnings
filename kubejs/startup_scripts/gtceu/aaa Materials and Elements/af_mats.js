@@ -124,7 +124,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0xCE872B)
         .iconSet(METALLIC)
         .blastTemp(3300, 'low', 480, 1500)
-        .cableProperties(512, 4, 0, true)
+        .cableProperties(GTValues.V[GTValues.HV], 4, 0, true)
 
     event.create('chadium')
         .ingot()
@@ -134,7 +134,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(SHINY)
         .flags(plates)
         .blastTemp(9000, 'highest', 122880, 600)
-        .cableProperties(Uv, 6, 2, false)
+        .cableProperties(GTValues.V[GTValues.UV], 6, 2, false)
 
     event.create('ether')
         .gas()
@@ -291,7 +291,24 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
 
     event.create('trichlorosilane')
         .fluid()
-        .components('hydrogen', '3x chlorine', 'silicon')
+        .components('hydrogen', 'silicon', '3x chlorine')
+
+    event.create('silane')
+        .fluid()
+        .components('silicon', '4x hydrogen')
+        .flags(no_decomp)
+
+    event.create('zinc_chloride')
+        .dust()
+        .color(0xEBEFFF).secondaryColor(0x232FFF)
+        .components('zinc', '2x chlorine')
+
+    event.create('aluminium_oxynitride')
+        .ingot()
+        .fluid()
+        .color(0xEBEFFF).secondaryColor(0x232FFF)
+        .iconSet(SHINY)
+        .components('3x aluminium', '3x oxygen', 'nitrogen')
 
 //NuclearCraft
     event.create('manganese_oxide')
@@ -449,6 +466,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(METALLIC)
         .components('energetic_alloy', 'ender_pearl')
         .blastTemp(3000, 'low', 120, 3000)
+        .cableProperties(GTValues.V[GTValues.HV], 1, 0, true)
 
     event.create('redstone_alloy')
         .ingot(1)
@@ -475,6 +493,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(METALLIC)
         .components('ender_pearl', 'iron')
         .blastTemp(1800, 'low', 120, 1600)
+        .cableProperties(GTValues.V[GTValues.ULV], 1, 0, true)
 
     event.create('dark_steel')
         .ingot()
@@ -499,7 +518,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(METALLIC)
         .components('endstone', 'dark_steel', 'obsidian')
         .blastTemp(4500, 'mid', 1920, 1200)
-        .cableProperties(UEv, 2, 48, false)
+        .cableProperties(GTValues.V[GTValues.UEV], 2, 48, false)
 
     event.create('conduit_binder_composite')
         .dust()

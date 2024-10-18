@@ -166,36 +166,54 @@ ServerEvents.tags('item', event => {
     event.remove('forge:dusts/ender_pearl', 'ae2:ender_dust')
     event.remove('forge:dusts/ender_pearl', 'enderio:powdered_ender_pearl')
 
+    event.removeAllTagsFrom('ad_astra:steel_plate')
+    event.removeAllTagsFrom('ad_astra:steel_ingot')
+    event.removeAllTagsFrom('createmetallurgy:steel_ingot')
+    event.removeAllTagsFrom('tfmg:lithium_ingot')
+    event.removeAllTagsFrom('tfmg:lead_ingot')
+    event.removeAllTagsFrom('tfmg:nickel_ingot')
+    event.removeAllTagsFrom('tfmg:cast_iron_ingot')
+    event.removeAllTagsFrom('tfmg:steel_ingot')
+    event.removeAllTagsFrom('tfmg:heavy_plate')
+    event.removeAllTagsFrom('sgjourney:naquadah')
+    event.removeAllTagsFrom('sgjourney:naquadah_alloy')
+    event.removeAllTagsFrom('morered:red_alloy_ingot')
+    event.removeAllTagsFrom('create:copper_nugget')
+    event.removeAllTagsFrom('create:zinc_nugget')
+    event.removeAllTagsFrom('create:brass_nugget')
+    event.removeAllTagsFrom('create:zinc_ingot')
+    event.removeAllTagsFrom('create:brass_ingot')
+    event.removeAllTagsFrom('create:zinc_dust')
+
     /*
     */
-    const nukeingot = ['manganese_oxide', 'niobium_tin', 'lithium', 'yttrium', 'thorium', 'palladium', 'beryllium', 'silicon_carbide', 'extreme', 'tungsten_carbide', 
+    const nc_stuff = ['manganese_oxide', 'niobium_tin', 'lithium', 'yttrium', 'thorium', 'palladium', 'beryllium', 'silicon_carbide', 'extreme', 'tungsten_carbide', 
         'stainless_steel', 'magnesium', 'sodium', 'niobium_titanium', 'tough_alloy', 'potassium', 'ferroboron', 'titanium', 'aluminum', 'manganese', 'hard_carbon', 'niobium', 
         'zirconium', 'chromium', 'calcium', 'strontium', 'lithium_manganese_dioxide', 'osmiridium', 'hsla_steel', 'nichrome', 'boron', 'magnesium_diboride', 'hafnium', 
-        'thermoconducting', 'zircaloy']
-    nukeingot.forEach( (base) => {
+        'thermoconducting', 'zircaloy', 'graphite', 'platinum', 'tungsten', 'zirconium_molybdenum', 'tin', 'zinc', 'carbon_manganese', 'shibuichi', 'bronze', 'tin_silver', 
+        'pyrolitic_carbon', 'manganese_dioxide', 'silver', 'uranium', 'super_alloy', 'cobalt', 'sic_sic_cmc', 'electrum', 'osmium', 'lead', 'lead_platinum', 'steel', 
+        'boron_arsenide', 'carobbiite', 'villiaumite', 'fluorite', 'rhodochrosite', 'boron_nitride', 'barium', 'germanium', 'molybdenum', 'borax', 'potassium_hydroxide', 
+        'iodine', 'neodymium', 'sodium_hydroxide', 'samarium', 'arsenic', 'potassium_iodide', 'bismuth', 'iron', 'copper', 'netherite']
+    nc_stuff.forEach( (base) => {
         event.removeAllTagsFrom('nuclearcraft:' + base + '_ingot')
-    })
-    const nukeplate = ['tough_alloy', 'ferroboron', 'aluminum', 'manganese', 'netherite', 'lithium', 'thorium', 'hard_carbon', 'palladium', 'beryllium', 'zirconium', 'extreme', 
-        'magnesium', 'lithium_manganese_dioxide', 'hsla_steel', 'boron', 'thermoconducting']
-    nukeplate.forEach( (base) => {
-        event.removeAllTagsFrom('nuclearcraft:' + base + '_plate')
-    })
-    const nukenug = ['magnesium', 'aluminum', 'lithium', 'thorium', 'beryllium', 'zirconium', 'boron']
-    nukenug.forEach( (base) => {
         event.removeAllTagsFrom('nuclearcraft:' + base + '_nugget')
         event.removeAllTagsFrom('nuclearcraft:' + base + '_block')
-    })
-    const nukegem = ['boron_arsenide', 'carobbiite', 'villiaumite', 'fluorite', 'rhodochrosite', 'boron_nitride']
-    nukegem.forEach( (base) => {
-        event.removeAllTagsFrom('nuclearcraft:' + base + '_gem')
-    })
-    const nukedust = ['manganese_oxide', 'niobium_tin', 'lithium', 'yttrium', 'thorium', 'palladium', 'beryllium', 'silicon_carbide', 'extreme', 'tungsten_carbide', 
-        'stainless_steel', 'magnesium', 'sodium', 'niobium_titanium', 'tough_alloy', 'potassium', 'ferroboron', 'titanium', 'aluminum', 'manganese', 'hard_carbon', 'niobium', 
-        'zirconium', 'chromium', 'calcium', 'strontium', 'lithium_manganese_dioxide', 'osmiridium', 'hsla_steel', 'nichrome', 'boron', 'magnesium_diboride', 'hafnium', 
-        'thermoconducting', 'boron_arsenide', 'carobbiite', 'villiaumite', 'fluorite', 'rhodochrosite', 'boron_nitride', 'barium', 'germanium', 'molybdenum', 'borax', 
-        'potassium_hydroxide', 'iodine', 'neodymium', 'sodium_hydroxide', 'samarium', 'arsenic', 'potassium_iodide', 'bismuth', 'zircaloy']
-    nukedust.forEach( (base) => {
         event.removeAllTagsFrom('nuclearcraft:' + base + '_dust')
+        event.removeAllTagsFrom('nuclearcraft:' + base + '_gem')
+        event.removeAllTagsFrom('nuclearcraft:' + base + '_plate')
+    })
+    
+    const vintageimp = ['aluminum', 'amethyst_bronze', 'bronze', 'cast_iron', 'cobalt', 'constantan', 'enderium', 'hepatizon', 'invar', 'lead', 'lumium', 'manyullyn', 
+        'nickel', 'osmium', 'palladium', 'pig_iron', 'platinum', 'pure_gold', 'refined_glowstone', 'refined_obsidian', 'rhodium', 'rose_gold', 'signalum', 'silver', 
+        'tin', 'uranium', 'refined_radiance', 'fiery_steel', 'ironwood', 'knightmetal', 'queens_slime', 'slimesteel', 'vanadium', 'netherite', 'nethersteel' ,'andesite', 
+        'zinc', 'shadow_steel', 'vanadium']
+
+    vintageimp.forEach( (base) => {
+        event.removeAllTagsFrom('vintageimprovements:' + base + '_sheet')
+        event.removeAllTagsFrom('vintageimprovements:' + base + '_rod')
+        event.removeAllTagsFrom('vintageimprovements:' + base + '_spring')
+        event.removeAllTagsFrom('vintageimprovements:small_' + base + '_spring')
+        event.removeAllTagsFrom('vintageimprovements:' + base + '_wire')
     })
    
 //Moderators
@@ -266,4 +284,21 @@ ServerEvents.tags('block', event => {
 ServerEvents.tags('fluid', event => {
     event.add('forge:oil', 'tfmg:crude_oil_fluid')
     event.add('forge:oil', 'gtceu:oil')
+
+    const nc_stuff = ['manganese_oxide', 'niobium_tin', 'lithium', 'yttrium', 'thorium', 'palladium', 'beryllium', 'silicon_carbide', 'extreme', 'tungsten_carbide', 
+        'stainless_steel', 'magnesium', 'sodium', 'niobium_titanium', 'tough_alloy', 'potassium', 'ferroboron', 'titanium', 'aluminum', 'manganese', 'hard_carbon', 'niobium', 
+        'zirconium', 'chromium', 'calcium', 'strontium', 'lithium_manganese_dioxide', 'osmiridium', 'hsla_steel', 'nichrome', 'boron', 'magnesium_diboride', 'hafnium', 
+        'thermoconducting', 'zircaloy', 'graphite', 'platinum', 'tungsten', 'zirconium_molybdenum', 'tin', 'zinc', 'carbon_manganese', 'shibuichi', 'bronze', 'tin_silver', 
+        'pyrolitic_carbon', 'manganese_dioxide', 'silver', 'uranium', 'super_alloy', 'cobalt', 'sic_sic_cmc', 'electrum', 'osmium', 'lead', 'lead_platinum', 'steel', 
+        'boron_arsenide', 'carobbiite', 'villiaumite', 'fluorite', 'rhodochrosite', 'boron_nitride', 'barium', 'germanium', 'molybdenum', 'borax', 'potassium_hydroxide', 
+        'iodine', 'neodymium', 'sodium_hydroxide', 'samarium', 'arsenic', 'potassium_iodide', 'bismuth', 'iron', 'copper', 'netherite', 'obsidian', 'arsenic', 'radon', 
+        'nitrogen_dioxide', 'ammonia', 'hydrogen', 'nitric_oxide', 'ethene', 'deuterium', 'carbon', 'oxygen', 'helium_3', 'fluorine', 'tritium', 'neon', 'nitrogen', 
+        'sulfur_dioxide', 'helium', 'chlorine', 'sulfur_trioxide', 'carbon_dioxide', 'argon', 'carbon_monoxide', 'sulfuric_acid']
+    nc_stuff.forEach( (base) => {
+        event.removeAllTagsFrom('nuclearcraft:' + base)
+    })
+
+    event.removeAllTagsFrom('vintageimprovements:sulfuric_acid')
+    event.removeAllTagsFrom('ad_astra:oxygen')
+    event.removeAllTagsFrom('ad_astra:hydrogen')
 })

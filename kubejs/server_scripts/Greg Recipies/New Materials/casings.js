@@ -50,7 +50,7 @@ ServerEvents.recipes(event => {
     casingcraft('gtceu:atomic_casing', 'gtceu:extreme_plate', 'gtceu:extreme_frame')
     //casingcraft('kubejs:electrum_casing', 'gtceu:electrum_plate', 'kubejs:stripped_treated_wood_log')
     //casingcraft('kubejs:electrum_casing', 'gtceu:electrum_plate', 'kubejs:stripped_treated_wood')
-/*
+
 //Machine Hulls and casings
     function machinecase(id, plate, output) {
         event.recipes.gtceu.assembler(id)
@@ -67,7 +67,7 @@ ServerEvents.recipes(event => {
 
     machinecase('uev_machine_case', '8x gtceu:stabilized_oganesson_plate', 'gtceu:uev_machine_casing')
     machinecase('uiv_machine_case', '8x gtceu:shadow_radiance_plate', 'gtceu:uiv_machine_casing')
-
+/*
     function machinehull (id, mcase, cable, output, plate) {
         event.recipes.gtceu.assembler(id)
             .itemInputs(mcase, '2x ' + cable)

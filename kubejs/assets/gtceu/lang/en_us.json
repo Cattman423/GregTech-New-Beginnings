@@ -111,6 +111,9 @@
     "material.gtceu.polysilicon": "Polysilicon",
     "material.gtceu.tetrachlorosilane": "Tetrachlorosilane",
     "material.gtceu.trichlorosilane": "Trichlorosilane",
+    "material.gtceu.silane": "Silane",
+    "material.gtceu.zinc_chloride": "Zinc Chloride",
+    "material.gtceu.aluminium_oxynitride": "Aluminium Oxynitride",
 
     "material.gtceu.moon_stone": "Moon Stone",
     "material.gtceu.moon_deepslate": "Moon Deepslate",
@@ -127,6 +130,15 @@
     "material.gtceu.liquid_venus_air": "Liquid Venus Air",
 
     "material.gtceu.iron_iii_chloride": "Ferric Chloride",
+    "material.gtceu.iron_ii_chloride": "Ferrous Chloride",
+    "material.gtceu.phosphorus_pentoxide": "Phosphoric Anhydride",
+    "material.gtceu.chromium_trioxide": "Chromic Anhydride",
+    "material.gtceu.cobalt_oxide": "Cobaltous oxide",
+    "material.gtceu.arsenic_trioxide": "Arseneous oxide",
+    "material.gtceu.sodium_hydroxide": "Ascarite",
+    "material.gtceu.osmium_tetroxide": "Tetraoxoosmium",
+    "material.gtceu.potassium_hydroxide": "Potassia",
+    "material.gtceu.titanium_tetrachloride": "Tetrachlorotitanium",
 
     "gtceu.create_mixer": "Semikinetic Mixer",
     "gtceu.basic_alternator": "Basic Alternator",
