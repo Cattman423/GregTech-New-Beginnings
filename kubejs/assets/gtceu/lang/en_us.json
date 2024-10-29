@@ -156,6 +156,7 @@
     "gtceu.fuel_reprocessor": "Fuel Reprocessor",
     "gtceu.isotope_separator": "Isotope Separator",
     "gtceu.sterile_lab": "Sterile Lab",
+    "gtceu.polymerization_plant": "Polymerization",
 
 
     "gtceu.jei.ore_vein.zinc_vein_ow": "Zinc Vein",
@@ -270,6 +271,7 @@
     "block.gtceu.fuel_reprocessor_multi": "Large Fuel Reprocessor",
     "block.gtceu.isotope_separator_multi": "Large Isotope Separator",
     "block.gtceu.sterile_lab": "Sterile Laboratory",
+    "block.gtceu.polymerization_plant": "Polymerization",
 
     "block.gtceu.hv_decay_hastener": "§6Advanced Decay Hastener II§r",
     "block.gtceu.ev_decay_hastener": "§5Advanced Decay Hastener III§r",
@@ -306,6 +308,8 @@
     "block.gtceu.uiv_isotope_separator": "§2Epic Isotope Separator III§r",
     "block.gtceu.uxv_isotope_separator": "§eEpic Isotope Separator IV§r",
     "block.gtceu.opv_isotope_separator": "§9§lLegendary Isotope Separator§r",
+
+    "block.gteceu.polymerization_plant": "Suggested by NetheredX",
 
     "block.gtceu.hv_decay_hastener.tooltip": "Accelerates decay speed of radioactive materials.",
     "block.gtceu.ev_decay_hastener.tooltip": "Accelerates decay speed of radioactive materials.",
