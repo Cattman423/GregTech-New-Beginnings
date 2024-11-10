@@ -59,6 +59,7 @@
   * Certus wafers can now be made from Naquadah-doped and Neutronium-doped Monocrystalline Certus Boules in addition to Monocrystalline Certus Boules
   * Fixed Circuit Assembly Line recipes for Crystal Processor Mainframes, Wetware Processor Supercomputers and Wetware Processor Mainframes
   * Changed recipe for Optical Fiber Cables to accept accept items tagged `'#forge:optical_fiber'` instead of just Borosilicate Glass Fibers
+  * Changed alloying and casting recipes to use GT metal fluids as opposed to KubeJS metal fluids
   * Added Casting recipes for Large and Small gears for the Casting Table
   * Added Casting recipe for Rose Quartz in the Casting Table and Casting Basin
   * Moved armour casting from Casting Basin to Casting Table
@@ -257,6 +258,7 @@
     * Configuration v3.1.0
     * Cooking for Blockheads v16.0.9
     * CorgiLib v4.0.3.2
+    * CraftTweaker v14.0.44
     * Create v0.5.1.j
     * Create: Big Cannons v5.6.0
     * Create: Connected v0.9.2
@@ -270,16 +272,18 @@
     * Create: Steam and Rails v1.6.7
     * Create: The Factory Must Grow v0.9.3
     * Create: Vintage Improvements v0.2.0.3
-    * CreativeCore v2.12.21
+    * CreativeCore v2.12.22
+    * Cristel Lib v1.1.6
     * Cucumber Library v7.0.13
     * Curios API v5.11.0
     * Draconic Evolution v3.1.2.588
     * Dummmmmmy v2.0.1
     * Embeddium v0.3.31
     * Enhanced Celestials v5.0.1.0
-    * Entity Culling v1.7.0
-    * Entity Texture Features v6.2.5
-    * ExtendedAE v1.2.0
+    * Entity Culling v1.7.1
+    * Entity Texture Features v6.2.7
+    * ExtendedAE v1.2.1
+    * Farmers Delight v1.2.5
     * Fruits Delight v1.0.12
     * Fzzy Config v0.5.6
     * Gateways to Eternity v4.2.6
@@ -296,15 +300,15 @@
     * Lithostitched v1.3.4
     * ME Requester v1.1.5
     * MmmMmmMmmMmm (Target Dummy) v2.0.2
-    * ModernFix v5.19.4
-    * MoonlightLib v2.13.18
+    * ModernFix v5.19.5
+    * MoonlightLib v2.13.22
     * Neat v1.20-37-FORGE
     * Puzzles Lib v8.1.24
     * Resourceful Lib v2.1.29
     * Spice of Life Onion v1.2.11
     * Sodium/Embeddium Dynamic Lights v1.0.9
-    * Sophisticated Backpacks v3.20.11.1115
-    * Sophisticated Core v0.6.34.718
+    * Sophisticated Backpacks v3.20.11.1126
+    * Sophisticated Core v0.6.36.741
     * Spice of Life Onion v1.4.5
     * Stargate Journey v0.6.33
     * SuperMartijn642's Core Lib v1.1.17a
