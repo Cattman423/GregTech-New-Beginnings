@@ -5,9 +5,9 @@ Fly me to the Moon, let me play amongst the stars
 So long, Space Cowboy...
 Launch EVA Unit 01!
 Now with more GregTech
-C6H5NO2
+C₆H₅NO₂ <3
 Sáncte Míchael Archángele, defénde nos in proélio
-Glória Patri, et Fílio, et Spirítui Sancto. Sicut erat in princípio, et nunc, et semper, et in sæcula sæculórum. Amen.
+Glória Patri, et Fílio, et Spirítui Sancto.
 Always check your voltage!
 Praise the Lord, and pass the ammunition!
 Developed by Cattman423
@@ -40,3 +40,5 @@ Panzar vor means Panzer vor!
 Freikorps voran!
 I'll be back!
 Gott mit uns
+Neat is a mod by Vazkii
+The factory must grow!

@@ -368,4 +368,29 @@ GTCEuServerEvents.oreVeins(event => {
             .radius(5)
         ) 
     })
+
+//Porphyry Copper
+    event.add("kubejs:porphyry_copper_mn", vein => {
+        vein.weight(50)
+        vein.clusterSize(44)
+        vein.density(0.8)
+        vein.discardChanceOnAirExposure(0)
+        vein.layer("moon_stone")
+        vein.dimensions("ad_astra:moon")
+        vein.biomes("ad_astra:lunar_wastelands")
+        vein.heightRangeUniform(60, 220)
+        vein.layeredVeinGenerator(generator => generator
+            .buildLayerPattern(pattern => pattern
+                .layer(l => l.weight(3).mat(GTMaterials.get('porphyry_copper')).size(2, 4))
+                .layer(l => l.weight(2).mat(GTMaterials.Gold).size(1, 1))
+                .layer(l => l.weight(1).mat(GTMaterials.Molybdenite).size(1, 1))
+            )
+        )
+        vein.surfaceIndicatorGenerator(indicator => indicator
+            .surfaceRock(GTMaterials.Cassiterite)
+            .placement("surface")
+            .density(0.4)
+            .radius(5)
+        ) 
+    })
 })

@@ -73,7 +73,7 @@ const $WireProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.ma
     addFluid(GTMaterials.Strontium, $FluidStorageKeys.LIQUID);
     addFluid(GTMaterials.Zirconium, $FluidStorageKeys.LIQUID);
 
-    addFluid(GTMaterials.Oganesson, $FluidStorageKeys.GAS);
+    addFluid(GTMaterials.Oganesson, $FluidStorageKeys.PLASMA);
     
     //GTMaterials..setProperty(PropertyKey.DUST, new $DustProperty())
     

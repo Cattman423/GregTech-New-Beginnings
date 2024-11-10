@@ -55,6 +55,7 @@ GTCEuStartupEvents.materialModification(/*'gtceu:material',*/ event => {
     ingot('dark_steel', 'enderio:dark_steel_ingot')
     ingot('soularium', 'enderio:soularium_ingot')
     ingot('end_steel', 'enderio:end_steel_ingot')
+    ingot('chromatic_compound', 'create:chromatic_compound')
 
 //Blocks
     block('netherite_alloy', 'minecraft:netherite_block')
@@ -150,6 +151,8 @@ GTCEuStartupEvents.materialModification(/*'gtceu:material',*/ event => {
     GTMaterials.get('stabilized_oganesson').setFormula('Og*', true)
     GTMaterials.get('sterile_alloy').setFormula('STe☈ILiS', true)
     GTMaterials.get('polysilicon').setFormula('Si*', true)
+    //GTMaterials.get('magneto_diether').setFormula('☈4Pn6*', true)
+    GTMaterials.get('glowstone').setFormula('Si(FeS2)5(CrAl2O3)Hg3Au', true)
 
 //Iconsets
     GTMaterials.Neutronium.setMaterialIconSet(GTMaterialIconSet.RADIOACTIVE)

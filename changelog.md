@@ -50,6 +50,7 @@
 * Blocks
   * Additions
     * Added Sterilized Machine Casing
+    * Added AlON Glass
 * Recipes
   * Removed the ability to use non gregified piston recipe
   * Fixed Wöhler Aluminium plates not being craftable in the Helve Hammer
@@ -71,6 +72,7 @@
     * Added Californium
     * Added Carborundum
     * Added Carobbiite
+    * Added Chromatic Compound
     * Added Conductive Alloy
     * Added Conduit Binder Composite
     * Added Copper Alloy
@@ -97,6 +99,7 @@
     * Added Stabilized Oganesson
     * Added Polonium
     * Added Promethium
+    * Added Porphyry Copper
     * Added Pulsating Alloy
     * Added Pyrolytic Carbon
     * Added Radium
@@ -177,6 +180,7 @@
     * Added Borax (Borax, Ulexite) vein to the Moon
     * Added Carobbiite (Carobbiite) vein to Mars
     * Added Cassiterite (Tin, Cassiterite) vein to the Moon and Venus
+    * Added Certus Quartz (Quartzite, Barite, Certus Quartz, Charged Certus Quartz) vein to the Moon, Mars and Venus
     * Added Copper (Chalcopyrite, Iron, Pyrite, Copper) vein to the Moon
     * Added Diamond (Graphite, Diamond, Coal) vein to Mercury
     * Added Draconium (Draconium, Electrotine, Jade) vein to Mercury
@@ -192,7 +196,7 @@
     * Added Nickel (Garnierite, Nickel, Cobaltite, Pentlandite) vein to Mars and Venus
     * Added Palladium (Platinum, Chromium ,Sheldonite, Palladium) vein to Mercury
     * Added Pitchblende (Pitchblende, Uraninite) to Venus
-    * Added Certus Quartz (Quartzite, Barite, Certus Quartz, Charged Certus Quartz) vein to the Moon, Mars and Venus
+    * Added Porphyry Copper (Porphyry Copper, Gold, Molybdenite) to the Moon
     * Added Redstone (Redstone, Ruby, Cinnabar) vein to Mars, Mercury and Venus
     * Added Rhodochrosite (Rhodochrosite, Silver) vein to Mars
     * Added Rutile (Rutile, Titanium, Bauxite, Calorite) vein to Venus
@@ -229,52 +233,86 @@
     * Added Loading Backgrounds
     * Added NuclearCraft: Neoteric
     * Added Panda's Falling Trees
+  * Mod Removals
+    * FTB Quests Optimizer
   * Mod Updates
     * Ad Astra Giselle Addon v6.15
+    * Additional Placements v2.0.0
+    * Advanced Peripherals v0.7.41r
     * Advancement Plaques v1.6.7
-    * Amendments v1.2.11
+    * Amendments v1.2.12
+    * Antiblocks ReChiseled v0.4.4
     * Apotheosis v7.4.3
     * Artifacts v9.5.13
     * Better Archeology v1.2.1
+    * Better Villages v3.2.0
     * CC: Tweaked v1.113.1
+    * Chipped v3.0.7
     * ChoiceTheorem's Overhauled Village v3.4.9b
+    * Cloth Config API v11.1.136
+    * CodeChicken Lib v4.4.0.516
     * Cognition v2.2.5
+    * Collective v7.87
     * Colorful Hearts v4.3.16
+    * Configuration v3.1.0
+    * Cooking for Blockheads v16.0.9
     * CorgiLib v4.0.3.2
-    * Create v0.5.1.h
-    * Create: Big Cannons v5.5.1
-    * Create: Connected v0.9.1
-    * Create: Encased v1.6.1-fix3
+    * Create v0.5.1.j
+    * Create: Big Cannons v5.6.0
+    * Create: Connected v0.9.2
+    * Create: Easy Structures v0.1.2
+    * Create: Encased v1.6.2-fix1
+    * Create: Jetpack v4.3.2
     * Create: Metallurgy v0.0.6
-    * Create: Steam and Rails v1.6.5
-    * Create: The Factory Must Grow v0.9.2
+    * Create: Numismatics v1.0.7
+    * Create: Quality of Life v1.2-fix1
+    * Create: Slice and Dice v3.3.0
+    * Create: Steam and Rails v1.6.7
+    * Create: The Factory Must Grow v0.9.3
     * Create: Vintage Improvements v0.2.0.3
-    * Cucumber Library v7.0.12
+    * CreativeCore v2.12.21
+    * Cucumber Library v7.0.13
+    * Curios API v5.11.0
     * Draconic Evolution v3.1.2.588
     * Dummmmmmy v2.0.1
     * Embeddium v0.3.31
     * Enhanced Celestials v5.0.1.0
     * Entity Culling v1.7.0
     * Entity Texture Features v6.2.5
-    * ExtendedAE v1.1.14
+    * ExtendedAE v1.2.0
+    * Fruits Delight v1.0.12
+    * Fzzy Config v0.5.6
     * Gateways to Eternity v4.2.6
-    * GregTechCEu Modern v1.4.5
+    * GeckoLib v4.4.9
+    * GregTechCEu Modern v1.4.6
+    * Iceberg v1.1.25
+    * InsaneLib v1.15.0
     * Jade v11.11.1
     * Jade Addons v5.3.1
-    * Just Enough Items v15.19.0.88
+    * JourneyMap v5.10.3
+    * Just Enough Items v15.20.0.105
+    * KubeJS v2001.6.5-build.16
     * LDLib v1.0.28.a
+    * Lithostitched v1.3.4
     * ME Requester v1.1.5
     * MmmMmmMmmMmm (Target Dummy) v2.0.2
     * ModernFix v5.19.4
+    * MoonlightLib v2.13.18
     * Neat v1.20-37-FORGE
+    * Puzzles Lib v8.1.24
+    * Resourceful Lib v2.1.29
     * Spice of Life Onion v1.2.11
-    * Sophisticated Backpacks v3.20.10.1109
-    * Sophisticated Core v0.6.33.711
-    * Stargate Journey v0.6.31
+    * Sodium/Embeddium Dynamic Lights v1.0.9
+    * Sophisticated Backpacks v3.20.11.1115
+    * Sophisticated Core v0.6.34.718
+    * Spice of Life Onion v1.4.5
+    * Stargate Journey v0.6.33
+    * SuperMartijn642's Core Lib v1.1.17a
     * Supplementaries v2.8.17
-    * Torchmaster v20.1.8
+    * Torchmaster v20.1.9
     * Vic's Point Blank v1.7.6
-    * Vintage Delight v0.1.4
-    * Waystones v14.1.5
+    * Vintage Delight v0.1.6
+    * Waystones v14.1.6
     * Workshop for Handsome Adventurer v1.15.2
+    * YetAnotherConfigLib v3.6.1
     * YUNG's API v4.0.6

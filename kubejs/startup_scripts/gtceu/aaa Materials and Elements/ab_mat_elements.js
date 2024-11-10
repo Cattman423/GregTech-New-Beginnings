@@ -93,6 +93,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     event.create('refined_radiance')
         .ingot()
         .fluid()
+        .plasma()
         .color(0xF5FAE1)
         .element('radiance')
         .blastTemp(9750, 'higher', AUHv, 2400)

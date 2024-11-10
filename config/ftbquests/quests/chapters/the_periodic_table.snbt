@@ -1490,8 +1490,8 @@
 			dependencies: ["2AF48E6902C16848"]
 			id: "26588F61B1C85743"
 			tasks: [{
-				id: "1D87C2015DEFF835"
-				item: "gtceu:oganesson_bucket"
+				id: "4C0CAA99C36B6F5E"
+				item: "gtceu:oganesson_plasma_bucket"
 				type: "item"
 			}]
 			title: "Oganesson"

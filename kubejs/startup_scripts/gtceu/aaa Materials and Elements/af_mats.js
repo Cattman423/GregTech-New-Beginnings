@@ -103,6 +103,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .flags(solder_mat_good)
 
     event.create('bakelite')
+        .fluid()
         .polymer()
         .components('phenol', 'formaldehyde')
         .color(0x79392F)
@@ -265,7 +266,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0x443936).secondaryColor(0xff1dbd)
         .iconSet(RADIOACTIVE)
         .components('oganesson')
-        .flags(plates)
+        .flags(no_decomp, plates)
 
     event.create('sterile_alloy')
         .ingot()
@@ -309,6 +310,23 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0xEBEFFF).secondaryColor(0x232FFF)
         .iconSet(SHINY)
         .components('3x aluminium', '3x oxygen', 'nitrogen')
+        .blastTemp(98000, 'highest', AUv, 2400)
+
+    event.create('chromatic_compound')
+        .ingot()
+        .fluid()
+        .color(0x9c50b6)
+        .components('3x glowstone', '3x obsidian', 'rose_quartz')
+        .iconSet(SHINY)
+        .blastTemp(7000, 'mid', AIv, 2400)
+        .flags(no_decomp)
+
+    /*event.create('magneto_diether')
+        .ingot()
+        .color(0x9D50AA)
+        .components('2x ether')
+        .iconSet(SHINY)
+        .flags(no_decomp)*/
 
 //NuclearCraft
     event.create('manganese_oxide')

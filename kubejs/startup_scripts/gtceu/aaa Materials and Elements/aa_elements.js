@@ -8,7 +8,7 @@ GTCEuStartupEvents.registry('gtceu:element', event => {
         'Mi', //Atomic Symbol
         false //Is Isotope
     ) 
-    event.create('protonium', 1, 0, -1, null, 'Pn', false)
+    event.create('protonium', 1, 0, 5, null, 'Pn', false)
     event.create('adamantite', 29, 179, -1, null, 'Ad', false)
     event.create('netherite_scrap', 30, 180, -1, null, '?', false)
     event.create('netherite', 31, 181, -1, null, 'Nr', false)

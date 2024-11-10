@@ -119,11 +119,246 @@
     },
     {
       "stack": "item:gtceu:iv_isotope_separator"
+    },
+    {
+      "stack": "item:gtceu:lv_electrolyzer"
+    },
+    {
+      "stack": "item:gtceu:polymerization_plant"
     }
   ],
   "lookup_history": [
-    "item:gtceu:duranium_buzz_saw_blade",
+    "item:gtceu:polymerization_plant",
+    "item:gtceu:uv_machine_hull",
+    {
+      "type": "item",
+      "id": "gtceu:uv_voltage_coil",
+      "amount": 2
+    },
+    "item:gtceu:uv_machine_casing",
+    "item:gtceu:uv_electric_motor",
+    "item:gtceu:zpm_electric_motor",
+    "item:gtceu:luv_electric_motor",
     "item:gtceu:uev_machine_hull",
+    "item:gtceu:aluminium_oxynitride_dust",
+    "item:gtceu:hot_aluminium_oxynitride_ingot",
+    "item:gtceu:aluminium_oxynitride_ingot",
+    "item:gtceu:uv_conveyor_module",
+    "item:gtceu:fusion_glass",
+    "item:gtceu:laminated_glass",
+    "item:gtceu:trinium_quadruple_wire",
+    "item:gtceu:uev_machine_casing",
+    {
+      "type": "fluid",
+      "id": "gtceu:stabilized_oganesson",
+      "amount": 0
+    },
+    "item:gtceu:hot_naquadria_ingot",
+    "item:gtceu:naquadria_ingot",
+    "item:gtceu:naquadria_nugget",
+    {
+      "type": "fluid",
+      "id": "gtceu:naquadria",
+      "amount": 4
+    },
+    "item:gtceu:zpm_fusion_reactor",
+    {
+      "type": "fluid",
+      "id": "gtceu:oganesson_plasma",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:krypton",
+      "amount": 125
+    },
+    "item:gtceu:uv_fusion_reactor",
+    "item:gtceu:stabilized_oganesson_ingot",
+    "item:gtceu:computation_transmitter_hatch",
+    "item:gtceu:network_switch",
+    "item:gtceu:luv_energy_input_hatch_16a",
+    {
+      "type": "fluid",
+      "id": "gtceu:sterilized_growth_medium",
+      "amount": 100
+    },
+    "item:gtceu:sterile_lab",
+    {
+      "type": "fluid",
+      "id": "gtceu:tritanium",
+      "amount": 144
+    },
+    "item:gtceu:tritanium_ingot",
+    {
+      "type": "item",
+      "id": "gtceu:tritanium_rod",
+      "amount": 4
+    },
+    "item:gtceu:tritanium_frame",
+    "item:gtceu:sterilizing_filter_casing",
+    "item:gtceu:double_sterile_alloy_plate",
+    "item:gtceu:sterile_alloy_plate",
+    "item:gtceu:sterile_alloy_ingot",
+    "fluid:gtceu:refined_radiance_plasma",
+    "item:gtceu:chromatic_compound_dust",
+    "item:gtceu:hot_chromatic_compound_ingot",
+    "item:create:chromatic_compound",
+    "fluid:gtceu:chromatic_compound",
+    "fluid:gtceu:refined_radiance",
+    "item:create:refined_radiance",
+    "item:gtceu:refined_radiance_dust",
+    "item:gtceu:porphyry_copper_dust",
+    "item:gtceu:tellurium_dust",
+    "item:gtceu:sterile_alloy_dust",
+    "item:gtceu:hot_sterile_alloy_ingot",
+    "item:gtceu:magneto_resonatic_gem",
+    "item:kubejs:ulv_magneto_resonance_circuit",
+    "item:kubejs:lv_magneto_resonance_circuit",
+    {
+      "type": "item",
+      "id": "gtceu:magneto_resonatic_dust",
+      "amount": 9
+    },
+    {
+      "type": "item",
+      "id": "gtceu:bismuth_tellurite_dust",
+      "amount": 5
+    },
+    "item:gtceu:raw_molybdenite",
+    "fluid:gtceu:ether",
+    {
+      "type": "item",
+      "id": "minecraft:glowstone_dust",
+      "amount": 3
+    },
+    "fluid:gtceu:sterile_alloy",
+    "item:kubejs:hsss_coil_block",
+    "item:gtceu:hot_refined_radiance_ingot",
+    "fluid:gtceu:iron",
+    "item:gtceu:plasma_large_turbine",
+    "item:gtceu:extreme_alternator",
+    "item:gtceu:luv_fusion_reactor",
+    {
+      "type": "fluid",
+      "id": "gtceu:iron_plasma",
+      "amount": 16
+    },
+    "item:caupona:stew_pot",
+    {
+      "type": "fluid",
+      "id": "caupona:dilute_soup",
+      "amount": 0
+    },
+    "item:gtceu:lutetium_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:lutetium",
+      "amount": 32
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:radiance",
+      "amount": 0
+    },
+    "item:gtceu:luv_autoclave",
+    "item:gtceu:luv_gas_collector",
+    "item:gtceu:luv_thermal_centrifuge",
+    "item:gtceu:luv_electromagnetic_separator",
+    "item:nuclearcraft:uranium_238_za",
+    "item:enderio:alloy_smelter",
+    "item:enderio:conduit_binder",
+    "item:create:shadow_steel",
+    "item:gtceu:shadow_steel_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:molten_shadow_radiance",
+      "amount": 144
+    },
+    "item:createqol:shadow_radiance",
+    "item:gtceu:shadow_radiance_dust",
+    "item:gtceu:radiance_bucket",
+    "item:nuclearcraft:irradiator",
+    "item:create:mechanical_mixer",
+    {
+      "type": "fluid",
+      "id": "gtceu:raw_growth_medium",
+      "amount": 100
+    },
+    "item:kubejs:sterile_casing",
+    {
+      "type": "fluid",
+      "id": "gtceu:molten_sterile_alloy",
+      "amount": 0
+    },
+    "item:gtceu:sterile_alloy_frame",
+    {
+      "type": "fluid",
+      "id": "gtceu:polyethylene",
+      "amount": 0
+    },
+    "item:kubejs:alon_glass",
+    "item:laboratoryblocks:pla_sheets",
+    "item:create:sturdy_sheet",
+    "item:gtceu:obsidian_plate",
+    "item:gtceu:silicone_rubber_plate",
+    "item:create:copper_sheet",
+    {
+      "type": "item",
+      "id": "gtceu:polyphenylene_sulfide_foil",
+      "amount": 4
+    },
+    "item:gtceu:polyphenylene_sulfide_plate",
+    {
+      "type": "fluid",
+      "id": "gtceu:polyvinyl_chloride",
+      "amount": 144
+    },
+    "item:gtceu:polyvinyl_chloride_plate",
+    "item:gtceu:reinforced_epoxy_resin_plate",
+    {
+      "type": "fluid",
+      "id": "gtceu:vinyl_chloride",
+      "amount": 144
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:bisphenol_a",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:epoxy",
+      "amount": 144
+    },
+    "item:gtceu:reinforced_epoxy_resin_ingot",
+    {
+      "type": "fluid",
+      "id": "gtceu:reinforced_epoxy_resin",
+      "amount": 144
+    },
+    "item:gtceu:styrene_butadiene_rubber_plate",
+    "item:gtceu:bakelite_plate",
+    "item:gtceu:data_stick{assembly_line_research:{research_id:\"1x_gtceu_bakelite_plate\",research_type:\"gtceu:assembly_line\"}}",
+    "item:gtceu:bakelite_dust",
+    "item:gtceu:data_module",
+    "item:gtceu:zpm_energy_output_hatch",
+    "item:gtceu:research_station",
+    {
+      "type": "fluid",
+      "id": "gtceu:bakelite",
+      "amount": 17000
+    },
+    "item:gtceu:lv_1a_energy_converter",
+    "item:gtceu:lv_scanner",
+    "item:gtceu:large_chemical_reactor",
+    "item:gtceu:iv_chemical_bath",
+    "item:gtceu:iv_chemical_reactor",
+    "item:gtceu:hot_tungsten_steel_ingot",
+    "item:gtceu:tungsten_steel_ingot",
+    "item:gtceu:tungsten_steel_plate",
+    "item:gtceu:tungstensteel_pipe_casing",
+    "item:gtceu:stainless_evaporation_casing",
+    "item:gtceu:duranium_buzz_saw_blade",
     "item:gtceu:uhv_machine_hull",
     "item:gtceu:uiv_machine_hull",
     "item:gtceu:uhv_mixer",
@@ -133,9 +368,7 @@
     "item:gtceu:uiv_mixer",
     "item:gtceu:uxv_mixer",
     "item:gtceu:opv_mixer",
-    "item:kubejs:alon_glass",
     "item:gtceu:uhv_machine_casing",
-    "item:gtceu:uev_machine_casing",
     "item:gtceu:uiv_machine_casing",
     "item:gtceu:uhv_arc_furnace",
     "item:gtceu:uhv_alloy_smelter",
@@ -154,10 +387,7 @@
       "id": "gtceu:silane",
       "amount": 0
     },
-    "item:gtceu:aluminium_oxynitride_dust",
-    "item:gtceu:aluminium_oxynitride_ingot",
     "item:gtceu:stellar_matter_single_wire",
-    "item:gtceu:stabilized_oganesson_ingot",
     "item:gtceu:stabilized_oganesson_plate",
     "item:gtceu:mv_autoclave",
     "item:minecraft:glass",
@@ -166,9 +396,6 @@
       "id": "gtceu:tempered_glass",
       "amount": 2
     },
-    "item:gtceu:laminated_glass",
-    "item:gtceu:fusion_glass",
-    "item:gtceu:zpm_electric_motor",
     "item:gtceu:zpm_macerator",
     "item:gtceu:hv_alloy_smelter",
     "item:gtceu:mv_macerator",
@@ -205,7 +432,6 @@
     "item:gtceu:lead_zinc_solution_bucket",
     "#item:forge:dusts/zinc",
     "item:createmetallurgy:zinc_dust",
-    "item:gtceu:iv_decay_hastener",
     "item:gtceu:large_wiremill",
     "item:gtceu:large_solidifier",
     "item:gtceu:isotope_separator_multi",
@@ -213,7 +439,6 @@
     "item:gtceu:decay_hastener_multi",
     "item:gtceu:large_distillery",
     "item:gtceu:atomic_casing",
-    "item:enderio:conduit_binder",
     "item:enderio:end_steel_grinding_ball",
     "item:enderio:dark_steel_grinding_ball",
     "item:enderio:copper_alloy_grinding_ball",
@@ -252,8 +477,6 @@
     },
     "item:gtceu:lv_conveyor_module",
     "item:enderio:conduit_binder_composite",
-    "item:gtceu:hot_refined_radiance_ingot",
-    "item:create:refined_radiance",
     "item:createbigcannons:unbored_cast_iron_autocannon_recoil_spring",
     "item:createbigcannons:cast_iron_autocannon_barrel",
     "item:createbigcannons:cast_iron_autocannon_recoil_spring",
@@ -605,7 +828,6 @@
     "item:nuclearcraft:plutonium_rtg",
     "item:nuclearcraft:fusion_reactor_casing",
     "item:nuclearcraft:niobium_tin_electromagnet",
-    "item:enderio:alloy_smelter",
     "item:nuclearcraft:zinc_ingot",
     "item:nuclearcraft:lead_nugget",
     "item:nuclearcraft:cobalt_nugget",
@@ -649,11 +871,6 @@
     "item:nuclearcraft:tungsten_ingot",
     "item:gtceu:platinum_nugget",
     "item:minecraft:iron_block",
-    {
-      "type": "fluid",
-      "id": "gtceu:iron",
-      "amount": 1296
-    },
     "item:gtceu:wood_plate",
     "item:gtceu:lv_machine_casing",
     "item:gtceu:rubber_ring",
@@ -834,7 +1051,6 @@
     "item:gtceu:vanadium_steel_ingot",
     "item:gtceu:magnetic_steel_ingot",
     "item:gtceu:cobalt_brass_ingot",
-    "item:gtceu:tungsten_steel_ingot",
     "item:gtceu:damascus_steel_ingot",
     "item:gtceu:black_steel_ingot",
     "item:gtceu:polyvinyl_butyral_ingot",
@@ -859,7 +1075,6 @@
     "item:gtceu:silicone_rubber_ingot",
     "item:gtceu:raw_rubber_ingot",
     "item:gtceu:styrene_butadiene_rubber_ingot",
-    "item:gtceu:reinforced_epoxy_resin_ingot",
     "item:gtceu:nickel_zinc_ferrite_ingot",
     "item:gtceu:indium_gallium_phosphide_ingot",
     "item:gtceu:gallium_arsenide_ingot",
@@ -892,9 +1107,7 @@
     "item:gtceu:annealed_copper_ingot",
     "item:gtceu:trinium_ingot",
     "item:gtceu:duranium_ingot",
-    "item:gtceu:tritanium_ingot",
     "item:gtceu:neutronium_ingot",
-    "item:gtceu:naquadria_ingot",
     "item:gtceu:enriched_naquadah_ingot",
     "item:gtceu:naquadah_ingot",
     "item:gtceu:zirconium_ingot",
@@ -1164,16 +1377,7 @@
     "item:buildinggadgets2:gadget_building",
     "item:laboratoryblocks:laboratory_block",
     "item:antiblocksrechiseled:bright_white",
-    "item:gtceu:sterile_alloy_dust",
-    "item:gtceu:hot_sterile_alloy_ingot",
-    "item:gtceu:sterile_alloy_ingot",
     "item:gtceu:trinium_coil_block",
-    {
-      "type": "fluid",
-      "id": "gtceu:radiance",
-      "amount": 1000
-    },
-    "item:gtceu:radiance_bucket",
     "item:kubejs:infinity_coil_block",
     "fluid:gtceu:stellar_matter",
     "item:gtceu:sulfur_dust",
@@ -1184,7 +1388,6 @@
     "fluid:gtceu:sulfuric_acid",
     "fluid:gtceu:acidic_naquadria_solution",
     "item:gtceu:naquadria_sulfate_dust",
-    "item:gtceu:hot_naquadria_ingot",
     "#fluid:forge:liquid_helium",
     "item:gtceu:naquadria_foil",
     "item:gtceu:clay_dust",
@@ -1288,17 +1491,14 @@
     "fluid:gtceu:hssg",
     "item:gtceu:manyullyn_foil",
     "item:gtceu:hsss_double_wire",
-    "item:kubejs:hsss_coil_block",
     "item:nuclearcraft:alloy_smelter",
     "item:nuclearcraft:extractor",
     "item:nuclearcraft:nuclear_furnace",
-    "item:nuclearcraft:irradiator",
     "item:kubejs:ostrum_stringer",
     "item:ad_astra:tier_3_rocket{}",
     "item:kubejs:ad_command_ii",
     "item:ad_astra:ostrum_engine",
     "item:gtceu:raw_mithril",
-    "fluid:gtceu:naquadria",
     "item:pointblank:doom_handgun",
     "item:pointblank:ar_suppressor",
     "item:gtceu:pollucite_dust",
@@ -1658,6 +1858,10 @@
     "item:create:zinc_ingot",
     "item:create:zinc_nugget",
     "item:create:raw_zinc",
-    "item:createmetallurgy:zinc_dust"
+    "item:createmetallurgy:zinc_dust",
+    "item:create:copper_sheet",
+    "item:create:brass_sheet",
+    "item:create:iron_sheet",
+    "item:create:golden_sheet"
   ]
 }

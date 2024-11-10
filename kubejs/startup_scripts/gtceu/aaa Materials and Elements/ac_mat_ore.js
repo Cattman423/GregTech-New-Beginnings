@@ -155,4 +155,10 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(QUARTZ)
         .components('lithium', 'aluminium', '2x silicon', '6x oxygen', 'manganese')
         .flags(lens)
+
+    event.create('porphyry_copper')
+        .ore(1, 3)
+        .color(0x77dd77)
+        .iconSet(DULL)
+        .components('12x copper', '3x silver', 'tellurium')
 })
