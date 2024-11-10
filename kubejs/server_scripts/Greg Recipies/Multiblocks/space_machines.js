@@ -1,0 +1,15 @@
+ServerEvents.recipes(event => {
+    /*event.recipes.gtceu.basic_launch_facility('test_alpha_three')
+        .itemInputs('kubejs:leo_lv', 'kubejs:mining_ship')
+        .inputFluids('gtceu:rocket_fuel 5000')
+        .chancedOutput('kubejs:mining_ship', 5000, 50)
+        .chancedOutput('256x gtceu:raw_pyrite',  7500, 500)
+        .chancedOutput('128x minecraft:raw_gold',  7500, 500)
+        .chancedOutput('64x gtceu:raw_blue_topaz',  5000, 250)
+        .chancedOutput('32x gtceu:raw_pentlandite',  5000, 250)
+        .chancedFluidOutput('gtceu:hydrogen 250', 1500, 50)
+        .chancedFluidOutput('gtceu:helium 100', 1000, 50)
+        .chancedFluidOutput('gtceu:argon 10', 100, 50)
+        .duration(24000)
+        .EUt(2048)*/
+})

@@ -154,11 +154,6 @@
 
 #Game tweaks
 [tweaks]
-	#Colors the brewing stand potion texture depending on the potions it's brewing.
-	#If using a resource pack add tint index from 0 to 3 to the 3 potion layers
-	brewing_stand_colors = true
-	#Makes tipped arrows show their colors when loaded with a crossbow
-	crossbows_colors = true
 	#Allow to right click with a clock to display current time in numerical form
 	clock_right_click = true
 	#Allow to right click with a compass to display current coordinates in numerical form
@@ -180,6 +175,11 @@
 	mob_head_shaders = true
 	#Sends your current chat when you die while typing
 	send_chat_on_death = true
+	#Colors the brewing stand potion texture depending on the potions it's brewing.
+	#If using a resource pack add tint index from 0 to 3 to the 3 potion layers
+	brewing_stand_colors = true
+	#Makes tipped arrows show their colors when loaded with a crossbow
+	crossbows_colors = true
 
 	[tweaks.colored_maps]
 		#Needs the server config with same name on. If on here it will ignore the server one and keep vanilla colors

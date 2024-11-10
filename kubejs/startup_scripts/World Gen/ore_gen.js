@@ -30,7 +30,17 @@ WorldgenEvents.remove(event => {
             'tfmg:deepslate_lithium_ore',
             'tfmg:nickel_ore',
             'tfmg:deepslate_nickel_ore',
-            'createmetallurgy:wolframite_ore'
+            'createmetallurgy:wolframite_ore',
+            'nuclearcraft:magneseium_deepslate_ore',
+            'nuclearcraft:thorium_deepslate_ore',
+            'nuclearcraft:uranium_deepslate_ore',
+            'nuclearcraft:boron_deepslate_ore',
+            'nuclearcraft:lithium_deepslate_ore',
+            'nuclearcraft:magneseium_ore',
+            'nuclearcraft:lithium_ore',
+            'nuclearcraft:thorium_ore',
+            'nuclearcraft:uranium_ore',
+            'nuclearcraft:boron_ore'
         ]
         })
     //    event.removeFeatureById('raw_generation', [

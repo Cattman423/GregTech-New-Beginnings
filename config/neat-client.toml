@@ -1,6 +1,12 @@
 
 [general]
+	#Text color in hex code format
+	text_color = "FFFFFF"
+	show_entity_name = true
+	#Disables the rendering of the vanilla name tag
+	disable_name_tag = false
 	"Max Distance" = 24
+	"Max Distance Without Line of Sight" = 8
 	"Render with Interface Disabled (F1)" = false
 	"Height Above Mob" = 0.6
 	"Draw Background" = true
@@ -17,11 +23,15 @@
 	"Show Max HP" = true
 	"Show Current HP" = true
 	"Show HP Percentage" = true
+	#Whether bars on passive mobs should be shown
+	showOnPassive = true
+	#Whether bars on hostile mobs should be shown (does not include bosses)
+	showOnHostile = true
 	"Display on Players" = true
 	"Display on Bosses" = true
 	"Only show the health bar for the entity looked at" = false
 	"Show entities with full health" = true
 	"Show Debug Info with F3" = true
 	#Blacklist uses entity IDs, not their display names. Use F3 to see them in the Neat bar.
-	Blacklist = ["minecraft:shulker", "minecraft:armor_stand", "minecraft:cod", "minecraft:salmon", "minecraft:pufferfish", "minecraft:tropical_fish"]
+	Blacklist = ["minecraft:shulker", "minecraft:armor_stand", "minecraft:cod", "minecraft:salmon", "minecraft:pufferfish", "minecraft:tropical_fish", "minecraft:tadpole"]
 

@@ -471,8 +471,8 @@
 			id: "7FB5535CEC09077E"
 			size: 0.5d
 			tasks: [{
-				id: "610AFAC443907F45"
-				item: "minecraft:bedrock"
+				id: "138F7D1AA14F7CEA"
+				item: "gtceu:stabilized_oganesson_ingot"
 				type: "item"
 			}]
 			x: -4.5d
@@ -484,8 +484,8 @@
 			id: "0831197FAD47971E"
 			size: 0.5d
 			tasks: [{
-				id: "3B8810BE02026D7F"
-				item: "minecraft:bedrock"
+				id: "2C65B4EB6EEF91B2"
+				item: "createqol:shadow_radiance"
 				type: "item"
 			}]
 			x: -4.5d
@@ -584,7 +584,7 @@
 				item: "gtceu:rtm_alloy_coil_block"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: -0.5d
 		}
 		{
@@ -599,13 +599,13 @@
 				item: "gtceu:hssg_coil_block"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: -0.5d
 		}
 		{
 			dependencies: [
-				"32F52A775048432A"
 				"5F630DF8580FDCFB"
+				"39741A87AAAB2811"
 			]
 			id: "3D2878EDD6C9025D"
 			size: 0.5d
@@ -619,8 +619,8 @@
 		}
 		{
 			dependencies: [
-				"3D2878EDD6C9025D"
 				"35A93DB7EA041370"
+				"71039352B9AA0425"
 			]
 			id: "5BDAA88785959115"
 			size: 0.5d
@@ -629,13 +629,13 @@
 				item: "gtceu:trinium_coil_block"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: -0.5d
 		}
 		{
 			dependencies: [
-				"5BDAA88785959115"
 				"37A20D84A841C806"
+				"7B600C2630EDEA69"
 			]
 			id: "3F638438107C2C7C"
 			size: 0.5d
@@ -644,7 +644,7 @@
 				item: "gtceu:tritanium_coil_block"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: -0.5d
 		}
 		{
@@ -701,17 +701,17 @@
 			size: 0.5d
 			tasks: [
 				{
-					id: "75AD26FEBCE56521"
+					id: "5CCAA5926AAFDEF2"
 					item: "gtceu:hv_sodium_battery"
 					type: "item"
 				}
 				{
-					id: "5D417FE91380125E"
+					id: "637F3748516FA277"
 					item: "gtceu:hv_lithium_battery"
 					type: "item"
 				}
 				{
-					id: "28347AB00959C346"
+					id: "3E436408C9B74B30"
 					item: "gtceu:hv_cadmium_battery"
 					type: "item"
 				}
@@ -911,7 +911,7 @@
 				item: "gtceu:rtm_alloy_ingot"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -0.5d
 			y: -1.0d
 		}
 		{
@@ -923,7 +923,7 @@
 				item: "gtceu:hssg_ingot"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: -1.0d
 		}
 		{
@@ -947,7 +947,7 @@
 				item: "gtceu:trinium_ingot"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: -1.0d
 		}
 		{
@@ -959,7 +959,7 @@
 				item: "gtceu:tritanium_ingot"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: -1.0d
 		}
 		{
@@ -1519,7 +1519,7 @@
 		{
 			dependencies: [
 				"25465C97912AF33A"
-				"3F638438107C2C7C"
+				"3D2878EDD6C9025D"
 			]
 			id: "71039352B9AA0425"
 			tasks: [{
@@ -1527,7 +1527,7 @@
 				item: "kubejs:mithril_coil_block"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: -0.5d
 		}
 		{
@@ -1538,7 +1538,7 @@
 				item: "gtceu:mithril_ingot"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: -1.0d
 		}
 		{
@@ -1664,8 +1664,8 @@
 		}
 		{
 			dependencies: [
-				"71039352B9AA0425"
 				"57CFCC3FA4780847"
+				"5BDAA88785959115"
 			]
 			id: "7B600C2630EDEA69"
 			tasks: [{
@@ -1673,7 +1673,7 @@
 				item: "kubejs:chadium_coil_block"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: -0.5d
 		}
 		{
@@ -1684,7 +1684,7 @@
 				item: "gtceu:chadium_ingot"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: -1.0d
 		}
 		{
@@ -1700,8 +1700,8 @@
 		}
 		{
 			dependencies: [
-				"7B600C2630EDEA69"
 				"3879A6415D7D7E7B"
+				"3F638438107C2C7C"
 			]
 			id: "35C8ACF6D1E66814"
 			tasks: [{
@@ -1859,7 +1859,7 @@
 				item: "kubejs:ad_astra_venus_marker"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 0.0d
 			y: -11.5d
 		}
 		{
@@ -1870,7 +1870,7 @@
 				item: "kubejs:ad_astra_mercury_marker"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 0.0d
 			y: -12.0d
 		}
 		{
@@ -1884,8 +1884,33 @@
 				item: "kubejs:ad_astra_glacio_marker"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 5.0d
 			y: -11.5d
+		}
+		{
+			dependencies: [
+				"32F52A775048432A"
+				"4364F8A6C12A2F9C"
+			]
+			id: "39741A87AAAB2811"
+			tasks: [{
+				id: "1D2C7857FB2CBBDE"
+				item: "kubejs:hsss_coil_block"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["72F3F36CD583B9FA"]
+			id: "4364F8A6C12A2F9C"
+			tasks: [{
+				id: "12413F3426B70778"
+				item: "gtceu:hsss_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
 		}
 	]
 	title: "GregTech Progression"

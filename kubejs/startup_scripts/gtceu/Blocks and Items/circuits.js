@@ -208,29 +208,39 @@ StartupEvents.registry('item', event => {
 
 //Boules
     event.create('certus_quartz_boule')
-        .displayName('Certus-doped Monocrystalline Silicon Boule')
+        .displayName('Monocrystalline Certus Boule')
         .texture('gtceu:item/ae_2/certus_quartz_boule')
-        .tooltip('Raw Circuit')
+        .tooltip('§7Raw Circuit')
+
+    event.create('naquadah_certus_quartz_boule')
+        .displayName('Naquadah-doped Monocrystalline Certus Boule')
+        .texture('gtceu:item/ae_2/naquadah_certus_quartz_boule')
+        .tooltip('§7Raw Circuit')
+
+    event.create('neutronium_certus_quartz_boule')
+        .displayName('Neutronium-doped Monocrystalline Certus Boule')
+        .texture('gtceu:item/ae_2/neutronium_certus_quartz_boule')
+        .tooltip('§7Raw Circuit')
 
     event.create('certus_wafer')
         .displayName('Certus Wafer')
         .texture('gtceu:item/ae_2/certus_wafer')
-        .tooltip('Raw Circuit')
+        .tooltip('§7Raw Circuit')
 
     event.create('calculation_wafer')
         .displayName('Calculation Wafer')
         .texture('gtceu:item/ae_2/calculation_wafer')
-        .tooltip('Raw Calculation Processor')
+        .tooltip('§7Raw Calculation Processor')
 
     event.create('engineering_wafer')
         .displayName('Engineering Wafer')
         .texture('gtceu:item/ae_2/engineering_wafer')
-        .tooltip('Raw Engineering Processor')
+        .tooltip('§7Raw Engineering Processor')
 
     event.create('logic_wafer')
         .displayName('Logic Wafer')
         .texture('gtceu:item/ae_2/logic_wafer')
-        .tooltip('Raw Logic Processor')
+        .tooltip('§7Raw Logic Processor')
 
 //Magneto Resonance Circuits
     event.create('ulv_magneto_resonance_circuit')

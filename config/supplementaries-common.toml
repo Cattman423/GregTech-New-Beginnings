@@ -94,8 +94,6 @@
 	hourglass = true
 
 	[functional.rope]
-		#So you came here to disable supp rope not because they are bad but because they are the easiest to disable, despite them doing all the stuff other ropes can do. Well too bad, this config doesnt do anything :P. Learn how to use datapacks to disable stuff, like its normally done
-		enabled = true
 		#Allows ropes to be supported & attached to solid block sides
 		block_side_attachment = true
 		#Makes sliding down ropes as fast as free falling, still negating fall damage
@@ -104,6 +102,8 @@
 		rope_override = "supplementaries:rope"
 		#Enables horizontal placement of ropes
 		horizontal_ropes = true
+		#So you came here to disable supp rope not because they are bad but because they are the easiest to disable, despite them doing all the stuff other ropes can do. Well too bad, this config doesnt do anything :P. Learn how to use datapacks to disable stuff, like its normally done
+		enabled = true
 
 	[functional.jar]
 		enabled = true
@@ -211,10 +211,10 @@
 	raked_gravel = true
 	feather_block = true
 	statue = true
-	flower_box = true
 	doormat = true
 	flint_block = true
 	candle_holder = true
+	flower_box = true
 
 	[building.blackboard]
 		enabled = true

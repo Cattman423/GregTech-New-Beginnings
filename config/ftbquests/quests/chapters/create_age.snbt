@@ -1174,47 +1174,6 @@
 			y: 7.0d
 		}
 		{
-			can_repeat: true
-			dependencies: ["1928A0F6075A46AC"]
-			id: "2A6D904B243EA019"
-			optional: true
-			rewards: [{
-				id: "69960C356950866D"
-				item: "kubejs:clockwork_mechanism"
-				type: "item"
-			}]
-			size: 0.5d
-			tasks: [{
-				consume_items: true
-				id: "3110188034627420"
-				item: "create:precision_mechanism"
-				optional_task: true
-				type: "item"
-			}]
-			x: 7.5d
-			y: 6.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["07B9229EA02A6C1E"]
-			id: "06F50280030E69BD"
-			optional: true
-			rewards: [{
-				id: "5D1E4707AAAC9E2B"
-				item: "kubejs:advanced_clockwork_mechanism"
-				type: "item"
-			}]
-			size: 0.5d
-			tasks: [{
-				consume_items: true
-				id: "49228725F6989157"
-				item: "tfmg:steel_mechanism"
-				type: "item"
-			}]
-			x: 9.5d
-			y: 10.5d
-		}
-		{
 			dependencies: [
 				"235E8244B5B522FF"
 				"0F6B6479A8529BD2"
@@ -2309,19 +2268,18 @@
 				"179BE55EAA6BA680"
 				"2CA8583DDF2AEC3A"
 			]
-			dependency_requirement: "one_completed"
 			description: [
 				"This is how you can convert that pesky RF to precious EU, and vice versa."
 				""
-				"The &cred face&r is for RF, and the &agreen faces&r are for EU."
+				"The &cred face&r is the output, and the &agreen faces&r are the inputs."
 				""
 				"When placed, it will be converting EU -> RF, hit it with any soft mallet to invert it's function."
 				""
 				""
-				"&eDespite what the tooltip states, they are configured to run at a ration of 2 RF to 1 EU&r"
+				"&eDespite what the tooltip states, they are configured to run at a ratio of 2 RF to 1 EU&r"
 			]
 			id: "5EFF8C3E3D06198D"
-			min_required_dependencies: 2
+			min_required_dependencies: 1
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "748C5633AE9B79E0"
@@ -2329,10 +2287,18 @@
 				type: "random"
 			}]
 			tasks: [{
-				id: "3675B449B47BE99D"
-				item: "gtceu:lv_1a_energy_converter"
+				id: "64966DA865643A03"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(forge:lv_converter)"
+					}
+				}
+				title: "Any #forge:lv_converter"
 				type: "item"
 			}]
+			title: "Lv Energy Converter"
 			x: 1.0d
 			y: 12.5d
 		}
@@ -2453,6 +2419,7 @@
 				"6FCA9CCC58E36674"
 				"3A5A837570183C79"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"To transmit the newly made power you have three options:"
 				""

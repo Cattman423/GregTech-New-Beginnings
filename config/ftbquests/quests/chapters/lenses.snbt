@@ -313,8 +313,8 @@
 			id: "3A923127933944EF"
 			optional: true
 			tasks: [{
-				id: "3DE4A0DA5D7945A7"
-				item: "gtceu:enriched_certus_lens"
+				id: "1869AD5F3E9D8D94"
+				item: "gtceu:charged_certus_lens"
 				type: "item"
 			}]
 			x: -4.5d
@@ -707,6 +707,7 @@
 		{
 			dependencies: ["44279043DD31B476"]
 			id: "50F01676FBC65157"
+			optional: true
 			tasks: [{
 				id: "4AB4FCC6212E9523"
 				item: "gtceu:lunite_lens"
@@ -714,6 +715,125 @@
 			}]
 			x: 1.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "57C7890DCC29495C"
+			optional: true
+			tasks: [{
+				id: "2E61996774C1C8AF"
+				item: "gtceu:fluix_lens"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "08F3655188CD096A"
+			optional: true
+			tasks: [{
+				id: "6CB9A05AEA1B4200"
+				item: "gtceu:boron_arsenide_lens"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "351ECD0181CA827D"
+			optional: true
+			tasks: [{
+				id: "5F1AC6D023DF7222"
+				item: "gtceu:carobbiite_lens"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "3EF4390D24CC8CED"
+			optional: true
+			tasks: [{
+				id: "327305CD8159265C"
+				item: "gtceu:villiaumite_lens"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "1CB21693489C6658"
+			optional: true
+			tasks: [{
+				id: "0C175860AC2C6736"
+				item: "gtceu:rhodochrosite_lens"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "55BB90B145BB309A"
+			optional: true
+			tasks: [{
+				id: "2684E842DEB637B1"
+				item: "gtceu:fluorite_lens"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "27DEA1C58BDEFF1E"
+			optional: true
+			tasks: [{
+				id: "175372F9F0E8CA34"
+				item: "gtceu:boron_nitride_lens"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "35A58797CB47E9B2"
+			optional: true
+			tasks: [{
+				id: "23A851A464DE8E6E"
+				item: "gtceu:titanite_lens"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "279C4E5ACD4AF1C3"
+			optional: true
+			tasks: [{
+				id: "019472C5ACFA9B5D"
+				item: "gtceu:nepheline_lens"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "7FC90C4731D72646"
+			tasks: [{
+				id: "5AE2181FEA16F71E"
+				item: "gtceu:kunzite_lens"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
 		}
 	]
 	title: "Lenses"

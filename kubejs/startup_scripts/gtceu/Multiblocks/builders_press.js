@@ -10,6 +10,8 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 GTCEuStartupEvents.registry('gtceu:machine', event => {
 //Builder's press
     event.create('builders_press', 'multiblock')
+        .tooltips(Component.translatable("gtceu.machine.available_recipe_map_1.tooltip",
+                Component.translatable("gtceu.builders_press")))
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('builders_press')
         .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)

@@ -1,0 +1,7 @@
+{
+    "parent": "gtceu:block/cube_2_layer/all",
+    "textures": {
+        "bot_all": "gtceu:block/coils/machine_coil_stellar_matter_active",
+        "top_all": "gtceu:block/coils/machine_coil_stellar_matter_active_bloom"
+    }
+}

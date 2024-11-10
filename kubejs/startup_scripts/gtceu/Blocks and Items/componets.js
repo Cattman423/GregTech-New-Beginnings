@@ -129,4 +129,16 @@ StartupEvents.registry('item', event => {
     event.create('round_casting_mold')
         .displayName('Casting Mold (Round)')
         .texture('gtceu:item/misc/round_casting_mold')
+
+    event.create('graphite_small_gear_mold')
+        .displayName('Graphite Small Gear Mold')
+        .texture('createmetallurgy:item/graphite_small_gear_mold')
+
+    event.create('graphite_round_mold')
+        .displayName('Graphite Round Mold')
+        .texture('createmetallurgy:item/graphite_round_mold')
+
+    event.create('graphite_gem_mold')
+        .displayName('Graphite Gem Mold')
+        .texture('createmetallurgy:item/graphite_gem_mold')
 })
