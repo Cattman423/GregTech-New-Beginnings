@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
                 .EUt(hv)
         } else {
             event.recipes.gtceu.hydroponic_farm(id)
-                .circuit(cid)
+                .circuit(cid + 8)
                 .notConsumable(input)
                 .inputFluids(fluid)
                 .itemOutputs(output)

@@ -16,6 +16,5 @@ ServerEvents.recipes(event => {
             .duration(time)
             .EUt(power)
     }
-    mixer('restone_alloy', 16, ['minecraft:redstone', 'gtceu:silicon_dust', 'gtceu:carbon_dust'], 'gtceu:redstone_alloy_dust', 800, 48)
     mixerspace('flux_space', 16, ['64x minecraft:redstone', 'gtceu:obsidian_dust', '6x gtceu:desh_dust'], 'gtceu:flux_dust', 400, 480)
 })

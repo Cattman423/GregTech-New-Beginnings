@@ -69,4 +69,21 @@ ServerEvents.recipes(event => {
         .itemOutputs('kubejs:alon_glass')
         .duration(sec*5)
         .EUt(uv)
+
+//Lead Fixes
+    event.replaceInput(
+        { input: 'caupona:lead_ingot' },
+        'caupona:lead_ingot',
+        'gtceu:lead_ingot'
+        )
+    event.replaceInput(
+        { input: 'caupona:lead_nugget' },
+        'caupona:lead_nugget',
+        'gtceu:lead_nugget'
+        )
+    event.replaceOutput(
+        { output: 'caupona:lead_nugget' },
+        'caupona:lead_nugget',
+        'gtceu:lead_nugget'
+        )
 })

@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
 //Andesite alloy dust
     event.recipes.gtceu.mixer('andesite_alloy_dust')
         .itemInputs('8x gtceu:andesite_dust', 'gtceu:zinc_dust')
-        .itemOutputs('8x gtceu:andesite_alloy_dust')
+        .itemOutputs('9x gtceu:andesite_alloy_dust')
         .duration(1600)
         .EUt(16);
     event.shapeless(
@@ -141,7 +141,7 @@ ServerEvents.recipes(event => {
             'AAA'
         ],
         {
-            A: 'gtceu:raw_rubber_plate',
+            A: '#minecraft:leather',
             B: 'create:shaft',
             C: 'create:cogwheel'
         }

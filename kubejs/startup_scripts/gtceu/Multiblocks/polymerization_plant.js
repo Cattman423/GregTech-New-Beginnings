@@ -29,6 +29,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
                     .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1)))
             .where('M', Predicates.abilities(PartAbility.MUFFLER))
             .where('P', Predicates.blocks(GTBlocks.CASING_TUNGSTENSTEEL_PIPE))
+            .where(' ', Predicates.any())
             .build()
         )
         .workableCasingRenderer(

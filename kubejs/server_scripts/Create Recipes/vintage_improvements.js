@@ -29,10 +29,10 @@ ServerEvents.recipes(event => {
     const spring = Ingredient.of('#forge:springs').itemIds
     const smallspring = Ingredient.of('#forge:small_springs').itemIds
     spring.forEach( (itemIds) => {
-        event.recipes.vintageimprovements.coiling(itemIds, 'gtceu:long_' + itemIds.slice(6, -7) + '_rod')
+        event.recipes.vintageimprovements.coiling(itemIds, 'gtceu:long_' + itemIds.slice(6, -7) + '_rod').id('kubejs:vintageimprovements/coiling/' + itemIds.slice(6))
     })
     smallspring.forEach( (itemIds) => {
-        event.recipes.vintageimprovements.coiling(itemIds, 'gtceu:' + itemIds.slice(12, -7) + '_rod')
+        event.recipes.vintageimprovements.coiling(itemIds, 'gtceu:' + itemIds.slice(12, -7) + '_rod').id('kubejs:vintageimprovements/coiling/' + itemIds.slice(6))
     })
 
 //Helve hammering
@@ -65,7 +65,7 @@ ServerEvents.recipes(event => {
             event.recipes.vintageimprovementsHammering(
                 Item.of(itemIds, 2), 
                 [itemIds.slice(0, -6) + '_ingot', itemIds.slice(0, -6) + '_ingot', itemIds.slice(0, -6) + '_ingot'])
-                .hammerBlows(5)
+                .hammerBlows(5).id('kubejs:vintageimprovements/hammering/' + itemIds.slice(6))
         }
     })//end of plate loop
     event.recipes.vintageimprovementsHammering(
@@ -117,7 +117,7 @@ ServerEvents.recipes(event => {
         if(
             itemIds != 'ad_astra:steel_rod'
         ) {
-            event.recipes.vintageimprovements.turning(Item.of(itemIds), itemIds.slice(0, -4) + '_ingot').processingTime(300)
+            event.recipes.vintageimprovements.turning(Item.of(itemIds), itemIds.slice(0, -4) + '_ingot').processingTime(300).id('kubejs:vintageimprovements/lathe/' + itemIds.slice(6))
         }
     })//end of lathe loop
     event.recipes.vintageimprovements.turning(Item.of('gtceu:iron_rod'), 'minecraft:iron_ingot').processingTime(300)
@@ -129,7 +129,7 @@ ServerEvents.recipes(event => {
 
     const screws = Ingredient.of('#forge:screws').itemIds
     screws.forEach( (itemIds) => {
-        event.recipes.vintageimprovements.turning(Item.of(itemIds), itemIds.slice(0, -6) + '_bolt').processingTime(300)
+        event.recipes.vintageimprovements.turning(Item.of(itemIds), itemIds.slice(0, -6) + '_bolt').processingTime(300).id('kubejs:vintageimprovements/lathe/' + itemIds.slice(6))
     })
 
     event.recipes.vintageimprovements.turning(Item.of('gtceu:glass_tube'), '#forge:glass/colorless').processingTime(300)
