@@ -1,5 +1,55 @@
 # Changelog
 
+## V 0.4.1
+
+* Recipes
+  * Fixed Zinc ore to Zinc ingot smelting recipe to output correct form of Zinc ingots
+  * Fixed a couple of recipes relaed to Lead
+  * Ores can now be processed in the Create millstone without any byproducts compared to the crushing wheels
+  * AE2
+    * Changed recipe requirements for AE2 storage componets, 4k+ comps require a cleanroom, and voltage requirements have been adjusted
+    * Changed recipes for AE2 cables
+      * Quartz fibers, and fluix glass cables are made in the autoclave
+      * Covered cables are made in the chemical bath
+      * Cables are dyed in the chemical bath
+      * Tweaked recipes for smart cables and smart dense cables
+    * Changed recipes for AE2 network blocks and busses
+  * Fixed recipe for Create belts missing ingredients
+  * Fixed not getting GT steel or wöhler aluminium from the Create: TFMG blast furnace
+  * Added circuit requirements to Arboretum recipes
+  * Adjusted circuit requirements for Hydroponics recipes
+  * Added GT mixer for liquid fertilizer
+  * Added recipe for Circuit Assembly Line
+  * Fixed missing EnderIO alloy dust recipes
+* Quests
+  * Updated description for the Clockwork: Casting Basin quest to say how to get the graphite dust for the molds.
+  * Added warning to Clockwork Basic Automation quest to inform the player that no GT knives are consumed in the recipe
+* Gamerules
+  * Enabled water source conversion, water is now infinite as per vanilla rules (this only applies to new saves, you will have to do /gamerule waterSourceConversion true to enable this)
+  * Disabled GT Enviormental Hazards
+* Mods
+  * Mod Updates
+    * Ad Astra v1.15.19
+    * Additional Placements v2.1.0
+    * EnderChests v1.3
+    * EnderTanks v1.4
+    * GregTechCEu Modern v1.5.4
+    * LdLib v1.0.31
+    * ShetiPhianCore v1.4
+    * Tetra v6.5.0
+    * Tool Belt v1.20.02
+    * Tree Tap v0.5.0
+    * Volcanic Caverns v1.2.5.1
+    * Xtones Reworked v47.2.0
+  * Mod Downgrades
+    * NuclearCraft: Neoteric to v 1.1.0-rc.3
+  * Mod Removals
+    * Removed Almost Unified
+    * Removed Block of Sky
+    * Removed Disable Villager Trades
+    * Removed Global Game Rules
+    * Removed Gregified Integrations
+
 ## V 0.4.0
 
 ### Forge Updated to v47.3.7

@@ -200,6 +200,8 @@
 				""
 				""
 				"Due to the Create:Casing mod, you can right-click any Create machine to change it's casing with another casing type. You even get to keep the casing!"
+				""
+				"Please use a filter on the saw to avoid making the wrong recipe, you'll thank me later..."
 			]
 			id: "576E2F40DEF76344"
 			rewards: [{
@@ -547,7 +549,11 @@
 				"4E68C8330998DB20"
 				"576E2F40DEF76344"
 			]
-			description: ["Basic I/O for Create, these have no filters, for that you need brass."]
+			description: [
+				"Basic I/O for Create, these have no filters, for that you need brass."
+				""
+				"&cOnly use GregTech knifes to craft these, knifes from other mods will be consumed!&r"
+			]
 			hide_dependent_lines: true
 			id: "35F0F173EF427B4F"
 			optional: true
@@ -1205,7 +1211,7 @@
 			description: [
 				"To use your molten metals, you must cast them into either a basin, or a table."
 				""
-				"The casting table requires the usage of a mold in order to make ingots, rounds, and nuggets. The ingot and nugget molds will require some graphite, so you'll need to find a diamond vein."
+				"The casting table requires the usage of a mold in order to make ingots, rounds, and nuggets. The ingot and nugget molds will require some graphite, so you'll need to find a diamond vein. To turn your graphite ore into dust, run it through a mill stone twice then wash the dirty dust."
 			]
 			id: "6366046B490A9A60"
 			rewards: [{

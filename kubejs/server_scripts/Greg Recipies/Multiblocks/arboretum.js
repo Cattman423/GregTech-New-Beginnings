@@ -17,6 +17,7 @@ ServerEvents.recipes(event => {
     function logging (id, input, output, outleaf, boosted){
         if (boosted) {
             event.recipes.gtceu.logging(id)
+                .circuit(1)
                 .notConsumable(input)
                 .inputFluids('gtceu:distilled_water 1000')
                 .inputFluids('sliceanddice:fertilizer 1000')
@@ -27,6 +28,7 @@ ServerEvents.recipes(event => {
                 .EUt(hv)
         } else {
             event.recipes.gtceu.logging(id)
+                .circuit(2)
                 .notConsumable(input)
                 .inputFluids('gtceu:distilled_water 1000')
                 .itemOutputsRanged(output, 6, 480)
@@ -40,6 +42,7 @@ ServerEvents.recipes(event => {
     function loggingfruit (id, input, output, outleaf, fruit, boosted){
         if (boosted) {
             event.recipes.gtceu.logging(id)
+                .circuit(1)
                 .notConsumable(input)
                 .inputFluids('gtceu:distilled_water 1000')
                 .inputFluids('sliceanddice:fertilizer 1000')
@@ -51,6 +54,7 @@ ServerEvents.recipes(event => {
                 .EUt(hv)
         } else {
             event.recipes.gtceu.logging(id)
+                .circuit(2)
                 .notConsumable(input)
                 .inputFluids('gtceu:distilled_water 1000')
                 .itemOutputsRanged(output, 6, 480)
@@ -129,6 +133,7 @@ ServerEvents.recipes(event => {
     function orchard (id, input, fruit, boosted){
         if (boosted) {
             event.recipes.gtceu.orchard(id)
+                .circuit(1)
                 .notConsumable(input)
                 .inputFluids('gtceu:distilled_water 1000')
                 .inputFluids('sliceanddice:fertilizer 1000')
@@ -139,6 +144,7 @@ ServerEvents.recipes(event => {
                 .EUt(hv)
         } else {
             event.recipes.gtceu.orchard(id)
+                .circuit(2)
                 .notConsumable(input)
                 .inputFluids('gtceu:distilled_water 1000')
                 .itemOutputsRanged(fruit, 6, 480)

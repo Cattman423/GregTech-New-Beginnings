@@ -90,13 +90,13 @@ ServerEvents.recipes(event => {
         type: 'tfmg:industrial_blasting',
         ingredients: [{count: 1, item: 'minecraft:iron_ingot'}/*, {count: 1, item: 'gtceu:coke_gem'}*/],
         processingTime: 300,
-        results: [{fluid: 'kubejs:steel', amount: 90}, {fluid: 'tfmg:molten_slag', amount: 100}]
+        results: [{fluid: 'gtceu:steel', amount: 144}, {fluid: 'tfmg:molten_slag', amount: 100}]
     })
     event.custom({
         type: 'tfmg:industrial_blasting',
         ingredients: [{count: 1, item: 'gtceu:wohler_aluminium_dust'}/*, {count: 1, item: 'gtceu:coke_gem'}*/],
         processingTime: 300,
-        results: [{fluid: 'kubejs:wohler_aluminium', amount: 90}, {fluid: 'tfmg:molten_slag', amount: 100}]
+        results: [{fluid: 'gtceu:wohler_aluminium', amount: 144}, {fluid: 'tfmg:molten_slag', amount: 100}]
     })
 //Intermediates
     event.replaceInput(
