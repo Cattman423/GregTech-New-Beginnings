@@ -330,4 +330,12 @@ ServerEvents.recipes(event => {
         .itemOutputs('gtceu:obsidian_ingot')
         .duration(sec*11.25)
         .EUt(lv)
+
+    event.recipes.gtceu.mixer('fert')
+        .circuit(16)
+        .itemInputs('gtceu:fertilizer')
+        .inputFluids('minecraft:water 1000')
+        .outputFluids('sliceanddice:fertilizer 1000')
+        .duration(sec*5)
+        .EUt(lv)
 })

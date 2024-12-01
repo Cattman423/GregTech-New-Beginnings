@@ -79,7 +79,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .components('3x prasiolite', '4x bismuth_tellurite', 'cubic_zirconium', 'magnetic_steel')
         .color(0xD472D4)
         .iconSet(MAGNETIC)
-        .flags(lens, magnetic, no_plate_compressor_craft)
+        .flags(lens, no_plate_compressor_craft)
 
     event.create('dibismuthhydroborat')
         .dust()
@@ -468,6 +468,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(METALLIC)
         .components('copper', 'silicon')
         .blastTemp(1000, 'low', 120, 1200)
+        .flags(plates)
 
     event.create('energetic_alloy')
         .ingot()
@@ -476,6 +477,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(METALLIC)
         .components('redstone', 'gold', 'glowstone')
         .blastTemp(2200, 'low', 120, 1600)
+        .flags(plates)
 
     event.create('vibrant_alloy')
         .ingot()
@@ -485,6 +487,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .components('energetic_alloy', 'ender_pearl')
         .blastTemp(3000, 'low', 120, 3000)
         .cableProperties(GTValues.V[GTValues.HV], 1, 0, true)
+        .flags(plates)
 
     event.create('redstone_alloy')
         .ingot(1)
@@ -495,6 +498,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .flags()
         .blastTemp(1500, 'low', 120, 1200)
         .cableProperties(32, 2, 0, true)
+        .flags(plates)
 
     event.create('conductive_alloy')
         .ingot()
@@ -503,6 +507,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(METALLIC)
         .components('copper_alloy', 'iron', 'redstone')
         .blastTemp(1200, 'low', 120, 1200)
+        .flags(plates)
 
     event.create('pulsating_alloy')
         .ingot()
@@ -512,6 +517,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .components('ender_pearl', 'iron')
         .blastTemp(1800, 'low', 120, 1600)
         .cableProperties(GTValues.V[GTValues.ULV], 1, 0, true)
+        .flags(plates)
 
     event.create('dark_steel')
         .ingot()
@@ -520,6 +526,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(METALLIC)
         .components('steel', 'carbon', 'obsidian')
         .blastTemp(1800, 'low', 120, 1000)
+        .flags(plates)
 
     event.create('soularium')
         .ingot()
@@ -528,6 +535,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .iconSet(METALLIC)
         //.components()
         .blastTemp(1000, 'mid', 120, 1000)
+        .flags(plates)
 
     event.create('end_steel')
         .ingot()
@@ -537,6 +545,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .components('endstone', 'dark_steel', 'obsidian')
         .blastTemp(4500, 'mid', 1920, 1200)
         .cableProperties(GTValues.V[GTValues.UEV], 2, 48, false)
+        .flags(plates)
 
     event.create('conduit_binder_composite')
         .dust()
