@@ -26,6 +26,7 @@
   * Added warning to Clockwork Basic Automation quest to inform the player that no GT knives are consumed in the recipe
 * Gamerules
   * Enabled water source conversion, water is now infinite as per vanilla rules (this only applies to new saves, you will have to do /gamerule waterSourceConversion true to enable this)
+  * Disabled GT Enviormental Hazards
 * Mods
   * Mod Updates
     * Ad Astra v1.15.19

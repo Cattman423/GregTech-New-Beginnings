@@ -475,11 +475,11 @@ gameplay:
 
   # Whether environmental hazards like pollution or radiation are active
   # Default: true
-  environmentalHazards: true
+  environmentalHazards: false
 
   # How much environmental hazards decay per chunk, per tick.
   # Default: 0.001
-  environmentalHazardDecayRate: 0.001
+  environmentalHazardDecayRate: 0.01
 
   # Whether the GTCEu's ingame guidebook, 'Compass', be enabled.
   # WARNING: INCOMPLETE
@@ -497,17 +497,17 @@ compat:
 
     # Enable GTEU to FE (and vice versa) Converters.
     # Default: false
-    enableFEConverters: false
+    enableFEConverters: true
 
     # Forge Energy to GTEU ratio for converting FE to EU.
     # Only affects converters.
     # Default: 4 FE == 1 EU
-    feToEuRatio: 4
+    feToEuRatio: 2
 
     # GTEU to Forge Energy ratio for converting EU to FE.
     # Affects native conversion and Converters.
     # Default: 4 FE == 1 EU
-    euToFeRatio: 4
+    euToFeRatio: 2
 
   # Config options regarding GTCEu compatibility with AE2
   ae2:
