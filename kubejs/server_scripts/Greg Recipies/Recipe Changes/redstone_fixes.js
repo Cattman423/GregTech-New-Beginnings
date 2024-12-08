@@ -70,12 +70,12 @@ ServerEvents.recipes(event => {
 
     stonepressureplate('2x minecraft:polished_blackstone_pressure_plate', 'minecraft:polished_blackstone_slab')
     stonepressureplate('2x framedblocks:framed_stone_pressure_plate', 'framedblocks:framed_slab')
-    stonepressureplate('2x ad_astra:iron_plating_pressure_plate', 'ad_astra:iron_plating_slab')
+    /*stonepressureplate('2x ad_astra:iron_plating_pressure_plate', 'ad_astra:iron_plating_slab')
     stonepressureplate('2x ad_astra:steel_plating_pressure_plate', 'ad_astra:steel_plating_slab')
     stonepressureplate('2x ad_astra:desh_plating_pressure_plate', 'ad_astra:desh_plating_slab')
     stonepressureplate('2x ad_astra:ostrum_plating_pressure_plate', 'ad_astra:ostrum_plating_slab')
     stonepressureplate('2x ad_astra:calorite_plating_pressure_plate', 'ad_astra:calorite_plating_slab')
-    stonepressureplate('2x ad_astra:glacian_pressure_plate', 'ad_astra:glacian_slab')
+    stonepressureplate('2x ad_astra:glacian_pressure_plate', 'ad_astra:glacian_slab')*/
 
     pressureplateass('cherry_pressure_plate', '2x minecraft:cherry_pressure_plate', '2x minecraft:cherry_slab')
     pressureplateass('bamboo_pressure_plate', '2x minecraft:bamboo_pressure_plate', '2x minecraft:bamboo_slab')
@@ -83,12 +83,12 @@ ServerEvents.recipes(event => {
     pressureplateass('walnut_pressure_plate', '2x caupona:walnut_pressure_plate', '2x caupona:walnut_slab')
     pressureplateass('polished_blackstone_pressure_plate', '2x minecraft:polished_blackstone_pressure_plate', '2x minecraft:polished_blackstone_slab')
     pressureplateass('framed_stone_pressure_plate', '2x framedblocks:framed_stone_pressure_plate', '2x framedblocks:framed_stone_slab')
-    pressureplateass('iron_plating_plate', '2x ad_astra:iron_plating_pressure_plate', '2x ad_astra:iron_plating_slab')
+    /*pressureplateass('iron_plating_plate', '2x ad_astra:iron_plating_pressure_plate', '2x ad_astra:iron_plating_slab')
     pressureplateass('steel_plating_plate', '2x ad_astra:steel_plating_pressure_plate', '2x ad_astra:steel_plating_slab')
     pressureplateass('desh_plating_plate', '2x ad_astra:desh_plating_pressure_plate', '2x ad_astra:desh_plating_slab')
     pressureplateass('ostrum_plating_plate', '2x ad_astra:ostrum_plating_pressure_plate', '2x ad_astra:ostrum_plating_slab')
     pressureplateass('calorite_plating_plate', '2x ad_astra:calorite_plating_pressure_plate', '2x ad_astra:calorite_plating_slab')
-    pressureplateass('glacian_plate', '2x ad_astra:glacian_pressure_plate', '2x ad_astra:glacian_slab')
+    pressureplateass('glacian_plate', '2x ad_astra:glacian_pressure_plate', '2x ad_astra:glacian_slab')*/
 
     buttoncraft('6x minecraft:polished_blackstone_button', 'minecraft:polished_blackstone_pressure_plate')
     buttoncraft('6x biomesoplenty:fir_button', 'biomesoplenty:fir_pressure_plate')
@@ -104,12 +104,12 @@ ServerEvents.recipes(event => {
     buttoncraft('6x framedblocks:framed_button', 'framedblocks:framed_pressure_plate')
     buttoncraft('6x framedblocks:framed_stone_button', 'framedblocks:framed_stone_pressure_plate')
     buttoncraft('6x caupona:walnut_button', 'caupona:walnut_pressure_plate')
-    buttoncraft('6x ad_astra:iron_plating_button', 'ad_astra:iron_plating_pressure_plate')
+    /*buttoncraft('6x ad_astra:iron_plating_button', 'ad_astra:iron_plating_pressure_plate')
     buttoncraft('6x ad_astra:steel_plating_button', 'ad_astra:steel_plating_pressure_plate')
     buttoncraft('6x ad_astra:desh_plating_button', 'ad_astra:desh_plating_pressure_plate')
     buttoncraft('6x ad_astra:ostrum_plating_button', 'ad_astra:ostrum_plating_pressure_plate')
     buttoncraft('6x ad_astra:calorite_plating_button', 'ad_astra:calorite_plating_pressure_plate')
-    buttoncraft('6x ad_astra:glacian_button', 'ad_astra:glacian_pressure_plate')
+    buttoncraft('6x ad_astra:glacian_button', 'ad_astra:glacian_pressure_plate')*/
     
     buttoncutter('water_cherry_button', 'minecraft:cherry_pressure_plate', 'minecraft:water 4', '12x minecraft:cherry_button', 50)
     buttoncutter('dist_water_cherry_button', 'minecraft:cherry_pressure_plate', 'gtceu:distilled_water 3', '12x minecraft:cherry_button', 37)
@@ -159,7 +159,7 @@ ServerEvents.recipes(event => {
     buttoncutter('water_walnut_button', 'caupona:walnut_pressure_plate', 'minecraft:water 4', '12x caupona:walnut_button', 50)
     buttoncutter('dist_water_walnut_button', 'caupona:walnut_pressure_plate', 'gtceu:distilled_water 3', '12x caupona:walnut_button', 37)
     buttoncutter('lube_walnut_button', 'caupona:walnut_pressure_plate', 'gtceu:lubricant 1', '12x caupona:walnut_button', 25)
-    buttoncutter('water_iron_plating_button', 'ad_astra:iron_plating_pressure_plate', 'minecraft:water 4', '12x ad_astra:iron_plating_button', 50)
+    /*buttoncutter('water_iron_plating_button', 'ad_astra:iron_plating_pressure_plate', 'minecraft:water 4', '12x ad_astra:iron_plating_button', 50)
     buttoncutter('dist_water_iron_plating_button', 'ad_astra:iron_plating_pressure_plate', 'gtceu:distilled_water 3', '12x ad_astra:iron_plating_button', 37)
     buttoncutter('lube_iron_plating_button', 'ad_astra:iron_plating_pressure_plate', 'gtceu:lubricant 1', '12x ad_astra:iron_plating_button', 25)
     buttoncutter('water_steel_plating_button', 'ad_astra:steel_plating_pressure_plate', 'minecraft:water 4', '12x ad_astra:steel_plating_button', 50)
@@ -176,7 +176,7 @@ ServerEvents.recipes(event => {
     buttoncutter('lube_calorite_plating_button', 'ad_astra:calorite_plating_pressure_plate', 'gtceu:lubricant 1', '12x ad_astra:calorite_plating_button', 25)
     buttoncutter('water_glacian_button', 'ad_astra:glacian_pressure_plate', 'minecraft:water 4', '12x ad_astra:glacian_button', 50)
     buttoncutter('dist_water_glacian_button', 'ad_astra:glacian_pressure_plate', 'gtceu:distilled_water 3', '12x ad_astra:glacian_button', 37)
-    buttoncutter('lube_glacian_button', 'ad_astra:glacian_pressure_plate', 'gtceu:lubricant 1', '12x ad_astra:glacian_button', 25)
+    buttoncutter('lube_glacian_button', 'ad_astra:glacian_pressure_plate', 'gtceu:lubricant 1', '12x ad_astra:glacian_button', 25)*/
 //Productive Trees
     const prodtreeplanks = ['alder', 'allspice', 'almond', 'apricot', 'aquilaria', 'asai_palm', 'ash', 'aspen', 'avocado', 'balsa', 'balsam_fir', 'banana', 'beech', 
     'beliy_naliv_apple', 'blackthorn', 'black_cherry', 'black_ember', 'black_locust', 'blue_mahoe', 'boxwood', 'brazilwood', 'brazil_nut', 'breadfruit', 'brown_amber', 

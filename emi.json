@@ -198,9 +198,209 @@
     },
     {
       "stack": "item:gtceu:paracetamol_pill"
+    },
+    {
+      "stack": "item:gtceu:rocket_fuel_bucket"
+    },
+    {
+      "stack": {
+        "type": "fluid",
+        "id": "gtceu:rocket_fuel",
+        "amount": 8000
+      }
+    },
+    {
+      "stack": "item:gcyr:luna_marker"
+    },
+    {
+      "stack": "item:gtceu:steel_fluid_cell{Fluid:{Amount:8000,FluidName:\"gtceu:rocket_fuel\"}}"
     }
   ],
   "lookup_history": [
+    "item:gtnn:field_restriction_casing",
+    "item:gtceu:crushed_redstone_ore",
+    "item:gtceu:impure_redstone_dust",
+    {
+      "type": "item",
+      "id": "minecraft:redstone",
+      "amount": 4
+    },
+    "item:gtceu:red_alloy_dust",
+    "item:gtceu:red_alloy_ingot",
+    "item:gtceu:red_alloy_plate",
+    {
+      "type": "item",
+      "id": "gtceu:red_alloy_single_wire",
+      "amount": 2
+    },
+    "item:gtceu:basic_electronic_circuit",
+    "#item:gtceu:circuits/lv",
+    "item:gtceu:lv_distillery",
+    "item:gtceu:lv_machine_hull",
+    {
+      "type": "item",
+      "id": "gtceu:advanced_smd_diode",
+      "amount": 8
+    },
+    {
+      "type": "item",
+      "id": "gtceu:advanced_smd_inductor",
+      "amount": 6
+    },
+    {
+      "type": "item",
+      "id": "gtceu:wetware_processor_assembly",
+      "amount": 2
+    },
+    "item:create:millstone",
+    "item:kubejs:rudimentary_mechanism",
+    "item:vintageimprovements:spring_coiling_machine",
+    "item:gtceu:fusion_coil",
+    "item:gtceu:superconducting_coil",
+    "item:gtceu:small_lanthanum_dust",
+    "item:gtceu:tiny_lanthanum_dust",
+    "item:gtceu:lanthanum_dust",
+    "item:gtceu:lanthanum_plate",
+    {
+      "type": "item",
+      "id": "gtceu:dense_lanthanum_plate",
+      "amount": 4
+    },
+    {
+      "type": "item",
+      "id": "gtnn:plate_radiation_protection",
+      "amount": 6
+    },
+    "item:gtnn:neutron_source",
+    "item:gtceu:hot_magnesium_diboride_ingot",
+    "item:gtceu:magnesium_diboride_ingot",
+    "item:gtceu:magnesium_diboride_double_wire",
+    {
+      "type": "item",
+      "id": "gtceu:magnesium_diboride_quadruple_wire",
+      "amount": 4
+    },
+    "item:gtceu:mv_field_generator",
+    "item:gtnn:quark_core",
+    "item:gtnn:high_speed_pipe_block",
+    "item:gtnn:inverter",
+    "item:gtnn:encapsulated_thorium",
+    "item:gtnn:encapsulated_uranium",
+    "item:gtnn:enriched_uranium_nugget",
+    "item:gtnn:enriched_uranium",
+    "item:gtceu:large_assembler",
+    "item:gcyr:rocket_scanner",
+    "item:gcyr:raw_fluorite",
+    "item:gcyr:mars_marker",
+    "item:gcyr:elite_rocket_motor",
+    "item:gcyr:elite_fuel_tank",
+    "item:gtceu:prospector.luv{Charge:1000000000L,Mode:0}",
+    "item:minecraft:barrier{display:{Name:\u0027{\"translate\":\"gcyr:moon\"}\u0027}}",
+    "item:gcyr:moon_stone_button",
+    {
+      "type": "fluid",
+      "id": "gtceu:ether",
+      "amount": 1000
+    },
+    "item:gtceu:ether_bucket",
+    {
+      "type": "fluid",
+      "id": "gtceu:rocket_fuel",
+      "amount": 8000
+    },
+    "item:gtceu:infinity_nugget",
+    "item:gtceu:infinity_rod",
+    "item:gtceu:infinity_bolt",
+    "item:gtceu:infinity_screw",
+    "item:gtceu:hot_shadow_radiance_ingot",
+    "item:create:chromatic_compound",
+    "item:create:refined_radiance",
+    "item:create:andesite_alloy",
+    "item:gtceu:andesite_alloy_plate",
+    "item:gtceu:andesite_alloy_rod",
+    "item:gtceu:andesite_alloy_bolt",
+    "item:gtceu:andesite_alloy_screw",
+    "item:gtceu:andesite_alloy_dust",
+    "item:gtceu:antigold_ingot",
+    "item:gcyr:space_station_packager",
+    "item:gcyr:dyson_solar_cell",
+    "item:gcyr:gps_satellite",
+    "item:gcyr:fine_fiberglass_wire",
+    {
+      "type": "item",
+      "id": "gtceu:polybenzimidazole_foil",
+      "amount": 4
+    },
+    "item:gcyr:space_fabric",
+    {
+      "type": "fluid",
+      "id": "gcyr:para_aramid",
+      "amount": 144
+    },
+    "item:gcyr:para_aramid_ingot",
+    {
+      "type": "item",
+      "id": "gcyr:para_aramid_foil",
+      "amount": 4
+    },
+    "item:gcyr:space_helmet{Damage:0}",
+    "item:gcyr:advanced_fuel_tank",
+    "item:gcyr:basic_fuel_tank",
+    {
+      "type": "fluid",
+      "id": "gcyr:kapton_k",
+      "amount": 144
+    },
+    "item:gcyr:kapton_k_ingot",
+    {
+      "type": "item",
+      "id": "gcyr:kapton_k_plate",
+      "amount": 6
+    },
+    "item:gcyr:basic_rocket_motor",
+    "item:gcyr:advanced_rocket_motor",
+    "item:gcyr:venus_marker",
+    "item:gcyr:mercury_marker",
+    "item:kubejs:helmet_core",
+    {
+      "type": "fluid",
+      "id": "enderio:rocket_fuel",
+      "amount": 0
+    },
+    "item:gcyr:bisalloy_400_chainsaw_head",
+    "item:gcyr:dyson_sphere_casing",
+    {
+      "type": "fluid",
+      "id": "gtceu:helium",
+      "amount": 80
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:helium_3",
+      "amount": 5
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:helium_plasma",
+      "amount": 125
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:tritium",
+      "amount": 125
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:deuterium",
+      "amount": 160
+    },
+    "item:gtceu:tritium_bucket",
+    "item:nuclearcraft:tritium_bucket",
+    {
+      "type": "fluid",
+      "id": "nuclearcraft:tritium",
+      "amount": 1000
+    },
     "item:gtceu:lv_1a_energy_converter",
     "item:enderio:experience_rod",
     "item:enderio:grains_of_infinity",
@@ -354,7 +554,6 @@
     "item:gtceu:circuit_assembly_line",
     "item:ae2:orange_smart_cable",
     "item:ae2:white_smart_cable",
-    "#item:gtceu:circuits/lv",
     "item:gtceu:ultimet_plate",
     "item:gtceu:ultimet_saw{DisallowContainerItem:0b,GT.Behaviours:{HarvestIce:1b},GT.Tool:{Damage:0,MaxDamage:2047},HideFlags:2}",
     "item:ftbfiltersystem:smart_filter{\"ftbfiltersystem:filter\":\"ftbfiltersystem:item_tag(forge:lv_converter)\"}",
@@ -374,7 +573,6 @@
     "item:gtceu:data_access_hatch",
     "item:gtceu:wetware_processor_mainframe",
     "item:gtceu:wetware_processor_computer",
-    "item:gtceu:wetware_processor_assembly",
     "item:gtceu:wetware_processor",
     "item:ae2:fluix_smart_cable",
     "item:ae2:fluix_covered_cable",
@@ -429,14 +627,11 @@
     "item:ae2:4k_crafting_storage",
     "item:ae2:1k_crafting_storage",
     "item:ae2:crafting_accelerator",
-    "item:create:millstone",
     "item:gtceu:crushed_graphite_ore",
     "item:gtceu:impure_graphite_dust",
     "item:gtceu:graphite_dust",
     "item:gtceu:graphene_dust",
     "item:gtceu:bronze_hammer{DisallowContainerItem:0b,GT.Behaviours:{},GT.Tool:{Damage:0,HarvestLevel:2,MaxDamage:191,ToolSpeed:7.0f},HideFlags:2}",
-    "item:ad_astra:nasa_workbench",
-    "item:ad_astra:tier_1_rocket{}",
     "item:computercraft:wired_modem_full",
     "item:computercraft:cable",
     "item:computercraft:wired_modem",
@@ -588,11 +783,6 @@
     "item:gtceu:laminated_glass",
     "item:gtceu:trinium_quadruple_wire",
     "item:gtceu:uev_machine_casing",
-    {
-      "type": "fluid",
-      "id": "gtceu:stabilized_oganesson",
-      "amount": 0
-    },
     "item:gtceu:hot_naquadria_ingot",
     "item:gtceu:naquadria_ingot",
     "item:gtceu:naquadria_nugget",
@@ -604,16 +794,10 @@
     "item:gtceu:zpm_fusion_reactor",
     {
       "type": "fluid",
-      "id": "gtceu:oganesson_plasma",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
       "id": "gtceu:krypton",
       "amount": 125
     },
     "item:gtceu:uv_fusion_reactor",
-    "item:gtceu:stabilized_oganesson_ingot",
     "item:gtceu:computation_transmitter_hatch",
     "item:gtceu:network_switch",
     "item:gtceu:luv_energy_input_hatch_16a",
@@ -635,21 +819,13 @@
     },
     "item:gtceu:tritanium_frame",
     "item:gtceu:sterilizing_filter_casing",
-    "item:gtceu:double_sterile_alloy_plate",
-    "item:gtceu:sterile_alloy_plate",
-    "item:gtceu:sterile_alloy_ingot",
-    "fluid:gtceu:refined_radiance_plasma",
     "item:gtceu:chromatic_compound_dust",
     "item:gtceu:hot_chromatic_compound_ingot",
-    "item:create:chromatic_compound",
     "fluid:gtceu:chromatic_compound",
     "fluid:gtceu:refined_radiance",
-    "item:create:refined_radiance",
     "item:gtceu:refined_radiance_dust",
     "item:gtceu:porphyry_copper_dust",
     "item:gtceu:tellurium_dust",
-    "item:gtceu:sterile_alloy_dust",
-    "item:gtceu:hot_sterile_alloy_ingot",
     "item:kubejs:ulv_magneto_resonance_circuit",
     "item:kubejs:lv_magneto_resonance_circuit",
     {
@@ -663,15 +839,12 @@
       "amount": 5
     },
     "item:gtceu:raw_molybdenite",
-    "fluid:gtceu:ether",
     {
       "type": "item",
       "id": "minecraft:glowstone_dust",
       "amount": 3
     },
-    "fluid:gtceu:sterile_alloy",
     "item:kubejs:hsss_coil_block",
-    "item:gtceu:hot_refined_radiance_ingot",
     "fluid:gtceu:iron",
     "item:gtceu:plasma_large_turbine",
     "item:gtceu:extreme_alternator",
@@ -706,13 +879,7 @@
     "item:enderio:conduit_binder",
     "item:create:shadow_steel",
     "item:gtceu:shadow_steel_dust",
-    {
-      "type": "fluid",
-      "id": "gtceu:molten_shadow_radiance",
-      "amount": 144
-    },
     "item:createqol:shadow_radiance",
-    "item:gtceu:shadow_radiance_dust",
     "item:gtceu:radiance_bucket",
     "item:nuclearcraft:irradiator",
     "item:create:mechanical_mixer",
@@ -722,12 +889,6 @@
       "amount": 100
     },
     "item:kubejs:sterile_casing",
-    {
-      "type": "fluid",
-      "id": "gtceu:molten_sterile_alloy",
-      "amount": 0
-    },
-    "item:gtceu:sterile_alloy_frame",
     {
       "type": "fluid",
       "id": "gtceu:polyethylene",
@@ -823,7 +984,6 @@
       "amount": 0
     },
     "item:gtceu:stellar_matter_single_wire",
-    "item:gtceu:stabilized_oganesson_plate",
     "item:gtceu:mv_autoclave",
     "item:minecraft:glass",
     {
@@ -966,11 +1126,7 @@
     },
     "item:gtceu:sodium_ingot",
     "item:gtceu:steel_plate",
-    "item:ad_astra:oxygen_loader",
     "item:gtceu:steel_ingot",
-    "item:ad_astra:solar_panel",
-    "item:ad_astra:gas_tank{BotariumData:{StoredFluids:[{Amount:1000L,Fluid:\"ad_astra:oxygen\"}]}}",
-    "item:ad_astra:desh_cable",
     "item:gtceu:oxygen_bucket",
     {
       "type": "fluid",
@@ -983,29 +1139,6 @@
       "id": "gtceu:hydrogen",
       "amount": 160
     },
-    {
-      "type": "fluid",
-      "id": "gtceu:deuterium",
-      "amount": 40
-    },
-    {
-      "type": "fluid",
-      "id": "ad_astra:hydrogen",
-      "amount": 1000
-    },
-    "item:ad_astra:hydrogen_bucket",
-    {
-      "type": "fluid",
-      "id": "ad_astra:cryo_fuel",
-      "amount": 1000
-    },
-    "item:ad_astra:cryo_fuel_bucket",
-    {
-      "type": "fluid",
-      "id": "ad_astra:fuel",
-      "amount": 1000
-    },
-    "item:ad_astra:fuel_bucket",
     {
       "type": "fluid",
       "id": "gtceu:oxygen",
@@ -1046,7 +1179,6 @@
       "id": "nuclearcraft:technical_water",
       "amount": 0
     },
-    "fluid:nuclearcraft:tritium",
     "fluid:nuclearcraft:neon",
     "fluid:nuclearcraft:nitrogen",
     "fluid:nuclearcraft:helium",
@@ -1304,7 +1436,6 @@
     "item:gtceu:rubber_ring",
     "item:gtceu:iron_rod",
     "item:gtceu:magnetic_iron_rod",
-    "#item:ad_astra:iron_rods",
     "item:gtceu:lv_electric_motor",
     "fluid:gtceu:tin",
     "fluid:gtceu:bronze",
@@ -1322,7 +1453,6 @@
     "item:gtceu:tin_single_wire",
     "item:gtceu:tin_single_cable",
     "item:gtceu:wrought_iron_plate",
-    "item:gtceu:lv_machine_hull",
     "#item:forge:glass",
     "fluid:gtceu:glue",
     "item:gtceu:copper_foil",
@@ -1341,15 +1471,11 @@
     "item:gtceu:copper_plate",
     "item:gtceu:copper_single_wire",
     "item:gtceu:vacuum_tube",
-    "item:gtceu:red_alloy_ingot",
-    "item:gtceu:red_alloy_plate",
     "item:gtceu:sticky_resin",
     "item:gtceu:raw_rubber_dust",
-    "item:gtceu:red_alloy_single_wire",
     "item:gtceu:sulfur_dust",
     "item:gtceu:rubber_plate",
     "item:gtceu:red_alloy_single_cable",
-    "item:minecraft:redstone",
     "item:minecraft:coal",
     "item:tfmg:coal_coke",
     "item:minecraft:iron_ingot",
@@ -1357,12 +1483,10 @@
     "item:gtceu:steel_ingot",
     "fluid:gtceu:copper",
     "fluid:gtceu:red_alloy",
-    "item:gtceu:basic_electronic_circuit",
     "item:minecraft:copper_ingot",
     "item:gtceu:copper_rod",
     "item:gtceu:long_copper_rod",
     "item:gtceu:copper_spring",
-    "item:gtceu:lv_distillery",
     "item:gtceu:steel_plate",
     "item:gtceu:copper_nugget",
     "item:minecraft:gold_nugget",
@@ -1382,12 +1506,6 @@
     "item:gtceu:gadolinium_dust",
     "item:nuclearcraft:gadolinium_dust",
     "item:enderio:powdered_tin",
-    "item:ad_astra:ostrum_nugget",
-    {
-      "type": "item",
-      "id": "ad_astra:calorite_plate",
-      "amount": 9
-    },
     "item:gtceu:dense_calorite_plate",
     "item:vintageimprovements:uranium_rod",
     "item:vintageimprovements:tin_rod",
@@ -1421,7 +1539,6 @@
     "item:vintageimprovements:centrifuge",
     "item:vintageimprovements:vibrating_table",
     "item:vintageimprovements:vacuum_chamber",
-    "item:vintageimprovements:spring_coiling_machine",
     "item:vintageimprovements:belt_grinder",
     "item:gtceu:zinc_ingot",
     "item:create_connected:copycat_beam",
@@ -1489,7 +1606,6 @@
     "item:gtceu:magnetic_iron_ingot",
     "item:gtceu:magnetic_neodymium_ingot",
     "item:gtceu:magnetic_samarium_ingot",
-    "item:gtceu:magnesium_diboride_ingot",
     "item:gtceu:mercury_barium_calcium_cuprate_ingot",
     "item:gtceu:uranium_triplatinum_ingot",
     "item:gtceu:indium_tin_barium_titanium_cuprate_ingot",
@@ -1618,75 +1734,7 @@
       "id": "gtceu:charged_certus_dust",
       "amount": 4
     },
-    "item:ae2:certus_quartz_dust",
-    "item:ae2:fluix_block",
-    "item:gtceu:annealed_copper_plate",
-    "fluid:gtceu:glowstone",
-    "#fluid:forge:glowstone",
-    "item:gtceu:silver_ingot",
-    "item:gtceu:electrum_ingot",
-    "item:gtceu:electrum_foil",
-    "item:kubejs:certus_quartz_boule",
-    "item:kubejs:certus_wafer",
-    "item:kubejs:logic_wafer",
-    "item:ae2:item_storage_cell_256k",
-    {
-      "type": "fluid",
-      "id": "gtceu:acidic_bromine_exhaust",
-      "amount": 1000
-    },
-    "item:gtceu:acidic_bromine_exhaust_bucket",
-    "item:gtceu:nitrosyl_chloride_bucket",
-    "item:gtceu:monochloramine_bucket",
-    {
-      "type": "fluid",
-      "id": "gtceu:epichlorohydrin",
-      "amount": 1000
-    },
-    "item:gtceu:epichlorohydrin_bucket",
-    {
-      "type": "fluid",
-      "id": "gtceu:iron_ii_chloride",
-      "amount": 0
-    },
-    "item:gtceu:ammonium_chloride_dust",
-    "item:gtceu:lithium_manganese_dioxide_dust",
-    "item:gtceu:uranium_oxide_dust",
-    "item:gtceu:calcium_hydroxide_dust",
-    "item:gtceu:potassium_hydroxide_dust",
-    "item:gtceu:osmium_tetroxide_dust",
-    "item:gtceu:ruthenium_tetroxide_dust",
-    "item:gtceu:samarium_iron_arsenic_oxide_dust",
-    "item:gtceu:sodium_hydroxide_dust",
-    "item:gtceu:arsenic_trioxide_dust",
-    "item:gtceu:cobalt_oxide_dust",
-    "item:gtceu:cupric_oxide_dust",
-    "item:gtceu:antimony_trioxide_dust",
-    "item:gtceu:chromium_trioxide_dust",
-    "item:gtceu:phosphorus_pentoxide_dust",
-    "item:minecraft:iron_helmet{Damage:0}",
-    {
-      "type": "item",
-      "id": "gtceu:iridium_dust",
-      "chance": 0.1
-    },
-    "item:gtceu:raw_iridium",
-    "item:gtceu:deepslate_iridium_ore",
-    "#item:forge:ores/iridium",
-    "item:gtceu:lp_steam_macerator",
-    "item:gtceu:raw_goethite",
-    {
-      "type": "item",
-      "id": "gtceu:crushed_goethite_ore",
-      "amount": 2
-    },
-    "item:gtceu:prospector.luv",
-    "item:jumbofurnace:jumbo_furnace",
-    "item:gtceu:overworld_marker",
-    "item:gtceu:prospector.hv",
-    "item:kubejs:ad_astra_moon_marker",
-    "item:createmetallurgy:refractory_mortar",
-    "item:gtceu:flawed_rose_quartz_gem"
+    "item:ae2:certus_quartz_dust"
   ],
   "craft_history": [
     "minecraft:kjs/create_andesite_funnel",
@@ -2410,6 +2458,11 @@
     "item:enderio:filled_soul_vial{BlockEntityTag:{EntityStorage:{Entity:{id:\"progressivebosses:wither_minion\"}}}}",
     "item:enderio:filled_soul_vial{BlockEntityTag:{EntityStorage:{Entity:{id:\"railways:conductor\"}}}}",
     "item:enderio:filled_soul_vial{BlockEntityTag:{EntityStorage:{Entity:{id:\"supplementaries:hat_stand\"}}}}",
-    "item:enderio:filled_soul_vial{BlockEntityTag:{EntityStorage:{Entity:{id:\"supplementaries:red_merchant\"}}}}"
+    "item:enderio:filled_soul_vial{BlockEntityTag:{EntityStorage:{Entity:{id:\"supplementaries:red_merchant\"}}}}",
+    {
+      "type": "fluid",
+      "id": "gtceu:rocket_fuel",
+      "amount": 0
+    }
   ]
 }

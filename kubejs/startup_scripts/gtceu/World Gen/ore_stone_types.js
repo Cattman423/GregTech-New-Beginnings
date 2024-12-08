@@ -6,7 +6,7 @@ GTCEuStartupEvents.registry('gtceu:tag_prefix', event => {
 
     //
 
-    stoneTypes.forEach(type => {
+    /*stoneTypes.forEach(type => {
         event.create(type.split(':')[1], 'ore')
             .stateSupplier(() => Block.getBlock(type).defaultBlockState())
             .baseModelLocation('ad_astra:block/' + type.split(':')[1])
@@ -14,12 +14,12 @@ GTCEuStartupEvents.registry('gtceu:tag_prefix', event => {
             .materialIconType(GTMaterialIconType.ore)
             .generationCondition(ItemGenerationCondition.hasOreProperty)
             //.requiresTool('#minecraft:mineable/pickaxe')
-    })
+    })*/
 
-    event.create('soul_soil', 'ore')
+    /*event.create('soul_soil', 'ore')
         .stateSupplier(() => Block.getBlock('minecraft:soul_soil').defaultBlockState())
         .baseModelLocation('minecraft:block/soul_soil')
         .unificationEnabled(true)
         .materialIconType(GTMaterialIconType.ore)
-        .generationCondition(ItemGenerationCondition.hasOreProperty)
+        .generationCondition(ItemGenerationCondition.hasOreProperty)*/
 })

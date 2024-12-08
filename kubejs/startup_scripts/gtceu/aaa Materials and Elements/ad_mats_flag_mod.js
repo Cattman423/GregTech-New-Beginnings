@@ -7,7 +7,8 @@ const $FluidProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.m
 const $FluidBuilder = Java.loadClass('com.gregtechceu.gtceu.api.fluids.FluidBuilder'); 
 const $FluidStorageKeys = Java.loadClass('com.gregtechceu.gtceu.api.fluids.store.FluidStorageKeys');
 const $DustProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.DustProperty');
-const $WireProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.WireProperties')
+const $WireProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.material.properties.WireProperties');
+const GCYRMaterials = Java.loadClass("argent_matter.gcyr.common.data.GCYRMaterials")
 
 //Ingots
     GTMaterials.Boron.setProperty(PropertyKey.INGOT, new $IngotProperty())
@@ -47,7 +48,7 @@ const $WireProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.ma
     GTMaterials.NaquadahEnriched.setProperty(PropertyKey.ORE, new $OreProperty())
     GTMaterials.Perlite.setProperty(PropertyKey.ORE, new $OreProperty())
     GTMaterials.Rutile.setProperty(PropertyKey.ORE, new $OreProperty())
-    GTMaterials.Titanium.setProperty(PropertyKey.ORE, new $OreProperty())
+    //GTMaterials.Titanium.setProperty(PropertyKey.ORE, new $OreProperty())
     GTMaterials.Uvarovite.setProperty(PropertyKey.ORE, new $OreProperty())
     GTMaterials.Zinc.setProperty(PropertyKey.ORE, new $OreProperty())
 
@@ -55,7 +56,8 @@ const $WireProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.ma
     GTMaterials.Lepidolite.setProperty(PropertyKey.GEM, new $GemProperty())
 
 //Wires
-    GTMaterials.HSSS.setProperty(PropertyKey.WIRE, new $WireProperty(UHv, 12, 4, false))
+    GTMaterials.HSSS.setProperty(PropertyKey.WIRE, new $WireProperty(GTValues.V[GTValues.UHV], 12, 4, false))
+    GTMaterials.get('infinity').setProperty(PropertyKey.WIRE, new $WireProperty(GTValues.V[GTValues.MAX], 1000000, 0, true))
 
 //Fluids
     let addFluid = (mat, key) => { 
@@ -63,7 +65,7 @@ const $WireProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.ma
     }
 
     addFluid(GTMaterials.Boron, $FluidStorageKeys.LIQUID); // Can be LIQUID, GAS, PLASMA or MOLTEN addFluid(GTMaterials.Oganesson, $FluidStorageKeys.GAS); }
-    addFluid(GTMaterials.Calcium, $FluidStorageKeys.LIQUID);
+    //addFluid(GTMaterials.Calcium, $FluidStorageKeys.LIQUID);
     addFluid(GTMaterials.Germanium, $FluidStorageKeys.LIQUID);
     addFluid(GTMaterials.Graphite, $FluidStorageKeys.LIQUID);
     addFluid(GTMaterials.Hafnium, $FluidStorageKeys.LIQUID);
@@ -73,11 +75,15 @@ const $WireProperty = Java.loadClass('com.gregtechceu.gtceu.api.data.chemical.ma
     addFluid(GTMaterials.Strontium, $FluidStorageKeys.LIQUID);
     addFluid(GTMaterials.Zirconium, $FluidStorageKeys.LIQUID);
 
-    addFluid(GTMaterials.Oganesson, $FluidStorageKeys.PLASMA);
+    //addFluid(GTMaterials.Oganesson, $FluidStorageKeys.PLASMA);
     
     //GTMaterials..setProperty(PropertyKey.DUST, new $DustProperty())
     
 //Flags
+    GTMaterials.get('andesite_alloy').addFlags(plates, gear, small_gear, bolt_and_screw, rotor, no_decomp)
+    GTMaterials.get('infinity').addFlags(plates, rod, bolt_and_screw)
+    GCYRMaterials.Fluorite.addFlags(lens)
+
     GTMaterials.Aluminium.addFlags(dense_plate)
     GTMaterials.Almandine.addFlags(lens)
     GTMaterials.Amethyst.addFlags(lens)

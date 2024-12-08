@@ -1,0 +1,16 @@
+{
+  "translation": "level.gcyr.jupiter",
+  "galaxy": "gcyr:milky_way",
+  "solar_system": "gcyr:solar_system",
+  "world": "gcyr:jupiter",
+  "orbit_world": "gcyr:jupiter_orbit",
+  "rocket_tier": 3,
+  "gravity": 24.79,
+  "has_atmosphere": true,
+  "days_in_year": 4331,
+  "temperature": 165,
+  "solar_power": 5,
+  "orbit_solar_power": 5,
+  "has_oxygen": false,
+  "button_color": 16750361
+}

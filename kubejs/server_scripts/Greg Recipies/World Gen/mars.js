@@ -1,7 +1,9 @@
+const GCYRMaterials = Java.loadClass("argent_matter.gcyr.common.data.GCYRMaterials")
+
 GTCEuServerEvents.fluidVeins(event => {
 
     event.add('gtceu:mars_mantle', vein => {
-        vein.dimensions('ad_astra:mars')
+        vein.dimensions('gcyr:mars')
         vein.fluid(() => Fluid.of('gtceu:molten_mars_mantle').fluid)
         vein.weight(30)
         vein.minimumYield(120)
@@ -11,7 +13,7 @@ GTCEuServerEvents.fluidVeins(event => {
         vein.depletedYield(50)
     })
     event.add('gtceu:chlorobenzene', vein => {
-        vein.dimensions('ad_astra:mars')
+        vein.dimensions('gcyr:mars')
         vein.fluid(() => Fluid.of('gtceu:chlorobenzene').fluid)
         vein.weight(20)
         vein.minimumYield(120)
@@ -23,19 +25,16 @@ GTCEuServerEvents.fluidVeins(event => {
 })
 GTCEuServerEvents.oreVeins(event => {
     event.modify("gtceu:naquadah_vein", vein => {
-        vein.dimensions("ad_astra:mars")
-        vein.layer('mars_stone')
-        vein.biomes('ad_astra:martian_wastelands', 'ad_astra:martian_canyon_creek', 'ad_astra:martian_polar_caps')
+        vein.dimensions("gcyr:mars")
+        vein.layer('mars')
     })
     event.modify("gtceu:pitchblende_vein_end", vein => {
-        vein.dimensions("ad_astra:mars")
-        vein.layer('mars_stone')
-        vein.biomes('ad_astra:martian_wastelands', 'ad_astra:martian_canyon_creek', 'ad_astra:martian_polar_caps')
+        vein.dimensions("gcyr:mars")
+        vein.layer('mars')
     })
     event.modify("gtceu:scheelite_vein", vein => {
-        vein.dimensions("ad_astra:mars")
-        vein.layer('mars_stone')
-        vein.biomes('ad_astra:martian_wastelands', 'ad_astra:martian_canyon_creek', 'ad_astra:martian_polar_caps')
+        vein.dimensions("gcyr:mars")
+        vein.layer('mars')
     })
 //Ostrum
     event.add("kubejs:ostrum_vein_ma", vein => {
@@ -45,8 +44,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
     // Define where the vein can generate
-        vein.layer('mars_stone')
-        vein.dimensions("ad_astra:mars")
+        vein.layer('mars')
+        vein.dimensions("gcyr:mars")
     // Define a height range:
         vein.heightRangeUniform(20, 60)
     // Define the vein's generator:
@@ -71,8 +70,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(20)
         vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
-        vein.layer("mars_stone")
-        vein.dimensions("ad_astra:mars")
+        vein.layer("mars")
+        vein.dimensions("gcyr:mars")
         vein.heightRangeUniform(30, 70)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -93,8 +92,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(20)
         vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
-        vein.layer("mars_stone")
-        vein.dimensions("ad_astra:mars")
+        vein.layer("mars")
+        vein.dimensions("gcyr:mars")
         vein.heightRangeUniform(5, 30)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -117,18 +116,18 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(20)
         vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
-        vein.layer("mars_stone")
-        vein.dimensions("ad_astra:mars")
+        vein.layer("mars")
+        vein.dimensions("gcyr:mars")
         vein.heightRangeUniform(50, 80)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
-                .layer(l => l.weight(3).mat(GTMaterials.get('fluorite')).size(6, 12))
+                .layer(l => l.weight(3).mat(GCYRMaterials.Fluorite).size(6, 12))
                 .layer(l => l.weight(4).mat(GTMaterials.Barite).size(8, 16))
                 .layer(l => l.weight(2).mat(GTMaterials.Calcite).size(8, 16))
             )
         )
         vein.surfaceIndicatorGenerator(indicator => indicator
-            .surfaceRock(GTMaterials.get('fluorite'))
+            .surfaceRock(GCYRMaterials.Fluorite)
             .placement("surface")
             .density(0.2)
             .radius(5)
@@ -140,8 +139,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(20)
         vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
-        vein.layer("mars_stone")
-        vein.dimensions("ad_astra:mars")
+        vein.layer("mars")
+        vein.dimensions("gcyr:mars")
         vein.heightRangeUniform(15, 50)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -162,8 +161,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(32)
         vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
-        vein.layer("mars_stone")
-        vein.dimensions("ad_astra:mars")
+        vein.layer("mars")
+        vein.dimensions("gcyr:mars")
         vein.heightRangeUniform(5, 20)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -185,8 +184,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(29)
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
-        vein.layer("mars_stone")
-        vein.dimensions("ad_astra:mars")
+        vein.layer("mars")
+        vein.dimensions("gcyr:mars")
         vein.heightRangeUniform(40, 80)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -209,8 +208,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(32)
         vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
-        vein.layer("mars_stone")
-        vein.dimensions("ad_astra:mars")
+        vein.layer("mars")
+        vein.dimensions("gcyr:mars")
         vein.heightRangeUniform(-65, 20)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -232,8 +231,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(34)
         vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
-        vein.layer("mars_stone")
-        vein.dimensions("ad_astra:mars")
+        vein.layer("mars")
+        vein.dimensions("gcyr:mars")
         vein.heightRangeUniform(-10, 40)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -256,8 +255,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(20)
         vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
-        vein.layer("mars_stone")
-        vein.dimensions("ad_astra:mars")
+        vein.layer("mars")
+        vein.dimensions("gcyr:mars")
         vein.heightRangeUniform(-40, 60)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -279,8 +278,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(40)
         vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
-        vein.layer("mars_stone")
-        vein.dimensions("ad_astra:mars")
+        vein.layer("mars")
+        vein.dimensions("gcyr:mars")
         vein.heightRangeUniform(30, 60)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -302,8 +301,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(44)
         vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
-        vein.layer("mars_stone")
-        vein.dimensions("ad_astra:mars")
+        vein.layer("mars")
+        vein.dimensions("gcyr:mars")
         vein.heightRangeUniform(30, 60)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -326,8 +325,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(50)
         vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
-        vein.layer("mars_stone")
-        vein.dimensions("ad_astra:mars")
+        vein.layer("mars")
+        vein.dimensions("gcyr:mars")
         vein.heightRangeUniform(5, 30)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -349,8 +348,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(46)
         vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
-        vein.layer("mars_stone")
-        vein.dimensions("ad_astra:mars")
+        vein.layer("mars")
+        vein.dimensions("gcyr:mars")
         vein.heightRangeUniform(80, 120)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -372,8 +371,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(36)
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
-        vein.layer("mars_stone")
-        vein.dimensions("ad_astra:mars")
+        vein.layer("mars")
+        vein.dimensions("gcyr:mars")
         vein.heightRangeUniform(-5, 45)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -395,8 +394,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(36)
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
-        vein.layer("mars_stone")
-        vein.dimensions("ad_astra:mars")
+        vein.layer("mars")
+        vein.dimensions("gcyr:mars")
         vein.heightRangeUniform(50, 70)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern

@@ -359,7 +359,7 @@ ServerEvents.recipes(event => {
     cutter('dist_waxed_oak', 'dawnoftimebuilder:waxed_oak_log_stripped', 'gtceu:distilled_water 3', '4x dawnoftimebuilder:waxed_oak_planks', '2x gtceu:wood_dust', 300)
     cutter('lube_waxed_oak', 'dawnoftimebuilder:waxed_oak_log_stripped', 'gtceu:lubricant 1', '6x dawnoftimebuilder:waxed_oak_planks', 'gtceu:wood_dust', 400)
 
-    cutter('water_aeronos', '#ad_astra:aeronos_caps', 'minecraft:water 5', '4x ad_astra:aeronos_planks', '2x gtceu:wood_dust', 400)
+    /*cutter('water_aeronos', '#ad_astra:aeronos_caps', 'minecraft:water 5', '4x ad_astra:aeronos_planks', '2x gtceu:wood_dust', 400)
     cutter('dist_aeronos', '#ad_astra:aeronos_caps', 'gtceu:distilled_water 3', '4x ad_astra:aeronos_planks', '2x gtceu:wood_dust', 300)
     cutter('lube_aeronos', '#ad_astra:aeronos_caps', 'gtceu:lubricant 1', '6x ad_astra:aeronos_planks', 'gtceu:wood_dust', 400)
     cutter('water_strophar', '#ad_astra:strophar_caps', 'minecraft:water 5', '4x ad_astra:strophar_planks', '2x gtceu:wood_dust', 400)
@@ -367,23 +367,23 @@ ServerEvents.recipes(event => {
     cutter('lube_strophar', '#ad_astra:strophar_caps', 'gtceu:lubricant 1', '6x ad_astra:strophar_planks', 'gtceu:wood_dust', 400)
     cutter('water_glacian', '#ad_astra:glacian_logs', 'minecraft:water 5', '4x ad_astra:glacian_planks', '2x gtceu:wood_dust', 400)
     cutter('dist_glacian', '#ad_astra:glacian_logs', 'gtceu:distilled_water 3', '4x ad_astra:glacian_planks', '2x gtceu:wood_dust', 300)
-    cutter('lube_glacian', '#ad_astra:glacian_logs', 'gtceu:lubricant 1', '6x ad_astra:glacian_planks', 'gtceu:wood_dust', 400)
+    cutter('lube_glacian', '#ad_astra:glacian_logs', 'gtceu:lubricant 1', '6x ad_astra:glacian_planks', 'gtceu:wood_dust', 400)*/
 
     notool('2x gtceu:rubber_planks', 'gtceu:rubber_log')
     notool('2x caupona:walnut_planks', '#caupona:walnut_log')
     notool('2x dawnoftimebuilder:charred_spruce_planks', 'dawnoftimebuilder:charred_spruce_log_stripped')
     notool('2x dawnoftimebuilder:waxed_oak_planks', 'dawnoftimebuilder:waxed_oak_log_stripped')
-    notool('2x ad_astra:aeronos_planks', '#ad_astra:aeronos_caps')
+    /*notool('2x ad_astra:aeronos_planks', '#ad_astra:aeronos_caps')
     notool('2x ad_astra:strophar_planks', '#ad_astra:strophar_caps')
-    notool('2x ad_astra:glacian_planks', '#ad_astra:glacian_logs')
+    notool('2x ad_astra:glacian_planks', '#ad_astra:glacian_logs')*/
 
     sawcraft('4x gtceu:rubber_planks', 'gtceu:rubber_log')
     sawcraft('4x caupona:walnut_planks', '#caupona:walnut_log')
     sawcraft('4x dawnoftimebuilder:charred_spruce_planks', 'dawnoftimebuilder:charred_spruce_log_stripped')
     sawcraft('4x dawnoftimebuilder:waxed_oak_planks', 'dawnoftimebuilder:waxed_oak_log_stripped')
-    sawcraft('4x ad_astra:aeronos_planks', '#ad_astra:aeronos_caps')
+    /*sawcraft('4x ad_astra:aeronos_planks', '#ad_astra:aeronos_caps')
     sawcraft('4x ad_astra:strophar_planks', '#ad_astra:strophar_caps')
-    sawcraft('4x ad_astra:glacian_planks', '#ad_astra:glacian_logs')
+    sawcraft('4x ad_astra:glacian_planks', '#ad_astra:glacian_logs')*/
 
     cutter('water_plank', '#minecraft:planks', 'minecraft:water 5', '2x gtceu:wood_plate', 'minecraft:air', 400)
     cutter('dist_water_plank', '#minecraft:planks', 'gtceu:distilled_water 3', '2x gtceu:wood_plate', 'minecraft:air', 300)

@@ -32,13 +32,13 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .flags(plates, dense_plate, rod, bolt_and_screw)
 
 //Materials
-    event.create('andesite_alloy')
+    /*event.create('andesite_alloy')
         .ingot()
         .fluid()
         .components('8x andesite', 'zinc')
         .color(0x839689)
         .iconSet(DULL)
-        .flags(plates, gear, small_gear, bolt_and_screw, rotor, no_decomp)
+        .flags(plates, gear, small_gear, bolt_and_screw, rotor, no_decomp)*/
 
     event.create('nitrocellulose')
         .polymer()
@@ -198,10 +198,10 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0x238BDE)
         .components('copper', 'sulfur', '4x oxygen')
 
-    event.create('zinc_sulfate')
+    /*event.create('zinc_sulfate')
         .dust()
         .color(0xCACACA)
-        .components('zinc', 'sulfur', '4x oxygen')
+        .components('zinc', 'sulfur', '4x oxygen')*/
 
     event.create('wohler_aluminium')
         .ingot()
@@ -558,10 +558,10 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .components('21x silicon_dioxide', '6x bauxite', '5x quicklime', '2x wustite', '2x magnesia', 'rutile')
         .color(0x4A5253)
 
-    event.create('moon_deepslate')
+    /*event.create('moon_deepslate')
         .dust()
         .components('21x silicon_dioxide', '3x rutile', '2x magnesia', '2x biotite', '2x bauxite', 'wustite')
-        .color(0x4A5253)
+        .color(0x4A5253)*/
 
     event.create('mars_stone')
         .dust()

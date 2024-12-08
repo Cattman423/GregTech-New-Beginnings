@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
         {A: 'gtceu:andesite_alloy_plate', B: 'gtceu:andesite_alloy_bolt', C: '#forge:small_bakelite',
         D: 'create:cogwheel', E: 'create:shaft'})
 
-    let kjsrm = 'kubejs:incomplete_rudimentary_mechanism'
+    /*let kjsrm = 'kubejs:incomplete_rudimentary_mechanism'
     event.recipes.create.sequenced_assembly([
         Item.of('kubejs:rudimentary_mechanism').withChance(95.0),
         //Item.of('2x gtceu:brass_nugget').withChance(3.0),
@@ -40,7 +40,7 @@ ServerEvents.recipes(event => {
         event.recipes.createDeploying(kjsrm, [kjsrm, 'gtceu:andesite_alloy_bolt']),
         event.recipes.createDeploying(kjsrm, [kjsrm, '#forge:small_bakelite']),
         event.recipes.createPressing(kjsrm, [kjsrm]),
-    ]).transitionalItem(kjsrm).loops(3)
+    ]).transitionalItem(kjsrm).loops(3)*/
     
     event.shaped(
         Item.of('kubejs:sealed_mechanism'),

@@ -18,9 +18,8 @@ GTCEuStartupEvents.registry('gtceu:dimension_marker', event  => {
     }
 
     //marker('twilightforest:twilight_forest', 0)
-    marker('ad_astra:moon', 1)
+    /*marker('ad_astra:moon', 1)
     marker('ad_astra:mars', 2)
     marker('ad_astra:venus', 3)
-    marker('ad_astra:mercury', 3)
-    marker('ad_astra:glacio', 7)
+    marker('ad_astra:mercury', 3)*/
 })

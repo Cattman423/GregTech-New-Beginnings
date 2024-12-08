@@ -1,7 +1,7 @@
 GTCEuStartupEvents.craftingComponents(event => {
 //Plates
-    event.modifyUnificationEntry(CraftingComponent.PLATE, GTValues.UEV, new UnificationEntry('plate', 'gtceu:stabilized_oganesson'))
-    event.modifyUnificationEntry(CraftingComponent.PLATE, GTValues.UIV, new UnificationEntry('plate', 'gtceu:shadow_radiance'))
+    //event.modifyUnificationEntry(CraftingComponent.PLATE, GTValues.UEV, new UnificationEntry('plate', 'gtceu:stabilized_oganesson'))
+    //event.modifyUnificationEntry(CraftingComponent.PLATE, GTValues.UIV, new UnificationEntry('plate', 'gtceu:shadow_radiance'))
 
 //Cables
     event.modifyUnificationEntry(CraftingComponent.CABLE, GTValues.UEV, new UnificationEntry('cableGtSingle', 'gtceu:end_steel'))

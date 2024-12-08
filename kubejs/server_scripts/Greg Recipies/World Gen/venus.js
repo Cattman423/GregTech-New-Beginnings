@@ -1,7 +1,7 @@
 GTCEuServerEvents.fluidVeins(event => {
 
     event.add('gtceu:venus_mantle', vein => {
-        vein.dimensions('ad_astra:venus')
+        vein.dimensions('gcyr:venus')
         vein.fluid(() => Fluid.of('gtceu:molten_venus_mantle').fluid)
         vein.weight(50)
         vein.minimumYield(120)
@@ -11,7 +11,7 @@ GTCEuServerEvents.fluidVeins(event => {
         vein.depletedYield(50)
     })
     event.add('gtceu:sulfuric_acid', vein => {
-        vein.dimensions('ad_astra:venus')
+        vein.dimensions('gcyr:venus')
         vein.fluid(() => Fluid.of('gtceu:sulfuric_acid').fluid)
         vein.weight(30)
         vein.minimumYield(120)
@@ -21,7 +21,7 @@ GTCEuServerEvents.fluidVeins(event => {
         vein.depletedYield(50)
     })
     event.add('gtceu:co_2', vein => {
-        vein.dimensions('ad_astra:venus')
+        vein.dimensions('gcyr:venus')
         vein.fluid(() => Fluid.of('gtceu:carbon_dioxide').fluid)
         vein.weight(30)
         vein.minimumYield(120)
@@ -31,7 +31,7 @@ GTCEuServerEvents.fluidVeins(event => {
         vein.depletedYield(50)
     })
     event.add('gtceu:lead', vein => {
-        vein.dimensions('ad_astra:venus')
+        vein.dimensions('gcyr:venus')
         vein.fluid(() => Fluid.of('gtceu:lead').fluid)
         vein.weight(30)
         vein.minimumYield(120)
@@ -48,8 +48,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(32)
         vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
-        vein.layer("venus_stone")
-        vein.dimensions("ad_astra:venus")
+        vein.layer("venus")
+        vein.dimensions("gcyr:venus")
         vein.heightRangeUniform(5, 20)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -71,8 +71,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(32)
         vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
-        vein.layer("venus_stone")
-        vein.dimensions("ad_astra:venus")
+        vein.layer("venus")
+        vein.dimensions("gcyr:venus")
         vein.heightRangeUniform(30, 60)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -93,8 +93,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(29)
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
-        vein.layer("venus_stone")
-        vein.dimensions("ad_astra:venus")
+        vein.layer("venus")
+        vein.dimensions("gcyr:venus")
         vein.heightRangeUniform(40, 80)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -117,8 +117,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(32)
         vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
-        vein.layer("venus_stone")
-        vein.dimensions("ad_astra:venus")
+        vein.layer("venus")
+        vein.dimensions("gcyr:venus")
         vein.heightRangeUniform(-65, 20)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -140,8 +140,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(36)
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
-        vein.layer("venus_stone")
-        vein.dimensions("ad_astra:venus")
+        vein.layer("venus")
+        vein.dimensions("gcyr:venus")
         vein.heightRangeUniform(20, 40)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -163,8 +163,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(34)
         vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
-        vein.layer("venus_stone")
-        vein.dimensions("ad_astra:venus")
+        vein.layer("venus")
+        vein.dimensions("gcyr:venus")
         vein.heightRangeUniform(-10, 40)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -187,8 +187,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(50)
         vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
-        vein.layer("venus_stone")
-        vein.dimensions("ad_astra:venus")
+        vein.layer("venus")
+        vein.dimensions("gcyr:venus")
         vein.heightRangeUniform(5, 30)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -210,8 +210,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(46)
         vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
-        vein.layer("venus_stone")
-        vein.dimensions("ad_astra:venus")
+        vein.layer("venus")
+        vein.dimensions("gcyr:venus")
         vein.heightRangeUniform(80, 120)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -233,8 +233,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(36)
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
-        vein.layer("venus_stone")
-        vein.dimensions("ad_astra:venus")
+        vein.layer("venus")
+        vein.dimensions("gcyr:venus")
         vein.heightRangeUniform(-5, 45)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -256,8 +256,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(26)
         vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
-        vein.layer("venus_stone")
-        vein.dimensions("ad_astra:venus")
+        vein.layer("venus")
+        vein.dimensions("gcyr:venus")
         vein.heightRangeUniform(10, 90)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -279,8 +279,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(44)
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
-        vein.layer("venus_stone")
-        vein.dimensions("ad_astra:venus")
+        vein.layer("venus")
+        vein.dimensions("gcyr:venus")
         vein.heightRangeUniform(60, 220)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -301,8 +301,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(40)
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
-        vein.layer("venus_stone")
-        vein.dimensions("ad_astra:venus")
+        vein.layer("venus")
+        vein.dimensions("gcyr:venus")
         vein.heightRangeUniform(10, 90)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -323,8 +323,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(34)
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
-        vein.layer("venus_stone")
-        vein.dimensions("ad_astra:venus")
+        vein.layer("venus")
+        vein.dimensions("gcyr:venus")
         vein.heightRangeUniform(5, 20)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -347,8 +347,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(28)
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
-        vein.layer("venus_stone")
-        vein.dimensions("ad_astra:venus")
+        vein.layer("venus")
+        vein.dimensions("gcyr:venus")
         vein.heightRangeUniform(5, 25)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern

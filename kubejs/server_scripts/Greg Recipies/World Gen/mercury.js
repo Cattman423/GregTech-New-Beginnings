@@ -1,7 +1,7 @@
 GTCEuServerEvents.fluidVeins(event => {
 
     event.add('gtceu:mercury_mantle', vein => {
-        vein.dimensions('ad_astra:mercury')
+        vein.dimensions('gcyr:mercury')
         vein.fluid(() => Fluid.of('gtceu:molten_mercury_mantle').fluid)
         vein.weight(30)
         vein.minimumYield(120)
@@ -11,7 +11,7 @@ GTCEuServerEvents.fluidVeins(event => {
         vein.depletedYield(50)
     })
     event.add('gtceu:mercury', vein => {
-        vein.dimensions('ad_astra:mercury')
+        vein.dimensions('gcyr:mercury')
         vein.fluid(() => Fluid.of('gtceu:mercury').fluid)
         vein.weight(5)
         vein.minimumYield(120)
@@ -21,7 +21,7 @@ GTCEuServerEvents.fluidVeins(event => {
         vein.depletedYield(50)
     })
     event.add('gtceu:helium_3_mer', vein => {
-        vein.dimensions('ad_astra:mercury')
+        vein.dimensions('gcyr:mercury')
         vein.fluid(() => Fluid.of('gtceu:helium_3').fluid)
         vein.weight(15)
         vein.minimumYield(60)
@@ -31,7 +31,7 @@ GTCEuServerEvents.fluidVeins(event => {
         vein.depletedYield(50)
     })
     event.add('gtceu:iron', vein => {
-        vein.dimensions('ad_astra:mercury')
+        vein.dimensions('gcyr:mercury')
         vein.fluid(() => Fluid.of('gtceu:iron').fluid)
         vein.weight(5)
         vein.minimumYield(60)
@@ -50,8 +50,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
     // Define where the vein can generate
-        vein.layer("mercury_stone")
-        vein.dimensions("ad_astra:mercury")
+        vein.layer("mercury")
+        vein.dimensions("gcyr:mercury")
     // Define a height range:
         vein.heightRangeUniform(20, 50)
     // Define the vein's generator:
@@ -77,8 +77,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(34)
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
-        vein.layer("mercury_stone")
-        vein.dimensions("ad_astra:mercury")
+        vein.layer("mercury")
+        vein.dimensions("gcyr:mercury")
         vein.heightRangeUniform(5, 20)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -100,8 +100,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(22)
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
-        vein.layer("mercury_stone")
-        vein.dimensions("ad_astra:mercury")
+        vein.layer("mercury")
+        vein.dimensions("gcyr:mercury")
         vein.heightRangeUniform(20, 40)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -123,8 +123,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(32)
         vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
-        vein.layer("mercury_stone")
-        vein.dimensions("ad_astra:mercury")
+        vein.layer("mercury")
+        vein.dimensions("gcyr:mercury")
         vein.heightRangeUniform(-65, 20)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -146,8 +146,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(34)
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
-        vein.layer("mercury_stone")
-        vein.dimensions("ad_astra:mercury")
+        vein.layer("mercury")
+        vein.dimensions("gcyr:mercury")
         vein.heightRangeUniform(20, 40)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -170,8 +170,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(25)
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
-        vein.layer("mercury_stone")
-        vein.dimensions("ad_astra:mercury")
+        vein.layer("mercury")
+        vein.dimensions("gcyr:mercury")
         vein.heightRangeUniform(5, 30)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -194,8 +194,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(20)
         vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
-        vein.layer("mercury_stone")
-        vein.dimensions("ad_astra:mercury")
+        vein.layer("mercury")
+        vein.dimensions("gcyr:mercury")
         vein.heightRangeUniform(-40, 60)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -217,8 +217,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(34)
         vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
-        vein.layer("mercury_stone")
-        vein.dimensions("ad_astra:mercury")
+        vein.layer("mercury")
+        vein.dimensions("gcyr:mercury")
         vein.heightRangeUniform(10, 80)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -240,8 +240,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(44)
         vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
-        vein.layer("mercury_stone")
-        vein.dimensions("ad_astra:mercury")
+        vein.layer("mercury")
+        vein.dimensions("gcyr:mercury")
         vein.heightRangeUniform(30, 60)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -264,8 +264,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(26)
         vein.density(0.8) 
         vein.discardChanceOnAirExposure(0)
-        vein.layer("mercury_stone")
-        vein.dimensions("ad_astra:mercury")
+        vein.layer("mercury")
+        vein.dimensions("gcyr:mercury")
         vein.heightRangeUniform(10, 90)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -287,8 +287,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(40)
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
-        vein.layer("mercury_stone")
-        vein.dimensions("ad_astra:mercury")
+        vein.layer("mercury")
+        vein.dimensions("gcyr:mercury")
         vein.heightRangeUniform(10, 90)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern

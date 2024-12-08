@@ -1636,6 +1636,16 @@
 			x: -4.5d
 			y: 7.0d
 		}
+		{
+			id: "5220D0B90A4B41D0"
+			tasks: [{
+				id: "33CB13098455F3C1"
+				item: "gtceu:tritium_bucket"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
 	]
 	title: "The Periodic Table"
 }

@@ -1,7 +1,7 @@
 GTCEuServerEvents.fluidVeins(event => {
 
     event.add('gtceu:moon_mantle', vein => {
-        vein.dimensions('ad_astra:moon')
+        vein.dimensions('gcyr:luna')
         vein.fluid(() => Fluid.of('gtceu:molten_moon_mantle').fluid)
         vein.weight(30)
         vein.minimumYield(120)
@@ -11,7 +11,7 @@ GTCEuServerEvents.fluidVeins(event => {
         vein.depletedYield(50)
     })
     event.add('gtceu:helium_3', vein => {
-        vein.dimensions('ad_astra:moon')
+        vein.dimensions('gcyr:luna')
         vein.fluid(() => Fluid.of('gtceu:helium_3').fluid)
         vein.weight(10)
         vein.minimumYield(60)
@@ -23,19 +23,19 @@ GTCEuServerEvents.fluidVeins(event => {
 })
 GTCEuServerEvents.oreVeins(event => {
     event.modify("gtceu:magnetite_vein_end", vein => {
-        vein.dimensions("ad_astra:moon")
-        vein.layer("moon_stone")
-        vein.biomes("ad_astra:lunar_wastelands")
+        vein.dimensions("gcyr:luna")
+        vein.layer("moon")
+        vein.biomes("gcyr:moon")
     })
     event.modify("gtceu:bauxite_vein_end", vein => {
-        vein.dimensions("ad_astra:moon")
-        vein.layer("moon_stone")
-        vein.biomes("ad_astra:lunar_wastelands")
+        vein.dimensions("gcyr:luna")
+        vein.layer("moon")
+        vein.biomes("gcyr:moon")
     })
     event.modify("gtceu:sheldonite_vein", vein => {
-        vein.dimensions("ad_astra:moon")
-        vein.layer('moon_stone')
-        vein.biomes('ad_astra:lunar_wastelands')
+        vein.dimensions("gcyr:luna")
+        vein.layer('moon')
+        vein.biomes('gcyr:moon')
     })
 //Desh
     event.add("kubejs:desh_vein_mn", vein => {
@@ -45,9 +45,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
     // Define where the vein can generate
-        vein.layer("moon_stone")
-        vein.dimensions("ad_astra:moon")
-        vein.biomes("ad_astra:lunar_wastelands")
+        vein.layer("moon")
+        vein.dimensions("gcyr:luna")
     // Define a height range:
         vein.heightRangeUniform(20, 60)
     // Define the vein's generator:
@@ -72,9 +71,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(44)
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
-        vein.layer("moon_stone")
-        vein.dimensions("ad_astra:moon")
-        vein.biomes("ad_astra:lunar_wastelands")
+        vein.layer("moon")
+        vein.dimensions("gcyr:luna")
         vein.heightRangeUniform(20, 60)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -98,9 +96,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(38)
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
-        vein.layer("moon_stone")
-        vein.dimensions("ad_astra:moon")
-        vein.biomes("ad_astra:lunar_wastelands")
+        vein.layer("moon")
+        vein.dimensions("gcyr:luna")
         vein.heightRangeUniform(-10, 40)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -122,9 +119,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(30)
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
-        vein.layer("moon_stone")
-        vein.dimensions("ad_astra:moon")
-        vein.biomes("ad_astra:lunar_wastelands")
+        vein.layer("moon")
+        vein.dimensions("gcyr:luna")
         vein.heightRangeUniform(-50, 20)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -148,9 +144,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(26)
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
-        vein.layer("moon_stone")
-        vein.dimensions("ad_astra:moon")
-        vein.biomes("ad_astra:lunar_wastelands")
+        vein.layer("moon")
+        vein.dimensions("gcyr:luna")
         vein.heightRangeUniform(-60, 0)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -173,9 +168,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(32)
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
-        vein.layer("moon_stone")
-        vein.dimensions("ad_astra:moon")
-        vein.biomes("ad_astra:lunar_wastelands")
+        vein.layer("moon")
+        vein.dimensions("gcyr:luna")
         vein.heightRangeUniform(0, 75)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -197,9 +191,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(27)
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
-        vein.layer("moon_stone")
-        vein.dimensions("ad_astra:moon")
-        vein.biomes("ad_astra:lunar_wastelands")
+        vein.layer("moon")
+        vein.dimensions("gcyr:luna")
         vein.heightRangeUniform(20, 50)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -223,9 +216,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(29)
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
-        vein.layer("moon_stone")
-        vein.dimensions("ad_astra:moon")
-        vein.biomes("ad_astra:lunar_wastelands")
+        vein.layer("moon")
+        vein.dimensions("gcyr:luna")
         vein.heightRangeUniform(40, 80)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -249,9 +241,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(36)
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
-        vein.layer("moon_stone")
-        vein.dimensions("ad_astra:moon")
-        vein.biomes("ad_astra:lunar_wastelands")
+        vein.layer("moon")
+        vein.dimensions("gcyr:luna")
         vein.heightRangeUniform(20, 40)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -274,9 +265,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(34)
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
-        vein.layer("moon_stone")
-        vein.dimensions("ad_astra:moon")
-        vein.biomes("ad_astra:lunar_wastelands")
+        vein.layer("moon")
+        vein.dimensions("gcyr:luna")
         vein.heightRangeUniform(20, 40)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -300,9 +290,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(40)
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
-        vein.layer("moon_stone")
-        vein.dimensions("ad_astra:moon")
-        vein.biomes("ad_astra:lunar_wastelands")
+        vein.layer("moon")
+        vein.dimensions("gcyr:luna")
         vein.heightRangeUniform(-40, 10)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -326,9 +315,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(36)
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
-        vein.layer("moon_stone")
-        vein.dimensions("ad_astra:moon")
-        vein.biomes("ad_astra:lunar_wastelands")
+        vein.layer("moon")
+        vein.dimensions("gcyr:luna")
         vein.heightRangeUniform(-5, 45)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -351,9 +339,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(44)
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
-        vein.layer("moon_stone")
-        vein.dimensions("ad_astra:moon")
-        vein.biomes("ad_astra:lunar_wastelands")
+        vein.layer("moon")
+        vein.dimensions("gcyr:luna")
         vein.heightRangeUniform(60, 220)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
@@ -375,9 +362,8 @@ GTCEuServerEvents.oreVeins(event => {
         vein.clusterSize(44)
         vein.density(0.8)
         vein.discardChanceOnAirExposure(0)
-        vein.layer("moon_stone")
-        vein.dimensions("ad_astra:moon")
-        vein.biomes("ad_astra:lunar_wastelands")
+        vein.layer("moon")
+        vein.dimensions("gcyr:luna")
         vein.heightRangeUniform(60, 220)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern

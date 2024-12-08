@@ -24,9 +24,9 @@ StartupEvents.registry('block', event => {
     }
 
     //marker('twilightforest:twilight_forest')
-    marker('ad_astra:moon')
+    /*marker('ad_astra:moon')
     marker('ad_astra:mars')
     marker('ad_astra:venus')
     marker('ad_astra:mercury')
-    marker('ad_astra:glacio')
+    marker('ad_astra:glacio')*/
 })

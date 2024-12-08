@@ -97,13 +97,13 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .components('sodium', 'fluorine')
         .flags(lens)
         
-    event.create('fluorite')
+    /*event.create('fluorite')
         .ore(2, 1)
         .gem()
         .color(0x90AE99)
         .iconSet(QUARTZ)
         .components('calcium', '2x fluorine')
-        .flags(lens)
+        .flags(lens)*/
 
     event.create('rhodochrosite')
         .ore(2, 1)

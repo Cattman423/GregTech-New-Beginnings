@@ -10,11 +10,11 @@ ServerEvents.recipes(event => {
         'tfmg:screwdriver',
         '#forge:tools/screwdrivers'
         )
-    event.replaceInput(
+    /*event.replaceInput(
         { input: 'tfmg:turbine_blade' },
         'tfmg:turbine_blade',
         'gtceu:andesite_alloy_rotor'
-        )
+        )*/
     event.replaceInput(
         { input: 'tfmg:rebar' },
         'tfmg:rebar',

@@ -90,7 +90,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0x000000)
         .element('radiance')
 
-    event.create('refined_radiance')
+    /*event.create('refined_radiance')
         .ingot()
         .fluid()
         .plasma()
@@ -105,7 +105,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .color(0x575366)
         .element('shadow_steel')
         .blastTemp(9500, 'higher', AUHv, 2400)
-        .iconSet(DULL)
+        .iconSet(DULL)*/
 
     event.create('void')
         ['fluid(com.gregtechceu.gtceu.api.fluids.store.FluidStorageKey,com.gregtechceu.gtceu.api.fluids.FluidBuilder)']
@@ -126,14 +126,14 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .blastTemp(11530, null, AZPm/2, 14000)
         .cableProperties(GTValues.V[GTValues.UIV], 16, 0, true)
 
-    event.create('infinity')
+    /*event.create('infinity')
         .ingot()
         .fluid()
         //.color(0xFFFFFF)
         .element('infinity')
         .iconSet(INFINITY)
         .flags(plates, rod, bolt_and_screw)
-        .cableProperties(GTValues.V[GTValues.MAX], 1000000, 0, true)
+        .cableProperties(GTValues.V[GTValues.MAX], 1000000, 0, true)*/
 
     event.create('ardite')
         .ingot()
