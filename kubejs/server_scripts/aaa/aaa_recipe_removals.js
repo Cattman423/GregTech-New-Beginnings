@@ -1,4 +1,5 @@
 ServerEvents.recipes(event => {
+    event.remove({mod: 'terralith'})
     event.remove({mod: 'ae2', output: 'ae2:inscriber'})
     event.remove({mod: 'expatternprovider', output: 'expatternprovider:ex_inscriber'})
     event.remove({mod: 'create', output: 'create:propeller'})
@@ -683,8 +684,8 @@ ServerEvents.recipes(event => {
     event.remove({id:'jei:/enderio/alloy_smelting/copper_alloy_ingot'})
     event.remove({id:'jei:/enderio/alloy_smelting/end_steel_ingot'})
     event.remove({id:'jei:/ae2/inscriber/fluix_dust'})
-    event.remove({id:''})
-    event.remove({id:''})
+    event.remove({id:'pamhc2crops:stick_x4_cattail_x2'})
+    event.remove({id:'enderio:stick'})
     event.remove({id:''})
     event.remove({id:''})
     event.remove({id:''})

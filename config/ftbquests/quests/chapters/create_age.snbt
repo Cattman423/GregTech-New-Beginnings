@@ -575,11 +575,6 @@
 					item: "create:andesite_funnel"
 					type: "item"
 				}
-				{
-					id: "59B61442DDC85C8A"
-					item: "create:andesite_tunnel"
-					type: "item"
-				}
 			]
 			title: "Basic Automation"
 			x: 3.5d
@@ -609,11 +604,6 @@
 				{
 					id: "3D369ADDB1CBE494"
 					item: "create:brass_funnel"
-					type: "item"
-				}
-				{
-					id: "33CCBBBDD248A28B"
-					item: "create:brass_tunnel"
 					type: "item"
 				}
 			]

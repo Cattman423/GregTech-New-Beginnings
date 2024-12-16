@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
 //Machine Recipes
     event.recipes.create.mixing(
         ['createmetallurgy:refractory_mortar'], 
-        ['2x #forge:sand', 'minecraft:clay', Fluid.of(('minecraft:water'), 144/144)]
+        ['2x #forge:sand', 'minecraft:clay', Fluid.of(('minecraft:water'), 1000)]
     ).heatRequirement('lowheated')
 
     event.stonecutting('createmetallurgy:graphite_ingot_mold', 'createmetallurgy:graphite_blank_mold')
@@ -133,191 +133,168 @@ ServerEvents.recipes(event => {
 
 
 //Greg alloys
-    event.custom({
-        type: 'createmetallurgy:alloying',
-        ingredients: [{fluid: 'gtceu:copper', amount: 144*3}, {fluid: 'gtceu:tin', amount: 144}],
-        processingTime: 40,
-        results: [{fluid: 'gtceu:bronze', amount: 144*4}],
-        heatRequirement: 'lowheated'
-    })
+    event.recipes.createmetallurgy.alloying(
+        Fluid.of('gtceu:bronze', 144*4), //output
+        [Fluid.of('gtceu:copper', 144*3), Fluid.of('gtceu:tin', 144)], //input
+        40, //time
+        'lowheated' //heat level
+    )
     
-    event.custom({
-        type: 'createmetallurgy:alloying',
-        ingredients: [{fluid: 'gtceu:annealed_copper', amount: 144*3}, {fluid: 'gtceu:tin', amount: 144}],
-        processingTime: 40,
-        results: [{fluid: 'gtceu:bronze', amount: 144*4}],
-        heatRequirement: 'lowheated'
-    })
-
-    event.custom({
-        type: 'createmetallurgy:alloying',
-        ingredients: [{fluid: 'gtceu:copper', amount: 144*3}, {fluid: 'gtceu:zinc', amount: 144}],
-        processingTime: 40,
-        results: [{fluid: 'gtceu:brass', amount: 144*4}],
-        heatRequirement: 'lowheated'
-    })
-
-    event.custom({
-        type: 'createmetallurgy:alloying',
-        ingredients: [{fluid: 'gtceu:annealed_copper', amount: 144*3}, {fluid: 'gtceu:zinc', amount: 144}],
-        processingTime: 40,
-        results: [{fluid: 'gtceu:brass', amount: 144*4}],
-        heatRequirement: 'lowheated'
-    })
-
-    event.custom({
-        type: 'createmetallurgy:alloying',
-        ingredients: [{fluid: 'gtceu:gold', amount: 144}, {fluid: 'gtceu:silver', amount: 144}],
-        processingTime: 40,
-        results: [{fluid: 'gtceu:electrum', amount: 144*2}],
-        heatRequirement: 'lowheated'
-    })
-
-    event.custom({
-        type: 'createmetallurgy:alloying',
-        ingredients: [{fluid: 'gtceu:iron', amount: 144*2}, {fluid: 'gtceu:nickel', amount: 144}],
-        processingTime: 40,
-        results: [{fluid: 'gtceu:invar', amount: 144*3}],
-        heatRequirement: 'lowheated'
-    })
-
-    event.custom({
-        type: 'createmetallurgy:alloying',
-        ingredients: [{fluid: 'gtceu:wrought_iron', amount: 144*2}, {fluid: 'gtceu:nickel', amount: 144}],
-        processingTime: 40,
-        results: [{fluid: 'gtceu:invar', amount: 144*3}],
-        heatRequirement: 'lowheated'
-    })
-
-    event.custom({
-        type: 'createmetallurgy:alloying',
-        ingredients: [{fluid: 'gtceu:lead', amount: 144*4}, {fluid: 'gtceu:antimony', amount: 144}],
-        processingTime: 40,
-        results: [{fluid: 'gtceu:battery_alloy', amount: 144*5}],
-        heatRequirement: 'lowheated'
-    })
-
-    event.custom({
-        type: 'createmetallurgy:alloying',
-        ingredients: [{fluid: 'gtceu:iron', amount: 144}, {fluid: 'gtceu:tin', amount: 144}],
-        processingTime: 40,
-        results: [{fluid: 'gtceu:tin_alloy', amount: 144*2}],
-        heatRequirement: 'lowheated'
-    })
-
-    event.custom({
-        type: 'createmetallurgy:alloying',
-        ingredients: [{fluid: 'gtceu:wrought_iron', amount: 144}, {fluid: 'gtceu:tin', amount: 144}],
-        processingTime: 40,
-        results: [{fluid: 'gtceu:tin_alloy', amount: 144*2}],
-        heatRequirement: 'lowheated'
-    })
-
-    event.custom({
-        type: 'createmetallurgy:alloying',
-        ingredients: [{fluid: 'gtceu:copper', amount: 144}, {fluid: 'gtceu:nickel', amount: 144}],
-        processingTime: 40,
-        results: [{fluid: 'gtceu:cupronickel', amount: 144*2}],
-        heatRequirement: 'lowheated'
-    })
-
-    event.custom({
-        type: 'createmetallurgy:alloying',
-        ingredients: [{fluid: 'gtceu:annealed_copper', amount: 144}, {fluid: 'gtceu:nickel', amount: 144}],
-        processingTime: 40,
-        results: [{fluid: 'gtceu:cupronickel', amount: 144*2}],
-        heatRequirement: 'lowheated'
-    })
-
-    event.custom({
-        type: 'createmetallurgy:alloying',
-        ingredients: [{fluid: 'gtceu:copper', amount: 144}, {item: 'minecraft:redstone', count: 4}],
-        processingTime: 140,
-        results: [{fluid: 'gtceu:red_alloy', amount: 144*5}],
-        heatRequirement: 'lowheated'
-    })
-
-    event.custom({
-        type: 'createmetallurgy:alloying',
-        ingredients: [{fluid: 'gtceu:annealed_copper', amount: 144}, {item: 'minecraft:redstone', count: 4}],
-        processingTime: 140,
-        results: [{fluid: 'gtceu:annealed_copper', amount: 144*5}],
-        heatRequirement: 'lowheated'
-    })
-
-    event.custom({
-        type: 'createmetallurgy:alloying',
-        ingredients: [{fluid: 'gtceu:iron', amount: 144*4}, {fluid: 'gtceu:copper', amount: 144}],
-        processingTime: 40,
-        results: [{fluid: 'gtceu:gunmetal', amount: 144*5}],
-        heatRequirement: 'lowheated'
-    })
+    event.recipes.createmetallurgy.alloying(
+        Fluid.of('gtceu:bronze', 144*4), 
+        [Fluid.of('gtceu:annealed_copper', 144*3), Fluid.of('gtceu:tin', 144)], 
+        40, 
+        'lowheated'
+    )
     
-    event.custom({
-        type: 'createmetallurgy:alloying',
-        ingredients: [{fluid: 'gtceu:wrought_iron', amount: 144*4}, {fluid: 'gtceu:copper', amount: 144}],
-        processingTime: 40,
-        results: [{fluid: 'gtceu:gunmetal', amount: 144*5}],
-        heatRequirement: 'lowheated'
-    })
+    event.recipes.createmetallurgy.alloying(
+        Fluid.of('gtceu:brass', 144*4), 
+        [Fluid.of('gtceu:copper', 144*3), Fluid.of('gtceu:zinc', 144)], 
+        40, 
+        'lowheated'
+    )
+
+    event.recipes.createmetallurgy.alloying(
+        Fluid.of('gtceu:brass', 144*4), 
+        [Fluid.of('gtceu:annealed_copper', 144*3), Fluid.of('gtceu:zinc', 144)], 
+        40, 
+        'lowheated'
+    )
+
+    event.recipes.createmetallurgy.alloying(
+        Fluid.of('gtceu:electrum', 144*2), 
+        [Fluid.of('gtceu:gold', 144), Fluid.of('gtceu:silver', 144)], 
+        40, 
+        'lowheated'
+    )
+
+    event.recipes.createmetallurgy.alloying(
+        Fluid.of('gtceu:invar', 144*3), 
+        [Fluid.of('gtceu:iron', 144*2), Fluid.of('gtceu:nickel', 144)], 
+        40, 
+        'lowheated'
+    )
+
+    event.recipes.createmetallurgy.alloying(
+        Fluid.of('gtceu:invar', 144*3), 
+        [Fluid.of('gtceu:wrought_iron', 144*2), Fluid.of('gtceu:nickel', 144)], 
+        40, 
+        'lowheated'
+    )
+
+    event.recipes.createmetallurgy.alloying(
+        Fluid.of('gtceu:battery_alloy', 144*5), 
+        [Fluid.of('gtceu:lead', 144*4), Fluid.of('gtceu:antimony', 144)], 
+        40, 
+        'lowheated'
+    )
+
+    event.recipes.createmetallurgy.alloying(
+        Fluid.of('gtceu:tin_alloy', 144*2), 
+        [Fluid.of('gtceu:iron', 144), Fluid.of('gtceu:tin', 144)], 
+        40, 
+        'lowheated'
+    )
+
+    event.recipes.createmetallurgy.alloying(
+        Fluid.of('gtceu:tin_alloy', 144*2), 
+        [Fluid.of('gtceu:wrought_iron', 144), Fluid.of('gtceu:tin', 144)], 
+        40, 
+        'lowheated'
+    )
+
+    event.recipes.createmetallurgy.alloying(
+        Fluid.of('gtceu:cupronickel', 144*2), 
+        [Fluid.of('gtceu:copper', 144), Fluid.of('gtceu:nickel', 144)], 
+        40, 
+        'lowheated'
+    )
+
+    event.recipes.createmetallurgy.alloying(
+        Fluid.of('gtceu:cupronickel', 144*2), 
+        [Fluid.of('gtceu:annealed_copper', 144), Fluid.of('gtceu:nickel', 144)], 
+        40, 
+        'lowheated'
+    )
+
+    event.recipes.createmetallurgy.alloying(
+        Fluid.of('gtceu:red_alloy', 144/4), 
+        [Fluid.of('gtceu:copper', 144/4), 'minecraft:redstone'], 
+        40, 
+        'lowheated'
+    )
+
+    event.recipes.createmetallurgy.alloying(
+        Fluid.of('gtceu:red_alloy', 144/4), 
+        [Fluid.of('gtceu:annealed_copper', 144/4), 'minecraft:redstone'], 
+        40, 
+        'lowheated'
+    )
+
+    event.recipes.createmetallurgy.alloying(
+        Fluid.of('gtceu:gunmetal', 144*5), 
+        [Fluid.of('gtceu:iron', 144*4), Fluid.of('gtceu:copper', 144)], 
+        40, 
+        'lowheated'
+    )
     
-    event.custom({
-        type: 'createmetallurgy:alloying',
-        ingredients: [{fluid: 'gtceu:iron', amount: 144*4}, {fluid: 'gtceu:annealed_copper', amount: 144}],
-        processingTime: 40,
-        results: [{fluid: 'gtceu:gunmetal', amount: 144*5}],
-        heatRequirement: 'lowheated'
-    })
+    event.recipes.createmetallurgy.alloying(
+        Fluid.of('gtceu:gunmetal', 144*5), 
+        [Fluid.of('gtceu:wrought_iron', 144*4), Fluid.of('gtceu:copper', 144)], 
+        40, 
+        'lowheated'
+    )
     
-    event.custom({
-        type: 'createmetallurgy:alloying',
-        ingredients: [{fluid: 'gtceu:wrought_iron', amount: 144*4}, {fluid: 'gtceu:annealed_copper', amount: 144}],
-        processingTime: 40,
-        results: [{fluid: 'gtceu:gunmetal', amount: 144*5}],
-        heatRequirement: 'lowheated'
-    })
-
-    event.custom({
-        type: 'createmetallurgy:alloying',
-        ingredients: [{fluid: 'gtceu:iron', amount: 144*3}, {item: 'gtceu:coal_dust'}],
-        processingTime: 140,
-        results: [{fluid: 'gtceu:poor_steel', amount: 144*3}],
-        heatRequirement: 'lowheated'
-    })
-
-    event.custom({
-        type: 'createmetallurgy:alloying',
-        ingredients: [{fluid: 'gtceu:wrought_iron', amount: 144*3}, {item: 'gtceu:coal_dust'}],
-        processingTime: 140,
-        results: [{fluid: 'gtceu:poor_steel', amount: 144*3}],
-        heatRequirement: 'lowheated'
-    })
-
-    event.custom({
-        type: 'createmetallurgy:alloying',
-        ingredients: [{fluid: 'gtceu:silver', amount: 144}, {item: 'gtceu:electrotine_dust', count: 4}],
-        processingTime: 140,
-        results: [{fluid: 'gtceu:blue_alloy', amount: 144*5}],
-        heatRequirement: 'lowheated'
-    })
-
-    event.custom({
-        type: 'createmetallurgy:alloying',
-        ingredients: [{item: 'gtceu:raw_rubber_dust', count: 3}, {item: 'gtceu:sulfur_dust'}],
-        processingTime: 140,
-        results: [{fluid: 'gtceu:rubber', amount: 144*3}],
-        heatRequirement: 'lowheated'
-    })
-
-    event.custom({
-        type: 'createmetallurgy:alloying',
-        ingredients: [{item: 'gtceu:quartz_sand_dust'}, {item: 'gtceu:tiny_flint_dust'}],
-        processingTime: 140,
-        results: [{fluid: 'gtceu:glass', amount: 144}],
-        heatRequirement: 'lowheated'
-    })
+    event.recipes.createmetallurgy.alloying(
+        Fluid.of('gtceu:gunmetal', 144*5), 
+        [Fluid.of('gtceu:iron', 144*4), Fluid.of('gtceu:annealed_copper', 144)], 
+        40, 
+        'lowheated'
+    )
     
-    event.custom({
+    event.recipes.createmetallurgy.alloying(
+        Fluid.of('gtceu:gunmetal', 144*5), 
+        [Fluid.of('gtceu:wrought_iron', 144*4), Fluid.of('gtceu:annealed_copper', 144)], 
+        40, 
+        'lowheated'
+    )
+
+    event.recipes.createmetallurgy.alloying(
+        Fluid.of('gtceu:poor_steel', 144*3), 
+        [Fluid.of('gtceu:iron', 144*3), 'gtceu:coal_dust'], 
+        40, 
+        'lowheated'
+    )
+
+    event.recipes.createmetallurgy.alloying(
+        Fluid.of('gtceu:poor_steel', 144*3), 
+        [Fluid.of('gtceu:wrought_iron', 144*3), 'gtceu:coal_dust'], 
+        40, 
+        'lowheated'
+    )
+
+    event.recipes.createmetallurgy.alloying(
+        Fluid.of('gtceu:blue_alloy', 144/4), 
+        [Fluid.of('gtceu:silver', 144/4), 'gtceu:electrotine_dust'], 
+        40, 
+        'lowheated'
+    )
+
+    event.recipes.createmetallurgy.alloying(
+        Fluid.of('gtceu:rubber', 144*3), 
+        ['gtceu:sulfur_dust', 'gtceu:raw_rubber_dust', 'gtceu:raw_rubber_dust', 'gtceu:raw_rubber_dust'], 
+        40, 
+        'lowheated'
+    )
+
+    event.recipes.createmetallurgy.alloying(
+        Fluid.of('gtceu:glass', 144), 
+        ['gtceu:quartz_sand_dust', 'gtceu:tiny_flint_dust'], 
+        40, 
+        'lowheated'
+    )
+    
+    /*event.custom({
         type: 'createmetallurgy:alloying',
         ingredients: [{item: 'gtceu:quartz_sand_dust', count: 4}, {item: 'gtceu:small_flint_dust'}],
         processingTime: 140,
@@ -331,9 +308,7 @@ ServerEvents.recipes(event => {
         processingTime: 140,
         results: [{fluid: 'gtceu:glass', amount: 144*9}],
         heatRequirement: 'lowheated'
-    })
-    
-    event.recipes.createmetallurgy.alloying([Fluid.of("createmetallurgy:molten_zinc", 10), 'dead_bush'], 'coal_block', 40, 'superheated')
+    })*/
 
 
 //Ingots
