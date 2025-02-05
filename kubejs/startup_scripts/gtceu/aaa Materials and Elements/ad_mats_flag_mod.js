@@ -81,8 +81,15 @@ const GCYRMaterials = Java.loadClass("argent_matter.gcyr.common.data.GCYRMateria
     
 //Flags
     GTMaterials.get('andesite_alloy').addFlags(plates, gear, small_gear, bolt_and_screw, rotor, no_decomp)
+    GTMaterials.get('arcane_crystal').addFlags(lens)
     GTMaterials.get('infinity').addFlags(plates, rod, bolt_and_screw)
+
     GCYRMaterials.Fluorite.addFlags(lens)
+
+    GTMaterials.get('gtca:fayalite').addFlags(lens)
+    GTMaterials.get('gtca:green_fuchsite').addFlags(lens)
+    GTMaterials.get('gtca:red_fuchsite').addFlags(lens)
+    GTMaterials.get('gtca:red_zircon').addFlags(lens)
 
     GTMaterials.Aluminium.addFlags(dense_plate)
     GTMaterials.Almandine.addFlags(lens)
@@ -96,6 +103,7 @@ const GCYRMaterials = Java.loadClass("argent_matter.gcyr.common.data.GCYRMateria
     GTMaterials.Coal.addFlags(lens)
     GTMaterials.Coke.addFlags(lens)
     GTMaterials.Copper.addFlags(bolt_and_screw, small_gear, frame)
+    GTMaterials.EchoShard.addFlags(lens)
     GTMaterials.GarnetRed.addFlags(lens)
     GTMaterials.GarnetYellow.addFlags(lens)
     GTMaterials.Germanium.addFlags(plates, foil, fine_wire)

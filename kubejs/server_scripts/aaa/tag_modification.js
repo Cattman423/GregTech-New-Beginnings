@@ -50,6 +50,8 @@ ServerEvents.tags('item', event => {
     event.add('forge:lenses/red', 'gtceu:rose_quartz_lens')
     event.add('forge:lenses/red', 'gtceu:villiaumite_lens')
     event.add('forge:lenses/red', 'gtceu:rhodochrosite_lens')
+    event.add('forge:lenses/red', 'gtca:red_fuchsite_lens')
+    event.add('forge:lenses/red', 'gtca:red_zircon_lens')
 
     event.add('forge:lenses/yellow', 'gtceu:andradite_lens')
     event.add('forge:lenses/yellow', 'gtceu:topaz_lens')
@@ -62,14 +64,16 @@ ServerEvents.tags('item', event => {
     event.add('forge:lenses/light_blue', 'gtceu:certus_quartz_lens')
     event.add('forge:lenses/light_blue', 'gtceu:charged_certus_lens')
     event.add('forge:lenses/light_blue', 'gtceu:cubic_zirconium_lens')
+    event.add('forge:lenses/light_blue', 'gtceu:arcane_crystral_lens')
 
     event.add('forge:lenses/black', 'gtceu:coal_lens')
+    event.add('forge:lenses/black', 'gtceu:echo_shard_lens')
 
     event.add('forge:lenses/lime', 'gtceu:green_sapphire_lens')
     event.add('forge:lenses/lime', 'gtceu:malachite_lens')
     event.add('forge:lenses/lime', 'gtceu:olivine_lens')
-    event.add('forge:lenses/lime', 'gtceu:fluorite_lens')
     event.add('forge:lenses/lime', 'gtceu:boron_nitride_lens')
+    event.add('forge:lenses/lime', 'gtca:green_fuchsite_lens')
 
     event.add('forge:lenses/orange', 'gtceu:grossular_lens')
     event.add('forge:lenses/orange', 'gtceu:spessartine_lens')
@@ -87,6 +91,7 @@ ServerEvents.tags('item', event => {
 
     event.add('forge:lenses/grey', 'gtceu:coke_lens')
     event.add('forge:lenses/grey', 'gtceu:nepheline_lens')
+    event.add('forge:lenses/grey', 'gtca:fayalite_lens')
 
     event.add('forge:lenses/light_grey', 'gtceu:boron_arsenide_lens')
 
@@ -96,6 +101,7 @@ ServerEvents.tags('item', event => {
     event.add('forge:lenses/green', 'gtceu:cognitive_crystal_lens')
     event.add('forge:lenses/green', 'gtceu:titanite_lens')
     event.add('forge:lenses/green', 'gtceu:jade_lens')
+    event.add('forge:lenses/green', 'gcyr:fluorite_lens')
 
     event.add('forge:lenses/pink', 'gtceu:opal_lens')
     event.add('forge:lenses/pink', 'gtceu:magneto_resonatic_lens')

@@ -781,11 +781,11 @@
 			id: "55BB90B145BB309A"
 			optional: true
 			tasks: [{
-				id: "2684E842DEB637B1"
-				item: "gtceu:fluorite_lens"
+				id: "15018099BAA4776D"
+				item: "gcyr:fluorite_lens"
 				type: "item"
 			}]
-			x: -2.5d
+			x: 5.5d
 			y: 0.0d
 		}
 		{
@@ -798,7 +798,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["44279043DD31B476"]
@@ -834,6 +834,72 @@
 			}]
 			x: -5.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "3AE70DEEB3731600"
+			tasks: [{
+				id: "567A9A271B53AC5E"
+				item: "gtceu:echo_shard_lens"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "50BB1DCFCC96A80F"
+			tasks: [{
+				id: "4E9B12520C0E8967"
+				item: "gtceu:arcane_crystal_lens"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "6B5D5CD7948DFF1C"
+			tasks: [{
+				id: "039960B365CBE39B"
+				item: "gtca:fayalite_lens"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "71475D14A7C300A3"
+			tasks: [{
+				id: "280F43A637CF7C18"
+				item: "gtca:red_zircon_lens"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "70593F10AC1AECCF"
+			tasks: [{
+				id: "096E7F84AB154A15"
+				item: "gtca:red_fuchsite_lens"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["44279043DD31B476"]
+			id: "24486658194588CB"
+			tasks: [{
+				id: "04BC9EC56D35BDF5"
+				item: "gtca:green_fuchsite_lens"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
 		}
 	]
 	title: "Lenses"

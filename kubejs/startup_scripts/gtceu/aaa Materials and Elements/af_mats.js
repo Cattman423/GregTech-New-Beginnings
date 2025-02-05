@@ -16,11 +16,11 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .fluid(/*new FluidBuilder().attribute(FluidAttributes.ACID)*/)
         .color(0x684824)
 
-    event.create('netherite')
+    /*event.create('netherite')
         .dust()
         .iconSet(DULL)
         .element('netherite')
-        .color(0x4D494D)
+        .color(0x4D494D)*/
 
     event.create('netherite_alloy')
         .ingot()

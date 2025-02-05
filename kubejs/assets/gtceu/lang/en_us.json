@@ -275,18 +275,6 @@
     "block.gtceu.sterile_lab": "Sterile Laboratory",
     "block.gtceu.polymerization_plant": "Polymerization Plant",
 
-    "block.gtceu.hv_decay_hastener": "§6Advanced Decay Hastener II§r",
-    "block.gtceu.ev_decay_hastener": "§5Advanced Decay Hastener III§r",
-    "block.gtceu.iv_decay_hastener": "§9Elite Decay Hastener§r",
-    "block.gtceu.luv_decay_hastener": "§dElite Decay Hastener II§r",
-    "block.gtceu.zpm_decay_hastener": "Elite Decay Hastener III§r",
-    "block.gtceu.uv_decay_hastener": "§3Ultimate Decay Hastener§r",
-    "block.gtceu.uhv_decay_hastener": "§4Epic Decay Hastener§r",
-    "block.gtceu.uev_decay_hastener": "§aEpic Decay Hastener II§r",
-    "block.gtceu.uiv_decay_hastener": "§2Epic Decay Hastener III§r",
-    "block.gtceu.uxv_decay_hastener": "§eEpic Decay Hastener IV§r",
-    "block.gtceu.opv_decay_hastener": "§9§lLegendary Decay Hastener§r",
-
     "block.gtceu.hv_fuel_reprocessor": "§6Advanced Fuel Reprocessor II§r",
     "block.gtceu.ev_fuel_reprocessor": "§5Advanced Fuel Reprocessor III§r",
     "block.gtceu.iv_fuel_reprocessor": "§9Elite Fuel Reprocessor§r",
