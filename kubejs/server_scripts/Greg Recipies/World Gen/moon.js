@@ -124,7 +124,7 @@ GTCEuServerEvents.oreVeins(event => {
         vein.heightRangeUniform(-50, 20)
         vein.layeredVeinGenerator(generator => generator
             .buildLayerPattern(pattern => pattern
-                .layer(l => l.weight(2).mat(GTMaterials.get('uranium_oxide')).size(8, 16))
+                .layer(l => l.weight(2).mat(GTMaterials.Uraninite).size(8, 16))
                 .layer(l => l.weight(2).mat(GTMaterials.get('zirconium_oxide')).size(9, 18))
                 .layer(l => l.weight(1).mat(GTMaterials.get('hafnium_oxide')).size(8, 16))
                 .layer(l => l.weight(1).mat(GTMaterials.get('cerium_oxide')).size(8, 16))

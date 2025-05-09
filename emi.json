@@ -211,16 +211,304 @@
     },
     {
       "stack": "item:gtceu:polonium_dust"
+    },
+    {
+      "stack": "item:gtceu:californium_249_ingot"
+    },
+    {
+      "stack": "item:gtceu:californium_250_ingot"
+    },
+    {
+      "stack": "item:gtceu:californium_ingot"
+    },
+    {
+      "stack": "item:gtceu:californium_252_ingot"
+    },
+    {
+      "stack": "item:gtceu:berkelium_ingot"
+    },
+    {
+      "stack": "item:gtceu:berkelium_248_ingot"
+    },
+    {
+      "stack": "item:gtceu:strontium_ingot"
+    },
+    {
+      "stack": "item:gtceu:strontium_90_ingot"
+    },
+    {
+      "stack": "item:gtceu:uranium_233_ingot"
+    },
+    {
+      "stack": "item:gtceu:uranium_235_ingot"
+    },
+    {
+      "stack": "item:gtceu:uranium_ingot"
+    },
+    {
+      "stack": "item:gtceu:plutonium_238_ingot"
+    },
+    {
+      "stack": "item:gtceu:plutonium_ingot"
+    },
+    {
+      "stack": "item:gtceu:plutonium_241_ingot"
+    },
+    {
+      "stack": "item:gtceu:plutonium_242_ingot"
+    },
+    {
+      "stack": "item:gtceu:neptunium_236_ingot"
+    },
+    {
+      "stack": "item:gtceu:neptunium_ingot"
+    },
+    {
+      "stack": "item:gtceu:hot_polysilicon_ingot"
+    },
+    {
+      "stack": "item:gtceu:phosphorus_boule"
     }
   ],
   "lookup_history": [
+    {
+      "type": "fluid",
+      "id": "gtceu:rubber",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:styrene_butadiene_rubber",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:raw_rubber",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "kubejs:rubber",
+      "amount": 0
+    },
+    "item:gtceu:hot_polysilicon_ingot",
+    {
+      "type": "item",
+      "id": "gtceu:polysilicon_dust",
+      "amount": 64
+    },
+    "item:gtceu:phosphorus_boule",
+    "item:gtceu:kanthal_ingot",
+    {
+      "type": "fluid",
+      "id": "nuclearcraft:cryotheum",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:cryotheum",
+      "amount": 144
+    },
+    "item:gtceu:cryotheum_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:pcb_coolant",
+      "amount": 1000
+    },
+    "item:gtceu:pcb_coolant_bucket",
+    {
+      "type": "fluid",
+      "id": "tfmg:cooling_fluid",
+      "amount": 0
+    },
+    "item:gtceu:electric_blast_furnace",
+    "item:gtceu:hot_energetic_alloy_ingot",
+    "item:gtceu:neptunium_dust",
+    "item:gtceu:neptunium_236_dust",
+    "item:gtceu:plutonium_242_dust",
+    "item:gtceu:plutonium_241_dust",
+    "item:gtceu:plutonium_dust",
+    "item:gtceu:plutonium_238_dust",
+    "#item:forge:ingots/uranium",
+    "item:gtceu:uranium_dust",
+    "item:gtceu:uranium_235_dust",
+    "item:gtceu:uranium_233_dust",
+    "item:gtceu:strontium_90_dust",
+    "#item:forge:ingots/strontium",
+    "item:gtceu:strontium_dust",
+    "item:gtceu:berkelium_248_dust",
+    "item:gtceu:berkelium_dust",
+    "item:gtceu:californium_252_dust",
+    "item:gtceu:californium_dust",
+    "item:gtceu:californium_250_dust",
+    "item:gtceu:californium_249_dust",
+    "item:gtceu:americium_dust",
+    "item:gtceu:americium_242_dust",
+    "item:gtceu:americium_241_dust",
+    "item:gtceu:curium_dust",
+    "item:gtceu:curium_246_dust",
+    "item:gtceu:curium_245_dust",
+    "item:gtceu:curium_243_dust",
+    "item:minecraft:purpur_pillar",
+    "item:gtceu:caesium_137_dust",
+    "item:gtceu:promethium_dust",
+    "item:gtceu:europium_155_dust",
+    "item:gtceu:europium_dust",
+    "item:gtceu:ruthenium_106_dust",
+    "item:gtceu:ruthenium_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:thorium_based_liquid_fuel_depleted",
+      "amount": 500
+    },
+    "item:gtceu:thorium_232_dust",
+    "item:gtceu:uranium_carbide_thorium_mixture_dust",
+    "item:gtnn:enriched_thorium_nugget",
+    "item:gtnn:enriched_thorium",
+    "item:nuclearcraft:tbp_dust",
+    "item:nuclearcraft:ytterbium_dust",
+    "item:nuclearcraft:dimensional_blend_dust",
+    "item:nuclearcraft:lead_platinum_dust",
+    "item:nuclearcraft:redstone_dimmer",
+    "item:nuclearcraft:c_mn_blend_dust",
+    "item:nuclearcraft:shibuichi_ingot",
+    "item:nuclearcraft:shibuichi_dust",
+    "item:nuclearcraft:coal_dust",
+    "item:nuclearcraft:caesium_137_dust",
+    "item:nuclearcraft:purpur_dust",
+    "item:nuclearcraft:terbium_dust",
+    "#item:forge:dusts/dimensional_blend",
+    "item:nuclearcraft:erbium_dust",
+    {
+      "type": "fluid",
+      "id": "nuclearcraft:shibuichi",
+      "amount": 144
+    },
+    "item:nuclearcraft:copper_dust",
+    "item:nuclearcraft:electrum_dust",
+    "item:nuclearcraft:alugentum_dust",
+    "item:nuclearcraft:uranium_dust",
+    "item:nuclearcraft:emerald_dust",
+    {
+      "type": "fluid",
+      "id": "nuclearcraft:borax_solution",
+      "amount": 250
+    },
+    {
+      "type": "fluid",
+      "id": "nuclearcraft:irradiated_borax_solution",
+      "amount": 144
+    },
+    "item:nuclearcraft:irradiated_borax_dust",
+    "item:nuclearcraft:potassium_fluoride_dust",
+    "item:nuclearcraft:graphite_plate",
+    "item:nuclearcraft:cobalt_plate",
+    "item:nuclearcraft:steel_plate",
+    "item:nuclearcraft:lithium_6_za",
+    "item:nuclearcraft:lithium_6_ox",
+    "item:nuclearcraft:lithium_6_ni",
+    "item:nuclearcraft:lithium_7_za",
+    "item:nuclearcraft:lithium_7",
+    "item:nuclearcraft:lithium_6",
+    "item:nuclearcraft:lithium_7_ox",
+    "item:nuclearcraft:lithium_7_ni",
+    "item:gtceu:space_neutronium_dust",
+    "item:gtceu:space_neutronium_ingot",
+    "item:gtceu:hot_space_neutronium_ingot",
+    "item:gtceu:clay_dust",
+    "item:gtceu:echo_shard_dust",
+    {
+      "type": "item",
+      "id": "gtceu:energium_dust",
+      "amount": 3
+    },
+    "item:gtceu:lapotron_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:wax",
+      "amount": 144
+    },
+    "item:gtceu:wax_dust",
+    "item:gtceu:sculk_dust",
+    "item:gtceu:neutronium_mixture_dust",
+    "item:gtceu:reprecipitated_rhodium_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:rhodium_filter_cake",
+      "amount": 1000
+    },
+    {
+      "type": "item",
+      "id": "gtceu:rhodium_filter_cake_dust",
+      "chance": 0.2
+    },
+    "item:gtceu:rhodium_nitrate_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:rhodium_salt",
+      "amount": 200
+    },
+    "item:gtceu:rhodium_salt_dust",
+    "item:gtceu:lutetium_dust",
+    "item:nuclearcraft:protactinium_233_dust",
+    "item:gtceu:radiation_protection_dust",
+    "item:gtceu:caesium_dust",
+    "item:gtceu:plutonium_242_ingot",
+    "item:gtceu:plutonium_241_ingot",
+    "item:gtceu:raw_uraninite",
+    "item:gtceu:uraninite_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:helium_3",
+      "amount": 0
+    },
+    "item:gtceu:bscco_dust",
+    "#item:forge:dusts/bscco",
+    "item:gtceu:hot_bscco_ingot",
+    "item:gtceu:bscco_ingot",
+    {
+      "type": "fluid",
+      "id": "gtceu:molten_bscco",
+      "amount": 2160
+    },
+    "item:gtceu:strontium_ingot",
+    {
+      "type": "fluid",
+      "id": "gtceu:strontium",
+      "amount": 144
+    },
+    "item:nuclearcraft:ruthenium_106_dust",
+    "#item:forge:dusts/ruthenium_106",
+    "item:gtceu:ruthenium_trinium_americium_neutronate_dust",
+    "item:gtceu:graphite_uranium_mixture_dust",
+    "item:gtceu:duranium_sword{DisallowContainerItem:0b,GT.Behaviours:{RelocateMinedBlocks:1b,RelocateMobDrops:1b},GT.Tool:{AttackDamage:15.0f,AttackSpeed:-2.1000001f,Damage:0,MaxDamage:8191},HideFlags:2}",
+    "item:gtceu:strontium_block",
+    "item:gtceu:ruthenium_106_ingot",
+    "item:gtceu:hv_decay_hastener",
+    "item:gtceu:thorium_dust",
+    "item:gtceu:polonium_dust",
+    "#item:forge:dusts/polonium",
+    "item:nuclearcraft:polonium_dust",
+    {
+      "type": "fluid",
+      "id": "gtceu:enriched_uranium_hexafluoride",
+      "amount": 100
+    },
+    {
+      "type": "fluid",
+      "id": "gtceu:uranium_hexafluoride",
+      "amount": 1000
+    },
+    "item:gtceu:refined_uraninite_ore",
+    "item:gtnn:enriched_uranium",
+    "item:gtnn:enriched_uranium_nugget",
+    "item:gtnn:encapsulated_uranium",
     "item:gcyr:fluorite_lens",
     "item:gtceu:uvarovite_lens",
     "item:gtca:green_fuchsite_lens",
     "item:gtca:red_zircon_lens",
     "item:gtca:red_fuchsite_lens",
     "item:gtceu:arcane_crystal_lens",
-    "item:gtceu:echo_shard_dust",
     {
       "type": "item",
       "id": "minecraft:echo_shard",
@@ -307,11 +595,6 @@
     "item:gtceu:atomic_casing",
     "item:gtnn:field_restriction_casing",
     "item:createmetallurgy:foundry_basin",
-    {
-      "type": "fluid",
-      "id": "gtceu:rubber",
-      "amount": 0
-    },
     "item:gtceu:blue_alloy_dust",
     "item:gtceu:blue_alloy_ingot",
     {
@@ -451,9 +734,6 @@
     "item:gtnn:high_speed_pipe_block",
     "item:gtnn:inverter",
     "item:gtnn:encapsulated_thorium",
-    "item:gtnn:encapsulated_uranium",
-    "item:gtnn:enriched_uranium_nugget",
-    "item:gtnn:enriched_uranium",
     "item:gtceu:large_assembler",
     "item:gcyr:rocket_scanner",
     "item:gcyr:raw_fluorite",
@@ -539,11 +819,6 @@
       "type": "fluid",
       "id": "gtceu:helium",
       "amount": 80
-    },
-    {
-      "type": "fluid",
-      "id": "gtceu:helium_3",
-      "amount": 5
     },
     {
       "type": "fluid",
@@ -644,7 +919,6 @@
       "id": "gtceu:molten_energetic_alloy",
       "amount": 144
     },
-    "item:gtceu:hot_energetic_alloy_ingot",
     "item:enderio:conductive_alloy_grinding_ball",
     "item:gtceu:energetic_alloy_plate",
     "item:ae2:fluid_cell_housing",
@@ -834,9 +1108,6 @@
     "item:nuclearcraft:enderium_heat_sink",
     "item:nuclearcraft:enderium_dust",
     "item:nuclearcraft:thallium_dust",
-    "item:nuclearcraft:tbp_dust",
-    "item:nuclearcraft:potassium_fluoride_dust",
-    "item:nuclearcraft:polonium_dust",
     "item:nuclearcraft:obsidian_dust",
     "item:nuclearcraft:gold_dust",
     "item:nuclearcraft:charcoal_dust",
@@ -1022,7 +1293,6 @@
       "id": "caupona:dilute_soup",
       "amount": 0
     },
-    "item:gtceu:lutetium_dust",
     {
       "type": "fluid",
       "id": "gtceu:lutetium",
@@ -1157,7 +1427,6 @@
     "item:gtceu:mv_macerator",
     "item:gtceu:neutronium_boule",
     "item:gtceu:naquadah_boule",
-    "item:gtceu:phosphorus_boule",
     "item:gtceu:silicon_boule",
     {
       "type": "item",
@@ -1176,7 +1445,6 @@
       "amount": 4
     },
     "item:gtceu:silicon_plate",
-    "item:gtceu:polysilicon_dust",
     "item:gtceu:zinc_chloride_dust",
     {
       "type": "fluid",
@@ -1212,11 +1480,6 @@
     "item:enderio:copper_alloy_block",
     "item:endertanks:ender_tank{code:\"000\",owner:\"all\"}",
     "item:endertanks:ender_bucket{code:\"EEE\",mode:\"normal\",owner:\"all\"}",
-    {
-      "type": "fluid",
-      "id": "gtceu:styrene_butadiene_rubber",
-      "amount": 36
-    },
     "item:gtceu:rtm_alloy_single_cable",
     "item:gtceu:lv_conveyor_module",
     "item:enderio:conduit_binder_composite",
@@ -1410,11 +1673,6 @@
     },
     {
       "type": "fluid",
-      "id": "nuclearcraft:shibuichi",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
       "id": "nuclearcraft:molybdenum",
       "amount": 0
     },
@@ -1550,7 +1808,6 @@
     "item:nuclearcraft:lead_block",
     "item:nuclearcraft:graphite_block",
     "item:nuclearcraft:cobalt_block",
-    "item:nuclearcraft:shibuichi_ingot",
     "item:nuclearcraft:zirconium_molybdenum_ingot",
     "item:nuclearcraft:tin_ingot",
     "item:nuclearcraft:pyrolitic_carbon_ingot",
@@ -1561,7 +1818,6 @@
     "item:nuclearcraft:hev_helmet",
     "item:nuclearcraft:tough_helmet{Damage:0}",
     "item:nuclearcraft:silicon_gem",
-    "item:nuclearcraft:alugentum_dust",
     "#item:forge:nuggets/lead",
     {
       "type": "item",
@@ -1616,134 +1872,7 @@
     "item:gtceu:quartz_sand_dust",
     "fluid:gtceu:glass",
     "item:gtceu:glass_tube",
-    "item:gtceu:steel_rod",
-    "item:gtceu:steel_bolt",
-    "item:gtceu:copper_plate",
-    "item:gtceu:copper_single_wire",
-    "item:gtceu:vacuum_tube",
-    "item:gtceu:sticky_resin",
-    "item:gtceu:raw_rubber_dust",
-    "item:gtceu:sulfur_dust",
-    "item:gtceu:rubber_plate",
-    "item:gtceu:red_alloy_single_cable",
-    "item:minecraft:coal",
-    "item:tfmg:coal_coke",
-    "item:minecraft:iron_ingot",
-    "item:gtceu:wrought_iron_ingot",
-    "item:gtceu:steel_ingot",
-    "item:minecraft:copper_ingot",
-    "item:gtceu:copper_rod",
-    "item:gtceu:long_copper_rod",
-    "item:gtceu:copper_spring",
-    "item:gtceu:steel_plate",
-    "item:gtceu:copper_nugget",
-    "item:minecraft:gold_nugget",
-    "#item:forge:ingots",
-    "item:gtceu:tantalum_carbide_ingot",
-    "item:pointblank:gunmetal_ingot",
-    "item:morered:red_alloy_ingot",
-    {
-      "type": "fluid",
-      "id": "gtceu:wax",
-      "amount": 16
-    },
-    "item:gtceu:wax_nugget",
-    "item:vintageimprovements:nickel_wire",
-    "item:createmetallurgy:gold_dust",
-    "item:createmetallurgy:wolframite_dust",
-    "item:gtceu:gadolinium_dust",
-    "item:nuclearcraft:gadolinium_dust",
-    "item:enderio:powdered_tin",
-    "item:gtceu:dense_calorite_plate",
-    "item:vintageimprovements:uranium_rod",
-    "item:vintageimprovements:tin_rod",
-    "item:vintageimprovements:steel_rod",
-    "item:vintageimprovements:silver_rod",
-    "item:vintageimprovements:rose_gold_rod",
-    "item:vintageimprovements:rhodium_rod",
-    "item:vintageimprovements:platinum_rod",
-    "item:vintageimprovements:palladium_rod",
-    "item:vintageimprovements:osmium_rod",
-    "item:vintageimprovements:nickel_rod",
-    "item:vintageimprovements:manyullyn_rod",
-    "item:vintageimprovements:lead_rod",
-    "item:vintageimprovements:invar_rod",
-    "item:vintageimprovements:cobalt_rod",
-    "item:vintageimprovements:cast_iron_rod",
-    "item:vintageimprovements:bronze_rod",
-    "item:vintageimprovements:aluminum_rod",
-    "item:vintageimprovements:platinum_wire",
-    "item:vintageimprovements:cast_iron_wire",
-    "item:vintageimprovements:aluminum_wire",
-    "item:vintageimprovements:helve_hammer_slot_cover",
-    "item:vintageimprovements:recipe_card{Items:{},Recipe:{},Results:{}}",
-    "item:vintageimprovements:amethyst_bronze_rod",
-    "item:vintageimprovements:refined_radiance_rod",
-    "item:vintageimprovements:refined_radiance_sheet",
-    "item:vintageimprovements:laser",
-    "item:vintageimprovements:lathe",
-    "item:vintageimprovements:helve_hammer",
-    "item:vintageimprovements:curving_press",
-    "item:vintageimprovements:centrifuge",
-    "item:vintageimprovements:vibrating_table",
-    "item:vintageimprovements:vacuum_chamber",
-    "item:vintageimprovements:belt_grinder",
-    "item:gtceu:zinc_ingot",
-    "item:create_connected:copycat_beam",
-    "item:gtceu:yttrium_ingot",
-    "item:gtceu:yttrium_ingot",
-    "item:nuclearcraft:yttrium_ingot",
-    "item:gtceu:small_poor_steel_gear",
-    "item:gtceu:diamond_gear",
-    "item:gtceu:potash_dust",
-    "item:gtceu:topaz_block",
-    "item:gtceu:kanthal_rod",
-    "item:minecraft:bone",
-    "item:minecraft:blaze_rod",
-    "item:gtceu:quartzite_gem",
-    "item:gtceu:potassium_nugget",
-    "item:nuclearcraft:sic_sic_cmc_plate",
-    "item:minecraft:brick",
-    "item:gtceu:osmium_ingot",
-    "item:gtceu:osmium_ingot",
-    "item:vintageimprovements:steel_spring",
-    "item:gtceu:palladium_rod",
-    "item:vintageimprovements:refined_obsidian_wire",
-    "item:vintageimprovements:refined_glowstone_wire",
-    "item:vintageimprovements:bronze_wire",
-    "item:vintageimprovements:pig_iron_wire",
-    "item:vintageimprovements:pure_gold_sheet",
-    "item:vintageimprovements:palladium_wire",
-    "item:vintageimprovements:pig_iron_rod",
-    "item:vintageimprovements:lumium_rod",
-    "item:vintageimprovements:hepatizon_rod",
-    "item:vintageimprovements:fiery_wire",
-    "item:vintageimprovements:enderium_spring",
-    "item:vintageimprovements:constantan_spring",
-    "item:vintageimprovements:copper_spring",
-    "item:create:rose_quartz",
-    "item:gtceu:bscco_ingot",
-    "item:gtceu:thermoconducting_ingot",
-    "item:gtceu:lithium_manganese_dioxide_ingot",
-    "item:gtceu:extreme_ingot",
-    "item:gtceu:manganese_oxide_ingot",
-    "item:gtceu:niobium_tin_ingot",
-    "item:gtceu:pyrolytic_carbon_ingot",
-    "item:gtceu:ferroboron_ingot",
-    "item:gtceu:tough_alloy_ingot",
-    "item:gtceu:hard_carbon_ingot",
-    "item:gtceu:molybdenum_disilicide_ingot",
-    "item:gtceu:zeron_100_ingot",
-    "item:gtceu:watertight_steel_ingot",
-    "item:gtceu:incoloy_ma_956_ingot",
-    "item:gtceu:potin_ingot",
-    "item:gtceu:vanadium_steel_ingot",
-    "item:gtceu:magnetic_steel_ingot",
-    "item:gtceu:cobalt_brass_ingot",
-    "item:gtceu:damascus_steel_ingot",
-    "item:gtceu:black_steel_ingot",
-    "item:gtceu:polyvinyl_butyral_ingot",
-    "item:gtceu:rubber_ingot"
+    "item:gtceu:steel_rod"
   ],
   "craft_history": [
     "gtceu:shaped/plate_double_wrought_iron",
@@ -1937,7 +2066,6 @@
     "item:vintageimprovements:steel_rod",
     "item:vintageimprovements:tin_rod",
     "item:vintageimprovements:uranium_rod",
-    "item:nuclearcraft:cobalt_plate",
     "item:nuclearcraft:graphite_plate",
     "item:nuclearcraft:sic_sic_cmc_plate",
     "item:nuclearcraft:platinum_plate",

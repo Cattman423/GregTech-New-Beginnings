@@ -56,13 +56,6 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
         .components('3x ostrum', '2x tantalite', '3x wustite', '4x magnesia')
         .iconSet(METALLIC)
 
-    event.create('uranium_oxide')
-        .ore(1, 1)
-        .color(0x1d891d).secondaryColor(0x313A27)
-        .components('uranium', '2x oxygen')
-        .iconSet(RADIOACTIVE)
-        .radioactiveHazard(1)
-
     event.create('zirconium_oxide')
         .ore(1, 1)
         .color(0xfff0e2).secondaryColor(0x271813)

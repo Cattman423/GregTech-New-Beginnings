@@ -9,4 +9,6 @@ GTCEuStartupEvents.registry('gtceu:material_icon_set', event => {
         .parent('shiny')
     event.create('antimatter')
         .parent('metallic')
+    event.create('radioisotope')
+        .parent('radioactive')
 })

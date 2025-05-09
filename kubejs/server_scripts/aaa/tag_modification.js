@@ -172,8 +172,6 @@ ServerEvents.tags('item', event => {
     event.remove('forge:dusts/ender_pearl', 'ae2:ender_dust')
     event.remove('forge:dusts/ender_pearl', 'enderio:powdered_ender_pearl')
 
-    event.removeAllTagsFrom('ad_astra:steel_plate')
-    event.removeAllTagsFrom('ad_astra:steel_ingot')
     event.removeAllTagsFrom('createmetallurgy:steel_ingot')
     event.removeAllTagsFrom('tfmg:lithium_ingot')
     event.removeAllTagsFrom('tfmg:lead_ingot')
@@ -192,7 +190,7 @@ ServerEvents.tags('item', event => {
     event.removeAllTagsFrom('create:zinc_dust')
 
     /*
-    */
+    
     const nc_stuff = ['manganese_oxide', 'niobium_tin', 'lithium', 'yttrium', 'thorium', 'palladium', 'beryllium', 'silicon_carbide', 'extreme', 'tungsten_carbide', 
         'stainless_steel', 'magnesium', 'sodium', 'niobium_titanium', 'tough_alloy', 'potassium', 'ferroboron', 'titanium', 'aluminum', 'manganese', 'hard_carbon', 'niobium', 
         'zirconium', 'chromium', 'calcium', 'strontium', 'lithium_manganese_dioxide', 'osmiridium', 'hsla_steel', 'nichrome', 'boron', 'magnesium_diboride', 'hafnium', 
@@ -207,7 +205,7 @@ ServerEvents.tags('item', event => {
         event.removeAllTagsFrom('nuclearcraft:' + base + '_dust')
         event.removeAllTagsFrom('nuclearcraft:' + base + '_gem')
         event.removeAllTagsFrom('nuclearcraft:' + base + '_plate')
-    })
+    })*/
     
     const vintageimp = ['aluminum', 'amethyst_bronze', 'bronze', 'cast_iron', 'cobalt', 'constantan', 'enderium', 'hepatizon', 'invar', 'lead', 'lumium', 'manyullyn', 
         'nickel', 'osmium', 'palladium', 'pig_iron', 'platinum', 'pure_gold', 'refined_glowstone', 'refined_obsidian', 'rhodium', 'rose_gold', 'signalum', 'silver', 

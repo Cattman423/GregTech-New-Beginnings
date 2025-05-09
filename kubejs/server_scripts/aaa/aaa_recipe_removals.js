@@ -686,7 +686,7 @@ ServerEvents.recipes(event => {
     event.remove({id:'jei:/ae2/inscriber/fluix_dust'})
     event.remove({id:'pamhc2crops:stick_x4_cattail_x2'})
     event.remove({id:'enderio:stick'})
-    event.remove({id:''})
+    event.remove({id:'gtceu:electric_blast_furnace/blast_polysilicon'})
     event.remove({id:''})
     event.remove({id:''})
     event.remove({id:''})
@@ -847,7 +847,7 @@ ServerEvents.recipes(event => {
     event.remove({type: 'productivebees:centrifuge'})
     event.remove({type: 'create:pressing'})
     event.remove({type: 'vintageimprovements:craft'})
-    event.remove({type: 'nuclearcraft:decay_hastener'})
+    /*event.remove({type: 'nuclearcraft:decay_hastener'})
     event.remove({type: 'nuclearcraft:fuel_reprocessor'})
     event.remove({type: 'nuclearcraft:isotope_separator'})
     event.remove({type: 'nuclearcraft:rock_crusher'})
@@ -860,7 +860,7 @@ ServerEvents.recipes(event => {
     event.remove({type: 'nuclearcraft:pump'})
     event.remove({type: 'nuclearcraft:analyzer'})
     event.remove({type: 'nuclearcraft:assembler'})
-    event.remove({type: 'nuclearcraft:fluid_infuser'})
+    event.remove({type: 'nuclearcraft:fluid_infuser'})*/
     event.remove({type: 'jei:/enderio/smelting'})
     event.remove({type: 'jei:/enderio/smelting'})
     //event.remove({type: ''})
@@ -936,7 +936,7 @@ ServerEvents.recipes(event => {
         removals(idd)
         removals(ide)
     })
-    const nukenug = ['magnesium', 'aluminum', 'lithium', 'thorium', 'beryllium', 'zirconium', 'boron']
+    /*const nukenug = ['magnesium', 'aluminum', 'lithium', 'thorium', 'beryllium', 'zirconium', 'boron']
     nukenug.forEach( (base) => {
         event.remove({id:'nuclearcraft:' + base +'_nugget'})
         event.remove({id:'nuclearcraft:' + base +'_block'})
@@ -960,5 +960,5 @@ ServerEvents.recipes(event => {
         event.remove({id:'nuclearcraft:blast_' + base + '_ore'})
         event.remove({id:'nuclearcraft:' + base + '_block'})
         event.remove({id:'nuclearcraft:' + base + '_nugget'})
-    })
+    })*/
 })

@@ -438,8 +438,8 @@
 			dependencies: ["2AF48E6902C16848"]
 			id: "0BBFA2B48E10840A"
 			tasks: [{
-				id: "0364D8039CE71F6D"
-				item: "gtceu:zirconium_dust"
+				id: "6AE80E0E9114A433"
+				item: "gtceu:zirconium_gtca_dust"
 				type: "item"
 			}]
 			x: -5.5d
@@ -1055,7 +1055,6 @@
 				item: "gtceu:promethium_dust"
 				type: "item"
 			}]
-			title: "Promethium"
 			x: -2.5d
 			y: 2.5d
 		}
@@ -1210,8 +1209,8 @@
 			dependencies: ["2AF48E6902C16848"]
 			id: "35B094E5D6B71A0D"
 			tasks: [{
-				id: "173231A6D91BC39D"
-				item: "gtceu:uranium_235_dust"
+				id: "2B6C8695F627D4A8"
+				item: "gtceu:uranium_dust"
 				type: "item"
 			}]
 			x: -3.5d
@@ -1221,11 +1220,10 @@
 			dependencies: ["2AF48E6902C16848"]
 			id: "188F0F8C6A2DD0A8"
 			tasks: [{
-				id: "6EC96DFBB3F83656"
+				id: "576764D728981CE5"
 				item: "gtceu:neptunium_dust"
 				type: "item"
 			}]
-			title: "Neptunium"
 			x: -2.5d
 			y: 3.5d
 		}
@@ -1259,7 +1257,6 @@
 				item: "gtceu:curium_dust"
 				type: "item"
 			}]
-			title: "Curium"
 			x: 0.5d
 			y: 3.5d
 		}
@@ -1271,7 +1268,6 @@
 				item: "gtceu:berkelium_dust"
 				type: "item"
 			}]
-			title: "Berkelium"
 			x: 1.5d
 			y: 3.5d
 		}
@@ -1490,8 +1486,8 @@
 			dependencies: ["2AF48E6902C16848"]
 			id: "26588F61B1C85743"
 			tasks: [{
-				id: "4C0CAA99C36B6F5E"
-				item: "gtceu:oganesson_plasma_bucket"
+				id: "269F79BAB30511A5"
+				item: "gtceu:oganesson_bucket"
 				type: "item"
 			}]
 			title: "Oganesson"
@@ -1518,20 +1514,17 @@
 				item: "gtceu:californium_dust"
 				type: "item"
 			}]
-			title: "Californium"
 			x: 2.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["2AF48E6902C16848"]
 			id: "21DAD55A4AE265E5"
-			optional: true
 			tasks: [{
-				id: "708A9B9A30CBAB91"
-				item: "minecraft:bedrock"
+				id: "426BD9919EE0C53A"
+				item: "gtceu:praseodymium_dust"
 				type: "item"
 			}]
-			title: "Praseodymium"
 			x: -4.5d
 			y: 2.5d
 		}
@@ -1637,6 +1630,7 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["2AF48E6902C16848"]
 			id: "5220D0B90A4B41D0"
 			tasks: [{
 				id: "33CB13098455F3C1"
@@ -1644,6 +1638,17 @@
 				type: "item"
 			}]
 			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2AF48E6902C16848"]
+			id: "6ACE93F9AE76944A"
+			tasks: [{
+				id: "550EF8BC1E09C440"
+				item: "gtceu:deuterium_bucket"
+				type: "item"
+			}]
+			x: -0.5d
 			y: 5.0d
 		}
 	]

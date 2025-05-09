@@ -40,6 +40,41 @@
       * Added Antimercury
       * Added Antilead
       * Added Antibismuth
+    * Isotopes
+      * Additions
+        * Added Americium 241
+        * Added Americium 242
+        * Added Berkelium 248
+        * Added Caesium 137
+        * Added Californium 249
+        * Added Californium 250
+        * Added Californium 252
+        * Added Curium 243
+        * Added Curium 245
+        * Added Curium 246
+        * Added Europium 155
+        * Added Lithium 6
+        * Added Neptunium 236
+        * Added Plutonium 238
+        * Added Plutonium 242
+        * Added Ruthenium 106
+        * Added Strontium 90
+        * Added Uranium 233
+      * Renaming
+        * Renamed Americium to Americium 243
+        * Renamed Berkelium to Berkelium 247
+        * Renamed Caesium to Caesium 133
+        * Renamed Curium to Curium 247
+        * Renamed Californium to Californium 251
+        * Renamed Europium to Europium 151
+        * Renamed Lithium to Lithium 7
+        * Renamed Neptunium to Neptunium 237
+        * Renamed Plutonium to Plutonium 239
+        * Renamed Promethium to Promethium 147
+        * Renamed Ruthenium to Ruthenium 101
+        * Renamed Strontium to Strontium 87
+  Removals
+    * Removed Urania in favor of Uraninite
 * Mod Changes
   * Additions
     * Added Gregicality Rocketry

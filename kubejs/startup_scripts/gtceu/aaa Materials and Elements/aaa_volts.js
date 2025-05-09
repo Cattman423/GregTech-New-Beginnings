@@ -26,7 +26,8 @@
     const INFINITY = GTMaterialIconSet.getByName('infinity');
     const STELLAR_MATTER = GTMaterialIconSet.getByName('stellar_matter');
     const SUB_ATOMIC = GTMaterialIconSet.getByName('sub_atomic');
-    const EXPERIENCE = GTMaterialIconSet.getByName('experience')
+    const EXPERIENCE = GTMaterialIconSet.getByName('experience');
+    const RADIOISOTOPE = GTMaterialIconSet.getByName('radioisotope')
 
 // Flags
 // Generic flags
