@@ -683,6 +683,7 @@ ServerEvents.recipes(event => {
     event.remove({id:'jei:/enderio/alloy_smelting/copper_alloy_ingot'})
     event.remove({id:'jei:/enderio/alloy_smelting/end_steel_ingot'})
     event.remove({id:'jei:/ae2/inscriber/fluix_dust'})
+    event.remove({id:'gtceu:electric_blast_furnace/blast_polysilicon'})
     event.remove({id:''})
     event.remove({id:''})
     event.remove({id:''})
