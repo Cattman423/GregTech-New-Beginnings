@@ -59,6 +59,28 @@ ServerEvents.recipes(event => {
         .duration(sec*10)
         .EUt(lv)
 
+    event.recipes.gtceu.electric_blast_furnace('poly_si')
+        .circuit(1)
+        .itemInputs('gtceu:polysilicon_dust')
+        .itemOutputs('gtceu:hot_polysilicon_ingot')
+        .blastFurnaceTemp(2273)
+        .duration(sec*120)
+        .EUt(mv)
+
+    event.recipes.gtceu.chemical_bath('poly_si_water')
+        .itemInputs('gtceu:hot_polysilicon_ingot')
+        .inputFluids('minecraft:water 100')
+        .itemOutputs('gtceu:polysilicon_ingot')
+        .duration(sec*20)
+        .EUt(mv)
+
+    event.recipes.gtceu.chemical_bath('poly_si_di_water')
+        .itemInputs('gtceu:hot_polysilicon_ingot')
+        .inputFluids('gtceu:distilled_water 100')
+        .itemOutputs('gtceu:polysilicon_ingot')
+        .duration(sec*12.5)
+        .EUt(mv)
+
 //Tetrachlorosilane & Silane
     event.recipes.gtceu.chemical_reactor('tetrachlorosilane_hsicl3')
         .circuit(2)
