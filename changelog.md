@@ -1,5 +1,11 @@
 # Changelog
 
+## V 0.4.2
+
+* Recipes
+  * Fixed Polysilicon and Phosphorus doped boule recipe conflict
+  * Added method to cool hot polysilicon ingots pre vacuum freezer
+
 ## V 0.4.1
 
 * Recipes
